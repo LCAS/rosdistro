@@ -22,21 +22,28 @@
 
     	<div class="container">
 		    <p>This little will sync form testing to main.</p>
-
       <!-- https://lcas.lincoln.ac.uk/buildfarm/job/bloom_release/buildWithParameters?token=lcas&REPOSITORY=sandbox&ROSDISTRO=kinetic&BUMP=patch&cause=test -->
-      <div class="panel">
-        <form action="https://lcas.lincoln.ac.uk/buildfarm/job/Irel_sync-packages-to-main/build" method="GET">
-            <input type="hidden" name="token" value="11468902e6f85609deb83ffd163c6da7">
-            <input type="hidden" name="cause" value="sync wizard">
-            <button type="submit" class="btn btn-primary">Sync Indigo</button>
-        </form>
+      <div class="panel panel-default">
+        <div class="panel-heading">Indigo</div>
+        <div class="panel-body">
+          <form action="https://lcas.lincoln.ac.uk/buildfarm/job/Irel_sync-packages-to-main/build" method="GET">
+              <input type="hidden" name="token" value="11468902e6f85609deb83ffd163c6da7">
+              <input type="hidden" name="cause" value="sync wizard">
+              <button type="submit" class="btn btn-lg btn-primary">Sync Indigo</button>
+          </form>
+          <iframe height="500px" width="100%" src="https://lcas.lincoln.ac.uk/status_page/indigo_default.html"></iframe>
+        </div>
       </div>
-			<div class="panel">
-        <form action="https://lcas.lincoln.ac.uk/buildfarm/job/Krel_sync-packages-to-main/build" method="GET">
-  			    <input type="hidden" name="token" value="11468902e6f85609deb83ffd163c6da7">
-            <input type="hidden" name="cause" value="sync wizard">
-  			    <button type="submit" class="btn btn-primary">Sync Kinetic</button>
-  			</form>
+      <div class="panel panel-default">
+        <div class="panel-heading">Kinetic</div>
+        <div class="panel-body">
+          <form action="https://lcas.lincoln.ac.uk/buildfarm/job/Krel_sync-packages-to-main/build" method="GET">
+    			    <input type="hidden" name="token" value="11468902e6f85609deb83ffd163c6da7">
+              <input type="hidden" name="cause" value="sync wizard">
+    			    <button type="submit" class="btn btn-lg btn-primary">Sync Kinetic</button>
+    			</form>
+          <iframe height="500px" width="100%" src="https://lcas.lincoln.ac.uk/status_page/kinetic_default.html"></iframe>
+        </div>
       </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
