@@ -24,7 +24,7 @@
 		    <p>This little tool allows you to release package of <a href="https://lcas.lincoln.ac.uk/wp/">L-CAS</a> with two simple clicks. Read the <a href="https://github.com/LCAS/rosdistro/wiki">L-CAS release pages</a> for further details. </p>
 
       <!-- https://lcas.lincoln.ac.uk/buildfarm/job/bloom_release/buildWithParameters?token=lcas&REPOSITORY=sandbox&ROSDISTRO=kinetic&BUMP=patch&cause=test -->
-			<form action="https://lcas.lincoln.ac.uk/buildfarm/job/bloom_release/buildWithParameters" method="GET">
+			<form action="https://lcas.lincoln.ac.uk/buildfarm/job/bloom_release/buildWithParameters" method="POST" onsubmit="document.location.href='https://lcas.lincoln.ac.uk/buildfarm/job/bloom_release/'">
 			    <div class="form-group">
 			        <label for="repoName">Repository</label>
 			        <input type="text" class="form-control" name="REPOSITORY" id="repoName" placeholder="Repository to be released"/>
