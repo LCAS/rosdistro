@@ -862,6 +862,15 @@ repositories:
       version: master
     status: maintained
   velodyne_simulator8:
+    release:
+      packages:
+      - velodyne_description
+      - velodyne_gazebo_plugins
+      - velodyne_simulator
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/velodyne_simulator.git
+      version: 1.0.7-0
     source:
       test_pull_requests: true
       type: git
