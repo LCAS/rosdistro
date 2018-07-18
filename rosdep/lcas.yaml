@@ -1,5 +1,8 @@
 coinor-solvers:
   ubuntu: [coinor-libcbc-dev, coinor-libclp-dev, coinor-libcoinutils-dev, coinor-libcgl-dev, coinor-libosi-dev]
+cuda_latest:
+ ubuntu:
+   xenial: [cuda, nvidia-modprobe]
 cvb:
   ubuntu:
     xenial: [cvb-camerasuite-dev]
@@ -45,6 +48,9 @@ mongo-cxx-driver:
 morse-blender-bundle:
   ubuntu:
     precise: [morse-blender-2.65-py-3.3]
+opencl_latest:
+ ubuntu:
+   xenial: [opencl-headers, nvidia-opencl-dev]
 openjdk-8:
   ubuntu: [openjdk-8-jdk]
 prism-robots:
