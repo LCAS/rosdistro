@@ -99,6 +99,13 @@ repositories:
       url: https://gitsvn-nt.oru.se/iliad/software/graph_map.git
       version: master
     status: developed
+  iai_kinect2:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/iai_kinect2.git
+      version: master
+    status: maintained
   iliad_distribution:
     release:
       packages:
@@ -112,6 +119,7 @@ repositories:
       url: https://github.com/lcas-releases/iliad_distribution.git
       version: 0.0.7-0
     source:
+      test_pull_requests: true
       type: git
       url: https://gitsvn-nt.oru.se/iliad/software/iliad_metapackage.git
       version: master
