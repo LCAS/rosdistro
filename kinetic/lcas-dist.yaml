@@ -43,7 +43,7 @@ repositories:
       url: https://github.com/FedericoPecora/coordination_oru_ros.git
       version: master
     status: developed
-  depth_sensor:
+  depth_sensors:
     source:
       test_pull_requests: true
       type: git
