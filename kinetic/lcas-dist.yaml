@@ -44,6 +44,18 @@ repositories:
       version: master
     status: developed
   depth_sensors:
+    release:
+      packages:
+      - depth_sensors
+      - kinect2_description
+      - kinect_control
+      - kinect_description
+      - senz3d_description
+      - simple_description
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/depth_sensors.git
+      version: 0.0.1-0
     source:
       test_pull_requests: true
       type: git
