@@ -100,6 +100,18 @@ repositories:
       version: master
     status: developed
   iai_kinect2:
+    release:
+      packages:
+      - iai_kinect2
+      - kinect2_bridge
+      - kinect2_calibration
+      - kinect2_registration
+      - kinect2_viewer
+      - libfreenect2_ros
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/iai_kinect2.git
+      version: 0.0.2-0
     source:
       test_pull_requests: true
       type: git
