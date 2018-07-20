@@ -245,6 +245,12 @@ repositories:
       url: https://github.com/ros/bond_core.git
       version: kinetic-devel
     status: maintained
+  bta_tof_driver:
+    doc:
+      type: git
+      url: https://github.com/voxel-dot-at/bta_tof_driver.git
+      version: master
+    status: maintained
   calibration:
     doc:
       type: git
@@ -750,6 +756,17 @@ repositories:
       type: git
       url: https://github.com/ensenso/ros_driver.git
       version: master
+    status: developed
+  euslisp:
+    doc:
+      type: git
+      url: https://github.com/tork-a/euslisp-release.git
+      version: release/lunar/euslisp
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/tork-a/euslisp-release.git
+      version: 9.25.0-0
     status: developed
   executive_smach:
     doc:
@@ -1523,6 +1540,17 @@ repositories:
       url: https://github.com/jsk-ros-pkg/jsk_common_msgs.git
       version: master
     status: developed
+  jskeus:
+    doc:
+      type: git
+      url: https://github.com/euslisp/jskeus.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/tork-a/jskeus-release.git
+      version: 1.2.0-1
+    status: developed
   json_transport:
     doc:
       type: git
@@ -1858,7 +1886,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.26.0-0
+      version: 0.26.1-0
     source:
       test_pull_requests: true
       type: git
@@ -2225,7 +2253,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.2.2-0
+      version: 0.2.3-0
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -2742,7 +2770,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 1.6.2-0
+      version: 1.7.0-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -3444,7 +3472,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/facontidavide/ros_type_introspection-release.git
-      version: 1.0.2-0
+      version: 1.1.1-0
     source:
       type: git
       url: https://github.com/facontidavide/ros_type_introspection.git
@@ -4363,12 +4391,18 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ENSTABretagneRobotics/sbg_ros_driver-release.git
-      version: 1.1.6-0
+      version: 1.1.7-0
     source:
       type: git
       url: https://github.com/ENSTABretagneRobotics/sbg_ros_driver.git
       version: master
     status: developed
+  sbpl:
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/sbpl-release.git
+      version: 1.2.0-0
   sick_ldmrs_laser:
     doc:
       type: git

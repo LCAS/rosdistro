@@ -11,6 +11,20 @@ release_platforms:
   - artful
   - bionic
 repositories:
+  abseil_cpp:
+    doc:
+      type: git
+      url: https://github.com/Eurecat/abseil-cpp.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/Eurecat/abseil_cpp-release.git
+      version: 0.2.3-1
+    source:
+      type: git
+      url: https://github.com/Eurecat/abseil-cpp.git
+      version: master
   ackermann_msgs:
     doc:
       type: git
@@ -160,6 +174,12 @@ repositories:
       type: git
       url: https://github.com/ros/bond_core.git
       version: kinetic-devel
+    status: maintained
+  bta_tof_driver:
+    doc:
+      type: git
+      url: https://github.com/voxel-dot-at/bta_tof_driver.git
+      version: master
     status: maintained
   cartesian_msgs:
     doc:
@@ -510,7 +530,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/dynamixel-workbench-msgs-release.git
-      version: 0.2.0-0
+      version: 1.0.0-0
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs.git
@@ -661,6 +681,17 @@ repositories:
       url: https://github.com/ros/eigen_stl_containers.git
       version: master
     status: maintained
+  euslisp:
+    doc:
+      type: git
+      url: https://github.com/tork-a/euslisp-release.git
+      version: release/melodic/euslisp
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/tork-a/euslisp-release.git
+      version: 9.25.0-0
+    status: developed
   executive_smach:
     doc:
       type: git
@@ -1306,6 +1337,17 @@ repositories:
       url: https://github.com/ros-drivers/joystick_drivers.git
       version: master
     status: developed
+  jskeus:
+    doc:
+      type: git
+      url: https://github.com/euslisp/jskeus.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/tork-a/jskeus-release.git
+      version: 1.2.0-3
+    status: developed
   kdl_parser:
     doc:
       type: git
@@ -1454,6 +1496,26 @@ repositories:
       url: https://github.com/hrnr/map-merge.git
       version: melodic-devel
     status: developed
+  mapviz:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/mapviz.git
+      version: kinetic-devel
+    release:
+      packages:
+      - mapviz
+      - mapviz_plugins
+      - multires_image
+      - tile_map
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/swri-robotics-gbp/mapviz-release.git
+      version: 0.2.5-0
+    source:
+      type: git
+      url: https://github.com/swri-robotics/mapviz.git
+      version: kinetic-devel
+    status: developed
   marker_msgs:
     doc:
       type: git
@@ -1550,7 +1612,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.26.0-0
+      version: 0.26.1-0
     source:
       test_pull_requests: true
       type: git
@@ -1847,6 +1909,28 @@ repositories:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_slam.git
       version: master
+    status: maintained
+  multimaster_fkie:
+    doc:
+      type: git
+      url: https://github.com/fkie/multimaster_fkie.git
+      version: melodic-devel
+    release:
+      packages:
+      - default_cfg_fkie
+      - master_discovery_fkie
+      - master_sync_fkie
+      - multimaster_fkie
+      - multimaster_msgs_fkie
+      - node_manager_fkie
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/fkie-release/multimaster_fkie-release.git
+      version: 0.8.0-0
+    source:
+      type: git
+      url: https://github.com/fkie/multimaster_fkie.git
+      version: melodic-devel
     status: maintained
   mvsim:
     doc:
@@ -2247,6 +2331,16 @@ repositories:
       url: https://bitbucket.org/AndyZe/pid.git
       version: master
     status: maintained
+  plotjuggler:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/facontidavide/plotjuggler-release.git
+      version: 1.7.0-0
+    source:
+      type: git
+      url: https://github.com/facontidavide/PlotJuggler.git
+      version: master
   pluginlib:
     doc:
       type: git
@@ -2940,6 +3034,20 @@ repositories:
       url: https://github.com/ros/ros_tutorials.git
       version: melodic-devel
     status: maintained
+  ros_type_introspection:
+    doc:
+      type: git
+      url: https://github.com/facontidavide/ros_type_introspection.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/facontidavide/ros_type_introspection-release.git
+      version: 1.1.1-0
+    source:
+      type: git
+      url: https://github.com/facontidavide/ros_type_introspection.git
+      version: master
   rosauth:
     doc:
       type: git
@@ -3646,6 +3754,27 @@ repositories:
       url: https://github.com/PickNikRobotics/rviz_visual_tools.git
       version: melodic-devel
     status: developed
+  sbg_driver:
+    doc:
+      type: git
+      url: https://github.com/ENSTABretagneRobotics/sbg_ros_driver.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ENSTABretagneRobotics/sbg_ros_driver-release.git
+      version: 1.1.7-0
+    source:
+      type: git
+      url: https://github.com/ENSTABretagneRobotics/sbg_ros_driver.git
+      version: master
+    status: developed
+  sbpl:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/sbpl-release.git
+      version: 1.2.0-0
   sick_tim:
     doc:
       type: git
