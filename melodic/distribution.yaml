@@ -513,7 +513,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/dynamixel-workbench-release.git
-      version: 0.3.1-0
+      version: 1.0.0-0
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/dynamixel-workbench.git
@@ -1142,6 +1142,23 @@ repositories:
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_models-release.git
       version: 0.5.0-0
     status: maintained
+  hls-lfcd-lds-driver:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
+      version: melodic-devel
+    release:
+      packages:
+      - hls_lfcd_lds_driver
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ROBOTIS-GIT-release/hls-lfcd-lds-driver-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
+      version: melodic-devel
+    status: developed
   ibeo_core:
     release:
       tags:
@@ -1464,6 +1481,39 @@ repositories:
       url: https://github.com/ros-gbp/libg2o-release.git
       version: 2018.3.25-0
     status: maintained
+  libuvc:
+    doc:
+      type: git
+      url: https://github.com/ktossell/libuvc.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/libuvc-release.git
+      version: 0.0.6-0
+    source:
+      type: git
+      url: https://github.com/ktossell/libuvc.git
+      version: master
+    status: unmaintained
+  libuvc_ros:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/libuvc_ros.git
+      version: master
+    release:
+      packages:
+      - libuvc_camera
+      - libuvc_ros
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/libuvc_ros-release.git
+      version: 0.0.10-0
+    source:
+      type: git
+      url: https://github.com/ros-drivers/libuvc_ros.git
+      version: master
+    status: unmaintained
   lusb:
     doc:
       type: hg
@@ -3940,6 +3990,21 @@ repositories:
       url: https://github.com/bosch-robotics-cr/tracetools.git
       version: devel
     status: developed
+  turtlebot3_msgs:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+      version: melodic-devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ROBOTIS-GIT-release/turtlebot3_msgs-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+      version: melodic-devel
+    status: developed
   tuw_msgs:
     doc:
       type: git
@@ -4093,6 +4158,21 @@ repositories:
       url: https://github.com/ros/urdf_parser_py.git
       version: melodic-devel
     status: maintained
+  usb_cam:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/usb_cam.git
+      version: develop
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/usb_cam-release.git
+      version: 0.3.6-0
+    source:
+      type: git
+      url: https://github.com/ros-drivers/usb_cam.git
+      version: develop
+    status: unmaintained
   velodyne_simulator:
     doc:
       type: git
