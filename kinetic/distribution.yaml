@@ -1158,7 +1158,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_calibration_data-release.git
-      version: 0.6.8-0
+      version: 0.6.9-0
     source:
       type: git
       url: https://github.com/ipa320/cob_calibration_data.git
@@ -1205,7 +1205,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_common-release.git
-      version: 0.6.8-0
+      version: 0.6.9-0
     source:
       type: git
       url: https://github.com/ipa320/cob_common.git
@@ -1234,7 +1234,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_control-release.git
-      version: 0.7.1-0
+      version: 0.7.2-0
     source:
       type: git
       url: https://github.com/ipa320/cob_control.git
@@ -1270,7 +1270,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_driver-release.git
-      version: 0.6.11-0
+      version: 0.6.12-0
     source:
       type: git
       url: https://github.com/ipa320/cob_driver.git
@@ -1348,7 +1348,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_hand-release.git
-      version: 0.6.3-0
+      version: 0.6.4-0
     source:
       type: git
       url: https://github.com/ipa320/cob_hand.git
@@ -1396,7 +1396,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_navigation-release.git
-      version: 0.6.6-0
+      version: 0.6.7-0
     source:
       type: git
       url: https://github.com/ipa320/cob_navigation.git
@@ -1420,7 +1420,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_perception_common-release.git
-      version: 0.6.11-0
+      version: 0.6.12-0
     source:
       type: git
       url: https://github.com/ipa320/cob_perception_common.git
@@ -1442,7 +1442,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_robots-release.git
-      version: 0.6.8-0
+      version: 0.6.9-0
     source:
       type: git
       url: https://github.com/ipa320/cob_robots.git
@@ -1463,7 +1463,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_simulation-release.git
-      version: 0.6.9-0
+      version: 0.6.10-0
     source:
       type: git
       url: https://github.com/ipa320/cob_simulation.git
@@ -1498,7 +1498,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_supported_robots-release.git
-      version: 0.6.8-0
+      version: 0.6.9-0
     source:
       type: git
       url: https://github.com/ipa320/cob_supported_robots.git
@@ -11366,7 +11366,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/schunk_modular_robotics-release.git
-      version: 0.6.10-0
+      version: 0.6.11-0
     source:
       type: git
       url: https://github.com/ipa320/schunk_modular_robotics.git
