@@ -107,7 +107,6 @@ repositories:
       - kinect2_calibration
       - kinect2_registration
       - kinect2_viewer
-      - libfreenect2_ros
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/lcas-releases/iai_kinect2.git
@@ -116,6 +115,13 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/iai_kinect2.git
+      version: master
+    status: maintained
+  libfreenect2:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/libfreenect2.git
       version: master
     status: maintained
   iliad_distribution:
