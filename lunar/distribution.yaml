@@ -1540,6 +1540,25 @@ repositories:
       url: https://github.com/jsk-ros-pkg/jsk_common_msgs.git
       version: master
     status: developed
+  jsk_roseus:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_roseus.git
+      version: master
+    release:
+      packages:
+      - jsk_roseus
+      - roseus
+      - roseus_smach
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/tork-a/jsk_roseus-release.git
+      version: 1.7.1-0
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_roseus.git
+      version: master
+    status: developed
   jskeus:
     doc:
       type: git
@@ -1608,7 +1627,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/kdl_parser-release.git
-      version: 1.12.10-0
+      version: 1.12.11-0
     source:
       test_pull_requests: true
       type: git
@@ -2532,6 +2551,21 @@ repositories:
       url: https://github.com/ros-gbp/opencv3-release.git
       version: 3.3.1-2
     status: maintained
+  opencv_apps:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/opencv_apps.git
+      version: indigo
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-perception/opencv_apps-release.git
+      version: 2.0.0-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/opencv_apps.git
+      version: indigo
+    status: developed
   openni2_camera:
     doc:
       type: git
@@ -4839,7 +4873,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-drivers/video_stream_opencv-release.git
-      version: 1.1.3-0
+      version: 1.1.4-0
     source:
       type: git
       url: https://github.com/ros-drivers/video_stream_opencv.git
