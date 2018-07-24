@@ -117,13 +117,6 @@ repositories:
       url: https://github.com/LCAS/iai_kinect2.git
       version: master
     status: maintained
-  libfreenect2:
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/LCAS/libfreenect2.git
-      version: master
-    status: maintained
   iliad_distribution:
     release:
       packages:
@@ -246,6 +239,18 @@ repositories:
       url: https://github.com/LCAS/teaching.git
       version: kinetic
     status: developed
+  libfreenect2:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/libfreenect2.git
+      version: 0.0.8-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/libfreenect2.git
+      version: master
+    status: maintained
   mapping_msgs:
     source:
       test_pull_requests: true
