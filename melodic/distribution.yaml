@@ -1578,7 +1578,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/mapviz-release.git
-      version: 0.2.5-0
+      version: 0.2.6-0
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
@@ -1843,6 +1843,21 @@ repositories:
       url: https://github.com/ros-planning/moveit_msgs.git
       version: melodic-devel
     status: maintained
+  moveit_python:
+    doc:
+      type: git
+      url: https://github.com/mikeferguson/moveit_python.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/mikeferguson/moveit_python-release.git
+      version: 0.3.0-0
+    source:
+      type: git
+      url: https://github.com/mikeferguson/moveit_python.git
+      version: master
+    status: developed
   moveit_resources:
     doc:
       type: git
@@ -2054,7 +2069,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/navigation-release.git
-      version: 1.16.1-0
+      version: 1.16.2-0
     source:
       test_pull_requests: true
       type: git
@@ -3338,6 +3353,21 @@ repositories:
       url: https://github.com/PickNikRobotics/rosparam_shortcuts.git
       version: melodic-devel
     status: developed
+  rplidar_ros:
+    doc:
+      type: git
+      url: https://github.com/Slamtec/rplidar_ros.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/Slamtec/rplidar_ros-release.git
+      version: 1.7.0-0
+    source:
+      type: git
+      url: https://github.com/Slamtec/rplidar_ros.git
+      version: master
+    status: maintained
   rqt:
     doc:
       type: git
