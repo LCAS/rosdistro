@@ -3687,6 +3687,16 @@ repositories:
       url: https://github.com/ros-interactive-manipulation/household_objects_database_msgs.git
       version: hydro-devel
     status: end-of-life
+  hr_msgs:
+    doc:
+      type: git
+      url: https://github.com/hansonrobotics/hr_msgs.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/hansonrobotics/hr_msgs.git
+      version: master
+    status: developed
   hrpsys:
     doc:
       type: git
@@ -10295,7 +10305,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/xqms/rosmon-release.git
-      version: 1.0.7-0
+      version: 1.0.8-0
     source:
       type: git
       url: https://github.com/xqms/rosmon.git
@@ -13097,7 +13107,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/urg_c-release.git
-      version: 1.0.404-0
+      version: 1.0.405-0
     source:
       type: git
       url: https://github.com/ros-drivers/urg_c.git
