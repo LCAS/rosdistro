@@ -144,16 +144,19 @@ repositories:
       packages:
       - astuff_sensor_msgs
       - delphi_esr_msgs
+      - delphi_mrr_msgs
       - delphi_srr_msgs
+      - derived_object_msgs
       - ibeo_msgs
       - kartech_linear_actuator_msgs
       - mobileye_560_660_msgs
       - neobotix_usboard_msgs
       - pacmod_msgs
+      - radar_msgs
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/astuff/astuff_sensor_msgs-release.git
-      version: 2.0.1-0
+      version: 2.2.1-0
     source:
       type: git
       url: https://github.com/astuff/astuff_sensor_msgs.git
@@ -180,6 +183,21 @@ repositories:
       url: https://github.com/ros-drivers/audio_common.git
       version: master
     status: maintained
+  automotive_autonomy_msgs:
+    release:
+      packages:
+      - automotive_autonomy_msgs
+      - automotive_navigation_msgs
+      - automotive_platform_msgs
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/astuff/automotive_autonomy_msgs-release.git
+      version: 2.0.2-0
+    source:
+      type: git
+      url: https://github.com/astuff/automotive_autonomy_msgs.git
+      version: master
+    status: developed
   auv_msgs:
     doc:
       type: git
@@ -416,7 +434,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/catkin-release.git
-      version: 0.7.11-0
+      version: 0.7.14-0
     source:
       test_pull_requests: true
       type: git
@@ -1906,7 +1924,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2018.7.18-0
+      version: 2018.8.8-0
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -1927,7 +1945,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.26.1-0
+      version: 0.26.2-0
     source:
       test_pull_requests: true
       type: git
@@ -2362,7 +2380,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/nerian-vision/nerian_stereo-release.git
-      version: 3.0.0-0
+      version: 3.0.2-0
     source:
       type: git
       url: https://github.com/nerian-vision/nerian_stereo.git
@@ -3748,7 +3766,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/xqms/rosmon-release.git
-      version: 1.0.7-0
+      version: 1.0.8-0
     source:
       test_pull_requests: true
       type: git
@@ -4489,7 +4507,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/sbpl-release.git
-      version: 1.2.0-0
+      version: 1.3.1-0
   sick_ldmrs_laser:
     doc:
       type: git
@@ -4857,7 +4875,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/urg_c-release.git
-      version: 1.0.404-0
+      version: 1.0.405-0
     source:
       type: git
       url: https://github.com/ros-drivers/urg_c.git
