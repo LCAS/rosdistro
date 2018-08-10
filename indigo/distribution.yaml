@@ -739,16 +739,19 @@ repositories:
       packages:
       - astuff_sensor_msgs
       - delphi_esr_msgs
+      - delphi_mrr_msgs
       - delphi_srr_msgs
+      - derived_object_msgs
       - ibeo_msgs
       - kartech_linear_actuator_msgs
       - mobileye_560_660_msgs
       - neobotix_usboard_msgs
       - pacmod_msgs
+      - radar_msgs
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/astuff/astuff_sensor_msgs-release.git
-      version: 2.0.1-0
+      version: 2.2.1-1
     source:
       type: git
       url: https://github.com/astuff/astuff_sensor_msgs.git
@@ -826,6 +829,21 @@ repositories:
       url: https://github.com/ros-drivers/audio_common.git
       version: indigo-devel
     status: maintained
+  automotive_autonomy_msgs:
+    release:
+      packages:
+      - automotive_autonomy_msgs
+      - automotive_navigation_msgs
+      - automotive_platform_msgs
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/astuff/automotive_autonomy_msgs-release.git
+      version: 2.0.2-0
+    source:
+      type: git
+      url: https://github.com/astuff/automotive_autonomy_msgs.git
+      version: master
+    status: developed
   auv_msgs:
     doc:
       type: git
@@ -5397,12 +5415,6 @@ repositories:
       url: https://github.com/ipa320/ipa_canopen.git
       version: indigo_dev
     status: end-of-life
-  ira_photonfocus_driver:
-    source:
-      type: git
-      url: https://github.com/iralabdisco/ira_photonfocus_driver.git
-      version: master
-    status: maintained
   iss_taskboard_gazebo:
     doc:
       type: git
