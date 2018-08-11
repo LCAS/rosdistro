@@ -1569,6 +1569,22 @@ repositories:
       type: git
       url: https://github.com/ros-perception/laser_pipeline.git
       version: hydro-devel
+  laser_proc:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/laser_proc.git
+      version: melodic-devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/laser_proc-release.git
+      version: 0.1.5-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-perception/laser_proc.git
+      version: melodic-devel
+    status: maintained
   libg2o:
     release:
       tags:
@@ -2099,7 +2115,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/fkie-release/multimaster_fkie-release.git
-      version: 0.8.1-0
+      version: 0.8.2-0
     source:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
@@ -2542,15 +2558,20 @@ repositories:
       version: master
     status: maintained
   plotjuggler:
+    doc:
+      type: git
+      url: https://github.com/facontidavide/PlotJuggler.git
+      version: master
     release:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 1.7.0-0
+      version: 1.7.2-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
       version: master
+    status: maintained
   pluginlib:
     doc:
       type: git
