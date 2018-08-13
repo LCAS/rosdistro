@@ -71,6 +71,8 @@ strands-morse-simulator:
     trusty: [strands-morse-simulator]
     xenial: [morse-blender-2.65-py-3.3]
 strands-twython:
-  ubuntu: [python-strands-twython]
+  ubuntu: 
+    trusty: [python-strands-twython]
+    xenial: [python-twython]
 theano:
   ubuntu: [python-theano]
