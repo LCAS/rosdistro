@@ -121,16 +121,19 @@ repositories:
       packages:
       - astuff_sensor_msgs
       - delphi_esr_msgs
+      - delphi_mrr_msgs
       - delphi_srr_msgs
+      - derived_object_msgs
       - ibeo_msgs
       - kartech_linear_actuator_msgs
       - mobileye_560_660_msgs
       - neobotix_usboard_msgs
       - pacmod_msgs
+      - radar_msgs
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/astuff/astuff_sensor_msgs-release.git
-      version: 2.0.1-0
+      version: 2.2.1-0
     source:
       type: git
       url: https://github.com/astuff/astuff_sensor_msgs.git
@@ -164,6 +167,21 @@ repositories:
       url: https://github.com/ros-drivers/audio_common.git
       version: master
     status: maintained
+  automotive_autonomy_msgs:
+    release:
+      packages:
+      - automotive_autonomy_msgs
+      - automotive_navigation_msgs
+      - automotive_platform_msgs
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/astuff/automotive_autonomy_msgs-release.git
+      version: 2.0.2-0
+    source:
+      type: git
+      url: https://github.com/astuff/automotive_autonomy_msgs.git
+      version: master
+    status: developed
   bfl:
     doc:
       type: git
@@ -1551,6 +1569,22 @@ repositories:
       type: git
       url: https://github.com/ros-perception/laser_pipeline.git
       version: hydro-devel
+  laser_proc:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/laser_proc.git
+      version: melodic-devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/laser_proc-release.git
+      version: 0.1.5-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-perception/laser_proc.git
+      version: melodic-devel
+    status: maintained
   libg2o:
     release:
       tags:
@@ -1718,7 +1752,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2018.7.18-0
+      version: 2018.8.8-0
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -1739,7 +1773,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.26.1-0
+      version: 0.26.2-0
     source:
       test_pull_requests: true
       type: git
@@ -2081,7 +2115,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/fkie-release/multimaster_fkie-release.git
-      version: 0.8.1-0
+      version: 0.8.2-0
     source:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
@@ -2184,7 +2218,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/nerian-vision/nerian_stereo-release.git
-      version: 3.0.1-0
+      version: 3.0.2-0
     source:
       type: git
       url: https://github.com/nerian-vision/nerian_stereo.git
@@ -2501,7 +2535,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/phidgets_drivers-release.git
-      version: 0.7.5-0
+      version: 0.7.6-0
     source:
       test_pull_requests: true
       type: git
@@ -2524,15 +2558,20 @@ repositories:
       version: master
     status: maintained
   plotjuggler:
+    doc:
+      type: git
+      url: https://github.com/facontidavide/PlotJuggler.git
+      version: master
     release:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 1.7.0-0
+      version: 1.7.2-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
       version: master
+    status: maintained
   pluginlib:
     doc:
       type: git
@@ -3390,7 +3429,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/xqms/rosmon-release.git
-      version: 1.0.7-0
+      version: 1.0.8-0
     source:
       test_pull_requests: true
       type: git
@@ -4007,7 +4046,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/sbpl-release.git
-      version: 1.2.0-0
+      version: 1.3.1-0
   sick_tim:
     doc:
       type: git
@@ -4121,6 +4160,22 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git
+      version: melodic-devel
+    status: developed
+  teb_local_planner_tutorials:
+    doc:
+      type: git
+      url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials.git
+      version: melodic-devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials-release.git
+      version: 0.2.3-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials.git
       version: melodic-devel
     status: developed
   teleop_twist_keyboard:
@@ -4400,6 +4455,21 @@ repositories:
       type: git
       url: https://github.com/ros/urdf_parser_py.git
       version: melodic-devel
+    status: maintained
+  urg_c:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/urg_c.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/urg_c-release.git
+      version: 1.0.405-0
+    source:
+      type: git
+      url: https://github.com/ros-drivers/urg_c.git
+      version: master
     status: maintained
   usb_cam:
     doc:
