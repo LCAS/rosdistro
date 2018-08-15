@@ -6192,16 +6192,6 @@ repositories:
       type: git
       url: https://github.com/uos/kurt_navigation.git
       version: indigo
-  kvaser_interface:
-    doc:
-      type: git
-      url: https://github.com/astuff/kvaser_interface.git
-      version: release
-    source:
-      type: git
-      url: https://github.com/astuff/kvaser_interface.git
-      version: release
-    status: maintained
   lama:
     doc:
       type: git
@@ -15606,7 +15596,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.4.4-0
+      version: 0.4.5-0
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git

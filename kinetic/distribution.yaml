@@ -4204,6 +4204,20 @@ repositories:
       url: https://github.com/alireza-hosseini/ipcamera_driver.git
       version: master
     status: developed
+  ira_laser_tools:
+    doc:
+      type: git
+      url: https://github.com/iralabdisco/ira_laser_tools.git
+      version: kinetic
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/iralabdisco/ira_laser_tools-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/iralabdisco/ira_laser_tools.git
+      version: kinetic
   ivcon:
     release:
       tags:
@@ -4768,16 +4782,6 @@ repositories:
       url: https://github.com/ros-industrial/kuka_experimental.git
       version: indigo-devel
     status: developed
-  kvaser_interface:
-    doc:
-      type: git
-      url: https://github.com/astuff/kvaser_interface.git
-      version: release
-    source:
-      type: git
-      url: https://github.com/astuff/kvaser_interface.git
-      version: release
-    status: maintained
   kvh_drivers:
     doc:
       type: git
@@ -8166,6 +8170,24 @@ repositories:
       url: https://github.com/PR2/pr2_simulator.git
       version: kinetic-devel
     status: unmaintained
+  prbt_grippers:
+    doc:
+      type: git
+      url: https://github.com/PilzDE/prbt_grippers.git
+      version: kinetic-devel
+    release:
+      packages:
+      - prbt_grippers
+      - prbt_pg70_support
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/PilzDE/prbt_grippers-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/PilzDE/prbt_grippers.git
+      version: kinetic-devel
+    status: developed
   prosilica_driver:
     doc:
       type: git
@@ -12131,7 +12153,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.6.10-0
+      version: 0.6.11-0
     source:
       test_pull_requests: true
       type: git
