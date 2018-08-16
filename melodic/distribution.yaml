@@ -506,6 +506,27 @@ repositories:
       url: https://bitbucket.org/DataspeedInc/dataspeed_pds
       version: default
     status: developed
+  dbw_fca_ros:
+    doc:
+      type: hg
+      url: https://bitbucket.org/DataspeedInc/dbw_fca_ros
+      version: default
+    release:
+      packages:
+      - dbw_fca
+      - dbw_fca_can
+      - dbw_fca_description
+      - dbw_fca_joystick_demo
+      - dbw_fca_msgs
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/DataspeedInc-release/dbw_fca_ros-release.git
+      version: 0.0.1-0
+    source:
+      type: hg
+      url: https://bitbucket.org/DataspeedInc/dbw_fca_ros
+      version: default
+    status: maintained
   dbw_mkz_ros:
     doc:
       type: hg
@@ -2575,6 +2596,26 @@ repositories:
       url: https://bitbucket.org/AndyZe/pid.git
       version: master
     status: maintained
+  pilz_robots:
+    doc:
+      type: git
+      url: https://github.com/PilzDE/pilz_robots.git
+      version: kinetic-devel
+    release:
+      packages:
+      - pilz_robots
+      - prbt_ikfast_manipulator_plugin
+      - prbt_moveit_config
+      - prbt_support
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/PilzDE/pilz_robots-release.git
+      version: 0.3.0-0
+    source:
+      type: git
+      url: https://github.com/PilzDE/pilz_robots.git
+      version: kinetic-devel
+    status: developed
   plotjuggler:
     doc:
       type: git
@@ -4090,7 +4131,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/simple_grasping-release.git
-      version: 0.2.2-0
+      version: 0.3.1-0
     source:
       type: git
       url: https://github.com/mikeferguson/simple_grasping.git
