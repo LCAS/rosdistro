@@ -1152,16 +1152,8 @@ python-fixtures:
   gentoo: [dev-python/fixtures]
   ubuntu: [python-fixtures]
 python-flake8:
-  debian:
-    buster: [python-flake8]
-    jessie: [python-flake8]
-    stretch: [python-flake8]
-  fedora:
-    '21': [python-flake8]
-    '22': [python-flake8]
-    '23': [python-flake8]
-    '24': [python-flake8]
-    heisenbug: [python-flake8]
+  debian: [python-flake8]
+  fedora: [python-flake8]
   gentoo: [dev-python/flake8]
   ubuntu:
     '*': [python-flake8]
@@ -1171,21 +1163,8 @@ python-flask:
   fedora: [python-flask]
   gentoo: [dev-python/flask]
   ubuntu:
-    lucid: [python-flask]
-    maverick: [python-flask]
-    natty: [python-flask]
-    oneiric: [python-flask]
-    precise: [python-flask]
-    quantal: [python-flask]
-    raring: [python-flask]
-    saucy: [python-flask]
-    trusty: [python-flask]
+    '*': [python-flask]
     trusty_python3: [python3-flask]
-    utopic: [python-flask]
-    vivid: [python-flask]
-    wily: [python-flask]
-    xenial: [python-flask]
-    yakkety: [python-flask]
 python-flask-appbuilder-pip:
   debian:
     pip:
@@ -2299,19 +2278,21 @@ python-pep8:
     pip:
       packages: [pep8]
   ubuntu:
+    '*': [python-pep8]
+    artful_python3: [python3-pep8]
+    bionic_python3: [python3-pep8]
+    cosmic_python3: [python3-pep8]
     precise: [pep8]
     quantal: [pep8]
     raring: [pep8]
     saucy: [pep8]
     trusty: [pep8]
+    trusty_python3: [python3-pep8]
     utopic: [pep8]
     vivid: [pep8]
     wily: [pep8]
-    xenial: [python-pep8]
     xenial_python3: [python3-pep8]
-    yakkety: [python-pep8]
     yakkety_python3: [python3-pep8]
-    zesty: [python-pep8]
     zesty_python3: [python3-pep8]
 python-percol:
   debian:
@@ -2838,21 +2819,13 @@ python-pyudev:
   fedora: [python-pyudev]
   gentoo: [dev-python/pyudev]
   ubuntu:
-    lucid: [python-pyudev]
-    maverick: [python-pyudev]
-    natty: [python-pyudev]
-    oneiric: [python-pyudev]
-    precise: [python-pyudev]
-    quantal: [python-pyudev]
-    raring: [python-pyudev]
-    saucy: [python-pyudev]
-    trusty: [python-pyudev]
+    '*': [python-pyudev]
+    artful_python3: [python3-pyudev]
+    bionic_python3: [python3-pyudev]
+    cosmic_python3: [python3-pyudev]
     trusty_python3: [python3-pyudev]
-    utopic: [python-pyudev]
-    vivid: [python-pyudev]
-    wily: [python-pyudev]
-    xenial: [python-pyudev]
-    yakkety: [python-pyudev]
+    xenial_python3: [python3-pyudev]
+    zesty_python3: [python3-pyudev]
 python-pyusb-pip:
   debian:
     pip: [pyusb]
