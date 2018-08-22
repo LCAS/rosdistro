@@ -53,6 +53,7 @@ repositories:
   depth_sensors:
     release:
       packages:
+      - asus_description
       - depth_sensors
       - kinect2_description
       - kinect_control
@@ -62,7 +63,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/lcas-releases/depth_sensors.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       test_pull_requests: true
       type: git
