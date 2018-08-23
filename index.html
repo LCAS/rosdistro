@@ -113,7 +113,7 @@
         BUMP = $('input:radio[name="BUMP"]:checked').val();
         ROSDISTRO = $('input:radio[name="ROSDISTRO"]:checked').val();
 
-        ip_check_url = 'http://api.ipstack.com/check?access_key=da89982343c6599b8eedf0cbb7e4b9bd';
+        ip_check_url = 'https://api.ipstack.com/check?access_key=da89982343c6599b8eedf0cbb7e4b9bd';
         geoip = $.getJSON(ip_check_url, function(data) {
           console.log(data);
           param = {
@@ -127,6 +127,7 @@
           $.post(
             "https://lcas.lincoln.ac.uk/buildfarm/job/bloom_release/buildWithParameters", param);
           $('#submit_btn').text("RELEASED");
+          document.location.href='https://lcas.lincoln.ac.uk/buildfarm/job/bloom_release/';
         });
       }
 
