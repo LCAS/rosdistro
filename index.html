@@ -113,22 +113,30 @@
         BUMP = $('input:radio[name="BUMP"]:checked').val();
         ROSDISTRO = $('input:radio[name="ROSDISTRO"]:checked').val();
 
-        ip_check_url = 'https://api.ipstack.com/check?access_key=da89982343c6599b8eedf0cbb7e4b9bd';
-        geoip = $.getJSON(ip_check_url, function(data) {
-          console.log(data);
+        //ip_check_url = 'http://api.ipstack.com/check?access_key=da89982343c6599b8eedf0cbb7e4b9bd';
+        //geoip = $.getJSON(ip_check_url, function(data) {
+        //  console.log(data);
           param = {
             "REPOSITORY": REPOSITORY,
             "token": 'lcas',
             "BUMP": BUMP,
             "ROSDISTRO": ROSDISTRO,
-            "INFO": JSON.stringify(data)
+            "INFO": 'triggered by release wizard'
           }
           console.log(param);
-          $.post(
-            "https://lcas.lincoln.ac.uk/buildfarm/job/bloom_release/buildWithParameters", param);
-          $('#submit_btn').text("RELEASED");
-          document.location.href='https://lcas.lincoln.ac.uk/buildfarm/job/bloom_release/';
-        });
+          //$.post(
+          //  "https://lcas.lincoln.ac.uk/buildfarm/job/bloom_release/buildWithParameters", param);
+          $('#submit_btn').text("RELEASE TRIGGERED, you will be redirected in a few moments to monitor the process, please wait");
+          $('#submit_btn').attr('disabled','disabled');
+          window.setTimeout(function(){
+
+              // Move to a new location or you can do something else
+              window.location.href = "https://lcas.lincoln.ac.uk/buildfarm/job/bloom_release/lastBuild/console";
+
+          }, 10000);
+
+          //document.location.href='https://lcas.lincoln.ac.uk/buildfarm/job/bloom_release/';
+        //});
       }
 
       function get_repos() {
