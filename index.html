@@ -9,7 +9,65 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.12.0/js-yaml.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<!--     <style>
+      .ui-autocomplete {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1000;
+        display: none;
+        float: left;
+        min-width: 160px;
+        padding: 5px 0;
+        margin: 2px 0 0;
+        list-style: none;
+        font-size: 14px;
+        text-align: left;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+        background-clip: padding-box;
+      }
 
+      .ui-autocomplete > li > div {
+        display: block;
+        padding: 3px 20px;
+        clear: both;
+        font-weight: normal;
+        line-height: 1.42857143;
+        color: #333333;
+        white-space: nowrap;
+      }
+
+      .ui-state-hover,
+      .ui-state-active,
+      .ui-state-focus {
+        text-decoration: none;
+        color: #262626;
+        background-color: #f5f5f5;
+        cursor: pointer;
+      }
+
+      .ui-helper-hidden-accessible {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
+    </style> -->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -30,8 +88,9 @@
 			        <input type="text" class="form-control" name="REPOSITORY" id="repoName" placeholder="Repository to be released"/>
 			    </div>
 			    <div class="form-group">
-			        <label for="inputPassword">Which part of the version string to bump</label>
-			        <input type="radio" class="form-control" name="BUMP" value="patch" checked>patch
+			        <label for="BUMP">Which part of the version string to bump in upstream repository?</label>
+              <input type="radio" class="form-control" name="BUMP" value="" checked>I have prepared the upstream repository for release myself (don't touch, just run bloom, please make sure you have read )
+			        <input type="radio" class="form-control" name="BUMP" value="patch">patch
 			        <input type="radio" class="form-control" name="BUMP" value="minor">minor
 			        <input type="radio" class="form-control" name="BUMP" value="major">major
 			    </div>
@@ -39,16 +98,66 @@
           <input type="hidden" name="cause" value="release wizard">
 <!-- 			    <input type="hidden" name="ROSDISTRO" value="indigo">-->          
           <div class="form-group">
-              <label for="inputPassword">Which ROS version to release to?</label>
+              <label for="ROSDISTRO">Which ROS version to release to?</label>
               <input type="radio" class="form-control" name="ROSDISTRO" value="indigo">indigo
               <input type="radio" class="form-control" name="ROSDISTRO" value="kinetic" checked>kinetic
           </div>
-			    <button type="submit" class="btn btn-primary">Release</button>
+			    <button id="submit_btn" onclick="release();" type="button" class="btn btn-primary">Release</button>
 			</form>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      function release() {
+        console.log('release pressed');
+        REPOSITORY = $('input:text[name="REPOSITORY"]').val();
+        BUMP = $('input:radio[name="BUMP"]:checked').val();
+        ROSDISTRO = $('input:radio[name="ROSDISTRO"]:checked').val();
+
+        ip_check_url = 'http://api.ipstack.com/check?access_key=da89982343c6599b8eedf0cbb7e4b9bd';
+        geoip = $.getJSON(ip_check_url, function(data) {
+          console.log(data);
+          param = {
+            "REPOSITORY": REPOSITORY,
+            "token": 'lcas',
+            "BUMP": BUMP,
+            "ROSDISTRO": ROSDISTRO,
+            "INFO": JSON.stringify(data)
+          }
+          console.log(param);
+          $.post(
+            "https://lcas.lincoln.ac.uk/buildfarm/job/bloom_release/buildWithParameters", param);
+          $('#submit_btn').text("RELEASED");
+        });
+      }
+
+      function get_repos() {
+          $.get('https://raw.githubusercontent.com/LCAS/rosdistro/master/kinetic/lcas-dist.yaml', function (data) {
+              dist = jsyaml.load(data);
+              repos = [];
+              for (r in dist['repositories']) {
+                console.log(r);
+                repos.push(r);
+              }
+              $("#repoName").autocomplete({
+                source: repos
+              });
+
+              //console.log(JSON.stringify(dist));
+          });
+      }
+      $(document).ready(function () {
+        get_repos();
+
+        //   $.get('https://raw.githubusercontent.com/LCAS/rosdistro/master/kinetic/lcas-dist.yaml')
+        //   .done(function (data) {
+        //     console.log('File load complete');
+        //     console.log(jsyaml.load(data));
+        //     var jsonString = JSON.stringify(data);
+        //     console.log(jsonString);
+        //     console.log($.parseJSON(jsonString));
+        // });
+      });
+
+    </script>
   </body>
 </html>
