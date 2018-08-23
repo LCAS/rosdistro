@@ -124,8 +124,9 @@
             "INFO": 'triggered by release wizard'
           }
           console.log(param);
-          //$.post(
-          //  "https://lcas.lincoln.ac.uk/buildfarm/job/bloom_release/buildWithParameters", param);
+          $.post(
+            "https://lcas.lincoln.ac.uk/buildfarm/job/bloom_release/buildWithParameters", param);
+
           $('#submit_btn').text("RELEASE TRIGGERED, you will be redirected in a few moments to monitor the process, please wait");
           $('#submit_btn').attr('disabled','disabled');
           window.setTimeout(function(){
