@@ -102,6 +102,16 @@ repositories:
       version: kinetic
     status: maintained
   graph_map:
+    release:
+      packages:
+      - graph_localization
+      - graph_map
+      - ndt_calibration
+      - ndt_evaluation
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://gitsvn-nt.oru.se/iliad/software/releases/graph_map-release.git
+      version: 2.0.0-0
     source:
       type: git
       url: https://gitsvn-nt.oru.se/iliad/software/graph_map.git
