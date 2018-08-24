@@ -297,6 +297,20 @@ repositories:
       url: https://github.com/strands-project-releases/openni_wrapper.git
       version: 0.0.11-0
     status: maintained
+  ndt_core:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://gitsvn-nt.oru.se/software/ndt_core.git
+      version: master
+    status: developed
+  ndt_tools:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://gitsvn-nt.oru.se/software/ndt_tools.git
+      version: master
+    status: developed
   oru_navigation:
     release:
       packages:
