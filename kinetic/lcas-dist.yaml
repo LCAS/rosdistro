@@ -309,6 +309,17 @@ repositories:
       version: master
     status: developed
   ndt_tools:
+    release:
+      packages:
+      - ndt_feature_finder
+      - ndt_fuser
+      - ndt_localization
+      - ndt_offline
+      - ndt_tools
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://gitsvn-nt.oru.se/iliad/software/releases/ndt_tools-release.git
+      version: 2.0.0-0
     source:
       type: git
       url: https://gitsvn-nt.oru.se/software/ndt_tools.git
