@@ -2350,6 +2350,16 @@ python-pip:
   fedora: [python-pip]
   gentoo: [dev-python/pip]
   ubuntu: [python-pip]
+python-pixel-ring-pip:
+  debian:
+    pip:
+      packages: [pixel-ring]
+  fedora:
+    pip:
+      packages: [pixel-ring]
+  ubuntu:
+    pip:
+      packages: [pixel-ring]
 python-pkg-resources:
   debian: [python-pkg-resources]
   ubuntu: [python-pkg-resources]
@@ -3647,6 +3657,15 @@ python-sqlalchemy:
     wily: [python-sqlalchemy]
     xenial: [python-sqlalchemy]
     xenial_python3: [python3-sqlalchemy]
+python-subprocess32:
+  debian:
+    '*': [python-subprocess32]
+    jessie: null
+  fedora: [python-subprocess32]
+  gentoo: [dev-python/subprocess32]
+  ubuntu:
+    '*': [python-subprocess32]
+    trusty: null
 python-support:
   debian: [python-support]
   fedora: [python]
