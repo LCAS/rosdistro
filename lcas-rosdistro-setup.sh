@@ -53,6 +53,8 @@ rosdep update
 sudo apt-get install ssh openssh-server vim git python-pip tmux openvpn
 sudo pip install -U tmule 
 
+sudo curl -o /usr/local/bin/rmate https://raw.githubusercontent.com/aurora/rmate/master/rmate && sudo chmod +x /usr/local/bin/rmate
+
 echo -e ""
 echo -e "Install finished. And remember: \"A pull/push a day keeps bugs away\""
 echo -e "Bye!"
