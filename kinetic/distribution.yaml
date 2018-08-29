@@ -2668,7 +2668,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/UbiquityRobotics-release/fiducials-release.git
-      version: 0.8.3-0
+      version: 0.8.4-0
     source:
       type: git
       url: https://github.com/UbiquityRobotics/fiducials.git
@@ -4257,11 +4257,12 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/iralabdisco/ira_laser_tools-release.git
-      version: 1.0.0-0
+      version: 1.0.2-0
     source:
       type: git
       url: https://github.com/iralabdisco/ira_laser_tools.git
       version: kinetic
+    status: developed
   ivcon:
     release:
       tags:
@@ -5282,7 +5283,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/UbiquityRobotics-release/magni_robot-release.git
-      version: 0.3.2-0
+      version: 0.4.2-0
     source:
       type: git
       url: https://github.com/UbiquityRobotics/magni_robot.git
@@ -12002,6 +12003,21 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-simulation/stage_ros.git
+      version: master
+    status: maintained
+  static_tf:
+    doc:
+      type: git
+      url: https://github.com/DLu/static_tf.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/wu-robotics/static_tf_release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/DLu/static_tf.git
       version: master
     status: maintained
   std_capabilities:
