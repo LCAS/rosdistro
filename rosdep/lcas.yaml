@@ -60,6 +60,8 @@ prism-robots:
     xenial: [prism-robots]
 pybayes:
   ubuntu: [python-pybayes]
+python-pydispatcher:
+  ubuntu: [python-pydispatcher]
 python-strands-requests:
   ubuntu: [python-strands-requests]
 python-webpy:
