@@ -66,6 +66,8 @@ python-strands-requests:
   ubuntu: [python-strands-requests]
 python-webpy:
   ubuntu: [python-webpy]
+python-ws4py:
+  ubuntu: [python-ws4py]
 rubygem-jekyll:
   ubuntu: [rubygem-jekyll]
 strands-morse-simulator:
