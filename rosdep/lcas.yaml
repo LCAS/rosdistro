@@ -80,5 +80,5 @@ strands-twython:
     xenial: [python-twython]
 theano:
   ubuntu: [python-theano]
-python-tmule:
+tmule:
   ubuntu: [python-tmule]
