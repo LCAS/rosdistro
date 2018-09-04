@@ -80,3 +80,5 @@ strands-twython:
     xenial: [python-twython]
 theano:
   ubuntu: [python-theano]
+python-ws4py:
+  ubuntu: [python-ws4py]
