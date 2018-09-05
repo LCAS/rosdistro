@@ -543,6 +543,22 @@ repositories:
       url: https://github.com/astuff/astuff_sensor_msgs.git
       version: release
     status: developed
+  async_comm:
+    doc:
+      type: git
+      url: https://github.com/dpkoch/async_comm.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/dpkoch/async_comm-release.git
+      version: 0.1.0-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/dpkoch/async_comm.git
+      version: master
+    status: developed
   async_web_server_cpp:
     release:
       tags:
@@ -4543,7 +4559,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/tork-a/jsk_model_tools-release.git
-      version: 0.4.1-0
+      version: 0.4.2-0
     status: developed
   jsk_planning:
     release:
@@ -6510,6 +6526,31 @@ repositories:
       url: https://github.com/skasperski/navigation_2d.git
       version: kinetic
     status: maintained
+  navigation_experimental:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/navigation_experimental.git
+      version: kinetic-devel
+    release:
+      packages:
+      - assisted_teleop
+      - goal_passer
+      - navigation_experimental
+      - pose_base_controller
+      - pose_follower
+      - sbpl_lattice_planner
+      - sbpl_recovery
+      - twist_recovery
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/navigation_experimental-release.git
+      version: 0.2.0-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-planning/navigation_experimental.git
+      version: kinetic-devel
+    status: maintained
   navigation_layers:
     doc:
       type: git
@@ -6675,7 +6716,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/astuff/network_interface-release.git
-      version: 2.0.0-0
+      version: 2.1.0-0
     source:
       type: git
       url: https://github.com/astuff/network_interface.git
@@ -7521,7 +7562,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/astuff/pacmod3-release.git
-      version: 1.1.0-0
+      version: 1.1.1-0
     source:
       type: git
       url: https://github.com/astuff/pacmod3.git
@@ -7536,7 +7577,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/astuff/pacmod_game_control-release.git
-      version: 2.1.0-0
+      version: 2.2.0-0
     source:
       type: git
       url: https://github.com/astuff/pacmod_game_control.git
@@ -10495,7 +10536,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/cbandera/rosparam_handler-release.git
-      version: 0.1.3-0
+      version: 0.1.4-0
     source:
       type: git
       url: https://github.com/cbandera/rosparam_handler.git
