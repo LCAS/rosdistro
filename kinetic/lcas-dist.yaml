@@ -408,6 +408,13 @@ repositories:
       version: master
     status: developed
   pcl_detector:
+    release:
+      packages:
+      - object3d_detector
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/pcl_detector.git
+      version: 0.0.1-0
     source:
       test_pull_requests: true
       type: git
