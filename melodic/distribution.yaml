@@ -1479,6 +1479,17 @@ repositories:
       url: https://github.com/ros-visualization/interactive_markers.git
       version: indigo-devel
     status: maintained
+  ivcon:
+    doc:
+      type: git
+      url: https://github.com/ros/ivcon.git
+      version: melodic-devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/ivcon-release.git
+      version: 0.1.7-0
+    status: unmaintained
   joint_state_publisher:
     doc:
       type: git
@@ -2346,6 +2357,31 @@ repositories:
       url: https://github.com/ros-planning/navigation.git
       version: melodic-devel
     status: maintained
+  navigation_experimental:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/navigation_experimental.git
+      version: melodic-devel
+    release:
+      packages:
+      - assisted_teleop
+      - goal_passer
+      - navigation_experimental
+      - pose_base_controller
+      - pose_follower
+      - sbpl_lattice_planner
+      - sbpl_recovery
+      - twist_recovery
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/navigation_experimental-release.git
+      version: 0.3.0-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-planning/navigation_experimental.git
+      version: melodic-devel
+    status: maintained
   navigation_layers:
     doc:
       type: git
@@ -2616,6 +2652,17 @@ repositories:
       url: https://github.com/ros-drivers/openni2_camera.git
       version: indigo-devel
     status: maintained
+  openrtm_aist:
+    doc:
+      type: git
+      url: https://github.com/tork-a/openrtm_aist-release.git
+      version: release/melodic/openrtm_aist
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/tork-a/openrtm_aist-release.git
+      version: 1.1.2-1
+    status: developed
   orocos_kinematics_dynamics:
     doc:
       type: git
@@ -5018,6 +5065,17 @@ repositories:
       url: https://github.com/ros-drivers/video_stream_opencv.git
       version: master
     status: maintained
+  view_controller_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/view_controller_msgs.git
+      version: lunar-devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/view_controller_msgs-release.git
+      version: 0.1.3-0
+    status: unmaintained
   vision_msgs:
     doc:
       type: git

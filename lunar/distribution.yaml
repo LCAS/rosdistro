@@ -2816,6 +2816,17 @@ repositories:
       url: https://github.com/ros-drivers/openni_camera.git
       version: indigo-devel
     status: maintained
+  openrtm_aist:
+    doc:
+      type: git
+      url: https://github.com/tork-a/openrtm_aist-release.git
+      version: release/indigo/openrtm_aist
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/tork-a/openrtm_aist-release.git
+      version: 1.1.0-0
+    status: developed
   openrtm_aist_python:
     doc:
       type: git
@@ -5353,6 +5364,17 @@ repositories:
       url: https://github.com/ros-drivers/video_stream_opencv.git
       version: master
     status: maintained
+  view_controller_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/view_controller_msgs.git
+      version: lunar-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/view_controller_msgs-release.git
+      version: 0.1.3-0
+    status: unmaintained
   vision_msgs:
     doc:
       type: git
