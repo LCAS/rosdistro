@@ -528,7 +528,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/DataspeedInc-release/dataspeed_can-release.git
-      version: 1.0.10-0
+      version: 1.0.11-0
     source:
       type: hg
       url: https://bitbucket.org/dataspeedinc/dataspeed_can
@@ -1271,6 +1271,17 @@ repositories:
       url: https://github.com/CogRob/catkin_grpc.git
       version: master
     status: developed
+  gscam:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/gscam.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/gscam-release.git
+      version: 1.0.1-0
+    status: unmaintained
   hector_gazebo:
     doc:
       type: git
@@ -1849,12 +1860,22 @@ repositories:
     doc:
       type: git
       url: https://github.com/tuw-robotics/marker_msgs.git
-      version: master
+      version: melodic
     release:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tuw-robotics/marker_msgs-release.git
       version: 0.0.6-0
+  marker_rviz_plugin:
+    doc:
+      type: git
+      url: https://github.com/tuw-robotics/marker_rviz_plugin.git
+      version: melodic
+    source:
+      type: git
+      url: https://github.com/tuw-robotics/marker_rviz_plugin.git
+      version: melodic
+    status: maintained
   marti_common:
     doc:
       type: git
@@ -2148,7 +2169,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/moveit_resources-release.git
-      version: 0.6.3-0
+      version: 0.6.4-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
@@ -2178,7 +2199,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/PickNikRobotics/moveit_visual_tools-release.git
-      version: 3.2.1-2
+      version: 3.2.1-4
     source:
       type: git
       url: https://github.com/PickNikRobotics/moveit_visual_tools.git
@@ -2375,7 +2396,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/navigation_experimental-release.git
-      version: 0.3.0-0
+      version: 0.3.1-0
     source:
       test_pull_requests: true
       type: git
@@ -2395,7 +2416,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/wu-robotics/navigation_layers_release.git
-      version: 0.4.0-0
+      version: 0.4.2-0
     source:
       type: git
       url: https://github.com/DLu/navigation_layers.git
@@ -2661,7 +2682,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tork-a/openrtm_aist-release.git
-      version: 1.1.2-1
+      version: 1.1.2-3
     status: developed
   orocos_kinematics_dynamics:
     doc:
@@ -2696,6 +2717,24 @@ repositories:
       type: hg
       url: https://bitbucket.org/DataspeedInc/oxford_gps_eth
       version: default
+    status: maintained
+  p2os:
+    release:
+      packages:
+      - p2os_doc
+      - p2os_driver
+      - p2os_launch
+      - p2os_msgs
+      - p2os_teleop
+      - p2os_urdf
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/allenh1/p2os-release.git
+      version: 2.1.1-3
+    source:
+      type: git
+      url: https://github.com/allenh1/p2os.git
+      version: master
     status: maintained
   pacmod3:
     doc:
@@ -3832,7 +3871,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/rospack-release.git
-      version: 2.5.1-0
+      version: 2.5.2-0
     source:
       test_pull_requests: true
       type: git
@@ -4428,6 +4467,21 @@ repositories:
       url: https://github.com/PickNikRobotics/rviz_visual_tools.git
       version: melodic-devel
     status: developed
+  sainsmart_relay_usb:
+    doc:
+      type: hg
+      url: https://bitbucket.org/DataspeedInc/sainsmart_relay_usb
+      version: default
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/DataspeedInc-release/sainsmart_relay_usb-release.git
+      version: 0.0.2-0
+    source:
+      type: hg
+      url: https://bitbucket.org/DataspeedInc/sainsmart_relay_usb
+      version: default
+    status: maintained
   sbg_driver:
     doc:
       type: git
@@ -4818,6 +4872,26 @@ repositories:
       url: https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
       version: melodic-devel
     status: developed
+  tuw_control:
+    doc:
+      type: git
+      url: https://github.com/tuw-robotics/tuw_control.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/tuw-robotics/tuw_control.git
+      version: master
+    status: developed
+  tuw_geometry:
+    doc:
+      type: git
+      url: https://github.com/tuw-robotics/tuw_geometry.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/tuw-robotics/tuw_geometry.git
+      version: master
+    status: developed
   tuw_msgs:
     doc:
       type: git
@@ -4840,6 +4914,26 @@ repositories:
     source:
       type: git
       url: https://github.com/tuw-robotics/tuw_msgs.git
+      version: master
+    status: developed
+  tuw_multi_robot:
+    doc:
+      type: git
+      url: https://github.com/tuw-robotics/tuw_multi_robot.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/tuw-robotics/tuw_multi_robot.git
+      version: master
+    status: maintained
+  tuw_rviz:
+    doc:
+      type: git
+      url: https://github.com/tuw-robotics/tuw_rviz.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/tuw-robotics/tuw_rviz.git
       version: master
     status: developed
   twist_mux:
