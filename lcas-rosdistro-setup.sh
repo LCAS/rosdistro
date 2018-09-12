@@ -10,7 +10,7 @@ sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C
 
 # update
 sudo apt-get update
-sudo apt-get install ros-kinetic-ros-base
+sudo apt-get install -y ros-kinetic-ros-base
 
 # config
 echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
@@ -19,7 +19,7 @@ source ~/.bashrc
 # LCAS REPO CONFIG
 
 # Dependencies
-sudo apt-get install apt-transport-https curl
+sudo apt-get install -y apt-transport-https curl
 
 # get key
 curl -s http://lcas.lincoln.ac.uk/repos/public.key | sudo apt-key add -
@@ -50,7 +50,7 @@ mkdir -p ~/.config/rosdistro && echo "index_url: https://raw.github.com/lcas/ros
 rosdep update
 
 # Nice things
-sudo apt-get install ssh openssh-server vim git python-pip tmux openvpn
+sudo apt-get install -y ssh openssh-server vim git python-pip tmux openvpn
 sudo pip install -U tmule 
 
 sudo curl -o /usr/local/bin/rmate https://raw.githubusercontent.com/aurora/rmate/master/rmate && sudo chmod +x /usr/local/bin/rmate
