@@ -293,6 +293,13 @@ repositories:
       url: https://github.com/LCAS/libfreenect2.git
       version: master
     status: maintained
+  lindimp:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/LindIMP.git
+      version: master
+    status: developed
   mapping_msgs:
     source:
       test_pull_requests: true
