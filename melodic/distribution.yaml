@@ -736,7 +736,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_core-release.git
-      version: 0.62.1-0
+      version: 0.62.2-0
     source:
       type: git
       url: https://github.com/stonier/ecl_core.git
@@ -842,7 +842,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/shadow-robot/ethercat_grant-release.git
-      version: 0.2.4-0
+      version: 0.2.5-0
     source:
       type: git
       url: https://github.com/shadow-robot/ethercat_grant.git
@@ -3005,7 +3005,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 1.8.3-0
+      version: 1.8.4-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -3965,7 +3965,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/rosdoc_lite-release.git
-      version: 0.2.7-0
+      version: 0.2.8-0
     source:
       type: git
       url: https://github.com/ros-infrastructure/rosdoc_lite.git
@@ -5046,7 +5046,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tuw-robotics/tuw_geometry-release.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/tuw-robotics/tuw_geometry.git
@@ -5070,7 +5070,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tuw-robotics/tuw_msgs-release.git
-      version: 0.0.9-0
+      version: 0.0.10-1
     source:
       type: git
       url: https://github.com/tuw-robotics/tuw_msgs.git
