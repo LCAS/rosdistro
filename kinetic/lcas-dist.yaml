@@ -472,6 +472,12 @@ repositories:
       url: https://github.com/LCAS/RASberry.git
       version: master
     status: developed
+  rgbd_gpu_detector:
+    source:
+      type: git
+      url: https://gitsvn-nt.oru.se/linder/rgbd_gpu_detector.git
+      version: master
+    status: developed
   robomongo_ros:
     source:
       type: git
