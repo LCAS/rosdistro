@@ -293,6 +293,13 @@ repositories:
       url: https://github.com/LCAS/libfreenect2.git
       version: master
     status: maintained
+  lidar_object_detection:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/lidar_object_detection_release.git
+      version: master
+    status: developed
   lindimp:
     source:
       test_pull_requests: true
