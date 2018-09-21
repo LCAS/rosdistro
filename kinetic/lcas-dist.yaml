@@ -294,6 +294,11 @@ repositories:
       version: master
     status: maintained
   lidar_object_detection:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/lidar_object_detection_release.git
+      version: 0.0.2-0
     source:
       test_pull_requests: true
       type: git
