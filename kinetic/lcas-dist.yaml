@@ -205,13 +205,6 @@ repositories:
       url: https://gitsvn-nt.oru.se/iliad/software/iliad_human_perception.git
       version: master
     status: developed
-  iliad_lcas:
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/LCAS/iliad.git
-      version: master
-    status: developed
   iliad_sandbox:
     source:
       test_pull_requests: true
