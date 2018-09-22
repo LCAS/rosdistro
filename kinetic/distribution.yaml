@@ -7867,7 +7867,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/phidgets_drivers-release.git
-      version: 0.7.6-0
+      version: 0.7.7-0
     source:
       test_pull_requests: true
       type: git
@@ -8350,6 +8350,28 @@ repositories:
       url: https://github.com/pr2/pr2_robot.git
       version: kinetic-devel
     status: maintained
+  pr2_self_test:
+    doc:
+      type: git
+      url: https://github.com/PR2/pr2_self_test.git
+      version: hydro-devel
+    release:
+      packages:
+      - joint_qualification_controllers
+      - pr2_bringup_tests
+      - pr2_counterbalance_check
+      - pr2_motor_diagnostic_tool
+      - pr2_self_test
+      - pr2_self_test_msgs
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/pr2-gbp/pr2_self_test-release.git
+      version: 1.0.12-0
+    source:
+      type: git
+      url: https://github.com/PR2/pr2_self_test.git
+      version: hydro-devel
+    status: maintained
   pr2_simulator:
     doc:
       type: git
@@ -8772,6 +8794,22 @@ repositories:
       url: https://github.com/SCU-RSL-ROS/radar_omnipresense-release.git
       version: 0.3.0-0
     status: developed
+  rail_manipulation_msgs:
+    doc:
+      type: git
+      url: https://github.com/GT-RAIL/rail_manipulation_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/gt-rail-release/rail_manipulation_msgs-release.git
+      version: 0.0.12-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/GT-RAIL/rail_manipulation_msgs.git
+      version: kinetic-devel
+    status: maintained
   random_numbers:
     doc:
       type: git
@@ -10560,7 +10598,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/xqms/rosmon-release.git
-      version: 1.0.8-0
+      version: 1.0.9-0
     source:
       type: git
       url: https://github.com/xqms/rosmon.git
@@ -12046,7 +12084,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/SteveMacenski/spatio_temporal_voxel_layer-release.git
-      version: 1.1.3-0
+      version: 1.1.4-2
     source:
       type: git
       url: https://github.com/SteveMacenski/spatio_temporal_voxel_layer.git
@@ -13511,7 +13549,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/velodyne-release.git
-      version: 1.3.0-0
+      version: 1.4.0-0
     source:
       type: git
       url: https://github.com/ros-drivers/velodyne.git
