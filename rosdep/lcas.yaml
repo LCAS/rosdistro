@@ -2,19 +2,22 @@ coinor-solvers:
   ubuntu: [coinor-libcbc-dev, coinor-libclp-dev, coinor-libcoinutils-dev, coinor-libcgl-dev, coinor-libosi-dev]
 cuda_latest:
   ubuntu:
-   xenial: [cuda, nvidia-modprobe]
+    xenial: [cuda, nvidia-modprobe]
 cuda_8_0:
   ubuntu:
-   xenial: [cuda-8-0, nvidia-modprobe]
+    xenial: [cuda-8-0, nvidia-modprobe]
 cuda_9_0:
   ubuntu:
-   xenial: [cuda-9-0, nvidia-modprobe]
+    xenial: [cuda-9-0, nvidia-modprobe]
 cuda_9_1:
   ubuntu:
-   xenial: [cuda-9-1, nvidia-modprobe]
+    xenial: [cuda-9-1, nvidia-modprobe]
 cuda_9_2:
   ubuntu:
-   xenial: [cuda-9-2, nvidia-modprobe]
+    xenial: [cuda-9-2, nvidia-modprobe]
+cudnn:
+  ubuntu:
+    xenial: [libcudnn7, libcudnn7-dev, cuda-10-0, nvidia-modprobe]
 cvb:
   ubuntu:
     xenial: [cvb-camerasuite-dev]
