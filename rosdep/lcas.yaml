@@ -17,7 +17,7 @@ cuda_9_2:
     xenial: [cuda-9-2, nvidia-modprobe]
 cudnn:
   ubuntu:
-    xenial: [libcudnn7, libcudnn7-dev, cuda-10-0, nvidia-modprobe]
+    xenial: [libcudnn7, libcudnn7-dev, nvidia-modprobe]
 cvb:
   ubuntu:
     xenial: [cvb-camerasuite-dev]
