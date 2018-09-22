@@ -488,7 +488,7 @@ repositories:
     source:
       type: git
       url: https://gitsvn-nt.oru.se/linder/rgbd_gpu_detector.git
-      version: master
+      version: iliad-master
     status: developed
   robomongo_ros:
     source:
