@@ -1038,6 +1038,13 @@ repositories:
       url: https://github.com/strands-project/twitter_bootstrap.git
       version: master
     status: maintained
+  uol_cmp9767m:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/CMP9767M.git
+      version: master
+    status: developed
   v4r:
     source:
       test_pull_requests: true
