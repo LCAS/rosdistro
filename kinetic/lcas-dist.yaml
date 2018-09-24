@@ -1039,6 +1039,13 @@ repositories:
       version: master
     status: maintained
   uol_cmp9767m:
+    release:
+      packages:
+      - uol_cmp9767m_base
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/CMP9767M.git
+      version: 0.0.1-0
     source:
       test_pull_requests: true
       type: git
