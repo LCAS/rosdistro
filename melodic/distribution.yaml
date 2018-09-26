@@ -1810,6 +1810,23 @@ repositories:
       url: https://github.com/ros-perception/laser_proc.git
       version: melodic-devel
     status: maintained
+  leap_motion:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/leap_motion.git
+      version: hydro
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/leap_motion-release.git
+      version: 0.0.13-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-drivers/leap_motion.git
+      version: hydro
+    status: developed
+    status_description: Slow development
   libg2o:
     release:
       tags:
@@ -2959,7 +2976,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/PilzDE/pilz_industrial_motion.git
-      version: melodic-devel
+      version: kinetic-devel
     release:
       packages:
       - pilz_extensions
@@ -2970,7 +2987,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/PilzDE/pilz_industrial_motion-release.git
-      version: 0.2.0-0
+      version: 0.2.1-0
     source:
       type: git
       url: https://github.com/PilzDE/pilz_industrial_motion.git
