@@ -4,6 +4,7 @@ set -x
 
 if [ $(id -u)  = "0" ]; then 
       echo "running as root"
+      export DEBIAN_FRONTEND=noninteractive
       SUDO=""
 else
       SUDO="sudo"
