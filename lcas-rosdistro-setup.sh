@@ -30,10 +30,15 @@ sudo apt-add-repository http://lcas.lincoln.ac.uk/ubuntu/main
 # update packages
 sudo apt-get update
 
-#  Read Restricted Repo Password
-echo -n "Type Password for L-CAS restricted repos (empty to skip):"
-read -s password
-echo
+
+if [ -z "$PS1" ]; then
+      echo This shell is not interactive
+else
+      #  Read Restricted Repo Password
+      echo -n "Type Password for L-CAS restricted repos (empty to skip):"
+      read -s password
+      echo
+fi
 
 if [ -z "$password" ]
 then
