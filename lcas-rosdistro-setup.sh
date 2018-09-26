@@ -71,7 +71,7 @@ rosdep update
 $SUDO apt-get install -y ssh openssh-server vim git python-pip tmux openvpn
 $SUDO pip install -U tmule 
 
-$SUDO curl -o /usr/local/bin/rmate https://raw.githubusercontent.com/aurora/rmate/master/rmate && sudo chmod +x /usr/local/bin/rmate
+$SUDO curl -o /usr/local/bin/rmate https://raw.githubusercontent.com/aurora/rmate/master/rmate && $SUDO chmod +x /usr/local/bin/rmate
 
 echo -e ""
 echo -e "Install finished. And remember: \"A pull/push a day keeps bugs away\""
