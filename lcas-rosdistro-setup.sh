@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 if [ $(id -u)  = "0" ]; then 
       echo "running as root"
       SUDO=""
