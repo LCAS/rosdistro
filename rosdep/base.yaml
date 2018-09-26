@@ -1682,6 +1682,12 @@ libev-dev:
   fedora: [libev-devel]
   gentoo: [dev-libs/libev]
   ubuntu: [libev-dev]
+libevdev-dev:
+  arch: [libevdev]
+  debian: [libevdev-dev]
+  fedora: [libevdev-devel]
+  gentoo: [dev-libs/libevdev]
+  ubuntu: [libevdev-dev]
 libexpat1-dev:
   arch: [expat]
   debian: [libexpat1-dev]
@@ -4035,6 +4041,12 @@ ocl-icd-opencl-dev:
   debian: [ocl-icd-opencl-dev]
   gentoo: [virtual/opencl]
   ubuntu: [ocl-icd-opencl-dev]
+odb:
+  debian: [odb]
+  fedora: [odb]
+  ubuntu:
+    '*': [odb]
+    trusty: null
 omniidl:
   arch: [omniorb]
   debian: [omniidl, omniorb-idl]
