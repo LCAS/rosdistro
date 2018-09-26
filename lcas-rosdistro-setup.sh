@@ -11,7 +11,7 @@ else
 fi
 
 $SUDO apt-get update
-$SUDO apt-get install lsb-release curl python-software-properties software-properties-common
+$SUDO apt-get install -y lsb-release curl python-software-properties software-properties-common
 
 # ROS base install
 
