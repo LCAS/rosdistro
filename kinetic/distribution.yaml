@@ -580,6 +580,16 @@ repositories:
       type: git
       url: https://github.com/joaoquintas/auction_methods_stack.git
       version: master
+  audibot:
+    release:
+      packages:
+      - audibot
+      - audibot_description
+      - audibot_gazebo
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/robustify/audibot-release.git
+      version: 0.1.0-0
   audio_common:
     doc:
       type: git
@@ -3790,6 +3800,21 @@ repositories:
       url: https://github.com/fkanehiro/hrpsys-base.git
       version: master
     status: developed
+  hsr_description:
+    doc:
+      type: git
+      url: https://github.com/ToyotaResearchInstitute/hsr_description.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ToyotaResearchInstitute/hsr_description-release.git
+      version: 1.1.0-0
+    source:
+      type: git
+      url: https://github.com/ToyotaResearchInstitute/hsr_description.git
+      version: master
+    status: maintained
   hsr_meshes:
     doc:
       type: git
@@ -3939,6 +3964,17 @@ repositories:
       url: https://github.com/ethz-adrl/ifopt.git
       version: master
     status: developed
+  igvc_self_drive_sim:
+    release:
+      packages:
+      - igvc_self_drive_description
+      - igvc_self_drive_gazebo
+      - igvc_self_drive_gazebo_plugins
+      - igvc_self_drive_sim
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/robustify/igvc_self_drive_sim-release.git
+      version: 0.1.0-0
   image_common:
     doc:
       type: git
@@ -8494,7 +8530,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stonier/py_trees.git
-      version: devel
+      version: release/0.5-kinetic
     status: developed
   py_trees_msgs:
     doc:
@@ -8855,6 +8891,16 @@ repositories:
       url: https://github.com/bberrevoets/raspi_temperature.git
       version: master
     status: maintained
+  raspicat_ros:
+    doc:
+      type: git
+      url: https://github.com/rt-net/raspicat_ros.git
+      version: kinetic-devel
+    source:
+      type: git
+      url: https://github.com/rt-net/raspicat_ros.git
+      version: kinetic-devel
+    status: developed
   raspigibbon_apps:
     doc:
       type: git
