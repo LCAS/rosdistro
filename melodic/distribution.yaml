@@ -1011,6 +1011,13 @@ repositories:
       url: https://github.com/introlab/find-object.git
       version: melodic-devel
     status: maintained
+  flatbuffers:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/yujinrobot-release/flatbuffers-release.git
+      version: 1.1.0-0
+    status: maintained
   fmi_adapter:
     release:
       packages:
@@ -1453,7 +1460,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/robustify/igvc_self_drive_sim-release.git
-      version: 0.1.0-0
+      version: 0.1.4-1
   image_common:
     doc:
       type: git
@@ -2469,6 +2476,13 @@ repositories:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
       version: master
+    status: maintained
+  nanomsg:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/yujinrobot-release/nanomsg-release.git
+      version: 0.4.1-0
     status: maintained
   navigation:
     doc:
@@ -3982,6 +3996,21 @@ repositories:
       url: https://github.com/ros/ros_environment.git
       version: melodic
     status: maintained
+  ros_pytest:
+    doc:
+      type: git
+      url: https://github.com/machinekoder/ros_pytest.git
+      version: 0.1.0
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/machinekoder/ros_pytest-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/machinekoder/ros_pytest.git
+      version: melodic-devel
+    status: developed
   ros_tutorials:
     doc:
       type: git
