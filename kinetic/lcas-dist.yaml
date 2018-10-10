@@ -990,6 +990,13 @@ repositories:
       url: https://github.com/LCAS/Thorvald.git
       version: kinetic-devel
     status: developed
+  tradr_uol:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/tradr_uol.git
+      version: master
+    status: maintained
   turtlebot_apps:
     release:
       packages:
