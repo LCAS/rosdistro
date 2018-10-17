@@ -3,6 +3,12 @@ ace:
   debian: [libace-dev]
   gentoo: [dev-libs/ace]
   ubuntu: [libace-dev]
+ack-grep:
+  arch: [ack]
+  debian: [ack-grep]
+  fedora: [ack]
+  gentoo: [sys-apps/ack]
+  ubuntu: [ack-grep]
 acpi:
   debian: [acpi]
   fedora: [acpi]
@@ -2488,6 +2494,8 @@ libopenvdb:
     stretch: [libopenvdb3.2]
   gentoo: [media-gfx/openvdb]
   ubuntu:
+    artful: [libopenvdb3.2]
+    bionic: [libopenvdb5.0]
     saucy: [libopenvdb1.1]
     trusty: [libopenvdb2.1]
     utopic: [libopenvdb2.3]
@@ -3638,6 +3646,14 @@ libzmq3-dev:
 libzmqpp3:
   gentoo: [net-libs/cppzmq]
   ubuntu: [libzmqpp3]
+libzstd-dev:
+  arch: [zstd]
+  debian: [libzstd-dev]
+  fedora: [libzstd-devel]
+  gentoo: [app-arch/zstd]
+  ubuntu:
+    '*': [libzstd-dev]
+    xenial: [libzstd1-dev]
 linphone:
   debian: [linphone]
   fedora: [linphone]

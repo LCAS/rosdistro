@@ -618,6 +618,12 @@ python-cairo:
     slackpkg:
       packages: [pycairo]
   ubuntu: [python-cairo]
+python-cairosvg:
+  arch: [python2-cairosvg]
+  debian: [python-cairosvg]
+  fedora: [python-cairosvg]
+  gentoo: [media-gfx/cairosvg]
+  ubuntu: [python-cairosvg]
 python-can:
   alpine:
     pip:
@@ -1781,6 +1787,12 @@ python-jira-pip:
   ubuntu:
     pip:
       packages: [jira]
+python-joblib:
+  arch: [python2-joblib]
+  debian: [python-joblib]
+  fedora: [python-joblib]
+  gentoo: [dev-python/joblib]
+  ubuntu: [python-joblib]
 python-jsonpyes-pip:
   debian:
     pip:
@@ -2945,6 +2957,10 @@ python-pytest-qt-pip:
   ubuntu:
     pip:
       packages: [pytest-qt]
+python-pytides-pip:
+  ubuntu:
+    pip:
+      packages: [pytides]
 python-pytz-pip:
   ubuntu:
     pip:
@@ -4523,6 +4539,9 @@ python3-nose:
   debian: [python3-nose]
   gentoo: [dev-python/nose]
   ubuntu: [python3-nose]
+python3-nose-yanc:
+  debian: [python3-nose-yanc]
+  ubuntu: [python3-nose-yanc]
 python3-numpy:
   debian: [python3-numpy]
   gentoo: [dev-python/numpy]
@@ -4574,6 +4593,15 @@ python3-setuptools:
   debian: [python3-setuptools]
   gentoo: [dev-python/setuptools]
   ubuntu: [python3-setuptools]
+python3-sphinx:
+  debian: [python3-sphinx]
+  ubuntu: [python3-sphinx]
+python3-sphinx-argparse:
+  debian: [python3-sphinx-argparse]
+  ubuntu: [python3-sphinx-argparse]
+python3-sphinx-rtd-theme:
+  debian: [python3-sphinx-rtd-theme]
+  ubuntu: [python3-sphinx-rtd-theme]
 python3-venv:
   debian: [python3-venv]
   ubuntu: [python3-venv]
