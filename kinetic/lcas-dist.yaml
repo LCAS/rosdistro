@@ -29,6 +29,13 @@ repositories:
       url: https://github.com/LCAS/bayestracking.git
       version: master
     status: developed
+  catkin_simple:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/catkin_simple.git
+      version: master
+    status: developed
   cliff_map:
     release:
       packages:
