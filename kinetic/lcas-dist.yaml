@@ -30,6 +30,11 @@ repositories:
       version: master
     status: developed
   catkin_simple:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/catkin_simple.git
+      version: 0.2.0-0
     source:
       test_pull_requests: true
       type: git
