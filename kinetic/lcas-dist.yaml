@@ -438,6 +438,13 @@ repositories:
       url: https://github.com/OrebroUniversity/navigation_oru-release.git
       version: master
     status: developed
+  pcl_catkin_c11:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/pcl_catkin.git
+      version: lcas_c11
+    status: maintained
   pcl_detector:
     release:
       packages:
