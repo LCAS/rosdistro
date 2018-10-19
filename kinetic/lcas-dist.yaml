@@ -439,6 +439,11 @@ repositories:
       version: master
     status: developed
   pcl_catkin_c11:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/pcl_catkin.git
+      version: 1.8.2-0
     source:
       test_pull_requests: true
       type: git
