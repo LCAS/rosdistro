@@ -1935,7 +1935,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/DataspeedInc-release/lusb-release.git
-      version: 1.0.10-0
+      version: 1.1.0-0
     source:
       type: hg
       url: https://bitbucket.org/dataspeedinc/lusb
@@ -2048,7 +2048,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_messages-release.git
-      version: 0.7.0-0
+      version: 0.8.0-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
@@ -2835,7 +2835,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/openni2_camera-release.git
-      version: 0.3.0-0
+      version: 0.4.1-0
     source:
       type: git
       url: https://github.com/ros-drivers/openni2_camera.git
@@ -4000,7 +4000,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/code-iai-release/ros_emacs_utils-release.git
-      version: 0.4.12-0
+      version: 0.4.13-0
     source:
       type: git
       url: https://github.com/code-iai/ros_emacs_utils.git
@@ -4228,6 +4228,31 @@ repositories:
     source:
       type: git
       url: https://github.com/ros/roslisp.git
+      version: master
+    status: maintained
+  roslisp_common:
+    doc:
+      type: git
+      url: https://github.com/ros/roslisp_common.git
+      version: master
+    release:
+      packages:
+      - actionlib_lisp
+      - cl_tf
+      - cl_tf2
+      - cl_transforms
+      - cl_transforms_stamped
+      - cl_urdf
+      - cl_utils
+      - roslisp_common
+      - roslisp_utilities
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/roslisp_common-release.git
+      version: 0.2.10-0
+    source:
+      type: git
+      url: https://github.com/ros/roslisp_common.git
       version: master
     status: maintained
   rosmon:
@@ -5579,7 +5604,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/velodyne-release.git
-      version: 1.4.0-0
+      version: 1.5.0-0
     source:
       type: git
       url: https://github.com/ros-drivers/velodyne.git
@@ -5727,7 +5752,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/warehouse_ros-release.git
-      version: 0.9.0-0
+      version: 0.9.1-0
     source:
       type: git
       url: https://github.com/ros-planning/warehouse_ros.git
