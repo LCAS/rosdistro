@@ -489,6 +489,16 @@ repositories:
       url: https://github.com/lcas/people_detection.git
       version: kinetic-devel
     status: maintained
+  perception_pcl_c11:
+    release:
+      packages:
+      - pcl_ros_c11
+      - perception_pcl_c11
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/perception_pcl_c11.git
+      version: 1.4.5-0
+    status: maintained
   persistent_topics:
     release:
       tags:
