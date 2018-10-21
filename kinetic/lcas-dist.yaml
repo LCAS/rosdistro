@@ -455,7 +455,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/lcas-releases/pcl_conversions.git
-      version: 0.2.2-0
+      version: 0.2.3-0
     status: maintained
   pcl_detector:
     release:
