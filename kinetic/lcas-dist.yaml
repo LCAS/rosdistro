@@ -450,6 +450,13 @@ repositories:
       url: https://github.com/LCAS/pcl_catkin.git
       version: lcas_c11
     status: maintained
+  pcl_conversions_c11:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/pcl_conversions.git
+      version: 0.2.2-0
+    status: maintained
   pcl_detector:
     release:
       packages:
