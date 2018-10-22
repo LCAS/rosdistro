@@ -332,6 +332,13 @@ repositories:
       version: master
     status: developed
   marvelmind_nav_lcas:
+    release:
+      packages:
+      - marvelmind_nav
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/ros_marvelmind_package.git
+      version: 1.0.9-0
     source:
       test_pull_requests: true
       type: git
