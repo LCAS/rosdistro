@@ -355,6 +355,13 @@ repositories:
       url: https://github.com/strands-project/mongodb_store.git
       version: kinetic-devel
     status: developed
+  ncnr_uol:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/NCNR.git
+      version: master
+    status: developed
   ndt_core:
     release:
       packages:
