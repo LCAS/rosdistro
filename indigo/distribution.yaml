@@ -2548,7 +2548,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/DataspeedInc-release/dbw_mkz_ros-release.git
-      version: 1.0.13-0
+      version: 1.0.17-0
     source:
       type: hg
       url: https://bitbucket.org/dataspeedinc/dbw_mkz_ros
@@ -7480,7 +7480,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 0.7.13-0
+      version: 0.7.14-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit.git
@@ -7542,13 +7542,14 @@ repositories:
       version: indigo-devel
     release:
       packages:
+      - moveit_full_pr2
       - moveit_pr2
       - pr2_moveit_config
       - pr2_moveit_plugins
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_pr2-release.git
-      version: 0.6.6-0
+      version: 0.7.15-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_pr2.git
@@ -11251,7 +11252,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/roboception-gbp/rc_visard-release.git
-      version: 2.4.0-0
+      version: 2.4.2-0
     source:
       test_pull_requests: true
       type: git
