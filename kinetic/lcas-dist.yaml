@@ -952,6 +952,18 @@ repositories:
       version: master
     status: developed
   strands_recovery_behaviours:
+    release:
+      packages:
+      - backoff_behaviour
+      - backtrack_behaviour
+      - strands_human_help
+      - strands_monitored_nav_states
+      - strands_recovery_behaviours
+      - walking_group_recovery
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_recovery_behaviours.git
+      version: 0.1.0-0
     source:
       test_pull_requests: true
       type: git
