@@ -1058,6 +1058,31 @@ repositories:
       version: kinetic-devel
     status: developed
   tradr_uol:
+    release:
+      packages:
+      - exploration_msgs
+      - ms_octomap_mapping
+      - ms_octomap_server
+      - networkanalysis_msgs
+      - nifti_launchers
+      - nifti_robot_description
+      - nifti_robot_driver_msgs
+      - nifti_teleop
+      - patrolling_build_graph_msgs
+      - robot_trajectory_saver_msgs
+      - stamped_msgs
+      - tradr_path_planner
+      - tradr_path_planner_rviz_wp_plugin
+      - tradr_trajectory_control
+      - tradr_trajectory_control_msgs
+      - vrep_common
+      - vrep_ugv_plugin
+      - vrep_ugv_simulation
+      - wireless_network_msgs
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/tradr_uol.git
+      version: 1.0.6-0
     source:
       test_pull_requests: true
       type: git
