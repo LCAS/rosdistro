@@ -535,16 +535,18 @@ repositories:
     release:
       packages:
       - rasberry
-      - rasberry_actors
       - rasberry_bringup
+      - rasberry_coordination
       - rasberry_des
       - rasberry_gazebo
       - rasberry_move_base
       - rasberry_navigation
+      - rasberry_people_perception
+      - rasberry_uv
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/lcas-releases/rasberry.git
-      version: 0.0.4-0
+      version: 0.1.0-0
     source:
       test_pull_requests: true
       type: git
