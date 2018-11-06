@@ -819,7 +819,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_executive.git
-      version: indigo-devel
+      version: kinetic-devel
     status: developed
   strands_executive_behaviours:
     source:
