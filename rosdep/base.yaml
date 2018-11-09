@@ -404,6 +404,7 @@ clang-format:
   debian:
     buster: [clang-format]
     stretch: [clang-format]
+  fedora: [clang]
   gentoo: [sys-devel/clang]
   ubuntu: [clang-format]
 clang-tidy:
@@ -1797,6 +1798,7 @@ libfreetype6:
   ubuntu: [libfreetype6]
 libfreetype6-dev:
   debian: [libfreetype6-dev]
+  fedora: [freetype-devel]
   gentoo: [media-libs/freetype]
   ubuntu: [libfreetype6-dev]
 libftdi-dev:
@@ -3783,6 +3785,10 @@ mapnik-utils:
   debian: [mapnik-utils]
   fedora: [mapnik-utils]
   ubuntu: [mapnik-utils]
+matio:
+  debian: [libmatio-dev]
+  fedora: [matio-devel]
+  ubuntu: [libmatio-dev]
 maven:
   arch: [maven]
   debian: [maven]
@@ -5009,6 +5015,12 @@ unzip:
     slackpkg:
       packages: [infozip]
   ubuntu: [unzip]
+usbutils:
+  debian: [usbutils]
+  fedora: [usbutils]
+  gentoo: [sys-apps/usbutils]
+  macports: [usbutils]
+  ubuntu: [usbutils]
 uuid:
   arch: [util-linux]
   debian: [uuid-dev]

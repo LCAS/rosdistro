@@ -172,6 +172,7 @@ pydocstyle:
   debian:
     buster: [pydocstyle]
     stretch: [pydocstyle]
+  fedora: [python3-pydocstyle]
   gentoo: [dev-python/pydocstyle]
   ubuntu:
     artful: [pydocstyle]
@@ -182,6 +183,7 @@ pyflakes3:
   debian:
     buster: [pyflakes3]
     stretch: [pyflakes3]
+  fedora: [python3-pyflakes]
   gentoo: [dev-python/pyflakes]
   ubuntu:
     artful: [pyflakes3]
@@ -754,6 +756,10 @@ python-catkin-tools:
     pip:
       packages: [catkin_tools]
   ubuntu: [python-catkin-tools]
+python-cbor:
+  debian: [python-cbor]
+  gentoo: [dev-python/cbor]
+  ubuntu: [python-cbor]
 python-celery:
   debian: [python-celery]
   fedora: [python-celery]
@@ -1305,6 +1311,10 @@ python-flask-restful:
         packages: [flask-restful]
     xenial: [python-flask-restful]
     yakkety: [python-flask-restful]
+python-flatdict-pip:
+  ubuntu:
+    pip:
+      packages: [flatdict]
 python-freezegun-pip:
   debian:
     pip:
@@ -1953,6 +1963,10 @@ python-marshmallow:
   ubuntu:
     pip:
       packages: [marshmallow]
+python-math3d-pip:
+  ubuntu:
+    pip:
+      packages: [math3d]
 python-matplotlib:
   arch: [python2-matplotlib]
   debian: [python-matplotlib]
@@ -2533,6 +2547,11 @@ python-plyfile-pip:
 python-poster:
   debian: [python-poster]
   ubuntu: [python-poster]
+python-prettytable:
+  debian: [python-prettytable]
+  fedora: [python-prettytable]
+  gentoo: [dev-python/prettytable]
+  ubuntu: [python-prettytable]
 python-progressbar:
   debian: [python-progressbar]
   fedora: [python-progressbar]
@@ -2974,6 +2993,19 @@ python-pytides-pip:
   ubuntu:
     pip:
       packages: [pytides]
+python-pytorch-pip:
+  debian:
+    pip:
+      packages: [torch, torchvision]
+  fedora:
+    pip:
+      packages: [torch, torchvision]
+  osx:
+    pip:
+      packages: [torch, torchvision]
+  ubuntu:
+    pip:
+      packages: [torch, torchvision]
 python-pytz-pip:
   ubuntu:
     pip:
@@ -4064,6 +4096,10 @@ python-tk:
     vivid_python3: [python3-tk]
     wily_python3: [python3-tk]
     xenial_python3: [python3-tk]
+python-toml:
+  debian: [python-toml]
+  fedora: [python-toml]
+  ubuntu: [python-toml]
 python-tornado:
   arch: [python-tornado]
   debian: [python-tornado]
@@ -4327,6 +4363,12 @@ python-webob:
   fedora: [python-webob]
   gentoo: [dev-python/webob]
   ubuntu: [python-webob]
+python-webpy:
+  arch: [python2-webpy]
+  debian: [python-webpy]
+  fedora: [python-webpy]
+  gentoo: [dev-python/webpy]
+  ubuntu: [python-webpy]
 python-websocket:
   debian: [python-websocket]
   fedora: [python-websocket-client]
@@ -4376,6 +4418,9 @@ python-wheel:
   fedora: [python-wheel]
   gentoo: [dev-python/wheel]
   ubuntu: [python-wheel]
+python-ws4py:
+  debian: [python-ws4py]
+  ubuntu: [python-ws4py]
 python-ws4py-pip:
   ubuntu:
     pip:
@@ -4514,6 +4559,7 @@ python3-empy:
     buster: [python3-empy]
     jessie: [python3-empy]
     stretch: [python3-empy]
+  fedora: [python3-empy]
   gentoo: [dev-python/empy]
   ubuntu: [python3-empy]
 python3-flake8:
@@ -4521,6 +4567,7 @@ python3-flake8:
     buster: [python3-flake8]
     jessie: [python3-flake8]
     stretch: [python3-flake8]
+  fedora: [python3-flake8]
   gentoo: [dev-python/flake8]
   ubuntu: [python3-flake8]
 python3-gitlab:
@@ -4569,10 +4616,12 @@ python3-pep8:
     buster: [python3-pep8]
     jessie: [python3-pep8]
     stretch: [python3-pep8]
+  fedora: [python3-pep8]
   gentoo: [dev-python/pep8]
   ubuntu: [python3-pep8]
 python3-pkg-resources:
   debian: [python3-pkg-resources]
+  fedora: [python3-setuptools]
   gentoo: [dev-python/setuptools]
   ubuntu: [python3-pkg-resources]
 python3-pydot:
@@ -4601,6 +4650,7 @@ python3-pyparsing:
 python3-pytest:
   arch: [python-pytest]
   debian: [python3-pytest]
+  fedora: [python3-pytest]
   gentoo: [dev-python/pytest]
   ubuntu: [python3-pytest]
 python3-qt5-bindings:
@@ -4624,6 +4674,7 @@ python3-ruamel.yaml:
     zesty: [python3-ruamel.yaml]
 python3-setuptools:
   debian: [python3-setuptools]
+  fedora: [python3-setuptools]
   gentoo: [dev-python/setuptools]
   ubuntu: [python3-setuptools]
 python3-sphinx:
@@ -4635,11 +4686,17 @@ python3-sphinx-argparse:
 python3-sphinx-rtd-theme:
   debian: [python3-sphinx-rtd-theme]
   ubuntu: [python3-sphinx-rtd-theme]
+python3-termcolor:
+  debian: [python3-termcolor]
+  fedora: [python3-termcolor]
+  gentoo: [dev-python/termcolor]
+  ubuntu: [python3-termcolor]
 python3-venv:
   debian: [python3-venv]
   ubuntu: [python3-venv]
 python3-yaml:
   debian: [python3-yaml]
+  fedora: [python3-PyYAML]
   gentoo: [dev-python/pyyaml]
   ubuntu: [python3-yaml]
 rosbag-metadata-pip:
