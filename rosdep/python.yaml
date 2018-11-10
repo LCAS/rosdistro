@@ -132,6 +132,15 @@ ipython:
     vivid: [ipython]
     wily: [ipython]
     xenial: [ipython]
+jupyter-notebook:
+  debian:
+    '*': [jupyter-notebook]
+    jessie: [ipython-notebook]
+  fedora: [python3-notebook]
+  ubuntu:
+    '*': [jupyter-notebook]
+    trusty: [ipython-notebook]
+    xenial: [ipython-notebook]
 libgv-python:
   debian: [libgv-python]
   ubuntu: [libgv-python]
@@ -1266,6 +1275,7 @@ python-flake8:
     '*': [python-flake8]
     trusty_python3: [python3-flake8]
 python-flask:
+  arch: [python-flask]
   debian: [python-flask]
   fedora: [python-flask]
   gentoo: [dev-python/flask]
