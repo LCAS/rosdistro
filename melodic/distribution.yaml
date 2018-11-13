@@ -55,6 +55,21 @@ repositories:
       url: https://github.com/ros/actionlib.git
       version: indigo-devel
     status: maintained
+  adi_driver:
+    doc:
+      type: git
+      url: https://github.com/tork-a/adi_driver.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/tork-a/adi_driver-release.git
+      version: 1.0.3-0
+    source:
+      type: git
+      url: https://github.com/tork-a/adi_driver.git
+      version: master
+    status: developed
   agni_tf_tools:
     doc:
       type: git
@@ -2135,7 +2150,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2018.10.10-0
+      version: 2018.11.11-0
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -2156,7 +2171,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.26.3-0
+      version: 0.27.0-0
     source:
       test_pull_requests: true
       type: git
@@ -2676,7 +2691,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/nerian-vision/nerian_stereo-release.git
-      version: 3.0.2-0
+      version: 3.1.0-0
     source:
       type: git
       url: https://github.com/nerian-vision/nerian_stereo.git
@@ -2765,6 +2780,24 @@ repositories:
       url: https://github.com/swri-robotics/novatel_gps_driver.git
       version: master
     status: developed
+  novatel_span_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/novatel_span_driver.git
+      version: master
+    release:
+      packages:
+      - novatel_msgs
+      - novatel_span_driver
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/novatel_span_driver-release.git
+      version: 1.1.0-0
+    source:
+      type: git
+      url: https://github.com/ros-drivers/novatel_span_driver.git
+      version: master
+    status: maintained
   object_recognition_msgs:
     release:
       tags:
@@ -2876,6 +2909,17 @@ repositories:
       url: https://github.com/ros-perception/opencv_apps.git
       version: indigo
     status: developed
+  openhrp3:
+    doc:
+      type: git
+      url: https://github.com/fkanehiro/openhrp3.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/tork-a/openhrp3-release.git
+      version: 3.1.9-0
+    status: maintained
   openni2_camera:
     doc:
       type: git
@@ -2924,6 +2968,17 @@ repositories:
       url: https://github.com/tork-a/openrtm_aist-release.git
       version: 1.1.2-3
     status: developed
+  openrtm_aist_python:
+    doc:
+      type: git
+      url: https://github.com/tork-a/openrtm_aist_python-release.git
+      version: release/hydro/openrtm_aist_python
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/tork-a/openrtm_aist_python-release.git
+      version: 1.1.0-0
+    status: maintained
   orb_slam2_ros:
     doc:
       type: git
@@ -3191,7 +3246,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 1.8.4-0
+      version: 1.9.0-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -4212,7 +4267,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/rosconsole-release.git
-      version: 1.13.7-0
+      version: 1.13.9-0
     source:
       test_pull_requests: true
       type: git
