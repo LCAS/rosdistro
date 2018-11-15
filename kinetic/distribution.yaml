@@ -2863,11 +2863,10 @@ repositories:
       - franka_msgs
       - franka_ros
       - franka_visualization
-      - panda_moveit_config
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/frankaemika/franka_ros-release.git
-      version: 0.6.0-0
+      version: 0.6.0-1
     source:
       type: git
       url: https://github.com/frankaemika/franka_ros.git
@@ -5938,7 +5937,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/uos-gbp/move_base_flex-release.git
-      version: 0.2.2-0
+      version: 0.2.3-0
     source:
       type: git
       url: https://github.com/magazino/move_base_flex.git
@@ -6823,7 +6822,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/nerian-vision/nerian_stereo-release.git
-      version: 3.1.0-0
+      version: 3.1.1-0
     source:
       type: git
       url: https://github.com/nerian-vision/nerian_stereo.git
@@ -7736,6 +7735,21 @@ repositories:
       url: https://github.com/astuff/pacmod_game_control.git
       version: release
     status: developed
+  panda_moveit_config:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/panda_moveit_config.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/panda_moveit_config-release.git
+      version: 0.7.0-1
+    source:
+      type: git
+      url: https://github.com/ros-planning/panda_moveit_config.git
+      version: kinetic-devel
+    status: maintained
   parameter_pa:
     doc:
       type: git
@@ -10646,7 +10660,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/xqms/rosfmt-release.git
-      version: 5.2.2-0
+      version: 6.0.0-0
     source:
       test_pull_requests: true
       type: git

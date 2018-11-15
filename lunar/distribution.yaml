@@ -2233,7 +2233,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/uos-gbp/move_base_flex-release.git
-      version: 0.2.2-0
+      version: 0.2.3-0
     source:
       type: git
       url: https://github.com/magazino/move_base_flex.git
@@ -2593,7 +2593,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/nerian-vision/nerian_stereo-release.git
-      version: 3.1.0-0
+      version: 3.1.1-0
     source:
       type: git
       url: https://github.com/nerian-vision/nerian_stereo.git
