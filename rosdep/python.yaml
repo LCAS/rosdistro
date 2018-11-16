@@ -1636,6 +1636,21 @@ python-gridfs:
     saucy: [python-gridfs]
     trusty: [python-gridfs]
     trusty_python3: [python3-gridfs]
+python-grpc-tools:
+  debian:
+    '*': [python-grpc-tools]
+    jessie:
+      pip: [grpcio-tools]
+    stretch:
+      pip: [grpcio-tools]
+  ubuntu:
+    '*': [python-grpc-tools]
+    bionic:
+      pip: [grpcio-tools]
+    trusty:
+      pip: [grpcio-tools]
+    xenial:
+      pip: [grpcio-tools]
 python-grpcio:
   debian:
     '*': [python-grpcio]
@@ -1735,7 +1750,10 @@ python-hypothesis:
 python-imaging:
   alpine: [py-imaging]
   arch: [python2-pillow]
-  debian: [python-imaging]
+  debian:
+    '*': [python-pil]
+    jessie:  [python-imaging]
+    stretch: [python-imaging]
   fedora:
     '21': [python-pillow, python-pillow-qt]
     '22': [python-pillow, python-pillow-qt]
@@ -1761,8 +1779,8 @@ python-imaging:
     slackpkg:
       packages: [python-pillow]
   ubuntu:
+    '*': [python-pil]
     artful: [python-imaging]
-    bionic: [python-pil]
     lucid: [python-imaging]
     maverick: [python-imaging]
     natty: [python-imaging]
