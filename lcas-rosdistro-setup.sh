@@ -68,7 +68,7 @@ mkdir -p ~/.config/rosdistro && echo "index_url: https://raw.github.com/lcas/ros
 rosdep update
 
 # Nice things
-$SUDO apt-get install -y ssh openssh-server vim git python-pip tmux openvpn
+$SUDO apt-get install -y ssh openssh-server vim git python-pip tmux openvpn python-wstool
 $SUDO pip install -U tmule 
 
 $SUDO curl -o /usr/local/bin/rmate https://raw.githubusercontent.com/aurora/rmate/master/rmate && $SUDO chmod +x /usr/local/bin/rmate
