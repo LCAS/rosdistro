@@ -97,3 +97,5 @@ theano:
   ubuntu: [python-theano]
 tmule:
   ubuntu: [python-tmule]
+x11vnc:
+  ubuntu: [x11vnc]
