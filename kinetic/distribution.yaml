@@ -2006,6 +2006,25 @@ repositories:
       url: https://bitbucket.org/DataspeedInc/dataspeed_pds
       version: default
     status: developed
+  dataspeed_ulc_ros:
+    doc:
+      type: git
+      url: https://bitbucket.org/DataspeedInc/dataspeed_ulc_ros.git
+      version: master
+    release:
+      packages:
+      - dataspeed_ulc
+      - dataspeed_ulc_can
+      - dataspeed_ulc_msgs
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/DataspeedInc-release/dataspeed_ulc_ros-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://bitbucket.org/DataspeedInc/dataspeed_ulc_ros.git
+      version: master
+    status: developed
   dbw_fca_ros:
     doc:
       type: hg
@@ -2021,7 +2040,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/DataspeedInc-release/dbw_fca_ros-release.git
-      version: 0.0.2-0
+      version: 1.0.0-0
     source:
       type: hg
       url: https://bitbucket.org/DataspeedInc/dbw_fca_ros
@@ -2043,7 +2062,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/DataspeedInc-release/dbw_mkz_ros-release.git
-      version: 1.0.17-0
+      version: 1.1.0-0
     source:
       type: hg
       url: https://bitbucket.org/dataspeedinc/dbw_mkz_ros
@@ -5736,7 +5755,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 2.6.0-0
+      version: 2.7.0-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_common.git
@@ -9780,6 +9799,42 @@ repositories:
       url: https://github.com/ros/robot_model.git
       version: kinetic-devel
     status: maintained
+  robot_navigation:
+    doc:
+      type: git
+      url: https://github.com/locusrobotics/robot_navigation.git
+      version: master
+    release:
+      packages:
+      - costmap_queue
+      - dlux_global_planner
+      - dlux_plugins
+      - dwb_critics
+      - dwb_local_planner
+      - dwb_msgs
+      - dwb_plugins
+      - global_planner_tests
+      - locomotor
+      - locomotor_msgs
+      - locomove_base
+      - nav_2d_msgs
+      - nav_2d_utils
+      - nav_core2
+      - nav_core_adapter
+      - nav_grid
+      - nav_grid_iterators
+      - nav_grid_pub_sub
+      - robot_navigation
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/locusrobotics/robot_navigation-release.git
+      version: 0.2.2-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/locusrobotics/robot_navigation.git
+      version: master
+    status: developed
   robot_pose_publisher:
     doc:
       type: git
@@ -14017,23 +14072,19 @@ repositories:
       - uuv_gazebo_plugins
       - uuv_gazebo_ros_plugins
       - uuv_gazebo_ros_plugins_msgs
-      - uuv_sensor_plugins_ros_msgs
       - uuv_sensor_ros_plugins
+      - uuv_sensor_ros_plugins_msgs
       - uuv_simulator
       - uuv_teleop
       - uuv_thruster_manager
       - uuv_trajectory_control
-      - uuv_tutorial_disturbances
-      - uuv_tutorial_dp_controller
-      - uuv_tutorial_seabed_world
-      - uuv_tutorials
       - uuv_world_plugins
       - uuv_world_ros_plugins
       - uuv_world_ros_plugins_msgs
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/uuvsimulator/uuv_simulator-release.git
-      version: 0.6.1-0
+      version: 0.6.2-0
     source:
       type: git
       url: https://github.com/uuvsimulator/uuv_simulator.git
