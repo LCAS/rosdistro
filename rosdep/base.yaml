@@ -2687,6 +2687,7 @@ libpqxx:
   gentoo: [dev-libs/libpqxx]
   ubuntu:
     artful: [libpqxx-4.0v5]
+    bionic: [libpqxx-4.0v5]
     lucid: [libpqxx-3.0]
     maverick: [libpqxx-3.0]
     natty: [libpqxx-3.0]
@@ -2708,6 +2709,7 @@ libpqxx-dev:
   gentoo: [dev-libs/libpqxx]
   ubuntu:
     artful: [libpqxx-dev]
+    bionic: [libpqxx-dev]
     lucid: [libpqxx3-dev]
     maverick: [libpqxx3-dev]
     natty: [libpqxx3-dev]
@@ -3133,6 +3135,11 @@ libswscale-dev:
   fedora: [ffmpeg-devel]
   gentoo: [virtual/ffmpeg]
   ubuntu: [libswscale-dev]
+libsystemd-dev:
+  debian: [libsystemd-dev]
+  ubuntu:
+    '*': [libsystemd-dev]
+    trusty: null
 libtclap-dev:
   arch: [tclap]
   debian: [libtclap-dev]
@@ -3414,6 +3421,7 @@ libvtk:
   macports: [vtk-devel]
   opensuse: [vtk-devel]
   ubuntu:
+    '*': [libvtk6-dev]
     lucid: [libvtk5-dev]
     maverick: [libvtk5-dev]
     natty: [libvtk5-dev]
@@ -3426,7 +3434,6 @@ libvtk:
     utopic: [libvtk5-dev]
     vivid: [libvtk5-dev]
     wily: [libvtk5-dev]
-    xenial: [libvtk6-dev]
 libvtk-java:
   arch: [vtk]
   debian:
@@ -3440,8 +3447,7 @@ libvtk-java:
   opensuse: [vtk-java]
   slackware: [VTK]
   ubuntu:
-    artful: [libvtk6-java]
-    bionic: [libvtk6-java]
+    '*': [libvtk6-java]
     lucid: [libvtk-java]
     precise: [libvtk-java]
     quantal: [libvtk-java]
@@ -3452,8 +3458,6 @@ libvtk-java:
     vivid: [libvtk-java]
     wily: [libvtk-java]
     xenial: [libvtk-java]
-    yakkety: [libvtk6-java]
-    zesty: [libvtk6-java]
 libvtk-qt:
   arch: [vtk]
   debian:
@@ -3467,8 +3471,7 @@ libvtk-qt:
   opensuse: [vtk-qt]
   slackware: [VTK]
   ubuntu:
-    artful: [libvtk6-qt-dev]
-    bionic: [libvtk6-qt-dev]
+    '*': [libvtk6-qt-dev]
     lucid: [libvtk5-qt4-dev]
     maverick: [libvtk5-qt4-dev]
     natty: [libvtk5-qt4-dev]
@@ -3481,9 +3484,6 @@ libvtk-qt:
     utopic: [libvtk5-qt4-dev]
     vivid: [libvtk5-qt4-dev]
     wily: [libvtk5-qt4-dev]
-    xenial: [libvtk6-qt-dev]
-    yakkety: [libvtk6-qt-dev]
-    zesty: [libvtk6-qt-dev]
 libvulkan-dev:
   debian: [libvulkan-dev]
   fedora: [vulkan-devel]
