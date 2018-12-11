@@ -2025,7 +2025,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/DataspeedInc-release/dataspeed_ulc_ros-release.git
-      version: 0.0.2-0
+      version: 0.0.3-0
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/dataspeed_ulc_ros.git
@@ -2247,6 +2247,17 @@ repositories:
       type: git
       url: https://github.com/UbiquityRobotics/dnn_detect.git
       version: kinetic-devel
+    status: developed
+  dockeros:
+    doc:
+      type: git
+      url: https://github.com/ct2034/dockeROS.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ct2034/dockeros-release.git
+      version: 1.0.0-0
     status: developed
   dr_base:
     release:
@@ -6527,7 +6538,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/fkie-release/multimaster_fkie-release.git
-      version: 0.8.2-0
+      version: 0.8.4-0
     source:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
@@ -14183,7 +14194,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/velodyne-release.git
-      version: 1.5.0-0
+      version: 1.5.1-0
     source:
       type: git
       url: https://github.com/ros-drivers/velodyne.git
