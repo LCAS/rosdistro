@@ -568,11 +568,11 @@ repositories:
   ati_force_torque:
     doc:
       type: git
-      url: https://github.com/iirob/ati_force_torque.git
+      url: https://github.com/KITrobotics/ati_force_torque.git
       version: kinetic-devel
     source:
       type: git
-      url: https://github.com/iirob/ati_force_torque.git
+      url: https://github.com/KITrobotics/ati_force_torque.git
       version: kinetic-devel
     status: developed
   auction_methods_stack:
@@ -2257,7 +2257,11 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ct2034/dockeros-release.git
-      version: 1.0.0-0
+      version: 1.0.2-0
+    source:
+      type: git
+      url: https://github.com/ct2034/dockeROS.git
+      version: master
     status: developed
   dr_base:
     release:
@@ -2854,6 +2858,16 @@ repositories:
       url: https://github.com/ros/filters.git
       version: hydro-devel
     status: maintained
+  find_moving_objects:
+    doc:
+      type: git
+      url: https://github.com/andreasgustavsson/find_moving_objects.git
+      version: kinetic-devel
+    source:
+      type: git
+      url: https://github.com/andreasgustavsson/find_moving_objects.git
+      version: kinetic-devel
+    status: maintained
   find_object_2d:
     doc:
       type: git
@@ -2943,6 +2957,11 @@ repositories:
       url: https://github.com/danielsnider/follow_waypoints.git
       version: master
     status: maintained
+  force_torque_sensor:
+    doc:
+      type: git
+      url: https://github.com/KITrobotics/force_torque_sensor.git
+      version: kinetic-devel
   force_torque_tools:
     doc:
       type: git
@@ -4183,6 +4202,11 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: https://github.com/robustify/igvc_self_drive_sim-release.git
       version: 0.1.4-1
+  iirob_filters:
+    doc:
+      type: git
+      url: https://github.com/KITrobotics/iirob_filters.git
+      version: kinetic-devel
   image_common:
     doc:
       type: git
@@ -4523,6 +4547,11 @@ repositories:
       url: https://github.com/alireza-hosseini/ipcamera_driver.git
       version: master
     status: developed
+  ipr_extern:
+    doc:
+      type: git
+      url: https://github.com/KITrobotics/ipr_extern.git
+      version: kinetic-devel
   ira_laser_tools:
     doc:
       type: git
