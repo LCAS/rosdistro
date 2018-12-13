@@ -297,11 +297,8 @@ python-alembic:
   fedora: [python-alembic]
   gentoo: [dev-python/alembic]
   ubuntu:
+    '*': [python-alembic]
     trusty: [alembic]
-    utopic: [python-alembic]
-    vivid: [python-alembic]
-    wily: [python-alembic]
-    xenial: [python-alembic]
 python-amqp:
   debian:
     buster: [python-amqp]
@@ -1459,6 +1456,11 @@ python-gi:
   fedora: [pygobject3]
   gentoo: [dev-python/pygobject]
   ubuntu: [python-gi]
+python-gi-cairo:
+  debian: [python-gi-cairo]
+  fedora: [pygobject3]
+  gentoo: [dev-python/pygobject]
+  ubuntu: [python-gi-cairo]
 python-git:
   arch: [python2-gobject]
   debian: [python-git]
@@ -3090,18 +3092,9 @@ python-qt-bindings:
   opensuse: [python-qt4-devel]
   rhel: [PyQt4, PyQt4-devel, sip-devel]
   ubuntu:
+    '*': [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
     lucid: [python-qt4, python-qt4-dev, python-sip-dev]
-    oneiric: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, libgenrunner-dev, python-qt4, python-qt4-dev, python-sip-dev]
-    precise: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, libgenrunner-dev, python-qt4, python-qt4-dev, python-sip-dev]
-    quantal: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
-    raring: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
-    saucy: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
-    trusty: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
     trusty_python3: [python3-pyside, libpyside-dev, libshiboken-dev, shiboken, python3-pyqt4, python3-sip-dev]
-    utopic: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
-    vivid: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
-    wily: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
-    xenial: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
 python-qt-bindings-gl:
   arch: [python2-pyqt4]
   debian: [python-qt4-gl]
@@ -3993,6 +3986,19 @@ python-tensorflow-gpu-pip:
   ubuntu:
     pip:
       packages: [tensorflow-gpu]
+python-tensorflow-hub-pip:
+  debian:
+    pip:
+      packages: [tensorflow-hub]
+  fedora:
+    pip:
+      packages: [tensorflow-hub]
+  osx:
+    pip:
+      packages: [tensorflow-hub]
+  ubuntu:
+    pip:
+      packages: [tensorflow-hub]
 python-tensorflow-pip:
   debian:
     pip:
