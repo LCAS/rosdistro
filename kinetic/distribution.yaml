@@ -567,9 +567,17 @@ repositories:
       version: 0.0.3-0
   ati_force_torque:
     doc:
+      depends:
+      - force_torque_sensor
+      - iirob_filters
       type: git
       url: https://github.com/KITrobotics/ati_force_torque.git
       version: kinetic-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/KITrobotics/ati_force_torque-release.git
+      version: 1.0.1-0
     source:
       type: git
       url: https://github.com/KITrobotics/ati_force_torque.git
@@ -2905,6 +2913,21 @@ repositories:
       url: https://github.com/yujinrobot-release/flatbuffers-release.git
       version: 1.1.0-0
     status: maintained
+  flir_boson_usb:
+    doc:
+      type: git
+      url: https://github.com/astuff/flir_boson_usb.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/astuff/flir_boson_usb-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/astuff/flir_boson_usb.git
+      version: master
+    status: developed
   flir_camera_driver:
     doc:
       type: git
@@ -2960,9 +2983,16 @@ repositories:
     status: maintained
   force_torque_sensor:
     doc:
+      depends:
+      - iirob_filters
       type: git
       url: https://github.com/KITrobotics/force_torque_sensor.git
       version: kinetic-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/KITrobotics/force_torque_sensor-release.git
+      version: 0.8.1-0
     source:
       type: git
       url: https://github.com/KITrobotics/force_torque_sensor.git
@@ -11572,7 +11602,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/anybotics/rqt_multiplot_plugin-release.git
-      version: 0.0.9-0
+      version: 0.0.10-0
     source:
       type: git
       url: https://github.com/anybotics/rqt_multiplot_plugin.git
