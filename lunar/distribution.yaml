@@ -872,7 +872,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/tork-a/euslisp-release.git
-      version: 9.25.0-0
+      version: 9.26.0-0
     status: developed
   executive_smach:
     doc:
@@ -953,6 +953,21 @@ repositories:
       url: https://github.com/introlab/find-object.git
       version: lunar-devel
     status: maintained
+  flir_boson_usb:
+    doc:
+      type: git
+      url: https://github.com/astuff/flir_boson_usb.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/astuff/flir_boson_usb-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/astuff/flir_boson_usb.git
+      version: master
+    status: developed
   four_wheel_steering_msgs:
     doc:
       type: git
@@ -2073,7 +2088,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 2.7.0-0
+      version: 2.7.1-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_common.git
@@ -3425,7 +3440,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_power_drivers-release.git
-      version: 1.1.6-0
+      version: 1.1.7-0
     status: unmaintained
   pyros_config:
     release:
@@ -4173,7 +4188,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.8.4-0
+      version: 0.10.1-0
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -4666,7 +4681,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/anybotics/rqt_multiplot_plugin-release.git
-      version: 0.0.9-1
+      version: 0.0.10-0
     source:
       type: git
       url: https://github.com/anybotics/rqt_multiplot_plugin.git
@@ -5714,7 +5729,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-drivers/video_stream_opencv-release.git
-      version: 1.1.4-0
+      version: 1.1.5-0
     source:
       type: git
       url: https://github.com/ros-drivers/video_stream_opencv.git
