@@ -49,6 +49,16 @@ azure-iothub-device-client-pip:
   ubuntu:
     pip:
       packages: [azure-iothub-device-client]
+canopen-pip:
+  debian:
+    pip:
+      packages: [canopen]
+  fedora:
+    pip:
+      packages: [canopen]
+  ubuntu:
+    pip:
+      packages: [canopen]
 casadi-pip:
   debian:
     pip:
@@ -1891,6 +1901,11 @@ python-jsonschema-pip:
   ubuntu:
     pip:
       packages: [jsonschema]
+python-jwt:
+  debian: [python-jwt]
+  fedora: [python-jwt]
+  gentoo: [dev-python/python-jwt]
+  ubuntu: [python-jwt]
 python-kdtree:
   debian:
     buster: [python-kdtree]
@@ -3127,7 +3142,7 @@ python-qt5-bindings:
     stretch: [pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-sip-dev, qtbase5-dev]
   fedora: [python-qt5-devel, sip]
   freebsd: [py27-qt5]
-  gentoo: [dev-python/PyQt5]
+  gentoo: ['dev-python/PyQt5[gui,widgets]']
   opensuse: [python-qt5]
   slackware: [PyQt5]
   ubuntu:
@@ -4630,6 +4645,7 @@ python3-lark-parser:
   fedora:
     '*': [python-lark-parser]
     '28': null
+  gentoo: [dev-python/lark]
   ubuntu:
     bionic: [python3-lark-parser]
 python3-matplotlib:
@@ -4659,11 +4675,13 @@ python3-nose-yanc:
   ubuntu: [python3-nose-yanc]
 python3-numpy:
   debian: [python3-numpy]
+  fedora: [python3-numpy]
   gentoo: [dev-python/numpy]
   ubuntu: [python3-numpy]
 python3-opencv:
   debian:
     buster: [python3-opencv]
+  fedora: [python3-opencv]
   ubuntu:
     bionic: [python3-opencv]
 python3-pep8:
@@ -4697,6 +4715,7 @@ python3-psutil:
 python3-pydot:
   arch: [python-pydot]
   debian: [python3-pydot]
+  fedora: [python3-pydot]
   gentoo: [dev-python/pydot]
   ubuntu: [python3-pydot]
 python3-pygraphviz:
@@ -4766,6 +4785,7 @@ python3-termcolor:
   ubuntu: [python3-termcolor]
 python3-venv:
   debian: [python3-venv]
+  fedora: [python3-libs]
   ubuntu: [python3-venv]
 python3-yaml:
   debian: [python3-yaml]

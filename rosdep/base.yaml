@@ -284,7 +284,7 @@ boost:
     wheezy: [libboost-all-dev]
   fedora: [boost-devel]
   freebsd: [boost-python-libs]
-  gentoo: [dev-libs/boost]
+  gentoo: ['dev-libs/boost[python]']
   macports: [boost]
   opensuse: [boost-devel]
   rhel: [boost-devel]
@@ -882,6 +882,8 @@ gazebo9:
   debian:
     buster: [gazebo9]
     stretch: [gazebo9]
+  fedora:
+    '30': [gazebo-devel]
   gentoo: [sci-electronics/gazebo]
   ubuntu:
     artful: [gazebo9]
@@ -1913,6 +1915,7 @@ libglew-dev:
     zesty: [libglew-dev]
 libglfw3-dev:
   debian: [libglfw3-dev]
+  fedora: [glfw-devel]
   gentoo: [media-libs/glfw]
   ubuntu:
     '*': [libglfw3-dev]
@@ -3588,6 +3591,7 @@ libxml2:
   ubuntu: [libxml2-dev]
 libxml2-utils:
   debian: [libxml2-utils]
+  fedora: [libxml2]
   ubuntu: [libxml2-utils]
 libxmlrpc-c++:
   arch: [xmlrpc-c]
@@ -3646,7 +3650,6 @@ libxxf86vm:
   ubuntu: [libxxf86vm-dev]
 libzmq3-dev:
   debian: [libzmq3-dev]
-  fedora: [zeromq3-devel]
   gentoo: [net-libs/cppzmq]
   ubuntu: [libzmq3-dev]
 libzmqpp3:
@@ -4028,6 +4031,12 @@ nkf:
   fedora: [nkf]
   gentoo: [app-i18n/nkf]
   ubuntu: [nkf]
+nmap:
+  archlinux: [nmap]
+  debian: [nmap]
+  fedora: [nmap]
+  gentoo: [net-analyzer/nmap]
+  ubuntu: [nmap]
 nodejs:
   debian: [nodejs]
   fedora: [nodejs]
@@ -4415,7 +4424,7 @@ qtbase5-dev:
   debian: [qtbase5-dev]
   fedora: [qt5-qtbase-devel]
   freebsd: [qt5-core]
-  gentoo: ['dev-qt/qtcore:5']
+  gentoo: ['dev-qt/qtcore:5', 'dev-qt/widgets:5', 'dev-qt/qttest:5']
   opensuse: [libqt5-qtbase-common-devel, libqt5-qtbase-devel]
   slackware: [qt5]
   ubuntu: [qtbase5-dev]
