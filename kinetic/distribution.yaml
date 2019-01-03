@@ -1115,7 +1115,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/AIS-Bonn/catch_ros-release.git
-      version: 0.2.0-0
+      version: 0.3.0-0
     source:
       test_pull_requests: true
       type: git
@@ -7307,16 +7307,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-drivers/nmea_navsat_driver.git
-      version: jade-devel
+      version: kinetic-devel
     release:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/nmea_navsat_driver-release.git
-      version: 0.5.0-0
+      version: 0.5.1-0
     source:
       type: git
       url: https://github.com/ros-drivers/nmea_navsat_driver.git
-      version: jade-devel
+      version: kinetic-devel
     status: maintained
   nodelet_core:
     doc:
@@ -9663,7 +9663,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_genicam_api-release.git
-      version: 2.0.0-0
+      version: 2.0.2-0
     source:
       test_pull_requests: true
       type: git
@@ -14003,7 +14003,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/UbiquityRobotics-release/ubiquity_motor-release.git
-      version: 0.7.0-0
+      version: 0.8.0-0
     source:
       type: git
       url: https://github.com/UbiquityRobotics/ubiquity_motor.git
@@ -14644,7 +14644,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/JdeRobot/VisualStates-release.git
-      version: 0.2.1-1
+      version: 0.2.2-0
     source:
       type: git
       url: https://github.com/JdeRobot/VisualStates.git

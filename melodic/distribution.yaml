@@ -2928,16 +2928,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-drivers/nmea_navsat_driver.git
-      version: master
+      version: melodic-devel
     release:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/nmea_navsat_driver-release.git
-      version: 0.5.0-0
+      version: 0.5.1-0
     source:
       type: git
       url: https://github.com/ros-drivers/nmea_navsat_driver.git
-      version: master
+      version: melodic-devel
     status: maintained
   nodelet_core:
     doc:
@@ -3985,7 +3985,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_genicam_api-release.git
-      version: 2.0.0-0
+      version: 2.0.2-0
     source:
       test_pull_requests: true
       type: git
@@ -6166,6 +6166,21 @@ repositories:
       url: https://github.com/ros-drivers/usb_cam.git
       version: develop
     status: unmaintained
+  vapor_master:
+    doc:
+      type: git
+      url: https://github.com/roshub/vapor_master.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/roshub/vapor_master-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/roshub/vapor_master.git
+      version: master
+    status: developed
   variant:
     release:
       packages:
