@@ -9446,6 +9446,11 @@ repositories:
       url: https://github.com/bberrevoets/raspi_temperature.git
       version: master
     status: maintained
+  raspicam_node:
+    doc:
+      type: git
+      url: https://github.com/UbiquityRobotics/raspicam_node.git
+      version: kinetic
   raspicat:
     doc:
       type: git
@@ -14287,10 +14292,12 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/uuvsimulator/uuv_plume_simulator-release.git
-      version: 0.3.0-0
+      version: 0.3.1-0
     source:
       type: git
       url: https://github.com/uuvsimulator/uuv_plume_simulator.git
+      version: master
+    status: developed
   uuv_simulator:
     doc:
       type: git
