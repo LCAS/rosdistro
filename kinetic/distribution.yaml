@@ -847,7 +847,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/BehaviorTree/behaviortree_cpp-release.git
-      version: 2.4.4-0
+      version: 2.5.1-0
     source:
       test_pull_requests: true
       type: git
@@ -8529,7 +8529,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/PilzDE/pilz_industrial_motion-release.git
-      version: 0.3.0-0
+      version: 0.3.1-0
     source:
       type: git
       url: https://github.com/PilzDE/pilz_industrial_motion.git
@@ -9133,11 +9133,15 @@ repositories:
       version: devel
     status: developed
   pybind11_catkin:
+    doc:
+      type: git
+      url: https://github.com/ipab-slmc/pybind11_catkin.git
+      version: master
     release:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/wxmerkt/pybind11_catkin-release.git
-      version: 2.2.4-1
+      version: 2.2.4-2
     source:
       type: git
       url: https://github.com/ipab-slmc/pybind11_catkin.git

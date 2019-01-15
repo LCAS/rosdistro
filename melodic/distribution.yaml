@@ -277,7 +277,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/BehaviorTree/behaviortree_cpp-release.git
-      version: 2.4.1-0
+      version: 2.5.1-0
     source:
       test_pull_requests: true
       type: git
@@ -2023,6 +2023,25 @@ repositories:
         release: release/melodic/{package}/{version}
       url: https://github.com/tork-a/jskeus-release.git
       version: 1.2.1-0
+    status: developed
+  json_transport:
+    doc:
+      type: git
+      url: https://github.com/locusrobotics/json_transport.git
+      version: devel
+    release:
+      packages:
+      - json_msgs
+      - json_transport
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/locusrobotics/json_transport-release.git
+      version: 0.0.3-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/locusrobotics/json_transport.git
+      version: devel
     status: developed
   kdl_parser:
     doc:
@@ -3799,11 +3818,15 @@ repositories:
       version: release/0.5-melodic
     status: maintained
   pybind11_catkin:
+    doc:
+      type: git
+      url: https://github.com/ipab-slmc/pybind11_catkin.git
+      version: master
     release:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/wxmerkt/pybind11_catkin-release.git
-      version: 2.2.4-1
+      version: 2.2.4-4
     source:
       type: git
       url: https://github.com/ipab-slmc/pybind11_catkin.git

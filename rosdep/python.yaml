@@ -2128,6 +2128,16 @@ python-more-itertools-pip:
   ubuntu:
     pip:
       packages: [more-itertools]
+python-moviepy-pip:
+  debian:
+    pip:
+      packages: [moviepy]
+  fedora:
+    pip:
+      packages: [moviepy]
+  ubuntu:
+    pip:
+      packages: [moviepy]
 python-msgpack:
   arch: [python2-msgpack]
   debian: [python-msgpack]
@@ -2668,20 +2678,8 @@ python-psycopg2:
   fedora: [python-psycopg2]
   gentoo: [=dev-python/psycopg-2*]
   ubuntu:
-    lucid: [python-psycopg2]
-    maverick: [python-psycopg2]
-    natty: [python-psycopg2]
-    oneiric: [python-psycopg2]
-    precise: [python-psycopg2]
-    quantal: [python-psycopg2]
-    raring: [python-psycopg2]
-    saucy: [python-psycopg2]
-    trusty: [python-psycopg2]
+    '*': [python-psycopg2]
     trusty_python3: [python3-psycopg2]
-    utopic: [python-psycopg2]
-    vivid: [python-psycopg2]
-    wily: [python-psycopg2]
-    xenial: [python-psycopg2]
     xenial_python3: [python3-psycopg2]
 python-pyassimp:
   arch: [python2-pyassimp]
@@ -3504,6 +3502,10 @@ python-scipy:
     yakkety_python3: [python3-scipy]
     zesty: [python-scipy]
     zesty_python3: [python3-scipy]
+python-scp:
+  debian: [python-scp]
+  fedora: [python-scp]
+  ubuntu: [python-scp]
 python-seaborn:
   arch: [python2-seaborn]
   debian: [python-seaborn]
@@ -3605,25 +3607,12 @@ python-shapely:
     pip:
       packages: [shapely]
   ubuntu:
-    lucid: [python-shapely]
-    maverick: [python-shapely]
-    natty: [python-shapely]
-    oneiric: [python-shapely]
-    precise: [python-shapely]
-    quantal: [python-shapely]
-    raring: [python-shapely]
-    saucy: [python-shapely]
-    trusty: [python-shapely]
+    '*': [python-shapely]
     trusty_python3: [python3-shapely]
-    utopic: [python-shapely]
     utopic_python3: [python3-shapely]
-    vivid: [python-shapely]
     vivid_python3: [python3-shapely]
-    wily: [python-shapely]
     wily_python3: [python3-shapely]
-    xenial: [python-shapely]
     xenial_python3: [python3-shapely]
-    yakkety: [python-shapely]
     yakkety_python3: [python3-shapely]
 python-simplejson:
   arch: [python2-simplejson]
@@ -4171,7 +4160,7 @@ python-tqdm:
     stretch: [python-tqdm]
   fedora: [python-tqdm]
   ubuntu:
-    artful: [python-tqdm]
+    '*': [python-tqdm]
     saucy:
       pip:
         packages: [tqdm]
@@ -4190,8 +4179,6 @@ python-tqdm:
     xenial:
       pip:
         packages: [tqdm]
-    yakkety: [python-tqdm]
-    zesty: [python-tqdm]
 python-transforms3d-pip:
   debian:
     pip:
@@ -4780,6 +4767,10 @@ python3-ruamel.yaml:
     xenial: [python3-ruamel.yaml]
     yakkety: [python3-ruamel.yaml]
     zesty: [python3-ruamel.yaml]
+python3-scp:
+  debian: [python3-scp]
+  fedora: [python3-scp]
+  ubuntu: [python3-scp]
 python3-setuptools:
   debian: [python3-setuptools]
   fedora: [python3-setuptools]
