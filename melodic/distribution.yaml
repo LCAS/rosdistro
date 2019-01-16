@@ -3826,7 +3826,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/wxmerkt/pybind11_catkin-release.git
-      version: 2.2.4-4
+      version: 2.2.4-6
     source:
       type: git
       url: https://github.com/ipab-slmc/pybind11_catkin.git
@@ -5544,6 +5544,21 @@ repositories:
       url: https://github.com/wjwwood/serial.git
       version: master
     status: maintained
+  sick_safetyscanners:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/SICKAG/sick_safetyscanners-release.git
+      version: 1.0.2-0
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners.git
+      version: master
+    status: developed
   sick_tim:
     doc:
       type: git
