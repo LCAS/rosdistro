@@ -107,6 +107,16 @@ epydoc:
     pip:
       packages: [epydoc]
   ubuntu: [python-epydoc]
+exhale-pip:
+  debian:
+    pip:
+      packages: [exhale]
+  fedora:
+    pip:
+      packages: [exhale]
+  ubuntu:
+    pip:
+      packages: [exhale]
 gunicorn:
   debian: [gunicorn]
   fedora: [python-gunicorn]
@@ -610,6 +620,10 @@ python-box2d:
   debian: [python-box2d]
   fedora: [pybox2d]
   ubuntu: [python-box2d]
+python-breathe:
+  debian: [python-breathe]
+  fedora: [python-breathe]
+  ubuntu: [python-breathe]
 python-bs4:
   debian: [python-bs4]
   fedora: [python-beautifulsoup4]
@@ -2232,23 +2246,11 @@ python-networkx:
   fedora: [python-networkx]
   gentoo: [dev-python/networkx]
   ubuntu:
-    lucid: [python-networkx]
-    maverick: [python-networkx]
-    natty: [python-networkx]
-    oneiric: [python-networkx]
-    precise: [python-networkx]
-    quantal: [python-networkx]
-    raring: [python-networkx]
-    saucy: [python-networkx]
-    trusty: [python-networkx]
+    '*': [python-networkx]
     trusty_python3: [python3-networkx]
-    wily: [python-networkx]
     wily_python3: [python3-networkx]
-    xenial: [python-networkx]
     xenial_python3: [python3-networkx]
-    yakkety: [python-networkx]
     yakkety_python3: [python3-networkx]
-    zesty: [python-networkx]
     zesty_python3: [python3-networkx]
 python-nose:
   alpine: [py-nose]
@@ -2322,6 +2324,19 @@ python-numpy:
     xenial: [python-numpy]
     yakkety: [python-numpy]
     zesty: [python-numpy]
+python-numpy-quaternion-pip:
+  debian:
+    pip:
+      packages: [numpy-quaternion]
+  fedora:
+    pip:
+      packages: [numpy-quaternion]
+  osx:
+    pip:
+      packages: [numpy-quaternion]
+  ubuntu:
+    pip:
+      packages: [numpy-quaternion]
 python-numpy-stl-pip:
   osx:
     pip:
@@ -4284,7 +4299,7 @@ python-ujson:
     pip:
       packages: [ujson]
   ubuntu:
-    artful: [python-ujson]
+    '*': [python-ujson]
     saucy:
       pip:
         packages: [ujson]
@@ -4297,10 +4312,6 @@ python-ujson:
     vivid:
       pip:
         packages: [ujson]
-    wily: [python-ujson]
-    xenial: [python-ujson]
-    yakkety: [python-ujson]
-    zesty: [python-ujson]
 python-urlgrabber:
   arch: [urlgrabber]
   debian: [python-urlgrabber]
