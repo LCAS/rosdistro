@@ -678,6 +678,13 @@ repositories:
       url: https://github.com/strands-project/scitos_drivers.git
       version: kinetic-devel
     status: developed
+  sentor:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/sentor.git
+      version: master
+    status: developed
   sicks300:
     release:
       tags:
