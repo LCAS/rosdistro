@@ -6983,7 +6983,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/swri-robotics-gbp/mapviz-release.git
-      version: 1.0.0-0
+      version: 1.0.1-0
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
@@ -9935,7 +9935,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 2.0.2-0
+      version: 2.0.3-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -12907,7 +12907,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/facontidavide/ros_type_introspection-release.git
-      version: 1.1.0-0
+      version: 1.3.0-0
     source:
       type: git
       url: https://github.com/facontidavide/ros_type_introspection.git
@@ -17445,7 +17445,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RobotWebTools-release/webrtc_ros-release.git
-      version: 59.0.2-0
+      version: 59.0.3-0
     source:
       type: git
       url: https://github.com/RobotWebTools/webrtc_ros.git
