@@ -5382,7 +5382,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/neuromeka-robotics/ros_indy-release.git
-      version: 1.0.1-0
+      version: 1.0.3-0
     source:
       type: git
       url: https://github.com/neuromeka-robotics/ros_indy.git
@@ -7781,6 +7781,21 @@ repositories:
     source:
       type: git
       url: https://github.com/davetcoleman/moveit_visual_tools.git
+      version: indigo-devel
+    status: developed
+  movie_publisher:
+    doc:
+      type: git
+      url: https://github.com/peci1/movie_publisher.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/peci1/movie_publisher-release.git
+      version: 1.1.0-0
+    source:
+      type: git
+      url: https://github.com/peci1/movie_publisher.git
       version: indigo-devel
     status: developed
   mrp2_common:
@@ -16979,7 +16994,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-drivers-gbp/velodyne-release.git
-      version: 1.5.1-0
+      version: 1.5.2-0
     source:
       type: git
       url: https://github.com/ros-drivers/velodyne.git
