@@ -2413,6 +2413,12 @@ repositories:
       url: https://github.com/tork-a/dynpick_driver.git
       version: master
     status: maintained
+  earth_rover_localization:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/earthrover/earth_rover_localization-release.git
+      version: 1.0.0-1
   eband_local_planner:
     doc:
       type: git
@@ -4128,6 +4134,13 @@ repositories:
       url: https://gitlab.uni-koblenz.de/robbie/homer_robot_face-release.git
       version: 1.0.18-1
     status: developed
+  homer_tts:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://gitlab.uni-koblenz.de/robbie/homer_tts-release.git
+      version: 1.0.29-0
+    status: maintained
   household_objects_database_msgs:
     doc:
       type: git
@@ -8646,7 +8659,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 2.0.3-0
+      version: 2.0.4-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
