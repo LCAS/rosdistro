@@ -943,6 +943,10 @@ repositories:
       version: master
     status: maintained
   eigenpy:
+    doc:
+      type: git
+      url: https://github.com/stack-of-tasks/eigenpy.git
+      version: master
     release:
       tags:
         release: release/melodic/{package}/{version}
@@ -1168,6 +1172,17 @@ repositories:
     source:
       type: git
       url: https://github.com/fkie/message_filters.git
+      version: master
+    status: developed
+  fkie_potree_rviz_plugin:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/fkie-release/potree_rviz_plugin-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/fkie/potree_rviz_plugin.git
       version: master
     status: developed
   flatbuffers:
@@ -2056,7 +2071,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.7.1-0
+      version: 1.7.3-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
