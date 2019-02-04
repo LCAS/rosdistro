@@ -126,6 +126,20 @@ repositories:
       url: https://github.com/strands-project/fremen.git
       version: master
     status: developed
+  gazebo_contact_monitor:
+    release:
+      packages:
+      - contact_monitor
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/gazebo-contactMonitor.git
+      version: 1.0.0-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/gazebo-contactMonitor.git
+      version: master
+    status: developed
   genjava:
     release:
       tags:
@@ -137,13 +151,6 @@ repositories:
       url: https://github.com/LCAS/genjava.git
       version: kinetic
     status: maintained
-  gazebo_contact_monitor:
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/LCAS/gazebo-contactMonitor.git
-      version: master
-    status: developed
   graph_map:
     release:
       packages:
