@@ -6028,7 +6028,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.7.1-0
+      version: 1.7.4-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
@@ -11386,7 +11386,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/roboception-gbp/rc_dynamics_api-release.git
-      version: 0.7.0-0
+      version: 0.7.1-0
     source:
       test_pull_requests: true
       type: git
@@ -11402,7 +11402,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/roboception-gbp/rc_genicam_api-release.git
-      version: 2.0.2-0
+      version: 2.1.0-0
     source:
       test_pull_requests: true
       type: git
@@ -14140,7 +14140,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/rqt_tf_tree-release.git
-      version: 0.5.8-0
+      version: 0.6.0-0
     source:
       test_pull_requests: true
       type: git

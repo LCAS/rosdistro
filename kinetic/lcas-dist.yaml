@@ -1050,6 +1050,13 @@ repositories:
       url: https://github.com/strands-project/strands_webtools.git
       version: kinetic-devel
     status: developed
+  tf_bag:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/tf_bag.git
+      version: master
+    status: developed
   thin_navigation:
     release:
       tags:
