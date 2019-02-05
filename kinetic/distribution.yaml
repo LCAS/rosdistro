@@ -2414,11 +2414,20 @@ repositories:
       version: master
     status: maintained
   earth_rover_localization:
+    doc:
+      type: git
+      url: https://github.com/earthrover/earth_rover_localization.git
+      version: master
     release:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/earthrover/earth_rover_localization-release.git
       version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/earthrover/earth_rover_localization.git
+      version: master
+    status: maintained
   eband_local_planner:
     doc:
       type: git
@@ -2942,6 +2951,17 @@ repositories:
       url: https://github.com/introlab/find-object.git
       version: kinetic-devel
     status: maintained
+  fkie_potree_rviz_plugin:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/fkie-release/potree_rviz_plugin-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/fkie/potree_rviz_plugin.git
+      version: master
+    status: developed
   flask_cors:
     release:
       tags:
@@ -5121,7 +5141,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.7.3-0
+      version: 1.7.4-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
@@ -6075,7 +6095,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2019.1.12-0
+      version: 2019.2.2-0
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -6096,7 +6116,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.28.0-0
+      version: 0.29.0-0
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -7336,7 +7356,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/nerian-vision/nerian_stereo-release.git
-      version: 3.2.1-0
+      version: 3.3.0-1
     source:
       type: git
       url: https://github.com/nerian-vision/nerian_stereo.git
@@ -9189,7 +9209,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/stonier/py_trees_ros-release.git
-      version: 0.5.13-0
+      version: 0.5.16-0
     source:
       type: git
       url: https://github.com/stonier/py_trees_ros.git
@@ -9779,7 +9799,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_dynamics_api-release.git
-      version: 0.7.0-0
+      version: 0.7.1-0
     source:
       test_pull_requests: true
       type: git
@@ -9795,7 +9815,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_genicam_api-release.git
-      version: 2.0.2-0
+      version: 2.1.0-0
     source:
       test_pull_requests: true
       type: git
@@ -12148,7 +12168,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_tf_tree-release.git
-      version: 0.5.8-0
+      version: 0.6.0-0
     source:
       test_pull_requests: true
       type: git
@@ -14476,6 +14496,7 @@ repositories:
       - uuv_gazebo_plugins
       - uuv_gazebo_ros_plugins
       - uuv_gazebo_ros_plugins_msgs
+      - uuv_gazebo_worlds
       - uuv_sensor_ros_plugins
       - uuv_sensor_ros_plugins_msgs
       - uuv_simulator
@@ -14488,7 +14509,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/uuvsimulator/uuv_simulator-release.git
-      version: 0.6.2-0
+      version: 0.6.4-0
     source:
       type: git
       url: https://github.com/uuvsimulator/uuv_simulator.git
