@@ -1051,6 +1051,11 @@ repositories:
       version: kinetic-devel
     status: developed
   tf_bag:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/tf_bag.git
+      version: 0.1.1-0
     source:
       test_pull_requests: true
       type: git
