@@ -718,6 +718,12 @@ repositories:
         release: release/melodic/{package}/{version}
       url: https://github.com/pal-gbp/ddynamic_reconfigure_python-release.git
       version: 0.0.1-0
+  depthimage_to_laserscan:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/depthimage_to_laserscan-release.git
+      version: 1.0.8-0
   diagnostics:
     doc:
       type: git
@@ -1559,6 +1565,13 @@ repositories:
       url: https://github.com/swri-robotics/gps_umd.git
       version: master
     status: developed
+  graft:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/graft-release.git
+      version: 0.2.3-2
+    status: unmaintained
   graph_msgs:
     doc:
       type: git
@@ -2416,7 +2429,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 2.7.2-0
+      version: 2.8.0-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_common.git
@@ -3048,7 +3061,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/nerian-vision/nerian_stereo-release.git
-      version: 3.3.0-1
+      version: 3.3.1-0
     source:
       type: git
       url: https://github.com/nerian-vision/nerian_stereo.git
@@ -3269,6 +3282,39 @@ repositories:
       url: https://github.com/ros-perception/open_karto.git
       version: melodic-devel
     status: maintained
+  open_manipulator_msgs:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/open_manipulator_msgs.git
+      version: melodic-devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ROBOTIS-GIT-release/open_manipulator_msgs-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/open_manipulator_msgs.git
+      version: melodic-devel
+    status: developed
+  open_manipulator_simulations:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/open_manipulator_simulations.git
+      version: melodic-devel
+    release:
+      packages:
+      - open_manipulator_gazebo
+      - open_manipulator_simulations
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ROBOTIS-GIT-release/open_manipulator_simulations-release.git
+      version: 1.1.0-1
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/open_manipulator_simulations.git
+      version: melodic-devel
+    status: developed
   opencv_apps:
     doc:
       type: git
@@ -3656,6 +3702,21 @@ repositories:
       url: https://github.com/PilzDE/pilz_robots.git
       version: kinetic-devel
     status: developed
+  pinocchio:
+    doc:
+      type: git
+      url: https://github.com/stack-of-tasks/pinocchio.git
+      version: devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ipab-slmc/pinocchio_catkin-release.git
+      version: 2.0.0-0
+    source:
+      type: git
+      url: https://github.com/stack-of-tasks/pinocchio.git
+      version: devel
+    status: developed
   plotjuggler:
     doc:
       type: git
@@ -3665,7 +3726,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 2.0.7-0
+      version: 2.1.1-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -4230,7 +4291,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/realtime_tools-release.git
-      version: 1.11.0-0
+      version: 1.13.0-0
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
@@ -4419,6 +4480,21 @@ repositories:
       url: https://github.com/clearpathrobotics/robot_upstart.git
       version: kinetic-devel
     status: maintained
+  robotis_manipulator:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/robotis_manipulator.git
+      version: melodic-devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ROBOTIS-GIT-release/robotis_manipulator-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/robotis_manipulator.git
+      version: melodic-devel
+    status: developed
   ros:
     doc:
       type: git
@@ -4575,6 +4651,7 @@ repositories:
       version: melodic-devel
     release:
       packages:
+      - ackermann_steering_controller
       - diff_drive_controller
       - effort_controllers
       - force_torque_sensor_controller
@@ -4591,7 +4668,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/ros_controllers-release.git
-      version: 0.14.2-0
+      version: 0.14.3-0
     source:
       type: git
       url: https://github.com/ros-controls/ros_controllers.git
@@ -6107,6 +6184,28 @@ repositories:
       url: https://github.com/ROBOTIS-GIT/turtlebot3.git
       version: melodic-devel
     status: developed
+  turtlebot3_applications:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_applications.git
+      version: melodic-devel
+    release:
+      packages:
+      - turtlebot3_applications
+      - turtlebot3_automatic_parking
+      - turtlebot3_automatic_parking_vision
+      - turtlebot3_follow_filter
+      - turtlebot3_follower
+      - turtlebot3_panorama
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ROBOTIS-GIT-release/turtlebot3_applications-release.git
+      version: 1.1.0-0
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_applications.git
+      version: melodic-devel
+    status: developed
   turtlebot3_applications_msgs:
     doc:
       type: git
@@ -6120,6 +6219,27 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/turtlebot3_applications_msgs.git
+      version: melodic-devel
+    status: developed
+  turtlebot3_autorace:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_autorace.git
+      version: melodic-devel
+    release:
+      packages:
+      - turtlebot3_autorace
+      - turtlebot3_autorace_camera
+      - turtlebot3_autorace_control
+      - turtlebot3_autorace_core
+      - turtlebot3_autorace_detect
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ROBOTIS-GIT-release/turtlebot3_autorace-release.git
+      version: 1.2.0-0
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_autorace.git
       version: melodic-devel
     status: developed
   turtlebot3_msgs:
