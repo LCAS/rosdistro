@@ -1085,7 +1085,8 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/wxmerkt/fcl_catkin-release.git
-      version: 0.5.95-0
+      version: 0.5.96-0
+    status: developed
   fetch_msgs:
     doc:
       type: git
@@ -1894,6 +1895,30 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ccny-ros-pkg/imu_tools.git
+      version: melodic
+    status: developed
+  industrial_core:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/industrial_core.git
+      version: melodic
+    release:
+      packages:
+      - industrial_core
+      - industrial_deprecated
+      - industrial_msgs
+      - industrial_robot_client
+      - industrial_robot_simulator
+      - industrial_trajectory_filters
+      - industrial_utils
+      - simple_message
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-industrial-release/industrial_core-release.git
+      version: 0.7.0-0
+    source:
+      type: git
+      url: https://github.com/ros-industrial/industrial_core.git
       version: melodic
     status: developed
   interactive_markers:
@@ -3313,6 +3338,43 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/open_manipulator_simulations.git
+      version: melodic-devel
+    status: developed
+  open_manipulator_with_tb3:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/open_manipulator_with_tb3.git
+      version: melodic-devel
+    release:
+      packages:
+      - open_manipulator_with_tb3
+      - open_manipulator_with_tb3_description
+      - open_manipulator_with_tb3_tools
+      - open_manipulator_with_tb3_waffle_moveit
+      - open_manipulator_with_tb3_waffle_pi_moveit
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ROBOTIS-GIT-release/open_manipulator_with_tb3-release.git
+      version: 1.1.0-2
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/open_manipulator_with_tb3.git
+  open_manipulator_with_tb3_simulations:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/open_manipulator_with_tb3_simulations.git
+      version: melodic-devel
+    release:
+      packages:
+      - open_manipulator_with_tb3_gazebo
+      - open_manipulator_with_tb3_simulations
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ROBOTIS-GIT-release/open_manipulator_with_tb3_simulations-release.git
+      version: 1.1.0-2
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/open_manipulator_with_tb3_simulations.git
       version: melodic-devel
     status: developed
   opencv_apps:
