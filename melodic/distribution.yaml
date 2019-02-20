@@ -2181,6 +2181,24 @@ repositories:
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
       version: master
     status: developed
+  jsk_visualization:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_visualization.git
+      version: master
+    release:
+      packages:
+      - jsk_interactive
+      - jsk_interactive_marker
+      - jsk_interactive_test
+      - jsk_rqt_plugins
+      - jsk_rviz_plugins
+      - jsk_visualization
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/tork-a/jsk_visualization-release.git
+      version: 2.1.5-0
+    status: developed
   jskeus:
     doc:
       type: git
@@ -3373,6 +3391,29 @@ repositories:
       url: https://github.com/ros-perception/open_karto.git
       version: melodic-devel
     status: maintained
+  open_manipulator:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/open_manipulator.git
+      version: melodic-devel
+    release:
+      packages:
+      - open_manipulator
+      - open_manipulator_control_gui
+      - open_manipulator_controller
+      - open_manipulator_description
+      - open_manipulator_libs
+      - open_manipulator_moveit
+      - open_manipulator_teleop
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ROBOTIS-GIT-release/open_manipulator-release.git
+      version: 2.0.1-0
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/open_manipulator.git
+      version: melodic-devel
+    status: developed
   open_manipulator_msgs:
     doc:
       type: git
@@ -3854,7 +3895,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 2.1.2-0
+      version: 2.1.3-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -5156,7 +5197,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/rospilot/rospilot-release.git
-      version: 1.5.2-0
+      version: 1.5.4-0
     source:
       type: git
       url: https://github.com/rospilot/rospilot.git
