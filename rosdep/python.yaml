@@ -1475,6 +1475,13 @@ python-genshi:
   fedora: [python-genshi]
   gentoo: [dev-python/genshi]
   ubuntu: [python-genshi]
+python-geocoder-pip:
+  debian:
+    pip:
+      packages: [geocoder]
+  ubuntu:
+    pip:
+      packages: [geocoder]
 python-geographiclib:
   debian: [python-geographiclib]
   fedora: [python-GeographicLib]
@@ -4861,6 +4868,15 @@ python3-yaml:
   fedora: [python3-PyYAML]
   gentoo: [dev-python/pyyaml]
   ubuntu: [python3-yaml]
+qdarkstyle-pip:
+  debian:
+    pip: [qdarkstyle]
+  fedora:
+    pip: [qdarkstyle]
+  osx:
+    pip: [qdarkstyle]
+  ubuntu:
+    pip: [qdarkstyle]
 rosbag-metadata-pip:
   debian:
     pip:
