@@ -1654,6 +1654,37 @@ repositories:
       url: https://github.com/mikeferguson/grasping_msgs.git
       version: master
     status: maintained
+  grid_map:
+    doc:
+      type: git
+      url: https://github.com/anybotics/grid_map.git
+      version: master
+    release:
+      packages:
+      - grid_map
+      - grid_map_core
+      - grid_map_costmap_2d
+      - grid_map_cv
+      - grid_map_demos
+      - grid_map_filters
+      - grid_map_loader
+      - grid_map_msgs
+      - grid_map_octomap
+      - grid_map_pcl
+      - grid_map_ros
+      - grid_map_rviz_plugin
+      - grid_map_sdf
+      - grid_map_visualization
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/anybotics/grid_map-release.git
+      version: 1.6.1-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/anybotics/grid_map.git
+      version: master
+    status: developed
   grpc:
     doc:
       type: git
@@ -1746,6 +1777,17 @@ repositories:
       type: git
       url: https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
       version: melodic-devel
+    status: developed
+  hpp-fcl:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ipab-slmc/hpp-fcl_catkin-release.git
+      version: 1.0.1-0
+    source:
+      type: git
+      url: https://github.com/humanoid-path-planner/hpp-fcl.git
+      version: devel
     status: developed
   ibeo_core:
     doc:
@@ -1946,7 +1988,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-industrial/industrial_core.git
-      version: melodic
+      version: kinetic
     release:
       packages:
       - industrial_core
@@ -1964,7 +2006,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/industrial_core.git
-      version: melodic
+      version: kinetic
     status: developed
   interactive_markers:
     doc:
@@ -2799,7 +2841,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 1.0.0-0
+      version: 0.10.8-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit.git
@@ -2998,7 +3040,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/fkie-release/multimaster_fkie-release.git
-      version: 0.8.9-0
+      version: 0.8.10-0
     source:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
@@ -3897,7 +3939,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 2.1.3-0
+      version: 2.1.5-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
