@@ -1133,7 +1133,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/fetch_robots-release.git
-      version: 0.8.4-0
+      version: 0.8.6-0
     source:
       test_pull_requests: true
       type: git
@@ -1783,7 +1783,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipab-slmc/hpp-fcl_catkin-release.git
-      version: 1.0.1-0
+      version: 1.0.1-2
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
@@ -2764,6 +2764,21 @@ repositories:
       type: git
       url: https://github.com/ros/metapackages.git
       version: melodic-devel
+    status: maintained
+  ml_classifiers:
+    doc:
+      type: git
+      url: https://github.com/astuff/ml_classifiers.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/astuff/ml_classifiers-release.git
+      version: 0.4.0-0
+    source:
+      type: git
+      url: https://github.com/astuff/ml_classifiers.git
+      version: master
     status: maintained
   mongodb_store:
     release:
@@ -3873,7 +3888,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/PilzDE/pilz_industrial_motion.git
-      version: kinetic-devel
+      version: melodic-devel
     release:
       packages:
       - pilz_extensions
@@ -3885,11 +3900,11 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/PilzDE/pilz_industrial_motion-release.git
-      version: 0.4.0-0
+      version: 0.4.1-0
     source:
       type: git
       url: https://github.com/PilzDE/pilz_industrial_motion.git
-      version: kinetic-devel
+      version: melodic-devel
     status: developed
   pilz_robots:
     doc:
@@ -6985,6 +7000,26 @@ repositories:
       url: https://github.com/ros-drivers/vrpn_client_ros.git
       version: kinetic-devel
     status: maintained
+  vrx:
+    doc:
+      type: hg
+      url: https://bitbucket.org/osrf/vrx
+      version: default
+    release:
+      packages:
+      - usv_gazebo_plugins
+      - vrx_gazebo
+      - wamv_description
+      - wamv_gazebo
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/vrx-release.git
+      version: 1.0.0-1
+    source:
+      type: hg
+      url: https://bitbucket.org/osrf/vrx
+      version: default
+    status: developed
   warehouse_ros:
     doc:
       type: git

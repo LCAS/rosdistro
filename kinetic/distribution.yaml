@@ -4216,7 +4216,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipab-slmc/hpp-fcl_catkin-release.git
-      version: 1.0.1-0
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
@@ -5748,6 +5748,35 @@ repositories:
       type: git
       url: https://github.com/ankitdhall/lidar_camera_calibration.git
       version: master
+  linux_networking:
+    doc:
+      type: git
+      url: https://github.com/PR2/linux_networking.git
+      version: hydro-devel
+    release:
+      packages:
+      - access_point_control
+      - asmach
+      - asmach_tutorials
+      - ddwrt_access_point
+      - hostapd_access_point
+      - ieee80211_channels
+      - linksys_access_point
+      - linux_networking
+      - multi_interface_roam
+      - network_control_tests
+      - network_detector
+      - network_monitor_udp
+      - network_traffic_control
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/pr2-gbp/linux_networking-release.git
+      version: 1.0.12-0
+    source:
+      type: git
+      url: https://github.com/pr2/linux_networking.git
+      version: hydro-devel
+    status: maintained
   linux_peripheral_interfaces:
     doc:
       type: git
@@ -6412,6 +6441,21 @@ repositories:
       url: https://github.com/dfki-ric/mir_robot.git
       version: kinetic
     status: developed
+  ml_classifiers:
+    doc:
+      type: git
+      url: https://github.com/astuff/ml_classifiers.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/astuff/ml_classifiers-release.git
+      version: 0.4.0-0
+    source:
+      type: git
+      url: https://github.com/astuff/ml_classifiers.git
+      version: master
+    status: maintained
   mobility_base_ros:
     doc:
       type: hg
