@@ -317,6 +317,20 @@ repositories:
       url: https://github.com/ros/bond_core.git
       version: kinetic-devel
     status: maintained
+  brics_actuator:
+    doc:
+      type: git
+      url: https://github.com/wnowak/brics_actuator.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/wnowak/brics_actuator-release.git
+      version: 0.7.0-0
+    source:
+      type: git
+      url: https://github.com/wnowak/brics_actuator.git
+      version: master
   bta_tof_driver:
     doc:
       type: git
@@ -420,7 +434,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/catkin-release.git
-      version: 0.7.14-0
+      version: 0.7.15-0
     source:
       test_pull_requests: true
       type: git
@@ -684,7 +698,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/DataspeedInc-release/dbw_fca_ros-release.git
-      version: 1.0.0-0
+      version: 1.0.1-0
     source:
       type: hg
       url: https://bitbucket.org/DataspeedInc/dbw_fca_ros
@@ -706,7 +720,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/DataspeedInc-release/dbw_mkz_ros-release.git
-      version: 1.1.0-0
+      version: 1.1.1-0
     source:
       type: hg
       url: https://bitbucket.org/dataspeedinc/dbw_mkz_ros
@@ -1380,7 +1394,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/gencpp-release.git
-      version: 0.6.0-0
+      version: 0.6.1-0
     source:
       type: git
       url: https://github.com/ros/gencpp.git
@@ -1436,7 +1450,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/genmsg-release.git
-      version: 0.5.11-0
+      version: 0.5.12-0
     source:
       type: git
       url: https://github.com/ros/genmsg.git
@@ -1466,7 +1480,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/genpy-release.git
-      version: 0.6.7-0
+      version: 0.6.8-0
     source:
       test_pull_requests: true
       type: git
@@ -2637,7 +2651,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2019.2.2-0
+      version: 2019.3.3-0
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -2658,7 +2672,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.29.0-0
+      version: 0.29.1-0
     source:
       test_pull_requests: true
       type: git
@@ -4744,7 +4758,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/ros-release.git
-      version: 1.14.4-0
+      version: 1.14.5-0
     source:
       test_pull_requests: true
       type: git
@@ -4967,7 +4981,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/ros_tutorials-release.git
-      version: 0.9.0-0
+      version: 0.9.1-0
     source:
       test_pull_requests: true
       type: git
@@ -5073,7 +5087,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/rosconsole-release.git
-      version: 1.13.9-0
+      version: 1.13.10-0
     source:
       test_pull_requests: true
       type: git
@@ -5089,7 +5103,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/rosconsole_bridge-release.git
-      version: 0.5.2-0
+      version: 0.5.3-0
     source:
       test_pull_requests: true
       type: git
@@ -5111,7 +5125,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/roscpp_core-release.git
-      version: 0.6.11-0
+      version: 0.6.12-0
     source:
       test_pull_requests: true
       type: git
@@ -5229,7 +5243,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/rospack-release.git
-      version: 2.5.2-0
+      version: 2.5.3-0
     source:
       test_pull_requests: true
       type: git
@@ -6028,7 +6042,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/uos-gbp/sick_tim-release.git
-      version: 0.0.14-0
+      version: 0.0.15-0
     source:
       test_pull_requests: true
       type: git
@@ -6189,7 +6203,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/std_msgs-release.git
-      version: 0.5.11-0
+      version: 0.5.12-0
     source:
       type: git
       url: https://github.com/ros/std_msgs.git
