@@ -988,6 +988,12 @@ repositories:
       url: https://github.com/ipab-slmc/eigenpy_catkin-release.git
       version: 1.5.0-1
     status: developed
+  eml:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/eml-release.git
+      version: 1.8.15-0
   ensenso_driver:
     doc:
       type: git
@@ -1023,7 +1029,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tork-a/euslisp-release.git
-      version: 9.26.0-0
+      version: 9.26.0-1
     status: developed
   executive_smach:
     doc:
@@ -2976,6 +2982,11 @@ repositories:
       url: https://github.com/PickNikRobotics/moveit_sim_controller.git
       version: melodic-devel
     status: maintained
+  moveit_tutorials:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/moveit_tutorials.git
+      version: melodic-devel
   moveit_visual_tools:
     doc:
       type: git

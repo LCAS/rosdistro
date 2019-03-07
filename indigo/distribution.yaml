@@ -2561,7 +2561,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/DataspeedInc-release/dbw_fca_ros-release.git
-      version: 1.0.0-0
+      version: 1.0.1-0
     source:
       type: hg
       url: https://bitbucket.org/DataspeedInc/dbw_fca_ros
@@ -2583,7 +2583,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/DataspeedInc-release/dbw_mkz_ros-release.git
-      version: 1.1.0-0
+      version: 1.1.1-0
     source:
       type: hg
       url: https://bitbucket.org/dataspeedinc/dbw_mkz_ros
@@ -7443,6 +7443,7 @@ repositories:
       - mir_actions
       - mir_description
       - mir_driver
+      - mir_dwb_critics
       - mir_gazebo
       - mir_msgs
       - mir_navigation
@@ -7450,7 +7451,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/uos-gbp/mir_robot-release.git
-      version: 1.0.2-0
+      version: 1.0.3-0
     source:
       test_pull_requests: true
       type: git
@@ -9013,12 +9014,7 @@ repositories:
   ohm_rrl_perception:
     release:
       packages:
-      - ohm_rrl_cdetection
-      - ohm_rrl_motiondetection
-      - ohm_rrl_perception
       - ohm_rrl_perception_launch
-      - ohm_rrl_perception_utility
-      - ohm_rrl_qrdetection
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/autonohm/ohm_rrl_perception.git
@@ -14973,7 +14969,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/uos-gbp/sick_tim-release.git
-      version: 0.0.14-0
+      version: 0.0.15-0
     source:
       test_pull_requests: true
       type: git
@@ -15676,6 +15672,21 @@ repositories:
     source:
       type: git
       url: https://github.com/DLu/static_tf.git
+      version: master
+    status: developed
+  static_transform_mux:
+    doc:
+      type: git
+      url: https://github.com/tradr-project/static_transform_mux.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/peci1/static_transform_mux-release.git
+      version: 1.1.0-0
+    source:
+      type: git
+      url: https://github.com/tradr-project/static_transform_mux.git
       version: master
     status: developed
   staubli:
