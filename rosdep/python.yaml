@@ -122,6 +122,19 @@ gunicorn:
   fedora: [python-gunicorn]
   gentoo: [www-servers/gunicorn]
   ubuntu: [gunicorn]
+imgaug-pip:
+  debian:
+    pip:
+      packages: [imgaug]
+  fedora:
+    pip:
+      packages: [imgaug]
+  osx:
+    pip:
+      packages: [imgaug]
+  ubuntu:
+    pip:
+      packages: [imgaug]
 intelhex-pip:
   debian:
     pip:
@@ -2605,6 +2618,19 @@ python-periphery-pip:
   ubuntu:
     pip:
       packages: [python-periphery]
+python-persist-queue-pip:
+  debian:
+    pip:
+      packages: [persist-queue]
+  fedora:
+    pip:
+      packages: [persist-queue]
+  osx:
+    pip:
+      packages: [persist-queue]
+  ubuntu:
+    pip:
+      packages: [persist-queue]
 python-pexpect:
   arch: [python2-pexpect]
   debian: [python-pexpect]
