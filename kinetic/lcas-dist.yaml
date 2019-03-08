@@ -514,7 +514,7 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/lcas/people_detection.git
+      url: https://github.com/LCAS/people_detection.git
       version: kinetic-devel
     status: maintained
   perception_pcl_c11:
@@ -590,7 +590,7 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/lcas/robot_blockly.git
+      url: https://github.com/LCAS/robot_blockly.git
       version: master
     status: developed
   ros_web_apis:
@@ -770,7 +770,7 @@ repositories:
       version: 1.0.10-0
     source:
       type: git
-      url: https://github.com/lcas/spencer_people_tracking.git
+      url: https://github.com/LCAS/spencer_people_tracking.git
       version: master
     status: developed
   spqrel_navigation:
@@ -783,7 +783,7 @@ repositories:
       test_commits: true
       test_pull_requests: true
       type: git
-      url: https://github.com/lcas/spqrel_navigation.git
+      url: https://github.com/LCAS/spqrel_navigation.git
       version: master
     status: maintained
   steering_functions:
@@ -1146,7 +1146,7 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/lcas/turtlebot_apps.git
+      url: https://github.com/LCAS/turtlebot_apps.git
       version: indigo
     status: maintained
   turtlebot_simulator:
@@ -1163,7 +1163,7 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/lcas/turtlebot_simulator.git
+      url: https://github.com/LCAS/turtlebot_simulator.git
       version: indigo
     status: maintained
   twitter_bootstrap:
