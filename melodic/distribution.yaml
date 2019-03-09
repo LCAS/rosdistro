@@ -24,6 +24,12 @@ repositories:
       type: git
       url: https://github.com/Eurecat/abseil-cpp.git
       version: master
+  acado:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/tud-cor/acado-release.git
+      version: 1.2.2-1
   ackermann_msgs:
     doc:
       type: git
@@ -337,6 +343,32 @@ repositories:
       url: https://github.com/voxel-dot-at/bta_tof_driver.git
       version: master
     status: maintained
+  calibration:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/calibration.git
+      version: hydro
+    release:
+      packages:
+      - calibration
+      - calibration_estimation
+      - calibration_launch
+      - calibration_msgs
+      - calibration_setup_helper
+      - image_cb_detector
+      - interval_intersection
+      - joint_states_settler
+      - laser_cb_detector
+      - monocam_settler
+      - settlerlib
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/calibration-release.git
+      version: 0.10.14-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/calibration.git
+      version: hydro
   camera_umd:
     doc:
       type: git
@@ -993,7 +1025,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/eml-release.git
-      version: 1.8.15-0
+      version: 1.8.15-2
   ensenso_driver:
     doc:
       type: git
@@ -2516,6 +2548,34 @@ repositories:
       url: https://github.com/ros-drivers/libuvc_ros.git
       version: master
     status: unmaintained
+  linux_networking:
+    doc:
+      type: git
+      url: https://github.com/PR2/linux_networking.git
+      version: melodic-devel
+    release:
+      packages:
+      - access_point_control
+      - asmach
+      - asmach_tutorials
+      - ddwrt_access_point
+      - hostapd_access_point
+      - ieee80211_channels
+      - linksys_access_point
+      - linux_networking
+      - multi_interface_roam
+      - network_control_tests
+      - network_detector
+      - network_monitor_udp
+      - network_traffic_control
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/pr2-gbp/linux_networking-release.git
+      version: 1.0.13-2
+    source:
+      type: git
+      url: https://github.com/pr2/linux_networking.git
+      version: melodic-devel
   lusb:
     doc:
       type: hg
@@ -2693,7 +2753,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.29.1-0
+      version: 0.29.2-0
     source:
       test_pull_requests: true
       type: git
@@ -4019,7 +4079,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 2.1.5-0
+      version: 2.1.6-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -6332,6 +6392,16 @@ repositories:
       url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials.git
       version: melodic-devel
     status: developed
+  teleop_keyboard_omni3:
+    doc:
+      type: git
+      url: https://github.com/YugAjmera/teleop_keyboard_omni3.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/YugAjmera/teleop_keyboard_omni3.git
+      version: master
+    status: maintained
   teleop_tools:
     doc:
       type: git
@@ -6419,6 +6489,21 @@ repositories:
       url: https://github.com/RobotWebTools/tf2_web_republisher.git
       version: master
     status: maintained
+  tf_remapper_cpp:
+    doc:
+      type: git
+      url: https://github.com/tradr-project/tf_remapper_cpp.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/peci1/tf_remapper_cpp-release.git
+      version: 1.1.1-0
+    source:
+      type: git
+      url: https://github.com/tradr-project/tf_remapper_cpp.git
+      version: master
+    status: developed
   topics_rviz_plugin:
     doc:
       type: git
@@ -6960,7 +7045,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/DataspeedInc-release/velodyne_simulator-release.git
-      version: 1.0.8-0
+      version: 1.0.9-0
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/velodyne_simulator.git
