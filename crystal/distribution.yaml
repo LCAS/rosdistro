@@ -34,7 +34,7 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/ament_cmake-release.git
-      version: 0.6.0-4
+      version: 0.6.1-0
     source:
       test_pull_requests: true
       type: git
@@ -111,7 +111,7 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/ament_lint-release.git
-      version: 0.6.3-0
+      version: 0.6.4-0
     source:
       test_pull_requests: true
       type: git
@@ -459,6 +459,8 @@ repositories:
       - examples_rclcpp_minimal_subscriber
       - examples_rclcpp_minimal_timer
       - examples_rclpy_executors
+      - examples_rclpy_minimal_action_client
+      - examples_rclpy_minimal_action_server
       - examples_rclpy_minimal_client
       - examples_rclpy_minimal_publisher
       - examples_rclpy_minimal_service
@@ -466,7 +468,7 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/examples-release.git
-      version: 0.6.2-0
+      version: 0.6.3-0
     source:
       test_pull_requests: true
       type: git
@@ -1041,7 +1043,7 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/rcl_interfaces-release.git
-      version: 0.6.2-0
+      version: 0.6.3-0
     source:
       test_pull_requests: true
       type: git
@@ -1051,11 +1053,12 @@ repositories:
   rcl_logging:
     release:
       packages:
+      - rcl_logging_log4cxx
       - rcl_logging_noop
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/rcl_logging-release.git
-      version: 0.1.0-0
+      version: 0.2.0-0
     source:
       type: git
       url: https://github.com/ros2/rcl_logging.git
@@ -1090,7 +1093,7 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/rclpy-release.git
-      version: 0.6.2-0
+      version: 0.6.3-1
     source:
       test_pull_requests: true
       type: git
@@ -1476,7 +1479,7 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_python-release.git
-      version: 0.6.2-0
+      version: 0.6.3-0
     source:
       test_pull_requests: true
       type: git
@@ -1495,7 +1498,7 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_typesupport-release.git
-      version: 0.6.2-0
+      version: 0.6.3-0
     source:
       test_pull_requests: true
       type: git
