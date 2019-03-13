@@ -298,6 +298,23 @@ repositories:
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
       version: master
     status: developed
+  behaviotree_cpp_v3:
+    doc:
+      type: git
+      url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
+      version: master
+    release:
+      packages:
+      - behaviortree_cpp_v3
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/BehaviorTree/behaviortree_cpp_v3-release.git
+      version: 3.0.3-0
+    source:
+      type: git
+      url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
+      version: master
+    status: developed
   bfl:
     doc:
       type: git
@@ -3070,6 +3087,21 @@ repositories:
       url: https://github.com/ros-planning/moveit_visual_tools.git
       version: melodic-devel
     status: developed
+  movie_publisher:
+    doc:
+      type: git
+      url: https://github.com/peci1/movie_publisher.git
+      version: melodic-devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/peci1/movie_publisher-release.git
+      version: 1.3.0-1
+    source:
+      type: git
+      url: https://github.com/peci1/movie_publisher.git
+      version: melodic-devel
+    status: developed
   mrpt1:
     release:
       tags:
@@ -4224,6 +4256,25 @@ repositories:
       url: https://github.com/pr2-gbp/pr2_controllers-release.git
       version: 1.10.15-1
     status: unmaintained
+  pr2_ethercat_drivers:
+    doc:
+      type: git
+      url: https://github.com/pr2/pr2_ethercat_drivers.git
+      version: kinetic-devel
+    release:
+      packages:
+      - ethercat_hardware
+      - fingertip_pressure
+      - pr2_ethercat_drivers
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/pr2-gbp/pr2_ethercat_drivers-release.git
+      version: 1.8.18-0
+    source:
+      type: git
+      url: https://github.com/pr2/pr2_ethercat_drivers.git
+      version: kinetic-devel
+    status: unmaintained
   pr2_kinematics:
     doc:
       type: git
@@ -5351,7 +5402,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/xqms/rosmon-release.git
-      version: 2.0.0-0
+      version: 2.0.2-0
     source:
       test_pull_requests: true
       type: git
@@ -6998,6 +7049,42 @@ repositories:
       url: https://github.com/ros-drivers/usb_cam.git
       version: develop
     status: unmaintained
+  uuv_simulator:
+    doc:
+      type: git
+      url: https://github.com/uuvsimulator/uuv_simulator.git
+      version: master
+    release:
+      packages:
+      - uuv_assistants
+      - uuv_auv_control_allocator
+      - uuv_control_cascaded_pid
+      - uuv_control_msgs
+      - uuv_control_utils
+      - uuv_descriptions
+      - uuv_gazebo
+      - uuv_gazebo_plugins
+      - uuv_gazebo_ros_plugins
+      - uuv_gazebo_ros_plugins_msgs
+      - uuv_gazebo_worlds
+      - uuv_sensor_ros_plugins
+      - uuv_sensor_ros_plugins_msgs
+      - uuv_simulator
+      - uuv_teleop
+      - uuv_thruster_manager
+      - uuv_trajectory_control
+      - uuv_world_plugins
+      - uuv_world_ros_plugins
+      - uuv_world_ros_plugins_msgs
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/uuvsimulator/uuv_simulator-release.git
+      version: 0.6.10-0
+    source:
+      type: git
+      url: https://github.com/uuvsimulator/uuv_simulator.git
+      version: master
+    status: developed
   vapor_master:
     doc:
       type: git
