@@ -2382,6 +2382,12 @@ repositories:
       url: https://github.com/ros/kdl_parser.git
       version: melodic-devel
     status: maintained
+  kobuki:
+    source:
+      type: git
+      url: https://github.com/yujinrobot/kobuki.git
+      version: melodic
+    status: maintained
   kobuki_core:
     doc:
       type: git
@@ -2400,6 +2406,12 @@ repositories:
     source:
       type: git
       url: https://github.com/yujinrobot/kobuki_core.git
+      version: melodic
+    status: maintained
+  kobuki_desktop:
+    source:
+      type: git
+      url: https://github.com/yujinrobot/kobuki_desktop.git
       version: melodic
     status: maintained
   kobuki_msgs:
@@ -3832,6 +3844,24 @@ repositories:
       url: https://github.com/orocos/orocos_kinematics_dynamics.git
       version: master
     status: maintained
+  ouster:
+    doc:
+      type: git
+      url: https://github.com/CPFL/ouster.git
+      version: autoware_branch
+    release:
+      packages:
+      - ouster_driver
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/CPFL/ouster-release.git
+      version: 0.1.6-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/CPFL/ouster.git
+      version: autoware_branch
+    status: developed
   oxford_gps_eth:
     doc:
       type: hg
@@ -4034,6 +4064,22 @@ repositories:
       url: https://github.com/ros-drivers/phidgets_drivers.git
       version: melodic
     status: maintained
+  photo:
+    doc:
+      type: git
+      url: https://github.com/bosch-ros-pkg/photo.git
+      version: melodic-devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/bosch-ros-pkg/photo-release.git
+      version: 1.0.2-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/bosch-ros-pkg/photo.git
+      version: melodic-devel
+    status: unmaintained
   pid:
     doc:
       type: git
@@ -4065,7 +4111,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/PilzDE/pilz_industrial_motion-release.git
-      version: 0.4.1-1
+      version: 0.4.2-0
     source:
       type: git
       url: https://github.com/PilzDE/pilz_industrial_motion.git

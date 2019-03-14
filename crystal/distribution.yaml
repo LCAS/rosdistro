@@ -196,6 +196,24 @@ repositories:
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
       version: ros2
     status: developed
+  behaviotree_cpp_v3:
+    doc:
+      type: git
+      url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
+      version: master
+    release:
+      packages:
+      - behaviortree_cpp_v3
+      tags:
+        release: release/crystal/{package}/{version}
+      url: https://github.com/BehaviorTree/behaviortree_cpp_v3-release.git
+      version: 3.0.4-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
+      version: master
+    status: developed
   class_loader:
     doc:
       type: git
@@ -771,6 +789,7 @@ repositories:
       - nav2_amcl
       - nav2_bringup
       - nav2_bt_navigator
+      - nav2_common
       - nav2_costmap_2d
       - nav2_dwb_controller
       - nav2_dynamic_params
@@ -781,7 +800,6 @@ repositories:
       - nav2_navfn_planner
       - nav2_robot
       - nav2_simple_navigator
-      - nav2_system_tests
       - nav2_tasks
       - nav2_util
       - nav2_voxel_grid
@@ -792,7 +810,7 @@ repositories:
       tags:
         release: release/crystal/{package}/{version}
       url: https://github.com/SteveMacenski/navigation2-release.git
-      version: 0.1.5-0
+      version: 0.1.7-0
     source:
       test_pull_requests: true
       type: git
