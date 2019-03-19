@@ -3445,6 +3445,7 @@ repositories:
       url: https://github.com/fetchrobotics-gbp/fetch_gazebo-release.git
       version: 0.7.1-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/fetchrobotics/fetch_gazebo.git
       version: gazebo2
@@ -9409,10 +9410,11 @@ repositories:
       - p2os_launch
       - p2os_msgs
       - p2os_teleop
+      - p2os_urdf
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/allenh1/p2os-release.git
-      version: 2.0.3-0
+      version: 2.2.0-0
     source:
       type: git
       url: https://github.com/allenh1/p2os.git
@@ -16793,6 +16795,10 @@ repositories:
       url: https://github.com/uos/uos_tools.git
       version: indigo
   ur_modern_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/ur_modern_driver.git
+      version: master
     release:
       tags:
         release: release/indigo/{package}/{version}
@@ -16800,7 +16806,7 @@ repositories:
       version: 0.0.3-0
     source:
       type: git
-      url: https://github.com/ThomasTimm/ur_modern_driver.git
+      url: https://github.com/ros-industrial/ur_modern_driver.git
       version: master
     status: maintained
   urdf:
