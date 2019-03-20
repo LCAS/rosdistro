@@ -690,7 +690,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/aws-gbp/aws_common-release.git
-      version: 1.0.0-6
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/aws-robotics/utils-common.git
@@ -879,7 +879,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/BehaviorTree/behaviortree_cpp_v3-release.git
-      version: 3.0.3-0
+      version: 3.0.6-0
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
@@ -1311,7 +1311,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/cmake_modules-release.git
-      version: 0.4.1-0
+      version: 0.4.2-0
     source:
       type: git
       url: https://github.com/ros/cmake_modules.git
@@ -3862,7 +3862,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/aws-gbp/h264_encoder_core-release.git
-      version: 1.0.0-1
+      version: 2.0.0-0
     source:
       type: git
       url: https://github.com/aws-robotics/kinesisvideo-encoder-common.git
@@ -5356,7 +5356,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/aws-gbp/kinesis_manager-release.git
-      version: 1.0.0-2
+      version: 2.0.0-0
     source:
       type: git
       url: https://github.com/aws-robotics/kinesisvideo-common.git
@@ -14750,6 +14750,25 @@ repositories:
       url: https://github.com/ros-drivers/usb_cam.git
       version: develop
     status: unmaintained
+  usb_cam_hardware:
+    doc:
+      type: git
+      url: https://github.com/yoshito-n-students/usb_cam_hardware.git
+      version: kinetic-devel
+    release:
+      packages:
+      - usb_cam_controllers
+      - usb_cam_hardware
+      - usb_cam_hardware_interface
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/yoshito-n-students/usb_cam_hardware-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/yoshito-n-students/usb_cam_hardware.git
+      version: kinetic-devel
+    status: developed
   uuv_plume_simulator:
     doc:
       type: git
