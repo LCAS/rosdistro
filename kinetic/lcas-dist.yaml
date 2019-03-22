@@ -466,6 +466,13 @@ repositories:
       url: https://github.com/OrebroUniversity/navigation_oru-release.git
       version: master
     status: developed
+  ouster:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/ouster_example.git
+      version: master
+    status: maintained
   pcl_catkin_c11:
     release:
       tags:
