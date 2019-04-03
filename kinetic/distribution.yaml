@@ -879,7 +879,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/BehaviorTree/behaviortree_cpp_v3-release.git
-      version: 3.0.6-0
+      version: 3.0.7-0
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
@@ -2328,6 +2328,16 @@ repositories:
       url: https://github.com/ct2034/dockeROS.git
       version: master
     status: developed
+  doosan_robot:
+    doc:
+      type: git
+      url: https://github.com/doosan-robotics/doosan-robot.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/doosan-robotics/doosan-robot.git
+      version: master
+    status: developed
   dr_base:
     release:
       packages:
@@ -2355,6 +2365,15 @@ repositories:
       type: git
       url: https://github.com/ros-drivers/driver_common.git
       version: indigo-devel
+  dwm1001_ros:
+    doc:
+      type: git
+      url: https://github.com/20chix/dwm1001_ros.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/20chix/dwm1001_ros.git
+      version: master
   dyn_tune:
     doc:
       type: git
@@ -11996,7 +12015,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/roswww-release.git
-      version: 0.1.10-0
+      version: 0.1.12-0
     source:
       type: git
       url: https://github.com/tork-a/roswww.git
