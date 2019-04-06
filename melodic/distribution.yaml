@@ -645,6 +645,24 @@ repositories:
       url: https://github.com/ipa320/cob_common.git
       version: indigo_dev
     status: maintained
+  cob_environments:
+    doc:
+      type: git
+      url: https://github.com/ipa320/cob_environments.git
+      version: indigo_release_candidate
+    release:
+      packages:
+      - cob_default_env_config
+      - cob_environments
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ipa320/cob_environments-release.git
+      version: 0.6.8-0
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_environments.git
+      version: indigo_dev
+    status: maintained
   code_coverage:
     doc:
       type: git
@@ -1324,7 +1342,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/fetch_gazebo-release.git
-      version: 0.9.0-0
+      version: 0.9.1-0
     source:
       test_pull_requests: true
       type: git
@@ -1400,11 +1418,12 @@ repositories:
       - fetch_maps
       - fetch_moveit_config
       - fetch_navigation
+      - fetch_ros
       - fetch_teleop
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/fetch_ros-release.git
-      version: 0.8.0-0
+      version: 0.8.1-0
     source:
       test_pull_requests: true
       type: git
@@ -3040,7 +3059,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2019.3.3-0
+      version: 2019.4.4-0
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -3528,6 +3547,28 @@ repositories:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
       version: melodic-devel
+    status: maintained
+  multisense_ros:
+    doc:
+      type: hg
+      url: https://bitbucket.org/crl/multisense_ros
+      version: default
+    release:
+      packages:
+      - multisense
+      - multisense_bringup
+      - multisense_cal_check
+      - multisense_description
+      - multisense_lib
+      - multisense_ros
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/carnegieroboticsllc/multisense_ros-release.git
+      version: 4.0.2-0
+    source:
+      type: hg
+      url: https://bitbucket.org/crl/multisense_ros
+      version: default
     status: maintained
   mvsim:
     doc:
@@ -5239,6 +5280,21 @@ repositories:
       url: https://github.com/locusrobotics/robot_navigation.git
       version: tf2
     status: developed
+  robot_pose_ekf:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/robot_pose_ekf.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/robot_pose_ekf-release.git
+      version: 1.14.5-0
+    source:
+      type: git
+      url: https://github.com/ros-planning/robot_pose_ekf.git
+      version: master
+    status: unmaintained
   robot_self_filter:
     doc:
       type: git
@@ -7028,7 +7084,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ethz-adrl/towr-release.git
-      version: 1.4.0-0
+      version: 1.4.1-0
     source:
       test_pull_requests: true
       type: git
@@ -7888,7 +7944,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/leggedrobotics/xpp-release.git
-      version: 1.0.9-0
+      version: 1.0.10-0
     source:
       test_pull_requests: true
       type: git

@@ -1347,7 +1347,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_calibration_data-release.git
-      version: 0.6.10-0
+      version: 0.6.11-0
     source:
       type: git
       url: https://github.com/ipa320/cob_calibration_data.git
@@ -1373,7 +1373,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_command_tools-release.git
-      version: 0.6.10-0
+      version: 0.6.11-0
     source:
       type: git
       url: https://github.com/ipa320/cob_command_tools.git
@@ -1395,7 +1395,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_common-release.git
-      version: 0.6.10-0
+      version: 0.6.11-0
     source:
       type: git
       url: https://github.com/ipa320/cob_common.git
@@ -1426,7 +1426,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_control-release.git
-      version: 0.7.3-0
+      version: 0.7.4-0
     source:
       type: git
       url: https://github.com/ipa320/cob_control.git
@@ -1481,7 +1481,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_environments-release.git
-      version: 0.6.7-0
+      version: 0.6.8-0
     source:
       type: git
       url: https://github.com/ipa320/cob_environments.git
@@ -1636,7 +1636,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_robots-release.git
-      version: 0.6.10-0
+      version: 0.6.11-0
     source:
       type: git
       url: https://github.com/ipa320/cob_robots.git
@@ -1692,7 +1692,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_supported_robots-release.git
-      version: 0.6.10-0
+      version: 0.6.11-0
     source:
       type: git
       url: https://github.com/ipa320/cob_supported_robots.git
@@ -1722,7 +1722,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/yoshito-n-students/codec_image_transport-release.git
-      version: 0.0.1-0
+      version: 0.0.3-0
     source:
       type: git
       url: https://github.com/yoshito-n-students/codec_image_transport.git
@@ -4841,7 +4841,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/gavanderhoorn/industrial_robot_status_controller-release.git
-      version: 0.1.0-0
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/gavanderhoorn/industrial_robot_status_controller.git
@@ -6354,7 +6354,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2019.3.3-0
+      version: 2019.4.4-0
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -6688,7 +6688,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/strands-project-releases/mongodb_store.git
-      version: 0.4.2-0
+      version: 0.4.4-2
     source:
       type: git
       url: https://github.com/strands-project/mongodb_store.git
@@ -14170,7 +14170,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ethz-adrl/towr-release.git
-      version: 1.4.0-0
+      version: 1.4.1-0
     source:
       test_pull_requests: true
       type: git
@@ -14636,7 +14636,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/UbiquityRobotics-release/ubiquity_motor-release.git
-      version: 0.8.0-0
+      version: 0.9.0-0
     source:
       type: git
       url: https://github.com/UbiquityRobotics/ubiquity_motor.git
@@ -14745,19 +14745,25 @@ repositories:
     release:
       packages:
       - universal_robot
+      - universal_robots
+      - ur10_e_moveit_config
       - ur10_moveit_config
+      - ur3_e_moveit_config
       - ur3_moveit_config
+      - ur5_e_moveit_config
       - ur5_moveit_config
       - ur_bringup
       - ur_description
       - ur_driver
+      - ur_e_description
+      - ur_e_gazebo
       - ur_gazebo
       - ur_kinematics
       - ur_msgs
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-industrial-release/universal_robot-release.git
-      version: 1.2.1-0
+      version: 1.2.5-0
     source:
       type: git
       url: https://github.com/ros-industrial/universal_robot.git
@@ -15746,7 +15752,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/leggedrobotics/xpp-release.git
-      version: 1.0.8-0
+      version: 1.0.10-0
     source:
       test_pull_requests: true
       type: git
