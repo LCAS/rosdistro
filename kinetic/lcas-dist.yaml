@@ -1093,9 +1093,10 @@ repositories:
       - thorvald_base
       - thorvald_bringup
       - thorvald_can_devices
+      - thorvald_description
+      - thorvald_example_robots
       - thorvald_gazebo_plugins
       - thorvald_gui
-      - thorvald_model
       - thorvald_msgs
       - thorvald_simulator
       - thorvald_teleop
@@ -1103,7 +1104,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/LCAS/thorvald-releases.git
-      version: 0.2.3-0
+      version: 1.0.0-0
     source:
       test_pull_requests: true
       type: git
