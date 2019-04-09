@@ -575,6 +575,14 @@ repositories:
       version: master
     status: developed
   realsense_ros:
+    release:
+      packages:
+      - ddynamic_reconfigure
+      - realsense2_camera
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/realsense.git
+      version: 2.2.4-0
     source:
       test_pull_requests: true
       type: git
