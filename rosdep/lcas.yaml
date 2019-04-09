@@ -83,6 +83,9 @@ python-webpy:
   ubuntu: [python-webpy]
 python-ws4py:
   ubuntu: [python-ws4py]
+realsense2-sdk:
+  ubuntu:
+    xenial: [librealsense2-dev, librealsense2-dkms, librealsense2-utils]
 rubygem-jekyll:
   ubuntu: [rubygem-jekyll]
 strands-morse-simulator:
