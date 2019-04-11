@@ -773,6 +773,27 @@ repositories:
       url: https://github.com/ros2/message_filters.git
       version: crystal
     status: maintained
+  ml_classifiers:
+    doc:
+      type: git
+      url: https://github.com/astuff/ml_classifiers.git
+      version: master
+    release:
+      tags:
+        release: release/crystal/{package}/{version}
+      url: https://github.com/astuff/ml_classifiers-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/astuff/ml_classifiers.git
+      version: master
+    status: maintained
+  mrpt2:
+    release:
+      tags:
+        release: release/crystal/{package}/{version}
+      url: https://github.com/mrpt-ros2-pkg-release/mrpt2-release.git
+      version: 1.9.9-0
   navigation2:
     doc:
       type: git
