@@ -5494,16 +5494,16 @@ repositories:
   sbg_driver:
     doc:
       type: git
-      url: https://github.com/ENSTABretagneRobotics/sbg_ros_driver.git
+      url: https://github.com/SBG-Systems/sbg_ros_driver.git
       version: master
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ENSTABretagneRobotics/sbg_ros_driver-release.git
+      url: https://github.com/SBG-Systems/sbg_ros_driver-release.git
       version: 1.1.7-0
     source:
       type: git
-      url: https://github.com/ENSTABretagneRobotics/sbg_ros_driver.git
+      url: https://github.com/SBG-Systems/sbg_ros_driver.git
       version: master
     status: developed
   sbpl:
@@ -6255,7 +6255,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/lagadic/visp-release.git
-      version: 3.1.0-2
+      version: 3.2.0-2
     status: maintained
   visualization_tutorials:
     doc:
