@@ -178,7 +178,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/fastrtps-release.git
-      version: 1.7.2-1
+      version: 1.7.2-2
     source:
       test_commits: false
       test_pull_requests: false
@@ -200,6 +200,25 @@ repositories:
       url: https://github.com/ament/googletest.git
       version: ros2
     status: maintained
+  launch:
+    doc:
+      type: git
+      url: https://github.com/ros2/launch.git
+      version: master
+    release:
+      packages:
+      - launch
+      - launch_testing
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/launch-release.git
+      version: 0.8.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/launch.git
+      version: master
+    status: developed
   libyaml_vendor:
     release:
       tags:
@@ -210,6 +229,24 @@ repositories:
       type: git
       url: https://github.com/ros2/libyaml_vendor.git
       version: master
+    status: maintained
+  orocos_kinematics_dynamics:
+    doc:
+      type: git
+      url: https://github.com/ros2/orocos_kinematics_dynamics.git
+      version: ros2
+    release:
+      packages:
+      - orocos_kdl
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/orocos_kinematics_dynamics-release.git
+      version: 3.2.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/orocos_kinematics_dynamics.git
+      version: ros2
     status: maintained
   osrf_pycommon:
     doc:
@@ -257,6 +294,130 @@ repositories:
       url: https://github.com/ros2/poco_vendor.git
       version: master
     status: maintained
+  rcpputils:
+    doc:
+      type: git
+      url: https://github.com/ros2/rcpputils.git
+      version: master
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/rcpputils-release.git
+      version: 0.1.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rcpputils.git
+      version: master
+    status: developed
+  rcutils:
+    doc:
+      type: git
+      url: https://github.com/ros2/rcutils.git
+      version: master
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/rcutils-release.git
+      version: 0.7.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rcutils.git
+      version: master
+    status: developed
+  rmw:
+    doc:
+      type: git
+      url: https://github.com/ros2/rmw.git
+      version: master
+    release:
+      packages:
+      - rmw
+      - rmw_implementation_cmake
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/rmw-release.git
+      version: 0.7.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rmw.git
+      version: master
+    status: developed
+  rmw_connext:
+    doc:
+      type: git
+      url: https://github.com/ros2/rmw_connext.git
+      version: master
+    release:
+      packages:
+      - rmw_connext_cpp
+      - rmw_connext_shared_cpp
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/rmw_connext-release.git
+      version: 0.7.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rmw_connext.git
+      version: master
+    status: developed
+  rmw_fastrtps:
+    doc:
+      type: git
+      url: https://github.com/ros2/rmw_fastrtps.git
+      version: master
+    release:
+      packages:
+      - rmw_fastrtps_cpp
+      - rmw_fastrtps_dynamic_cpp
+      - rmw_fastrtps_shared_cpp
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/rmw_fastrtps-release.git
+      version: 0.7.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rmw_fastrtps.git
+      version: master
+    status: developed
+  rmw_implementation:
+    doc:
+      type: git
+      url: https://github.com/ros2/rmw_implementation.git
+      version: master
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/rmw_implementation-release.git
+      version: 0.7.0-2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rmw_implementation.git
+      version: master
+    status: developed
+  rmw_opensplice:
+    doc:
+      type: git
+      url: https://github.com/ros2/rmw_opensplice.git
+      version: master
+    release:
+      packages:
+      - rmw_opensplice_cpp
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/rmw_opensplice-release.git
+      version: 0.7.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rmw_opensplice.git
+      version: master
+    status: developed
   ros_environment:
     release:
       tags:
@@ -320,6 +481,64 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_dds.git
+      version: master
+    status: developed
+  rosidl_typesupport_connext:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl_typesupport_connext.git
+      version: master
+    release:
+      packages:
+      - connext_cmake_module
+      - rosidl_typesupport_connext_c
+      - rosidl_typesupport_connext_cpp
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/rosidl_typesupport_connext-release.git
+      version: 0.7.0-2
+    source:
+      type: git
+      url: https://github.com/ros2/rosidl_typesupport_connext.git
+      version: master
+    status: developed
+  rosidl_typesupport_fastrtps:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl_typesupport_fastrtps.git
+      version: master
+    release:
+      packages:
+      - fastrtps_cmake_module
+      - rosidl_typesupport_fastrtps_c
+      - rosidl_typesupport_fastrtps_cpp
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/rosidl_typesupport_fastrtps-release.git
+      version: 0.7.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl_typesupport_fastrtps.git
+      version: master
+    status: developed
+  rosidl_typesupport_opensplice:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl_typesupport_opensplice.git
+      version: master
+    release:
+      packages:
+      - opensplice_cmake_module
+      - rosidl_typesupport_opensplice_c
+      - rosidl_typesupport_opensplice_cpp
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/rosidl_typesupport_opensplice-release.git
+      version: 0.7.0-1
+    source:
+      type: git
+      url: https://github.com/ros2/rosidl_typesupport_opensplice.git
       version: master
     status: developed
   tinyxml2_vendor:
