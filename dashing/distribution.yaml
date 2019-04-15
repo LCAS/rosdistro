@@ -149,6 +149,35 @@ repositories:
       url: https://github.com/ros/class_loader.git
       version: ros2
     status: developed
+  common_interfaces:
+    doc:
+      type: git
+      url: https://github.com/ros2/common_interfaces.git
+      version: crystal
+    release:
+      packages:
+      - actionlib_msgs
+      - common_interfaces
+      - diagnostic_msgs
+      - geometry_msgs
+      - nav_msgs
+      - sensor_msgs
+      - shape_msgs
+      - std_msgs
+      - std_srvs
+      - stereo_msgs
+      - trajectory_msgs
+      - visualization_msgs
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/common_interfaces-release.git
+      version: 0.7.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/common_interfaces.git
+      version: master
+    status: developed
   console_bridge_vendor:
     release:
       tags:
@@ -160,6 +189,54 @@ repositories:
       url: https://github.com/ros2/console_bridge_vendor.git
       version: master
     status: maintained
+  example_interfaces:
+    doc:
+      type: git
+      url: https://github.com/ros2/example_interfaces.git
+      version: master
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/example_interfaces-release.git
+      version: 0.7.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/example_interfaces.git
+      version: master
+    status: developed
+  examples:
+    doc:
+      type: git
+      url: https://github.com/ros2/examples.git
+      version: master
+    release:
+      packages:
+      - examples_rclcpp_minimal_action_client
+      - examples_rclcpp_minimal_action_server
+      - examples_rclcpp_minimal_client
+      - examples_rclcpp_minimal_composition
+      - examples_rclcpp_minimal_publisher
+      - examples_rclcpp_minimal_service
+      - examples_rclcpp_minimal_subscriber
+      - examples_rclcpp_minimal_timer
+      - examples_rclpy_executors
+      - examples_rclpy_minimal_action_client
+      - examples_rclpy_minimal_action_server
+      - examples_rclpy_minimal_client
+      - examples_rclpy_minimal_publisher
+      - examples_rclpy_minimal_service
+      - examples_rclpy_minimal_subscriber
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/examples-release.git
+      version: 0.7.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/examples.git
+      version: master
+    status: developed
   fastcdr:
     release:
       tags:
@@ -186,6 +263,29 @@ repositories:
       url: https://github.com/eProsima/Fast-RTPS.git
       version: c776f0f0964e697f93b51590688569567a7056f3
     status: developed
+  geometry2:
+    doc:
+      type: git
+      url: https://github.com/ros2/geometry2.git
+      version: ros2
+    release:
+      packages:
+      - tf2
+      - tf2_eigen
+      - tf2_geometry_msgs
+      - tf2_msgs
+      - tf2_ros
+      - tf2_sensor_msgs
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/geometry2-release.git
+      version: 0.11.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/geometry2.git
+      version: ros2
+    status: maintained
   googletest:
     release:
       packages:
@@ -198,6 +298,22 @@ repositories:
     source:
       type: git
       url: https://github.com/ament/googletest.git
+      version: ros2
+    status: maintained
+  kdl_parser:
+    doc:
+      type: git
+      url: https://github.com/ros2/kdl_parser.git
+      version: ros2
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/kdl_parser-release.git
+      version: 2.2.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/kdl_parser.git
       version: ros2
     status: maintained
   launch:
@@ -230,6 +346,22 @@ repositories:
       url: https://github.com/ros2/libyaml_vendor.git
       version: master
     status: maintained
+  message_filters:
+    doc:
+      type: git
+      url: https://github.com/ros2/message_filters.git
+      version: master
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/ros2_message_filters-release.git
+      version: 3.1.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/message_filters.git
+      version: master
+    status: developed
   orocos_kinematics_dynamics:
     doc:
       type: git
@@ -282,6 +414,22 @@ repositories:
       url: https://github.com/osrf/osrf_testing_tools_cpp.git
       version: master
     status: developed
+  pluginlib:
+    doc:
+      type: git
+      url: https://github.com/ros/pluginlib.git
+      version: ros2
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/pluginlib-release.git
+      version: 2.3.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/pluginlib.git
+      version: ros2
+    status: maintained
   poco_vendor:
     release:
       tags:
@@ -294,6 +442,107 @@ repositories:
       url: https://github.com/ros2/poco_vendor.git
       version: master
     status: maintained
+  rcl:
+    doc:
+      type: git
+      url: https://github.com/ros2/rcl.git
+      version: master
+    release:
+      packages:
+      - rcl
+      - rcl_action
+      - rcl_lifecycle
+      - rcl_yaml_param_parser
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/rcl-release.git
+      version: 0.7.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rcl.git
+      version: master
+    status: developed
+  rcl_interfaces:
+    doc:
+      type: git
+      url: https://github.com/ros2/rcl_interfaces.git
+      version: master
+    release:
+      packages:
+      - action_msgs
+      - builtin_interfaces
+      - composition_interfaces
+      - lifecycle_msgs
+      - rcl_interfaces
+      - rosgraph_msgs
+      - test_msgs
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/rcl_interfaces-release.git
+      version: 0.7.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rcl_interfaces.git
+      version: master
+    status: developed
+  rcl_logging:
+    doc:
+      type: git
+      url: https://github.com/ros2/rcl_logging.git
+      version: master
+    release:
+      packages:
+      - rcl_logging_log4cxx
+      - rcl_logging_noop
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/rcl_logging-release.git
+      version: 0.2.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rcl_logging.git
+      version: master
+    status: developed
+  rclcpp:
+    doc:
+      type: git
+      url: https://github.com/ros2/rclcpp.git
+      version: master
+    release:
+      packages:
+      - rclcpp
+      - rclcpp_action
+      - rclcpp_components
+      - rclcpp_lifecycle
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/rclcpp-release.git
+      version: 0.7.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rclcpp.git
+      version: master
+    status: developed
+  rclpy:
+    doc:
+      type: git
+      url: https://github.com/ros2/rclpy.git
+      version: master
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/rclpy-release.git
+      version: 0.7.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rclpy.git
+      version: master
+    status: developed
   rcpputils:
     doc:
       type: git
@@ -418,6 +667,35 @@ repositories:
       url: https://github.com/ros2/rmw_opensplice.git
       version: master
     status: developed
+  ros2cli:
+    doc:
+      type: git
+      url: https://github.com/ros2/ros2cli.git
+      version: master
+    release:
+      packages:
+      - ros2action
+      - ros2cli
+      - ros2lifecycle
+      - ros2msg
+      - ros2multicast
+      - ros2node
+      - ros2param
+      - ros2pkg
+      - ros2run
+      - ros2service
+      - ros2srv
+      - ros2topic
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/ros2cli-release.git
+      version: 0.7.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/ros2cli.git
+      version: master
+    status: developed
   ros_environment:
     release:
       tags:
@@ -483,6 +761,64 @@ repositories:
       url: https://github.com/ros2/rosidl_dds.git
       version: master
     status: developed
+  rosidl_defaults:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl_defaults.git
+      version: master
+    release:
+      packages:
+      - rosidl_default_generators
+      - rosidl_default_runtime
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/rosidl_defaults-release.git
+      version: 0.7.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl_defaults.git
+      version: master
+    status: developed
+  rosidl_python:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl_python.git
+      version: master
+    release:
+      packages:
+      - python_cmake_module
+      - rosidl_generator_py
+      - rosidl_runtime_py
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/rosidl_python-release.git
+      version: 0.7.1-2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl_python.git
+      version: master
+    status: developed
+  rosidl_typesupport:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl_typesupport.git
+      version: master
+    release:
+      packages:
+      - rosidl_typesupport_c
+      - rosidl_typesupport_cpp
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/rosidl_typesupport-release.git
+      version: 0.7.0-2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl_typesupport.git
+      version: master
+    status: developed
   rosidl_typesupport_connext:
     doc:
       type: git
@@ -541,6 +877,22 @@ repositories:
       url: https://github.com/ros2/rosidl_typesupport_opensplice.git
       version: master
     status: developed
+  tinydir_vendor:
+    doc:
+      type: git
+      url: https://github.com/ros2/tinydir_vendor.git
+      version: master
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/tinydir_vendor-release.git
+      version: 1.1.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/tinydir_vendor.git
+      version: master
+    status: maintained
   tinyxml2_vendor:
     release:
       tags:
@@ -563,6 +915,22 @@ repositories:
       url: https://github.com/ros2/tinyxml_vendor.git
       version: master
     status: maintained
+  tlsf:
+    doc:
+      type: git
+      url: https://github.com/ros2/tlsf.git
+      version: master
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/tlsf-release.git
+      version: 0.5.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/tlsf.git
+      version: master
+    status: maintained
   uncrustify_vendor:
     doc:
       type: git
@@ -577,6 +945,54 @@ repositories:
       type: git
       url: https://github.com/ament/uncrustify_vendor.git
       version: master
+    status: maintained
+  unique_identifier_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros2/unique_identifier_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/unique_identifier_msgs-release.git
+      version: 2.1.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/unique_identifier_msgs.git
+      version: master
+    status: developed
+  urdf:
+    doc:
+      type: git
+      url: https://github.com/ros2/urdf.git
+      version: ros2
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/urdf-release.git
+      version: 2.2.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/urdf.git
+      version: ros2
+    status: maintained
+  urdfdom:
+    doc:
+      type: git
+      url: https://github.com/ros2/urdfdom.git
+      version: ros2
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/urdfdom-release.git
+      version: 2.2.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/urdfdom.git
+      version: ros2
     status: maintained
   urdfdom_headers:
     doc:
