@@ -133,6 +133,22 @@ repositories:
       url: https://github.com/ament/ament_package.git
       version: master
     status: developed
+  angles:
+    doc:
+      type: git
+      url: https://github.com/ros/angles.git
+      version: ros2
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/angles-release.git
+      version: 1.12.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/angles.git
+      version: ros2
+    status: maintained
   class_loader:
     doc:
       type: git
@@ -464,6 +480,22 @@ repositories:
       url: https://github.com/osrf/osrf_testing_tools_cpp.git
       version: master
     status: developed
+  pcl_conversions:
+    doc:
+      type: git
+      url: https://github.com/ros2/pcl_conversions.git
+      version: dashing
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/pcl_conversions-release.git
+      version: 2.0.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/pcl_conversions.git
+      version: dashing
+    status: developed
   pluginlib:
     doc:
       type: git
@@ -643,6 +675,25 @@ repositories:
       type: git
       url: https://github.com/ros2/realtime_support.git
       version: master
+    status: maintained
+  resource_retriever:
+    doc:
+      type: git
+      url: https://github.com/ros/resource_retriever.git
+      version: dashing
+    release:
+      packages:
+      - libcurl_vendor
+      - resource_retriever
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/resource_retriever-release.git
+      version: 2.1.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/resource_retriever.git
+      version: dashing
     status: maintained
   rmw:
     doc:
@@ -963,6 +1014,38 @@ repositories:
       url: https://github.com/ros2/rosidl_typesupport_opensplice.git
       version: master
     status: developed
+  teleop_twist_joy:
+    doc:
+      type: git
+      url: https://github.com/ros2/teleop_twist_joy.git
+      version: dashing
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/teleop_twist_joy-release.git
+      version: 2.1.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/teleop_twist_joy.git
+      version: dashing
+    status: maintained
+  teleop_twist_keyboard:
+    doc:
+      type: git
+      url: https://github.com/ros2/teleop_twist_keyboard.git
+      version: dashing
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/teleop_twist_keyboard-release.git
+      version: 2.3.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/teleop_twist_keyboard.git
+      version: dashing
+    status: maintained
   tinydir_vendor:
     doc:
       type: git
