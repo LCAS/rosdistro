@@ -363,6 +363,17 @@ repositories:
       url: https://github.com/ros2/kdl_parser.git
       version: ros2
     status: maintained
+  laser_geometry:
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/laser_geometry-release.git
+      version: 2.0.0-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/laser_geometry.git
+      version: ros2
+    status: maintained
   launch:
     doc:
       type: git
@@ -428,6 +439,23 @@ repositories:
       url: https://github.com/ros2/message_filters.git
       version: master
     status: developed
+  navigation_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/navigation_msgs.git
+      version: ros2
+    release:
+      packages:
+      - map_msgs
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/navigation_msgs-release.git
+      version: 2.0.1-0
+    source:
+      type: git
+      url: https://github.com/ros-planning/navigation_msgs.git
+      version: ros2
+    status: maintained
   orocos_kinematics_dynamics:
     doc:
       type: git
