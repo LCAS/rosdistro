@@ -955,6 +955,26 @@ repositories:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/depthimage_to_laserscan-release.git
       version: 1.0.8-0
+  desistek_saga:
+    doc:
+      type: git
+      url: https://github.com/uuvsimulator/desistek_saga.git
+      version: master
+    release:
+      packages:
+      - desistek_saga_control
+      - desistek_saga_description
+      - desistek_saga_gazebo
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/uuvsimulator/desistek_saga-release.git
+      version: 0.3.2-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/uuvsimulator/desistek_saga.git
+      version: master
+    status: developed
   diagnostics:
     doc:
       type: git
@@ -1081,6 +1101,26 @@ repositories:
       type: git
       url: https://github.com/ROBOTIS-GIT/DynamixelSDK.git
       version: melodic-devel
+    status: developed
+  eca_a9:
+    doc:
+      type: git
+      url: https://github.com/uuvsimulator/eca_a9.git
+      version: master
+    release:
+      packages:
+      - eca_a9_control
+      - eca_a9_description
+      - eca_a9_gazebo
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/uuvsimulator/eca_a9-release.git
+      version: 0.1.6-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/uuvsimulator/eca_a9.git
+      version: master
     status: developed
   ecl_core:
     doc:
@@ -1240,6 +1280,21 @@ repositories:
       url: https://github.com/ensenso/ros_driver.git
       version: master
     status: developed
+  epos2_motor_controller:
+    doc:
+      type: git
+      url: https://github.com/uos/epos2_motor_controller.git
+      version: 1.0.0
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/uos-gbp/epos2_motor_controller-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/uos/epos2_motor_controller.git
+      version: master
+    status: maintained
   ethercat_grant:
     doc:
       type: git
@@ -2814,6 +2869,26 @@ repositories:
       url: https://github.com/ros-perception/laser_proc.git
       version: melodic-devel
     status: maintained
+  lauv_gazebo:
+    doc:
+      type: git
+      url: https://github.com/uuvsimulator/lauv_gazebo.git
+      version: master
+    release:
+      packages:
+      - lauv_control
+      - lauv_description
+      - lauv_gazebo
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/uuvsimulator/lauv_gazebo-release.git
+      version: 0.1.6-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/uuvsimulator/lauv_gazebo.git
+      version: master
+    status: developed
   leap_motion:
     doc:
       type: git
@@ -4163,7 +4238,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-perception/opencv_apps-release.git
-      version: 2.0.0-0
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/ros-perception/opencv_apps.git
@@ -4700,7 +4775,11 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_common-release.git
-      version: 1.12.3-0
+      version: 1.12.4-1
+    source:
+      type: git
+      url: https://github.com/pr2/pr2_common.git
+      version: melodic-devel
     status: unmaintained
   pr2_common_actions:
     doc:
@@ -4825,6 +4904,26 @@ repositories:
       url: https://github.com/pr2-gbp/pr2_power_drivers-release.git
       version: 1.1.7-0
     status: unmaintained
+  pr2_simulator:
+    doc:
+      type: git
+      url: https://github.com/PR2/pr2_simulator.git
+      version: kinetic-devel
+    release:
+      packages:
+      - pr2_controller_configuration_gazebo
+      - pr2_gazebo
+      - pr2_gazebo_plugins
+      - pr2_simulator
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/pr2-gbp/pr2_simulator-release.git
+      version: 2.0.13-1
+    source:
+      type: git
+      url: https://github.com/PR2/pr2_simulator.git
+      version: kinetic-devel
+    status: unmaintained
   prbt_grippers:
     doc:
       type: git
@@ -4837,7 +4936,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/PilzDE/prbt_grippers-release.git
-      version: 0.0.2-0
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/PilzDE/prbt_grippers.git
@@ -5043,6 +5142,21 @@ repositories:
         release: release/melodic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/qt_metapackages-release.git
       version: 1.0.1-0
+    status: developed
+  quaternion_operation:
+    doc:
+      type: git
+      url: https://github.com/OUXT-Polaris/quaternion_operation.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/OUXT-Polaris/quaternion_operation-release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://github.com/OUXT-Polaris/quaternion_operation.git
+      version: master
     status: developed
   qwt_dependency:
     doc:

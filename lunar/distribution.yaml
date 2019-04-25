@@ -740,6 +740,26 @@ repositories:
         release: release/lunar/{package}/{version}
       url: https://github.com/pal-gbp/ddynamic_reconfigure_python-release.git
       version: 0.0.1-0
+  desistek_saga:
+    doc:
+      type: git
+      url: https://github.com/uuvsimulator/desistek_saga.git
+      version: master
+    release:
+      packages:
+      - desistek_saga_control
+      - desistek_saga_description
+      - desistek_saga_gazebo
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/uuvsimulator/desistek_saga-release.git
+      version: 0.3.2-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/uuvsimulator/desistek_saga.git
+      version: master
+    status: developed
   diagnostics:
     doc:
       type: git
@@ -826,6 +846,26 @@ repositories:
     source:
       type: git
       url: https://github.com/tork-a/dynpick_driver.git
+      version: master
+    status: developed
+  eca_a9:
+    doc:
+      type: git
+      url: https://github.com/uuvsimulator/eca_a9.git
+      version: 0.1.6
+    release:
+      packages:
+      - eca_a9_control
+      - eca_a9_description
+      - eca_a9_gazebo
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/uuvsimulator/eca_a9-release.git
+      version: 0.1.6-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/uuvsimulator/eca_a9.git
       version: master
     status: developed
   ecl_lite:
@@ -2072,6 +2112,26 @@ repositories:
       url: https://github.com/ros-perception/laser_proc.git
       version: indigo-devel
     status: maintained
+  lauv_gazebo:
+    doc:
+      type: git
+      url: https://github.com/uuvsimulator/lauv_gazebo.git
+      version: master
+    release:
+      packages:
+      - lauv_control
+      - lauv_description
+      - lauv_gazebo
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/uuvsimulator/lauv_gazebo-release.git
+      version: 0.1.6-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/uuvsimulator/lauv_gazebo.git
+      version: master
+    status: developed
   lgsvl_msgs:
     release:
       tags:
@@ -3745,6 +3805,26 @@ repositories:
         release: release/lunar/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_power_drivers-release.git
       version: 1.1.7-0
+    status: unmaintained
+  pr2_simulator:
+    doc:
+      type: git
+      url: https://github.com/PR2/pr2_simulator.git
+      version: kinetic-devel
+    release:
+      packages:
+      - pr2_controller_configuration_gazebo
+      - pr2_gazebo
+      - pr2_gazebo_plugins
+      - pr2_simulator
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/pr2-gbp/pr2_simulator-release.git
+      version: 2.0.13-1
+    source:
+      type: git
+      url: https://github.com/PR2/pr2_simulator.git
+      version: kinetic-devel
     status: unmaintained
   pyros_config:
     release:
