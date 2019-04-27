@@ -3551,7 +3551,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt1-release.git
-      version: 1.5.7-6
+      version: 1.5.7-7
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
@@ -3657,7 +3657,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/praveen-palanisamy/multi_object_tracking_lidar-release.git
-      version: 1.0.0-0
+      version: 1.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -4532,7 +4532,7 @@ repositories:
       url: https://github.com/ros-gbp/perception_pcl-release.git
       version: 1.6.2-0
     source:
-      test_commits: false
+      test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
       version: melodic-devel
@@ -4646,7 +4646,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/PilzDE/pilz_robots-release.git
-      version: 0.5.2-0
+      version: 0.5.3-1
     source:
       type: git
       url: https://github.com/PilzDE/pilz_robots.git
@@ -4942,6 +4942,36 @@ repositories:
       url: https://github.com/PilzDE/prbt_grippers.git
       version: kinetic-devel
     status: developed
+  prosilica_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/prosilica_driver.git
+      version: hydro-devel
+    release:
+      packages:
+      - prosilica_camera
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/prosilica_driver-release.git
+      version: 1.9.4-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/prosilica_driver.git
+      version: hydro-devel
+  prosilica_gige_sdk:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/prosilica_gige_sdk.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/prosilica_gige_sdk-release.git
+      version: 1.26.3-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/prosilica_gige_sdk.git
+      version: hydro-devel
   py_trees:
     doc:
       type: git
@@ -5152,7 +5182,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/OUXT-Polaris/quaternion_operation-release.git
-      version: 0.0.1-1
+      version: 0.0.1-2
     source:
       type: git
       url: https://github.com/OUXT-Polaris/quaternion_operation.git
@@ -6261,6 +6291,21 @@ repositories:
       url: https://github.com/ros-drivers/rosserial.git
       version: melodic-devel
     status: maintained
+  rostate_machine:
+    doc:
+      type: git
+      url: https://github.com/OUXT-Polaris/rostate_machine.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/OUXT-Polaris/rostate_machine-release.git
+      version: 0.0.2-1
+    source:
+      type: git
+      url: https://github.com/OUXT-Polaris/rostate_machine.git
+      version: master
+    status: developed
   roswww:
     doc:
       type: git
