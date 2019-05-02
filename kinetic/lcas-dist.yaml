@@ -252,6 +252,12 @@ repositories:
       url: https://gitsvn-nt.oru.se/palmieri/iliad_smp.git
       version: master
     status: developed
+  iliad_smu_package:
+    source:
+      type: git
+      url: https://gitsvn-nt.oru.se/mazin_hamad/iliad_smu_package.git
+      version: master
+    status: developed
   kmo_interfaces:
     release:
       packages:
