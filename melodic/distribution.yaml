@@ -836,6 +836,21 @@ repositories:
       type: git
       url: https://github.com/whoenig/crazyflie_ros.git
       version: master
+  cv_camera:
+    doc:
+      type: git
+      url: https://github.com/OTL/cv_camera.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/OTL/cv_camera-release.git
+      version: 0.4.0-1
+    source:
+      type: git
+      url: https://github.com/OTL/cv_camera.git
+      version: master
+    status: maintained
   dataspeed_can:
     doc:
       type: hg
@@ -2491,6 +2506,21 @@ repositories:
       type: git
       url: https://github.com/ros/joint_state_publisher.git
       version: kinetic-devel
+    status: maintained
+  jointstick:
+    doc:
+      type: git
+      url: https://github.com/gstavrinos/jointstick.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/gstavrinos/jointstick-release.git
+      version: 0.9.1-2
+    source:
+      type: git
+      url: https://github.com/gstavrinos/jointstick.git
+      version: master
     status: maintained
   joystick_drivers:
     doc:
@@ -6048,7 +6078,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.11.0-0
+      version: 0.11.1-1
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -7773,6 +7803,27 @@ repositories:
       type: git
       url: https://github.com/ros-teleop/twist_mux_msgs.git
       version: melodic-devel
+    status: maintained
+  uav_testing:
+    doc:
+      type: git
+      url: https://github.com/osrf/uav_testing.git
+      version: master
+    release:
+      packages:
+      - ksql_airport
+      - mcmillan_airfield
+      - sand_island
+      - yosemite_valley
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/uav_testing-release.git
+      version: 0.0.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/osrf/uav_testing.git
+      version: master
     status: maintained
   um7:
     doc:

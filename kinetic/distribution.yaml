@@ -5191,6 +5191,21 @@ repositories:
       url: https://github.com/ros/joint_state_publisher.git
       version: kinetic-devel
     status: maintained
+  jointstick:
+    doc:
+      type: git
+      url: https://github.com/gstavrinos/jointstick.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/gstavrinos/jointstick-release.git
+      version: 0.9.1-1
+    source:
+      type: git
+      url: https://github.com/gstavrinos/jointstick.git
+      version: master
+    status: maintained
   joystick_drivers:
     doc:
       type: git
@@ -7066,7 +7081,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt1-release.git
-      version: 1.5.7-5
+      version: 1.5.8-0
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
@@ -11815,7 +11830,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.11.0-0
+      version: 0.11.1-1
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -13430,6 +13445,22 @@ repositories:
     source:
       type: git
       url: https://github.com/SICKAG/sick_visionary_t.git
+      version: indigo-devel
+    status: maintained
+  sicktoolbox_wrapper:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/sicktoolbox_wrapper.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/sicktoolbox_wrapper-release.git
+      version: 2.5.4-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-drivers/sicktoolbox_wrapper.git
       version: indigo-devel
     status: maintained
   simple_arm:

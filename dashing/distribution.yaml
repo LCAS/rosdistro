@@ -111,7 +111,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/ament_lint-release.git
-      version: 0.7.0-1
+      version: 0.7.1-1
     source:
       test_pull_requests: true
       type: git
@@ -173,7 +173,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/class_loader-release.git
-      version: 1.3.0-1
+      version: 1.3.1-1
     source:
       test_pull_requests: true
       type: git
@@ -356,7 +356,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/googletest-release.git
-      version: 1.8.0-1
+      version: 1.8.9000-1
     source:
       type: git
       url: https://github.com/ament/googletest.git
@@ -416,10 +416,11 @@ repositories:
       packages:
       - launch
       - launch_testing
+      - launch_testing_ament_cmake
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/launch-release.git
-      version: 0.8.0-1
+      version: 0.8.1-2
     source:
       test_pull_requests: true
       type: git
@@ -566,7 +567,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/pluginlib-release.git
-      version: 2.3.0-1
+      version: 2.3.1-1
     source:
       test_pull_requests: true
       type: git
@@ -599,7 +600,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rcl-release.git
-      version: 0.7.1-1
+      version: 0.7.2-1
     source:
       test_pull_requests: true
       type: git
@@ -623,7 +624,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rcl_interfaces-release.git
-      version: 0.7.1-1
+      version: 0.7.2-1
     source:
       test_pull_requests: true
       type: git
@@ -642,7 +643,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rcl_logging-release.git
-      version: 0.2.0-1
+      version: 0.2.1-1
     source:
       test_pull_requests: true
       type: git
@@ -711,7 +712,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rcutils-release.git
-      version: 0.7.0-1
+      version: 0.7.1-1
     source:
       test_pull_requests: true
       type: git
@@ -768,7 +769,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rmw-release.git
-      version: 0.7.0-1
+      version: 0.7.1-1
     source:
       test_pull_requests: true
       type: git
@@ -787,7 +788,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_connext-release.git
-      version: 0.7.0-1
+      version: 0.7.1-1
     source:
       test_pull_requests: true
       type: git
@@ -807,7 +808,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_fastrtps-release.git
-      version: 0.7.0-1
+      version: 0.7.1-1
     source:
       test_pull_requests: true
       type: git
@@ -823,7 +824,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_implementation-release.git
-      version: 0.7.0-2
+      version: 0.7.1-1
     source:
       test_pull_requests: true
       type: git
@@ -841,7 +842,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_opensplice-release.git
-      version: 0.7.0-1
+      version: 0.7.1-1
     source:
       test_pull_requests: true
       type: git
@@ -934,7 +935,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl-release.git
-      version: 0.7.0-1
+      version: 0.7.1-1
     source:
       test_pull_requests: true
       type: git
@@ -952,7 +953,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_dds-release.git
-      version: 0.7.0-1
+      version: 0.7.1-1
     source:
       test_pull_requests: true
       type: git
@@ -991,7 +992,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_python-release.git
-      version: 0.7.1-2
+      version: 0.7.2-1
     source:
       test_pull_requests: true
       type: git
@@ -1010,7 +1011,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_typesupport-release.git
-      version: 0.7.0-2
+      version: 0.7.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1030,7 +1031,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_typesupport_connext-release.git
-      version: 0.7.0-2
+      version: 0.7.1-1
     source:
       type: git
       url: https://github.com/ros2/rosidl_typesupport_connext.git
@@ -1049,7 +1050,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_typesupport_fastrtps-release.git
-      version: 0.7.0-1
+      version: 0.7.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1069,7 +1070,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_typesupport_opensplice-release.git
-      version: 0.7.0-1
+      version: 0.7.1-1
     source:
       type: git
       url: https://github.com/ros2/rosidl_typesupport_opensplice.git
@@ -1106,6 +1107,17 @@ repositories:
       type: git
       url: https://github.com/ros2/teleop_twist_keyboard.git
       version: dashing
+    status: maintained
+  test_interface_files:
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/test_interface_files-release.git
+      version: 0.7.0-1
+    source:
+      type: git
+      url: https://github.com/ros2/test_interface_files.git
+      version: master
     status: maintained
   tinydir_vendor:
     doc:
@@ -1264,7 +1276,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/yaml_cpp_vendor-release.git
-      version: 6.0.0-1
+      version: 6.0.1-1
     source:
       type: git
       url: https://github.com/ros2/yaml_cpp_vendor.git
