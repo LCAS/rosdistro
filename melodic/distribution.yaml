@@ -1445,6 +1445,16 @@ repositories:
         release: release/melodic/{package}/{version}
       url: https://github.com/wxmerkt/exotica_val_description-release.git
       version: 1.0.0-1
+  eyeware-ros:
+    doc:
+      type: git
+      url: https://github.com/eyeware/eyeware-ros.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/eyeware/eyeware-ros.git
+      version: master
+    status: maintained
   fanuc_post_processor:
     doc:
       type: git
@@ -1582,6 +1592,26 @@ repositories:
       url: https://github.com/fetchrobotics/fetch_tools.git
       version: melodic-devel
     status: maintained
+  fiducials:
+    doc:
+      type: git
+      url: https://github.com/UbiquityRobotics/fiducials.git
+      version: kinetic-devel
+    release:
+      packages:
+      - aruco_detect
+      - fiducial_msgs
+      - fiducial_slam
+      - fiducials
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/UbiquityRobotics-release/fiducials-release.git
+      version: 0.11.0-1
+    source:
+      type: git
+      url: https://github.com/UbiquityRobotics/fiducials.git
+      version: kinetic-devel
+    status: developed
   filters:
     doc:
       type: git
@@ -3128,7 +3158,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/mapviz-release.git
-      version: 1.1.0-0
+      version: 1.1.1-1
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
@@ -3259,7 +3289,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.29.2-0
+      version: 0.30.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5394,7 +5424,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_dynamics_api-release.git
-      version: 0.7.1-0
+      version: 0.8.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5410,7 +5440,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_genicam_api-release.git
-      version: 2.1.0-0
+      version: 2.2.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5425,13 +5455,15 @@ repositories:
     release:
       packages:
       - rc_hand_eye_calibration_client
+      - rc_pick_client
+      - rc_tagdetect_client
       - rc_visard
       - rc_visard_description
       - rc_visard_driver
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_visard-release.git
-      version: 2.5.0-0
+      version: 2.6.1-1
     source:
       test_pull_requests: true
       type: git
