@@ -876,7 +876,7 @@ gazebo:
     buster: [gazebo7]
     jessie: [gazebo7]
     stretch: [gazebo7]
-  fedora: [gazebo-devel]
+  fedora: [gazebo]
   gentoo: [sci-electronics/gazebo]
   slackware: [gazebo]
   ubuntu:
@@ -893,7 +893,6 @@ gazebo:
     zesty: [gazebo7]
 gazebo5:
   arch: [gazebo]
-  fedora: [gazebo]
   gentoo: [=sci-electronics/gazebo-5*]
   ubuntu: [gazebo5]
 gazebo7:
@@ -902,7 +901,6 @@ gazebo7:
     buster: [gazebo7]
     jessie: [gazebo7]
     stretch: [gazebo7]
-  fedora: [gazebo]
   gentoo: [=sci-electronics/gazebo-7*]
   slackware: [gazebo]
   ubuntu: [gazebo7]
@@ -911,7 +909,7 @@ gazebo9:
     buster: [gazebo9]
     stretch: [gazebo9]
   fedora:
-    '30': [gazebo-devel]
+    '30': [gazebo]
   gentoo: [sci-electronics/gazebo]
   openembedded: []
   ubuntu:
@@ -1526,6 +1524,9 @@ libavahi-core-dev:
   fedora: [avahi-devel]
   gentoo: [net-dns/avahi]
   ubuntu: [libavahi-core-dev]
+libavdevice-dev:
+  debian: [libavdevice-dev]
+  ubuntu: [libavdevice-dev]
 libb64-dev:
   arch: [libb64]
   debian: [libb64-dev]
@@ -1910,7 +1911,6 @@ libftgl-dev:
   ubuntu: [libftgl-dev]
 libgazebo5-dev:
   arch: [gazebo]
-  fedora: [gazebo-devel]
   gentoo: [=sci-electronics/gazebo-5*]
   ubuntu: [libgazebo5-dev]
 libgazebo7-dev:
@@ -1919,8 +1919,6 @@ libgazebo7-dev:
     buster: [libgazebo7-dev]
     jessie: [libgazebo7-dev]
     stretch: [libgazebo7-dev]
-  fedora:
-    '25': [gazebo-devel]
   gentoo: [=sci-electronics/gazebo-7*]
   opensuse: [gazebo-devel]
   slackware: [gazebo]
@@ -1929,6 +1927,8 @@ libgazebo9-dev:
   debian:
     buster: [libgazebo9-dev]
     stretch: [libgazebo9-dev]
+  fedora:
+    '30': [gazebo-devel]
   gentoo: [sci-electronics/gazebo]
   openembedded: [libgazebo9@meta-ros]
   ubuntu:
@@ -4001,6 +4001,11 @@ mesa-common-dev:
   fedora: [mesa-libGL-devel, libdrm-devel, libX11-devel]
   gentoo: [media-libs/mesa]
   ubuntu: [mesa-common-dev]
+mesa-utils:
+  debian: [mesa-utils]
+  fedora: [glx-utils]
+  gentoo: [x11-apps/mesa-progs]
+  ubuntu: [mesa-utils]
 meshlab:
   arch: [meshlab]
   debian: [meshlab]
@@ -4573,6 +4578,10 @@ psutils:
   fedora: [psutils]
   gentoo: [psutils]
   ubuntu: [psutils]
+python-dev:
+  debian: [python-dev]
+  fedora: [python2-devel]
+  ubuntu: [python-dev]
 qhull-bin:
   arch: [qhull]
   debian: [qhull-bin]
@@ -5561,6 +5570,11 @@ zeromq3:
   fedora: [zeromq3]
   gentoo: [zeromq]
   ubuntu: [libzmq3-dev]
+zip:
+  debian: [zip]
+  fedora: [zip]
+  gentoo: [app-arch/zip]
+  ubuntu: [zip]
 zlib:
   alpine: [zlib-dev]
   arch: [zlib]
