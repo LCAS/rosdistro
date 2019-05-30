@@ -3211,7 +3211,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 2.8.0-0
+      version: 2.9.0-1
     source:
       type: git
       url: https://github.com/swri-robotics/marti_common.git
@@ -3430,6 +3430,16 @@ repositories:
       type: git
       url: https://github.com/ros-drivers/microstrain_3dmgx2_imu.git
       version: indigo-devel
+  microstrain_mips:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/microstrain_mips.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ros-drivers/microstrain_mips.git
+      version: master
+    status: developed
   mir_robot:
     doc:
       type: git

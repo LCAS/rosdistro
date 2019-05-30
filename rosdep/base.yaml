@@ -4133,6 +4133,10 @@ mosquitto:
   debian: [mosquitto]
   fedora: [mosquitto]
   ubuntu: [mosquitto]
+mosquitto-dev:
+  debian: [libmosquitto-dev]
+  fedora: [mosquitto-devel]
+  ubuntu: [libmosquitto-dev]
 mpg123:
   arch: [mpg123]
   debian: [mpg123]
@@ -5226,6 +5230,10 @@ udhcpc:
   arch: [udhcp]
   debian: [udhcpc]
   ubuntu: [udhcpc]
+unclutter:
+  debian: [unclutter]
+  fedora: [unclutter]
+  ubuntu: [unclutter]
 uncrustify:
   alpine: [uncrustify]
   debian: [uncrustify]
