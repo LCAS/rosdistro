@@ -279,7 +279,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/demos-release.git
-      version: 0.7.4-1
+      version: 0.7.5-1
     source:
       test_pull_requests: true
       type: git
@@ -311,7 +311,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/example_interfaces-release.git
-      version: 0.7.0-1
+      version: 0.7.1-1
     source:
       test_pull_requests: true
       type: git
@@ -343,7 +343,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/examples-release.git
-      version: 0.7.2-1
+      version: 0.7.3-1
     source:
       test_pull_requests: true
       type: git
@@ -409,7 +409,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/gazebo_ros_pkgs-release.git
-      version: 3.3.0-1
+      version: 3.3.1-1
     source:
       test_pull_requests: true
       type: git
@@ -466,7 +466,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/image_common-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -531,7 +531,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/launch-release.git
-      version: 0.8.2-1
+      version: 0.8.3-1
     source:
       test_pull_requests: true
       type: git
@@ -551,7 +551,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/launch_ros-release.git
-      version: 0.8.2-1
+      version: 0.8.3-1
     source:
       test_pull_requests: true
       type: git
@@ -650,6 +650,12 @@ repositories:
       url: https://github.com/intel/ros2_object_msgs.git
       version: master
     status: maintained
+  ompl:
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros-gbp/ompl-release.git
+      version: 1.4.2-1
   orocos_kinematics_dynamics:
     doc:
       type: git
@@ -778,7 +784,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/qt_gui_core-release.git
-      version: 1.0.4-1
+      version: 1.0.5-1
     source:
       test_pull_requests: true
       type: git
@@ -823,7 +829,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rcl_interfaces-release.git
-      version: 0.7.3-1
+      version: 0.7.4-1
     source:
       test_pull_requests: true
       type: git
@@ -879,7 +885,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rclpy-release.git
-      version: 0.7.2-1
+      version: 0.7.3-1
     source:
       test_pull_requests: true
       type: git
@@ -1007,7 +1013,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_fastrtps-release.git
-      version: 0.7.2-1
+      version: 0.7.3-1
     source:
       test_pull_requests: true
       type: git
@@ -1073,7 +1079,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/ros1_bridge-release.git
-      version: 0.7.1-1
+      version: 0.7.2-1
     source:
       test_commits: false
       type: git
@@ -1111,7 +1117,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_object_analytics-release.git
-      version: 0.5.4-1
+      version: 0.5.4-2
     source:
       type: git
       url: https://github.com/intel/ros2_object_analytics.git
@@ -1140,7 +1146,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/ros2cli-release.git
-      version: 0.7.3-1
+      version: 0.7.4-1
     source:
       test_pull_requests: true
       type: git
@@ -1229,7 +1235,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl-release.git
-      version: 0.7.2-1
+      version: 0.7.3-1
     source:
       test_pull_requests: true
       type: git
@@ -1286,7 +1292,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_python-release.git
-      version: 0.7.4-1
+      version: 0.7.5-1
     source:
       test_pull_requests: true
       type: git
@@ -1325,7 +1331,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_typesupport_connext-release.git
-      version: 0.7.1-1
+      version: 0.7.2-1
     source:
       type: git
       url: https://github.com/ros2/rosidl_typesupport_connext.git
@@ -1385,7 +1391,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rqt-release.git
-      version: 1.0.3-1
+      version: 1.0.4-1
     source:
       test_pull_requests: true
       type: git
@@ -1431,7 +1437,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_graph-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1447,7 +1453,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_image_view-release.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       test_pull_requests: true
       type: git
@@ -1478,7 +1484,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_plot-release.git
-      version: 1.0.4-1
+      version: 1.0.5-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_plot.git
@@ -1493,7 +1499,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_publisher-release.git
-      version: 1.0.4-1
+      version: 1.0.5-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_publisher.git
@@ -1523,7 +1529,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_service_caller-release.git
-      version: 1.0.2-1
+      version: 1.0.3-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_service_caller.git
@@ -1607,7 +1613,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rviz-release.git
-      version: 6.1.0-1
+      version: 6.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1845,7 +1851,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/vision_opencv-release.git
-      version: 2.1.1-1
+      version: 2.1.2-1
     source:
       test_pull_requests: true
       type: git
