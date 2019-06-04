@@ -1029,7 +1029,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_implementation-release.git
-      version: 0.7.1-1
+      version: 0.7.1-2
     source:
       test_pull_requests: true
       type: git
@@ -1638,6 +1638,16 @@ repositories:
       type: git
       url: https://github.com/ros2/sros2.git
       version: dashing
+    status: developed
+  system_modes:
+    release:
+      packages:
+      - system_modes
+      - system_modes_examples
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/microROS/system_modes-release.git
+      version: 0.1.4-1
     status: developed
   teleop_twist_joy:
     doc:
