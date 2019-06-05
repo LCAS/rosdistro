@@ -424,6 +424,12 @@ repositories:
       url: https://gitsvn-nt.oru.se/software/ndt_tools.git
       version: master
     status: developed
+  ompl_planners:
+    source:
+      type: git
+      url: https://github.com/ksatyaki/ompl_planners.git
+      version: master
+    status: developed
   openni_wrapper:
     release:
       tags:
