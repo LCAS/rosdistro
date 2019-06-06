@@ -52,7 +52,7 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ksatyaki/cliffmap_ros.git
+      url: https://github.com/ksatyaki/mod_ros.git
       version: master
     status: developed
   coordination_oru_ros:
