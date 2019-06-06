@@ -41,20 +41,6 @@ repositories:
       url: https://github.com/LCAS/catkin_simple.git
       version: master
     status: developed
-  mod_ros:
-    release:
-      packages:
-      - cliffmap_ros
-      tags:
-        release: release/kinetic/{package}/{version}
-      url: https://gitsvn-nt.oru.se/iliad/software/releases/cliffmap_ros-release.git
-      version: 0.0.2-0
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ksatyaki/mod_ros.git
-      version: master
-    status: developed
   coordination_oru_ros:
     release:
       packages:
@@ -365,6 +351,20 @@ repositories:
       url: https://github.com/LCAS/ros_marvelmind_package.git
       version: master
     status: maintained
+  mod_ros:
+    release:
+      packages:
+      - cliffmap_ros
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://gitsvn-nt.oru.se/iliad/software/releases/cliffmap_ros-release.git
+      version: 0.0.2-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ksatyaki/mod_ros.git
+      version: master
+    status: developed
   mongodb_store:
     release:
       packages:
