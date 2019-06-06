@@ -41,7 +41,7 @@ repositories:
       url: https://github.com/LCAS/catkin_simple.git
       version: master
     status: developed
-  cliff_map:
+  mod_ros:
     release:
       packages:
       - cliffmap_ros
