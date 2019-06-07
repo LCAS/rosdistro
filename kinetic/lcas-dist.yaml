@@ -356,10 +356,13 @@ repositories:
       packages:
       - cliffmap_ros
       - cliffmap_rviz_plugin
+      - pedsim_scenarios
+      - stefmap_ros
+      - stefmap_rviz_plugin
       tags:
         release: release/kinetic/{package}/{version}
       url: https://gitsvn-nt.oru.se/iliad/software/releases/cliffmap_ros-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/ksatyaki/mod_ros.git
