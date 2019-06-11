@@ -216,7 +216,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros2/common_interfaces.git
-      version: crystal
+      version: dashing
     release:
       packages:
       - actionlib_msgs
@@ -784,7 +784,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/qt_gui_core-release.git
-      version: 1.0.5-1
+      version: 1.0.6-1
     source:
       test_pull_requests: true
       type: git
@@ -1503,7 +1503,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_plot-release.git
-      version: 1.0.5-1
+      version: 1.0.6-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_plot.git
@@ -1851,7 +1851,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros2/variants.git
-      version: crystal
+      version: dashing
     release:
       packages:
       - desktop
