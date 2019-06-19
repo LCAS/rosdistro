@@ -1204,7 +1204,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/locusrobotics/catkin_virtualenv-release.git
-      version: 0.2.0-0
+      version: 0.4.1-2
     source:
       type: git
       url: https://github.com/locusrobotics/catkin_virtualenv.git
@@ -6918,7 +6918,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/uos-gbp/move_base_flex-release.git
-      version: 0.2.3-0
+      version: 0.2.4-1
     source:
       type: git
       url: https://github.com/magazino/move_base_flex.git
@@ -7907,6 +7907,21 @@ repositories:
       url: https://github.com/ros-drivers/nmea_comms.git
       version: jade-devel
     status: maintained
+  nmea_gps_plugin:
+    doc:
+      type: git
+      url: https://github.com/OUXT-Polaris/nmea_gps_plugin.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/OUXT-Polaris/nmea_gps_plugin-release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://github.com/OUXT-Polaris/nmea_gps_plugin.git
+      version: master
+    status: developed
   nmea_msgs:
     doc:
       type: git
