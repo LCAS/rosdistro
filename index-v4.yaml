@@ -23,6 +23,11 @@ distributions:
     distribution_cache: http://repo.ros2.org/rosdistro_cache/dashing-cache.yaml.gz
     distribution_status: active
     distribution_type: ros2
+  eloquent:
+    distribution: [eloquent/distribution.yaml]
+    distribution_cache: http://repo.ros2.org/rosdistro_cache/eloquent-cache.yaml.gz
+    distribution_status: prerelease
+    distribution_type: ros2
   groovy:
     distribution: [groovy/distribution.yaml]
     distribution_cache: http://repositories.ros.org/rosdistro_cache/groovy-cache.yaml.gz
@@ -51,7 +56,7 @@ distributions:
   lunar:
     distribution: [lunar/distribution.yaml]
     distribution_cache: http://repositories.ros.org/rosdistro_cache/lunar-cache.yaml.gz
-    distribution_status: active
+    distribution_status: end-of-life
     distribution_type: ros1
   melodic:
     distribution: [melodic/distribution.yaml]

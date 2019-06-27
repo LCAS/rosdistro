@@ -288,7 +288,7 @@ boost:
     squeeze: [libboost1.42-all-dev]
     stretch: [libboost-all-dev]
     wheezy: [libboost-all-dev]
-  fedora: [boost-devel, boost-python2-devel]
+  fedora: [boost-devel, boost-python2-devel, boost-python3-devel]
   freebsd: [boost-python-libs]
   gentoo: ['dev-libs/boost[python]']
   macports: [boost]
@@ -1579,6 +1579,11 @@ libboost-program-options-dev:
   fedora: [boost-devel]
   openembedded: [boost@openembedded-core]
   ubuntu: [libboost-program-options-dev]
+libboost-python:
+  alpine: [boost-python2]
+  debian: [libboost-python-dev]
+  fedora: [boost-python2-devel]
+  ubuntu: [libboost-python-dev]
 libboost-random:
   debian:
     jessie: [libboost-random1.55.0]
@@ -1662,9 +1667,7 @@ libconfig-dev:
   gentoo: ['dev-libs/libconfig[cxx]']
   ubuntu: [libconfig-dev]
 libconsole-bridge-dev:
-  alpine:
-    source:
-      uri: 'https://github.com/at-wat/alpine-ros-sources/raw/master/console-bridge/console-bridge.rdmanifest'
+  alpine: [console_bridge-dev]
   arch: [console-bridge]
   debian: [libconsole-bridge-dev]
   fedora: [console-bridge-devel]
@@ -3883,9 +3886,7 @@ log4cplus:
   fedora: [log4cplus-devel]
   ubuntu: [liblog4cplus-dev]
 log4cxx:
-  alpine:
-    source:
-      uri: 'https://github.com/at-wat/alpine-ros-sources/raw/master/log4cxx/log4cxx.rdmanifest'
+  alpine: [log4cxx-dev]
   arch: [log4cxx]
   cygwin: [liblog4cxx-devel]
   debian:
