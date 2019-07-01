@@ -50,6 +50,8 @@ jekyll-trusty:
 kvaser-libcan:
   ubuntu:
     xenial: [kvaser-libcan]
+libedit-dev:
+  ubuntu: [libedit-dev]
 libsvm:
   ubuntu: [libsvm-dev]
 mira-scitos:
