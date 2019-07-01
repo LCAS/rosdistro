@@ -23,6 +23,8 @@ cudnn:
 cvb:
   ubuntu:
     xenial: [cvb-camerasuite-dev]
+czmq:
+  ubuntu: [libczmq-dev]
 deepfried2:
   ubuntu: [python-deepfried2]
 gazebo8:
