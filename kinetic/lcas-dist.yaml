@@ -299,6 +299,13 @@ repositories:
       url: https://github.com/LCAS/teaching.git
       version: kinetic
     status: developed
+  libfranka_lcas:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/libfranka.git
+      version: 0.5.0-aysnc
+    status: maintained
   libfreenect2:
     release:
       tags:
