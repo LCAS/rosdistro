@@ -3496,11 +3496,12 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/microstrain_3dmgx2_imu-release.git
-      version: 1.5.12-1
+      version: 1.5.13-1
     source:
       type: git
       url: https://github.com/ros-drivers/microstrain_3dmgx2_imu.git
       version: indigo-devel
+    status: maintained
   microstrain_mips:
     doc:
       type: git
@@ -8654,10 +8655,12 @@ repositories:
       - vrx_gazebo
       - wamv_description
       - wamv_gazebo
+      - wave_gazebo
+      - wave_gazebo_plugins
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/vrx-release.git
-      version: 1.0.1-0
+      version: 1.1.1-1
     source:
       type: hg
       url: https://bitbucket.org/osrf/vrx

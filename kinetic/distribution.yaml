@@ -3284,7 +3284,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/astuff/flir_boson_usb-release.git
-      version: 1.2.0-0
+      version: 1.2.1-1
     source:
       type: git
       url: https://github.com/astuff/flir_boson_usb.git
@@ -6748,7 +6748,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/microstrain_3dmgx2_imu-release.git
-      version: 1.5.12-1
+      version: 1.5.13-1
     source:
       type: git
       url: https://github.com/ros-drivers/microstrain_3dmgx2_imu.git
@@ -6968,6 +6968,7 @@ repositories:
       packages:
       - chomp_motion_planner
       - moveit
+      - moveit_chomp_optimizer_adapter
       - moveit_commander
       - moveit_controller_manager_example
       - moveit_core
@@ -6995,7 +6996,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 0.9.15-0
+      version: 0.9.16-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit.git
@@ -7920,7 +7921,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/OUXT-Polaris/nmea_gps_plugin-release.git
-      version: 0.0.1-1
+      version: 0.0.1-2
     source:
       type: git
       url: https://github.com/OUXT-Polaris/nmea_gps_plugin.git
@@ -9143,7 +9144,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/PilzDE/pilz_industrial_motion-release.git
-      version: 0.3.7-0
+      version: 0.3.8-0
     source:
       type: git
       url: https://github.com/PilzDE/pilz_industrial_motion.git
@@ -10548,6 +10549,18 @@ repositories:
     doc:
       type: git
       url: https://github.com/intel-ros/realsense.git
+      version: development
+    release:
+      packages:
+      - realsense2_camera
+      - realsense2_description
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/IntelRealSense/realsense-ros-release.git
+      version: 2.2.6-2
+    source:
+      type: git
+      url: https://github.com/IntelRealSense/realsense-ros.git
       version: development
     status: maintained
   realsense_camera:
@@ -14127,7 +14140,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.6.12-1
+      version: 0.6.13-1
     source:
       test_pull_requests: true
       type: git
@@ -16152,6 +16165,46 @@ repositories:
     source:
       type: git
       url: https://github.com/xaxxontech/xaxxon_openlidar.git
+      version: master
+    status: maintained
+  xbot:
+    doc:
+      type: git
+      url: https://github.com/DroidAITech/xbot.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/DroidAITech/xbot.git
+      version: master
+    status: maintained
+  xbot_face:
+    doc:
+      type: git
+      url: https://github.com/DroidAITech/xbot_face.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/DroidAITech/xbot_face.git
+      version: master
+    status: maintained
+  xbot_navi:
+    doc:
+      type: git
+      url: https://github.com/DroidAITech/xbot_navi.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/DroidAITech/xbot_navi.git
+      version: master
+    status: maintained
+  xbot_talker:
+    doc:
+      type: git
+      url: https://github.com/DroidAITech/xbot_talker.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/DroidAITech/xbot_talker.git
       version: master
     status: maintained
   xiaoqiang:
