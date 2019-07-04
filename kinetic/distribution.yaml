@@ -14156,7 +14156,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials-release.git
-      version: 0.2.2-0
+      version: 0.2.4-1
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials.git
@@ -15754,26 +15754,6 @@ repositories:
       url: https://github.com/JdeRobot/VisualStates.git
       version: master
     status: developed
-  vmrc:
-    doc:
-      type: hg
-      url: https://bitbucket.org/osrf/vmrc
-      version: default
-    release:
-      packages:
-      - usv_gazebo_plugins
-      - vmrc_gazebo
-      - wamv_description
-      - wamv_gazebo
-      tags:
-        release: release/kinetic/{package}/{version}
-      url: https://github.com/ros-gbp/vmrc-release.git
-      version: 0.3.2-0
-    source:
-      type: hg
-      url: https://bitbucket.org/osrf/vmrc/
-      version: default
-    status: developed
   volksbot_driver:
     doc:
       type: git
@@ -15814,6 +15794,28 @@ repositories:
       url: https://github.com/ros-drivers/vrpn_client_ros.git
       version: kinetic-devel
     status: maintained
+  vrx:
+    doc:
+      type: hg
+      url: https://bitbucket.org/osrf/vrx
+      version: default
+    release:
+      packages:
+      - usv_gazebo_plugins
+      - vrx_gazebo
+      - wamv_description
+      - wamv_gazebo
+      - wave_gazebo
+      - wave_gazebo_plugins
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/vrx-release.git
+      version: 1.1.1-1
+    source:
+      type: hg
+      url: https://bitbucket.org/osrf/vrx/
+      version: default
+    status: developed
   vtec_ros:
     doc:
       type: git
