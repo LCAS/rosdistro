@@ -455,6 +455,12 @@ repositories:
       url: https://github.com/strands-project-releases/openni_wrapper.git
       version: 0.0.11-0
     status: maintained
+  optis_drivers:
+    source:
+      type: git
+      url: https://github.com/LCAS/optris_drivers.git
+      version: kinetic-devel
+    status: maintained
   oru_navigation:
     release:
       packages:
