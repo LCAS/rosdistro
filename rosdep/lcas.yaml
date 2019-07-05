@@ -56,6 +56,9 @@ kvaser-libcan:
     xenial: [kvaser-libcan]
 libedit-dev:
   ubuntu: [libedit-dev]
+libirimager:
+  ubuntu:
+    xenial: [libirimager]
 libsvm:
   ubuntu: [libsvm-dev]
 mira-scitos:
