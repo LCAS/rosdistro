@@ -456,6 +456,13 @@ repositories:
       version: 0.0.11-0
     status: maintained
   optis_drivers:
+    release:
+      packages:
+      - optris_drivers
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/optis_drivers.git
+      version: 1.1.2-1
     source:
       test_pull_requests: true
       type: git
