@@ -2552,6 +2552,12 @@ repositories:
       url: https://github.com/ros-industrial/industrial_core.git
       version: kinetic
     status: developed
+  industrial_robot_angle_conversions:
+    doc:
+      type: git
+      url: https://gitlab.com/InstitutMaupertuis/industrial_robot_angle_conversions.git
+      version: melodic
+    status: maintained
   interactive_marker_proxy:
     doc:
       type: git
@@ -3106,6 +3112,22 @@ repositories:
       url: https://github.com/lgsvl/lgsvl_msgs.git
       version: melodic-devel
     status: maintained
+  libfranka:
+    doc:
+      type: git
+      url: https://github.com/frankaemika/libfranka-release.git
+      version: release/melodic/libfranka
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/frankaemika/libfranka-release.git
+      version: 0.7.1-1
+    source:
+      test_commits: false
+      type: git
+      url: https://github.com/frankaemika/libfranka.git
+      version: master
+    status: developed
   libg2o:
     release:
       tags:
@@ -3339,7 +3361,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2019.6.7-1
+      version: 2019.7.7-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -3360,7 +3382,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.31.0-1
+      version: 0.32.0-1
     source:
       test_pull_requests: true
       type: git
@@ -4184,6 +4206,21 @@ repositories:
       url: https://github.com/ros-drivers/nmea_navsat_driver.git
       version: melodic-devel
     status: maintained
+  nmea_to_geopose:
+    doc:
+      type: git
+      url: https://github.com/OUXT-Polaris/nmea_to_geopose.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/OUXT-Polaris/nmea_to_geopose-release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://github.com/OUXT-Polaris/nmea_to_geopose.git
+      version: master
+    status: developed
   nodelet_core:
     doc:
       type: git
@@ -4254,6 +4291,21 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/novatel_span_driver.git
+      version: master
+    status: maintained
+  ntpd_driver:
+    doc:
+      type: git
+      url: https://github.com/vooon/ntpd_driver.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/vooon/ntpd_driver-release.git
+      version: 1.2.0-1
+    source:
+      type: git
+      url: https://github.com/vooon/ntpd_driver.git
       version: master
     status: maintained
   object_recognition_msgs:
@@ -4574,6 +4626,22 @@ repositories:
       url: https://github.com/tork-a/openrtm_aist_python-release.git
       version: 1.1.0-0
     status: maintained
+  openslam_gmapping:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/openslam_gmapping.git
+      version: melodic-devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/openslam_gmapping-release.git
+      version: 0.2.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-perception/openslam_gmapping.git
+      version: melodic-devel
+    status: unmaintained
   optpp_catkin:
     release:
       tags:
@@ -4927,6 +4995,16 @@ repositories:
       url: https://github.com/stack-of-tasks/pinocchio.git
       version: devel
     status: developed
+  pipeline_planner:
+    doc:
+      type: git
+      url: https://github.com/SeaosRobotics/pipeline_planner_open.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/SeaosRobotics/pipeline_planner_open.git
+      version: master
+    status: maintained
   plotjuggler:
     doc:
       type: git
@@ -5648,6 +5726,22 @@ repositories:
       url: https://github.com/roboception/rc_visard_ros.git
       version: master
     status: developed
+  rcdiscover:
+    doc:
+      type: git
+      url: https://github.com/roboception/rcdiscover.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/roboception-gbp/rcdiscover-release.git
+      version: 1.0.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/roboception/rcdiscover.git
+      version: master
+    status: developed
   rdl:
     doc:
       type: git
@@ -6261,6 +6355,12 @@ repositories:
       url: https://github.com/ros/ros_realtime.git
       version: hydro-devel
     status: unmaintained
+  ros_robodk_post_processors:
+    doc:
+      type: git
+      url: https://gitlab.com/InstitutMaupertuis/ros_robodk_post_processors.git
+      version: melodic
+    status: maintained
   ros_tutorials:
     doc:
       type: git
@@ -6364,7 +6464,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.11.1-1
+      version: 0.11.2-1
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -6542,7 +6642,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/xqms/rosmon-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -7841,14 +7941,16 @@ repositories:
     release:
       packages:
       - toposens
+      - toposens_description
       - toposens_driver
       - toposens_markers
       - toposens_msgs
       - toposens_pointcloud
+      - toposens_sync
       tags:
         release: release/melodic/{package}/{version}
       url: https://gitlab.com/toposens/public/toposens-release.git
-      version: 1.0.0-3
+      version: 1.2.0-1
     source:
       type: git
       url: https://gitlab.com/toposens/public/ros-packages.git
@@ -8562,7 +8664,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/lagadic/vision_visp-release.git
-      version: 0.11.0-1
+      version: 0.11.1-1
     source:
       type: git
       url: https://github.com/lagadic/vision_visp.git
@@ -8720,7 +8822,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/omichel/webots_ros-release.git
-      version: 2.0.3-1
+      version: 2.0.4-1
     source:
       type: git
       url: https://github.com/omichel/webots_ros.git
