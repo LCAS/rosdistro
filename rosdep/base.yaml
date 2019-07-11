@@ -2268,7 +2268,7 @@ libjpeg:
   freebsd: [libjpeg-turbo]
   gentoo: [virtual/jpeg]
   macports: [jpeg]
-  openembedded: [libjpeq-turbo@openembedded-core]
+  openembedded: [jpeg@openembedded-core]
   opensuse: [libjpeg62-devel]
   slackware: [libjpeg-turbo]
   ubuntu:
@@ -3028,6 +3028,9 @@ libqt5-core:
   rhel: [qt5-qtbase]
   slackware: [qt5]
   ubuntu: [libqt5core5a]
+libqt5-gstreamer-dev:
+  debian: [libqt5gstreamer-dev]
+  ubuntu: [libqt5gstreamer-dev]
 libqt5-gui:
   arch: [qt5-base]
   debian: [libqt5gui5]
@@ -3853,6 +3856,10 @@ libzstd-dev:
   ubuntu:
     '*': [libzstd-dev]
     xenial: [libzstd1-dev]
+light-locker:
+  debian: [light-locker]
+  fedora: [light-locker]
+  ubuntu: [light-locker]
 lighttpd:
   debian: [lighttpd]
   fedora: [lighttpd]
@@ -4833,6 +4840,10 @@ sdl2:
   fedora: [SDL2-devel]
   gentoo: [media-libs/libsdl2]
   ubuntu: [libsdl2-dev]
+sdl2-mixer:
+  debian: [libsdl2-mixer-dev]
+  fedora: [SDL2_mixer-devel]
+  ubuntu: [libsdl2-mixer-dev]
 sdl2-ttf:
   debian: [libsdl2-ttf-dev]
   fedora: [SDL2_ttf-devel]
