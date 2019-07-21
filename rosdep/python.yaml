@@ -4865,6 +4865,11 @@ python-zmq:
     wily: [python-zmq]
     xenial: [python-zmq]
     yakkety: [python-zmq]
+python3:
+  debian: [python3-dev]
+  fedora: [python3-devel]
+  gentoo: [dev-lang/python]
+  ubuntu: [python3-dev]
 python3-babeltrace:
   debian: [python3-babeltrace]
   ubuntu: [python3-babeltrace]
@@ -4898,6 +4903,11 @@ python3-cairo:
     slackpkg:
       packages: [py3cairo]
   ubuntu: [python3-cairo]
+python3-catkin-pkg:
+  debian: [python3-catkin-pkg]
+  fedora: [python3-catkin_pkg]
+  gentoo: [dev-python/catkin_pkg]
+  ubuntu: [python3-catkin-pkg]
 python3-catkin-pkg-modules:
   debian: [python3-catkin-pkg-modules]
   fedora: [python3-catkin_pkg]
@@ -4905,6 +4915,11 @@ python3-catkin-pkg-modules:
   openembedded: [python3-catkin-pkg@meta-ros]
   rhel: ['python%{python3_pkgversion}-catkin_pkg']
   ubuntu: [python3-catkin-pkg-modules]
+python3-coverage:
+  debian: [python3-coverage]
+  fedora: [python3-coverage]
+  gentoo: [dev-python/coverage]
+  ubuntu: [python3-coverage]
 python3-cryptography:
   debian: [python3-cryptography]
   fedora: [python3-cryptography]
@@ -5018,6 +5033,11 @@ python3-mypy:
   fedora: [python3-mypy]
   gentoo: [dev-python/mypy]
   ubuntu: [python3-mypy]
+python3-netifaces:
+  debian: [python3-netifaces]
+  fedora: [python3-netifaces]
+  gentoo: [dev-python/netifaces]
+  ubuntu: [python3-netifaces]
 python3-nose:
   debian: [python3-nose]
   gentoo: [dev-python/nose]
@@ -5047,6 +5067,11 @@ python3-pandas:
   fedora: [python3-pandas]
   gentoo: [dev-python/pandas]
   ubuntu: [python3-pandas]
+python3-paramiko:
+  debian: [python3-paramiko]
+  fedora: [python3-paramiko]
+  gentoo: [dev-python/paramiko]
+  ubuntu: [python3-paramiko]
 python3-pep8:
   alpine: [py3-pycodestyle]
   debian:
@@ -5160,6 +5185,21 @@ python3-qt5-bindings:
   opensuse: [python3-qt5]
   slackware: [python3-PyQt5]
   ubuntu: [pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-sip-dev]
+python3-qt5-bindings-gl:
+  debian: [python3-pyqt5.qtopengl]
+  fedora: [python3-qt5]
+  gentoo: ['dev-python/PyQt5[opengl]']
+  ubuntu: [python3-pyqt5.qtopengl]
+python3-qt5-bindings-webkit:
+  debian: [python3-pyqt5.qtwebkit]
+  fedora: [python3-qt5-webkit]
+  gentoo: ['dev-python/PyQt5[webkit]']
+  ubuntu: [python3-pyqt5.qtwebkit]
+python3-rosdep:
+  debian: [python3-rosdep]
+  fedora: [python3-rosdep]
+  gentoo: [dev-util/rosdep]
+  ubuntu: [python3-rosdep]
 python3-rospkg:
   alpine:
     pip:
@@ -5219,6 +5259,11 @@ python3-setuptools:
   openembedded: [python3-setuptools@openembedded-core]
   rhel: ['python%{python3_pkgversion}-setuptools']
   ubuntu: [python3-setuptools]
+python3-sip:
+  debian: [python3-sip-dev]
+  fedora: [python3-sip]
+  gentoo: [dev-python/sip]
+  ubuntu: [python3-sip-dev]
 python3-sphinx:
   debian: [python3-sphinx]
   ubuntu: [python3-sphinx]
