@@ -337,7 +337,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/aws-gbp/aws_common-release.git
-      version: 2.0.0-2
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/aws-robotics/utils-common.git
@@ -652,10 +652,12 @@ repositories:
       packages:
       - cloudwatch_logs_common
       - cloudwatch_metrics_common
+      - dataflow_lite
+      - file_management
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/aws-gbp/cloudwatch_common-release.git
-      version: 1.0.2-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/aws-robotics/cloudwatch-common.git
@@ -670,7 +672,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/aws-gbp/cloudwatch_logger-release.git
-      version: 2.1.0-1
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/aws-robotics/cloudwatchlogs-ros1.git
@@ -685,7 +687,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/aws-gbp/cloudwatch_metrics_collector-release.git
-      version: 2.0.0-0
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/aws-robotics/cloudwatchmetrics-ros1.git
