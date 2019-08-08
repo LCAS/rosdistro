@@ -1426,7 +1426,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_command_tools-release.git
-      version: 0.6.12-1
+      version: 0.6.14-1
     source:
       type: git
       url: https://github.com/ipa320/cob_command_tools.git
@@ -1534,7 +1534,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_environments-release.git
-      version: 0.6.9-1
+      version: 0.6.10-1
     source:
       type: git
       url: https://github.com/ipa320/cob_environments.git
@@ -1548,22 +1548,30 @@ repositories:
     release:
       packages:
       - cob_extern
-      - libconcorde_tsp_solver
       - libdlib
       - libntcan
       - libpcan
       - libphidgets
-      - libqsopt
       - opengm
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_extern-release.git
-      version: 0.6.12-0
+      version: 0.6.13-1
     source:
       type: git
       url: https://github.com/ipa320/cob_extern.git
       version: indigo_dev
     status: developed
+  cob_extern_unmaintained:
+    release:
+      packages:
+      - libconcorde_tsp_solver
+      - libqsopt
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ipa320/cob_extern-release.git
+      version: 0.6.12-0
+    status: unmaintained
   cob_gazebo_plugins:
     doc:
       type: git
@@ -1642,7 +1650,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_navigation-release.git
-      version: 0.6.7-0
+      version: 0.6.8-1
     source:
       type: git
       url: https://github.com/ipa320/cob_navigation.git
@@ -1677,7 +1685,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ipa320/cob_robots.git
-      version: indigo_release_candidate
+      version: kinetic_release_candidate
     release:
       packages:
       - cob_bringup
@@ -1689,17 +1697,17 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_robots-release.git
-      version: 0.6.11-0
+      version: 0.7.0-1
     source:
       type: git
       url: https://github.com/ipa320/cob_robots.git
-      version: indigo_dev
+      version: kinetic_dev
     status: maintained
   cob_simulation:
     doc:
       type: git
       url: https://github.com/ipa320/cob_simulation.git
-      version: indigo_release_candidate
+      version: kinetic_release_candidate
     release:
       packages:
       - cob_bringup_sim
@@ -1710,11 +1718,11 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_simulation-release.git
-      version: 0.6.10-0
+      version: 0.7.1-1
     source:
       type: git
       url: https://github.com/ipa320/cob_simulation.git
-      version: indigo_dev
+      version: kinetic_dev
     status: maintained
   cob_substitute:
     doc:
