@@ -724,6 +724,27 @@ repositories:
       url: https://github.com/wew84/cnn_bridge.git
       version: 0.8.4
     status: developed
+  cob_android:
+    doc:
+      type: git
+      url: https://github.com/ipa320/cob_android.git
+      version: indigo_release_candidate
+    release:
+      packages:
+      - cob_android
+      - cob_android_msgs
+      - cob_android_resource_server
+      - cob_android_script_server
+      - cob_android_settings
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ipa320/cob_android-release.git
+      version: 0.1.6-1
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_android.git
+      version: indigo_dev
+    status: maintained
   cob_calibration_data:
     doc:
       type: git
@@ -791,7 +812,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ipa320/cob_control.git
-      version: kinetic_release_candidate
+      version: melodic_release_candidate
     release:
       packages:
       - cob_base_controller_utils
@@ -812,11 +833,11 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipa320/cob_control-release.git
-      version: 0.7.7-1
+      version: 0.8.0-1
     source:
       type: git
       url: https://github.com/ipa320/cob_control.git
-      version: kinetic_dev
+      version: melodic_dev
     status: maintained
   cob_driver:
     doc:
@@ -929,6 +950,30 @@ repositories:
     source:
       type: git
       url: https://github.com/ipa320/cob_hand.git
+      version: indigo_dev
+    status: maintained
+  cob_navigation:
+    doc:
+      type: git
+      url: https://github.com/ipa320/cob_navigation.git
+      version: indigo_release_candidate
+    release:
+      packages:
+      - cob_linear_nav
+      - cob_map_accessibility_analysis
+      - cob_mapping_slam
+      - cob_navigation
+      - cob_navigation_config
+      - cob_navigation_global
+      - cob_navigation_local
+      - cob_navigation_slam
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ipa320/cob_navigation-release.git
+      version: 0.6.8-1
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_navigation.git
       version: indigo_dev
     status: maintained
   cob_perception_common:
@@ -6221,7 +6266,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/realtime_tools-release.git
-      version: 1.14.0-1
+      version: 1.15.0-1
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git

@@ -11,8 +11,8 @@ distributions:
   bouncy:
     distribution: [bouncy/distribution.yaml]
     distribution_cache: http://repo.ros2.org/rosdistro_cache/bouncy-cache.yaml.gz
-    distribution_status: active
-    distribution_type: end-of-life
+    distribution_status: end-of-life
+    distribution_type: ros2
   crystal:
     distribution: [crystal/distribution.yaml]
     distribution_cache: http://repo.ros2.org/rosdistro_cache/crystal-cache.yaml.gz
@@ -62,6 +62,11 @@ distributions:
     distribution: [melodic/distribution.yaml]
     distribution_cache: http://repositories.ros.org/rosdistro_cache/melodic-cache.yaml.gz
     distribution_status: active
+    distribution_type: ros1
+  noetic:
+    distribution: [noetic/distribution.yaml]
+    distribution_cache: http://repositories.ros.org/rosdistro_cache/noetic-cache.yaml.gz
+    distribution_status: prerelease
     distribution_type: ros1
 type: index
 version: 4
