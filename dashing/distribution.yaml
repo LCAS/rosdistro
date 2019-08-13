@@ -966,7 +966,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/stonier/py_trees_ros-release.git
-      version: 1.1.1-1
+      version: 1.1.2-1
     source:
       test_pull_requests: true
       type: git
@@ -2154,6 +2154,21 @@ repositories:
       type: git
       url: https://github.com/ros/urdfdom_headers.git
       version: dashing
+    status: developed
+  v4l2_camera:
+    doc:
+      type: git
+      url: https://gitlab.com/boldhearts/ros2_v4l2_camera.git
+      version: master
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://gitlab.com/boldhearts/releases/ros2_v4l2_camera-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://gitlab.com/boldhearts/ros2_v4l2_camera.git
+      version: master
     status: developed
   variants:
     doc:
