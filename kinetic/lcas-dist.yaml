@@ -174,15 +174,11 @@ repositories:
   iliad_distribution:
     release:
       packages:
-      - iliad_distribution
-      - iliad_launch_manipulation
-      - iliad_launch_navigation
       - iliad_launch_system
-      - iliad_restricted
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/lcas-releases/iliad_distribution.git
-      version: 0.0.8-0
+      version: 0.1.0-2
     source:
       test_pull_requests: true
       type: git
