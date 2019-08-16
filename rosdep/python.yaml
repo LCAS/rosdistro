@@ -496,6 +496,9 @@ python-autobahn:
     pip:
       packages: [autobahn]
   ubuntu:
+    bionic: [python-autobahn]
+    cosmic: [python-autobahn]
+    disco: [python-autobahn]
     lucid:
       pip:
         packages: [autobahn]
@@ -2980,6 +2983,17 @@ python-pycodestyle:
   gentoo: [dev-python/pycodestyle]
   rhel: [python-pycodestyle]
   ubuntu: [pycodestyle]
+python-pycryptodome:
+  alpine: [py3-pycryptodome]
+  arch: [python2-pycryptodome]
+  debian: [python-pycryptodome]
+  fedora: [python-pycryptodomex]
+  gentoo: [dev-python/pycryptodome]
+  osx:
+    pip:
+      packages: [pycryptodome]
+  rhel: [python-pycryptodomex]
+  ubuntu: [python-pycryptodome]
 python-pycurl:
   debian: [python-pycurl]
   fedora: [python2-pycurl]
@@ -3599,23 +3613,8 @@ python-rosinstall:
   gentoo: [dev-python/rosinstall]
   macports: [p27-rosinstall]
   ubuntu:
-    artful: [python-rosinstall]
-    lucid: [python-rosinstall]
-    maverick: [python-rosinstall]
-    natty: [python-rosinstall]
-    oneiric: [python-rosinstall]
-    precise: [python-rosinstall]
-    quantal: [python-rosinstall]
-    raring: [python-rosinstall]
-    saucy: [python-rosinstall]
-    trusty: [python-rosinstall]
+    '*': [python-rosinstall]
     trusty_python3: [python3-rosinstall]
-    utopic: [python-rosinstall]
-    vivid: [python-rosinstall]
-    wily: [python-rosinstall]
-    xenial: [python-rosinstall]
-    yakkety: [python-rosinstall]
-    zesty: [python-rosinstall]
 python-rosinstall-generator:
   arch: [python2-rosinstall-generator]
   debian:
@@ -4880,21 +4879,8 @@ python-zmq:
   fedora: [python-zmq]
   gentoo: [dev-python/pyzmq]
   ubuntu:
-    lucid: [python-zmq]
-    maverick: [python-zmq]
-    natty: [python-zmq]
-    oneiric: [python-zmq]
-    precise: [python-zmq]
-    quantal: [python-zmq]
-    raring: [python-zmq]
-    saucy: [python-zmq]
-    trusty: [python-zmq]
+    '*': [python-zmq]
     trusty_python3: [python3-zmq]
-    utopic: [python-zmq]
-    vivid: [python-zmq]
-    wily: [python-zmq]
-    xenial: [python-zmq]
-    yakkety: [python-zmq]
 python3:
   debian: [python3-dev]
   fedora: [python3-devel]
@@ -5181,6 +5167,17 @@ python3-pycodestyle:
   gentoo: [dev-python/pycodestyle]
   rhel: ['python%{python3_pkgversion}-pycodestyle']
   ubuntu: [python3-pycodestyle]
+python3-pycryptodome:
+  alpine: [py3-pycryptodome]
+  arch: [python-pycryptodome]
+  debian: [python3-pycryptodome]
+  fedora: [python3-pycryptodomex]
+  gentoo: [dev-python/pycryptodome]
+  osx:
+    pip:
+      packages: [pycryptodome]
+  rhel: ['python%{python3_pkgversion}-pycryptodomex']
+  ubuntu: [python3-pycryptodome]
 python3-pydot:
   arch: [python-pydot]
   debian: [python3-pydot]
