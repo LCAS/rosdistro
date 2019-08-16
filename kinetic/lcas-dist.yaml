@@ -1257,6 +1257,13 @@ repositories:
       url: https://github.com/strands-project/twitter_bootstrap.git
       version: master
     status: maintained
+  um7:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/um7.git
+      version: indigo-devel
+    status: maintained
   uol_cmp9767m:
     release:
       packages:
