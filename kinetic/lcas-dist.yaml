@@ -1254,6 +1254,11 @@ repositories:
       version: master
     status: maintained
   um7:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/um7.git
+      version: 0.0.6-1
     source:
       test_pull_requests: true
       type: git
