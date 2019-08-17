@@ -496,9 +496,7 @@ python-autobahn:
     pip:
       packages: [autobahn]
   ubuntu:
-    bionic: [python-autobahn]
-    cosmic: [python-autobahn]
-    disco: [python-autobahn]
+    '*': [python-autobahn]
     lucid:
       pip:
         packages: [autobahn]
@@ -523,9 +521,6 @@ python-autobahn:
     saucy:
       pip:
         packages: [autobahn]
-    trusty: [python-autobahn]
-    utopic: [python-autobahn]
-    vivid: [python-autobahn]
 python-avahi:
   arch: [avahi]
   debian: [python-avahi]
@@ -624,19 +619,8 @@ python-bloom:
   fedora: [python-bloom]
   gentoo: [dev-python/bloom]
   ubuntu:
-    artful: [python-bloom]
-    precise: [python-bloom]
-    quantal: [python-bloom]
-    raring: [python-bloom]
-    saucy: [python-bloom]
-    trusty: [python-bloom]
+    '*': [python-bloom]
     trusty_python3: [python3-bloom]
-    utopic: [python-bloom]
-    vivid: [python-bloom]
-    wily: [python-bloom]
-    xenial: [python-bloom]
-    yakkety: [python-bloom]
-    zesty: [python-bloom]
 python-bluez:
   arch: [python2-pybluez]
   debian: [python-bluez]
@@ -2984,7 +2968,6 @@ python-pycodestyle:
   rhel: [python-pycodestyle]
   ubuntu: [pycodestyle]
 python-pycryptodome:
-  alpine: [py3-pycryptodome]
   arch: [python2-pycryptodome]
   debian: [python-pycryptodome]
   fedora: [python-pycryptodomex]
@@ -3424,7 +3407,6 @@ python-qt4-gl:
   gentoo: ['dev-python/pyside[opengl]', 'dev-python/PyQt4[opengl]']
   ubuntu: [python-qt4-gl]
 python-qt5-bindings:
-  alpine: [py3-qt5]
   arch: [python2-pyqt5]
   debian:
     buster: [pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-sip-dev, qtbase5-dev]
@@ -4624,6 +4606,12 @@ python-validictory-pip:
       packages: [validictory]
 python-vcstool:
   debian:
+    buster: [python-vcstool]
+    stretch: [python-vcstool]
+  fedora: [python-vcstool]
+  ubuntu: [python-vcstool]
+python-vcstools:
+  debian:
     buster: [python-vcstools]
     stretch: [python-vcstools]
   fedora: [python-vcstools]
@@ -5229,6 +5217,7 @@ python3-pytest-mock:
   rhel: ['python%{python3_pkgversion}-pytest-mock']
   ubuntu: [python3-pytest-mock]
 python3-qt5-bindings:
+  alpine: [py3-qt5]
   arch: [python-pyqt5]
   debian: [pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-sip-dev, qtbase5-dev]
   fedora: [python3-qt5-devel, sip]
@@ -5337,6 +5326,18 @@ python3-tk:
   debian: [python3-tk]
   fedora: [python3-tkinter]
   ubuntu: [python3-tk]
+python3-vcstool:
+  debian:
+    pip:
+      packages: [vcstool]
+  fedora: [python3-vcstool]
+  gentoo:
+    pip:
+      packages: [vcstool]
+  macports:
+    pip:
+      packages: [vcstool]
+  ubuntu: [python3-vcstool]
 python3-venv:
   debian: [python3-venv]
   fedora: [python3-libs]
