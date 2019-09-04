@@ -273,6 +273,25 @@ repositories:
       url: https://github.com/ros2/cartographer.git
       version: ros2
     status: maintained
+  cartographer_ros:
+    doc:
+      type: git
+      url: https://github.com/ros2/cartographer_ros.git
+      version: dashing
+    release:
+      packages:
+      - cartographer_ros
+      - cartographer_ros_msgs
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/cartographer_ros-release.git
+      version: 1.0.9000-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/cartographer_ros.git
+      version: dashing
+    status: maintained
   class_loader:
     doc:
       type: git
@@ -392,6 +411,25 @@ repositories:
       url: https://github.com/ros-perception/depthimage_to_laserscan.git
       version: ros2
     status: maintained
+  diagnostics:
+    doc:
+      type: git
+      url: https://github.com/ros/diagnostics.git
+      version: dashing
+    release:
+      packages:
+      - diagnostic_updater
+      - self_test
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/diagnostics-release.git
+      version: 2.0.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/diagnostics.git
+      version: dashing
+    status: developed
   dynamixel_sdk:
     doc:
       type: git
@@ -1848,7 +1886,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_typesupport_opensplice-release.git
-      version: 0.7.2-1
+      version: 0.7.3-1
     source:
       type: git
       url: https://github.com/ros2/rosidl_typesupport_opensplice.git
