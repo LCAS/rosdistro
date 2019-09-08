@@ -237,6 +237,36 @@ repositories:
       url: https://github.com/christianrauch/apriltag_ros.git
       version: master
     status: developed
+  aws_common:
+    doc:
+      type: git
+      url: https://github.com/aws-robotics/utils-common.git
+      version: master
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/aws-gbp/aws_common-release.git
+      version: 2.1.0-1
+    source:
+      type: git
+      url: https://github.com/aws-robotics/utils-common.git
+      version: master
+    status: maintained
+  aws_ros2_common:
+    doc:
+      type: git
+      url: https://github.com/aws-robotics/utils-ros2.git
+      version: master
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/aws-gbp/aws_ros2_common-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/aws-robotics/utils-ros2.git
+      version: master
+    status: developed
   behaviortree_cpp:
     release:
       tags:
@@ -307,6 +337,56 @@ repositories:
       type: git
       url: https://github.com/ros/class_loader.git
       version: dashing
+    status: developed
+  cloudwatch_common:
+    doc:
+      type: git
+      url: https://github.com/aws-robotics/cloudwatch-common.git
+      version: master
+    release:
+      packages:
+      - cloudwatch_logs_common
+      - cloudwatch_metrics_common
+      - dataflow_lite
+      - file_management
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/aws-gbp/cloudwatch_common-release.git
+      version: 1.1.0-1
+    source:
+      type: git
+      url: https://github.com/aws-robotics/cloudwatch-common.git
+      version: master
+    status: maintained
+  cloudwatch_logger:
+    doc:
+      type: git
+      url: https://github.com/aws-robotics/cloudwatchlogs-ros2.git
+      version: master
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/aws-gbp/cloudwatch_logger-release.git
+      version: 3.0.0-1
+    source:
+      type: git
+      url: https://github.com/aws-robotics/cloudwatchlogs-ros2.git
+      version: master
+    status: developed
+  cloudwatch_metrics_collector:
+    doc:
+      type: git
+      url: https://github.com/aws-robotics/cloudwatchmetrics-ros2.git
+      version: master
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/aws-gbp/cloudwatch_metrics_collector-release.git
+      version: 3.0.0-1
+    source:
+      type: git
+      url: https://github.com/aws-robotics/cloudwatchmetrics-ros2.git
+      version: master
     status: developed
   common_interfaces:
     doc:
@@ -685,7 +765,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/geometry2-release.git
-      version: 0.11.4-1
+      version: 0.11.5-1
     source:
       test_pull_requests: true
       type: git
@@ -706,6 +786,51 @@ repositories:
       url: https://github.com/ament/googletest.git
       version: dashing
     status: maintained
+  h264_encoder_core:
+    doc:
+      type: git
+      url: https://github.com/aws-robotics/kinesisvideo-encoder-common.git
+      version: master
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/aws-gbp/h264_encoder_core-release.git
+      version: 2.0.1-1
+    source:
+      type: git
+      url: https://github.com/aws-robotics/kinesisvideo-encoder-common.git
+      version: master
+    status: maintained
+  h264_video_encoder:
+    doc:
+      type: git
+      url: https://github.com/aws-robotics/kinesisvideo-encoder-ros2.git
+      version: master
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/aws-gbp/h264_video_encoder-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/aws-robotics/kinesisvideo-encoder-ros2.git
+      version: master
+    status: developed
+  health_metric_collector:
+    doc:
+      type: git
+      url: https://github.com/aws-robotics/health-metrics-collector-ros2.git
+      version: master
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/aws-gbp/health_metric_collector-release.git
+      version: 3.0.0-1
+    source:
+      type: git
+      url: https://github.com/aws-robotics/health-metrics-collector-ros2.git
+      version: master
+    status: developed
   hls_lfcd_lds_driver:
     doc:
       type: git
@@ -796,6 +921,39 @@ repositories:
       url: https://github.com/ros2/kdl_parser.git
       version: dashing
     status: maintained
+  kinesis_manager:
+    doc:
+      type: git
+      url: https://github.com/aws-robotics/kinesisvideo-common.git
+      version: master
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/aws-gbp/kinesis_manager-release.git
+      version: 2.0.1-1
+    source:
+      type: git
+      url: https://github.com/aws-robotics/kinesisvideo-common.git
+      version: master
+    status: maintained
+  kinesis_video_streamer:
+    doc:
+      type: git
+      url: https://github.com/aws-robotics/kinesisvideo-ros2.git
+      version: master
+    release:
+      packages:
+      - kinesis_video_msgs
+      - kinesis_video_streamer
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/aws-gbp/kinesis_video_streamer-release.git
+      version: 3.0.0-1
+    source:
+      type: git
+      url: https://github.com/aws-robotics/kinesisvideo-ros2.git
+      version: master
+    status: developed
   laser_geometry:
     release:
       tags:
@@ -846,6 +1004,39 @@ repositories:
       type: git
       url: https://github.com/ros2/launch_ros.git
       version: dashing
+    status: developed
+  lex_common:
+    doc:
+      type: git
+      url: https://github.com/aws-robotics/lex-common.git
+      version: master
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/aws-gbp/lex_common-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/aws-robotics/lex-common.git
+      version: master
+    status: maintained
+  lex_node:
+    doc:
+      type: git
+      url: https://github.com/aws-robotics/lex-ros2.git
+      version: master
+    release:
+      packages:
+      - lex_common_msgs
+      - lex_node
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/aws-gbp/lex_node-release.git
+      version: 3.0.0-1
+    source:
+      type: git
+      url: https://github.com/aws-robotics/lex-ros2.git
+      version: master
     status: developed
   librealsense:
     doc:
@@ -1661,6 +1852,21 @@ repositories:
       url: https://github.com/ros/ros_environment.git
       version: dashing
     status: maintained
+  ros_monitoring_msgs:
+    doc:
+      type: git
+      url: https://github.com/aws-robotics/monitoringmessages-ros2.git
+      version: master
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/aws-gbp/ros_monitoring_msgs-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/aws-robotics/monitoringmessages-ros2.git
+      version: master
+    status: developed
   ros_testing:
     release:
       packages:
@@ -1808,7 +2014,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_python-release.git
-      version: 0.7.7-1
+      version: 0.7.8-1
     source:
       test_pull_requests: true
       type: git
@@ -2319,6 +2525,24 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/transport_drivers.git
+      version: master
+    status: developed
+  tts:
+    doc:
+      type: git
+      url: https://github.com/aws-robotics/tts-ros2.git
+      version: master
+    release:
+      packages:
+      - tts
+      - tts_interfaces
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/aws-gbp/tts-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/aws-robotics/tts-ros2.git
       version: master
     status: developed
   turtlebot3:
