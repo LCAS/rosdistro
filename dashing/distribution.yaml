@@ -367,7 +367,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/aws-gbp/cloudwatch_logger-release.git
-      version: 3.0.0-1
+      version: 3.0.0-2
     source:
       type: git
       url: https://github.com/aws-robotics/cloudwatchlogs-ros2.git
@@ -382,7 +382,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/aws-gbp/cloudwatch_metrics_collector-release.git
-      version: 3.0.0-1
+      version: 3.0.0-2
     source:
       type: git
       url: https://github.com/aws-robotics/cloudwatchmetrics-ros2.git
@@ -427,6 +427,21 @@ repositories:
       type: git
       url: https://github.com/ros2/console_bridge_vendor.git
       version: dashing
+    status: maintained
+  control_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-controls/control_msgs.git
+      version: crystal-devel
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros-gbp/control_msgs-release.git
+      version: 2.2.0-1
+    source:
+      type: git
+      url: https://github.com/ros-controls/control_msgs.git
+      version: crystal-devel
     status: maintained
   cyclonedds:
     release:
@@ -948,7 +963,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/aws-gbp/kinesis_video_streamer-release.git
-      version: 3.0.0-1
+      version: 3.0.0-2
     source:
       type: git
       url: https://github.com/aws-robotics/kinesisvideo-ros2.git
@@ -1593,6 +1608,21 @@ repositories:
       url: https://github.com/ros2/realtime_support.git
       version: dashing
     status: maintained
+  realtime_tools:
+    doc:
+      type: git
+      url: https://github.com/ros-controls/realtime_tools.git
+      version: dashing-devel
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros-gbp/realtime_tools-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-controls/realtime_tools.git
+      version: dashing-devel
+    status: maintained
   resource_retriever:
     doc:
       type: git
@@ -1913,7 +1943,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2-release.git
-      version: 0.1.4-1
+      version: 0.1.5-1
     source:
       test_pull_requests: true
       type: git

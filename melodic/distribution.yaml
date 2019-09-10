@@ -8167,6 +8167,11 @@ repositories:
       type: git
       url: https://github.com/rosin-project/rxcpp_vendor.git
       version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/rosin-project/rxcpp_vendor-release.git
+      version: 4.1.0-1
     source:
       type: git
       url: https://github.com/rosin-project/rxcpp_vendor.git
@@ -9594,7 +9599,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/vrx-release.git
-      version: 1.2.1-1
+      version: 1.2.2-1
     source:
       type: hg
       url: https://bitbucket.org/osrf/vrx
@@ -9979,5 +9984,14 @@ repositories:
       url: https://github.com/stonier/zeroconf_msgs.git
       version: indigo
     status: maintained
+  zivid_camera:
+    doc:
+      type: git
+      url: https://github.com/zivid/zivid-ros.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/zivid/zivid-ros.git
+      version: master
 type: distribution
 version: 2

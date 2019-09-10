@@ -6716,7 +6716,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2019.8.8-1
+      version: 2019.9.9-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -6737,7 +6737,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.32.1-1
+      version: 0.32.2-1
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -9341,7 +9341,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/PilzDE/pilz_industrial_motion-release.git
-      version: 0.3.8-0
+      version: 0.3.9-1
     source:
       type: git
       url: https://github.com/PilzDE/pilz_industrial_motion.git
@@ -16170,7 +16170,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/vrx-release.git
-      version: 1.2.1-1
+      version: 1.2.2-1
     source:
       type: hg
       url: https://bitbucket.org/osrf/vrx/
