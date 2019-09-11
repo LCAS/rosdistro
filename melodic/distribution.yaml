@@ -58,7 +58,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/actionlib.git
-      version: indigo-devel
+      version: melodic-devel
     release:
       tags:
         release: release/melodic/{package}/{version}
@@ -68,7 +68,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/actionlib.git
-      version: indigo-devel
+      version: melodic-devel
     status: maintained
   adi_driver:
     doc:
@@ -3898,7 +3898,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2019.8.8-1
+      version: 2019.9.9-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -3919,7 +3919,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.32.1-1
+      version: 0.32.2-1
     source:
       test_pull_requests: true
       type: git
@@ -4623,7 +4623,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.4.2-1
+      version: 0.4.3-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -5517,7 +5517,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/PilzDE/pilz_industrial_motion-release.git
-      version: 0.4.6-1
+      version: 0.4.7-1
     source:
       type: git
       url: https://github.com/PilzDE/pilz_industrial_motion.git
@@ -5541,7 +5541,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/PilzDE/pilz_robots-release.git
-      version: 0.5.7-1
+      version: 0.5.8-1
     source:
       type: git
       url: https://github.com/PilzDE/pilz_robots.git
@@ -9993,5 +9993,6 @@ repositories:
       type: git
       url: https://github.com/zivid/zivid-ros.git
       version: master
+    status: maintained
 type: distribution
 version: 2

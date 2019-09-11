@@ -4987,7 +4987,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/inomuh/indoor_localization.git
-      version: master
+      version: kinetic-devel
     release:
       tags:
         release: release/kinetic/{package}/{version}
@@ -7983,7 +7983,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.4.2-1
+      version: 0.4.3-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -16858,6 +16858,16 @@ repositories:
       type: git
       url: https://github.com/stonier/zeroconf_msgs.git
       version: indigo
+    status: maintained
+  zivid_camera:
+    doc:
+      type: git
+      url: https://github.com/zivid/zivid-ros.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/zivid/zivid-ros.git
+      version: master
     status: maintained
 type: distribution
 version: 2
