@@ -2664,6 +2664,13 @@ repositories:
       url: https://github.com/HebiRobotics/hebi_cpp_api_ros.git
       version: master
     status: developed
+  hebi_description:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/HebiRobotics/hebi_description-release.git
+      version: 0.1.0-1
+    status: developed
   hector_gazebo:
     doc:
       type: git
@@ -6071,6 +6078,21 @@ repositories:
       url: https://bitbucket.org/qbrobotics/qbmove-ros.git
       version: production-melodic
     status: developed
+  qpoases_vendor:
+    doc:
+      type: git
+      url: https://gitlab.com/autowarefoundation/autoware.ai/qpoases_vendor.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://gitlab.com/autowarefoundation/autoware.ai-ros-releases/qpoases_vendor-release.git
+      version: 3.2.0-1
+    source:
+      type: git
+      url: https://gitlab.com/autowarefoundation/autoware.ai/qpoases_vendor.git
+      version: master
+    status: maintained
   qt_gui_core:
     doc:
       type: git
@@ -6376,7 +6398,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/resource_retriever-release.git
-      version: 1.12.4-0
+      version: 1.12.5-1
     source:
       test_pull_requests: true
       type: git
@@ -8302,7 +8324,11 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/SICKAG/sick_scan-release.git
-      version: 1.3.21-0
+      version: 1.3.22-1
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_scan.git
+      version: master
     status: developed
   sick_tim:
     doc:

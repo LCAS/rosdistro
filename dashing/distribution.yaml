@@ -166,7 +166,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/ament_lint-release.git
-      version: 0.7.9-1
+      version: 0.7.10-1
     source:
       test_pull_requests: true
       type: git
@@ -352,7 +352,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/aws-gbp/cloudwatch_common-release.git
-      version: 1.1.0-1
+      version: 1.1.1-0
     source:
       type: git
       url: https://github.com/aws-robotics/cloudwatch-common.git
@@ -1148,7 +1148,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/SteveMacenski/navigation2-release.git
-      version: 0.2.3-1
+      version: 0.2.4-1
     source:
       test_pull_requests: true
       type: git
@@ -2424,6 +2424,27 @@ repositories:
       url: https://github.com/microROS/system_modes-release.git
       version: 0.1.4-1
     status: developed
+  teleop_tools:
+    doc:
+      type: git
+      url: https://github.com/ros-teleop/teleop_tools.git
+      version: dashing-devel
+    release:
+      packages:
+      - joy_teleop
+      - key_teleop
+      - mouse_teleop
+      - teleop_tools
+      - teleop_tools_msgs
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros-gbp/teleop_tools-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/ros-teleop/teleop_tools.git
+      version: dashing-devel
+    status: maintained
   teleop_twist_joy:
     doc:
       type: git
