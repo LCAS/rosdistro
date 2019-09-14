@@ -4256,6 +4256,13 @@ repositories:
       url: https://github.com/HebiRobotics/hebi_cpp_api_ros.git
       version: master
     status: developed
+  hebi_description:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/HebiRobotics/hebi_description-release.git
+      version: 0.1.0-1
+    status: developed
   hebiros:
     doc:
       type: git
@@ -6206,7 +6213,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/IntelRealSense/librealsense2-release.git
-      version: 2.25.2-1
+      version: 2.28.0-2
     source:
       test_pull_requests: true
       type: git
@@ -9341,7 +9348,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/PilzDE/pilz_industrial_motion-release.git
-      version: 0.3.9-1
+      version: 0.3.10-1
     source:
       type: git
       url: https://github.com/PilzDE/pilz_industrial_motion.git
@@ -9365,7 +9372,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/PilzDE/pilz_robots-release.git
-      version: 0.4.10-1
+      version: 0.4.11-1
     source:
       test_pull_requests: true
       type: git
@@ -10817,7 +10824,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/resource_retriever-release.git
-      version: 1.12.4-0
+      version: 1.12.5-1
     source:
       test_pull_requests: true
       type: git
