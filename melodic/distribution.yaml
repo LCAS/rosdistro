@@ -641,7 +641,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/locusrobotics/catkin_virtualenv.git
-      version: devel
+      version: master
     release:
       tags:
         release: release/melodic/{package}/{version}
@@ -650,7 +650,7 @@ repositories:
     source:
       type: git
       url: https://github.com/locusrobotics/catkin_virtualenv.git
-      version: devel
+      version: master
     status: maintained
   class_loader:
     doc:
@@ -1898,7 +1898,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/wxmerkt/fcl_catkin-release.git
-      version: 0.5.98-1
+      version: 0.5.99-1
     status: developed
   fetch_gazebo:
     release:
@@ -2132,7 +2132,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/FlexBE/flexbe_behavior_engine-release.git
-      version: 1.2.1-1
+      version: 1.2.2-1
     source:
       type: git
       url: https://github.com/team-vigir/flexbe_behavior_engine.git

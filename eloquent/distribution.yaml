@@ -55,6 +55,44 @@ repositories:
       url: https://github.com/ament/ament_package.git
       version: master
     status: developed
+  console_bridge_vendor:
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/console_bridge_vendor-release.git
+      version: 1.2.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/console_bridge_vendor.git
+      version: master
+    status: maintained
+  fastcdr:
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/fastcdr-release.git
+      version: 1.0.11-1
+    source:
+      test_commits: false
+      test_pull_requests: false
+      type: git
+      url: https://github.com/eProsima/Fast-CDR.git
+      version: v1.0.11
+    status: developed
+  fastrtps:
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/fastrtps-release.git
+      version: 1.9.0-2
+    source:
+      test_commits: false
+      test_pull_requests: false
+      type: git
+      url: https://github.com/eProsima/Fast-RTPS.git
+      version: 130e7c7f0c32bd27c543bb823a1b676407eb2656
+    status: developed
   googletest:
     release:
       packages:
@@ -68,6 +106,18 @@ repositories:
       type: git
       url: https://github.com/ament/googletest.git
       version: ros2
+    status: maintained
+  poco_vendor:
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/poco_vendor-release.git
+      version: 1.2.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/poco_vendor.git
+      version: master
     status: maintained
   ros_workspace:
     doc:
@@ -84,5 +134,17 @@ repositories:
       url: https://github.com/ros2/ros_workspace.git
       version: latest
     status: developed
+  tinydir_vendor:
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/tinydir_vendor-release.git
+      version: 1.1.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/tinydir_vendor.git
+      version: master
+    status: maintained
 type: distribution
 version: 2
