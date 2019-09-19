@@ -106,7 +106,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/ament_index-release.git
-      version: 0.7.0-1
+      version: 0.7.1-1
     source:
       test_pull_requests: true
       type: git
@@ -168,7 +168,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/ament_package-release.git
-      version: 0.7.1-1
+      version: 0.7.2-1
     source:
       type: git
       url: https://github.com/ament/ament_package.git
@@ -1006,6 +1006,21 @@ repositories:
       url: https://github.com/ros2/launch_ros.git
       version: dashing
     status: developed
+  launch_ros_sandbox:
+    doc:
+      type: git
+      url: https://github.com/aws-robotics/launch-ros-sandbox.git
+      version: dashing
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/aws-gbp/launch_ros_sandbox-release.git
+      version: 0.0.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/aws-robotics/launch-ros-sandbox.git
+      version: dashing
   lex_common:
     doc:
       type: git
@@ -2425,7 +2440,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros-gbp/teleop_tools-release.git
-      version: 1.0.0-0
+      version: 1.0.1-0
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git

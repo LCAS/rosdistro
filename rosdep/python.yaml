@@ -2010,6 +2010,12 @@ python-joblib:
   fedora: [python-joblib]
   gentoo: [dev-python/joblib]
   ubuntu: [python-joblib]
+python-jsonpickle:
+  arch: [python-jsonpickle]
+  debian: [python-jsonpickle]
+  fedora: [python-jsonpickle]
+  gentoo: [dev-python/jsonpickle]
+  ubuntu: [python-jsonpickle]
 python-jsonpyes-pip:
   debian:
     pip:
@@ -4983,6 +4989,11 @@ python3-django-extra-views:
 python3-djangorestframework:
   debian: [python3-djangorestframework]
   ubuntu: [python3-djangorestframework]
+python3-docker:
+  arch: [python-docker]
+  debian: [python3-docker]
+  fedora: [python3-docker]
+  ubuntu: [python3-docker]
 python3-empy:
   debian:
     buster: [python3-empy]
