@@ -8151,7 +8151,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tork-a/rtshell-release.git
-      version: 3.0.1-1
+      version: 3.0.1-2
     source:
       type: git
       url: https://github.com/gbiggs/rtshell.git
@@ -8181,7 +8181,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/rviz-release.git
-      version: 1.13.3-0
+      version: 1.13.4-1
     source:
       test_pull_requests: true
       type: git
@@ -8218,6 +8218,16 @@ repositories:
       url: https://github.com/rosin-project/rxcpp_vendor.git
       version: master
     status: maintained
+  rxros:
+    release:
+      packages:
+      - rxros
+      - rxros_tf
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/rosin-project/rxros-release.git
+      version: 0.1.0-1
+    status: developed
   sainsmart_relay_usb:
     doc:
       type: hg
