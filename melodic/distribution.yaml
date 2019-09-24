@@ -1496,6 +1496,16 @@ repositories:
       type: git
       url: https://github.com/ros-drivers/driver_common.git
       version: indigo-devel
+  ds4_driver:
+    doc:
+      type: git
+      url: https://github.com/naoki-mizuno/ds4_driver.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/naoki-mizuno/ds4_driver.git
+      version: master
+    status: maintained
   dynamic_reconfigure:
     doc:
       type: git
@@ -1896,6 +1906,28 @@ repositories:
       url: https://github.com/eyeware/eyeware-ros.git
       version: master
     status: maintained
+  fanuc:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/fanuc.git
+      version: indigo
+    source:
+      test_commits: false
+      type: git
+      url: https://github.com/ros-industrial/fanuc.git
+      version: indigo-devel
+    status: developed
+  fanuc_experimental:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/fanuc_experimental.git
+      version: indigo-devel
+    source:
+      test_commits: false
+      type: git
+      url: https://github.com/ros-industrial/fanuc_experimental.git
+      version: indigo-devel
+    status: developed
   fanuc_post_processor:
     doc:
       type: git
@@ -3003,6 +3035,16 @@ repositories:
       type: git
       url: https://gitlab.com/InstitutMaupertuis/industrial_robot_angle_conversions.git
       version: melodic
+    status: maintained
+  industrial_robot_status_controller:
+    release:
+      packages:
+      - industrial_robot_status_controller
+      - industrial_robot_status_interface
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/gavanderhoorn/industrial_robot_status_controller-release.git
+      version: 0.1.2-1
     status: maintained
   interactive_marker_proxy:
     doc:
