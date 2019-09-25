@@ -40,6 +40,25 @@ repositories:
       url: https://github.com/ament/ament_cmake.git
       version: master
     status: developed
+  ament_cmake_ros:
+    doc:
+      type: git
+      url: https://github.com/ros2/ament_cmake_ros.git
+      version: master
+    release:
+      packages:
+      - ament_cmake_ros
+      - domain_coordinator
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/ament_cmake_ros-release.git
+      version: 0.8.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/ament_cmake_ros.git
+      version: master
+    status: maintained
   ament_index:
     doc:
       type: git
@@ -203,6 +222,28 @@ repositories:
       url: https://github.com/ament/googletest.git
       version: ros2
     status: maintained
+  launch:
+    doc:
+      type: git
+      url: https://github.com/ros2/launch.git
+      version: eloquent
+    release:
+      packages:
+      - launch
+      - launch_testing
+      - launch_testing_ament_cmake
+      - launch_xml
+      - launch_yaml
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/launch-release.git
+      version: 0.9.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/launch.git
+      version: eloquent
+    status: developed
   orocos_kinematics_dynamics:
     doc:
       type: git
@@ -256,6 +297,22 @@ repositories:
       url: https://github.com/osrf/osrf_testing_tools_cpp.git
       version: master
     status: maintained
+  pluginlib:
+    doc:
+      type: git
+      url: https://github.com/ros/pluginlib.git
+      version: ros2
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/pluginlib-release.git
+      version: 2.4.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/pluginlib.git
+      version: ros2
+    status: maintained
   poco_vendor:
     release:
       tags:
@@ -266,6 +323,49 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/poco_vendor.git
+      version: master
+    status: maintained
+  python_cmake_module:
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/python_cmake_module-release.git
+      version: 0.8.0-1
+    source:
+      type: git
+      url: https://github.com/ros2/python_cmake_module.git
+      version: master
+    status: developed
+  rcpputils:
+    doc:
+      type: git
+      url: https://github.com/ros2/rcpputils.git
+      version: master
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/rcpputils-release.git
+      version: 0.2.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rcpputils.git
+      version: master
+    status: maintained
+  rcutils:
+    doc:
+      type: git
+      url: https://github.com/ros2/rcutils.git
+      version: master
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/rcutils-release.git
+      version: 0.8.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rcutils.git
       version: master
     status: maintained
   ros_environment:
@@ -299,6 +399,65 @@ repositories:
       url: https://github.com/ros2/ros_workspace.git
       version: latest
     status: developed
+  rosidl:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl.git
+      version: master
+    release:
+      packages:
+      - rosidl_adapter
+      - rosidl_cmake
+      - rosidl_generator_c
+      - rosidl_generator_cpp
+      - rosidl_parser
+      - rosidl_typesupport_interface
+      - rosidl_typesupport_introspection_c
+      - rosidl_typesupport_introspection_cpp
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/rosidl-release.git
+      version: 0.8.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl.git
+      version: master
+    status: maintained
+  rosidl_dds:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl_dds.git
+      version: master
+    release:
+      packages:
+      - rosidl_generator_dds_idl
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/rosidl_dds-release.git
+      version: 0.7.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl_dds.git
+      version: master
+    status: maintained
+  test_interface_files:
+    doc:
+      type: git
+      url: https://github.com/ros2/test_interface_files.git
+      version: master
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/test_interface_files-release.git
+      version: 0.8.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/test_interface_files.git
+      version: master
+    status: maintained
   tinydir_vendor:
     release:
       tags:
