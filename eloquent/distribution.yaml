@@ -226,7 +226,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros2/launch.git
-      version: eloquent
+      version: master
     release:
       packages:
       - launch
@@ -237,12 +237,12 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/ros2-gbp/launch-release.git
-      version: 0.9.0-1
+      version: 0.9.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: eloquent
+      version: master
     status: developed
   orocos_kinematics_dynamics:
     doc:
@@ -326,11 +326,15 @@ repositories:
       version: master
     status: maintained
   python_cmake_module:
+    doc:
+      type: git
+      url: https://github.com/ros2/python_cmake_module.git
+      version: master
     release:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/ros2-gbp/python_cmake_module-release.git
-      version: 0.8.0-1
+      version: 0.8.0-2
     source:
       type: git
       url: https://github.com/ros2/python_cmake_module.git
@@ -366,6 +370,25 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
+      version: master
+    status: maintained
+  rmw:
+    doc:
+      type: git
+      url: https://github.com/ros2/rmw.git
+      version: master
+    release:
+      packages:
+      - rmw
+      - rmw_implementation_cmake
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/rmw-release.git
+      version: 0.8.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rmw.git
       version: master
     status: maintained
   ros_environment:
@@ -440,6 +463,65 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_dds.git
+      version: master
+    status: maintained
+  rosidl_typesupport_connext:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl_typesupport_connext.git
+      version: master
+    release:
+      packages:
+      - connext_cmake_module
+      - rosidl_typesupport_connext_c
+      - rosidl_typesupport_connext_cpp
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/rosidl_typesupport_connext-release.git
+      version: 0.8.0-2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl_typesupport_connext.git
+      version: master
+  rosidl_typesupport_fastrtps:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl_typesupport_fastrtps.git
+      version: master
+    release:
+      packages:
+      - fastrtps_cmake_module
+      - rosidl_typesupport_fastrtps_c
+      - rosidl_typesupport_fastrtps_cpp
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/rosidl_typesupport_fastrtps-release.git
+      version: 0.8.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl_typesupport_fastrtps.git
+      version: master
+    status: maintained
+  rosidl_typesupport_opensplice:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl_typesupport_opensplice.git
+      version: master
+    release:
+      packages:
+      - opensplice_cmake_module
+      - rosidl_typesupport_opensplice_c
+      - rosidl_typesupport_opensplice_cpp
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/rosidl_typesupport_opensplice-release.git
+      version: 0.8.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl_typesupport_opensplice.git
       version: master
     status: maintained
   test_interface_files:
