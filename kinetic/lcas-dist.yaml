@@ -265,6 +265,13 @@ repositories:
       url: https://github.com/LCAS/iliad.git
       version: master
     status: developed
+  lcas_iliad_experiments:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/iliad_experimental.git
+      version: master
+    status: developed
   lcas_nav_branch:
     release:
       packages:
