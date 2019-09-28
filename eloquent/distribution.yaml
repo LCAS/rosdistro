@@ -141,6 +141,22 @@ repositories:
       url: https://github.com/ament/ament_package.git
       version: master
     status: developed
+  cartographer:
+    doc:
+      type: git
+      url: https://github.com/ros2/cartographer.git
+      version: ros2
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/cartographer-release.git
+      version: 1.0.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/cartographer.git
+      version: ros2
+    status: maintained
   class_loader:
     doc:
       type: git
@@ -198,6 +214,22 @@ repositories:
       url: https://github.com/ros2/console_bridge_vendor.git
       version: master
     status: maintained
+  depthimage_to_laserscan:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/depthimage_to_laserscan.git
+      version: dashing-devel
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/depthimage_to_laserscan-release.git
+      version: 2.2.2-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-perception/depthimage_to_laserscan.git
+      version: dashing-devel
+    status: maintained
   eigen3_cmake_module:
     doc:
       type: git
@@ -212,6 +244,22 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/eigen3_cmake_module.git
+      version: master
+    status: maintained
+  example_interfaces:
+    doc:
+      type: git
+      url: https://github.com/ros2/example_interfaces.git
+      version: master
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/example_interfaces-release.git
+      version: 0.7.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/example_interfaces.git
       version: master
     status: maintained
   fastcdr:
@@ -290,6 +338,95 @@ repositories:
     source:
       type: git
       url: https://github.com/ament/googletest.git
+      version: ros2
+    status: maintained
+  image_common:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/image_common.git
+      version: ros2
+    release:
+      packages:
+      - camera_calibration_parsers
+      - camera_info_manager
+      - image_transport
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/image_common-release.git
+      version: 2.2.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-perception/image_common.git
+      version: ros2
+    status: maintained
+  image_transport_plugins:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/image_transport_plugins.git
+      version: ros2
+    release:
+      packages:
+      - compressed_depth_image_transport
+      - compressed_image_transport
+      - image_transport_plugins
+      - theora_image_transport
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/image_transport_plugins-release.git
+      version: 2.2.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-perception/image_transport_plugins.git
+      version: ros2
+    status: maintained
+  interactive_markers:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/interactive_markers.git
+      version: ros2
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/interactive_markers-release.git
+      version: 2.0.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/interactive_markers.git
+      version: ros2
+    status: developed
+  kdl_parser:
+    doc:
+      type: git
+      url: https://github.com/ros2/kdl_parser.git
+      version: ros2
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/kdl_parser-release.git
+      version: 2.2.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/kdl_parser.git
+      version: ros2
+    status: maintained
+  laser_geometry:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/laser_geometry.git
+      version: ros2
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/laser_geometry-release.git
+      version: 2.1.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-perception/laser_geometry.git
       version: ros2
     status: maintained
   launch:
@@ -433,6 +570,22 @@ repositories:
       url: https://github.com/ros2/python_cmake_module.git
       version: master
     status: developed
+  python_qt_binding:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/python_qt_binding.git
+      version: crystal-devel
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/python_qt_binding-release.git
+      version: 1.0.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/python_qt_binding.git
+      version: crystal-devel
+    status: maintained
   rcl:
     doc:
       type: git
@@ -566,6 +719,25 @@ repositories:
       url: https://github.com/ros2/rcutils.git
       version: master
     status: maintained
+  realtime_support:
+    doc:
+      type: git
+      url: https://github.com/ros2/realtime_support.git
+      version: master
+    release:
+      packages:
+      - rttest
+      - tlsf_cpp
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/realtime_support-release.git
+      version: 0.8.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/realtime_support.git
+      version: master
+    status: maintained
   resource_retriever:
     doc:
       type: git
@@ -676,6 +848,22 @@ repositories:
       type: git
       url: https://github.com/ros2/rmw_opensplice.git
       version: master
+    status: maintained
+  robot_state_publisher:
+    doc:
+      type: git
+      url: https://github.com/ros2/robot_state_publisher.git
+      version: ros2
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/robot_state_publisher-release.git
+      version: 2.3.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/robot_state_publisher.git
+      version: ros2
     status: maintained
   ros2cli:
     doc:
@@ -942,6 +1130,41 @@ repositories:
       url: https://github.com/ros2/rosidl_typesupport_opensplice.git
       version: master
     status: maintained
+  sros2:
+    doc:
+      type: git
+      url: https://github.com/ros2/sros2.git
+      version: master
+    release:
+      packages:
+      - sros2
+      - sros2_cmake
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/sros2-release.git
+      version: 0.8.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/sros2.git
+      version: master
+    status: developed
+  teleop_twist_joy:
+    doc:
+      type: git
+      url: https://github.com/ros2/teleop_twist_joy.git
+      version: dashing
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/teleop_twist_joy-release.git
+      version: 2.2.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/teleop_twist_joy.git
+      version: dashing
+    status: maintained
   test_interface_files:
     doc:
       type: git
@@ -994,6 +1217,22 @@ repositories:
       url: https://github.com/ros2/tinyxml_vendor.git
       version: master
     status: maintained
+  tlsf:
+    doc:
+      type: git
+      url: https://github.com/ros2/tlsf.git
+      version: master
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/tlsf-release.git
+      version: 0.5.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/tlsf.git
+      version: master
+    status: maintained
   uncrustify_vendor:
     release:
       tags:
@@ -1021,6 +1260,22 @@ repositories:
       type: git
       url: https://github.com/ros2/unique_identifier_msgs.git
       version: master
+    status: maintained
+  urdf:
+    doc:
+      type: git
+      url: https://github.com/ros2/urdf.git
+      version: ros2
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/urdf-release.git
+      version: 2.2.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/urdf.git
+      version: ros2
     status: maintained
   urdfdom:
     doc:
@@ -1053,6 +1308,26 @@ repositories:
       type: git
       url: https://github.com/ros/urdfdom_headers.git
       version: master
+    status: maintained
+  vision_opencv:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/vision_opencv.git
+      version: ros2
+    release:
+      packages:
+      - cv_bridge
+      - image_geometry
+      - vision_opencv
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/vision_opencv-release.git
+      version: 2.1.2-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-perception/vision_opencv.git
+      version: ros2
     status: maintained
   yaml_cpp_vendor:
     release:
