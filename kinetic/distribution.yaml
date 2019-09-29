@@ -13587,6 +13587,26 @@ repositories:
       url: https://github.com/orocos/rtt_geometry.git
       version: toolchain-2.9
     status: maintained
+  rtt_pcl:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/orocos-gbp/rtt_pcl-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/orocos/rtt_pcl.git
+  rtt_pcl_ros:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/orocos-gbp/rtt_pcl_ros-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/orocos/rtt_pcl_ros.git
+      version: master
+    status: maintained
   rtt_ros_control:
     doc:
       type: git
@@ -15620,7 +15640,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/um7-release.git
-      version: 0.0.4-0
+      version: 0.0.5-1
     source:
       type: git
       url: https://github.com/ros-drivers/um7.git
