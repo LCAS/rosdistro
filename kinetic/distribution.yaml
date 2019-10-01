@@ -8189,6 +8189,11 @@ repositories:
       url: https://github.com/astuff/network_interface.git
       version: release
     status: maintained
+  niryo_one_simulation:
+    doc:
+      type: git
+      url: https://github.com/NiryoRobotics/niryo_one_ros_simulation.git
+      version: master
   nmea_comms:
     doc:
       type: git
@@ -16883,7 +16888,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/openspur/yp-spur-release.git
-      version: 1.16.0-1
+      version: 1.17.0-1
     source:
       type: git
       url: https://github.com/openspur/yp-spur.git

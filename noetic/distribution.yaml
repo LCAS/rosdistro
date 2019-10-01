@@ -10,6 +10,12 @@ release_platforms:
   ubuntu:
   - bionic
 repositories:
+  bond_core:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/bond_core.git
+      version: kinetic-devel
   catkin:
     source:
       test_pull_requests: true
@@ -88,12 +94,31 @@ repositories:
       url: https://github.com/ros/message_runtime.git
       version: kinetic-devel
     status: maintained
+  nodelet_core:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/nodelet_core.git
+      version: indigo-devel
   pluginlib:
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/pluginlib.git
       version: melodic-devel
+    status: maintained
+  python_qt_binding:
+    source:
+      type: git
+      url: https://github.com/ros-visualization/python_qt_binding.git
+      version: kinetic-devel
+    status: maintained
+  qt_gui_core:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/qt_gui_core.git
+      version: kinetic-devel
     status: maintained
   resource_retriever:
     source:
@@ -160,6 +185,12 @@ repositories:
       type: git
       url: https://github.com/ros/rospack.git
       version: melodic-devel
+    status: maintained
+  rqt:
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt.git
+      version: kinetic-devel
     status: maintained
   std_msgs:
     source:

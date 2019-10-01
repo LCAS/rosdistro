@@ -214,6 +214,55 @@ repositories:
       url: https://github.com/ros2/console_bridge_vendor.git
       version: master
     status: maintained
+  cyclonedds:
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/cyclonedds-release.git
+      version: 0.1.0-1
+    source:
+      test_commits: false
+      test_pull_requests: false
+      type: git
+      url: https://github.com/eclipse-cyclonedds/cyclonedds.git
+      version: 78fc9c2e8517a34d3a743740a2457e07199234f0
+    status: developed
+  demos:
+    doc:
+      type: git
+      url: https://github.com/ros2/demos.git
+      version: master
+    release:
+      packages:
+      - action_tutorials_cpp
+      - action_tutorials_interfaces
+      - action_tutorials_py
+      - composition
+      - demo_nodes_cpp
+      - demo_nodes_cpp_native
+      - demo_nodes_py
+      - dummy_map_server
+      - dummy_robot_bringup
+      - dummy_sensors
+      - image_tools
+      - intra_process_demo
+      - lifecycle
+      - logging_demo
+      - pendulum_control
+      - pendulum_msgs
+      - quality_of_service_demo_cpp
+      - quality_of_service_demo_py
+      - topic_monitor
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/demos-release.git
+      version: 0.8.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/demos.git
+      version: master
+    status: developed
   depthimage_to_laserscan:
     doc:
       type: git
@@ -451,6 +500,26 @@ repositories:
       url: https://github.com/ros2/launch.git
       version: master
     status: developed
+  launch_ros:
+    doc:
+      type: git
+      url: https://github.com/ros2/launch_ros.git
+      version: master
+    release:
+      packages:
+      - launch_ros
+      - launch_testing_ros
+      - ros2launch
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/launch_ros-release.git
+      version: 0.9.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/launch_ros.git
+      version: master
+    status: developed
   libyaml_vendor:
     release:
       tags:
@@ -473,6 +542,25 @@ repositories:
       type: git
       url: https://github.com/ros2/message_filters.git
       version: master
+    status: maintained
+  navigation_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/navigation_msgs.git
+      version: ros2
+    release:
+      packages:
+      - map_msgs
+      - move_base_msgs
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/navigation_msgs-release.git
+      version: 2.0.2-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-planning/navigation_msgs.git
+      version: ros2
     status: maintained
   orocos_kinematics_dynamics:
     doc:
@@ -579,11 +667,34 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/ros2-gbp/python_qt_binding-release.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
+      version: crystal-devel
+    status: maintained
+  qt_gui_core:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/qt_gui_core.git
+      version: crystal-devel
+    release:
+      packages:
+      - qt_dotgraph
+      - qt_gui
+      - qt_gui_app
+      - qt_gui_core
+      - qt_gui_cpp
+      - qt_gui_py_common
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/qt_gui_core-release.git
+      version: 1.0.7-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/qt_gui_core.git
       version: crystal-devel
     status: maintained
   rcl:
@@ -913,6 +1024,25 @@ repositories:
       url: https://github.com/ros/ros_environment.git
       version: eloquent
     status: maintained
+  ros_testing:
+    doc:
+      type: git
+      url: https://github.com/ros2/ros_testing.git
+      version: master
+    release:
+      packages:
+      - ros2test
+      - ros_testing
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/ros_testing-release.git
+      version: 0.2.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/ros_testing.git
+      version: master
+    status: developed
   ros_workspace:
     doc:
       type: git
@@ -1129,6 +1259,28 @@ repositories:
       type: git
       url: https://github.com/ros2/rosidl_typesupport_opensplice.git
       version: master
+    status: maintained
+  rqt:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt.git
+      version: crystal-devel
+    release:
+      packages:
+      - rqt
+      - rqt_gui
+      - rqt_gui_cpp
+      - rqt_gui_py
+      - rqt_py_common
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt-release.git
+      version: 1.0.5-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/rqt.git
+      version: crystal-devel
     status: maintained
   sros2:
     doc:

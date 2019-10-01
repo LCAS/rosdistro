@@ -702,7 +702,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/fastrtps-release.git
-      version: 1.8.0-2
+      version: 1.8.1-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -2695,7 +2695,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/robotis-ros2-release/turtlebot3_msgs-release.git
-      version: 2.1.0-1
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
@@ -2883,6 +2883,22 @@ repositories:
       type: git
       url: https://github.com/RobotWebTools/web_video_server.git
       version: ros2
+    status: maintained
+  xacro:
+    doc:
+      type: git
+      url: https://github.com/ros/xacro.git
+      version: dashing-devel
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros-gbp/xacro-release.git
+      version: 2.0.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/xacro.git
+      version: dashing-devel
     status: maintained
   yaml_cpp_vendor:
     release:
