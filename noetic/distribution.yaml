@@ -10,6 +10,13 @@ release_platforms:
   ubuntu:
   - bionic
 repositories:
+  angles:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/angles.git
+      version: master
+    status: maintained
   bond_core:
     source:
       test_pull_requests: true
@@ -37,12 +44,26 @@ repositories:
       url: https://github.com/ros/cmake_modules.git
       version: 0.4-devel
     status: maintained
+  common_msgs:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/common_msgs.git
+      version: jade-devel
+    status: maintained
   dynamic_reconfigure:
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/dynamic_reconfigure.git
       version: noetic-devel
+    status: maintained
+  filters:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/filters.git
+      version: lunar-devel
     status: maintained
   gencpp:
     source:
@@ -82,6 +103,12 @@ repositories:
       url: https://github.com/ros/genpy.git
       version: kinetic-devel
     status: maintained
+  gl_dependency:
+    source:
+      type: git
+      url: https://github.com/ros-visualization/gl_dependency.git
+      version: kinetic-devel
+    status: maintained
   message_generation:
     source:
       type: git
@@ -100,6 +127,12 @@ repositories:
       type: git
       url: https://github.com/ros/nodelet_core.git
       version: indigo-devel
+  orocos_kinematics_dynamics:
+    source:
+      type: git
+      url: https://github.com/tfoote/orocos_kinematics_dynamics.git
+      version: python3_support
+    status: maintained
   pluginlib:
     source:
       test_pull_requests: true
@@ -118,6 +151,12 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
+      version: kinetic-devel
+    status: maintained
+  qwt_dependency:
+    source:
+      type: git
+      url: https://github.com/ros-visualization/qwt_dependency.git
       version: kinetic-devel
     status: maintained
   resource_retriever:
@@ -166,6 +205,13 @@ repositories:
       url: https://github.com/ros/rosconsole.git
       version: melodic-devel
     status: maintained
+  rosconsole_bridge:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/rosconsole_bridge.git
+      version: kinetic-devel
+    status: maintained
   roscpp_core:
     source:
       test_pull_requests: true
@@ -203,6 +249,12 @@ repositories:
       type: git
       url: https://github.com/ros/urdf_parser_py.git
       version: melodic-devel
+    status: maintained
+  webkit_dependency:
+    source:
+      type: git
+      url: https://github.com/ros-visualization/webkit_dependency.git
+      version: kinetic-devel
     status: maintained
 type: distribution
 version: 2
