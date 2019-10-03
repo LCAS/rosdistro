@@ -3328,6 +3328,26 @@ repositories:
       url: https://github.com/tork-a/jsk_model_tools-release.git
       version: 0.4.3-0
     status: developed
+  jsk_pr2eus:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
+      version: master
+    release:
+      packages:
+      - jsk_pr2eus
+      - pr2eus
+      - pr2eus_moveit
+      - pr2eus_tutorials
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/tork-a/jsk_pr2eus-release.git
+      version: 0.3.14-3
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
+      version: master
+    status: developed
   jsk_recognition:
     doc:
       type: git
@@ -4283,6 +4303,25 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
+      version: melodic-devel
+    status: maintained
+  moveit_pr2:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/moveit_pr2.git
+      version: melodic-devel
+    release:
+      packages:
+      - moveit_pr2
+      - pr2_moveit_config
+      - pr2_moveit_plugins
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/moveit_pr2-release.git
+      version: 0.7.2-1
+    source:
+      type: git
+      url: https://github.com/ros-planning/moveit_pr2.git
       version: melodic-devel
     status: maintained
   moveit_python:
@@ -6190,7 +6229,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/qt_gui_core-release.git
-      version: 0.3.13-1
+      version: 0.3.13-2
     source:
       test_pull_requests: true
       type: git
@@ -7177,7 +7216,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/facontidavide/ros_type_introspection-release.git
-      version: 2.0.1-1
+      version: 2.0.2-1
     source:
       type: git
       url: https://github.com/facontidavide/ros_type_introspection.git

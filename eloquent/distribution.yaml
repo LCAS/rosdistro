@@ -295,6 +295,22 @@ repositories:
       url: https://github.com/ros2/eigen3_cmake_module.git
       version: master
     status: maintained
+  eigen_stl_containers:
+    doc:
+      type: git
+      url: https://github.com/ros/eigen_stl_containers.git
+      version: ros2
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/eigen_stl_containers-release.git
+      version: 1.0.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/eigen_stl_containers.git
+      version: ros2
+    status: maintained
   example_interfaces:
     doc:
       type: git
@@ -311,6 +327,37 @@ repositories:
       url: https://github.com/ros2/example_interfaces.git
       version: master
     status: maintained
+  examples:
+    doc:
+      type: git
+      url: https://github.com/ros2/examples.git
+      version: master
+    release:
+      packages:
+      - examples_rclcpp_minimal_action_client
+      - examples_rclcpp_minimal_action_server
+      - examples_rclcpp_minimal_client
+      - examples_rclcpp_minimal_composition
+      - examples_rclcpp_minimal_publisher
+      - examples_rclcpp_minimal_service
+      - examples_rclcpp_minimal_subscriber
+      - examples_rclcpp_minimal_timer
+      - examples_rclpy_executors
+      - examples_rclpy_minimal_action_client
+      - examples_rclpy_minimal_action_server
+      - examples_rclpy_minimal_client
+      - examples_rclpy_minimal_publisher
+      - examples_rclpy_minimal_service
+      - examples_rclpy_minimal_subscriber
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/examples-release.git
+      version: 0.8.0-1
+    source:
+      type: git
+      url: https://github.com/ros2/examples.git
+      version: master
+    status: developed
   fastcdr:
     release:
       tags:
@@ -544,6 +591,10 @@ repositories:
         release: release/eloquent/{package}/{version}
       url: https://github.com/ros2-gbp/libyaml_vendor-release.git
       version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros2/libyaml_vendor.git
+      version: master
     status: maintained
   message_filters:
     doc:
@@ -1402,6 +1453,22 @@ repositories:
       type: git
       url: https://github.com/ros2/tlsf.git
       version: master
+    status: maintained
+  turtlesim:
+    doc:
+      type: git
+      url: https://github.com/ros/ros_tutorials.git
+      version: dashing-devel
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/ros_tutorials-release.git
+      version: 1.0.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/ros_tutorials.git
+      version: dashing-devel
     status: maintained
   uncrustify_vendor:
     release:

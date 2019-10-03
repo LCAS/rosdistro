@@ -636,6 +636,22 @@ repositories:
       url: https://github.com/ros2/eigen3_cmake_module.git
       version: master
     status: maintained
+  eigen_stl_containers:
+    doc:
+      type: git
+      url: https://github.com/ros/eigen_stl_containers.git
+      version: ros2
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/eigen_stl_containers-release.git
+      version: 1.0.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/eigen_stl_containers.git
+      version: ros2
+    status: maintained
   example_interfaces:
     doc:
       type: git
@@ -1192,10 +1208,11 @@ repositories:
     release:
       packages:
       - map_msgs
+      - move_base_msgs
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/navigation_msgs-release.git
-      version: 2.0.1-1
+      version: 2.0.2-1
     source:
       type: git
       url: https://github.com/ros-planning/navigation_msgs.git
@@ -1408,7 +1425,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/stonier/py_trees_ros_interfaces-release.git
-      version: 1.1.2-1
+      version: 1.2.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1455,7 +1472,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/python_qt_binding-release.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       test_pull_requests: true
       type: git
@@ -1478,7 +1495,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/qt_gui_core-release.git
-      version: 1.0.6-1
+      version: 1.0.7-1
     source:
       test_pull_requests: true
       type: git
@@ -2210,7 +2227,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rqt-release.git
-      version: 1.0.4-1
+      version: 1.0.5-1
     source:
       test_pull_requests: true
       type: git
@@ -2236,7 +2253,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-visualization/rqt_console.git
-      version: crystal-devel
+      version: dashing-devel
     release:
       tags:
         release: release/dashing/{package}/{version}
@@ -2245,7 +2262,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_console.git
-      version: crystal-devel
+      version: dashing-devel
     status: maintained
   rqt_graph:
     doc:
@@ -2728,7 +2745,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/ros_tutorials-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       test_pull_requests: true
       type: git
