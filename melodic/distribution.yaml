@@ -1280,9 +1280,9 @@ repositories:
     status: maintained
   dataspeed_can:
     doc:
-      type: hg
-      url: https://bitbucket.org/dataspeedinc/dataspeed_can
-      version: default
+      type: git
+      url: https://bitbucket.org/dataspeedinc/dataspeed_can.git
+      version: master
     release:
       packages:
       - dataspeed_can
@@ -1294,15 +1294,15 @@ repositories:
       url: https://github.com/DataspeedInc-release/dataspeed_can-release.git
       version: 1.0.12-0
     source:
-      type: hg
-      url: https://bitbucket.org/dataspeedinc/dataspeed_can
-      version: default
+      type: git
+      url: https://bitbucket.org/dataspeedinc/dataspeed_can.git
+      version: master
     status: developed
   dataspeed_pds:
     doc:
-      type: hg
-      url: https://bitbucket.org/DataspeedInc/dataspeed_pds
-      version: default
+      type: git
+      url: https://bitbucket.org/DataspeedInc/dataspeed_pds.git
+      version: master
     release:
       packages:
       - dataspeed_pds
@@ -1315,9 +1315,9 @@ repositories:
       url: https://github.com/DataspeedInc-release/dataspeed_pds-release.git
       version: 1.0.2-0
     source:
-      type: hg
-      url: https://bitbucket.org/DataspeedInc/dataspeed_pds
-      version: default
+      type: git
+      url: https://bitbucket.org/DataspeedInc/dataspeed_pds.git
+      version: master
     status: developed
   dataspeed_ulc_ros:
     doc:
@@ -1361,9 +1361,9 @@ repositories:
     status: maintained
   dbw_mkz_ros:
     doc:
-      type: hg
-      url: https://bitbucket.org/dataspeedinc/dbw_mkz_ros
-      version: default
+      type: git
+      url: https://bitbucket.org/dataspeedinc/dbw_mkz_ros.git
+      version: master
     release:
       packages:
       - dbw_mkz
@@ -1377,9 +1377,9 @@ repositories:
       url: https://github.com/DataspeedInc-release/dbw_mkz_ros-release.git
       version: 1.2.3-1
     source:
-      type: hg
-      url: https://bitbucket.org/dataspeedinc/dbw_mkz_ros
-      version: default
+      type: git
+      url: https://bitbucket.org/dataspeedinc/dbw_mkz_ros.git
+      version: master
     status: developed
   ddynamic_reconfigure:
     release:
@@ -2532,7 +2532,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/gps_umd-release.git
-      version: 0.2.0-0
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/swri-robotics/gps_umd.git
@@ -3382,10 +3382,13 @@ repositories:
       packages:
       - jsk_roseus
       - roseus
+      - roseus_mongo
+      - roseus_smach
+      - roseus_tutorials
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.7.4-0
+      version: 1.7.4-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
@@ -3832,18 +3835,18 @@ repositories:
     status: maintained
   lusb:
     doc:
-      type: hg
-      url: https://bitbucket.org/dataspeedinc/lusb
-      version: default
+      type: git
+      url: https://bitbucket.org/dataspeedinc/lusb.git
+      version: master
     release:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/DataspeedInc-release/lusb-release.git
       version: 1.1.0-0
     source:
-      type: hg
-      url: https://bitbucket.org/dataspeedinc/lusb
-      version: default
+      type: git
+      url: https://bitbucket.org/dataspeedinc/lusb.git
+      version: master
     status: developed
   map_merge:
     doc:
@@ -4747,11 +4750,12 @@ repositories:
       - map_organizer_msgs
       - neonavigation_msgs
       - planner_cspace_msgs
+      - safety_limiter_msgs
       - trajectory_tracker_msgs
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/at-wat/neonavigation_msgs-release.git
-      version: 0.3.1-0
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation_msgs.git
@@ -5397,18 +5401,18 @@ repositories:
     status: developed
   oxford_gps_eth:
     doc:
-      type: hg
-      url: https://bitbucket.org/DataspeedInc/oxford_gps_eth
-      version: default
+      type: git
+      url: https://bitbucket.org/DataspeedInc/oxford_gps_eth.git
+      version: master
     release:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/DataspeedInc-release/oxford_gps_eth-release.git
       version: 1.0.0-0
     source:
-      type: hg
-      url: https://bitbucket.org/DataspeedInc/oxford_gps_eth
-      version: default
+      type: git
+      url: https://bitbucket.org/DataspeedInc/oxford_gps_eth.git
+      version: master
     status: maintained
   p2os:
     release:
@@ -5708,7 +5712,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 2.3.3-2
+      version: 2.3.4-2
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -6229,7 +6233,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/qt_gui_core-release.git
-      version: 0.3.13-2
+      version: 0.3.14-2
     source:
       test_pull_requests: true
       type: git
@@ -8331,18 +8335,18 @@ repositories:
     status: developed
   sainsmart_relay_usb:
     doc:
-      type: hg
-      url: https://bitbucket.org/DataspeedInc/sainsmart_relay_usb
-      version: default
+      type: git
+      url: https://bitbucket.org/DataspeedInc/sainsmart_relay_usb.git
+      version: master
     release:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/DataspeedInc-release/sainsmart_relay_usb-release.git
       version: 0.0.2-0
     source:
-      type: hg
-      url: https://bitbucket.org/DataspeedInc/sainsmart_relay_usb
-      version: default
+      type: git
+      url: https://bitbucket.org/DataspeedInc/sainsmart_relay_usb.git
+      version: master
     status: maintained
   sbg_driver:
     doc:
