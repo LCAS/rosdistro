@@ -88,7 +88,7 @@ python-munkres:
   ubuntu: [python-munkres]
 python-pydispatcher:
   ubuntu: [python-pydispatcher]
-python-pykalman:
+python-pykalman-apt:
   ubuntu: [python-pykalman]
 python-strands-requests:
   ubuntu: [python-strands-requests]
