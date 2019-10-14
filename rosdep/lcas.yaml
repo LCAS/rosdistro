@@ -84,8 +84,12 @@ prism-robots:
     xenial: [prism-robots]
 pybayes:
   ubuntu: [python-pybayes]
+python-munkres:
+  ubuntu: [python-munkres]
 python-pydispatcher:
   ubuntu: [python-pydispatcher]
+python-pykalman:
+  ubuntu: [python-pykalman]
 python-strands-requests:
   ubuntu: [python-strands-requests]
 python-webpy:
