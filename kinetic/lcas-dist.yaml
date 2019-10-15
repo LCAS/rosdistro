@@ -702,12 +702,14 @@ repositories:
     status: developed
   ros_web_apis:
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/LCAS/ros_web_apis.git
       version: master
     status: developed
   rosbridge_suite_lcas:
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/LCAS/rosbridge_suite.git
       version: develop
