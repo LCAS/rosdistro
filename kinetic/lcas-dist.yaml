@@ -706,6 +706,12 @@ repositories:
       url: https://github.com/LCAS/ros_web_apis.git
       version: master
     status: developed
+  rosbridge_suite_lcas:
+    source:
+      type: git
+      url: https://github.com/LCAS/rosbridge_suite.git
+      version: develop
+    status: maintained
   rosduct:
     release:
       tags:
