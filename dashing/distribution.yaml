@@ -1125,7 +1125,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/launch_ros-release.git
-      version: 0.8.6-1
+      version: 0.8.7-1
     source:
       test_pull_requests: true
       type: git
@@ -1430,6 +1430,20 @@ repositories:
       url: https://github.com/ros2/pcl_conversions.git
       version: dashing
     status: developed
+  pcl_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/pcl_msgs.git
+      version: ros2
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/pcl_msgs-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-perception/pcl_msgs.git
+      version: ros2
   people:
     doc:
       type: git
@@ -1988,7 +2002,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://gitlab.com/micro-ROS/ros_tracing/ros2_tracing-release.git
-      version: 0.2.0-1
+      version: 0.2.8-1
     source:
       type: git
       url: https://gitlab.com/micro-ROS/ros_tracing/ros2_tracing.git
@@ -2017,7 +2031,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/ros2cli-release.git
-      version: 0.7.5-1
+      version: 0.7.6-1
     source:
       test_pull_requests: true
       type: git
@@ -2058,7 +2072,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/ros_testing-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2112,7 +2126,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2-release.git
-      version: 0.1.6-1
+      version: 0.1.7-1
     source:
       test_pull_requests: true
       type: git
@@ -2178,7 +2192,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl-release.git
-      version: 0.7.6-1
+      version: 0.7.7-1
     source:
       test_pull_requests: true
       type: git
