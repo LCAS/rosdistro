@@ -723,16 +723,16 @@ repositories:
   avt_vimba_camera:
     doc:
       type: git
-      url: https://github.com/srv/avt_vimba_camera.git
+      url: https://github.com/astuff/avt_vimba_camera.git
       version: kinetic
     release:
       tags:
         release: release/kinetic/{package}/{version}
-      url: https://github.com/srv/avt_vimba_camera-release.git
-      version: 0.0.10-0
+      url: https://github.com/astuff/avt_vimba_camera-release.git
+      version: 0.0.11-1
     source:
       type: git
-      url: https://github.com/srv/avt_vimba_camera.git
+      url: https://github.com/astuff/avt_vimba_camera.git
       version: kinetic
     status: maintained
   aws_common:
@@ -3615,6 +3615,29 @@ repositories:
       url: https://github.com/paulbovbel/frontier_exploration.git
       version: indigo-devel
     status: maintained
+  fsrobo_r:
+    doc:
+      type: git
+      url: https://github.com/FUJISOFT-Robotics/fsrobo_r.git
+      version: master
+    release:
+      packages:
+      - fsrobo_r
+      - fsrobo_r_bringup
+      - fsrobo_r_description
+      - fsrobo_r_driver
+      - fsrobo_r_moveit_config
+      - fsrobo_r_msgs
+      - fsrobo_r_trajectory_filters
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/FUJISOFT-Robotics/fsrobo_r-release.git
+      version: 0.7.0-1
+    source:
+      type: git
+      url: https://github.com/FUJISOFT-Robotics/fsrobo_r.git
+      version: master
+    status: developed
   ftm_msgs:
     doc:
       type: git
@@ -6810,7 +6833,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2019.9.9-1
+      version: 2019.10.10-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -6831,7 +6854,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.32.2-1
+      version: 0.33.0-1
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -7203,7 +7226,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/uos-gbp/move_base_flex-release.git
-      version: 0.2.4-1
+      version: 0.2.5-1
     source:
       type: git
       url: https://github.com/magazino/move_base_flex.git
@@ -7992,7 +8015,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/navigation_experimental-release.git
-      version: 0.2.1-0
+      version: 0.2.2-1
     source:
       test_pull_requests: true
       type: git
@@ -9570,7 +9593,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 2.3.4-2
+      version: 2.3.6-2
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -12262,6 +12285,21 @@ repositories:
       url: https://github.com/GT-RAIL/rosauth.git
       version: develop
     status: maintained
+  rosbag_editor:
+    doc:
+      type: git
+      url: https://github.com/facontidavide/rosbag_editor.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/facontidavide/rosbag_editor-release.git
+      version: 0.3.0-1
+    source:
+      type: git
+      url: https://github.com/facontidavide/rosbag_editor.git
+      version: master
+    status: developed
   rosbag_migration_rule:
     release:
       tags:
@@ -13396,7 +13434,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/RoverRobotics-release/rr_openrover_stack-release.git
-      version: 0.7.2-1
+      version: 0.7.3-2
     status: maintained
   rr_swiftnav_piksi:
     doc:
@@ -13441,6 +13479,16 @@ repositories:
       url: https://github.com/robosavvy/rsv_balance_simulator.git
       version: master
     status: maintained
+  rt_usb_9axisimu_driver:
+    doc:
+      type: git
+      url: https://github.com/rt-net/rt_usb_9axisimu_driver.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/rt-net/rt_usb_9axisimu_driver.git
+      version: master
+    status: developed
   rtabmap:
     doc:
       type: git
@@ -14753,7 +14801,12 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/appie-17/tello_driver-release.git
-      version: 0.2.0-1
+      version: 0.3.1-1
+    source:
+      type: git
+      url: https://github.com/appie-17/tello_driver.git
+      version: development
+    status: developed
   tensorflow_ros_cpp:
     doc:
       type: git
