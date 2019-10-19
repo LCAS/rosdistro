@@ -114,6 +114,13 @@ repositories:
       url: https://github.com/ros2/ament_cmake_ros.git
       version: dashing
     status: developed
+  ament_download:
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/samsung-ros/ament_download-release.git
+      version: 0.0.1-1
+    status: maintained
   ament_index:
     doc:
       type: git
@@ -500,6 +507,17 @@ repositories:
       url: https://github.com/ros-controls/control_msgs.git
       version: crystal-devel
     status: maintained
+  cross_compile:
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros-tooling/cross_compile-release.git
+      version: 0.1.1-1
+    source:
+      type: git
+      url: https://github.com/ros-tooling/cross_compile.git
+      version: dashing-devel
+    status: developed
   cyclonedds:
     release:
       tags:
@@ -659,10 +677,9 @@ repositories:
       url: https://github.com/yujinrobot-release/ecl_lite-release.git
       version: 1.0.3-2
     source:
-      test_pull_requests: true
       type: git
       url: https://github.com/stonier/ecl_lite.git
-      version: devel
+      version: release/1.0.x
     status: maintained
   ecl_tools:
     doc:
@@ -1532,10 +1549,9 @@ repositories:
       url: https://github.com/stonier/py_trees_ros-release.git
       version: 1.2.1-2
     source:
-      test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees_ros.git
-      version: devel
+      version: release/1.2.x
     status: developed
   py_trees_ros_interfaces:
     doc:
@@ -2031,7 +2047,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/ros2cli-release.git
-      version: 0.7.6-1
+      version: 0.7.7-1
     source:
       test_pull_requests: true
       type: git

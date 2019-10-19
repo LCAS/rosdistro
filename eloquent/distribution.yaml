@@ -295,6 +295,31 @@ repositories:
       url: https://github.com/ros-perception/depthimage_to_laserscan.git
       version: dashing-devel
     status: maintained
+  ecl_lite:
+    doc:
+      type: git
+      url: https://github.com/stonier/ecl_lite.git
+      version: release/1.0.x
+    release:
+      packages:
+      - ecl_config
+      - ecl_console
+      - ecl_converters_lite
+      - ecl_errors
+      - ecl_io
+      - ecl_lite
+      - ecl_sigslots_lite
+      - ecl_time_lite
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/yujinrobot-release/ecl_lite-release.git
+      version: 1.0.3-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/stonier/ecl_lite.git
+      version: devel
+    status: maintained
   ecl_tools:
     doc:
       type: git
@@ -757,6 +782,20 @@ repositories:
       url: https://github.com/ros2/pcl_conversions.git
       version: ros2
     status: maintained
+  pcl_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/pcl_msgs.git
+      version: ros2
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/pcl_msgs-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-perception/pcl_msgs.git
+      version: ros2
   pluginlib:
     doc:
       type: git
@@ -814,6 +853,22 @@ repositories:
       type: git
       url: https://github.com/splintered-reality/py_trees_js.git
       version: release/0.5.x
+    status: developed
+  py_trees_ros:
+    doc:
+      type: git
+      url: https://github.com/splintered-reality/py_trees_ros.git
+      version: release/1.2.x
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/stonier/py_trees_ros-release.git
+      version: 1.2.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/splintered-reality/py_trees_ros.git
+      version: devel
     status: developed
   py_trees_ros_interfaces:
     doc:
@@ -1180,6 +1235,28 @@ repositories:
       url: https://github.com/ros2/ros1_bridge.git
       version: master
     status: maintained
+  ros2_tracing:
+    doc:
+      type: git
+      url: https://gitlab.com/micro-ROS/ros_tracing/ros2_tracing.git
+      version: master
+    release:
+      packages:
+      - ros2trace
+      - tracetools
+      - tracetools_launch
+      - tracetools_read
+      - tracetools_test
+      - tracetools_trace
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://gitlab.com/micro-ROS/ros_tracing/ros2_tracing-release.git
+      version: 0.2.9-1
+    source:
+      type: git
+      url: https://gitlab.com/micro-ROS/ros_tracing/ros2_tracing.git
+      version: master
+    status: developed
   ros2cli:
     doc:
       type: git
@@ -1723,6 +1800,21 @@ repositories:
       type: git
       url: https://github.com/ros2/rviz.git
       version: ros2
+    status: maintained
+  sophus:
+    doc:
+      type: git
+      url: https://github.com/stonier/sophus.git
+      version: release/1.1-eloquent
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/yujinrobot-release/sophus-release.git
+      version: 1.1.0-1
+    source:
+      type: git
+      url: https://github.com/stonier/sophus.git
+      version: release/1.1-eloquent
     status: maintained
   spdlog_vendor:
     release:
