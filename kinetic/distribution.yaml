@@ -2402,6 +2402,16 @@ repositories:
       url: https://github.com/piraka9011/dialogflow_ros.git
       version: kinetic-devel
     status: developed
+  diffdrive_gazebo_plugin:
+    doc:
+      type: git
+      url: https://github.com/uos/diffdrive_gazebo_plugin.git
+      version: kinetic
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/uos/diffdrive_gazebo_plugin.git
+      version: kinetic
   distance_map:
     release:
       packages:
@@ -6869,7 +6879,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/at-wat/mcl_3dl-release.git
-      version: 0.1.5-1
+      version: 0.1.6-1
     source:
       type: git
       url: https://github.com/at-wat/mcl_3dl.git
@@ -8100,7 +8110,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.4.3-1
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
