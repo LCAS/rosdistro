@@ -994,7 +994,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: ros2
+      version: dashing
     release:
       packages:
       - camera_calibration_parsers
@@ -1008,7 +1008,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: ros2
+      version: dashing
     status: maintained
   image_transport_plugins:
     doc:
@@ -2621,7 +2621,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/SICKAG/sick_scan2-release.git
-      version: 0.1.1-1
+      version: 0.1.4-1
   slam_toolbox:
     doc:
       type: git

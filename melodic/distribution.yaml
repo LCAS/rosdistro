@@ -6269,7 +6269,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/qt_gui_core-release.git
-      version: 0.3.14-2
+      version: 0.3.15-1
     source:
       test_pull_requests: true
       type: git
@@ -8071,7 +8071,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_reconfigure-release.git
-      version: 0.4.10-0
+      version: 0.5.0-1
     source:
       test_pull_requests: true
       type: git
@@ -9483,7 +9483,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/urdfdom_py-release.git
-      version: 0.4.0-0
+      version: 0.4.1-1
     source:
       test_pull_requests: true
       type: git
@@ -9615,6 +9615,18 @@ repositories:
       type: git
       url: https://github.com/uji-ros-pkg/uwsim_bullet.git
       version: melodic-devel
+  uwsim_osgocean:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/uji-ros-pkg/uwsim_osgocean-release.git
+      version: 1.0.3-1
+  uwsim_osgworks:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/uji-ros-pkg/uwsim_osgworks-release.git
+      version: 3.0.3-1
   vapor_master:
     doc:
       type: git
