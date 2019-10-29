@@ -1345,7 +1345,7 @@ repositories:
       url: https://github.com/strands-project/v4r.git
       version: master
     status: developed
-  velodyne:
+  velodyne_oru:
     release:
       packages:
       - velodyne
@@ -1359,7 +1359,7 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/OrebroUniversity/velodyne.git
+      url: https://github.com/dan11003/velodyne_pointcloud_oru
       version: master
     status: maintained
   velodyne_simulator8:
