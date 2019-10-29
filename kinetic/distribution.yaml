@@ -1969,7 +1969,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/rst-tu-dortmund/costmap_converter-release.git
-      version: 0.0.9-0
+      version: 0.0.11-1
     source:
       test_pull_requests: true
       type: git
@@ -2962,7 +2962,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipab-slmc/eigenpy_catkin-release.git
-      version: 1.5.1-1
+      version: 1.6.2-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -8207,6 +8207,21 @@ repositories:
       url: https://github.com/UTNuclearRoboticsPublic/netft_utils.git
       version: master
     status: maintained
+  network_autoconfig:
+    doc:
+      type: git
+      url: https://github.com/LucidOne/network_autoconfig.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/LucidOne-release/network_autoconfig.git
+      version: 0.1.1-1
+    source:
+      type: git
+      url: https://github.com/LucidOne/network_autoconfig.git
+      version: master
+    status: developed
   network_interface:
     doc:
       type: git
@@ -12311,7 +12326,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/facontidavide/rosbag_editor-release.git
-      version: 0.3.0-1
+      version: 0.4.1-1
     source:
       type: git
       url: https://github.com/facontidavide/rosbag_editor.git
@@ -13205,7 +13220,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_reconfigure-release.git
-      version: 0.5.0-1
+      version: 0.5.1-1
     source:
       test_pull_requests: true
       type: git
@@ -14721,7 +14736,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.6.13-1
+      version: 0.6.14-1
     source:
       test_pull_requests: true
       type: git
@@ -14829,7 +14844,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/appie-17/tello_driver-release.git
-      version: 0.3.1-1
+      version: 0.3.1-2
     source:
       type: git
       url: https://github.com/appie-17/tello_driver.git
@@ -15470,6 +15485,17 @@ repositories:
       url: https://github.com/turtlebot/turtlebot_interactions.git
       version: indigo
     status: maintained
+  turtlebot_loadout_kha1:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/TurtleBot-Mfg-release/turtlebot_loadout_kha1.git
+      version: 0.1.0-3
+    source:
+      type: git
+      url: https://github.com/TurtleBot-Mfg/turtlebot_loadout_kha1.git
+      version: master
+    status: developed
   turtlebot_msgs:
     doc:
       type: git
