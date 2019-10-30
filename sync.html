@@ -23,7 +23,7 @@
     	<div class="container">
 		    <p>This little will sync form testing to main.</p>
       <!-- https://lcas.lincoln.ac.uk/buildfarm/job/bloom_release/buildWithParameters?token=lcas&REPOSITORY=sandbox&ROSDISTRO=kinetic&BUMP=patch&cause=test -->
-      <div class="panel panel-default">
+      <!--<div class="panel panel-default">
         <div class="panel-heading">Indigo</div>
         <div class="panel-body">
           <form action="https://lcas.lincoln.ac.uk/buildfarm/job/Irel_sync-packages-to-main/build" method="POST" onsubmit="document.location.href='https://lcas.lincoln.ac.uk/buildfarm/job/Irel_sync-packages-to-main'">
@@ -33,15 +33,11 @@
           </form>
           <iframe height="500px" width="100%" src="https://lcas.lincoln.ac.uk/status_page/indigo_default.html"></iframe>
         </div>
-      </div>
+      </div>-->
       <div class="panel panel-default">
         <div class="panel-heading">Kinetic</div>
+        <button id="submit_btn" type="button" onclick="sync_distro(this, 'https://lcas.lincoln.ac.uk/buildfarm/job/Krel_sync-packages-to-main');" class="btn btn-lg btn-primary">Sync Kinetic</button>
         <div class="panel-body">
-          <form action="https://lcas.lincoln.ac.uk/buildfarm/job/Krel_sync-packages-to-main/build" method="POST" onsubmit="document.location.href='https://lcas.lincoln.ac.uk/buildfarm/job/Krel_sync-packages-to-main'">
-    			    <input type="hidden" name="token" value="11468902e6f85609deb83ffd163c6da7">
-              <input type="hidden" name="cause" value="sync wizard">
-    			    <button type="submit" class="btn btn-lg btn-primary">Sync Kinetic</button>
-    			</form>
           <iframe height="500px" width="100%" src="https://lcas.lincoln.ac.uk/status_page/kinetic_default.html"></iframe>
         </div>
       </div>
@@ -50,5 +46,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript">
+      function sync_distro(btn, webhook_url) {
+        console.log('sync pressed');
+        param = {
+          "token": '11468902e6f85609deb83ffd163c6da7',
+          "cause": 'sync wizard'
+        }
+        console.log($.post(webhook_url + '/build', param));
+
+        $(btn).text("SYNC TRIGGERED, you will be redirected in a few moments to monitor the process, please wait");
+        $(btn).attr('disabled','disabled');
+          window.setTimeout(function(){
+              window.location.href = webhook_url + '/lastBuild/console';
+          }, 10000);
+      }
+
+    </script>
   </body>
 </html>
