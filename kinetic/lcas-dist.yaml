@@ -1348,14 +1348,11 @@ repositories:
   velodyne_oru:
     release:
       packages:
-      - velodyne
-      - velodyne_driver
-      - velodyne_msgs
-      - velodyne_pointcloud
+      - velodyne_pointcloud_oru
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/LCAS/velodyne-release.git
-      version: 1.2.1-0
+      version: 1.5.5-1
     source:
       test_pull_requests: true
       type: git
