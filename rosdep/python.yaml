@@ -457,6 +457,19 @@ python-argparse:
     maverick: [python-argparse]
     natty: [python-argparse]
     oneiric: [python-argparse]
+python-astor-pip:
+  debian:
+    pip:
+      packages: [astor]
+  fedora:
+    pip:
+      packages: [astor]
+  osx:
+    pip:
+      packages: [astor]
+  ubuntu:
+    pip:
+      packages: [astor]
 python-attrs:
   debian: [python-attr]
   fedora: [python2-attrs]
@@ -1112,6 +1125,22 @@ python-cwiid:
   gentoo: ['app-misc/cwiid[python]']
   rhel: [cwiid]
   ubuntu: [python-cwiid]
+python-cython-pip:
+  arch:
+    pip:
+      packages: [cython]
+  debian:
+    pip:
+      packages: [cython]
+  fedora:
+    pip:
+      packages: [cython]
+  gentoo:
+    pip:
+      packages: [cython]
+  ubuntu:
+    pip:
+      packages: [cython]
 python-dateutil:
   arch: [python2-dateutil]
   debian: [python-dateutil]
