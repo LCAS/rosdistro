@@ -178,7 +178,7 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/LCAS/GRASBerry.git
+      url: https://github.com/LCAS/GRASPberry.git
       version: master
     status: developed
   iai_kinect2:
