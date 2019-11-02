@@ -523,13 +523,13 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/cyclonedds-release.git
-      version: 0.1.0-2
+      version: 0.1.0-3
     source:
       test_commits: false
       test_pull_requests: false
       type: git
       url: https://github.com/eclipse-cyclonedds/cyclonedds.git
-      version: 1c8c2944ff60544da38fefda5b4e80270e7fec48
+      version: 76fa68808682a15dd8aff26da20622ac574fa1a1
     status: developed
   demos:
     doc:
@@ -652,10 +652,9 @@ repositories:
       url: https://github.com/yujinrobot-release/ecl_core-release.git
       version: 1.0.4-1
     source:
-      test_pull_requests: true
       type: git
       url: https://github.com/stonier/ecl_core.git
-      version: devel
+      version: release/1.0.x
     status: maintained
   ecl_lite:
     doc:
@@ -951,7 +950,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/aws-gbp/h264_encoder_core-release.git
-      version: 2.0.2-1
+      version: 2.0.3-1
     source:
       type: git
       url: https://github.com/aws-robotics/kinesisvideo-encoder-common.git
@@ -1204,7 +1203,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/aws-gbp/lex_node-release.git
-      version: 3.0.0-1
+      version: 3.1.0-1
     source:
       type: git
       url: https://github.com/aws-robotics/lex-ros2.git
@@ -1892,11 +1891,10 @@ repositories:
       url: https://github.com/ros2-gbp/rmw_cyclonedds-release.git
       version: 0.4.1-1
     source:
-      test_commits: false
-      test_pull_requests: false
+      test_pull_requests: true
       type: git
       url: https://github.com/atolab/rmw_cyclonedds.git
-      version: 888235e96edfa9ca49a5e074407a98ed72843e65
+      version: master
     status: developed
   rmw_fastrtps:
     doc:

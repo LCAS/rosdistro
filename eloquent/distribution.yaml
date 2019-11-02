@@ -315,6 +315,48 @@ repositories:
       url: https://github.com/ros-perception/depthimage_to_laserscan.git
       version: dashing-devel
     status: maintained
+  ecl_core:
+    doc:
+      type: git
+      url: https://github.com/stonier/ecl_core.git
+      version: release/1.0.x
+    release:
+      packages:
+      - ecl_command_line
+      - ecl_concepts
+      - ecl_containers
+      - ecl_converters
+      - ecl_core
+      - ecl_core_apps
+      - ecl_devices
+      - ecl_eigen
+      - ecl_exceptions
+      - ecl_filesystem
+      - ecl_formatters
+      - ecl_geometry
+      - ecl_ipc
+      - ecl_linear_algebra
+      - ecl_manipulators
+      - ecl_math
+      - ecl_mobile_robot
+      - ecl_mpl
+      - ecl_sigslots
+      - ecl_statistics
+      - ecl_streams
+      - ecl_threads
+      - ecl_time
+      - ecl_type_traits
+      - ecl_utilities
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/yujinrobot-release/ecl_core-release.git
+      version: 1.0.4-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/stonier/ecl_core.git
+      version: devel
+    status: maintained
   ecl_lite:
     doc:
       type: git
@@ -466,6 +508,12 @@ repositories:
       url: https://github.com/eProsima/Fast-RTPS.git
       version: 130e7c7f0c32bd27c543bb823a1b676407eb2656
     status: developed
+  fmilibrary_vendor:
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/boschresearch/fmilibrary_vendor-release.git
+      version: 0.1.1-1
   foonathan_memory_vendor:
     release:
       tags:
@@ -850,7 +898,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/PX4/px4_msgs2-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     status: developed
   py_trees:
     doc:
@@ -876,7 +924,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/stonier/py_trees_js-release.git
-      version: 0.5.0-1
+      version: 0.5.1-1
     source:
       type: git
       url: https://github.com/splintered-reality/py_trees_js.git
@@ -912,6 +960,21 @@ repositories:
       type: git
       url: https://github.com/splintered-reality/py_trees_ros_interfaces.git
       version: release/1.2.x
+    status: developed
+  py_trees_ros_viewer:
+    doc:
+      type: git
+      url: https://github.com/splintered-reality/py_trees_ros_viewer.git
+      version: release/0.1.x
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/stonier/py_trees_ros_viewer-release.git
+      version: 0.1.4-1
+    source:
+      type: git
+      url: https://github.com/splintered-reality/py_trees_ros_viewer.git
+      version: release/0.1.x
     status: developed
   python_cmake_module:
     doc:
