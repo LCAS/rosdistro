@@ -70,7 +70,7 @@ distributions:
     distribution_type: ros1
     python_version: 2
   melodic:
-    distribution: [melodic/distribution.yaml]
+    distribution: [melodic/distribution.yaml,melodic/lcas-dist.yaml]
     distribution_cache: http://repositories.ros.org/rosdistro_cache/melodic-cache.yaml.gz
     distribution_status: active
     distribution_type: ros1

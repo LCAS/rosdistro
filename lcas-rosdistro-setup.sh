@@ -2,6 +2,8 @@
 
 set -x
 
+export ROS_DISTRIBUTION="kinetic"
+
 if [ $(id -u)  = "0" ]; then 
       echo "running as root"
       export DEBIAN_FRONTEND=noninteractive
@@ -23,10 +25,10 @@ $SUDO apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E3
 
 # update
 $SUDO apt-get update
-$SUDO apt-get install -y ros-kinetic-ros-base
+$SUDO apt-get install -y ros-$ROS_DISTRIBUTION-ros-base
 
 # config
-echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+echo "source /opt/ros/$ROS_DISTRIBUTION/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
 # LCAS REPO CONFIG
