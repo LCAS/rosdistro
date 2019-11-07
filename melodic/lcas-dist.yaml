@@ -1,0 +1,20 @@
+%YAML 1.1
+# ROS distribution file
+# see REP 143: http://ros.org/reps/rep-0143.html
+---
+release_platforms:
+  ubuntu:
+  - bionic
+repositories:
+  sandbox:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/sandbox.git
+      version: master
+    status: developed
+tags:
+- iliad
+- lcas
+type: distribution
+version: 2

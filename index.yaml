@@ -37,7 +37,7 @@ distributions:
     distribution: [lunar/distribution.yaml]
     distribution_cache: http://repositories.ros.org/rosdistro_cache/lunar-cache.yaml.gz
   melodic:
-    distribution: [melodic/distribution.yaml]
+    distribution: [melodic/distribution.yaml,melodic/lcas-dist.yaml]
     distribution_cache: http://repositories.ros.org/rosdistro_cache/melodic-cache.yaml.gz
   noetic:
     distribution: [noetic/distribution.yaml]
