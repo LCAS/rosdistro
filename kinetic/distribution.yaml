@@ -6279,10 +6279,12 @@ repositories:
       url: https://github.com/harjeb/libmynteye.git
       version: master
     release:
+      packages:
+      - ros_mynteye
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/harjeb/libmynteye-release.git
-      version: 0.1.3-0
+      version: 0.2.2-1
     source:
       test_pull_requests: true
       type: git
@@ -11342,6 +11344,21 @@ repositories:
       url: https://github.com/MarcoStb1993/robot_statemachine.git
       version: master
     status: maintained
+  robot_systemd:
+    doc:
+      type: git
+      url: https://github.com/LucidOne/robot_systemd.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/LucidOne-Release/robot_systemd.git
+      version: 0.1.2-1
+    source:
+      type: git
+      url: https://github.com/LucidOne/robot_systemd.git
+      version: master
+    status: developed
   robot_upstart:
     doc:
       type: git

@@ -158,6 +158,13 @@ repositories:
       url: https://github.com/ros/angles.git
       version: ros2
     status: maintained
+  behaviortree_cpp_v3:
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/BehaviorTree/behaviortree_cpp_v3-release.git
+      version: 3.1.0-1
+    status: developed
   cartographer:
     doc:
       type: git
@@ -507,6 +514,24 @@ repositories:
       type: git
       url: https://github.com/eProsima/Fast-RTPS.git
       version: 130e7c7f0c32bd27c543bb823a1b676407eb2656
+    status: developed
+  fmi_adapter_ros2:
+    doc:
+      type: git
+      url: https://github.com/boschresearch/fmi_adapter_ros2.git
+      version: eloquent
+    release:
+      packages:
+      - fmi_adapter
+      - fmi_adapter_examples
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/boschresearch/fmi_adapter_ros2-release.git
+      version: 0.1.6-1
+    source:
+      type: git
+      url: https://github.com/boschresearch/fmi_adapter_ros2.git
+      version: eloquent
     status: developed
   fmilibrary_vendor:
     release:
@@ -909,7 +934,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/stonier/py_trees-release.git
-      version: 1.3.0-2
+      version: 1.3.3-1
     source:
       type: git
       url: https://github.com/splintered-reality/py_trees.git
@@ -960,6 +985,22 @@ repositories:
       type: git
       url: https://github.com/splintered-reality/py_trees_ros_interfaces.git
       version: release/1.2.x
+    status: developed
+  py_trees_ros_tutorials:
+    doc:
+      type: git
+      url: https://github.com/splintered-reality/py_trees_ros_tutorials.git
+      version: release/1.0.x
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/stonier/py_trees_ros_tutorials-release.git
+      version: 1.0.6-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/splintered-reality/py_trees_ros_tutorials.git
+      version: devel
     status: developed
   py_trees_ros_viewer:
     doc:
@@ -1252,7 +1293,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_cyclonedds-release.git
-      version: 0.4.1-1
+      version: 0.4.2-1
     source:
       test_pull_requests: true
       type: git
@@ -1399,6 +1440,19 @@ repositories:
       url: https://github.com/ros2/ros2cli.git
       version: master
     status: maintained
+  ros_canopen:
+    release:
+      packages:
+      - can_msgs
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros-industrial-release/ros_canopen-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-industrial/ros_canopen.git
+      version: dashing-devel
+    status: developed
   ros_environment:
     doc:
       type: git
