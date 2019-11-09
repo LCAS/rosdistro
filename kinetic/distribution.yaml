@@ -1378,7 +1378,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/aws-gbp/cloudwatch_common-release.git
-      version: 1.1.0-2
+      version: 1.1.2-1
     source:
       type: git
       url: https://github.com/aws-robotics/cloudwatch-common.git
@@ -1500,7 +1500,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_command_tools-release.git
-      version: 0.6.14-1
+      version: 0.6.15-1
     source:
       type: git
       url: https://github.com/ipa320/cob_command_tools.git
@@ -7765,23 +7765,6 @@ repositories:
       url: https://github.com/injones/mycroft_ros.git
       version: kinetic-devel
     status: maintained
-  mynteye-roswrapper:
-    doc:
-      type: git
-      url: https://github.com/slightech/MYNT-EYE-ROS-Wrapper.git
-      version: master
-    release:
-      packages:
-      - mynt_eye_ros_wrapper
-      tags:
-        release: release/kinetic/{package}/{version}
-      url: https://github.com/harjeb/mynt_eye_ros_wrapper-release.git
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/harjeb/mynt_eye_ros_wrapper.git
-      version: master
-    status: developed
   nanomsg:
     release:
       tags:
