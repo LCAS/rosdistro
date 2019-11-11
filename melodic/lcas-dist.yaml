@@ -6,6 +6,33 @@ release_platforms:
   ubuntu:
   - bionic
 repositories:
+  acado:
+    source:
+      type: git
+      url: https://github.com/LCAS/acado.git
+      version: stable
+    status: maintained
+  libfreenect2:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/libfreenect2.git
+      version: master
+    status: maintained
+  marvelmind_nav_lcas:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/ros_marvelmind_package.git
+      version: master
+    status: maintained
+  rosduct:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/rosduct.git
+      version: master
+    status: developed
   sandbox:
     release:
       packages:
@@ -20,6 +47,22 @@ repositories:
       url: https://github.com/LCAS/sandbox.git
       version: master
     status: developed
+  scitos_common:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/scitos_common.git
+      version: indigo-devel
+    status: maintained
+  slackeros:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/marc-hanheide/slackeros.git
+      version: master
+    status: developed
   thorvald:
     source:
       test_pull_requests: true
@@ -27,6 +70,20 @@ repositories:
       url: https://github.com/LCAS/Thorvald.git
       version: melodic-devel
     status: developed
+  um7:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/um7.git
+      version: indigo-devel
+    status: maintained
+  velodyne_oru:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/dan11003/velodyne_pointcloud_oru
+      version: master
+    status: maintained
 tags:
 - iliad
 - lcas
