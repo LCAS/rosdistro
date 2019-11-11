@@ -3,26 +3,19 @@ clang:
 coinor-solvers:
   ubuntu: [coinor-libcbc-dev, coinor-libclp-dev, coinor-libcoinutils-dev, coinor-libcgl-dev, coinor-libosi-dev]
 cuda_latest:
-  ubuntu:
-    xenial: [cuda, nvidia-modprobe]
+  ubuntu: [cuda, nvidia-modprobe]
 cuda_8_0:
-  ubuntu:
-    xenial: [cuda-8-0, nvidia-modprobe]
+  ubuntu: [cuda-8-0, nvidia-modprobe]
 cuda_9_0:
-  ubuntu:
-    xenial: [cuda-9-0, nvidia-modprobe]
+  ubuntu: [cuda-9-0, nvidia-modprobe]
 cuda_9_1:
-  ubuntu:
-    xenial: [cuda-9-1, nvidia-modprobe]
+  ubuntu: [cuda-9-1, nvidia-modprobe]
 cuda_9_2:
-  ubuntu:
-    xenial: [cuda-9-2, nvidia-modprobe]
+  ubuntu: [cuda-9-2, nvidia-modprobe]
 cudnn:
-  ubuntu:
-    xenial: [libcudnn7, libcudnn7-dev, nvidia-modprobe]
+  ubuntu: [libcudnn7, libcudnn7-dev, nvidia-modprobe]
 cvb:
-  ubuntu:
-    xenial: [cvb-camerasuite-dev]
+  ubuntu: [cvb-camerasuite-dev]
 czmq:
   ubuntu: [libczmq-dev]
 deepfried2:
@@ -43,9 +36,7 @@ gazebo8_ros_control:
   ubuntu:
     xenial: [ros-kinetic-gazebo8-ros-control]
 ghmm:
-  ubuntu:
-    trusty: [libghmm-ne]
-    xenial: [libghmm-ne]
+  ubuntu: [libghmm-ne]
 igraph:
   ubuntu: [python-igraph]
 jekyll-trusty:
@@ -97,8 +88,7 @@ python-webpy:
 python-ws4py:
   ubuntu: [python-ws4py]
 realsense2-sdk:
-  ubuntu:
-    xenial: [librealsense2-dev, librealsense2-dkms, librealsense2-utils]
+  ubuntu: [librealsense2-dev, librealsense2-dkms, librealsense2-utils]
 rubygem-jekyll:
   ubuntu: [rubygem-jekyll]
 strands-morse-simulator:
