@@ -64,6 +64,25 @@ repositories:
       version: master
     status: developed
   thorvald:
+    release:
+      packages:
+      - thorvald
+      - thorvald_2dnav
+      - thorvald_base
+      - thorvald_bringup
+      - thorvald_can_devices
+      - thorvald_description
+      - thorvald_example_robots
+      - thorvald_gazebo_plugins
+      - thorvald_gui
+      - thorvald_msgs
+      - thorvald_simulator
+      - thorvald_teleop
+      - thorvald_twist_mux
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/LCAS/thorvald-releases.git
+      version: 1.3.0-1
     source:
       test_pull_requests: true
       type: git
