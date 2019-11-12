@@ -41,6 +41,11 @@ repositories:
       version: master
     status: maintained
   rosduct:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/rosduct.git
+      version: 0.0.6-1
     source:
       test_pull_requests: true
       type: git
