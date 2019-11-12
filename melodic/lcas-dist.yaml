@@ -12,6 +12,20 @@ repositories:
       url: https://github.com/LCAS/acado.git
       version: stable
     status: maintained
+  bayes_tracking:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/bayestracking.git
+      version: master
+    status: developed
+  catkin_simple:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/catkin_simple.git
+      version: master
+    status: developed
   libfreenect2:
     source:
       test_pull_requests: true
