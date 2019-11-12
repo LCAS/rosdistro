@@ -64,8 +64,7 @@ morse-blender-bundle:
   ubuntu:
     precise: [morse-blender-2.65-py-3.3]
 opencl_latest:
- ubuntu:
-   xenial: [opencl-headers, nvidia-opencl-dev]
+ ubuntu: [opencl-headers, nvidia-opencl-dev]
 openjdk-8:
   ubuntu: [openjdk-8-jdk]
 prism-robots:
@@ -82,7 +81,7 @@ python-pydispatcher:
 python-pykalman-apt:
   ubuntu: [python-pykalman]
 python-strands-requests:
-  ubuntu: [python-strands-requests]
+  ubuntu: [python-requests]
 python-webpy:
   ubuntu: [python-webpy]
 python-ws4py:
@@ -99,6 +98,7 @@ strands-twython:
   ubuntu: 
     trusty: [python-strands-twython]
     xenial: [python-twython]
+    bionic: [python-twython]
 theano:
   ubuntu: [python-theano]
 tmule:
