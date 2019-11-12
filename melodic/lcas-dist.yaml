@@ -63,6 +63,14 @@ repositories:
       url: https://github.com/marc-hanheide/slackeros.git
       version: master
     status: developed
+  snap_cart:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/snap_cart.git
+      version: melodic-devel
+    status: developed
   thorvald:
     source:
       test_pull_requests: true
