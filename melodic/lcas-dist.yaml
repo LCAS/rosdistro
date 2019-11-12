@@ -47,6 +47,20 @@ repositories:
       url: https://github.com/LCAS/ros_marvelmind_package.git
       version: master
     status: maintained
+  persistent_topics:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/marc-hanheide/persistent_topics.git
+      version: develop
+    status: developed
+  realsense_ros:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/realsense.git
+      version: development
+    status: maintained
   rosduct:
     release:
       tags:
