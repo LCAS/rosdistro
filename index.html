@@ -83,27 +83,27 @@
 
       <!-- https://lcas.lincoln.ac.uk/buildfarm/job/bloom_release/buildWithParameters?token=lcas&REPOSITORY=sandbox&ROSDISTRO=kinetic&BUMP=patch&cause=test -->
 			<form action="https://lcas.lincoln.ac.uk/buildfarm/job/bloom_release/buildWithParameters" method="POST" onsubmit="document.location.href='https://lcas.lincoln.ac.uk/buildfarm/job/bloom_release/'">
-			    <div class="form-group">
-			        <label for="repoName">Repository</label>
-			        <input type="text" class="form-control" name="REPOSITORY" id="repoName" placeholder="Repository to be released"/>
-			    </div>
-			    <div class="form-group">
-			        <label for="BUMP">Which part of the version string to bump in upstream repository?</label>
-              <input type="radio" class="form-control" name="BUMP" value="" checked>I have prepared the upstream repository for release myself (don't touch, just run bloom)
-			        <input type="radio" class="form-control" name="BUMP" value="patch">patch
-			        <input type="radio" class="form-control" name="BUMP" value="minor">minor
-			        <input type="radio" class="form-control" name="BUMP" value="major">major
-			    </div>
-			    <input type="hidden" name="token" value="lcas">
-          <input type="hidden" name="cause" value="release wizard">
+        <div class="form-group">
+          <label for="ROSDISTRO">Which ROS version to release to?</label>
+          <!-- <input type="radio" class="form-control" name="ROSDISTRO" value="indigo">indigo -->
+          <input onclick="get_repos('kinetic');" type="radio" class="form-control" name="ROSDISTRO" value="kinetic" checked>kinetic
+          <input onclick="get_repos('melodic');" type="radio" class="form-control" name="ROSDISTRO" value="melodic">melodic
+        </div>
+        <div class="form-group">
+            <label for="repoName">Repository</label>
+            <input type="text" class="form-control" name="REPOSITORY" id="repoName" placeholder="Repository to be released"/>
+        </div>
+        <div class="form-group">
+            <label for="BUMP">Which part of the version string to bump in upstream repository?</label>
+            <input type="radio" class="form-control" name="BUMP" value="" checked>I have prepared the upstream repository for release myself (don't touch, just run bloom)
+            <input type="radio" class="form-control" name="BUMP" value="patch">patch
+            <input type="radio" class="form-control" name="BUMP" value="minor">minor
+            <input type="radio" class="form-control" name="BUMP" value="major">major
+        </div>
+        <input type="hidden" name="token" value="lcas">
+        <input type="hidden" name="cause" value="release wizard">
 <!-- 			    <input type="hidden" name="ROSDISTRO" value="indigo">-->          
-          <div class="form-group">
-              <label for="ROSDISTRO">Which ROS version to release to?</label>
-              <input type="radio" class="form-control" name="ROSDISTRO" value="indigo">indigo
-              <input type="radio" class="form-control" name="ROSDISTRO" value="kinetic" checked>kinetic
-              <input type="radio" class="form-control" name="ROSDISTRO" value="melodic">melodic
-          </div>
-			    <button id="submit_btn" onclick="release();" type="button" class="btn btn-primary">Release</button>
+        <button id="submit_btn" onclick="release();" type="button" class="btn btn-primary">Release</button>
 			</form>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -141,13 +141,17 @@
         //});
       }
 
-      function get_repos() {
-          $.get('https://raw.githubusercontent.com/LCAS/rosdistro/master/kinetic/lcas-dist.yaml', function (data) {
+      function get_repos(distro) {
+          $.get('https://raw.githubusercontent.com/LCAS/rosdistro/master/'+distro+'/lcas-dist.yaml', function (data) {
               dist = jsyaml.load(data);
               repos = [];
               for (r in dist['repositories']) {
-                console.log(r);
-                repos.push(r);
+                if (dist['repositories'][r]['release'] != null) {
+                  repos.push(r);
+                  console.log('repository to release: ' + r);
+                } else {
+                  console.log('repository not released yet: ' + r);
+                }
               }
               $("#repoName").autocomplete({
                 source: repos
@@ -157,7 +161,7 @@
           });
       }
       $(document).ready(function () {
-        get_repos();
+        get_repos('kinetic');
 
         //   $.get('https://raw.githubusercontent.com/LCAS/rosdistro/master/kinetic/lcas-dist.yaml')
         //   .done(function (data) {

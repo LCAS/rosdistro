@@ -21,7 +21,7 @@
     <h1>L-CAS Release Sync-er</h1>
 
     <div class="container">
-      <p>This little will sync form testing to main.</p>
+      <p>This little will sync from testing to main.</p>
       <!-- https://lcas.lincoln.ac.uk/buildfarm/job/bloom_release/buildWithParameters?token=lcas&REPOSITORY=sandbox&ROSDISTRO=kinetic&BUMP=patch&cause=test -->
       <!--<div class="panel panel-default">
         <div class="panel-heading">Indigo</div>
@@ -55,8 +55,29 @@
           </div>
         </div>
       </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">Melodic</div>
+        <div class="panel-body">
+          <label for="melodic_pwd">Password</label>
+          <div class="input-group">
+            <input type="password" class="form-control" id="melodic_pwd" placeholder="Password">
+            <div class="input-group-btn">
+              <button 
+                id="melodic_btn" 
+                type="button" 
+                onclick="sync_distro('melodic', 'https://lcas.lincoln.ac.uk/buildfarm/job/Krel_sync-packages-to-main');"
+                class="btn btn-primary">Sync melodic</button>
+            </div>
+          </div>
+          <div class="well">
+            <div class="embed-responsive embed-responsive-4by3">
+              <iframe height="500px" width="100%" src="https://lcas.lincoln.ac.uk/status_page/melodic_default.html"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
