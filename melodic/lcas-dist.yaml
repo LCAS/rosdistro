@@ -90,6 +90,13 @@ repositories:
       url: https://github.com/LCAS/realsense.git
       version: development
     status: maintained
+  robot_pose_publisher:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/robot_pose_publiser.git
+      version: 0.2.4-1
+    status: maintained
   rosduct:
     release:
       tags:
