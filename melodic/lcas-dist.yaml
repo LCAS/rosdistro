@@ -75,6 +75,14 @@ repositories:
       version: develop
     status: developed
   realsense_ros:
+    release:
+      packages:
+      - ddynamic_reconfigure
+      - realsense2_camera
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/realsense.git
+      version: 2.2.6-1
     source:
       test_commits: true
       test_pull_requests: true
