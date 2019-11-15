@@ -19,6 +19,7 @@ repositories:
       url: https://github.com/lcas-releases/bayestracking.git
       version: 1.4.0-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/bayestracking.git
@@ -26,6 +27,7 @@ repositories:
     status: developed
   catkin_simple:
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/catkin_simple.git
@@ -33,13 +35,14 @@ repositories:
     status: developed
   iliad_sandbox:
     source:
-      test_pull_requests: true
+      test_commits: true
       type: git
       url: https://gitsvn-nt.oru.se/iliad/software/private_sandbox.git
       version: master
     status: developed
   libfreenect2:
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/libfreenect2.git
@@ -47,6 +50,7 @@ repositories:
     status: maintained
   marvelmind_nav_lcas:
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/ros_marvelmind_package.git
@@ -54,6 +58,7 @@ repositories:
     status: maintained
   persistent_topics:
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/marc-hanheide/persistent_topics.git
@@ -61,6 +66,7 @@ repositories:
     status: developed
   realsense_ros:
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/realsense.git
@@ -73,6 +79,7 @@ repositories:
       url: https://github.com/lcas-releases/rosduct.git
       version: 0.0.6-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/rosduct.git
@@ -87,6 +94,7 @@ repositories:
       url: https://github.com/LCAS/sandbox-release.git
       version: 0.0.14-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/sandbox.git
@@ -137,6 +145,7 @@ repositories:
       url: https://github.com/LCAS/thorvald-releases.git
       version: 1.3.0-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/Thorvald.git
@@ -144,6 +153,7 @@ repositories:
     status: developed
   um7:
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/um7.git
@@ -151,6 +161,7 @@ repositories:
     status: maintained
   velodyne_oru:
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/dan11003/velodyne_pointcloud_oru
