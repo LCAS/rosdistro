@@ -43,6 +43,14 @@ repositories:
       url: https://github.com/LCAS/catkin_simple.git
       version: master
     status: developed
+  fremen:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/fremen.git
+      version: master
+    status: developed
   iliad_sandbox:
     source:
       test_commits: true
@@ -142,6 +150,20 @@ repositories:
       url: https://github.com/LCAS/snap_cart.git
       version: melodic-devel
     status: developed
+  steering_functions:
+    source:
+      type: git
+      url: https://github.com/iliad-project/steering_functions.git
+      version: iliad
+    status: maintained
+  strands_webtools:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/strands_webtools.git
+      version: kinetic-devel
+    status: developed
   thorvald:
     release:
       packages:
@@ -169,6 +191,14 @@ repositories:
       url: https://github.com/LCAS/Thorvald.git
       version: melodic-devel
     status: developed
+  twitter_bootstrap:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/twitter_bootstrap.git
+      version: master
+    status: maintained
   um7:
     source:
       test_commits: true
