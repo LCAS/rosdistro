@@ -31,6 +31,11 @@ repositories:
       version: master
     status: developed
   catkin_simple:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/catkin_simple.git
+      version: 0.2.0-1
     source:
       test_commits: true
       test_pull_requests: true
