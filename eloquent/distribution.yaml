@@ -162,7 +162,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: ros2-dev
+      version: ros2-devel
     release:
       tags:
         release: release/eloquent/{package}/{version}
@@ -171,7 +171,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: ros2-dev
+      version: ros2-devel
     status: developed
   cartographer:
     doc:
@@ -270,13 +270,13 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/ros2-gbp/cyclonedds-release.git
-      version: 0.1.0-5
+      version: 0.1.0-6
     source:
       test_commits: false
       test_pull_requests: false
       type: git
       url: https://github.com/eclipse-cyclonedds/cyclonedds.git
-      version: 76fa68808682a15dd8aff26da20622ac574fa1a1
+      version: b6b0c2535585dafd794478e0778ed15c71a7afbb
     status: developed
   demos:
     doc:
@@ -515,7 +515,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/ros2-gbp/fastrtps-release.git
-      version: 1.9.2-2
+      version: 1.9.3-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -1442,7 +1442,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/ros2-gbp/ros2cli-release.git
-      version: 0.8.4-1
+      version: 0.8.5-1
     source:
       test_pull_requests: true
       type: git
@@ -1873,6 +1873,21 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/rqt_reconfigure.git
       version: dashing
+    status: maintained
+  rqt_robot_steering:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_robot_steering.git
+      version: dashing-devel
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_robot_steering-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_robot_steering.git
+      version: dashing-devel
     status: maintained
   rqt_service_caller:
     doc:
