@@ -75,6 +75,13 @@ repositories:
       version: master
     status: maintained
   marvelmind_nav_lcas:
+    release:
+      packages:
+      - marvelmind_nav
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/ros_marvelmind_package.git
+      version: 1.0.9-1
     source:
       test_commits: true
       test_pull_requests: true
