@@ -254,6 +254,13 @@ repositories:
       version: indigo-devel
     status: maintained
   velodyne_oru:
+    release:
+      packages:
+      - velodyne_pointcloud_oru
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/LCAS/velodyne-release.git
+      version: 1.5.5-1
     source:
       test_commits: true
       test_pull_requests: true
