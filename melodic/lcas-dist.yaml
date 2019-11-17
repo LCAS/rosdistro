@@ -197,6 +197,11 @@ repositories:
       version: master
     status: developed
   steering_functions:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/steering_functions.git
+      version: 1.0.5-1
     source:
       type: git
       url: https://github.com/iliad-project/steering_functions.git
