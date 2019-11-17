@@ -172,6 +172,11 @@ repositories:
       version: master
     status: developed
   sicks300:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/sicks300.git
+      version: 1.2.1-1
     source:
       test_commits: true
       test_pull_requests: true
