@@ -43,6 +43,14 @@ repositories:
       url: https://github.com/LCAS/catkin_simple.git
       version: master
     status: developed
+  franka_ros_lcas:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/franka_ros.git
+      version: kinetic-devel
+    status: maintained
   fremen:
     source:
       test_commits: true
@@ -141,6 +149,22 @@ repositories:
       url: https://github.com/strands-project/scitos_common.git
       version: indigo-devel
     status: maintained
+  sentor:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/sentor.git
+      version: master
+    status: developed
+  sicks300:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/sicks300.git
+      version: master
+    status: maintained
   slackeros:
     source:
       test_commits: true
@@ -156,6 +180,12 @@ repositories:
       type: git
       url: https://github.com/LCAS/snap_cart.git
       version: melodic-devel
+    status: developed
+  spencer_people_tracking:
+    source:
+      type: git
+      url: https://github.com/LCAS/spencer_people_tracking.git
+      version: master
     status: developed
   steering_functions:
     source:
