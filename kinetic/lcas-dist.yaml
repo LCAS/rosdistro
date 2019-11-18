@@ -24,6 +24,7 @@ repositories:
       url: https://github.com/lcas-releases/bayestracking.git
       version: 1.4.0-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/bayestracking.git
@@ -36,6 +37,7 @@ repositories:
       url: https://github.com/lcas-releases/catkin_simple.git
       version: 0.2.0-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/catkin_simple.git
@@ -70,6 +72,7 @@ repositories:
       url: https://github.com/lcas-releases/depth_sensors.git
       version: 0.0.4-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/depth_sensors.git
@@ -108,6 +111,7 @@ repositories:
       url: https://github.com/lcas-releases/franka_ros.git
       version: 0.8.0-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/franka_ros.git
@@ -128,6 +132,7 @@ repositories:
       url: https://github.com/strands-project-releases/fremen.git
       version: 0.3.1-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/fremen.git
@@ -142,6 +147,7 @@ repositories:
       url: https://github.com/lcas-releases/gazebo-contactMonitor.git
       version: 1.1.1-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/gazebo-contactMonitor.git
@@ -153,10 +159,6 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: https://github.com/lcas-releases/genjava.git
       version: 1.0.0-0
-    source:
-      type: git
-      url: https://github.com/LCAS/genjava.git
-      version: kinetic
     status: maintained
   graph_map:
     release:
@@ -176,6 +178,7 @@ repositories:
     status: developed
   graspberry:
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/GRASPberry.git
@@ -194,6 +197,7 @@ repositories:
       url: https://github.com/lcas-releases/iai_kinect2.git
       version: 0.0.9-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/iai_kinect2.git
@@ -208,6 +212,7 @@ repositories:
       url: https://github.com/lcas-releases/iliad_distribution.git
       version: 0.1.0-2
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://gitsvn-nt.oru.se/iliad/software/iliad_metapackage.git
@@ -223,6 +228,7 @@ repositories:
       url: https://gitsvn-nt.oru.se/iliad/software/iliad_execution-releases.git
       version: 0.0.1-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://gitsvn-nt.oru.se/iliad/software/iliad_execution.git
@@ -244,7 +250,7 @@ repositories:
     status: developed
   iliad_sandbox:
     source:
-      test_pull_requests: true
+      test_commits: true
       type: git
       url: https://gitsvn-nt.oru.se/iliad/software/private_sandbox.git
       version: master
@@ -258,6 +264,7 @@ repositories:
       url: https://github.com/LCAS/restricted-releases.git
       version: 0.3.1-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://gitsvn-nt.oru.se/palmieri/iliad_smp.git
@@ -289,6 +296,7 @@ repositories:
     status: developed
   lcas_iliad:
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/iliad.git
@@ -296,6 +304,7 @@ repositories:
     status: developed
   lcas_iliad_experiments:
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/iliad_experimental.git
@@ -310,6 +319,7 @@ repositories:
       url: https://github.com/strands-project-releases/navigation-additions.git
       version: 2.0.0-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/navigation.git
@@ -327,6 +337,7 @@ repositories:
       url: https://github.com/strands-project-releases/lcas_teaching.git
       version: 0.2.0-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/teaching.git
@@ -334,6 +345,7 @@ repositories:
     status: developed
   libfranka_lcas:
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/libfranka.git
@@ -346,6 +358,7 @@ repositories:
       url: https://github.com/lcas-releases/libfreenect2.git
       version: 0.0.9-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/libfreenect2.git
@@ -358,6 +371,7 @@ repositories:
       url: https://github.com/lcas-releases/lidar_object_detection_release.git
       version: 0.0.2-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/lidar_object_detection_release.git
@@ -365,6 +379,7 @@ repositories:
     status: developed
   lindimp:
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/LindIMP.git
@@ -372,7 +387,7 @@ repositories:
     status: developed
   mapping_msgs:
     source:
-      test_pull_requests: true
+      test_commits: true
       type: git
       url: https://gitsvn-nt.oru.se/iliad/software/mapping_msgs.git
       version: master
@@ -386,6 +401,7 @@ repositories:
       url: https://github.com/lcas-releases/ros_marvelmind_package.git
       version: 1.0.9-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/ros_marvelmind_package.git
@@ -422,6 +438,7 @@ repositories:
       url: https://github.com/strands-project-releases/mongodb_store.git
       version: 0.4.2-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/mongodb_store.git
@@ -429,6 +446,7 @@ repositories:
     status: developed
   ncnr_uol:
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/ncnr.git
@@ -448,6 +466,7 @@ repositories:
       url: https://gitsvn-nt.oru.se/iliad/software/releases/ndt_core-release.git
       version: 2.3.0-1
     source:
+      test_commits: true
       type: git
       url: https://gitsvn-nt.oru.se/software/ndt_core.git
       version: master
@@ -465,6 +484,7 @@ repositories:
       url: https://gitsvn-nt.oru.se/iliad/software/releases/ndt_tools-release.git
       version: 2.0.2-1
     source:
+      test_commits: true
       type: git
       url: https://gitsvn-nt.oru.se/software/ndt_tools.git
       version: master
@@ -479,6 +499,7 @@ repositories:
       url: https://gitsvn-nt.oru.se/iliad/software/releases/ompl_planners.git
       version: 1.0.0-1
     source:
+      test_commits: true
       type: git
       url: https://github.com/ksatyaki/ompl_planners.git
       version: master
@@ -499,6 +520,7 @@ repositories:
       url: https://github.com/lcas-releases/optis_drivers.git
       version: 1.1.2-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/optris_drivers.git
@@ -540,6 +562,7 @@ repositories:
       url: https://github.com/LCAS/oru_navigation_release.git
       version: 0.4.0-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/OrebroUniversity/navigation_oru-release.git
@@ -555,6 +578,7 @@ repositories:
       url: https://github.com/lcas-releases/ouster.git
       version: 0.1.6-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/ouster_example.git
@@ -567,6 +591,7 @@ repositories:
       url: https://github.com/lcas-releases/pcl_catkin.git
       version: 1.8.3-3
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/pcl_catkin.git
@@ -588,6 +613,7 @@ repositories:
       url: https://github.com/lcas-releases/pcl_detector.git
       version: 0.0.3-2
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/pcl_detector.git
@@ -606,6 +632,7 @@ repositories:
       url: https://github.com/lcas-releases/people_detection.git
       version: 1.0.12-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/people_detection.git
@@ -628,6 +655,7 @@ repositories:
       url: https://github.com/lcas-releases/persistent_topics.git
       version: 1.5.2-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/marc-hanheide/persistent_topics.git
@@ -641,6 +669,7 @@ repositories:
     status: developed
   rasberry:
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/RASberry.git
@@ -656,6 +685,7 @@ repositories:
       url: https://github.com/lcas-releases/realsense.git
       version: 2.3.0-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/realsense.git
@@ -670,6 +700,7 @@ repositories:
       url: https://gitsvn-nt.oru.se/iliad/software/releases/rgbd_gpu_detector.git
       version: 2.0.5-1
     source:
+      test_commits: true
       type: git
       url: https://gitsvn-nt.oru.se/linder/rgbd_gpu_detector.git
       version: iliad-master
@@ -687,6 +718,7 @@ repositories:
       url: https://github.com/strands-project-releases/robot_blockly.git
       version: 0.1.2-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/robot_blockly.git
@@ -694,6 +726,7 @@ repositories:
     status: developed
   ros_web_apis:
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/ros_web_apis.git
@@ -712,6 +745,7 @@ repositories:
       url: https://github.com/lcas-releases/rosbridge_suite.git
       version: 0.12.0-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/rosbridge_suite.git
@@ -724,6 +758,7 @@ repositories:
       url: https://github.com/lcas-releases/rosduct.git
       version: 0.0.6-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/rosduct.git
@@ -738,6 +773,7 @@ repositories:
       url: https://github.com/LCAS/sandbox-release.git
       version: 0.0.5-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/sandbox.git
@@ -817,6 +853,7 @@ repositories:
       url: https://github.com/lcas-releases/sentor.git
       version: 2.0.3-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/sentor.git
@@ -938,6 +975,7 @@ repositories:
       url: https://github.com/strands-project-releases/strands_apps.git
       version: 0.2.6-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_apps.git
@@ -960,6 +998,7 @@ repositories:
       url: https://github.com/strands-project-releases/strands_executive.git
       version: 1.2.4-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_executive.git
@@ -967,6 +1006,7 @@ repositories:
     status: developed
   strands_executive_behaviours:
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_executive_behaviours.git
@@ -993,6 +1033,7 @@ repositories:
       url: https://github.com/strands-project-releases/strands_hri.git
       version: 0.2.4-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_hri.git
@@ -1005,6 +1046,7 @@ repositories:
       url: https://github.com/strands-project-releases/strands_morse.git
       version: 0.2.3-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_morse.git
@@ -1024,6 +1066,7 @@ repositories:
       url: https://github.com/strands-project-releases/strands_movebase.git
       version: 0.0.23-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_movebase.git
@@ -1048,6 +1091,7 @@ repositories:
       url: https://github.com/strands-project-releases/strands_navigation.git
       version: 1.0.8-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_navigation.git
@@ -1076,6 +1120,7 @@ repositories:
       url: https://github.com/strands-project-releases/strands_perception_people.git
       version: 1.8.1-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_perception_people.git
@@ -1092,6 +1137,7 @@ repositories:
       url: https://github.com/strands-project-releases/strands_qsr_lib.git
       version: 0.4.1-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_qsr_lib.git
@@ -1111,6 +1157,7 @@ repositories:
       url: https://github.com/strands-project-releases/strands_recovery_behaviours.git
       version: 0.1.0-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_recovery_behaviours.git
@@ -1130,6 +1177,7 @@ repositories:
       url: https://github.com/strands-project-releases/strands_social.git
       version: 0.1.0-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_social.git
@@ -1151,6 +1199,7 @@ repositories:
       url: https://github.com/strands-project-releases/strands_ui.git
       version: 0.2.1-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_ui.git
@@ -1174,6 +1223,7 @@ repositories:
       url: https://github.com/lcas-releases/tf_bag.git
       version: 0.1.1-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/tf_bag.git
@@ -1211,6 +1261,7 @@ repositories:
       url: https://github.com/LCAS/thorvald-releases.git
       version: 1.2.1-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/Thorvald.git
@@ -1243,6 +1294,7 @@ repositories:
       url: https://github.com/lcas-releases/tradr_uol.git
       version: 1.0.11-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/tradr_uol.git
@@ -1262,6 +1314,7 @@ repositories:
       url: https://github.com/lcas-releases/turtlebot_apps.git
       version: 2.3.9-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/turtlebot_apps.git
@@ -1279,6 +1332,7 @@ repositories:
       url: https://github.com/lcas-releases/turtlebot_simulator.git
       version: 2.2.3-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/turtlebot_simulator.git
@@ -1291,6 +1345,7 @@ repositories:
       url: https://github.com/strands-project-releases/twitter_bootstrap.git
       version: 0.0.3-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/twitter_bootstrap.git
@@ -1303,6 +1358,7 @@ repositories:
       url: https://github.com/lcas-releases/um7.git
       version: 0.0.6-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/um7.git
@@ -1318,6 +1374,7 @@ repositories:
       url: https://github.com/lcas-releases/CMP9767M.git
       version: 0.5.1-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/CMP9767M.git
@@ -1325,6 +1382,7 @@ repositories:
     status: developed
   v4r:
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/v4r.git
@@ -1339,6 +1397,7 @@ repositories:
       url: https://github.com/LCAS/velodyne-release.git
       version: 1.5.5-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/dan11003/velodyne_pointcloud_oru
@@ -1355,6 +1414,7 @@ repositories:
       url: https://github.com/lcas-releases/velodyne_simulator.git
       version: 1.1.5-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/velodyne_simulator.git
