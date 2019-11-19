@@ -238,6 +238,11 @@ repositories:
       version: hydro-devel
     status: maintained
   strands_webtools:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_webtools.git
+      version: 0.1.0-1
     source:
       test_commits: true
       test_pull_requests: true
