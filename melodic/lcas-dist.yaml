@@ -229,6 +229,14 @@ repositories:
       url: https://github.com/iliad-project/steering_functions.git
       version: iliad
     status: maintained
+  strands_ui:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/strands_ui.git
+      version: hydro-devel
+    status: maintained
   strands_webtools:
     source:
       test_commits: true
