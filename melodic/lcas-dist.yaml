@@ -284,8 +284,6 @@ repositories:
       url: https://github.com/strands-project-releases/twitter_bootstrap.git
       version: 0.0.3-1
     source:
-      test_commits: true
-      test_pull_requests: true
       type: git
       url: https://github.com/strands-project/twitter_bootstrap.git
       version: master
@@ -297,8 +295,6 @@ repositories:
       url: https://github.com/lcas-releases/um7.git
       version: 0.0.6-1
     source:
-      test_commits: true
-      test_pull_requests: true
       type: git
       url: https://github.com/LCAS/um7.git
       version: indigo-devel
