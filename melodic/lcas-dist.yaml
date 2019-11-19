@@ -273,6 +273,11 @@ repositories:
       version: melodic-devel
     status: developed
   twitter_bootstrap:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/twitter_bootstrap.git
+      version: 0.0.3-1
     source:
       test_commits: true
       test_pull_requests: true
