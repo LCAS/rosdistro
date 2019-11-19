@@ -200,10 +200,11 @@ repositories:
       - ainstein_radar_gazebo_plugins
       - ainstein_radar_msgs
       - ainstein_radar_rviz_plugins
+      - ainstein_radar_tools
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/AinsteinAI/ainstein_radar-release.git
-      version: 1.1.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/AinsteinAI/ainstein_radar.git
@@ -1395,7 +1396,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/tork-a/cis_camera-release.git
-      version: 0.0.2-1
+      version: 0.0.3-1
     source:
       test_pull_requests: true
       type: git
@@ -3745,7 +3746,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/FUJISOFT-Robotics/fsrobo_r-release.git
-      version: 0.7.0-1
+      version: 0.7.1-1
     source:
       type: git
       url: https://github.com/FUJISOFT-Robotics/fsrobo_r.git
@@ -6295,7 +6296,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa-led/leuze_ros_drivers-release.git
-      version: 1.0.0-2
+      version: 1.0.1-1
     source:
       type: git
       url: https://gitlab.cc-asp.fraunhofer.de/led/leuze_ros_drivers.git
@@ -6405,7 +6406,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/harjeb/libmynteye-release.git
-      version: 0.2.5-1
+      version: 0.2.6-2
     source:
       test_pull_requests: true
       type: git
@@ -6835,6 +6836,7 @@ repositories:
       url: https://github.com/swri-robotics-gbp/mapviz-release.git
       version: 1.2.0-1
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/mapviz.git
       version: kinetic-devel
@@ -7483,7 +7485,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mikeferguson/moveit_python-release.git
-      version: 0.3.1-0
+      version: 0.3.2-1
     source:
       type: git
       url: https://github.com/mikeferguson/moveit_python.git
@@ -8081,7 +8083,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/navigation-release.git
-      version: 1.14.4-0
+      version: 1.14.5-1
     source:
       test_commits: false
       test_pull_requests: true
@@ -9725,7 +9727,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 2.4.1-1
+      version: 2.4.2-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -12246,7 +12248,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/ros_environment-release.git
-      version: 1.0.0-0
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros/ros_environment.git
@@ -14119,7 +14121,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/seed-solutions/seed_r7_ros_pkg-release.git
-      version: 0.3.0-1
+      version: 0.3.2-1
     source:
       test_pull_requests: true
       type: git
@@ -14238,7 +14240,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/SICKAG/sick_scan-release.git
-      version: 1.3.21-0
+      version: 1.4.2-1
     source:
       type: git
       url: https://github.com/SICKAG/sick_scan.git
@@ -15340,7 +15342,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://gitlab.com/toposens/public/toposens-release.git
-      version: 1.2.3-1
+      version: 1.3.0-1
     source:
       type: git
       url: https://gitlab.com/toposens/public/ros-packages.git
