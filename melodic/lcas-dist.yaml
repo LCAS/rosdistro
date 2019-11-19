@@ -281,6 +281,11 @@ repositories:
       version: master
     status: maintained
   um7:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/um7.git
+      version: 0.0.6-1
     source:
       test_commits: true
       test_pull_requests: true
