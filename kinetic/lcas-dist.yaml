@@ -1382,8 +1382,6 @@ repositories:
     status: developed
   v4r:
     source:
-      test_commits: true
-      test_pull_requests: true
       type: git
       url: https://github.com/strands-project/v4r.git
       version: master
