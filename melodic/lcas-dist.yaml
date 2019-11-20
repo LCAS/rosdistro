@@ -230,6 +230,20 @@ repositories:
       version: iliad
     status: maintained
   strands_ui:
+    release:
+      packages:
+      - mary_tts
+      - mongodb_media_server
+      - music_player
+      - pygame_managed_player
+      - robot_talk
+      - sound_player_server
+      - strands_ui
+      - strands_webserver
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_ui.git
+      version: 0.2.1-1
     source:
       test_commits: true
       test_pull_requests: true
