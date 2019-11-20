@@ -204,7 +204,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/AinsteinAI/ainstein_radar-release.git
-      version: 2.0.1-1
+      version: 2.0.2-1
     source:
       type: git
       url: https://github.com/AinsteinAI/ainstein_radar.git
@@ -1906,7 +1906,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mikeferguson/code_coverage-gbp.git
-      version: 0.2.4-1
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/mikeferguson/code_coverage.git
@@ -3066,7 +3066,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipab-slmc/eigenpy_catkin-release.git
-      version: 1.6.7-1
+      version: 1.6.7-2
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -4964,7 +4964,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ethz-adrl/ifopt-release.git
-      version: 2.0.6-0
+      version: 2.0.7-1
     source:
       test_pull_requests: true
       type: git
@@ -6406,7 +6406,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/harjeb/libmynteye-release.git
-      version: 0.2.6-2
+      version: 0.2.7-1
     source:
       test_pull_requests: true
       type: git
@@ -15985,7 +15985,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-industrial-release/universal_robot-release.git
-      version: 1.2.5-0
+      version: 1.2.6-1
     source:
       type: git
       url: https://github.com/ros-industrial/universal_robot.git
