@@ -153,6 +153,14 @@ repositories:
       url: https://github.com/LCAS/sandbox.git
       version: master
     status: developed
+  scitos_apps:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/scitos_apps.git
+      version: hydro-devel
+    status: developed
   scitos_common:
     release:
       packages:
@@ -170,6 +178,14 @@ repositories:
       url: https://github.com/strands-project/scitos_common.git
       version: indigo-devel
     status: maintained
+  scitos_drivers:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/scitos_drivers.git
+      version: kinetic-devel
+    status: developed
   sentor:
     release:
       tags:
@@ -230,6 +246,22 @@ repositories:
       url: https://github.com/iliad-project/steering_functions.git
       version: iliad
     status: maintained
+  strands_apps:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/strands_apps.git
+      version: kinetic-devel
+    status: maintained
+  strands_movebase:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/strands_movebase.git
+      version: indigo-devel
+    status: developed
   strands_ui:
     release:
       packages:
