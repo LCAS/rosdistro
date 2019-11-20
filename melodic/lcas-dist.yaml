@@ -214,6 +214,7 @@ repositories:
     status: developed
   spencer_people_tracking:
     source:
+      test_commits: true
       type: git
       url: https://github.com/LCAS/spencer_people_tracking.git
       version: master
