@@ -57,6 +57,7 @@ mira-scitos:
     precise: [mira-scitos]
     trusty: [mira-scitos]
     xenial: [mira-scitos]
+    bionic: [mira-scitos]
 mongo-cxx-driver:
   ubuntu:
     trusty: [mongo-cxx-driver]
