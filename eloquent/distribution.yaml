@@ -307,7 +307,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/ros2-gbp/demos-release.git
-      version: 0.8.3-1
+      version: 0.8.4-1
     source:
       test_pull_requests: true
       type: git
@@ -491,7 +491,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/ros2-gbp/examples-release.git
-      version: 0.8.1-1
+      version: 0.8.2-1
     source:
       type: git
       url: https://github.com/ros2/examples.git
@@ -587,6 +587,7 @@ repositories:
       version: ros2
     release:
       packages:
+      - examples_tf2_py
       - geometry2
       - tf2
       - tf2_eigen
@@ -599,7 +600,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/ros2-gbp/geometry2-release.git
-      version: 0.12.3-1
+      version: 0.12.4-1
     source:
       test_pull_requests: true
       type: git
@@ -763,7 +764,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/ros2-gbp/launch_ros-release.git
-      version: 0.9.3-1
+      version: 0.9.4-1
     source:
       test_pull_requests: true
       type: git
@@ -937,16 +938,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/splintered-reality/py_trees.git
-      version: release/1.4.x
+      version: release/2.0.x
     release:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/stonier/py_trees-release.git
-      version: 1.4.1-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/splintered-reality/py_trees.git
-      version: release/1.4.x
+      version: release/2.0.x
     status: developed
   py_trees_js:
     doc:
@@ -1158,7 +1159,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 0.8.2-1
+      version: 0.8.3-1
     source:
       test_pull_requests: true
       type: git
@@ -1301,7 +1302,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_cyclonedds-release.git
-      version: 0.4.3-1
+      version: 0.4.4-1
     source:
       test_pull_requests: true
       type: git
@@ -1442,7 +1443,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/ros2-gbp/ros2cli-release.git
-      version: 0.8.5-1
+      version: 0.8.6-1
     source:
       test_pull_requests: true
       type: git
@@ -1953,6 +1954,22 @@ repositories:
       url: https://github.com/ros-visualization/rqt_srv.git
       version: crystal-devel
     status: maintained
+  rqt_tf_tree:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_tf_tree.git
+      version: dashing-devel
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_tf_tree-release.git
+      version: 1.0.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/rqt_tf_tree.git
+      version: dashing-devel
+    status: maintained
   rqt_top:
     doc:
       type: git
@@ -2176,7 +2193,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://gitlab.com/micro-ROS/ros_tracing/tracetools_analysis-release.git
-      version: 0.2.1-1
+      version: 0.2.2-1
     source:
       type: git
       url: https://gitlab.com/micro-ROS/ros_tracing/tracetools_analysis.git
@@ -2287,7 +2304,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/ros2-gbp/variants-release.git
-      version: 0.8.2-1
+      version: 0.8.3-1
     source:
       test_pull_requests: true
       type: git
