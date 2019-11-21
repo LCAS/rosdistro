@@ -179,6 +179,17 @@ repositories:
       version: indigo-devel
     status: maintained
   scitos_drivers:
+    release:
+      packages:
+      - flir_pantilt_d46
+      - scitos_bringup
+      - scitos_drivers
+      - scitos_mira
+      - scitos_pc_monitor
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/scitos_drivers.git
+      version: 0.2.0-1
     source:
       test_commits: true
       test_pull_requests: true
