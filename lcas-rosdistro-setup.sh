@@ -65,6 +65,12 @@ curl -s http://lcas.lincoln.ac.uk/repos/public.key | $SUDO apt-key add -
 #$SUDO apt-add-repository http://lcas.lincoln.ac.uk/ubuntu/main
 $SUDO sh -c 'echo "deb http://lcas.lincoln.ac.uk/ubuntu/main $(lsb_release -sc) main" > /etc/apt/sources.list.d/lcas-latest.list'
 
+if [ "$DISTRIBUTION" = "bionic" ]; then
+      curl -s https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin | $SUDO tee /etc/apt/preferences.d/cuda-repository-pin-600
+      $SUDO apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pub
+      $SUDO add-apt-repository "deb http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/ /"
+fi
+
 # update packages
 $SUDO apt-get update
 
