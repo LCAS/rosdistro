@@ -59,6 +59,22 @@ repositories:
       url: https://github.com/strands-project/fremen.git
       version: master
     status: developed
+  graspberry:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/GRASPberry.git
+      version: master
+    status: developed
+  iai_kinect2:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/iai_kinect2.git
+      version: master
+    status: maintained
   iliad_sandbox:
     source:
       test_commits: true
@@ -93,6 +109,14 @@ repositories:
       type: git
       url: https://github.com/LCAS/ros_marvelmind_package.git
       version: master
+    status: maintained
+  openni_wrapper:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/openni_wrapper.git
+      version: indigo-devel
     status: maintained
   persistent_topics:
     release:
