@@ -67,6 +67,11 @@ repositories:
       version: master
     status: developed
   libfreenect2:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/libfreenect2.git
+      version: 0.1.0-1
     source:
       test_commits: true
       test_pull_requests: true
