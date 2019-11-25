@@ -116,7 +116,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/openni_wrapper.git
-      version: indigo-devel
+      version: melodic-devel
     status: maintained
   persistent_topics:
     release:
