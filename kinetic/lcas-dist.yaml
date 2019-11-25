@@ -172,6 +172,7 @@ repositories:
       url: https://gitsvn-nt.oru.se/iliad/software/releases/graph_map-release.git
       version: 2.0.0-0
     source:
+      test_commits: true
       type: git
       url: https://gitsvn-nt.oru.se/iliad/software/graph_map.git
       version: master
