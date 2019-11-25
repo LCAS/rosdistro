@@ -287,6 +287,26 @@ repositories:
       version: iliad
     status: maintained
   strands_apps:
+    release:
+      packages:
+      - door_pass
+      - marathon_reporter
+      - odometry_mileage
+      - pose_extractor
+      - ramp_climb
+      - reconfigure_inflation
+      - roslaunch_axserver
+      - state_checker
+      - static_transform_manager
+      - strands_apps
+      - strands_emails
+      - topic_republisher
+      - topological_roslaunch
+      - watchdog_node
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_apps.git
+      version: 0.2.6-1
     source:
       test_commits: true
       test_pull_requests: true
