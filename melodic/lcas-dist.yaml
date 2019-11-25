@@ -111,6 +111,11 @@ repositories:
       version: master
     status: maintained
   openni_wrapper:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/openni_wrapper.git
+      version: 0.1.0-1
     source:
       test_commits: true
       test_pull_requests: true
