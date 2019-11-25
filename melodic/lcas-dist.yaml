@@ -52,6 +52,19 @@ repositories:
       version: kinetic-devel
     status: maintained
   fremen:
+    release:
+      packages:
+      - fremen2dgrid
+      - fremenarray
+      - fremengrid
+      - fremenserver
+      - froctomap
+      - frongo
+      - frongoweb
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/fremen.git
+      version: 0.3.1-1
     source:
       test_commits: true
       test_pull_requests: true
