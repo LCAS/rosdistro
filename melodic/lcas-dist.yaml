@@ -356,7 +356,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_movebase.git
-      version: indigo-devel
+      version: melodic-devel
     status: developed
   strands_ui:
     release:
