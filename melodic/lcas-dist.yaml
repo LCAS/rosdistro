@@ -355,6 +355,14 @@ repositories:
       url: https://github.com/strands-project/strands_apps.git
       version: kinetic-devel
     status: maintained
+  strands_morse:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/strands_morse.git
+      version: kinetic-devel
+    status: maintained
   strands_movebase:
     source:
       test_commits: true
@@ -362,6 +370,14 @@ repositories:
       type: git
       url: https://github.com/strands-project/strands_movebase.git
       version: melodic-devel
+    status: developed
+  strands_qsr_lib:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/strands_qsr_lib.git
+      version: master
     status: developed
   strands_ui:
     release:
