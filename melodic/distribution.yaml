@@ -5246,7 +5246,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/octomap-release.git
-      version: 1.9.0-1
+      version: 1.9.1-1
     source:
       type: git
       url: https://github.com/OctoMap/octomap.git
@@ -8606,7 +8606,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/rviz-release.git
-      version: 1.13.5-1
+      version: 1.13.6-1
     source:
       test_pull_requests: true
       type: git
@@ -9029,6 +9029,18 @@ repositories:
       url: https://github.com/tradr-project/static_transform_mux.git
       version: master
     status: developed
+  staubli:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/staubli.git
+      version: indigo-devel
+    status: maintained
+  staubli_experimental:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/staubli_experimental.git
+      version: kinetic-devel
+    status: maintained
   std_capabilities:
     doc:
       type: git
