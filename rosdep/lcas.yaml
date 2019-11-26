@@ -101,6 +101,7 @@ strands-morse-simulator:
   ubuntu:
     trusty: [strands-morse-simulator]
     xenial: [morse-blender-2.65-py-3.3]
+    bionic: [morse-simulator]
 strands-twython:
   ubuntu: 
     trusty: [python-strands-twython]
