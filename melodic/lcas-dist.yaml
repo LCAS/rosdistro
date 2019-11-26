@@ -356,6 +356,18 @@ repositories:
       version: kinetic-devel
     status: maintained
   strands_movebase:
+    release:
+      packages:
+      - calibrate_chest
+      - movebase_state_service
+      - param_loader
+      - strands_description
+      - strands_movebase
+      - strands_navfn
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_movebase.git
+      version: 0.0.23-1
     source:
       test_commits: true
       test_pull_requests: true
