@@ -403,6 +403,23 @@ repositories:
       version: melodic-devel
     status: developed
   strands_navigation:
+    release:
+      packages:
+      - emergency_behaviours
+      - joy_map_saver
+      - monitored_navigation
+      - nav_goals_generator
+      - pose_initialiser
+      - strands_navigation
+      - strands_navigation_msgs
+      - topological_logging_manager
+      - topological_navigation
+      - topological_rviz_tools
+      - topological_utils
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_navigation.git
+      version: 1.1.0-1
     source:
       test_commits: true
       test_pull_requests: true
