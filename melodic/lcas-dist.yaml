@@ -374,7 +374,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_morse.git
-      version: kinetic-devel
+      version: melodic-devel
     status: maintained
   strands_movebase:
     release:
