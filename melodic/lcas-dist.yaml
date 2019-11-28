@@ -427,6 +427,14 @@ repositories:
       url: https://github.com/strands-project/strands_navigation.git
       version: indigo-devel
     status: developed
+  strands_perception_people:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/strands_perception_people.git
+      version: kinetic-devel
+    status: developed
   strands_qsr_lib:
     source:
       test_commits: true
