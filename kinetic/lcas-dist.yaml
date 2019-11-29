@@ -668,6 +668,14 @@ repositories:
       url: https://github.com/marc-hanheide/PetriNetPlans.git
       version: catkinised
     status: developed
+  py_at_broker:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/py_at_broker.git
+      version: catkinised
+    status: developed
   rasberry:
     source:
       test_commits: true
