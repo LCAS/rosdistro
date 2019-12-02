@@ -673,7 +673,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/LCAS/py_at_broker-release.git
-      version: 0.0.5-1
+      version: 0.0.8-1
     source:
       test_commits: true
       test_pull_requests: true
@@ -886,6 +886,14 @@ repositories:
       url: https://github.com/strands-project/sicks300.git
       version: master
     status: maintained
+  sl_panda:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/sl.git
+      version: catkinised
+    status: developed
   slackeros:
     release:
       tags:
@@ -898,14 +906,6 @@ repositories:
       type: git
       url: https://github.com/marc-hanheide/slackeros.git
       version: master
-    status: developed
-  sl_panda:
-    source:
-      test_commits: true
-      test_pull_requests: true
-      type: git
-      url: https://github.com/LCAS/sl.git
-      version: catkinised
     status: developed
   spencer_people_tracking:
     release:
