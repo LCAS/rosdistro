@@ -336,6 +336,14 @@ repositories:
       url: https://github.com/marc-hanheide/slackeros.git
       version: master
     status: developed
+  sl_panda:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/sl.git
+      version: catkinised
+    status: developed
   snap_cart:
     source:
       test_commits: true
