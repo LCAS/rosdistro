@@ -189,6 +189,11 @@ repositories:
       version: catkinised
     status: developed
   quadprogpp:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/quadprogpp.git
+      version: 0.0.2-1
     source:
       test_commits: true
       test_pull_requests: true
