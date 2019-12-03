@@ -188,6 +188,14 @@ repositories:
       url: https://github.com/LCAS/py_at_broker.git
       version: catkinised
     status: developed
+  quadprogpp:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/QuadProgpp.git
+      version: master
+    status: developed
   rasberry:
     source:
       test_commits: true
