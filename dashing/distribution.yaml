@@ -92,7 +92,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/ament_cmake-release.git
-      version: 0.7.3-1
+      version: 0.7.4-1
     source:
       type: git
       url: https://github.com/ament/ament_cmake.git
@@ -959,6 +959,16 @@ repositories:
       url: https://github.com/swri-robotics/gps_umd.git
       version: dashing-devel
     status: maintained
+  gtsam:
+    doc:
+      type: git
+      url: https://github.com/borglab/gtsam.git
+      version: develop
+    source:
+      type: git
+      url: https://github.com/borglab/gtsam.git
+      version: develop
+    status: maintained
   h264_encoder_core:
     doc:
       type: git
@@ -1316,7 +1326,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_message_filters-release.git
-      version: 3.1.2-1
+      version: 3.1.3-1
     source:
       test_pull_requests: true
       type: git
@@ -1578,6 +1588,38 @@ repositories:
       url: https://github.com/ros-perception/perception_pcl.git
       version: dashing-devel
     status: developed
+  phidgets_drivers:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/phidgets_drivers.git
+      version: dashing
+    release:
+      packages:
+      - libphidget22
+      - phidgets_accelerometer
+      - phidgets_analog_inputs
+      - phidgets_api
+      - phidgets_digital_inputs
+      - phidgets_digital_outputs
+      - phidgets_drivers
+      - phidgets_gyroscope
+      - phidgets_high_speed_encoder
+      - phidgets_ik
+      - phidgets_magnetometer
+      - phidgets_motors
+      - phidgets_msgs
+      - phidgets_spatial
+      - phidgets_temperature
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/phidgets_drivers-release.git
+      version: 2.0.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-drivers/phidgets_drivers.git
+      version: dashing
+    status: maintained
   pluginlib:
     doc:
       type: git
@@ -1822,7 +1864,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 0.7.11-1
+      version: 0.7.12-1
     source:
       test_pull_requests: true
       type: git
@@ -1923,7 +1965,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/resource_retriever-release.git
-      version: 2.1.0-2
+      version: 2.1.2-1
     source:
       test_pull_requests: true
       type: git
@@ -2062,7 +2104,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/ros1_bridge-release.git
-      version: 0.7.3-1
+      version: 0.7.4-1
     source:
       test_commits: false
       type: git
@@ -2151,7 +2193,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/ros2cli-release.git
-      version: 0.7.8-1
+      version: 0.7.9-1
     source:
       test_pull_requests: true
       type: git
@@ -2421,7 +2463,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_typesupport_connext-release.git
-      version: 0.7.2-1
+      version: 0.7.3-1
     source:
       type: git
       url: https://github.com/ros2/rosidl_typesupport_connext.git
@@ -3203,7 +3245,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/vision_opencv-release.git
-      version: 2.1.2-1
+      version: 2.1.3-1
     source:
       test_pull_requests: true
       type: git

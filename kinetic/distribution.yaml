@@ -1254,7 +1254,11 @@ repositories:
     doc:
       type: git
       url: https://github.com/carla-simulator/ros-bridge.git
-      version: master
+      version: 0.9.6
+    source:
+      type: git
+      url: https://github.com/carla-simulator/ros-bridge.git
+      version: 0.9.6
     status: maintained
   cartesian_msgs:
     doc:
@@ -2145,6 +2149,22 @@ repositories:
     source:
       type: git
       url: https://github.com/clearpathrobotics/cpr_multimaster_tools.git
+      version: kinetic-devel
+    status: developed
+  cpswarm_msgs:
+    doc:
+      type: git
+      url: https://github.com/cpswarm/cpswarm_msgs.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/cpswarm/cpswarm_msgs-release.git
+      version: 1.1.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/cpswarm/cpswarm_msgs.git
       version: kinetic-devel
     status: developed
   crane_x7:
@@ -4329,6 +4349,16 @@ repositories:
       url: https://github.com/ros-drivers/gscam.git
       version: master
     status: unmaintained
+  gtsam:
+    doc:
+      type: git
+      url: https://github.com/borglab/gtsam.git
+      version: develop
+    source:
+      type: git
+      url: https://github.com/borglab/gtsam.git
+      version: develop
+    status: maintained
   gx_sound:
     release:
       packages:
@@ -4455,7 +4485,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/HebiRobotics/hebi_cpp_api_ros-release.git
-      version: 2.1.0-1
+      version: 3.1.0-1
     source:
       type: git
       url: https://github.com/HebiRobotics/hebi_cpp_api_ros.git
@@ -6454,12 +6484,12 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/IntelRealSense/librealsense2-release.git
-      version: 2.28.0-2
+      version: 2.30.0-2
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/doronhi/librealsense.git
-      version: ros_debian
+      url: https://github.com/IntelRealSense/librealsense.git
+      version: master
     status: maintained
   libsegwayrmp:
     doc:
@@ -8307,7 +8337,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/nerian-vision/nerian_stereo-release.git
-      version: 3.5.0-1
+      version: 3.6.0-1
     source:
       type: git
       url: https://github.com/nerian-vision/nerian_stereo.git
@@ -14133,12 +14163,13 @@ repositories:
       - seed_r7_navigation
       - seed_r7_robot_interface
       - seed_r7_ros_controller
+      - seed_r7_ros_pkg
       - seed_r7_samples
       - seed_r7_typef_moveit_config
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/seed-solutions/seed_r7_ros_pkg-release.git
-      version: 0.3.2-1
+      version: 0.3.3-2
     source:
       test_pull_requests: true
       type: git
@@ -15424,7 +15455,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/traclabs/trac_ik-release.git
-      version: 1.5.0-0
+      version: 1.5.1-1
     source:
       type: git
       url: https://bitbucket.org/traclabs/trac_ik.git
@@ -16048,7 +16079,7 @@ repositories:
       type: git
       url: https://github.com/ros-industrial/ur_modern_driver.git
       version: kinetic-devel
-    status: maintained
+    status: end-of-life
   urdf:
     doc:
       type: git
