@@ -562,6 +562,14 @@ repositories:
       url: https://github.com/LCAS/Thorvald.git
       version: melodic-devel
     status: developed
+  topological_navigation:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/topological_navigation.git
+      version: master
+    status: developed
   twitter_bootstrap:
     release:
       tags:
