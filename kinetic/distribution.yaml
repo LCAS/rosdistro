@@ -761,7 +761,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/astuff/automotive_autonomy_msgs-release.git
-      version: 2.0.3-0
+      version: 3.0.1-1
     source:
       type: git
       url: https://github.com/astuff/automotive_autonomy_msgs.git
@@ -1070,7 +1070,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/david0429-gbp/blender_gazebo_gbp.git
-      version: 0.0.3-2
+      version: 0.0.4-1
     source:
       type: git
       url: https://github.com/david0429/blender_gazebo.git
@@ -1336,7 +1336,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/catkin-release.git
-      version: 0.7.18-1
+      version: 0.7.20-1
     source:
       test_pull_requests: true
       type: git
@@ -1415,7 +1415,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/tork-a/cis_camera-release.git
-      version: 0.0.3-1
+      version: 0.0.4-1
     source:
       test_pull_requests: true
       type: git
@@ -1778,11 +1778,10 @@ repositories:
       - cob_moveit_bringup
       - cob_moveit_interface
       - cob_obstacle_distance_moveit
-      - cob_pick_place_action
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_manipulation-release.git
-      version: 0.7.2-1
+      version: 0.7.3-1
     source:
       type: git
       url: https://github.com/ipa320/cob_manipulation.git
@@ -4949,7 +4948,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/clearpath-gbp/husky-release.git
-      version: 0.3.4-1
+      version: 0.3.5-1
     source:
       type: git
       url: https://github.com/husky/husky.git
@@ -5685,6 +5684,7 @@ repositories:
       - downward
       - ff
       - ffha
+      - gdrive_ros
       - jsk_3rdparty
       - julius
       - julius_ros
@@ -5707,7 +5707,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/tork-a/jsk_3rdparty-release.git
-      version: 2.1.14-1
+      version: 2.1.15-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
@@ -6484,7 +6484,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/IntelRealSense/librealsense2-release.git
-      version: 2.30.0-2
+      version: 2.31.0-1
     source:
       test_pull_requests: true
       type: git
@@ -7022,7 +7022,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2019.11.11-1
+      version: 2019.12.12-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -7043,7 +7043,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.33.3-1
+      version: 0.33.4-1
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -7381,6 +7381,25 @@ repositories:
       url: https://github.com/strands-project/mongodb_store.git
       version: kinetic-devel
     status: developed
+  moose:
+    doc:
+      type: git
+      url: https://github.com/moose-cpr/moose.git
+      version: master
+    release:
+      packages:
+      - moose_control
+      - moose_description
+      - moose_msgs
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/moose-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/moose-cpr/moose.git
+      version: master
+    status: maintained
   motoman:
     doc:
       type: git
@@ -10940,7 +10959,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_common_msgs-release.git
-      version: 0.3.0-1
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/roboception/rc_common_msgs.git
@@ -10971,7 +10990,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_genicam_api-release.git
-      version: 2.2.2-1
+      version: 2.2.3-1
     source:
       test_pull_requests: true
       type: git
@@ -11103,7 +11122,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/IntelRealSense/realsense-ros-release.git
-      version: 2.2.6-2
+      version: 2.2.11-1
     source:
       type: git
       url: https://github.com/IntelRealSense/realsense-ros.git
