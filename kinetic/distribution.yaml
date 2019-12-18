@@ -378,6 +378,8 @@ repositories:
       version: master
   asr_direct_search_manager:
     doc:
+      depends:
+      - asr_msgs
       type: git
       url: https://github.com/asr-ros/asr_direct_search_manager.git
       version: master
@@ -518,6 +520,8 @@ repositories:
       version: master
   asr_next_best_view:
     doc:
+      depends:
+      - asr_msgs
       type: git
       url: https://github.com/asr-ros/asr_next_best_view.git
       version: master
@@ -543,11 +547,15 @@ repositories:
       version: master
   asr_recognizer_prediction_ism:
     doc:
+      depends:
+      - asr_msgs
       type: git
       url: https://github.com/asr-ros/asr_recognizer_prediction_ism.git
       version: master
   asr_recognizer_prediction_psm:
     doc:
+      depends:
+      - asr_msgs
       type: git
       url: https://github.com/asr-ros/asr_recognizer_prediction_psm.git
       version: master
@@ -608,6 +616,8 @@ repositories:
       version: master
   asr_world_model:
     doc:
+      depends:
+      - asr_msgs
       type: git
       url: https://github.com/asr-ros/asr_world_model.git
       version: master
@@ -1951,6 +1961,11 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: https://github.com/OUXT-Polaris/cog_publisher-release.git
       version: 1.0.1-4
+  cognitao_ros:
+    source:
+      type: git
+      url: https://github.com/cogniteam/cognitao_ros.git
+      version: develop
   collada_urdf:
     doc:
       type: git
@@ -4484,7 +4499,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/HebiRobotics/hebi_cpp_api_ros-release.git
-      version: 3.1.0-1
+      version: 3.1.1-1
     source:
       type: git
       url: https://github.com/HebiRobotics/hebi_cpp_api_ros.git
@@ -7399,6 +7414,24 @@ repositories:
       type: git
       url: https://github.com/moose-cpr/moose.git
       version: master
+    status: maintained
+  moose_desktop:
+    doc:
+      type: git
+      url: https://github.com/moose-cpr/moose_desktop.git
+      version: kinetic-devel
+    release:
+      packages:
+      - moose_desktop
+      - moose_viz
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/moose_desktop-release.git
+      version: 0.1.0-3
+    source:
+      type: git
+      url: https://github.com/moose-cpr/moose_desktop.git
+      version: kinetic-devel
     status: maintained
   motoman:
     doc:
@@ -14194,7 +14227,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/seed-solutions/seed_r7_ros_pkg-release.git
-      version: 0.3.3-2
+      version: 0.3.4-1
     source:
       test_pull_requests: true
       type: git
@@ -14298,7 +14331,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/SICKAG/sick_safetyscanners-release.git
-      version: 1.0.3-1
+      version: 1.0.4-1
     source:
       type: git
       url: https://github.com/SICKAG/sick_safetyscanners.git
@@ -15489,16 +15522,16 @@ repositories:
   tracetools:
     doc:
       type: git
-      url: https://github.com/bosch-robotics-cr/tracetools.git
+      url: https://github.com/boschresearch/ros1_tracetools.git
       version: devel
     release:
       tags:
         release: release/kinetic/{package}/{version}
-      url: https://github.com/bosch-robotics-cr/tracetools-release.git
+      url: https://github.com/boschresearch/ros1-tracetools-release.git
       version: 0.2.1-0
     source:
       type: git
-      url: https://github.com/bosch-robotics-cr/tracetools.git
+      url: https://github.com/boschresearch/ros1_tracetools.git
       version: devel
     status: developed
   tts:
@@ -16318,6 +16351,17 @@ repositories:
       type: git
       url: https://github.com/inomuh/uwb_hardware_driver.git
       version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/inomuh/uwb_hardware_driver-release.git
+      version: 0.1.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/inomuh/uwb_hardware_driver.git
+      version: master
+    status: developed
   uwsim_bullet:
     release:
       tags:
@@ -16706,7 +16750,7 @@ repositories:
   vtec_ros:
     doc:
       type: git
-      url: https://github.com/lukscasanova/vtec_ros.git
+      url: https://github.com/visiotec/vtec_ros.git
       version: master
   warehouse_ros:
     doc:
@@ -17270,7 +17314,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/openspur/yp-spur-release.git
-      version: 1.17.0-1
+      version: 1.17.1-1
     source:
       type: git
       url: https://github.com/openspur/yp-spur.git
@@ -17285,7 +17329,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/openspur/ypspur_ros-release.git
-      version: 0.3.0-1
+      version: 0.3.1-1
     source:
       type: git
       url: https://github.com/openspur/ypspur_ros.git

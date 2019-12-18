@@ -4849,6 +4849,10 @@ rsync:
   gentoo: [net-misc/rsync]
   opensuse: [rsync]
   ubuntu: [rsync]
+rsyslog:
+  debian: [rsyslog]
+  fedora: [rsyslog]
+  ubuntu: [rsyslog]
 rti-connext-dds-5.3.1:
   ubuntu:
     bionic: [rti-connext-dds-5.3.1]
@@ -5712,6 +5716,13 @@ yamllint:
     xenial: [yamllint]
     yakkety: [yamllint]
     zesty: [yamllint]
+yapf:
+  arch: [yapf]
+  debian:
+    buster: [yapf]
+    stretch: [yapf]
+  ubuntu:
+    bionic: [yapf]
 yasm:
   arch: [yasm]
   debian: [yasm]
