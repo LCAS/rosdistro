@@ -158,6 +158,25 @@ repositories:
       url: https://github.com/ros/angles.git
       version: ros2
     status: maintained
+  automotive_autonomy_msgs:
+    doc:
+      type: git
+      url: https://github.com/astuff/automotive_autonomy_msgs.git
+      version: master
+    release:
+      packages:
+      - automotive_autonomy_msgs
+      - automotive_navigation_msgs
+      - automotive_platform_msgs
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/astuff/automotive_autonomy_msgs-release.git
+      version: 3.0.1-1
+    source:
+      type: git
+      url: https://github.com/astuff/automotive_autonomy_msgs.git
+      version: master
+    status: developed
   behaviortree_cpp_v3:
     doc:
       type: git
@@ -844,6 +863,52 @@ repositories:
       url: https://github.com/ros2/message_filters.git
       version: eloquent
     status: maintained
+  navigation2:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/navigation2.git
+      version: eloquent-devel
+    release:
+      packages:
+      - costmap_queue
+      - dwb_core
+      - dwb_critics
+      - dwb_msgs
+      - dwb_plugins
+      - nav2_amcl
+      - nav2_behavior_tree
+      - nav2_bringup
+      - nav2_bt_navigator
+      - nav2_common
+      - nav2_controller
+      - nav2_core
+      - nav2_costmap_2d
+      - nav2_dwb_controller
+      - nav2_gazebo_spawner
+      - nav2_lifecycle_manager
+      - nav2_map_server
+      - nav2_msgs
+      - nav2_navfn_planner
+      - nav2_planner
+      - nav2_recoveries
+      - nav2_rviz_plugins
+      - nav2_system_tests
+      - nav2_util
+      - nav2_voxel_grid
+      - nav2_waypoint_follower
+      - nav_2d_msgs
+      - nav_2d_utils
+      - navigation2
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/SteveMacenski/navigation2-release.git
+      version: 0.3.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-planning/navigation2.git
+      version: eloquent-devel
+    status: developed
   navigation_msgs:
     doc:
       type: git
@@ -1027,6 +1092,23 @@ repositories:
       type: git
       url: https://github.com/ros2/poco_vendor.git
       version: eloquent
+    status: maintained
+  popf-release:
+    doc:
+      type: git
+      url: https://github.com/fmrico/popf.git
+      version: eloquent-devel
+    release:
+      packages:
+      - popf
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/fmrico/popf-release.git
+      version: 0.0.3-1
+    source:
+      type: git
+      url: https://github.com/fmrico/popf.git
+      version: eloquent-devel
     status: maintained
   px4_msgs:
     release:
