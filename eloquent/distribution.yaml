@@ -944,6 +944,21 @@ repositories:
       url: https://github.com/SteveMacenski/nonpersistent_voxel_layer.git
       version: eloquent-devel
     status: maintained
+  ntpd_driver:
+    doc:
+      type: git
+      url: https://github.com/vooon/ntpd_driver.git
+      version: ros2
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/vooon/ntpd_driver-release.git
+      version: 2.0.1-1
+    source:
+      type: git
+      url: https://github.com/vooon/ntpd_driver.git
+      version: ros2
+    status: maintained
   octomap:
     doc:
       type: git
@@ -1109,18 +1124,16 @@ repositories:
       url: https://github.com/ros2/poco_vendor.git
       version: eloquent
     status: maintained
-  popf-release:
+  popf:
     doc:
       type: git
       url: https://github.com/fmrico/popf.git
       version: eloquent-devel
     release:
-      packages:
-      - popf
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/fmrico/popf-release.git
-      version: 0.0.3-1
+      version: 0.0.11-1
     source:
       type: git
       url: https://github.com/fmrico/popf.git
@@ -1157,7 +1170,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/stonier/py_trees_js-release.git
-      version: 0.6.0-1
+      version: 0.6.1-1
     source:
       type: git
       url: https://github.com/splintered-reality/py_trees_js.git
@@ -1172,7 +1185,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/stonier/py_trees_ros-release.git
-      version: 2.0.1-1
+      version: 2.0.4-1
     source:
       test_pull_requests: true
       type: git
@@ -1203,7 +1216,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/stonier/py_trees_ros_tutorials-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1219,7 +1232,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/stonier/py_trees_ros_viewer-release.git
-      version: 0.1.4-1
+      version: 0.2.2-1
     source:
       type: git
       url: https://github.com/splintered-reality/py_trees_ros_viewer.git
