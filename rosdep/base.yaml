@@ -1396,6 +1396,7 @@ jasper:
 java:
   arch: [jdk7-openjdk]
   debian:
+    '*': [default-jdk]
     jessie: [openjdk-7-jdk]
     wheezy: [openjdk-7-jdk]
   fedora:
@@ -4388,6 +4389,11 @@ omniorb:
   gentoo: [net-misc/omniORB]
   macports: [omniORB]
   ubuntu: [omniorb, omniidl, omniorb-idl, omniorb-nameserver, libomniorb4-dev]
+opencl-headers:
+  arch: [opencl-headers]
+  debian: [opencl-headers]
+  fedora: [opencl-headers]
+  ubuntu: [opencl-headers]
 opende:
   arch: [ode]
   debian: [libode-dev]
@@ -5705,13 +5711,6 @@ yamllint:
     xenial: [yamllint]
     yakkety: [yamllint]
     zesty: [yamllint]
-yapf:
-  arch: [yapf]
-  debian:
-    buster: [yapf]
-    stretch: [yapf]
-  ubuntu:
-    bionic: [yapf]
 yasm:
   arch: [yasm]
   debian: [yasm]

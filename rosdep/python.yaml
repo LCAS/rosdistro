@@ -3907,6 +3907,9 @@ python-scapy:
   fedora: [scapy]
   gentoo: [dev-python/scapy-python3]
   ubuntu: [python-scapy]
+python-schedule:
+  debian: [python-schedule]
+  ubuntu: [python-schedule]
 python-scipy:
   arch: [python2-scipy]
   debian: [python-scipy]
@@ -3962,6 +3965,22 @@ python-seaborn:
     trusty:
       pip:
         packages: [seaborn]
+python-selectors2-pip:
+  arch:
+    pip:
+      packages: [selectors2]
+  debian:
+    pip:
+      packages: [selectors2]
+  fedora:
+    pip:
+      packages: [selectors2]
+  osx:
+    pip:
+      packages: [selectors2]
+  ubuntu:
+    pip:
+      packages: [selectors2]
 python-selenium-pip:
   debian:
     pip:
@@ -5312,6 +5331,11 @@ python3-opengl:
   fedora: [python3-pyopengl]
   gentoo: [dev-python/pyopengl]
   ubuntu: [python3-opengl]
+python3-packaging:
+  debian: [python3-packaging]
+  fedora: [python3-packaging]
+  gentoo: [dev-python/packaging]
+  ubuntu: [python3-packaging]
 python3-pandas:
   debian: [python3-pandas]
   fedora: [python3-pandas]
@@ -5552,6 +5576,9 @@ python3-ruamel.yaml:
     xenial: [python3-ruamel.yaml]
     yakkety: [python3-ruamel.yaml]
     zesty: [python3-ruamel.yaml]
+python3-schedule:
+  debian: [python3-schedule]
+  ubuntu: [python3-schedule]
 python3-scp:
   debian: [python3-scp]
   fedora: [python3-scp]
@@ -5748,11 +5775,12 @@ wxpython:
     yakkety: [python-wxgtk3.0]
     zesty: [python-wxgtk3.0]
 yapf:
+  arch: [yapf]
   debian:
     buster: [yapf]
     stretch: [yapf]
   ubuntu:
-    artful: [yapf]
+    '*': [yapf]
     saucy:
       pip:
         packages: [yapf]
@@ -5774,4 +5802,3 @@ yapf:
     yakkety:
       pip:
         packages: [yapf]
-    zesty: [yapf]

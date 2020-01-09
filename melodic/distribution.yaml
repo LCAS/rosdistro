@@ -5,8 +5,6 @@
 release_platforms:
   debian:
   - stretch
-  fedora:
-  - '28'
   ubuntu:
   - bionic
 repositories:
@@ -350,7 +348,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/astuff/automotive_autonomy_msgs-release.git
-      version: 3.0.1-1
+      version: 3.0.3-1
     source:
       type: git
       url: https://github.com/astuff/automotive_autonomy_msgs.git
@@ -4398,7 +4396,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/at-wat/mcl_3dl-release.git
-      version: 0.1.6-1
+      version: 0.1.7-1
     source:
       type: git
       url: https://github.com/at-wat/mcl_3dl.git
@@ -4935,7 +4933,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/carnegieroboticsllc/multisense_ros-release.git
-      version: 4.0.2-0
+      version: 4.0.3-1
     source:
       type: hg
       url: https://bitbucket.org/crl/multisense_ros
@@ -4964,12 +4962,42 @@ repositories:
       url: https://github.com/yujinrobot-release/nanomsg-release.git
       version: 0.4.1-0
     status: maintained
+  nao_meshes:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-naoqi/nao_meshes-release.git
+      version: 0.1.12-2
+    status: maintained
   naoqi_bridge_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-naoqi/naoqi_bridge_msgs.git
+      version: master
     release:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-naoqi/naoqi_bridge_msgs-release.git
       version: 0.0.8-0
+    source:
+      type: git
+      url: https://github.com/ros-naoqi/naoqi_bridge_msgs.git
+      version: master
+    status: maintained
+  naoqi_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-naoqi/naoqi_driver.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-naoqi/naoqi_driver-release.git
+      version: 0.5.11-0
+    source:
+      type: git
+      url: https://github.com/ros-naoqi/naoqi_driver.git
+      version: master
     status: maintained
   naoqi_libqi:
     release:
@@ -4977,6 +5005,13 @@ repositories:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-naoqi/libqi-release.git
       version: 2.9.0-8
+    status: maintained
+  naoqi_libqicore:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-naoqi/libqicore-release.git
+      version: 2.9.0-5
     status: maintained
   navigation:
     doc:
@@ -5140,7 +5175,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.5.0-1
+      version: 0.5.1-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -5440,7 +5475,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/octomap_mapping-release.git
-      version: 0.6.3-0
+      version: 0.6.4-1
     source:
       type: git
       url: https://github.com/OctoMap/octomap_mapping.git
@@ -5977,6 +6012,13 @@ repositories:
       type: git
       url: https://github.com/wg-perception/people.git
       version: melodic
+    status: maintained
+  pepper_meshes:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-naoqi/pepper_meshes-release.git
+      version: 0.2.4-3
     status: maintained
   pepperl_fuchs:
     doc:
@@ -8925,7 +8967,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/SBG-Systems/sbg_ros_driver-release.git
-      version: 1.1.7-0
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/SBG-Systems/sbg_ros_driver.git
