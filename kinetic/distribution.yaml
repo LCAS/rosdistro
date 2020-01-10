@@ -225,7 +225,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/geometry_angles_utils-release.git
-      version: 1.9.11-0
+      version: 1.9.12-1
     source:
       test_pull_requests: true
       type: git
@@ -7454,7 +7454,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/clearpath-gbp/moose_simulator-release.git
-      version: 0.1.0-2
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/moose-cpr/moose_simulator.git
@@ -13701,7 +13701,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_topic-release.git
-      version: 0.4.10-0
+      version: 0.4.11-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_topic.git

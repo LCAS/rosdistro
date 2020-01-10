@@ -151,7 +151,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/ros2-gbp/angles-release.git
-      version: 1.12.1-1
+      version: 1.12.2-1
     source:
       test_pull_requests: true
       type: git
@@ -804,6 +804,42 @@ repositories:
       type: git
       url: https://github.com/ros2/kdl_parser.git
       version: eloquent
+    status: maintained
+  kobuki_core:
+    doc:
+      type: git
+      url: https://github.com/yujinrobot/kobuki_core.git
+      version: release/0.8.x
+    release:
+      packages:
+      - kobuki_core
+      - kobuki_dock_drive
+      - kobuki_driver
+      - kobuki_ftdi
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/yujinrobot-release/kobuki_core-release.git
+      version: 0.8.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/yujinrobot/kobuki_core.git
+      version: devel
+    status: maintained
+  kobuki_msgs:
+    doc:
+      type: git
+      url: https://github.com/yujinrobot/kobuki_msgs.git
+      version: release/0.8.x
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/yujinrobot-release/kobuki_msgs-release.git
+      version: 0.8.0-1
+    source:
+      type: git
+      url: https://github.com/yujinrobot/kobuki_msgs.git
+      version: release/0.8.x
     status: maintained
   laser_geometry:
     doc:
@@ -1692,7 +1728,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/IntelligentRoboticsLabs/ros2_planning_system-release.git
-      version: 0.0.2-1
+      version: 0.0.4-1
     source:
       type: git
       url: https://github.com/IntelligentRoboticsLabs/ros2_planning_system.git
