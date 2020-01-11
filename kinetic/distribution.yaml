@@ -346,11 +346,6 @@ repositories:
       url: https://github.com/pal-robotics/aruco_ros.git
       version: kinetic-devel
     status: developed
-  asr_approx_mvbb:
-    doc:
-      type: git
-      url: https://github.com/asr-ros/asr_approx_mvbb.git
-      version: master
   asr_aruco_marker_recognition:
     doc:
       type: git
@@ -3587,7 +3582,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/FlexBE/flexbe_behavior_engine-release.git
-      version: 1.2.2-1
+      version: 1.2.3-1
     source:
       type: git
       url: https://github.com/team-vigir/flexbe_behavior_engine.git
@@ -13287,7 +13282,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_image_view-release.git
-      version: 0.4.13-0
+      version: 0.4.14-1
     source:
       test_pull_requests: true
       type: git
@@ -16448,7 +16443,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/inomuh/uwb_hardware_driver-release.git
-      version: 0.1.0-1
+      version: 0.1.2-1
     source:
       test_pull_requests: true
       type: git
@@ -16914,6 +16909,21 @@ repositories:
       type: git
       url: https://github.com/warthog-cpr/warthog_simulator.git
       version: kinetic-devel
+    status: maintained
+  watson_ins:
+    doc:
+      type: git
+      url: https://github.com/AutonomousVehicleLaboratory/watson_ins.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/AutonomousVehicleLaboratory/watson_ins-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/AutonomousVehicleLaboratory/watson_ins.git
+      version: master
     status: maintained
   waypoint:
     doc:
