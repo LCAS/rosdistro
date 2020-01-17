@@ -1,26 +1,29 @@
+clang:
+  ubuntu: [clang]
 coinor-solvers:
   ubuntu: [coinor-libcbc-dev, coinor-libclp-dev, coinor-libcoinutils-dev, coinor-libcgl-dev, coinor-libosi-dev]
 cuda_latest:
-  ubuntu:
-    xenial: [cuda, nvidia-modprobe]
+  ubuntu: [cuda, nvidia-modprobe]
+cuda_10_0:
+  ubuntu: [cuda-10-0, nvidia-modprobe]
+cuda_10_1:
+  ubuntu: [cuda-10-1, nvidia-modprobe]
+cuda_10_2:
+  ubuntu: [cuda-10-2, nvidia-modprobe]
 cuda_8_0:
-  ubuntu:
-    xenial: [cuda-8-0, nvidia-modprobe]
+  ubuntu: [cuda-8-0, nvidia-modprobe]
 cuda_9_0:
-  ubuntu:
-    xenial: [cuda-9-0, nvidia-modprobe]
+  ubuntu: [cuda-9-0, nvidia-modprobe]
 cuda_9_1:
-  ubuntu:
-    xenial: [cuda-9-1, nvidia-modprobe]
+  ubuntu: [cuda-9-1, nvidia-modprobe]
 cuda_9_2:
-  ubuntu:
-    xenial: [cuda-9-2, nvidia-modprobe]
+  ubuntu: [cuda-9-2, nvidia-modprobe]
 cudnn:
-  ubuntu:
-    xenial: [libcudnn7, libcudnn7-dev, nvidia-modprobe]
+  ubuntu: [libcudnn7, libcudnn7-dev, nvidia-modprobe]
 cvb:
-  ubuntu:
-    xenial: [cvb-camerasuite-dev]
+  ubuntu: [cvb-camerasuite-dev]
+czmq:
+  ubuntu: [libczmq-dev]
 deepfried2:
   ubuntu: [python-deepfried2]
 gazebo8:
@@ -39,9 +42,7 @@ gazebo8_ros_control:
   ubuntu:
     xenial: [ros-kinetic-gazebo8-ros-control]
 ghmm:
-  ubuntu:
-    trusty: [libghmm-ne]
-    xenial: [libghmm-ne]
+  ubuntu: [libghmm-ne]
 igraph:
   ubuntu: [python-igraph]
 jekyll-trusty:
@@ -50,6 +51,11 @@ jekyll-trusty:
 kvaser-libcan:
   ubuntu:
     xenial: [kvaser-libcan]
+libedit-dev:
+  ubuntu: [libedit-dev]
+libirimager:
+  ubuntu:
+    xenial: [libirimager]
 libsvm:
   ubuntu: [libsvm-dev]
 mira-scitos:
@@ -57,6 +63,7 @@ mira-scitos:
     precise: [mira-scitos]
     trusty: [mira-scitos]
     xenial: [mira-scitos]
+    bionic: [mira-scitos]
 mongo-cxx-driver:
   ubuntu:
     trusty: [mongo-cxx-driver]
@@ -64,8 +71,7 @@ morse-blender-bundle:
   ubuntu:
     precise: [morse-blender-2.65-py-3.3]
 opencl_latest:
- ubuntu:
-   xenial: [opencl-headers, nvidia-opencl-dev]
+ ubuntu: [opencl-headers, nvidia-opencl-dev]
 openjdk-8:
   ubuntu: [openjdk-8-jdk]
 prism-robots:
@@ -75,24 +81,32 @@ prism-robots:
     xenial: [prism-robots]
 pybayes:
   ubuntu: [python-pybayes]
+python-munkres:
+  ubuntu: [python-munkres]
 python-pydispatcher:
   ubuntu: [python-pydispatcher]
+python-pykalman-apt:
+  ubuntu: [python-pykalman]
 python-strands-requests:
-  ubuntu: [python-strands-requests]
+  ubuntu: [python-requests]
 python-webpy:
   ubuntu: [python-webpy]
 python-ws4py:
   ubuntu: [python-ws4py]
+realsense2-sdk:
+  ubuntu: [librealsense2-dev, librealsense2-dkms, librealsense2-utils]
 rubygem-jekyll:
   ubuntu: [rubygem-jekyll]
 strands-morse-simulator:
   ubuntu:
     trusty: [strands-morse-simulator]
     xenial: [morse-blender-2.65-py-3.3]
+    bionic: [morse-simulator]
 strands-twython:
   ubuntu: 
     trusty: [python-strands-twython]
     xenial: [python-twython]
+    bionic: [python-twython]
 theano:
   ubuntu: [python-theano]
 tmule:

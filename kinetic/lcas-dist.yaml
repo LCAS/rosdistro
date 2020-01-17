@@ -24,6 +24,7 @@ repositories:
       url: https://github.com/lcas-releases/bayestracking.git
       version: 1.4.0-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/bayestracking.git
@@ -36,23 +37,10 @@ repositories:
       url: https://github.com/lcas-releases/catkin_simple.git
       version: 0.2.0-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/catkin_simple.git
-      version: master
-    status: developed
-  cliff_map:
-    release:
-      packages:
-      - cliffmap_ros
-      tags:
-        release: release/kinetic/{package}/{version}
-      url: https://gitsvn-nt.oru.se/iliad/software/releases/cliffmap_ros-release.git
-      version: 0.0.2-0
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ksatyaki/cliffmap_ros.git
       version: master
     status: developed
   coordination_oru_ros:
@@ -84,6 +72,7 @@ repositories:
       url: https://github.com/lcas-releases/depth_sensors.git
       version: 0.0.4-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/depth_sensors.git
@@ -106,6 +95,28 @@ repositories:
       url: https://github.com/strands-project/executive_smach.git
       version: indigo-devel
     status: maintained
+  franka_ros_lcas:
+    release:
+      packages:
+      - franka_control
+      - franka_description
+      - franka_example_controllers
+      - franka_gripper
+      - franka_hw
+      - franka_msgs
+      - franka_ros
+      - franka_visualization
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/franka_ros.git
+      version: 0.8.0-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/franka_ros.git
+      version: kinetic-devel
+    status: maintained
   fremen:
     release:
       packages:
@@ -121,6 +132,7 @@ repositories:
       url: https://github.com/strands-project-releases/fremen.git
       version: 0.3.1-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/fremen.git
@@ -133,8 +145,9 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/lcas-releases/gazebo-contactMonitor.git
-      version: 1.1.0-0
+      version: 1.1.1-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/gazebo-contactMonitor.git
@@ -146,10 +159,6 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: https://github.com/lcas-releases/genjava.git
       version: 1.0.0-0
-    source:
-      type: git
-      url: https://github.com/LCAS/genjava.git
-      version: kinetic
     status: maintained
   graph_map:
     release:
@@ -163,8 +172,17 @@ repositories:
       url: https://gitsvn-nt.oru.se/iliad/software/releases/graph_map-release.git
       version: 2.0.0-0
     source:
+      test_commits: true
       type: git
       url: https://gitsvn-nt.oru.se/iliad/software/graph_map.git
+      version: master
+    status: developed
+  graspberry:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/GRASPberry.git
       version: master
     status: developed
   iai_kinect2:
@@ -180,6 +198,7 @@ repositories:
       url: https://github.com/lcas-releases/iai_kinect2.git
       version: 0.0.9-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/iai_kinect2.git
@@ -188,16 +207,13 @@ repositories:
   iliad_distribution:
     release:
       packages:
-      - iliad_distribution
-      - iliad_launch_manipulation
-      - iliad_launch_navigation
       - iliad_launch_system
-      - iliad_restricted
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/lcas-releases/iliad_distribution.git
-      version: 0.0.8-0
+      version: 0.1.0-2
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://gitsvn-nt.oru.se/iliad/software/iliad_metapackage.git
@@ -213,6 +229,7 @@ repositories:
       url: https://gitsvn-nt.oru.se/iliad/software/iliad_execution-releases.git
       version: 0.0.1-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://gitsvn-nt.oru.se/iliad/software/iliad_execution.git
@@ -222,10 +239,11 @@ repositories:
     release:
       packages:
       - iliad_human_perception_launch
+      - iliad_leg_tracker
       tags:
         release: release/kinetic/{package}/{version}
       url: https://gitsvn-nt.oru.se/iliad/software/iliad_human_perception_release.git
-      version: 1.0.6-0
+      version: 1.0.18-1
     source:
       type: git
       url: https://gitsvn-nt.oru.se/iliad/software/iliad_human_perception.git
@@ -233,7 +251,7 @@ repositories:
     status: developed
   iliad_sandbox:
     source:
-      test_pull_requests: true
+      test_commits: true
       type: git
       url: https://gitsvn-nt.oru.se/iliad/software/private_sandbox.git
       version: master
@@ -245,11 +263,18 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/LCAS/restricted-releases.git
-      version: 0.1.6-0
+      version: 0.3.1-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://gitsvn-nt.oru.se/palmieri/iliad_smp.git
+      version: master
+    status: developed
+  iliad_smu_package:
+    source:
+      type: git
+      url: https://gitsvn-nt.oru.se/mazin_hamad/iliad_smu_package.git
       version: master
     status: developed
   kmo_interfaces:
@@ -259,10 +284,11 @@ repositories:
       - kmo_fork_control
       - kmo_navserver
       - sick_s3x
+      - vmc_navserver
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/iliad-project/kmo_interfaces-release.git
-      version: 0.0.4-0
+      version: 0.1.0-1
     source:
       test_pull_requests: false
       type: git
@@ -271,9 +297,18 @@ repositories:
     status: developed
   lcas_iliad:
     source:
-      test_pull_requests: false
+      test_commits: true
+      test_pull_requests: true
       type: git
       url: https://github.com/LCAS/iliad.git
+      version: master
+    status: developed
+  lcas_iliad_experiments:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/iliad_experimental.git
       version: master
     status: developed
   lcas_nav_branch:
@@ -285,6 +320,7 @@ repositories:
       url: https://github.com/strands-project-releases/navigation-additions.git
       version: 2.0.0-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/navigation.git
@@ -302,18 +338,28 @@ repositories:
       url: https://github.com/strands-project-releases/lcas_teaching.git
       version: 0.2.0-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/teaching.git
       version: kinetic
     status: developed
+  libfranka_lcas:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/libfranka.git
+      version: 0.5.0-aysnc
+    status: maintained
   libfreenect2:
     release:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/lcas-releases/libfreenect2.git
-      version: 0.0.9-0
+      version: 0.1.0-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/libfreenect2.git
@@ -326,6 +372,7 @@ repositories:
       url: https://github.com/lcas-releases/lidar_object_detection_release.git
       version: 0.0.2-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/lidar_object_detection_release.git
@@ -333,6 +380,7 @@ repositories:
     status: developed
   lindimp:
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/LindIMP.git
@@ -340,7 +388,7 @@ repositories:
     status: developed
   mapping_msgs:
     source:
-      test_pull_requests: true
+      test_commits: true
       type: git
       url: https://gitsvn-nt.oru.se/iliad/software/mapping_msgs.git
       version: master
@@ -354,11 +402,31 @@ repositories:
       url: https://github.com/lcas-releases/ros_marvelmind_package.git
       version: 1.0.9-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/ros_marvelmind_package.git
       version: master
     status: maintained
+  mod_ros:
+    release:
+      packages:
+      - cliffmap_ros
+      - cliffmap_rviz_plugin
+      - gmmtmap_ros
+      - gmmtmap_rviz_plugin
+      - pedsim_scenarios
+      - stefmap_ros
+      - stefmap_rviz_plugin
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://gitsvn-nt.oru.se/iliad/software/releases/cliffmap_ros-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/ksatyaki/mod_ros.git
+      version: master
+    status: developed
   mongodb_store:
     release:
       packages:
@@ -371,6 +439,7 @@ repositories:
       url: https://github.com/strands-project-releases/mongodb_store.git
       version: 0.4.2-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/mongodb_store.git
@@ -378,6 +447,7 @@ repositories:
     status: developed
   ncnr_uol:
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/ncnr.git
@@ -395,8 +465,9 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://gitsvn-nt.oru.se/iliad/software/releases/ndt_core-release.git
-      version: 2.0.0-0
+      version: 2.3.0-1
     source:
+      test_commits: true
       type: git
       url: https://gitsvn-nt.oru.se/software/ndt_core.git
       version: master
@@ -412,10 +483,26 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://gitsvn-nt.oru.se/iliad/software/releases/ndt_tools-release.git
-      version: 2.0.0-0
+      version: 2.0.2-1
     source:
+      test_commits: true
       type: git
       url: https://gitsvn-nt.oru.se/software/ndt_tools.git
+      version: master
+    status: developed
+  ompl_planners:
+    release:
+      packages:
+      - ompl_mod_objectives
+      - ompl_planners_ros
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://gitsvn-nt.oru.se/iliad/software/releases/ompl_planners.git
+      version: 1.0.0-1
+    source:
+      test_commits: true
+      type: git
+      url: https://github.com/ksatyaki/ompl_planners.git
       version: master
     status: developed
   openni_wrapper:
@@ -424,6 +511,21 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: https://github.com/strands-project-releases/openni_wrapper.git
       version: 0.0.11-0
+    status: maintained
+  optis_drivers:
+    release:
+      packages:
+      - optris_drivers
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/optis_drivers.git
+      version: 1.1.2-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/optris_drivers.git
+      version: kinetic-devel
     status: maintained
   oru_navigation:
     release:
@@ -461,11 +563,28 @@ repositories:
       url: https://github.com/LCAS/oru_navigation_release.git
       version: 0.4.0-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/OrebroUniversity/navigation_oru-release.git
       version: master
     status: developed
+  ouster:
+    release:
+      packages:
+      - ouster_client
+      - ouster_ros
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/ouster.git
+      version: 0.1.6-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/ouster_example.git
+      version: master
+    status: maintained
   pcl_catkin_c11:
     release:
       tags:
@@ -473,6 +592,7 @@ repositories:
       url: https://github.com/lcas-releases/pcl_catkin.git
       version: 1.8.3-3
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/pcl_catkin.git
@@ -492,8 +612,9 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/lcas-releases/pcl_detector.git
-      version: 0.0.1-0
+      version: 0.0.3-2
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/pcl_detector.git
@@ -512,9 +633,10 @@ repositories:
       url: https://github.com/lcas-releases/people_detection.git
       version: 1.0.12-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
-      url: https://github.com/lcas/people_detection.git
+      url: https://github.com/LCAS/people_detection.git
       version: kinetic-devel
     status: maintained
   perception_pcl_c11:
@@ -534,6 +656,7 @@ repositories:
       url: https://github.com/lcas-releases/persistent_topics.git
       version: 1.5.2-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/marc-hanheide/persistent_topics.git
@@ -545,28 +668,50 @@ repositories:
       url: https://github.com/marc-hanheide/PetriNetPlans.git
       version: catkinised
     status: developed
-  rasberry:
+  py_at_broker:
     release:
-      packages:
-      - rasberry
-      - rasberry_bringup
-      - rasberry_coordination
-      - rasberry_des
-      - rasberry_gazebo
-      - rasberry_move_base
-      - rasberry_navigation
-      - rasberry_people_perception
-      - rasberry_uv
       tags:
         release: release/kinetic/{package}/{version}
-      url: https://github.com/lcas-releases/rasberry.git
-      version: 0.1.0-0
+      url: https://github.com/LCAS/py_at_broker-release.git
+      version: 0.0.14-1
     source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/py_at_broker.git
+      version: catkinised
+    status: developed
+  quadprogpp:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/quadprogpp.git
+      version: 0.0.2-1
+    status: maintained
+  rasberry:
+    source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/RASberry.git
       version: master
     status: developed
+  realsense_ros:
+    release:
+      packages:
+      - ddynamic_reconfigure
+      - realsense2_camera
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/realsense.git
+      version: 2.3.0-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/realsense.git
+      version: development
+    status: maintained
   rgbd_gpu_detector:
     release:
       packages:
@@ -574,8 +719,9 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://gitsvn-nt.oru.se/iliad/software/releases/rgbd_gpu_detector.git
-      version: 2.0.3-0
+      version: 2.0.5-1
     source:
+      test_commits: true
       type: git
       url: https://gitsvn-nt.oru.se/linder/rgbd_gpu_detector.git
       version: iliad-master
@@ -587,18 +733,45 @@ repositories:
       version: master
     status: developed
   robot_blockly:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/strands-project-releases/robot_blockly.git
+      version: 0.1.2-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
-      url: https://github.com/lcas/robot_blockly.git
+      url: https://github.com/LCAS/robot_blockly.git
       version: master
     status: developed
   ros_web_apis:
     source:
+      test_commits: true
+      test_pull_requests: true
       type: git
       url: https://github.com/LCAS/ros_web_apis.git
       version: master
     status: developed
+  rosbridge_suite_lcas:
+    release:
+      packages:
+      - rosapi
+      - rosbridge_library
+      - rosbridge_msgs
+      - rosbridge_server
+      - rosbridge_suite
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/rosbridge_suite.git
+      version: 0.12.0-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/rosbridge_suite.git
+      version: develop
+    status: maintained
   rosduct:
     release:
       tags:
@@ -606,6 +779,7 @@ repositories:
       url: https://github.com/lcas-releases/rosduct.git
       version: 0.0.6-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/rosduct.git
@@ -620,6 +794,7 @@ repositories:
       url: https://github.com/LCAS/sandbox-release.git
       version: 0.0.5-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/sandbox.git
@@ -697,8 +872,9 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/lcas-releases/sentor.git
-      version: 2.0.1-0
+      version: 2.0.3-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/sentor.git
@@ -717,12 +893,20 @@ repositories:
       url: https://github.com/strands-project/sicks300.git
       version: master
     status: maintained
+  sl_panda:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/sl.git
+      version: catkinised
+    status: developed
   slackeros:
     release:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/lcas-releases/slackeros.git
-      version: 0.1.0-0
+      version: 0.2.1-1
     source:
       test_commits: true
       test_pull_requests: true
@@ -770,7 +954,7 @@ repositories:
       version: 1.0.10-0
     source:
       type: git
-      url: https://github.com/lcas/spencer_people_tracking.git
+      url: https://github.com/LCAS/spencer_people_tracking.git
       version: master
     status: developed
   spqrel_navigation:
@@ -783,7 +967,7 @@ repositories:
       test_commits: true
       test_pull_requests: true
       type: git
-      url: https://github.com/lcas/spqrel_navigation.git
+      url: https://github.com/LCAS/spqrel_navigation.git
       version: master
     status: maintained
   steering_functions:
@@ -820,6 +1004,7 @@ repositories:
       url: https://github.com/strands-project-releases/strands_apps.git
       version: 0.2.6-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_apps.git
@@ -842,6 +1027,7 @@ repositories:
       url: https://github.com/strands-project-releases/strands_executive.git
       version: 1.2.4-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_executive.git
@@ -849,6 +1035,7 @@ repositories:
     status: developed
   strands_executive_behaviours:
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_executive_behaviours.git
@@ -875,6 +1062,7 @@ repositories:
       url: https://github.com/strands-project-releases/strands_hri.git
       version: 0.2.4-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_hri.git
@@ -887,6 +1075,7 @@ repositories:
       url: https://github.com/strands-project-releases/strands_morse.git
       version: 0.2.3-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_morse.git
@@ -906,6 +1095,7 @@ repositories:
       url: https://github.com/strands-project-releases/strands_movebase.git
       version: 0.0.23-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_movebase.git
@@ -916,7 +1106,6 @@ repositories:
       packages:
       - emergency_behaviours
       - joy_map_saver
-      - message_store_map_switcher
       - monitored_navigation
       - nav_goals_generator
       - pose_initialiser
@@ -929,8 +1118,9 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/strands-project-releases/strands_navigation.git
-      version: 1.0.7-0
+      version: 1.0.8-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_navigation.git
@@ -957,8 +1147,9 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/strands-project-releases/strands_perception_people.git
-      version: 1.8.0-0
+      version: 1.9.0-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_perception_people.git
@@ -975,6 +1166,7 @@ repositories:
       url: https://github.com/strands-project-releases/strands_qsr_lib.git
       version: 0.4.1-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_qsr_lib.git
@@ -994,6 +1186,7 @@ repositories:
       url: https://github.com/strands-project-releases/strands_recovery_behaviours.git
       version: 0.1.0-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_recovery_behaviours.git
@@ -1013,6 +1206,7 @@ repositories:
       url: https://github.com/strands-project-releases/strands_social.git
       version: 0.1.0-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_social.git
@@ -1034,6 +1228,7 @@ repositories:
       url: https://github.com/strands-project-releases/strands_ui.git
       version: 0.2.1-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_ui.git
@@ -1051,7 +1246,13 @@ repositories:
       version: kinetic-devel
     status: developed
   tf_bag:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/tf_bag.git
+      version: 0.1.1-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/tf_bag.git
@@ -1076,9 +1277,10 @@ repositories:
       - thorvald_base
       - thorvald_bringup
       - thorvald_can_devices
+      - thorvald_description
+      - thorvald_example_robots
       - thorvald_gazebo_plugins
       - thorvald_gui
-      - thorvald_model
       - thorvald_msgs
       - thorvald_simulator
       - thorvald_teleop
@@ -1086,12 +1288,21 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/LCAS/thorvald-releases.git
-      version: 0.2.2-1
+      version: 1.2.1-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/Thorvald.git
       version: kinetic-devel
+    status: developed
+  topological_navigation:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/topological_navigation.git
+      version: master
     status: developed
   tradr_uol:
     release:
@@ -1120,6 +1331,7 @@ repositories:
       url: https://github.com/lcas-releases/tradr_uol.git
       version: 1.0.11-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/tradr_uol.git
@@ -1139,9 +1351,10 @@ repositories:
       url: https://github.com/lcas-releases/turtlebot_apps.git
       version: 2.3.9-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
-      url: https://github.com/lcas/turtlebot_apps.git
+      url: https://github.com/LCAS/turtlebot_apps.git
       version: indigo
     status: maintained
   turtlebot_simulator:
@@ -1156,9 +1369,10 @@ repositories:
       url: https://github.com/lcas-releases/turtlebot_simulator.git
       version: 2.2.3-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
-      url: https://github.com/lcas/turtlebot_simulator.git
+      url: https://github.com/LCAS/turtlebot_simulator.git
       version: indigo
     status: maintained
   twitter_bootstrap:
@@ -1168,10 +1382,24 @@ repositories:
       url: https://github.com/strands-project-releases/twitter_bootstrap.git
       version: 0.0.3-0
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/twitter_bootstrap.git
       version: master
+    status: maintained
+  um7:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/um7.git
+      version: 0.0.6-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/um7.git
+      version: indigo-devel
     status: maintained
   uol_cmp9767m:
     release:
@@ -1181,8 +1409,9 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/lcas-releases/CMP9767M.git
-      version: 0.2.0-0
+      version: 0.5.3-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/CMP9767M.git
@@ -1190,26 +1419,23 @@ repositories:
     status: developed
   v4r:
     source:
-      test_pull_requests: true
       type: git
       url: https://github.com/strands-project/v4r.git
       version: master
     status: developed
-  velodyne:
+  velodyne_oru:
     release:
       packages:
-      - velodyne
-      - velodyne_driver
-      - velodyne_msgs
-      - velodyne_pointcloud
+      - velodyne_pointcloud_oru
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/LCAS/velodyne-release.git
-      version: 1.2.1-0
+      version: 1.5.5-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
-      url: https://github.com/OrebroUniversity/velodyne.git
+      url: https://github.com/dan11003/velodyne_pointcloud_oru
       version: master
     status: maintained
   velodyne_simulator8:
@@ -1223,16 +1449,26 @@ repositories:
       url: https://github.com/lcas-releases/velodyne_simulator.git
       version: 1.1.5-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/velodyne_simulator.git
       version: gazebo8
     status: maintained
   whycon:
+    release:
+      packages:
+      - whycon_ros
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/strands-project-releases/whycon.git
+      version: 2.3.0-1
     source:
+      test_commits: true
+      test_pull_requests: true
       type: git
       url: https://github.com/LCAS/whycon.git
-      version: master
+      version: snapcart
     status: developed
 tags:
 - iliad
