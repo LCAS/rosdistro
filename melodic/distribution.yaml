@@ -694,6 +694,21 @@ repositories:
       url: https://github.com/aws-robotics/utils-ros1.git
       version: master
     status: maintained
+  axis_camera:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/axis_camera.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/axis_camera-release.git
+      version: 0.3.0-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/axis_camera.git
+      version: master
+    status: unmaintained
   backward_ros:
     release:
       tags:
@@ -1738,7 +1753,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/DataspeedInc-release/dataspeed_can-release.git
-      version: 1.0.12-0
+      version: 1.0.14-1
     source:
       type: git
       url: https://bitbucket.org/dataspeedinc/dataspeed_can.git
@@ -2996,7 +3011,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/geometry2-release.git
-      version: 0.6.6-1
+      version: 0.6.5-0
     source:
       test_pull_requests: true
       type: git
@@ -3766,6 +3781,20 @@ repositories:
       url: https://github.com/jackal/jackal_simulator.git
       version: kinetic-devel
     status: maintained
+  jderobot_drones:
+    release:
+      packages:
+      - drone_wrapper
+      - rqt_drone_teleop
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/JdeRobot/drones-release.git
+      version: 1.1.0-1
+    source:
+      type: git
+      url: https://github.com/JdeRobot/drones.git
+      version: master
+    status: developed
   joint_state_publisher:
     doc:
       type: git
@@ -4523,7 +4552,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
-      version: kinetic-devel
+      version: master
     release:
       packages:
       - mapviz
@@ -4538,7 +4567,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/mapviz.git
-      version: kinetic-devel
+      version: master
     status: developed
   marker_msgs:
     doc:
@@ -4682,7 +4711,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/at-wat/mcl_3dl-release.git
-      version: 0.1.7-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/at-wat/mcl_3dl.git
@@ -4697,7 +4726,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/at-wat/mcl_3dl_msgs-release.git
-      version: 0.1.2-0
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/at-wat/mcl_3dl_msgs.git
@@ -5461,7 +5490,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.5.1-1
+      version: 0.6.0-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -6858,7 +6887,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/PilzDE/psen_scan-release.git
-      version: 1.0.2-1
+      version: 1.0.3-1
     source:
       type: git
       url: https://github.com/PilzDE/psen_scan.git
@@ -9915,6 +9944,21 @@ repositories:
       url: https://github.com/Terabee/teraranger_array.git
       version: master
     status: maintained
+  tf2_server:
+    doc:
+      type: git
+      url: https://github.com/peci1/tf2_server.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/peci1/tf2_server-release.git
+      version: 1.0.3-1
+    source:
+      type: git
+      url: https://github.com/peci1/tf2_server.git
+      version: master
+    status: developed
   tf2_web_republisher:
     doc:
       type: git
