@@ -34,17 +34,17 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/catkin.git
-      version: kinetic-devel
+      version: noetic-devel
     release:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/catkin-release.git
-      version: 0.7.20-0
+      version: 0.8.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/catkin.git
-      version: kinetic-devel
+      version: noetic-devel
     status: maintained
   class_loader:
     source:
@@ -110,6 +110,15 @@ repositories:
       version: master
     status: maintained
   gencpp:
+    doc:
+      type: git
+      url: https://github.com/ros/gencpp.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/gencpp-release.git
+      version: 0.6.3-1
     source:
       type: git
       url: https://github.com/ros/gencpp.git
@@ -334,6 +343,11 @@ repositories:
       version: melodic-devel
     status: maintained
   rosbag_migration_rule:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/rosbag_migration_rule-release.git
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros/rosbag_migration_rule.git
