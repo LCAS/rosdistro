@@ -131,11 +131,20 @@ repositories:
       version: master
     status: maintained
   genlisp:
+    doc:
+      type: git
+      url: https://github.com/ros/genlisp.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/genlisp-release.git
+      version: 0.4.18-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/genlisp.git
-      version: groovy-devel
+      version: kinetic-devel
     status: maintained
   genmsg:
     doc:
@@ -160,6 +169,15 @@ repositories:
       version: kinetic-devel
     status: maintained
   genpy:
+    doc:
+      type: git
+      url: https://github.com/ros/genpy.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/genpy-release.git
+      version: 0.6.10-1
     source:
       test_pull_requests: true
       type: git
@@ -368,11 +386,26 @@ repositories:
       version: kinetic-devel
     status: maintained
   roscpp_core:
+    doc:
+      type: git
+      url: https://github.com/ros/roscpp_core.git
+      version: noetic-devel
+    release:
+      packages:
+      - cpp_common
+      - roscpp_core
+      - roscpp_serialization
+      - roscpp_traits
+      - rostime
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/roscpp_core-release.git
+      version: 0.7.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/roscpp_core.git
-      version: kinetic-devel
+      version: noetic-devel
     status: maintained
   roslint:
     source:
@@ -387,6 +420,15 @@ repositories:
       version: master
     status: maintained
   rospack:
+    doc:
+      type: git
+      url: https://github.com/ros/rospack.git
+      version: melodic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/rospack-release.git
+      version: 2.5.5-1
     source:
       test_pull_requests: true
       type: git

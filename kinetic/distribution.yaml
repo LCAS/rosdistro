@@ -2294,7 +2294,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/DataspeedInc-release/dataspeed_can-release.git
-      version: 1.0.14-1
+      version: 1.0.15-1
     source:
       type: git
       url: https://bitbucket.org/dataspeedinc/dataspeed_can.git
@@ -3976,7 +3976,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/genlisp.git
-      version: groovy-devel
+      version: kinetic-devel
     release:
       tags:
         release: release/kinetic/{package}/{version}
@@ -3985,7 +3985,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros/genlisp.git
-      version: groovy-devel
+      version: kinetic-devel
     status: maintained
   genmsg:
     doc:
@@ -4651,12 +4651,13 @@ repositories:
       version: kinetic-devel
     release:
       packages:
+      - heron_control
       - heron_description
       - heron_msgs
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/clearpath-gbp/heron-release.git
-      version: 0.3.1-0
+      version: 0.3.2-1
     source:
       type: git
       url: https://github.com/heron/heron.git
@@ -7552,6 +7553,7 @@ repositories:
       packages:
       - chomp_motion_planner
       - moveit
+      - moveit_chomp_optimizer_adapter
       - moveit_commander
       - moveit_controller_manager_example
       - moveit_core
@@ -7579,7 +7581,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 0.9.17-1
+      version: 0.9.18-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit.git
@@ -13982,9 +13984,12 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/orocos-gbp/rtt_pcl-release.git
+      version: 0.1.0-2
     source:
       type: git
       url: https://github.com/orocos/rtt_pcl.git
+      version: master
+    status: maintained
   rtt_pcl_ros:
     release:
       tags:
@@ -14143,7 +14148,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/SBG-Systems/sbg_ros_driver-release.git
-      version: 1.1.7-0
+      version: 2.0.2-1
     source:
       type: git
       url: https://github.com/SBG-Systems/sbg_ros_driver.git
@@ -14799,6 +14804,12 @@ repositories:
       type: git
       url: https://github.com/ros-industrial/staubli_experimental.git
       version: kinetic-devel
+    status: maintained
+  staubli_val3_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/staubli_val3_driver.git
+      version: master
     status: maintained
   std_capabilities:
     doc:
