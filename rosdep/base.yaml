@@ -4557,6 +4557,11 @@ openni-dev:
   fedora: [openni-devel]
   gentoo: [dev-libs/OpenNI]
   ubuntu: [libopenni-dev]
+openocd:
+  debian: [openocd]
+  fedora: [openocd]
+  gentoo: [openocd]
+  ubuntu: [openocd]
 opensplice:
   gentoo: [sci-libs/opensplice]
 openssh-client:
@@ -4974,6 +4979,7 @@ rsyslog:
 rti-connext-dds-5.3.1:
   ubuntu:
     bionic: [rti-connext-dds-5.3.1]
+    focal: [rti-connext-dds-5.3.1]
     xenial: [rti-connext-dds-5.3.1]
 rtmidi:
   debian: [librtmidi-dev]
