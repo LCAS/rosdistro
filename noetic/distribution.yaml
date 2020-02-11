@@ -231,6 +231,15 @@ repositories:
       version: melodic-devel
     status: maintained
   gl_dependency:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/gl_dependency.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/gl_dependency-release.git
+      version: 1.1.2-1
     source:
       type: git
       url: https://github.com/ros-visualization/gl_dependency.git
@@ -261,6 +270,15 @@ repositories:
       version: indigo-devel
     status: maintained
   message_generation:
+    doc:
+      type: git
+      url: https://github.com/ros/message_generation.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/message_generation-release.git
+      version: 0.4.1-1
     source:
       type: git
       url: https://github.com/ros/message_generation.git
@@ -327,6 +345,15 @@ repositories:
       version: kinetic-devel
     status: maintained
   qwt_dependency:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/qwt_dependency.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/qwt_dependency-release.git
+      version: 1.1.0-2
     source:
       type: git
       url: https://github.com/ros-visualization/qwt_dependency.git
@@ -383,6 +410,18 @@ repositories:
       version: melodic-devel
     status: maintained
   ros_comm_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros/ros_comm_msgs.git
+      version: kinetic-devel
+    release:
+      packages:
+      - rosgraph_msgs
+      - std_srvs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/ros_comm_msgs-release.git
+      version: 1.11.3-1
     source:
       type: git
       url: https://github.com/ros/ros_comm_msgs.git
@@ -592,6 +631,15 @@ repositories:
       version: master
     status: maintained
   std_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros/std_msgs.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/std_msgs-release.git
+      version: 0.5.13-1
     source:
       type: git
       url: https://github.com/ros/std_msgs.git
@@ -616,6 +664,15 @@ repositories:
       version: melodic-devel
     status: maintained
   webkit_dependency:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/webkit_dependency.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/webkit_dependency-release.git
+      version: 1.1.2-1
     source:
       type: git
       url: https://github.com/ros-visualization/webkit_dependency.git
