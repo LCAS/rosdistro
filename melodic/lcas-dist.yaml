@@ -490,7 +490,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/strands-project/strands_perception_people.git
-      version: kinetic-devel
+      version: melodic-devel
     status: developed
   strands_qsr_lib:
     source:
