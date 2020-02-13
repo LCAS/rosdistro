@@ -73,6 +73,13 @@ repositories:
       version: master
     status: developed
   gazebo_contact_monitor:
+    release:
+      packages:
+      - contact_monitor
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/gazebo-contactMonitor.git
+      version: 1.2.0-1
     source:
       test_commits: true
       test_pull_requests: true
