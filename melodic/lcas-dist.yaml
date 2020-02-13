@@ -437,6 +437,19 @@ repositories:
       version: kinetic-devel
     status: maintained
   strands_executive:
+    release:
+      packages:
+      - gcal_routine
+      - mdp_plan_exec
+      - prism_strands
+      - sim_clock
+      - strands_executive_msgs
+      - task_executor
+      - wait_action
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_executive.git
+      version: 1.2.5-1
     source:
       test_commits: true
       test_pull_requests: true
