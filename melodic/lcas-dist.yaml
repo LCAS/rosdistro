@@ -436,6 +436,14 @@ repositories:
       url: https://github.com/strands-project/strands_apps.git
       version: kinetic-devel
     status: maintained
+  strands_executive:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/strands_executive.git
+      version: kinetic-devel
+    status: developed
   strands_morse:
     release:
       tags:
