@@ -220,6 +220,7 @@ repositories:
   rasberry:
     source:
       test_commits: true
+      test_pull_requests: true
       type: git
       url: https://github.com/LCAS/RASberry.git
       version: melodic-devel
