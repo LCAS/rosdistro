@@ -215,7 +215,7 @@ repositories:
       type: git
       url: https://github.com/LCAS/RASberry.git
       version: master
-    status: developed
+    status: melodic-devel
   realsense_ros:
     release:
       packages:
