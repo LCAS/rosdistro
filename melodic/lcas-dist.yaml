@@ -72,6 +72,14 @@ repositories:
       url: https://github.com/strands-project/fremen.git
       version: master
     status: developed
+  gazebo_contact_monitor:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/gazebo-contactMonitor.git
+      version: melodic-devel
+    status: developed
   graspberry:
     source:
       test_commits: true
