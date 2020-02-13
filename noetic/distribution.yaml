@@ -482,6 +482,15 @@ repositories:
       version: master
     status: maintained
   rosconsole:
+    doc:
+      type: git
+      url: https://github.com/ros/rosconsole.git
+      version: melodic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/rosconsole-release.git
+      version: 1.13.15-1
     source:
       test_pull_requests: true
       type: git
@@ -489,6 +498,15 @@ repositories:
       version: melodic-devel
     status: maintained
   rosconsole_bridge:
+    doc:
+      type: git
+      url: https://github.com/ros/rosconsole_bridge.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/rosconsole_bridge-release.git
+      version: 0.5.4-1
     source:
       test_pull_requests: true
       type: git
