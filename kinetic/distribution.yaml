@@ -204,7 +204,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/AinsteinAI/ainstein_radar-release.git
-      version: 2.0.2-1
+      version: 3.0.1-1
     source:
       type: git
       url: https://github.com/AinsteinAI/ainstein_radar.git
@@ -3394,7 +3394,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/wxmerkt/fcl_catkin-release.git
-      version: 0.5.99-2
+      version: 0.6.0-1
     status: developed
   feed_the_troll:
     doc:
@@ -5491,7 +5491,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/iralabdisco/ira_laser_tools-release.git
-      version: 1.0.2-0
+      version: 1.0.3-1
     source:
       type: git
       url: https://github.com/iralabdisco/ira_laser_tools.git
@@ -12349,7 +12349,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/ros_control-release.git
-      version: 0.13.4-1
+      version: 0.13.5-1
     source:
       type: git
       url: https://github.com/ros-controls/ros_control.git
@@ -12406,6 +12406,16 @@ repositories:
       type: git
       url: https://github.com/gleichaufjo/ros_cvb_camera_driver.git
       version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/gleichaufjo/ros_cvb_camera_driver_release.git
+      version: 0.0.1-2
+    source:
+      type: git
+      url: https://github.com/gleichaufjo/ros_cvb_camera_driver.git
+      version: master
+    status: maintained
   ros_emacs_utils:
     doc:
       type: git
@@ -15025,10 +15035,15 @@ repositories:
       version: kinetic-devel
     status: developed
   swarmros:
+    doc:
+      type: git
+      url: https://github.com/amilankovich-slab/swarmros.git
+      version: master
     release:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/amilankovich-slab/swarmros-release.git
+      version: 0.3.1-4
     source:
       test_pull_requests: true
       type: git
@@ -15201,7 +15216,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/teleop_tools-release.git
-      version: 0.3.0-0
+      version: 0.3.1-1
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
