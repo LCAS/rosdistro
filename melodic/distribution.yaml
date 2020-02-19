@@ -1813,7 +1813,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/DataspeedInc-release/dbw_fca_ros-release.git
-      version: 1.0.6-1
+      version: 1.0.9-1
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/dbw_fca_ros.git
@@ -1831,11 +1831,10 @@ repositories:
       - dbw_mkz_description
       - dbw_mkz_joystick_demo
       - dbw_mkz_msgs
-      - dbw_mkz_twist_controller
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/DataspeedInc-release/dbw_mkz_ros-release.git
-      version: 1.2.3-1
+      version: 1.2.7-1
     source:
       type: git
       url: https://bitbucket.org/dataspeedinc/dbw_mkz_ros.git
@@ -3494,7 +3493,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/KITrobotics/iirob_filters-release.git
-      version: 0.8.1-2
+      version: 0.8.3-2
     source:
       type: git
       url: https://github.com/KITrobotics/iirob_filters.git
@@ -3831,7 +3830,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/JdeRobot/assets-release.git
-      version: 0.1.0-1
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/JdeRobot/assets.git
@@ -5132,7 +5131,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/moveit_resources-release.git
-      version: 0.6.4-0
+      version: 0.6.5-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
@@ -7561,7 +7560,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/resource_retriever-release.git
-      version: 1.12.5-1
+      version: 1.12.6-1
     source:
       test_pull_requests: true
       type: git
@@ -8497,7 +8496,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/roslisp-release.git
-      version: 1.9.22-0
+      version: 1.9.24-1
     source:
       type: git
       url: https://github.com/ros/roslisp.git
