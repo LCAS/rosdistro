@@ -2076,6 +2076,21 @@ repositories:
       url: https://github.com/ROBOTIS-GIT/DynamixelSDK.git
       version: melodic-devel
     status: developed
+  eband_local_planner:
+    doc:
+      type: git
+      url: https://github.com/utexas-bwi/eband_local_planner.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/utexas-bwi-gbp/eband_local_planner-release.git
+      version: 0.4.0-1
+    source:
+      type: git
+      url: https://github.com/utexas-bwi/eband_local_planner.git
+      version: master
+    status: maintained
   eca_a9:
     doc:
       type: git
@@ -2301,7 +2316,11 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tork-a/euslisp-release.git
-      version: 9.26.0-1
+      version: 9.27.0-1
+    source:
+      type: git
+      url: https://github.com/euslisp/EusLisp.git
+      version: master
     status: developed
   executive_smach:
     doc:
@@ -6636,7 +6655,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipab-slmc/pinocchio_catkin-release.git
-      version: 2.2.1-1
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
@@ -10522,6 +10541,21 @@ repositories:
       url: https://github.com/KumarRobotics/ublox.git
       version: master
     status: maintained
+  ubnt_airos_tools:
+    doc:
+      type: git
+      url: https://github.com/peci1/ubnt_airos_tools.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/peci1/ubnt_airos_tools-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/peci1/ubnt_airos_tools.git
+      version: master
+    status: developed
   um6:
     doc:
       type: git
