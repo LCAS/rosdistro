@@ -692,7 +692,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/ros2-gbp/gazebo_ros_pkgs-release.git
-      version: 3.4.2-1
+      version: 3.4.3-1
     source:
       test_pull_requests: true
       type: git
@@ -2489,6 +2489,18 @@ repositories:
       url: https://github.com/ros2/rviz.git
       version: eloquent
     status: maintained
+  sick_scan2:
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/SICKAG/sick_scan2-release.git
+      version: 0.1.5-1
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_scan2.git
+      version: master
+    status: developed
+    status_description: developed
   slide_show:
     release:
       tags:

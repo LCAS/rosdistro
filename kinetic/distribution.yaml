@@ -5027,6 +5027,13 @@ repositories:
       url: https://github.com/astuff/ibeo_lux.git
       version: release
     status: developed
+  ifm3d_core:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ifm/ifm3d-release.git
+      version: 0.17.0-9
+    status: maintained
   ifm_o3mxxx:
     doc:
       type: git
@@ -9840,7 +9847,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipab-slmc/pinocchio_catkin-release.git
-      version: 2.3.0-1
+      version: 2.3.1-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
@@ -12727,7 +12734,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.11.3-1
+      version: 0.11.4-1
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
