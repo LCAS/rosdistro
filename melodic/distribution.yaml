@@ -2790,6 +2790,22 @@ repositories:
       url: https://github.com/boschresearch/fmi_adapter.git
       version: master
     status: maintained
+  force_torque_sensor:
+    doc:
+      type: git
+      url: https://github.com/KITrobotics/force_torque_sensor.git
+      version: melodic
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/KITrobotics/force_torque_sensor-release.git
+      version: 0.9.3-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/KITrobotics/force_torque_sensor.git
+      version: melodic
+    status: maintained
   four_wheel_steering_msgs:
     doc:
       type: git
@@ -5792,7 +5808,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/nmea_navsat_driver-release.git
-      version: 0.5.1-0
+      version: 0.5.2-1
     source:
       type: git
       url: https://github.com/ros-drivers/nmea_navsat_driver.git
@@ -7438,6 +7454,16 @@ repositories:
       url: https://github.com/ros-planning/random_numbers.git
       version: master
     status: maintained
+  raspimouse_description:
+    doc:
+      type: git
+      url: https://github.com/rt-net/raspimouse_description.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/rt-net/raspimouse_description.git
+      version: master
+    status: developed
   raspimouse_sim:
     doc:
       type: git
@@ -8142,7 +8168,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/ros_control-release.git
-      version: 0.16.0-1
+      version: 0.17.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros_control.git
