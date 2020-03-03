@@ -268,6 +268,19 @@ repositories:
       url: https://github.com/LCAS/rosduct.git
       version: master
     status: developed
+  ros_numpy:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/RaymondKirk/ros_numpy
+      version: 0.0.3
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/RaymondKirk/ros_numpy
+      version: master
+    status: developed
   sandbox:
     release:
       packages:
