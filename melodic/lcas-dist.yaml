@@ -232,6 +232,14 @@ repositories:
       url: https://github.com/LCAS/RASberry.git
       version: melodic-devel
     status: developed
+  realsense_gazebo_plugin:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/realsense_gazebo_plugin.git
+      version: master
+    status: maintained
   realsense_ros:
     release:
       packages:
