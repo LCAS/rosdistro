@@ -177,6 +177,21 @@ repositories:
       url: https://github.com/ros/angles.git
       version: ros2
     status: maintained
+  apex_containers:
+    doc:
+      type: git
+      url: https://gitlab.com/ApexAI/apex_containers.git
+      version: master
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://gitlab.com/ApexAI/apex_containers-release.git
+      version: 0.0.2-1
+    source:
+      type: git
+      url: https://gitlab.com/ApexAI/apex_containers.git
+      version: master
+    status: developed
   apex_test_tools:
     doc:
       type: git
@@ -212,6 +227,21 @@ repositories:
     source:
       type: git
       url: https://github.com/astuff/automotive_autonomy_msgs.git
+      version: master
+    status: developed
+  autoware_auto_msgs:
+    doc:
+      type: git
+      url: https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs-release.git
+      version: 0.0.2-1
+    source:
+      type: git
+      url: https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs.git
       version: master
     status: developed
   behaviortree_cpp_v3:
@@ -785,6 +815,27 @@ repositories:
       url: https://github.com/ament/googletest.git
       version: ros2
     status: maintained
+  gps_umd:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/gps_umd.git
+      version: dashing-devel
+    release:
+      packages:
+      - gps_msgs
+      - gps_tools
+      - gps_umd
+      - gpsd_client
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/swri-robotics-gbp/gps_umd-release.git
+      version: 1.0.2-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/swri-robotics/gps_umd.git
+      version: dashing-devel
+    status: developed
   image_common:
     doc:
       type: git
@@ -1021,6 +1072,29 @@ repositories:
       url: https://github.com/ros2/libyaml_vendor.git
       version: eloquent
     status: maintained
+  marti_messages:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/marti_messages.git
+      version: dashing-devel
+    release:
+      packages:
+      - marti_can_msgs
+      - marti_common_msgs
+      - marti_nav_msgs
+      - marti_perception_msgs
+      - marti_sensor_msgs
+      - marti_status_msgs
+      - marti_visualization_msgs
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/swri-robotics-gbp/marti_messages-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/swri-robotics/marti_messages.git
+      version: dashing-devel
+    status: developed
   mavlink:
     doc:
       type: git
@@ -1030,7 +1104,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2020.2.2-1
+      version: 2020.3.3-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -1091,7 +1165,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/SteveMacenski/navigation2-release.git
-      version: 0.3.3-1
+      version: 0.3.4-1
     source:
       test_pull_requests: true
       type: git
@@ -1375,7 +1449,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/stonier/py_trees-release.git
-      version: 2.0.9-1
+      version: 2.0.11-1
     source:
       type: git
       url: https://github.com/splintered-reality/py_trees.git
@@ -1390,7 +1464,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/stonier/py_trees_js-release.git
-      version: 0.6.1-1
+      version: 0.6.2-1
     source:
       type: git
       url: https://github.com/splintered-reality/py_trees_js.git
@@ -1405,7 +1479,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/stonier/py_trees_ros-release.git
-      version: 2.0.7-1
+      version: 2.0.10-1
     source:
       test_pull_requests: true
       type: git
@@ -2550,6 +2624,22 @@ repositories:
       version: master
     status: developed
     status_description: developed
+  slam_toolbox:
+    doc:
+      type: git
+      url: https://github.com/SteveMacenski/slam_toolbox.git
+      version: eloquent-devel
+    release:
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/SteveMacenski/slam_toolbox-release.git
+      version: 2.1.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/SteveMacenski/slam_toolbox.git
+      version: eloquent-devel
+    status: developed
   slide_show:
     release:
       tags:
