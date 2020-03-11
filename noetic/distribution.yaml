@@ -67,6 +67,22 @@ repositories:
       url: https://github.com/ros/bond_core.git
       version: kinetic-devel
     status: maintained
+  capabilities:
+    doc:
+      type: git
+      url: https://github.com/osrf/capabilities.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/capabilities-release.git
+      version: 0.3.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/osrf/capabilities.git
+      version: master
+    status: maintained
   catkin:
     doc:
       type: git
@@ -181,11 +197,20 @@ repositories:
       version: master
     status: maintained
   filters:
+    doc:
+      type: git
+      url: https://github.com/ros/filters.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/filters-release.git
+      version: 1.9.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/filters.git
-      version: lunar-devel
+      version: noetic-devel
     status: maintained
   four_wheel_steering_msgs:
     source:
@@ -283,13 +308,49 @@ repositories:
       version: kinetic-devel
     status: maintained
   geometry:
+    doc:
+      type: git
+      url: https://github.com/ros/geometry.git
+      version: noetic-devel
+    release:
+      packages:
+      - eigen_conversions
+      - geometry
+      - kdl_conversions
+      - tf
+      - tf_conversions
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/geometry-release.git
+      version: 1.13.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/geometry.git
-      version: melodic-devel
+      version: noetic-devel
     status: maintained
   geometry2:
+    doc:
+      type: git
+      url: https://github.com/ros/geometry2.git
+      version: noetic-devel
+    release:
+      packages:
+      - geometry2
+      - tf2
+      - tf2_bullet
+      - tf2_eigen
+      - tf2_geometry_msgs
+      - tf2_kdl
+      - tf2_msgs
+      - tf2_py
+      - tf2_ros
+      - tf2_sensor_msgs
+      - tf2_tools
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/geometry2-release.git
+      version: 0.7.0-1
     source:
       test_pull_requests: true
       type: git
@@ -344,7 +405,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/media_export-release.git
-      version: 0.2.0-1
+      version: 0.3.0-1
     source:
       test_pull_requests: true
       type: git
@@ -382,6 +443,18 @@ repositories:
       version: kinetic-devel
     status: maintained
   navigation_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/navigation_msgs.git
+      version: ros1
+    release:
+      packages:
+      - map_msgs
+      - move_base_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/navigation_msgs-release.git
+      version: 1.14.0-1
     source:
       type: git
       url: https://github.com/ros-planning/navigation_msgs.git
@@ -406,12 +479,6 @@ repositories:
       type: git
       url: https://github.com/ros/nodelet_core.git
       version: noetic-devel
-    status: maintained
-  orocos_kinematics_dynamics:
-    source:
-      type: git
-      url: https://github.com/orocos/orocos_kinematics_dynamics.git
-      version: master
     status: maintained
   pcl_msgs:
     source:
@@ -771,6 +838,21 @@ repositories:
       version: noetic-devel
     status: maintained
   rqt:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt.git
+      version: kinetic-devel
+    release:
+      packages:
+      - rqt
+      - rqt_gui
+      - rqt_gui_cpp
+      - rqt_gui_py
+      - rqt_py_common
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/rqt-release.git
+      version: 0.5.1-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt.git
