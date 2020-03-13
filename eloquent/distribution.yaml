@@ -894,6 +894,25 @@ repositories:
       url: https://github.com/ros-visualization/interactive_markers.git
       version: eloquent
     status: developed
+  joint_state_publisher:
+    doc:
+      type: git
+      url: https://github.com/ros/joint_state_publisher.git
+      version: ros2
+    release:
+      packages:
+      - joint_state_publisher
+      - joint_state_publisher_gui
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/ros2-gbp/joint_state_publisher-release.git
+      version: 2.0.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/joint_state_publisher.git
+      version: ros2
+    status: maintained
   joystick_drivers:
     doc:
       type: git
@@ -1072,6 +1091,35 @@ repositories:
       url: https://github.com/ros2/libyaml_vendor.git
       version: eloquent
     status: maintained
+  marti_common:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/marti_common.git
+      version: dashing-devel
+    release:
+      packages:
+      - swri_console_util
+      - swri_dbw_interface
+      - swri_geometry_util
+      - swri_image_util
+      - swri_math_util
+      - swri_opencv_util
+      - swri_prefix_tools
+      - swri_roscpp
+      - swri_route_util
+      - swri_serial_util
+      - swri_system_util
+      - swri_transform_util
+      tags:
+        release: release/eloquent/{package}/{version}
+      url: https://github.com/swri-robotics-gbp/marti_common-release.git
+      version: 3.0.5-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/swri-robotics/marti_common.git
+      version: dashing-devel
+    status: developed
   marti_messages:
     doc:
       type: git

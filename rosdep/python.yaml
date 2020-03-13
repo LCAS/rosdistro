@@ -2857,6 +2857,11 @@ python-path.py:
   ubuntu:
     pip:
       packages: [path.py]
+python-pathlib:
+  arch: [python2-pathlib]
+  debian: [python-pathlib]
+  gentoo: [dev-python/pathlib]
+  ubuntu: [python-pathlib]
 python-pathos-pip:
   debian:
     pip:
@@ -3382,16 +3387,6 @@ python-pyqrcode:
     xenial:
       pip:
         packages: [PyQRCode]
-python-pyquaternion-pip:
-  debian:
-    pip:
-      packages: [pyquaternion]
-  fedora:
-    pip:
-      packages: [pyquaternion]
-  ubuntu:
-    pip:
-      packages: [pyquaternion]
 python-pyquery:
   debian: [python-pyquery]
   fedora: [python-pyquery]
@@ -5580,6 +5575,10 @@ python3-pykdl:
     '*': [python3-pykdl]
     'bionic': null
     'xenial': null
+  fedora:
+    '*': [python3-pykdl]
+    '30': null
+    '31': null
   ubuntu:
     '*': [python3-pykdl]
     'bionic': null
