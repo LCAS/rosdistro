@@ -135,7 +135,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/common_msgs.git
-      version: jade-devel
+      version: noetic-devel
     release:
       packages:
       - actionlib_msgs
@@ -156,7 +156,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/common_msgs.git
-      version: jade-devel
+      version: noetic-devel
     status: maintained
   control_msgs:
     doc:
@@ -527,11 +527,16 @@ repositories:
       version: melodic-devel
     status: maintained
   pcl_msgs:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/pcl_msgs-release.git
+      version: 0.3.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/pcl_msgs.git
-      version: indigo-devel
+      version: noetic-devel
     status: maintained
   pluginlib:
     doc:
@@ -871,6 +876,15 @@ repositories:
       version: master
     status: maintained
   roslint:
+    doc:
+      type: git
+      url: https://github.com/ros/roslint.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/roslint-release.git
+      version: 0.12.0-1
     source:
       type: git
       url: https://github.com/ros/roslint.git
@@ -1108,6 +1122,17 @@ repositories:
       type: git
       url: https://github.com/ros/std_msgs.git
       version: kinetic-devel
+    status: maintained
+  unique_identifier:
+    release:
+      packages:
+      - unique_id
+      - unique_identifier
+      - uuid_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-geographic-info/unique_identifier-release.git
+      version: 1.0.6-1
     status: maintained
   urdf:
     doc:
