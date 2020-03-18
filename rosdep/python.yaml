@@ -3712,7 +3712,7 @@ python-rosdep:
   freebsd:
     pip:
       packages: [rosdep]
-  gentoo: [dev-python/rosdep]
+  gentoo: [dev-util/rosdep]
   openembedded: [python-rosdep@meta-ros]
   opensuse: [python-rosdep]
   osx:
@@ -3754,7 +3754,7 @@ python-rosdep-modules:
   freebsd:
     pip:
       packages: [rosdep]
-  gentoo: [dev-python/rosdep]
+  gentoo: [dev-util/rosdep]
   openembedded: [python-rosdep@meta-ros]
   opensuse: [python-rosdep]
   osx:
@@ -5590,6 +5590,12 @@ python3-pyparsing:
   gentoo: [dev-python/pyparsing]
   openembedded: [python3-pyparsing@meta-python]
   ubuntu: [python3-pyparsing]
+python3-pyproj:
+  arch: [python-pyproj]
+  debian: [python3-pyproj]
+  fedora: [python3-pyproj]
+  gentoo: [dev-python/pyproj]
+  ubuntu: [python3-pyproj]
 python3-pyqt5.qtwebengine:
   debian: [python3-pyqt5.qtwebengine]
   fedora: [python3-qt5-webengine]
