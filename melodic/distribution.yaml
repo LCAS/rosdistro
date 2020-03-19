@@ -560,7 +560,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/dpkoch/async_comm-release.git
-      version: 0.1.1-0
+      version: 0.2.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1191,7 +1191,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipa320/cob_android-release.git
-      version: 0.1.6-1
+      version: 0.1.7-1
     source:
       type: git
       url: https://github.com/ipa320/cob_android.git
@@ -1206,7 +1206,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipa320/cob_calibration_data-release.git
-      version: 0.6.13-1
+      version: 0.6.14-1
     source:
       type: git
       url: https://github.com/ipa320/cob_calibration_data.git
@@ -1228,11 +1228,12 @@ repositories:
       - cob_script_server
       - cob_teleop
       - generic_throttle
+      - scenario_test_tools
       - service_tools
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipa320/cob_command_tools-release.git
-      version: 0.6.15-1
+      version: 0.6.16-1
     source:
       type: git
       url: https://github.com/ipa320/cob_command_tools.git
@@ -1254,7 +1255,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipa320/cob_common-release.git
-      version: 0.7.1-1
+      version: 0.7.2-1
     source:
       type: git
       url: https://github.com/ipa320/cob_common.git
@@ -1277,6 +1278,7 @@ repositories:
       - cob_footprint_observer
       - cob_frame_tracker
       - cob_hardware_emulation
+      - cob_mecanum_controller
       - cob_model_identifier
       - cob_obstacle_distance
       - cob_omni_drive_controller
@@ -1286,7 +1288,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipa320/cob_control-release.git
-      version: 0.8.1-1
+      version: 0.8.10-1
     source:
       type: git
       url: https://github.com/ipa320/cob_control.git
@@ -1341,7 +1343,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipa320/cob_environments-release.git
-      version: 0.6.10-1
+      version: 0.6.11-1
     source:
       type: git
       url: https://github.com/ipa320/cob_environments.git
@@ -1363,7 +1365,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipa320/cob_extern-release.git
-      version: 0.6.14-1
+      version: 0.6.15-1
     source:
       type: git
       url: https://github.com/ipa320/cob_extern.git
@@ -1381,7 +1383,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipa320/cob_gazebo_plugins-release.git
-      version: 0.7.3-1
+      version: 0.7.4-1
     source:
       type: git
       url: https://github.com/ipa320/cob_gazebo_plugins.git
@@ -1471,7 +1473,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipa320/cob_perception_common-release.git
-      version: 0.6.14-1
+      version: 0.6.15-1
     source:
       type: git
       url: https://github.com/ipa320/cob_perception_common.git
@@ -1530,7 +1532,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipa320/cob_substitute-release.git
-      version: 0.6.8-1
+      version: 0.6.9-1
     source:
       type: git
       url: https://github.com/ipa320/cob_substitute.git
@@ -1545,7 +1547,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipa320/cob_supported_robots-release.git
-      version: 0.6.13-1
+      version: 0.6.14-1
     source:
       type: git
       url: https://github.com/ipa320/cob_supported_robots.git
@@ -1895,7 +1897,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/dcentelles/dccomms_ros_pkgs-release.git
-      version: 0.0.2-3
+      version: 0.0.3-1
     source:
       test_pull_requests: true
       type: git
@@ -2301,7 +2303,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipab-slmc/eigenpy_catkin-release.git
-      version: 1.6.9-1
+      version: 2.1.2-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -3976,6 +3978,17 @@ repositories:
       url: https://github.com/JdeRobot/assets.git
       version: kinetic-devel
     status: developed
+  jderobot_camviz:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/JdeRobot/CamViz-release.git
+      version: 0.1.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/JdeRobot/CamViz.git
+      version: master
   jderobot_color_tuner:
     release:
       tags:
@@ -4015,7 +4028,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/joint_state_publisher-release.git
-      version: 1.12.14-1
+      version: 1.12.15-1
     source:
       test_pull_requests: true
       type: git
@@ -5635,7 +5648,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/navigation-release.git
-      version: 1.16.4-1
+      version: 1.16.5-1
     source:
       test_pull_requests: true
       type: git
@@ -5771,7 +5784,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.8.0-1
+      version: 0.8.1-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -9931,7 +9944,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/slam_gmapping-release.git
-      version: 1.4.0-1
+      version: 1.4.1-1
     source:
       test_pull_requests: true
       type: git
@@ -10847,7 +10860,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/uji-ros-pkg/underwater_simulation-release.git
-      version: 1.4.2-1
+      version: 1.4.2-2
     source:
       type: git
       url: https://github.com/uji-ros-pkg/underwater_simulation.git
@@ -10987,7 +11000,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/urg_node-release.git
-      version: 0.1.11-0
+      version: 0.1.12-1
     source:
       type: git
       url: https://github.com/ros-drivers/urg_node.git
