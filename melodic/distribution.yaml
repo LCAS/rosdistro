@@ -2049,7 +2049,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/dynamic_reconfigure-release.git
-      version: 1.6.1-1
+      version: 1.6.3-1
     source:
       test_pull_requests: true
       type: git
@@ -2303,7 +2303,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipab-slmc/eigenpy_catkin-release.git
-      version: 2.1.2-1
+      version: 1.6.9-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -7787,6 +7787,11 @@ repositories:
       url: https://github.com/ros-controls/realtime_tools.git
       version: melodic-devel
     status: maintained
+  remote_rosbag_record:
+    doc:
+      type: git
+      url: https://github.com/yoshito-n-students/remote_rosbag_record.git
+      version: master
   resource_retriever:
     doc:
       type: git
