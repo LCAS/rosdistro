@@ -199,6 +199,16 @@ repositories:
       url: https://github.com/lcas-releases/pcl_conversions.git
       version: 0.2.3-1
     status: maintained
+  perception_pcl_c11:
+    release:
+      packages:
+      - pcl_ros_c11
+      - perception_pcl_c11
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/perception_pcl_c11.git
+      version: 1.4.6-1
+    status: maintained
   persistent_topics:
     release:
       tags:
