@@ -1569,7 +1569,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_android-release.git
-      version: 0.1.6-1
+      version: 0.1.7-2
     source:
       type: git
       url: https://github.com/ipa320/cob_android.git
@@ -1584,7 +1584,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_calibration_data-release.git
-      version: 0.6.13-1
+      version: 0.6.14-1
     source:
       type: git
       url: https://github.com/ipa320/cob_calibration_data.git
@@ -1606,11 +1606,12 @@ repositories:
       - cob_script_server
       - cob_teleop
       - generic_throttle
+      - scenario_test_tools
       - service_tools
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_command_tools-release.git
-      version: 0.6.15-1
+      version: 0.6.16-1
     source:
       type: git
       url: https://github.com/ipa320/cob_command_tools.git
@@ -1632,7 +1633,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_common-release.git
-      version: 0.7.1-1
+      version: 0.7.2-1
     source:
       type: git
       url: https://github.com/ipa320/cob_common.git
@@ -1655,6 +1656,7 @@ repositories:
       - cob_footprint_observer
       - cob_frame_tracker
       - cob_hardware_emulation
+      - cob_mecanum_controller
       - cob_model_identifier
       - cob_obstacle_distance
       - cob_omni_drive_controller
@@ -1664,7 +1666,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_control-release.git
-      version: 0.7.9-1
+      version: 0.7.11-1
     source:
       type: git
       url: https://github.com/ipa320/cob_control.git
@@ -1701,7 +1703,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_driver-release.git
-      version: 0.7.1-1
+      version: 0.7.3-1
     source:
       type: git
       url: https://github.com/ipa320/cob_driver.git
@@ -1719,7 +1721,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_environments-release.git
-      version: 0.6.10-1
+      version: 0.6.11-1
     source:
       type: git
       url: https://github.com/ipa320/cob_environments.git
@@ -1741,7 +1743,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_extern-release.git
-      version: 0.6.14-1
+      version: 0.6.15-1
     source:
       type: git
       url: https://github.com/ipa320/cob_extern.git
@@ -1769,7 +1771,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_gazebo_plugins-release.git
-      version: 0.7.3-1
+      version: 0.7.4-1
     source:
       type: git
       url: https://github.com/ipa320/cob_gazebo_plugins.git
@@ -1787,7 +1789,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_hand-release.git
-      version: 0.6.6-1
+      version: 0.6.7-1
     source:
       type: git
       url: https://github.com/ipa320/cob_hand.git
@@ -1859,7 +1861,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_perception_common-release.git
-      version: 0.6.14-1
+      version: 0.6.15-1
     source:
       type: git
       url: https://github.com/ipa320/cob_perception_common.git
@@ -1923,7 +1925,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_substitute-release.git
-      version: 0.6.8-1
+      version: 0.6.9-1
     source:
       type: git
       url: https://github.com/ipa320/cob_substitute.git
@@ -1938,7 +1940,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_supported_robots-release.git
-      version: 0.6.13-1
+      version: 0.6.14-1
     source:
       type: git
       url: https://github.com/ipa320/cob_supported_robots.git
@@ -3785,7 +3787,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/freenect_stack.git
-      version: master
+      version: kinetic
     status: maintained
   frontier_exploration:
     doc:
@@ -6353,16 +6355,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-perception/laser_geometry.git
-      version: indigo-devel
+      version: kinetic-devel
     release:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/laser_geometry-release.git
-      version: 1.6.4-0
+      version: 1.6.5-1
     source:
       type: git
       url: https://github.com/ros-perception/laser_geometry.git
-      version: indigo-devel
+      version: kinetic-devel
     status: maintained
   laser_pipeline:
     doc:
@@ -11179,7 +11181,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_genicam_api-release.git
-      version: 2.3.3-1
+      version: 2.3.4-1
     source:
       test_pull_requests: true
       type: git
@@ -11219,7 +11221,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/roboception-gbp/rcdiscover-release.git
-      version: 1.0.2-1
+      version: 1.0.3-1
     source:
       test_pull_requests: true
       type: git
@@ -11353,6 +11355,16 @@ repositories:
       type: git
       url: https://github.com/yoshito-n-students/remote_rosbag_record.git
       version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/yoshito-n-students/remote_rosbag_record-release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://github.com/yoshito-n-students/remote_rosbag_record.git
+      version: master
+    status: maintained
   resource_retriever:
     doc:
       type: git
@@ -12889,7 +12901,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/rosflight/rosflight-release.git
-      version: 1.0.0-1
+      version: 1.3.0-1
     source:
       test_pull_requests: true
       type: git
@@ -17542,7 +17554,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/openspur/yp-spur-release.git
-      version: 1.17.1-1
+      version: 1.18.0-1
     source:
       type: git
       url: https://github.com/openspur/yp-spur.git
