@@ -185,6 +185,13 @@ repositories:
       url: https://github.com/strands-project/openni_wrapper.git
       version: melodic-devel
     status: maintained
+  pcl_catkin_c11:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/pcl_catkin.git
+      version: 1.8.3-1
+    status: maintained
   persistent_topics:
     release:
       tags:
@@ -263,6 +270,13 @@ repositories:
       url: https://github.com/lcas-releases/robot_pose_publiser.git
       version: 0.2.4-1
     status: maintained
+  ros_numpy:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/eric-wieser/ros_numpy-release.git
+      version: 0.0.3-1
+    status: maintained
   rosduct:
     release:
       tags:
@@ -276,13 +290,6 @@ repositories:
       url: https://github.com/LCAS/rosduct.git
       version: master
     status: developed
-  ros_numpy:
-    release:
-      tags:
-        release: release/melodic/{package}/{version}
-      url: https://github.com/eric-wieser/ros_numpy-release.git
-      version: 0.0.3-1
-    status: maintained
   sandbox:
     release:
       packages:
