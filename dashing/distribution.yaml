@@ -1234,7 +1234,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/ros2-gbp/laser_proc-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2216,7 +2216,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/cra-ros-pkg/robot_localization-release.git
-      version: 3.0.2-1
+      version: 3.0.3-1
     source:
       test_pull_requests: true
       type: git
@@ -3450,6 +3450,22 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-drivers/urg_c.git
+      version: ros2-devel
+    status: maintained
+  urg_node:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/urg_node.git
+      version: ros2-devel
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros2-gbp/urg_node-release.git
+      version: 1.0.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-drivers/urg_node.git
       version: ros2-devel
     status: maintained
   urg_node_msgs:
