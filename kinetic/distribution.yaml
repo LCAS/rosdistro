@@ -1789,7 +1789,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_hand-release.git
-      version: 0.6.7-1
+      version: 0.6.8-1
     source:
       type: git
       url: https://github.com/ipa320/cob_hand.git
@@ -3604,7 +3604,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/FlexBE/flexbe_behavior_engine-release.git
-      version: 1.2.3-1
+      version: 1.2.4-1
     source:
       type: git
       url: https://github.com/team-vigir/flexbe_behavior_engine.git
@@ -7058,7 +7058,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 2.11.0-1
+      version: 2.12.0-1
     source:
       test_pull_requests: true
       type: git
@@ -11361,7 +11361,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/yoshito-n-students/remote_rosbag_record-release.git
-      version: 0.0.1-1
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/yoshito-n-students/remote_rosbag_record.git
@@ -13886,6 +13886,10 @@ repositories:
     status: developed
     status_description: pre-release-version
   rr_openrover_stack:
+    doc:
+      type: git
+      url: https://github.com/RoverRobotics/rr_openrover_stack.git
+      version: kinetic-devel
     release:
       packages:
       - rr_control_input_manager
@@ -13893,10 +13897,15 @@ repositories:
       - rr_openrover_driver
       - rr_openrover_driver_msgs
       - rr_openrover_stack
+      - rr_rover_zero_driver
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/RoverRobotics-release/rr_openrover_stack-release.git
-      version: 0.7.4-1
+      version: 0.8.0-1
+    source:
+      type: git
+      url: https://github.com/RoverRobotics/rr_openrover_stack.git
+      version: kinetic-devel
     status: maintained
   rr_swiftnav_piksi:
     doc:
