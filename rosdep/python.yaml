@@ -1487,6 +1487,19 @@ python-fcn-pip:
     pip:
       depends: [liblapack-dev]
       packages: [fcn]
+python-filterpy-pip:
+  debian:
+    pip:
+      packages: [filterpy]
+  fedora:
+    pip:
+      packages: [filterpy]
+  osx:
+    pip:
+      packages: [filterpy]
+  ubuntu:
+    pip:
+      packages: [filterpy]
 python-fixtures:
   debian: [python-fixtures]
   fedora: [python-fixtures]
@@ -3443,6 +3456,19 @@ python-pysnmp:
   fedora: [pysnmp]
   gentoo: [dev-python/pysnmp]
   ubuntu: [python-pysnmp4]
+python-pytesseract-pip:
+  debian:
+    pip:
+      packages: [pytesseract]
+  fedora:
+    pip:
+      packages: [pytesseract]
+  osx:
+    pip:
+      packages: [pytesseract]
+  ubuntu:
+    pip:
+      packages: [pytesseract]
 python-pytest:
   arch: [python2-pytest]
   debian: [python-pytest]
@@ -5284,6 +5310,19 @@ python3-empy:
   openembedded: [python3-empy@meta-ros]
   rhel: ['python%{python3_pkgversion}-empy']
   ubuntu: [python3-empy]
+python3-filterpy-pip:
+  debian:
+    pip:
+      packages: [filterpy]
+  fedora:
+    pip:
+      packages: [filterpy]
+  osx:
+    pip:
+      packages: [filterpy]
+  ubuntu:
+    pip:
+      packages: [filterpy]
 python3-flake8:
   debian:
     buster: [python3-flake8]
