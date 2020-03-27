@@ -179,8 +179,8 @@ repositories:
     status: developed
   graspberry:
     source:
-      test_commits: true
-      test_pull_requests: true
+      test_commits: false
+      test_pull_requests: false
       type: git
       url: https://github.com/LCAS/GRASPberry.git
       version: master
@@ -1287,7 +1287,7 @@ repositories:
       - thorvald_twist_mux
       tags:
         release: release/kinetic/{package}/{version}
-      url: https://github.com/LCAS/thorvald-releases.git
+      url: https://github.com/SAGARobotics/thorvald-releases.git
       version: 1.2.1-1
     source:
       test_commits: true
