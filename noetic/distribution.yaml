@@ -173,6 +173,13 @@ repositories:
       url: https://github.com/ros-controls/control_msgs.git
       version: kinetic-devel
     status: maintained
+  diagnostics:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/diagnostics.git
+      version: noetic-devel
+    status: maintained
   dynamic_reconfigure:
     doc:
       type: git
@@ -521,6 +528,25 @@ repositories:
       type: git
       url: https://github.com/ros/nodelet_core.git
       version: noetic-devel
+    status: maintained
+  octomap:
+    doc:
+      type: git
+      url: https://github.com/OctoMap/octomap.git
+      version: devel
+    release:
+      packages:
+      - dynamic_edt_3d
+      - octomap
+      - octovis
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/octomap-release.git
+      version: 1.9.5-1
+    source:
+      type: git
+      url: https://github.com/OctoMap/octomap.git
+      version: devel
     status: maintained
   octomap_msgs:
     doc:
@@ -1385,6 +1411,13 @@ repositories:
       type: git
       url: https://github.com/ros/urdf_parser_py.git
       version: melodic-devel
+    status: maintained
+  vision_opencv:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-perception/vision_opencv.git
+      version: noetic
     status: maintained
   webkit_dependency:
     doc:
