@@ -785,6 +785,20 @@ repositories:
       url: https://github.com/LCAS/rosduct.git
       version: master
     status: developed
+  saga_agrinav:
+    release:
+      packages:
+      - polytunnel_navigation_actions
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/SAGARobotics/AgriNav-release.git
+      version: 0.0.2-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/SAGARobotics/AgriNav.git
+      version: master
+    status: developed
   sandbox:
     release:
       packages:
