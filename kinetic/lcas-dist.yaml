@@ -794,6 +794,7 @@ repositories:
       url: https://github.com/SAGARobotics/AgriNav-release.git
       version: 0.0.2-1
     source:
+      test_commits: true
       test_pull_requests: true
       type: git
       url: https://github.com/SAGARobotics/AgriNav.git
