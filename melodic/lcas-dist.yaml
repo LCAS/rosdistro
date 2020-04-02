@@ -143,6 +143,13 @@ repositories:
       url: https://gitsvn-nt.oru.se/iliad/software/private_sandbox.git
       version: master
     status: developed
+  image_to_v4l2loopback:
+    source:
+      test_commits: true
+      type: git
+      url: https://github.com/lucasw/image_to_v4l2loopback.git
+      version: master
+    status: maintained
   lcas_morse:
     release:
       packages:
