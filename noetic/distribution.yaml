@@ -188,6 +188,24 @@ repositories:
       url: https://github.com/ros-controls/control_toolbox.git
       version: melodic-devel
   diagnostics:
+    doc:
+      type: git
+      url: https://github.com/ros/diagnostics.git
+      version: noetic-devel
+    release:
+      packages:
+      - diagnostic_aggregator
+      - diagnostic_analysis
+      - diagnostic_common_diagnostics
+      - diagnostic_updater
+      - diagnostics
+      - rosdiagnostic
+      - self_test
+      - test_diagnostic_aggregator
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/diagnostics-release.git
+      version: 1.9.4-1
     source:
       test_pull_requests: true
       type: git
@@ -418,7 +436,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: hydro-devel
+      version: noetic-devel
     status: maintained
   joint_state_publisher:
     doc:
@@ -505,6 +523,13 @@ repositories:
       type: git
       url: https://github.com/ros/message_runtime.git
       version: kinetic-devel
+    status: maintained
+  navigation:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-planning/navigation.git
+      version: noetic-devel
     status: maintained
   navigation_msgs:
     doc:
@@ -1422,6 +1447,15 @@ repositories:
       version: kinetic-devel
     status: developed
   urdfdom_py:
+    doc:
+      type: git
+      url: https://github.com/ros/urdf_parser_py.git
+      version: melodic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/urdfdom_py-release.git
+      version: 0.4.3-1
     source:
       type: git
       url: https://github.com/ros/urdf_parser_py.git
