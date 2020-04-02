@@ -279,6 +279,11 @@ repositories:
       version: master
     status: developed
   realsense_gazebo_plugin:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/realsense_gazebo_plugin.git
+      version: 0.0.1-1
     source:
       test_commits: true
       test_pull_requests: true
