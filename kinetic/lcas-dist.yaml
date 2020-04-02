@@ -694,8 +694,8 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/RASberry.git
-      version: master
-    status: developed
+      version: kinetic-devel
+    status: maintained
   realsense_ros:
     release:
       packages:
