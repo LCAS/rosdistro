@@ -147,7 +147,7 @@ repositories:
     source:
       test_commits: true
       type: git
-      url: https://github.com/lucasw/image_to_v4l2loopback.git
+      url: https://github.com/LCAS/image_to_v4l2loopback.git
       version: master
     status: maintained
   lcas_morse:
