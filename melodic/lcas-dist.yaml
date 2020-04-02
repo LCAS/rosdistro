@@ -144,6 +144,11 @@ repositories:
       version: master
     status: developed
   image_to_v4l2loopback:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/image_to_v4l2loopback.git
+      version: 0.1.1-1
     source:
       test_commits: true
       test_pull_requests: true
