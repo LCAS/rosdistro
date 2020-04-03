@@ -158,6 +158,27 @@ repositories:
       url: https://github.com/ros/common_msgs.git
       version: noetic-devel
     status: maintained
+  common_tutorials:
+    doc:
+      type: git
+      url: https://github.com/ros/common_tutorials.git
+      version: noetic-devel
+    release:
+      packages:
+      - actionlib_tutorials
+      - common_tutorials
+      - nodelet_tutorial_math
+      - pluginlib_tutorials
+      - turtle_actionlib
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/common_tutorials-release.git
+      version: 0.1.12-1
+    source:
+      type: git
+      url: https://github.com/ros/common_tutorials.git
+      version: noetic-devel
+    status: maintained
   control_msgs:
     doc:
       type: git
@@ -416,6 +437,25 @@ repositories:
       url: https://github.com/ros/geometry2.git
       version: melodic-devel
     status: maintained
+  geometry_tutorials:
+    doc:
+      type: git
+      url: https://github.com/ros/geometry_tutorials.git
+      version: kinetic-devel
+    release:
+      packages:
+      - geometry_tutorials
+      - turtle_tf
+      - turtle_tf2
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/geometry_tutorials-release.git
+      version: 0.2.3-1
+    source:
+      type: git
+      url: https://github.com/ros/geometry_tutorials.git
+      version: kinetic-devel
+    status: maintained
   gl_dependency:
     doc:
       type: git
@@ -525,6 +565,32 @@ repositories:
       version: kinetic-devel
     status: maintained
   navigation:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/navigation.git
+      version: noetic-devel
+    release:
+      packages:
+      - amcl
+      - base_local_planner
+      - carrot_planner
+      - clear_costmap_recovery
+      - costmap_2d
+      - dwa_local_planner
+      - fake_localization
+      - global_planner
+      - map_server
+      - move_base
+      - move_slow_and_clear
+      - nav_core
+      - navfn
+      - navigation
+      - rotate_recovery
+      - voxel_grid
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/navigation-release.git
+      version: 1.17.0-1
     source:
       test_pull_requests: true
       type: git
@@ -729,6 +795,38 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/roboception/rc_common_msgs.git
+      version: master
+    status: developed
+  rc_dynamics_api:
+    doc:
+      type: git
+      url: https://github.com/roboception/rc_dynamics_api.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/roboception-gbp/rc_dynamics_api-release.git
+      version: 0.10.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/roboception/rc_dynamics_api.git
+      version: master
+    status: developed
+  rc_genicam_api:
+    doc:
+      type: git
+      url: https://github.com/roboception/rc_genicam_api.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/roboception-gbp/rc_genicam_api-release.git
+      version: 2.3.4-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/roboception/rc_genicam_api.git
       version: master
     status: developed
   rcdiscover:
@@ -1386,6 +1484,13 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/rqt_web.git
       version: master
+    status: maintained
+  srdfdom:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-planning/srdfdom.git
+      version: noetic-devel
     status: maintained
   std_msgs:
     doc:
