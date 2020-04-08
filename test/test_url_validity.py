@@ -30,7 +30,7 @@ from .fold_block import Fold
 
 UPSTREAM_NAME = 'unittest_upstream_comparision'
 DIFF_BRANCH = 'master'
-DIFF_REPO = 'https://github.com/ros/rosdistro.git'
+DIFF_REPO = 'https://github.com/LCAS/rosdistro.git'
 
 
 TARGET_FILE_BLACKLIST = []
@@ -104,7 +104,7 @@ def check_git_remote_exists(url, version, tags_valid=False, commits_valid=False)
             return (True, '')
         else:
             error_str = 'Tags are not valid, but a tag %s was found. ' % version
-            error_str += 'Re: https://github.com/ros/rosdistro/pull/20286'
+            error_str += 'Re: https://github.com/LCAS/rosdistro/pull/20286'
             return (False, error_str)
 
     branch_match = False
@@ -131,7 +131,7 @@ def check_git_remote_exists(url, version, tags_valid=False, commits_valid=False)
             return (True, '')
         else:
             error_str = 'Commits are not valid, but a commit %s was found. ' % version
-            error_str += 'Re: https://github.com/ros/rosdistro/pull/20286'
+            error_str += 'Re: https://github.com/LCAS/rosdistro/pull/20286'
             return (False, error_str)
 
     # Commits take priority only check for the branch after checking for tags and commits first
