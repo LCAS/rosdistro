@@ -1562,7 +1562,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mikeferguson/code_coverage-gbp.git
-      version: 0.3.0-1
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/mikeferguson/code_coverage.git
@@ -2303,7 +2303,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipab-slmc/eigenpy_catkin-release.git
-      version: 2.2.2-1
+      version: 2.3.0-4
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -2356,6 +2356,16 @@ repositories:
       url: https://github.com/shadow-robot/ethercat_grant.git
       version: melodic-devel
     status: maintained
+  euslime:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/jsk-ros-pkg/euslime-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/euslime.git
+      version: master
   euslisp:
     doc:
       type: git
@@ -2848,7 +2858,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/four_wheel_steering_msgs-release.git
-      version: 1.0.0-0
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/ros-drivers/four_wheel_steering_msgs.git
@@ -3400,7 +3410,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/HebiRobotics/hebi_cpp_api_ros-release.git
-      version: 3.1.1-1
+      version: 3.2.0-1
     source:
       type: git
       url: https://github.com/HebiRobotics/hebi_cpp_api_ros.git
@@ -3429,6 +3439,22 @@ repositories:
         release: release/melodic/{package}/{version}
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_gazebo-release.git
       version: 0.5.1-0
+    status: maintained
+  hector_localization:
+    release:
+      packages:
+      - hector_localization
+      - hector_pose_estimation
+      - hector_pose_estimation_core
+      - message_to_tf
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_localization-release.git
+      version: 0.3.0-1
+    source:
+      type: git
+      url: https://github.com/tu-darmstadt-ros-pkg/hector_localization.git
+      version: catkin
     status: maintained
   hector_models:
     doc:
@@ -3850,17 +3876,17 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-visualization/interactive_markers.git
-      version: indigo-devel
+      version: kinetic-devel
     release:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/interactive_markers-release.git
-      version: 1.11.4-0
+      version: 1.11.5-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/interactive_markers.git
-      version: indigo-devel
+      version: kinetic-devel
     status: maintained
   ipr_extern:
     doc:
@@ -4984,7 +5010,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2020.3.3-1
+      version: 2020.4.4-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -5005,7 +5031,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 1.0.0-1
+      version: 1.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5021,7 +5047,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/at-wat/mcl_3dl-release.git
-      version: 0.2.2-1
+      version: 0.2.3-1
     source:
       type: git
       url: https://github.com/at-wat/mcl_3dl.git
@@ -5254,7 +5280,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/uos-gbp/move_base_flex-release.git
-      version: 0.3.0-1
+      version: 0.3.1-1
     source:
       type: git
       url: https://github.com/magazino/move_base_flex.git
@@ -5850,7 +5876,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.8.1-1
+      version: 0.8.2-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -6073,6 +6099,12 @@ repositories:
     source:
       type: git
       url: https://github.com/swri-robotics/novatel_gps_driver.git
+      version: master
+    status: developed
+  novatel_oem7_driver:
+    source:
+      type: git
+      url: https://github.com/novatel/novatel_oem7_driver.git
       version: master
     status: developed
   novatel_span_driver:
@@ -6980,6 +7012,27 @@ repositories:
       type: git
       url: https://github.com/ros-perception/pointcloud_to_laserscan.git
       version: lunar-devel
+    status: maintained
+  pointgrey_camera_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/pointgrey_camera_driver.git
+      version: master
+    release:
+      packages:
+      - image_exposure_msgs
+      - pointgrey_camera_description
+      - pointgrey_camera_driver
+      - statistics_msgs
+      - wfov_camera_msgs
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/pointgrey_camera_driver-release.git
+      version: 0.14.0-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/pointgrey_camera_driver.git
+      version: master
     status: maintained
   pose_cov_ops:
     doc:
@@ -8101,7 +8154,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/peci1/robot_body_filter-release.git
-      version: 1.1.6-1
+      version: 1.1.8-1
     source:
       type: git
       url: https://github.com/peci1/robot_body_filter.git
@@ -8376,7 +8429,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/StefanFabian/ros_babel_fish-release.git
-      version: 0.8.0-2
+      version: 0.8.0-3
     source:
       type: git
       url: https://github.com/StefanFabian/ros_babel_fish.git
@@ -11029,7 +11082,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/uji-ros-pkg/underwater_simulation-release.git
-      version: 1.4.2-2
+      version: 1.4.2-3
     source:
       type: git
       url: https://github.com/uji-ros-pkg/underwater_simulation.git
@@ -11087,7 +11140,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/urdf_geometry_parser-release.git
-      version: 0.0.3-0
+      version: 0.1.0-1
     source:
       type: git
       url: https://github.com/ros-controls/urdf_geometry_parser.git
@@ -11138,7 +11191,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/urdfdom_py-release.git
-      version: 0.4.2-1
+      version: 0.4.3-1
     source:
       test_pull_requests: true
       type: git
@@ -11184,7 +11237,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/seqsense/urg_stamped-release.git
-      version: 0.0.4-1
+      version: 0.0.5-1
     source:
       type: git
       url: https://github.com/seqsense/urg_stamped.git
@@ -11890,7 +11943,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/openspur/yp-spur-release.git
-      version: 1.18.0-1
+      version: 1.18.1-1
     source:
       type: git
       url: https://github.com/openspur/yp-spur.git
