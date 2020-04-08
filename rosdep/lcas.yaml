@@ -2,8 +2,6 @@ clang:
   ubuntu: [clang]
 coinor-solvers:
   ubuntu: [coinor-libcbc-dev, coinor-libclp-dev, coinor-libcoinutils-dev, coinor-libcgl-dev, coinor-libosi-dev]
-cuda_latest:
-  ubuntu: [cuda, nvidia-modprobe]
 cuda_10_0:
   ubuntu: [cuda-10-0, nvidia-modprobe]
 cuda_10_1:
@@ -18,6 +16,8 @@ cuda_9_1:
   ubuntu: [cuda-9-1, nvidia-modprobe]
 cuda_9_2:
   ubuntu: [cuda-9-2, nvidia-modprobe]
+cuda_latest:
+  ubuntu: [cuda, nvidia-modprobe]
 cudnn:
   ubuntu: [libcudnn7, libcudnn7-dev, nvidia-modprobe]
 cvb:
@@ -60,10 +60,10 @@ libsvm:
   ubuntu: [libsvm-dev]
 mira-scitos:
   ubuntu:
+    bionic: [mira-scitos]
     precise: [mira-scitos]
     trusty: [mira-scitos]
     xenial: [mira-scitos]
-    bionic: [mira-scitos]
 mongo-cxx-driver:
   ubuntu:
     trusty: [mongo-cxx-driver]
@@ -71,7 +71,7 @@ morse-blender-bundle:
   ubuntu:
     precise: [morse-blender-2.65-py-3.3]
 opencl_latest:
- ubuntu: [opencl-headers, nvidia-opencl-dev]
+  ubuntu: [opencl-headers, nvidia-opencl-dev]
 openjdk-8:
   ubuntu: [openjdk-8-jdk]
 prism-robots:
@@ -99,14 +99,14 @@ rubygem-jekyll:
   ubuntu: [rubygem-jekyll]
 strands-morse-simulator:
   ubuntu:
+    bionic: [morse-simulator]
     trusty: [strands-morse-simulator]
     xenial: [morse-blender-2.65-py-3.3]
-    bionic: [morse-simulator]
 strands-twython:
-  ubuntu: 
+  ubuntu:
+    bionic: [python-twython]
     trusty: [python-strands-twython]
     xenial: [python-twython]
-    bionic: [python-twython]
 theano:
   ubuntu: [python-theano]
 tmule:
