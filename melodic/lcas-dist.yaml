@@ -725,6 +725,14 @@ repositories:
       version: melodic-devel
     status: developed
   topological_navigation:
+    release:
+      packages:
+      - topological_navigation
+      - topological_utils
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/topological_navigation.git
+      version: 1.1.1-1
     source:
       test_commits: true
       test_pull_requests: true
