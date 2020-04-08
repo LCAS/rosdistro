@@ -1450,7 +1450,7 @@ repositories:
       test_commits: true
       test_pull_requests: true
       type: git
-      url: https://github.com/dan11003/velodyne_pointcloud_oru
+      url: https://github.com/dan11003/velodyne_pointcloud_oru.git
       version: master
     status: maintained
   velodyne_simulator8:
