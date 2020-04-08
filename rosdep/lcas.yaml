@@ -98,7 +98,7 @@ python-pywt:
     lucid: []
     maverick: []
     natty: []
-    oneiric: []  
+    oneiric: []
 python-strands-requests:
   ubuntu: [python-requests]
 python-webpy:
