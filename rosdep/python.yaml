@@ -5057,19 +5057,6 @@ python-wstool:
   gentoo: [dev-python/wstool]
   macports: [py27-wstool]
   ubuntu: [python-wstool]
-python-pywt:
-  suse: [python-pywavelets]
-  debian: [python-pywt]
-  fedora: [python-pywt]
-  osx:
-    pip:
-      packages: [PyWavelets]
-  ubuntu:
-    '*': [python-pywt]
-    lucid: []
-    maverick: []
-    natty: []
-    oneiric: []  
 python-wtforms:
   debian: [python-wtforms]
   fedora: [python-wtforms]

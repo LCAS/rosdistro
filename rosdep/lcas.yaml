@@ -87,6 +87,18 @@ python-pydispatcher:
   ubuntu: [python-pydispatcher]
 python-pykalman-apt:
   ubuntu: [python-pykalman]
+python-pywt:
+  debian: [python-pywt]
+  fedora: [python-pywt]
+  osx:
+    pip:
+      packages: [PyWavelets]
+  ubuntu:
+    '*': [python-pywt]
+    lucid: []
+    maverick: []
+    natty: []
+    oneiric: []  
 python-strands-requests:
   ubuntu: [python-requests]
 python-webpy:
