@@ -1,5 +1,3 @@
-clang:
-  ubuntu: [clang]
 coinor-solvers:
   ubuntu: [coinor-libcbc-dev, coinor-libclp-dev, coinor-libcoinutils-dev, coinor-libcgl-dev, coinor-libosi-dev]
 cuda_10_0:
@@ -101,10 +99,6 @@ python-pywt:
     oneiric: []
 python-strands-requests:
   ubuntu: [python-requests]
-python-webpy:
-  ubuntu: [python-webpy]
-python-ws4py:
-  ubuntu: [python-ws4py]
 realsense2-sdk:
   ubuntu: [librealsense2-dev, librealsense2-dkms, librealsense2-utils]
 rubygem-jekyll:
