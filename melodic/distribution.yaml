@@ -3544,6 +3544,21 @@ repositories:
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
       version: devel
     status: developed
+  hrpsys:
+    doc:
+      type: git
+      url: https://github.com/fkanehiro/hrpsys-base.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/tork-a/hrpsys-release.git
+      version: 315.15.0-2
+    source:
+      type: git
+      url: https://github.com/fkanehiro/hrpsys-base.git
+      version: master
+    status: maintained
   husky:
     doc:
       type: git
@@ -4141,9 +4156,11 @@ repositories:
       - assimp_devel
       - bayesian_belief_networks
       - collada_urdf_jsk_patch
+      - dialogflow_task_executive
       - downward
       - ff
       - ffha
+      - gdrive_ros
       - jsk_3rdparty
       - julius
       - julius_ros
@@ -4160,12 +4177,13 @@ repositories:
       - rospatlite
       - rosping
       - rostwitter
+      - sesame_ros
       - slic
       - voice_text
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tork-a/jsk_3rdparty-release.git
-      version: 2.1.13-1
+      version: 2.1.17-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
@@ -6537,7 +6555,11 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tork-a/openrtm_aist-release.git
-      version: 1.1.2-3
+      version: 1.1.2-7
+    source:
+      type: git
+      url: https://github.com/tork-a/openrtm_aist-release.git
+      version: release/melodic/openrtm_aist
     status: developed
   openrtm_aist_python:
     doc:
@@ -8601,7 +8623,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/ros_control-release.git
-      version: 0.17.0-1
+      version: 0.18.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros_control.git
