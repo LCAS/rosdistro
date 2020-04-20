@@ -614,11 +614,10 @@ repositories:
       - strands_navigation
       - strands_navigation_msgs
       - topological_logging_manager
-      - topological_rviz_tools
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/strands-project-releases/strands_navigation.git
-      version: 1.2.0-1
+      version: 2.0.0-1
     source:
       test_commits: true
       test_pull_requests: true
