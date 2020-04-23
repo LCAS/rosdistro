@@ -33,6 +33,16 @@ repositories:
       url: https://github.com/ros-industrial/abb.git
       version: kinetic
     status: developed
+  abb_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/abb_driver.git
+      version: kinetic-devel
+    source:
+      type: git
+      url: https://github.com/ros-industrial/abb_driver.git
+      version: kinetic-devel
+    status: maintained
   abb_experimental:
     doc:
       type: git
@@ -7704,7 +7714,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mikeferguson/moveit_python-release.git
-      version: 0.3.3-1
+      version: 0.3.4-1
     source:
       type: git
       url: https://github.com/mikeferguson/moveit_python.git

@@ -829,6 +829,21 @@ repositories:
       url: https://github.com/OctoMap/octomap_msgs.git
       version: melodic-devel
     status: maintained
+  open_karto:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/open_karto.git
+      version: melodic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/open_karto-release.git
+      version: 1.2.0-1
+    source:
+      type: git
+      url: https://github.com/ros-perception/open_karto.git
+      version: melodic-devel
+    status: maintained
   pcl_msgs:
     release:
       tags:
@@ -1154,6 +1169,16 @@ repositories:
       type: git
       url: https://github.com/ros/ros_comm_msgs.git
       version: kinetic-devel
+    status: maintained
+  ros_control:
+    doc:
+      type: git
+      url: https://github.com/ros-controls/ros_control.git
+      version: noetic-devel
+    source:
+      type: git
+      url: https://github.com/ros-controls/ros_control.git
+      version: noetic-devel
     status: maintained
   ros_environment:
     doc:
@@ -1715,6 +1740,21 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/rqt_web.git
       version: master
+    status: maintained
+  slam_karto:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/slam_karto.git
+      version: melodic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/slam_karto-release.git
+      version: 0.8.1-1
+    source:
+      type: git
+      url: https://github.com/ros-perception/slam_karto.git
+      version: melodic-devel
     status: maintained
   sparse_bundle_adjustment:
     doc:
