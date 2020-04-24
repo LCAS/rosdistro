@@ -280,6 +280,21 @@ repositories:
       url: https://github.com/ros/eigen_stl_containers.git
       version: master
     status: maintained
+  eigenpy:
+    doc:
+      type: git
+      url: https://github.com/stack-of-tasks/eigenpy.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ipab-slmc/eigenpy_catkin-release.git
+      version: 2.3.2-1
+    source:
+      type: git
+      url: https://github.com/stack-of-tasks/eigenpy.git
+      version: master
+    status: developed
   executive_smach:
     source:
       test_pull_requests: true
@@ -795,6 +810,21 @@ repositories:
       url: https://github.com/ros/nodelet_core.git
       version: noetic-devel
     status: maintained
+  object_recognition_msgs:
+    doc:
+      type: git
+      url: https://github.com/wg-perception/object_recognition_msgs.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/object_recognition_msgs-release.git
+      version: 0.4.2-1
+    source:
+      type: git
+      url: https://github.com/wg-perception/object_recognition_msgs.git
+      version: noetic-devel
+    status: maintained
   octomap:
     doc:
       type: git
@@ -814,6 +844,24 @@ repositories:
       url: https://github.com/OctoMap/octomap.git
       version: devel
     status: maintained
+  octomap_mapping:
+    doc:
+      type: git
+      url: https://github.com/OctoMap/octomap_mapping.git
+      version: kinetic-devel
+    release:
+      packages:
+      - octomap_mapping
+      - octomap_server
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/octomap_mapping-release.git
+      version: 0.6.5-1
+    source:
+      type: git
+      url: https://github.com/OctoMap/octomap_mapping.git
+      version: kinetic-devel
+    status: maintained
   octomap_msgs:
     doc:
       type: git
@@ -823,12 +871,27 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/octomap_msgs-release.git
-      version: 0.3.4-1
+      version: 0.3.5-1
     source:
       type: git
       url: https://github.com/OctoMap/octomap_msgs.git
       version: melodic-devel
     status: maintained
+  octomap_ros:
+    doc:
+      type: git
+      url: https://github.com/OctoMap/octomap_ros.git
+      version: melodic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/octomap_ros-release.git
+      version: 0.4.1-1
+    source:
+      type: git
+      url: https://github.com/OctoMap/octomap_ros.git
+      version: melodic-devel
+    status: unmaintained
   open_karto:
     doc:
       type: git
@@ -1175,6 +1238,23 @@ repositories:
       type: git
       url: https://github.com/ros-controls/ros_control.git
       version: noetic-devel
+    release:
+      packages:
+      - combined_robot_hw
+      - combined_robot_hw_tests
+      - controller_interface
+      - controller_manager
+      - controller_manager_msgs
+      - controller_manager_tests
+      - hardware_interface
+      - joint_limits_interface
+      - ros_control
+      - rqt_controller_manager
+      - transmission_interface
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/ros_control-release.git
+      version: 0.19.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros_control.git
