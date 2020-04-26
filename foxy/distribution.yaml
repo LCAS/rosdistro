@@ -138,13 +138,29 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/ament_package-release.git
-      version: 0.8.5-1
+      version: 0.9.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_package.git
       version: master
     status: developed
+  class_loader:
+    doc:
+      type: git
+      url: https://github.com/ros/class_loader.git
+      version: ros2
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/class_loader-release.git
+      version: 2.0.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/class_loader.git
+      version: ros2
+    status: maintained
   console_bridge_vendor:
     doc:
       type: git
@@ -175,6 +191,19 @@ repositories:
       type: git
       url: https://github.com/ros2/eigen3_cmake_module.git
       version: master
+    status: maintained
+  fastcdr:
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/fastcdr-release.git
+      version: 1.0.13-1
+    source:
+      test_commits: false
+      test_pull_requests: false
+      type: git
+      url: https://github.com/eProsima/Fast-CDR.git
+      version: v1.0.13
     status: maintained
   googletest:
     release:
@@ -275,6 +304,22 @@ repositories:
       url: https://github.com/osrf/osrf_testing_tools_cpp.git
       version: master
     status: maintained
+  pluginlib:
+    doc:
+      type: git
+      url: https://github.com/ros/pluginlib.git
+      version: ros2
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/pluginlib-release.git
+      version: 2.5.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/pluginlib.git
+      version: ros2
+    status: maintained
   python_cmake_module:
     doc:
       type: git
@@ -310,6 +355,21 @@ repositories:
       url: https://github.com/ros2/rcl_logging.git
       version: master
     status: maintained
+  rcpputils:
+    doc:
+      type: git
+      url: https://github.com/ros2/rcpputils.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rcpputils-release.git
+      version: 0.3.0-2
+    source:
+      type: git
+      url: https://github.com/ros2/rcpputils.git
+      version: master
+    status: developed
   rcutils:
     doc:
       type: git
@@ -345,6 +405,40 @@ repositories:
       url: https://github.com/ros2/rmw.git
       version: master
     status: maintained
+  rmw_connext:
+    doc:
+      type: git
+      url: https://github.com/ros2/rmw_connext.git
+      version: master
+    release:
+      packages:
+      - rmw_connext_cpp
+      - rmw_connext_shared_cpp
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rmw_connext-release.git
+      version: 0.9.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rmw_connext.git
+      version: master
+    status: maintained
+  ros2_tracing:
+    release:
+      packages:
+      - tracetools
+      - tracetools_read
+      - tracetools_trace
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://gitlab.com/micro-ROS/ros_tracing/ros2_tracing-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://gitlab.com/micro-ROS/ros_tracing/ros2_tracing.git
+      version: foxy
+    status: developed
   ros_workspace:
     release:
       tags:
@@ -401,6 +495,81 @@ repositories:
       url: https://github.com/ros2/rosidl_dds.git
       version: master
     status: maintained
+  rosidl_defaults:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl_defaults.git
+      version: master
+    release:
+      packages:
+      - rosidl_default_generators
+      - rosidl_default_runtime
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rosidl_defaults-release.git
+      version: 0.9.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl_defaults.git
+      version: master
+    status: maintained
+  rosidl_python:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl_python.git
+      version: master
+    release:
+      packages:
+      - rosidl_generator_py
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rosidl_python-release.git
+      version: 0.9.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl_python.git
+      version: master
+    status: maintained
+  rosidl_typesupport:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl_typesupport.git
+      version: master
+    release:
+      packages:
+      - rosidl_typesupport_c
+      - rosidl_typesupport_cpp
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rosidl_typesupport-release.git
+      version: 0.9.0-2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl_typesupport.git
+      version: master
+    status: maintained
+  rosidl_typesupport_connext:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl_typesupport_connext.git
+      version: master
+    release:
+      packages:
+      - connext_cmake_module
+      - rosidl_typesupport_connext_c
+      - rosidl_typesupport_connext_cpp
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rosidl_typesupport_connext-release.git
+      version: 0.9.0-1
+    source:
+      type: git
+      url: https://github.com/ros2/rosidl_typesupport_connext.git
+      version: master
+    status: maintained
   spdlog_vendor:
     release:
       tags:
@@ -454,6 +623,22 @@ repositories:
     source:
       type: git
       url: https://github.com/ament/uncrustify_vendor.git
+      version: master
+    status: maintained
+  unique_identifier_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros2/unique_identifier_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/unique_identifier_msgs-release.git
+      version: 2.1.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/unique_identifier_msgs.git
       version: master
     status: maintained
 type: distribution
