@@ -206,6 +206,17 @@ repositories:
       url: https://github.com/ros2/console_bridge_vendor.git
       version: master
     status: maintained
+  cyclonedds:
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/cyclonedds-release.git
+      version: 0.5.1-2
+    source:
+      type: git
+      url: https://github.com/eclipse-cyclonedds/cyclonedds.git
+      version: master
+    status: maintained
   eigen3_cmake_module:
     doc:
       type: git
@@ -234,6 +245,19 @@ repositories:
       url: https://github.com/eProsima/Fast-CDR.git
       version: v1.0.13
     status: maintained
+  fastrtps:
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/fastrtps-release.git
+      version: 2.0.0-2
+    source:
+      test_commits: false
+      test_pull_requests: false
+      type: git
+      url: https://github.com/eProsima/Fast-RTPS.git
+      version: 9c28edc805863117d500ebb7aef86d509471ebd8
+    status: maintained
   foonathan_memory_vendor:
     release:
       tags:
@@ -257,6 +281,22 @@ repositories:
     source:
       type: git
       url: https://github.com/ament/googletest.git
+      version: ros2
+    status: maintained
+  kdl_parser:
+    doc:
+      type: git
+      url: https://github.com/ros2/kdl_parser.git
+      version: ros2
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/kdl_parser-release.git
+      version: 2.3.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/kdl_parser.git
       version: ros2
     status: maintained
   launch:
@@ -298,6 +338,21 @@ repositories:
       url: https://github.com/IntelRealSense/librealsense.git
       version: ros2debian
     status: maintained
+  libstatistics_collector:
+    doc:
+      type: git
+      url: https://github.com/ros-tooling/libstatistics_collector.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros-tooling/libstatistics_collector-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-tooling/libstatistics_collector.git
+      version: foxy-devel
+    status: developed
   libyaml_vendor:
     release:
       tags:
@@ -309,6 +364,24 @@ repositories:
       type: git
       url: https://github.com/ros2/libyaml_vendor.git
       version: master
+    status: maintained
+  orocos_kinematics_dynamics:
+    doc:
+      type: git
+      url: https://github.com/ros2/orocos_kinematics_dynamics.git
+      version: ros2
+    release:
+      packages:
+      - orocos_kdl
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/orocos_kinematics_dynamics-release.git
+      version: 3.3.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/orocos_kinematics_dynamics.git
+      version: ros2
     status: maintained
   osrf_pycommon:
     doc:
@@ -375,6 +448,27 @@ repositories:
       url: https://github.com/ros2/python_cmake_module.git
       version: master
     status: developed
+  rcl:
+    doc:
+      type: git
+      url: https://github.com/ros2/rcl.git
+      version: master
+    release:
+      packages:
+      - rcl
+      - rcl_action
+      - rcl_lifecycle
+      - rcl_yaml_param_parser
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rcl-release.git
+      version: 0.9.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rcl.git
+      version: master
+    status: maintained
   rcl_interfaces:
     doc:
       type: git
@@ -505,6 +599,42 @@ repositories:
       url: https://github.com/ros2/rmw_dds_common.git
       version: master
     status: maintained
+  rmw_fastrtps:
+    doc:
+      type: git
+      url: https://github.com/ros2/rmw_fastrtps.git
+      version: master
+    release:
+      packages:
+      - rmw_fastrtps_cpp
+      - rmw_fastrtps_dynamic_cpp
+      - rmw_fastrtps_shared_cpp
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rmw_fastrtps-release.git
+      version: 0.9.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rmw_fastrtps.git
+      version: master
+    status: developed
+  rmw_implementation:
+    doc:
+      type: git
+      url: https://github.com/ros2/rmw_implementation.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rmw_implementation-release.git
+      version: 0.9.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rmw_implementation.git
+      version: master
+    status: developed
   ros2_tracing:
     release:
       packages:
@@ -613,6 +743,22 @@ repositories:
       url: https://github.com/ros2/rosidl_python.git
       version: master
     status: maintained
+  rosidl_runtime_py:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl_runtime_py.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rosidl_runtime_py-release.git
+      version: 0.9.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl_runtime_py.git
+      version: master
+    status: maintained
   rosidl_typesupport:
     doc:
       type: git
@@ -651,6 +797,26 @@ repositories:
       url: https://github.com/ros2/rosidl_typesupport_connext.git
       version: master
     status: maintained
+  rosidl_typesupport_fastrtps:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl_typesupport_fastrtps.git
+      version: master
+    release:
+      packages:
+      - fastrtps_cmake_module
+      - rosidl_typesupport_fastrtps_c
+      - rosidl_typesupport_fastrtps_cpp
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rosidl_typesupport_fastrtps-release.git
+      version: 0.9.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl_typesupport_fastrtps.git
+      version: master
+    status: developed
   spdlog_vendor:
     release:
       tags:
