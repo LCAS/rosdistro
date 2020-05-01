@@ -232,6 +232,22 @@ repositories:
       url: https://github.com/ros2/eigen3_cmake_module.git
       version: master
     status: maintained
+  example_interfaces:
+    doc:
+      type: git
+      url: https://github.com/ros2/example_interfaces.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/example_interfaces-release.git
+      version: 0.8.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/example_interfaces.git
+      version: master
+    status: maintained
   fastcdr:
     release:
       tags:
@@ -269,6 +285,35 @@ repositories:
       url: https://github.com/eProsima/foonathan_memory_vendor.git
       version: master
     status: maintained
+  geometry2:
+    doc:
+      type: git
+      url: https://github.com/ros2/geometry2.git
+      version: ros2
+    release:
+      packages:
+      - examples_tf2_py
+      - geometry2
+      - tf2
+      - tf2_bullet
+      - tf2_eigen
+      - tf2_geometry_msgs
+      - tf2_kdl
+      - tf2_msgs
+      - tf2_py
+      - tf2_ros
+      - tf2_sensor_msgs
+      - tf2_tools
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/geometry2-release.git
+      version: 0.13.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/geometry2.git
+      version: ros2
+    status: maintained
   googletest:
     release:
       packages:
@@ -281,6 +326,22 @@ repositories:
     source:
       type: git
       url: https://github.com/ament/googletest.git
+      version: ros2
+    status: maintained
+  interactive_markers:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/interactive_markers.git
+      version: ros2
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/interactive_markers-release.git
+      version: 2.1.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/interactive_markers.git
       version: ros2
     status: maintained
   kdl_parser:
@@ -297,6 +358,22 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/kdl_parser.git
+      version: ros2
+    status: maintained
+  laser_geometry:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/laser_geometry.git
+      version: ros2
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/laser_geometry-release.git
+      version: 2.2.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-perception/laser_geometry.git
       version: ros2
     status: maintained
   launch:
@@ -321,6 +398,26 @@ repositories:
       url: https://github.com/ros2/launch.git
       version: master
     status: developed
+  launch_ros:
+    doc:
+      type: git
+      url: https://github.com/ros2/launch_ros.git
+      version: master
+    release:
+      packages:
+      - launch_ros
+      - launch_testing_ros
+      - ros2launch
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/launch_ros-release.git
+      version: 0.10.0-2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/launch_ros.git
+      version: master
+    status: maintained
   librealsense:
     doc:
       type: git
@@ -364,6 +461,41 @@ repositories:
       type: git
       url: https://github.com/ros2/libyaml_vendor.git
       version: master
+    status: maintained
+  message_filters:
+    doc:
+      type: git
+      url: https://github.com/ros2/message_filters.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/ros2_message_filters-release.git
+      version: 3.2.3-2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/message_filters.git
+      version: master
+    status: maintained
+  navigation_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/navigation_msgs.git
+      version: ros2
+    release:
+      packages:
+      - map_msgs
+      - move_base_msgs
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/navigation_msgs-release.git
+      version: 2.0.2-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-planning/navigation_msgs.git
+      version: ros2
     status: maintained
   orocos_kinematics_dynamics:
     doc:
@@ -514,6 +646,43 @@ repositories:
       url: https://github.com/ros2/rcl_logging.git
       version: master
     status: maintained
+  rclcpp:
+    doc:
+      type: git
+      url: https://github.com/ros2/rclcpp.git
+      version: master
+    release:
+      packages:
+      - rclcpp
+      - rclcpp_action
+      - rclcpp_components
+      - rclcpp_lifecycle
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rclcpp-release.git
+      version: 0.9.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rclcpp.git
+      version: master
+    status: maintained
+  rclpy:
+    doc:
+      type: git
+      url: https://github.com/ros2/rclpy.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rclpy-release.git
+      version: 0.9.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rclpy.git
+      version: master
+    status: maintained
   rcpputils:
     doc:
       type: git
@@ -544,6 +713,44 @@ repositories:
       type: git
       url: https://github.com/ros2/rcutils.git
       version: master
+    status: maintained
+  realtime_support:
+    doc:
+      type: git
+      url: https://github.com/ros2/realtime_support.git
+      version: master
+    release:
+      packages:
+      - rttest
+      - tlsf_cpp
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/realtime_support-release.git
+      version: 0.9.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/realtime_support.git
+      version: master
+    status: maintained
+  resource_retriever:
+    doc:
+      type: git
+      url: https://github.com/ros/resource_retriever.git
+      version: ros2
+    release:
+      packages:
+      - libcurl_vendor
+      - resource_retriever
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/resource_retriever-release.git
+      version: 2.3.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/resource_retriever.git
+      version: ros2
     status: maintained
   rmw:
     doc:
@@ -635,6 +842,22 @@ repositories:
       url: https://github.com/ros2/rmw_implementation.git
       version: master
     status: developed
+  robot_state_publisher:
+    doc:
+      type: git
+      url: https://github.com/ros/robot_state_publisher.git
+      version: ros2
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/robot_state_publisher-release.git
+      version: 2.4.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/robot_state_publisher.git
+      version: ros2
+    status: maintained
   ros2_tracing:
     release:
       packages:
@@ -650,6 +873,72 @@ repositories:
       url: https://gitlab.com/micro-ROS/ros_tracing/ros2_tracing.git
       version: foxy
     status: developed
+  ros2cli:
+    doc:
+      type: git
+      url: https://github.com/ros2/ros2cli.git
+      version: master
+    release:
+      packages:
+      - ros2action
+      - ros2cli
+      - ros2component
+      - ros2doctor
+      - ros2interface
+      - ros2lifecycle
+      - ros2lifecycle_test_fixtures
+      - ros2multicast
+      - ros2node
+      - ros2param
+      - ros2pkg
+      - ros2run
+      - ros2service
+      - ros2topic
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/ros2cli-release.git
+      version: 0.9.0-2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/ros2cli.git
+      version: master
+    status: maintained
+  ros_environment:
+    doc:
+      type: git
+      url: https://github.com/ros/ros_environment.git
+      version: foxy
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/ros_environment-release.git
+      version: 2.5.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/ros_environment.git
+      version: foxy
+    status: maintained
+  ros_testing:
+    doc:
+      type: git
+      url: https://github.com/ros2/ros_testing.git
+      version: master
+    release:
+      packages:
+      - ros2test
+      - ros_testing
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/ros_testing-release.git
+      version: 0.2.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/ros_testing.git
+      version: master
+    status: maintained
   ros_workspace:
     release:
       tags:
@@ -736,7 +1025,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_python-release.git
-      version: 0.9.0-1
+      version: 0.9.1-1
     source:
       test_pull_requests: true
       type: git
@@ -871,6 +1160,22 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/tinyxml_vendor.git
+      version: master
+    status: maintained
+  tlsf:
+    doc:
+      type: git
+      url: https://github.com/ros2/tlsf.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/tlsf-release.git
+      version: 0.5.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/tlsf.git
       version: master
     status: maintained
   uncrustify_vendor:
