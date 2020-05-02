@@ -217,6 +217,42 @@ repositories:
       url: https://github.com/eclipse-cyclonedds/cyclonedds.git
       version: master
     status: maintained
+  demos:
+    doc:
+      type: git
+      url: https://github.com/ros2/demos.git
+      version: master
+    release:
+      packages:
+      - action_tutorials_cpp
+      - action_tutorials_interfaces
+      - action_tutorials_py
+      - composition
+      - demo_nodes_cpp
+      - demo_nodes_cpp_native
+      - demo_nodes_py
+      - dummy_map_server
+      - dummy_robot_bringup
+      - dummy_sensors
+      - image_tools
+      - intra_process_demo
+      - lifecycle
+      - logging_demo
+      - pendulum_control
+      - pendulum_msgs
+      - quality_of_service_demo_cpp
+      - quality_of_service_demo_py
+      - topic_monitor
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/demos-release.git
+      version: 0.9.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/demos.git
+      version: master
+    status: developed
   eigen3_cmake_module:
     doc:
       type: git
@@ -246,6 +282,39 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/example_interfaces.git
+      version: master
+    status: maintained
+  examples:
+    doc:
+      type: git
+      url: https://github.com/ros2/examples.git
+      version: master
+    release:
+      packages:
+      - examples_rclcpp_minimal_action_client
+      - examples_rclcpp_minimal_action_server
+      - examples_rclcpp_minimal_client
+      - examples_rclcpp_minimal_composition
+      - examples_rclcpp_minimal_publisher
+      - examples_rclcpp_minimal_service
+      - examples_rclcpp_minimal_subscriber
+      - examples_rclcpp_minimal_timer
+      - examples_rclcpp_multithreaded_executor
+      - examples_rclpy_executors
+      - examples_rclpy_minimal_action_client
+      - examples_rclpy_minimal_action_server
+      - examples_rclpy_minimal_client
+      - examples_rclpy_minimal_publisher
+      - examples_rclpy_minimal_service
+      - examples_rclpy_minimal_subscriber
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/examples-release.git
+      version: 0.9.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/examples.git
       version: master
     status: maintained
   fastcdr:
@@ -950,6 +1019,36 @@ repositories:
       url: https://github.com/ros2/ros_workspace.git
       version: latest
     status: maintained
+  rosbag2:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosbag2.git
+      version: master
+    release:
+      packages:
+      - ros2bag
+      - rosbag2
+      - rosbag2_compression
+      - rosbag2_converter_default_plugins
+      - rosbag2_cpp
+      - rosbag2_storage
+      - rosbag2_storage_default_plugins
+      - rosbag2_test_common
+      - rosbag2_tests
+      - rosbag2_transport
+      - shared_queues_vendor
+      - sqlite3_vendor
+      - zstd_vendor
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rosbag2-release.git
+      version: 0.2.5-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosbag2.git
+      version: master
+    status: developed
   rosidl:
     doc:
       type: git
@@ -1177,6 +1276,22 @@ repositories:
       type: git
       url: https://github.com/ros2/tlsf.git
       version: master
+    status: maintained
+  turtlesim:
+    doc:
+      type: git
+      url: https://github.com/ros/ros_tutorials.git
+      version: foxy-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/ros_tutorials-release.git
+      version: 1.2.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/ros_tutorials.git
+      version: foxy-devel
     status: maintained
   uncrustify_vendor:
     release:
