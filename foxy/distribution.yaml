@@ -183,7 +183,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/common_interfaces-release.git
-      version: 0.9.0-1
+      version: 0.9.0-2
     source:
       test_pull_requests: true
       type: git
@@ -246,7 +246,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/demos-release.git
-      version: 0.9.0-1
+      version: 0.9.0-2
     source:
       test_pull_requests: true
       type: git
@@ -277,7 +277,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/example_interfaces-release.git
-      version: 0.8.0-1
+      version: 0.8.0-2
     source:
       test_pull_requests: true
       type: git
@@ -376,7 +376,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/geometry2-release.git
-      version: 0.13.0-1
+      version: 0.13.0-2
     source:
       test_pull_requests: true
       type: git
@@ -559,7 +559,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/navigation_msgs-release.git
-      version: 2.0.2-1
+      version: 2.0.2-2
     source:
       test_pull_requests: true
       type: git
@@ -688,7 +688,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rcl_interfaces-release.git
-      version: 0.9.0-1
+      version: 0.9.0-2
     source:
       test_pull_requests: true
       type: git
@@ -868,7 +868,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_dds_common-release.git
-      version: 0.1.0-1
+      version: 0.1.0-3
     source:
       test_pull_requests: true
       type: git
@@ -1338,7 +1338,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/unique_identifier_msgs-release.git
-      version: 2.1.1-1
+      version: 2.1.1-2
     source:
       test_pull_requests: true
       type: git
