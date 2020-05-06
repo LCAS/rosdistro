@@ -161,7 +161,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mikeferguson/code_coverage-gbp.git
-      version: 0.4.1-1
+      version: 0.4.2-1
     source:
       type: git
       url: https://github.com/mikeferguson/code_coverage.git
@@ -775,6 +775,21 @@ repositories:
       url: https://github.com/ros-perception/laser_proc.git
       version: melodic-devel
     status: maintained
+  mavlink:
+    doc:
+      type: git
+      url: https://github.com/mavlink/mavlink-gbp-release.git
+      version: release/noetic/mavlink
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/mavlink/mavlink-gbp-release.git
+      version: 2020.5.5-1
+    source:
+      type: git
+      url: https://github.com/mavlink/mavlink-gbp-release.git
+      version: release/noetic/mavlink
+    status: maintained
   mcl_3dl:
     doc:
       type: git
@@ -923,7 +938,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.8.4-1
+      version: 0.8.5-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git

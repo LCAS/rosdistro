@@ -513,7 +513,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros-tooling/libstatistics_collector-release.git
-      version: 1.0.0-1
+      version: 1.0.0-2
     source:
       type: git
       url: https://github.com/ros-tooling/libstatistics_collector.git
@@ -859,6 +859,24 @@ repositories:
       url: https://github.com/ros2/rmw_connext.git
       version: master
     status: maintained
+  rmw_cyclonedds:
+    doc:
+      type: git
+      url: https://github.com/ros2/rmw_cyclonedds.git
+      version: master
+    release:
+      packages:
+      - rmw_cyclonedds_cpp
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rmw_cyclonedds-release.git
+      version: 0.6.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rmw_cyclonedds.git
+      version: master
+    status: developed
   rmw_dds_common:
     doc:
       type: git
@@ -928,15 +946,22 @@ repositories:
       version: ros2
     status: maintained
   ros2_tracing:
+    doc:
+      type: git
+      url: https://gitlab.com/micro-ROS/ros_tracing/ros2_tracing.git
+      version: foxy
     release:
       packages:
+      - ros2trace
       - tracetools
+      - tracetools_launch
       - tracetools_read
+      - tracetools_test
       - tracetools_trace
       tags:
         release: release/foxy/{package}/{version}
       url: https://gitlab.com/micro-ROS/ros_tracing/ros2_tracing-release.git
-      version: 1.0.0-1
+      version: 1.0.0-2
     source:
       type: git
       url: https://gitlab.com/micro-ROS/ros_tracing/ros2_tracing.git
@@ -1311,7 +1336,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/ros_tutorials-release.git
-      version: 1.2.0-1
+      version: 1.2.0-2
     source:
       test_pull_requests: true
       type: git
