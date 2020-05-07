@@ -422,7 +422,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/kdl_parser-release.git
-      version: 2.3.0-1
+      version: 2.3.0-2
     source:
       test_pull_requests: true
       type: git
@@ -649,6 +649,45 @@ repositories:
       url: https://github.com/ros2/python_cmake_module.git
       version: master
     status: developed
+  python_qt_binding:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/python_qt_binding.git
+      version: crystal-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/python_qt_binding-release.git
+      version: 1.0.4-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/python_qt_binding.git
+      version: crystal-devel
+    status: maintained
+  qt_gui_core:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/qt_gui_core.git
+      version: crystal-devel
+    release:
+      packages:
+      - qt_dotgraph
+      - qt_gui
+      - qt_gui_app
+      - qt_gui_core
+      - qt_gui_cpp
+      - qt_gui_py_common
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/qt_gui_core-release.git
+      version: 1.0.8-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/qt_gui_core.git
+      version: crystal-devel
+    status: maintained
   rcl:
     doc:
       type: git
@@ -870,7 +909,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_cyclonedds-release.git
-      version: 0.6.0-1
+      version: 0.6.0-3
     source:
       test_pull_requests: true
       type: git
@@ -991,7 +1030,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/ros2cli-release.git
-      version: 0.9.0-2
+      version: 0.9.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1230,6 +1269,224 @@ repositories:
       url: https://github.com/ros2/rosidl_typesupport_fastrtps.git
       version: master
     status: developed
+  rqt:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt.git
+      version: crystal-devel
+    release:
+      packages:
+      - rqt
+      - rqt_gui
+      - rqt_gui_cpp
+      - rqt_gui_py
+      - rqt_py_common
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt-release.git
+      version: 1.0.6-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/rqt.git
+      version: crystal-devel
+    status: maintained
+  rqt_action:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_action.git
+      version: crystal-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_action-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_action.git
+      version: crystal-devel
+    status: maintained
+  rqt_console:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_console.git
+      version: dashing-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_console-release.git
+      version: 1.1.1-1
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_console.git
+      version: dashing-devel
+    status: maintained
+  rqt_graph:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_graph.git
+      version: crystal-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_graph-release.git
+      version: 1.0.4-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/rqt_graph.git
+      version: crystal-devel
+    status: maintained
+  rqt_msg:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_msg.git
+      version: crystal-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_msg-release.git
+      version: 1.0.2-1
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_msg.git
+      version: crystal-devel
+    status: maintained
+  rqt_plot:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_plot.git
+      version: crystal-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_plot-release.git
+      version: 1.0.7-1
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_plot.git
+      version: crystal-devel
+    status: maintained
+  rqt_publisher:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_publisher.git
+      version: crystal-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_publisher-release.git
+      version: 1.1.0-1
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_publisher.git
+      version: crystal-devel
+    status: maintained
+  rqt_py_console:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_py_console.git
+      version: crystal-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_py_console-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_py_console.git
+      version: crystal-devel
+    status: maintained
+  rqt_robot_steering:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_robot_steering.git
+      version: dashing-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_robot_steering-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_robot_steering.git
+      version: dashing-devel
+    status: maintained
+  rqt_service_caller:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_service_caller.git
+      version: crystal-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_service_caller-release.git
+      version: 1.0.3-1
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_service_caller.git
+      version: crystal-devel
+    status: maintained
+  rqt_shell:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_shell.git
+      version: crystal-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_shell-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_shell.git
+      version: crystal-devel
+    status: maintained
+  rqt_srv:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_srv.git
+      version: crystal-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_srv-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_srv.git
+      version: crystal-devel
+    status: maintained
+  rqt_top:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_top.git
+      version: crystal-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_top-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_top.git
+      version: crystal-devel
+    status: maintained
+  rqt_topic:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_topic.git
+      version: dashing-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_topic-release.git
+      version: 1.1.0-1
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_topic.git
+      version: dashing-devel
+    status: maintained
   rviz:
     doc:
       type: git
@@ -1267,6 +1524,25 @@ repositories:
       url: https://github.com/ros2/spdlog_vendor.git
       version: master
     status: maintained
+  sros2:
+    doc:
+      type: git
+      url: https://github.com/ros2/sros2.git
+      version: master
+    release:
+      packages:
+      - sros2
+      - sros2_cmake
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/sros2-release.git
+      version: 0.9.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/sros2.git
+      version: master
+    status: developed
   test_interface_files:
     doc:
       type: git
@@ -1379,7 +1655,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/urdf-release.git
-      version: 2.3.0-1
+      version: 2.3.0-2
     source:
       test_pull_requests: true
       type: git
@@ -1395,7 +1671,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/urdfdom-release.git
-      version: 2.3.0-1
+      version: 2.3.1-2
     source:
       test_pull_requests: true
       type: git
