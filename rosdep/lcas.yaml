@@ -49,8 +49,6 @@ jekyll-trusty:
 kvaser-libcan:
   ubuntu:
     xenial: [kvaser-libcan]
-libedit-dev:
-  ubuntu: [libedit-dev]
 libirimager:
   ubuntu:
     xenial: [libirimager]
