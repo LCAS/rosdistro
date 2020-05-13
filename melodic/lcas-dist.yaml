@@ -723,7 +723,7 @@ repositories:
       url: https://github.com/SAGARobotics/Thorvald.git
       version: melodic-devel
     status: developed
-thorvald_uv:
+  thorvald_uv:
     source:
       test_commits: true
       test_pull_requests: true
