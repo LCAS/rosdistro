@@ -259,6 +259,22 @@ repositories:
       url: https://github.com/ros/convex_decomposition.git
       version: melodic-devel
     status: unmaintained
+  costmap_converter:
+    doc:
+      type: git
+      url: https://github.com/rst-tu-dortmund/costmap_converter.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/rst-tu-dortmund/costmap_converter-release.git
+      version: 0.0.12-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/rst-tu-dortmund/costmap_converter.git
+      version: master
+    status: maintained
   diagnostics:
     doc:
       type: git
@@ -775,6 +791,13 @@ repositories:
       url: https://github.com/ros-perception/laser_proc.git
       version: melodic-devel
     status: maintained
+  libg2o:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/libg2o-release.git
+      version: 2020.5.3-1
+    status: maintained
   mavlink:
     doc:
       type: git
@@ -964,6 +987,24 @@ repositories:
     source:
       type: git
       url: https://github.com/at-wat/neonavigation_msgs.git
+      version: master
+    status: developed
+  neonavigation_rviz_plugins:
+    doc:
+      type: git
+      url: https://github.com/at-wat/neonavigation_rviz_plugins.git
+      version: master
+    release:
+      packages:
+      - neonavigation_rviz_plugins
+      - trajectory_tracker_rviz_plugins
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/at-wat/neonavigation_rviz_plugins-release.git
+      version: 0.3.1-1
+    source:
+      type: git
+      url: https://github.com/at-wat/neonavigation_rviz_plugins.git
       version: master
     status: developed
   nodelet_core:
@@ -1499,7 +1540,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/ros_controllers-release.git
-      version: 0.16.1-1
+      version: 0.17.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros_controllers.git
@@ -1524,7 +1565,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/ros_tutorials.git
-      version: melodic-devel
+      version: noetic-devel
     release:
       packages:
       - ros_tutorials
@@ -1539,7 +1580,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/ros_tutorials.git
-      version: melodic-devel
+      version: noetic-devel
     status: maintained
   rosauth:
     release:
@@ -1998,6 +2039,18 @@ repositories:
       url: https://github.com/ros-visualization/rqt_runtime_monitor.git
       version: master
     status: maintained
+  rqt_rviz:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_rviz-release.git
+      version: 0.6.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/rqt_rviz.git
+      version: lunar-devel
+    status: maintained
   rqt_service_caller:
     doc:
       type: git
@@ -2113,7 +2166,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rviz-release.git
-      version: 1.14.0-1
+      version: 1.14.0-2
     source:
       test_pull_requests: true
       type: git
