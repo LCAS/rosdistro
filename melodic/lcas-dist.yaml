@@ -731,6 +731,14 @@ repositories:
       url: https://github.com/SAGARobotics/thorvald_uv.git
       version: master
     status: developed
+  topic_store:
+    source:
+      test_commits: true
+      test_pull_requests: false
+      type: git
+      url: https://github.com/RaymondKirk/topic_store.git
+      version: master
+    status: developed
   topological_navigation:
     release:
       packages:
