@@ -138,7 +138,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/ament_package-release.git
-      version: 0.9.0-1
+      version: 0.9.1-1
     source:
       test_pull_requests: true
       type: git
@@ -262,7 +262,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/demos-release.git
-      version: 0.9.0-2
+      version: 0.9.1-1
     source:
       test_pull_requests: true
       type: git
@@ -442,7 +442,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/joystick_drivers-release.git
-      version: 2.4.0-1
+      version: 2.4.1-1
     source:
       test_pull_requests: true
       type: git
@@ -660,6 +660,25 @@ repositories:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/pcl_msgs-release.git
       version: 1.0.0-2
+    status: maintained
+  perception_pcl:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/perception_pcl.git
+      version: foxy-devel
+    release:
+      packages:
+      - pcl_conversions
+      - perception_pcl
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/perception_pcl-release.git
+      version: 2.2.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-perception/perception_pcl.git
+      version: foxy-devel
     status: maintained
   pluginlib:
     doc:
@@ -1140,7 +1159,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/ros_workspace-release.git
-      version: 0.8.0-4
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/ros2/ros_workspace.git
