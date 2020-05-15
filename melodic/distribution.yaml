@@ -800,7 +800,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/BehaviorTree/behaviortree_cpp_v3-release.git
-      version: 3.4.0-1
+      version: 3.5.0-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
@@ -847,7 +847,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/bond_core-release.git
-      version: 1.8.3-0
+      version: 1.8.5-1
     source:
       test_pull_requests: true
       type: git
@@ -3968,6 +3968,13 @@ repositories:
       url: https://github.com/iralabdisco/ira_laser_tools.git
       version: kinetic
     status: developed
+  iris_lama:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/eupedrosa/iris_lama-release.git
+      version: 1.0.0-1
+    status: developed
   ivcon:
     doc:
       type: git
@@ -4950,7 +4957,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/mapviz-release.git
-      version: 1.2.0-1
+      version: 1.3.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5004,7 +5011,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 2.12.0-1
+      version: 2.13.0-1
     source:
       test_pull_requests: true
       type: git
@@ -7987,7 +7994,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_common_msgs-release.git
-      version: 0.4.1-1
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/roboception/rc_common_msgs.git
@@ -8035,6 +8042,7 @@ repositories:
       - rc_hand_eye_calibration_client
       - rc_pick_client
       - rc_roi_manager_gui
+      - rc_silhouettematch_client
       - rc_tagdetect_client
       - rc_visard
       - rc_visard_description
@@ -8042,7 +8050,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_visard-release.git
-      version: 2.7.0-1
+      version: 3.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -8807,6 +8815,16 @@ repositories:
       url: https://github.com/ros/ros_environment.git
       version: melodic
     status: maintained
+  ros_ethercat_eml:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/shadow-robot/ros_ethercat_eml-release.git
+      version: 0.3.2-5
+    source:
+      type: git
+      url: https://github.com/shadow-robot/ros_ethercat_eml.git
+      version: melodic-devel
   ros_monitoring_msgs:
     doc:
       type: git
@@ -9013,7 +9031,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.11.6-1
+      version: 0.11.7-1
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -10051,6 +10069,26 @@ repositories:
       url: https://github.com/start-jsk/rtmros_common.git
       version: master
     status: maintained
+  rtmros_hironx:
+    doc:
+      type: git
+      url: https://github.com/start-jsk/rtmros_hironx.git
+      version: indigo-devel
+    release:
+      packages:
+      - hironx_calibration
+      - hironx_moveit_config
+      - hironx_ros_bridge
+      - rtmros_hironx
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/tork-a/rtmros_hironx-release.git
+      version: 2.2.0-1
+    source:
+      type: git
+      url: https://github.com/start-jsk/rtmros_hironx.git
+      version: indigo-devel
+    status: developed
   rtshell:
     doc:
       type: git
@@ -10329,7 +10367,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/SICKAG/sick_scan-release.git
-      version: 1.4.2-1
+      version: 1.6.0-1
     source:
       type: git
       url: https://github.com/SICKAG/sick_scan.git
@@ -11810,7 +11848,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/visualization_tutorials-release.git
-      version: 0.10.3-0
+      version: 0.10.5-1
     source:
       test_pull_requests: true
       type: git
