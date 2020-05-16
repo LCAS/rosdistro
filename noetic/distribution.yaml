@@ -430,6 +430,24 @@ repositories:
       url: https://github.com/fkie/message_filters.git
       version: master
     status: maintained
+  fmi_adapter:
+    doc:
+      type: git
+      url: https://github.com/boschresearch/fmi_adapter.git
+      version: master
+    release:
+      packages:
+      - fmi_adapter
+      - fmi_adapter_examples
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/boschresearch/fmi_adapter-release.git
+      version: 1.0.3-1
+    source:
+      type: git
+      url: https://github.com/boschresearch/fmi_adapter.git
+      version: master
+    status: maintained
   four_wheel_steering_msgs:
     doc:
       type: git
@@ -444,6 +462,13 @@ repositories:
       type: git
       url: https://github.com/ros-drivers/four_wheel_steering_msgs.git
       version: master
+    status: maintained
+  gazebo_ros_pkgs:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
+      version: noetic-devel
     status: maintained
   gencpp:
     doc:
@@ -667,12 +692,51 @@ repositories:
       version: noetic-devel
     status: maintained
   image_pipeline:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/image_pipeline.git
+      version: noetic
+    release:
+      packages:
+      - camera_calibration
+      - depth_image_proc
+      - image_pipeline
+      - image_proc
+      - image_publisher
+      - image_rotate
+      - image_view
+      - stereo_image_proc
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/image_pipeline-release.git
+      version: 1.15.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
       version: noetic
     status: maintained
+  image_transport_plugins:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/image_transport_plugins.git
+      version: noetic-devel
+    release:
+      packages:
+      - compressed_depth_image_transport
+      - compressed_image_transport
+      - image_transport_plugins
+      - theora_image_transport
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/image_transport_plugins-release.git
+      version: 1.14.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-perception/image_transport_plugins.git
+      version: noetic-devel
+    status: unmaintained
   interactive_markers:
     doc:
       type: git
@@ -1025,7 +1089,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.8.5-1
+      version: 0.8.6-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -1844,6 +1908,22 @@ repositories:
       url: https://github.com/ros-visualization/rqt_bag.git
       version: master
     status: maintained
+  rqt_common_plugins:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_common_plugins.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_common_plugins-release.git
+      version: 0.4.9-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/rqt_common_plugins.git
+      version: master
+    status: unmaintained
   rqt_console:
     doc:
       type: git
@@ -2058,6 +2138,22 @@ repositories:
       url: https://github.com/ros-visualization/rqt_reconfigure.git
       version: master
     status: maintained
+  rqt_robot_dashboard:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_robot_dashboard.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_robot_dashboard-release.git
+      version: 0.5.8-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/rqt_robot_dashboard.git
+      version: master
+    status: unmaintained
   rqt_robot_monitor:
     doc:
       type: git
@@ -2073,6 +2169,22 @@ repositories:
       url: https://github.com/ros-visualization/rqt_robot_monitor.git
       version: master
     status: maintained
+  rqt_robot_plugins:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_robot_plugins.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_robot_plugins-release.git
+      version: 0.5.8-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/rqt_robot_plugins.git
+      version: master
+    status: unmaintained
   rqt_robot_steering:
     doc:
       type: git
