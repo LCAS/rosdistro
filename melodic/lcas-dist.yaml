@@ -333,20 +333,25 @@ repositories:
       url: https://github.com/LCAS/realsense.git
       version: development
     status: maintained
-  roboticsgroup_gazebo_plugins:
-    source:
-      test_commits: true
-      test_pull_requests: true
-      type: git
-      url: https://github.com/LCAS/roboticsgroup_gazebo_plugins.git
-      version: master
-    status: maintained
   robot_pose_publisher:
     release:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/lcas-releases/robot_pose_publiser.git
       version: 0.2.4-1
+    status: maintained
+  roboticsgroup_gazebo_plugins:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/roboticsgroup_gazebo_plugins.git
+      version: 0.0.2-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/roboticsgroup_gazebo_plugins.git
+      version: master
     status: maintained
   ros_numpy:
     release:
