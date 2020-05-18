@@ -333,6 +333,14 @@ repositories:
       url: https://github.com/LCAS/realsense.git
       version: development
     status: maintained
+  roboticsgroup_gazebo_plugins:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/roboticsgroup_gazebo_plugins.git
+      version: master
+    status: maintained
   robot_pose_publisher:
     release:
       tags:
