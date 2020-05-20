@@ -37,7 +37,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/actionlib-release.git
-      version: 1.13.0-1
+      version: 1.13.1-1
     source:
       test_pull_requests: true
       type: git
@@ -475,7 +475,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/gazebo_ros_pkgs-release.git
-      version: 2.9.0-1
+      version: 2.9.1-1
     source:
       test_pull_requests: true
       type: git
@@ -721,7 +721,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/image_pipeline-release.git
-      version: 1.15.1-1
+      version: 1.15.2-1
     source:
       test_pull_requests: true
       type: git
@@ -943,11 +943,6 @@ repositories:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
       version: release/noetic/mavlink
-    release:
-      tags:
-        release: release/noetic/{package}/{version}
-      url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2020.5.5-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -1029,6 +1024,32 @@ repositories:
       url: https://github.com/ros/message_runtime.git
       version: kinetic-devel
     status: maintained
+  metapackages:
+    doc:
+      type: git
+      url: https://github.com/ros/metapackages.git
+      version: noetic-devel
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/metapackages.git
+      version: noetic-devel
+    status: maintained
+  mrpt2:
+    doc:
+      type: git
+      url: https://github.com/mrpt/mrpt.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/mrpt-ros-pkg-release/mrpt2-release.git
+      version: 2.0.3-1
+    source:
+      type: git
+      url: https://github.com/mrpt/mrpt.git
+      version: master
+    status: developed
   navigation:
     doc:
       type: git
@@ -2484,6 +2505,22 @@ repositories:
       url: https://github.com/ros-controls/urdf_geometry_parser.git
       version: kinetic-devel
     status: developed
+  urdf_sim_tutorial:
+    doc:
+      type: git
+      url: https://github.com/ros/urdf_sim_tutorial.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/urdf_sim_tutorial-release.git
+      version: 0.5.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/urdf_sim_tutorial.git
+      version: master
+    status: maintained
   urdf_tutorial:
     doc:
       type: git
@@ -2542,7 +2579,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/vision_opencv-release.git
-      version: 1.14.0-1
+      version: 1.15.0-1
     source:
       test_pull_requests: true
       type: git
