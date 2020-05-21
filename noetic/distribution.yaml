@@ -1029,6 +1029,20 @@ repositories:
       type: git
       url: https://github.com/ros/metapackages.git
       version: noetic-devel
+    release:
+      packages:
+      - desktop
+      - desktop_full
+      - perception
+      - robot
+      - ros_base
+      - ros_core
+      - simulators
+      - viz
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/metapackages-release.git
+      version: 1.5.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1966,7 +1980,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_console-release.git
-      version: 0.4.9-1
+      version: 0.4.10-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_console.git
@@ -1996,7 +2010,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_graph-release.git
-      version: 0.4.12-1
+      version: 0.4.13-1
     source:
       test_pull_requests: true
       type: git
@@ -2044,7 +2058,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_logger_level-release.git
-      version: 0.4.9-1
+      version: 0.4.10-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_logger_level.git
@@ -2104,7 +2118,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_plot-release.git
-      version: 0.4.10-1
+      version: 0.4.11-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_plot.git
@@ -2650,6 +2664,7 @@ repositories:
       url: https://github.com/ros-gbp/xacro-release.git
       version: 1.14.1-1
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros/xacro.git
       version: noetic-devel
