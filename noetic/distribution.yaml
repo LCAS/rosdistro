@@ -128,7 +128,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/catkin-release.git
-      version: 0.8.4-1
+      version: 0.8.5-1
     source:
       test_pull_requests: true
       type: git
@@ -202,7 +202,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/common_msgs-release.git
-      version: 1.12.7-1
+      version: 1.13.0-1
     source:
       test_pull_requests: true
       type: git
@@ -399,6 +399,12 @@ repositories:
       url: https://github.com/ros/executive_smach.git
       version: noetic-devel
     status: maintained
+  fcl_catkin:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/wxmerkt/fcl_catkin-release.git
+      version: 0.6.1-1
   filters:
     doc:
       type: git
@@ -1141,7 +1147,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.8.6-1
+      version: 0.8.7-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -1360,7 +1366,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/pluginlib-release.git
-      version: 1.12.2-1
+      version: 1.13.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1644,7 +1650,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/ros_comm-release.git
-      version: 1.15.5-1
+      version: 1.15.6-1
     source:
       test_pull_requests: true
       type: git
@@ -1755,7 +1761,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/ros_tutorials-release.git
-      version: 0.10.0-1
+      version: 0.10.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1985,7 +1991,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_console-release.git
-      version: 0.4.10-1
+      version: 0.4.11-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_console.git
@@ -2015,7 +2021,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_graph-release.git
-      version: 0.4.13-1
+      version: 0.4.14-1
     source:
       test_pull_requests: true
       type: git
@@ -2063,7 +2069,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_logger_level-release.git
-      version: 0.4.10-1
+      version: 0.4.11-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_logger_level.git
@@ -2123,7 +2129,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_plot-release.git
-      version: 0.4.11-1
+      version: 0.4.12-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_plot.git
