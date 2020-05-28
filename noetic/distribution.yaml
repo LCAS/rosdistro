@@ -81,6 +81,23 @@ repositories:
       url: https://github.com/ros-drivers/audio_common.git
       version: master
     status: maintained
+  behaviortree_cpp:
+    doc:
+      type: git
+      url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
+      version: master
+    release:
+      packages:
+      - behaviortree_cpp_v3
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/BehaviorTree/behaviortree_cpp-release.git
+      version: 3.5.0-1
+    source:
+      type: git
+      url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
+      version: master
+    status: developed
   bond_core:
     doc:
       type: git
@@ -468,6 +485,21 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/filters.git
+      version: noetic-devel
+    status: maintained
+  find_object_2d:
+    doc:
+      type: git
+      url: https://github.com/introlab/find-object.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/introlab/find_object_2d-release.git
+      version: 0.6.3-5
+    source:
+      type: git
+      url: https://github.com/introlab/find-object.git
       version: noetic-devel
     status: maintained
   fkie_message_filters:
@@ -1747,6 +1779,21 @@ repositories:
       url: https://github.com/ros-controls/realtime_tools.git
       version: melodic-devel
     status: maintained
+  remote_rosbag_record:
+    doc:
+      type: git
+      url: https://github.com/yoshito-n-students/remote_rosbag_record.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/yoshito-n-students/remote_rosbag_record-release.git
+      version: 0.0.2-1
+    source:
+      type: git
+      url: https://github.com/yoshito-n-students/remote_rosbag_record.git
+      version: master
+    status: maintained
   resource_retriever:
     doc:
       type: git
@@ -1763,6 +1810,42 @@ repositories:
       url: https://github.com/ros/resource_retriever.git
       version: kinetic-devel
     status: maintained
+  robot_navigation:
+    doc:
+      type: git
+      url: https://github.com/locusrobotics/robot_navigation.git
+      version: noetic
+    release:
+      packages:
+      - costmap_queue
+      - dlux_global_planner
+      - dlux_plugins
+      - dwb_critics
+      - dwb_local_planner
+      - dwb_msgs
+      - dwb_plugins
+      - global_planner_tests
+      - locomotor
+      - locomotor_msgs
+      - locomove_base
+      - nav_2d_msgs
+      - nav_2d_utils
+      - nav_core2
+      - nav_core_adapter
+      - nav_grid
+      - nav_grid_iterators
+      - nav_grid_pub_sub
+      - robot_navigation
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/DLu/robot_navigation-release.git
+      version: 0.2.6-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/locusrobotics/robot_navigation.git
+      version: noetic
+    status: developed
   robot_state_publisher:
     doc:
       type: git
