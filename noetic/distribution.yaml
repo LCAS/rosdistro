@@ -161,7 +161,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/catkin-release.git
-      version: 0.8.5-1
+      version: 0.8.6-1
     source:
       test_pull_requests: true
       type: git
@@ -393,6 +393,13 @@ repositories:
       url: https://github.com/ros/diagnostics.git
       version: noetic-devel
     status: maintained
+  dual_quaternions:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/Achllle/dual_quaternions-release.git
+      version: 0.3.1-1
+    status: maintained
   dynamic_reconfigure:
     doc:
       type: git
@@ -453,7 +460,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipab-slmc/eigenpy_catkin-release.git
-      version: 2.3.2-2
+      version: 2.4.0-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -673,7 +680,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/genpy-release.git
-      version: 0.6.11-1
+      version: 0.6.12-1
     source:
       test_pull_requests: true
       type: git
@@ -1612,7 +1619,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipab-slmc/pinocchio_catkin-release.git
-      version: 2.4.5-4
+      version: 2.4.5-5
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
@@ -1694,7 +1701,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/python_qt_binding-release.git
-      version: 0.4.1-1
+      version: 0.4.2-1
     source:
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
@@ -1716,7 +1723,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/qt_gui_core-release.git
-      version: 0.4.0-1
+      version: 0.4.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1937,7 +1944,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/ros-release.git
-      version: 1.15.1-1
+      version: 1.15.4-1
     source:
       test_pull_requests: true
       type: git
@@ -1998,7 +2005,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/ros_comm-release.git
-      version: 1.15.6-1
+      version: 1.15.7-1
     source:
       test_pull_requests: true
       type: git
@@ -2155,6 +2162,27 @@ repositories:
       url: https://github.com/ros/rosbag_migration_rule.git
       version: master
     status: maintained
+  rosbridge_suite:
+    doc:
+      type: git
+      url: https://github.com/RobotWebTools/rosbridge_suite.git
+      version: master
+    release:
+      packages:
+      - rosapi
+      - rosbridge_library
+      - rosbridge_msgs
+      - rosbridge_server
+      - rosbridge_suite
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
+      version: 0.11.9-1
+    source:
+      type: git
+      url: https://github.com/RobotWebTools/rosbridge_suite.git
+      version: develop
+    status: maintained
   rosconsole:
     doc:
       type: git
@@ -2202,7 +2230,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/roscpp_core-release.git
-      version: 0.7.1-1
+      version: 0.7.2-1
     source:
       test_pull_requests: true
       type: git
@@ -2284,7 +2312,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/xqms/rosmon-release.git
-      version: 2.3.1-1
+      version: 2.3.2-1
     source:
       test_pull_requests: true
       type: git
@@ -2949,7 +2977,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.9.0-1
+      version: 0.9.1-1
     source:
       test_pull_requests: true
       type: git
@@ -3029,7 +3057,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/urdf_sim_tutorial-release.git
-      version: 0.5.0-1
+      version: 0.5.1-1
     source:
       test_pull_requests: true
       type: git
@@ -3065,6 +3093,21 @@ repositories:
       type: git
       url: https://github.com/ros/urdf_parser_py.git
       version: melodic-devel
+    status: maintained
+  urg_c:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/urg_c.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/urg_c-release.git
+      version: 1.0.405-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/urg_c.git
+      version: master
     status: maintained
   urg_stamped:
     doc:
