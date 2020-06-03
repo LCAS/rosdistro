@@ -176,7 +176,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: ros2
+      version: master
     release:
       packages:
       - behaviortree_cpp_v3
@@ -187,7 +187,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: ros2
+      version: master
     status: developed
   cartographer:
     doc:
@@ -599,6 +599,13 @@ repositories:
       url: https://github.com/ament/googletest.git
       version: ros2
     status: maintained
+  ifm3d_core:
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ifm/ifm3d-release.git
+      version: 0.18.0-4
+    status: developed
   image_common:
     doc:
       type: git
@@ -1162,7 +1169,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 1.1.0-1
+      version: 2.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2017,7 +2024,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rviz-release.git
-      version: 8.0.2-1
+      version: 8.0.3-1
     source:
       test_pull_requests: true
       type: git
@@ -2166,6 +2173,24 @@ repositories:
       url: https://github.com/ros2/tlsf.git
       version: master
     status: maintained
+  tracetools_analysis:
+    doc:
+      type: git
+      url: https://gitlab.com/micro-ROS/ros_tracing/tracetools_analysis.git
+      version: foxy
+    release:
+      packages:
+      - ros2trace_analysis
+      - tracetools_analysis
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://gitlab.com/micro-ROS/ros_tracing/tracetools_analysis-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://gitlab.com/micro-ROS/ros_tracing/tracetools_analysis.git
+      version: foxy
+    status: developed
   turtlesim:
     doc:
       type: git

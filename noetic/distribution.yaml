@@ -136,6 +136,20 @@ repositories:
       url: https://github.com/osrf/capabilities.git
       version: master
     status: maintained
+  cartesian_msgs:
+    doc:
+      type: git
+      url: https://github.com/PickNikRobotics/cartesian_msgs.git
+      version: jade-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/PickNikRobotics/cartesian_msgs-release.git
+      version: 0.0.3-1
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/cartesian_msgs.git
+      version: jade-devel
   catch_ros:
     doc:
       type: git
@@ -362,6 +376,21 @@ repositories:
       url: https://github.com/rst-tu-dortmund/costmap_converter.git
       version: master
     status: maintained
+  csm:
+    doc:
+      type: git
+      url: https://github.com/AndreaCensi/csm.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/csm-release.git
+      version: 1.0.2-1
+    source:
+      type: git
+      url: https://github.com/AndreaCensi/csm.git
+      version: master
+    status: unmaintained
   cv_camera:
     doc:
       type: git
@@ -866,6 +895,13 @@ repositories:
       url: https://github.com/at-wat/hokuyo3d.git
       version: master
     status: developed
+  ifm3d_core:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ifm/ifm3d-release.git
+      version: 0.18.0-5
+    status: developed
   image_common:
     doc:
       type: git
@@ -1149,6 +1185,16 @@ repositories:
       url: https://github.com/ros-perception/laser_proc.git
       version: melodic-devel
     status: maintained
+  lgsvl_msgs:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/lgsvl/lgsvl_msgs-release.git
+      version: 0.0.3-1
+    source:
+      type: git
+      url: https://github.com/lgsvl/lgsvl_msgs.git
+      version: noetic-devel
   libg2o:
     release:
       tags:
@@ -2374,6 +2420,21 @@ repositories:
       url: https://github.com/ros/rospack.git
       version: noetic-devel
     status: maintained
+  rosparam_shortcuts:
+    doc:
+      type: git
+      url: https://github.com/davetcoleman/rosparam_shortcuts.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/PickNikRobotics/rosparam_shortcuts-release.git
+      version: 0.4.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/PickNikRobotics/rosparam_shortcuts.git
+      version: noetic-devel
   rospy_message_converter:
     doc:
       type: git
@@ -2588,7 +2649,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_moveit-release.git
-      version: 0.5.8-1
+      version: 0.5.9-3
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_moveit.git
@@ -2725,7 +2786,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_robot_monitor-release.git
-      version: 0.5.11-1
+      version: 0.5.12-2
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_robot_monitor.git
@@ -2904,10 +2965,25 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/introlab/rtabmap-release.git
-      version: 0.20.0-2
+      version: 0.20.0-3
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
+      version: noetic-devel
+    status: maintained
+  rtabmap_ros:
+    doc:
+      type: git
+      url: https://github.com/introlab/rtabmap_ros.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/introlab/rtabmap_ros-release.git
+      version: 0.20.0-3
+    source:
+      type: git
+      url: https://github.com/introlab/rtabmap_ros.git
       version: noetic-devel
     status: maintained
   rviz:
@@ -3052,6 +3128,21 @@ repositories:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git
       version: noetic-devel
+    status: maintained
+  twist_mux:
+    doc:
+      type: git
+      url: https://github.com/ros-teleop/twist_mux.git
+      version: melodic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/twist_mux-release.git
+      version: 3.1.1-1
+    source:
+      type: git
+      url: https://github.com/ros-teleop/twist_mux.git
+      version: melodic-devel
     status: maintained
   twist_mux_msgs:
     doc:
