@@ -1436,7 +1436,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/CMP9767M.git
-      version: master
+      version: kinetic-devel
     status: developed
   v4r:
     source:

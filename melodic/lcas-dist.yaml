@@ -832,7 +832,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/CMP9767M.git
-      version: melodic-devel
+      version: master
     status: developed
   velodyne_oru:
     release:
