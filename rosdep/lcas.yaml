@@ -24,6 +24,9 @@ czmq:
   ubuntu: [libczmq-dev]
 deepfried2:
   ubuntu: [python-deepfried2]
+framoscamerasuite:
+  ubuntu:
+    bionic: [framoscamerasuite]
 gazebo8:
   ubuntu:
     xenial: [gazebo8,libgazebo8-dev]
