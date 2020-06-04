@@ -36,7 +36,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/ament_cmake-release.git
-      version: 0.9.4-1
+      version: 0.9.5-1
     source:
       test_pull_requests: true
       type: git
@@ -378,6 +378,26 @@ repositories:
       type: git
       url: https://github.com/ros-perception/depthimage_to_laserscan.git
       version: foxy-devel
+    status: maintained
+  diagnostics:
+    doc:
+      type: git
+      url: https://github.com/ros/diagnostics.git
+      version: foxy
+    release:
+      packages:
+      - diagnostic_aggregator
+      - diagnostic_updater
+      - self_test
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/diagnostics-release.git
+      version: 2.0.2-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/diagnostics.git
+      version: foxy
     status: maintained
   eigen3_cmake_module:
     doc:
@@ -1084,7 +1104,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rcl-release.git
-      version: 1.1.3-1
+      version: 1.1.4-1
     source:
       test_pull_requests: true
       type: git
@@ -1310,7 +1330,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_cyclonedds-release.git
-      version: 0.7.0-1
+      version: 0.7.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1562,13 +1582,32 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2-release.git
-      version: 0.3.1-1
+      version: 0.3.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
       version: master
     status: developed
+  rosbag2_bag_v2:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosbag2_bag_v2.git
+      version: master
+    release:
+      packages:
+      - ros1_rosbag_storage_vendor
+      - rosbag2_bag_v2_plugins
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rosbag2_bag_v2-release.git
+      version: 0.0.9-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosbag2_bag_v2.git
+      version: foxy
+    status: maintained
   rosidl:
     doc:
       type: git
@@ -1864,7 +1903,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_plot-release.git
-      version: 1.0.7-1
+      version: 1.0.8-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_plot.git
@@ -1909,7 +1948,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_reconfigure-release.git
-      version: 1.0.4-1
+      version: 1.0.5-1
     source:
       test_pull_requests: true
       type: git
@@ -2200,7 +2239,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/ros_tutorials-release.git
-      version: 1.2.0-2
+      version: 1.2.1-1
     source:
       test_pull_requests: true
       type: git

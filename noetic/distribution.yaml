@@ -385,7 +385,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/csm-release.git
-      version: 1.0.2-1
+      version: 1.0.2-2
     source:
       type: git
       url: https://github.com/AndreaCensi/csm.git
@@ -445,6 +445,13 @@ repositories:
         release: release/noetic/{package}/{version}
       url: https://github.com/Achllle/dual_quaternions-release.git
       version: 0.3.1-1
+    status: maintained
+  dual_quaternions_ros:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/Achllle/dual_quaternions_ros-release.git
+      version: 0.1.3-1
     status: maintained
   dynamic_reconfigure:
     doc:
@@ -540,6 +547,20 @@ repositories:
       url: https://github.com/wxmerkt/exotica_val_description-release.git
       version: 1.0.0-1
     status: maintained
+  fadecandy_ros:
+    release:
+      packages:
+      - fadecandy_driver
+      - fadecandy_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/iron-ox/fadecandy_ros-release.git
+      version: 0.1.1-2
+    source:
+      type: git
+      url: https://github.com/iron-ox/fadecandy_ros.git
+      version: master
+    status: developed
   fcl_catkin:
     release:
       tags:
@@ -894,6 +915,13 @@ repositories:
       type: git
       url: https://github.com/at-wat/hokuyo3d.git
       version: master
+    status: developed
+  ifm3d:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ifm/ifm3d-ros-release.git
+      version: 0.6.2-3
     status: developed
   ifm3d_core:
     release:
@@ -1413,6 +1441,21 @@ repositories:
       url: https://github.com/mrpt/mrpt.git
       version: master
     status: developed
+  mrt_cmake_modules:
+    doc:
+      type: git
+      url: https://github.com/KIT-MRT/mrt_cmake_modules.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/KIT-MRT/mrt_cmake_modules-release.git
+      version: 1.0.3-1
+    source:
+      type: git
+      url: https://github.com/KIT-MRT/mrt_cmake_modules.git
+      version: master
+    status: developed
   navigation:
     doc:
       type: git
@@ -1695,6 +1738,38 @@ repositories:
       url: https://github.com/ros-perception/perception_pcl.git
       version: melodic-devel
     status: maintained
+  phidgets_drivers:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/phidgets_drivers.git
+      version: noetic
+    release:
+      packages:
+      - libphidget22
+      - phidgets_accelerometer
+      - phidgets_analog_inputs
+      - phidgets_api
+      - phidgets_digital_inputs
+      - phidgets_digital_outputs
+      - phidgets_drivers
+      - phidgets_gyroscope
+      - phidgets_high_speed_encoder
+      - phidgets_ik
+      - phidgets_magnetometer
+      - phidgets_motors
+      - phidgets_msgs
+      - phidgets_spatial
+      - phidgets_temperature
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/phidgets_drivers-release.git
+      version: 1.0.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-drivers/phidgets_drivers.git
+      version: noetic
+    status: developed
   pinocchio:
     doc:
       type: git
@@ -1956,6 +2031,36 @@ repositories:
       url: https://github.com/ros/resource_retriever.git
       version: kinetic-devel
     status: maintained
+  rgbd_launch:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/rgbd_launch.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/rgbd_launch-release.git
+      version: 2.3.0-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/rgbd_launch.git
+      version: noetic-devel
+    status: maintained
+  robot_localization:
+    doc:
+      type: git
+      url: https://github.com/cra-ros-pkg/robot_localization.git
+      version: melodic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/cra-ros-pkg/robot_localization-release.git
+      version: 2.6.8-2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/cra-ros-pkg/robot_localization.git
+      version: melodic-devel
   robot_navigation:
     doc:
       type: git
@@ -3299,6 +3404,21 @@ repositories:
       url: https://github.com/seqsense/urg_stamped.git
       version: master
     status: developed
+  usb_cam:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/usb_cam.git
+      version: develop
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/usb_cam-release.git
+      version: 0.3.6-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/usb_cam.git
+      version: develop
+    status: unmaintained
   vision_opencv:
     doc:
       type: git
