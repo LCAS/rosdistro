@@ -198,6 +198,11 @@ repositories:
       version: master
     status: maintained
   librealsense2_framos:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/librealsense_framos.git
+      version: 2.29.1-1
     source:
       test_commits: true
       test_pull_requests: true
