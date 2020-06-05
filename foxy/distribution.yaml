@@ -598,7 +598,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/geometry2-release.git
-      version: 0.13.3-1
+      version: 0.13.4-1
     source:
       test_pull_requests: true
       type: git
@@ -702,7 +702,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/interactive_markers-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -866,7 +866,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_message_filters-release.git
-      version: 3.2.3-2
+      version: 3.2.4-1
     source:
       test_pull_requests: true
       type: git
@@ -1104,7 +1104,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rcl-release.git
-      version: 1.1.4-1
+      version: 1.1.5-1
     source:
       test_pull_requests: true
       type: git
@@ -1221,7 +1221,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rcpputils-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros2/rcpputils.git
@@ -1236,7 +1236,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rcutils-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1274,7 +1274,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/resource_retriever-release.git
-      version: 2.3.1-1
+      version: 2.3.2-1
     source:
       test_pull_requests: true
       type: git
@@ -1628,7 +1628,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2063,7 +2063,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rviz-release.git
-      version: 8.0.3-1
+      version: 8.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2118,6 +2118,12 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/micro-ROS/system_modes.git
+      version: master
+    status: developed
+  system_tests:
+    source:
+      type: git
+      url: https://github.com/ros2/system_tests.git
       version: master
     status: developed
   teleop_twist_joy:
@@ -2177,7 +2183,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/tinyxml2_vendor-release.git
-      version: 0.7.2-1
+      version: 0.7.3-1
     source:
       test_pull_requests: true
       type: git
@@ -2239,7 +2245,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/ros_tutorials-release.git
-      version: 1.2.1-1
+      version: 1.2.2-1
     source:
       test_pull_requests: true
       type: git
@@ -2298,7 +2304,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/urdfdom-release.git
-      version: 2.3.1-2
+      version: 2.3.2-1
     source:
       test_pull_requests: true
       type: git
