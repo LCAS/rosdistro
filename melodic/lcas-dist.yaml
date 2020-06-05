@@ -325,6 +325,14 @@ repositories:
       url: https://github.com/LCAS/realsense_gazebo_plugin.git
       version: master
     status: maintained
+  realsense_framos_ros:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/realsense.git
+      version: framos
+    status: maintained
   realsense_ros:
     release:
       packages:
