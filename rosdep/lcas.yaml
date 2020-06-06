@@ -100,8 +100,6 @@ python-pywt:
     oneiric: []
 python-strands-requests:
   ubuntu: [python-requests]
-realsense2-sdk:
-  ubuntu: [librealsense2-dev, librealsense2-dkms, librealsense2-utils]
 rubygem-jekyll:
   ubuntu: [rubygem-jekyll]
 strands-morse-simulator:
