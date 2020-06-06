@@ -202,7 +202,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/lcas-releases/librealsense_framos.git
-      version: 2.29.1-1
+      version: 2.29.2-1
     source:
       test_commits: true
       test_pull_requests: true
@@ -317,6 +317,14 @@ repositories:
       url: https://github.com/LCAS/RASberry.git
       version: master
     status: developed
+  realsense_framos_ros:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/realsense.git
+      version: framos
+    status: maintained
   realsense_gazebo_plugin:
     release:
       tags:
@@ -329,14 +337,6 @@ repositories:
       type: git
       url: https://github.com/LCAS/realsense_gazebo_plugin.git
       version: master
-    status: maintained
-  realsense_framos_ros:
-    source:
-      test_commits: true
-      test_pull_requests: true
-      type: git
-      url: https://github.com/LCAS/realsense.git
-      version: framos
     status: maintained
   realsense_ros:
     release:
