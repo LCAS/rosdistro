@@ -318,6 +318,14 @@ repositories:
       version: master
     status: developed
   realsense_framos_ros:
+    release:
+      packages:
+      - realsense2_framos_camera
+      - realsense2_framos_description
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/realsense_framos_ros.git
+      version: 3.0.0-1
     source:
       test_commits: true
       test_pull_requests: true
