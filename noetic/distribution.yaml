@@ -81,6 +81,22 @@ repositories:
       url: https://github.com/ros-drivers/audio_common.git
       version: master
     status: maintained
+  avt_vimba_camera:
+    doc:
+      type: git
+      url: https://github.com/astuff/avt_vimba_camera.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/astuff/avt_vimba_camera-release.git
+      version: 0.0.12-2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/astuff/avt_vimba_camera.git
+      version: master
+    status: maintained
   behaviortree_cpp:
     doc:
       type: git
@@ -407,6 +423,25 @@ repositories:
       url: https://github.com/OTL/cv_camera.git
       version: master
     status: maintained
+  dataspeed_ulc_ros:
+    doc:
+      type: git
+      url: https://bitbucket.org/DataspeedInc/dataspeed_ulc_ros.git
+      version: master
+    release:
+      packages:
+      - dataspeed_ulc
+      - dataspeed_ulc_can
+      - dataspeed_ulc_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/DataspeedInc-release/dataspeed_ulc_ros-release.git
+      version: 0.0.5-2
+    source:
+      type: git
+      url: https://bitbucket.org/DataspeedInc/dataspeed_ulc_ros.git
+      version: master
+    status: developed
   ddynamic_reconfigure:
     release:
       tags:
@@ -907,6 +942,16 @@ repositories:
       type: git
       url: https://github.com/swri-robotics/gps_umd.git
       version: master
+    status: maintained
+  haf_grasping:
+    doc:
+      type: git
+      url: https://github.com/davidfischinger/haf_grasping.git
+      version: noetic
+    source:
+      type: git
+      url: https://github.com/davidfischinger/haf_grasping.git
+      version: noetic
     status: maintained
   hebi_cpp_api_ros:
     doc:
@@ -1483,6 +1528,26 @@ repositories:
       type: git
       url: https://github.com/magazino/move_base_flex.git
       version: noetic
+    status: developed
+  mpc_local_planner:
+    doc:
+      type: git
+      url: https://github.com/rst-tu-dortmund/mpc_local_planner.git
+      version: noetic-devel
+    release:
+      packages:
+      - mpc_local_planner
+      - mpc_local_planner_examples
+      - mpc_local_planner_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/rst-tu-dortmund/mpc_local_planner-release.git
+      version: 0.0.3-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/rst-tu-dortmund/mpc_local_planner.git
+      version: noetic-devel
     status: developed
   mrpt2:
     doc:
@@ -3235,6 +3300,26 @@ repositories:
       type: git
       url: https://github.com/ros-perception/slam_karto.git
       version: melodic-devel
+    status: maintained
+  slam_toolbox:
+    doc:
+      type: git
+      url: https://github.com/SteveMacenski/slam_toolbox.git
+      version: noetic-devel
+    release:
+      packages:
+      - slam_toolbox
+      - slam_toolbox_msgs
+      - slam_toolbox_rviz
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/SteveMacenski/slam_toolbox-release.git
+      version: 1.5.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/SteveMacenski/slam_toolbox.git
+      version: noetic-devel
     status: maintained
   sophus:
     doc:

@@ -2132,6 +2132,19 @@ python-inject-pip:
   ubuntu:
     pip:
       packages: [inject]
+python-inotify-simple-pip:
+  debian:
+    pip:
+      packages: [inotify-simple]
+  fedora:
+    pip:
+      packages: [inotify-simple]
+  osx:
+    pip:
+      packages: [inotify-simple]
+  ubuntu:
+    pip:
+      packages: [inotify-simple]
 python-inputs-pip:
   debian:
     pip:
@@ -3414,6 +3427,10 @@ python-pynmea2:
   ubuntu:
     pip:
       packages: [pynmea2]
+python-pypcd-pip:
+  ubuntu:
+    pip:
+      packages: [pypcd]
 python-pypng:
   arch:
     pip:
@@ -5792,6 +5809,14 @@ python3-psutil:
   rhel: ['python%{python3_pkgversion}-psutil']
   slackware: [psutil]
   ubuntu: [python3-psutil]
+python3-pyassimp:
+  debian:
+    '*': [python3-pyassimp]
+    stretch: null
+  fedora: [python3-assimp]
+  ubuntu:
+    '*': [python3-pyassimp]
+    xenial: null
 python3-pyaudio:
   arch: [python-pyaudio]
   debian: [python3-pyaudio]
