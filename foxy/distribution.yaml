@@ -502,7 +502,7 @@ repositories:
       test_commits: false
       test_pull_requests: false
       type: git
-      url: https://github.com/eProsima/Fast-RTPS.git
+      url: https://github.com/eProsima/Fast-DDS.git
       version: 9c28edc805863117d500ebb7aef86d509471ebd8
     status: maintained
   filters:
@@ -619,6 +619,27 @@ repositories:
       url: https://github.com/ament/googletest.git
       version: foxy
     status: maintained
+  gps_umd:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/gps_umd.git
+      version: dashing-devel
+    release:
+      packages:
+      - gps_msgs
+      - gps_tools
+      - gps_umd
+      - gpsd_client
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/swri-robotics-gbp/gps_umd-release.git
+      version: 1.0.3-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/swri-robotics/gps_umd.git
+      version: dashing-devel
+    status: developed
   ifm3d_core:
     release:
       tags:
@@ -883,6 +904,60 @@ repositories:
       url: https://github.com/ros2/libyaml_vendor.git
       version: foxy
     status: maintained
+  marti_common:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/marti_common.git
+      version: dashing-devel
+    release:
+      packages:
+      - swri_console_util
+      - swri_dbw_interface
+      - swri_geometry_util
+      - swri_image_util
+      - swri_math_util
+      - swri_opencv_util
+      - swri_prefix_tools
+      - swri_roscpp
+      - swri_route_util
+      - swri_serial_util
+      - swri_system_util
+      - swri_transform_util
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/swri-robotics-gbp/marti_common-release.git
+      version: 3.2.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/swri-robotics/marti_common.git
+      version: dashing-devel
+    status: developed
+  marti_messages:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/marti_messages.git
+      version: dashing-devel
+    release:
+      packages:
+      - marti_can_msgs
+      - marti_common_msgs
+      - marti_dbw_msgs
+      - marti_nav_msgs
+      - marti_perception_msgs
+      - marti_sensor_msgs
+      - marti_status_msgs
+      - marti_visualization_msgs
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/swri-robotics-gbp/marti_messages-release.git
+      version: 1.1.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/swri-robotics/marti_messages.git
+      version: dashing-devel
+    status: developed
   message_filters:
     doc:
       type: git
@@ -2352,6 +2427,52 @@ repositories:
       url: https://github.com/ros/urdfdom_headers.git
       version: foxy
     status: maintained
+  urg_c:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/urg_c.git
+      version: ros2-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/urg_c-release.git
+      version: 1.0.4001-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-drivers/urg_c.git
+      version: ros2-devel
+    status: maintained
+  urg_node_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/urg_node_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/urg_node_msgs-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/urg_node_msgs.git
+      version: master
+    status: maintained
+  v4l2_camera:
+    doc:
+      type: git
+      url: https://gitlab.com/boldhearts/ros2_v4l2_camera.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://gitlab.com/boldhearts/releases/ros2_v4l2_camera-release.git
+      version: 0.1.1-1
+    source:
+      type: git
+      url: https://gitlab.com/boldhearts/ros2_v4l2_camera.git
+      version: master
+    status: developed
   variants:
     doc:
       type: git
