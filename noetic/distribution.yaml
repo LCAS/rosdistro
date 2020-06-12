@@ -854,7 +854,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/geometry-release.git
-      version: 1.13.1-1
+      version: 1.13.2-1
     source:
       test_pull_requests: true
       type: git
@@ -882,7 +882,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/geometry2-release.git
-      version: 0.7.1-1
+      version: 0.7.2-1
     source:
       test_pull_requests: true
       type: git
@@ -943,6 +943,20 @@ repositories:
       url: https://github.com/swri-robotics/gps_umd.git
       version: master
     status: maintained
+  graph_msgs:
+    doc:
+      type: git
+      url: https://github.com/PickNikRobotics/graph_msgs.git
+      version: jade-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/PickNikRobotics/graph_msgs-release.git
+      version: 0.1.0-2
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/graph_msgs.git
+      version: jade-devel
   haf_grasping:
     doc:
       type: git
