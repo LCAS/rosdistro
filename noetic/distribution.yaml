@@ -1157,7 +1157,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/JdeRobot/assets-release.git
-      version: 1.0.3-1
+      version: 1.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1356,6 +1356,7 @@ repositories:
       packages:
       - marti_can_msgs
       - marti_common_msgs
+      - marti_dbw_msgs
       - marti_nav_msgs
       - marti_perception_msgs
       - marti_sensor_msgs
@@ -1364,7 +1365,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_messages-release.git
-      version: 0.8.0-1
+      version: 0.9.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2038,7 +2039,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/python_qt_binding-release.git
-      version: 0.4.2-1
+      version: 0.4.3-1
     source:
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
@@ -3284,6 +3285,21 @@ repositories:
       url: https://github.com/ros-visualization/rviz.git
       version: noetic-devel
     status: maintained
+  sick_scan:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_scan.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/SICKAG/sick_scan-release.git
+      version: 1.6.0-1
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_scan.git
+      version: master
+    status: developed
   sick_tim:
     doc:
       type: git

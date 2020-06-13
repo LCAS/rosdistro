@@ -1045,7 +1045,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/BehaviorTree/behaviortree_cpp_v3-release.git
-      version: 3.5.0-2
+      version: 3.5.1-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
@@ -2722,7 +2722,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/Achllle/dual_quaternions.git
-      version: master
+      version: kinetic-devel
     release:
       tags:
         release: release/kinetic/{package}/{version}
@@ -2731,7 +2731,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Achllle/dual_quaternions.git
-      version: master
+      version: kinetic-devel
     status: maintained
   dwm1001_ros:
     doc:
@@ -7124,6 +7124,7 @@ repositories:
       packages:
       - marti_can_msgs
       - marti_common_msgs
+      - marti_dbw_msgs
       - marti_nav_msgs
       - marti_perception_msgs
       - marti_sensor_msgs
@@ -7132,7 +7133,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_messages-release.git
-      version: 0.8.0-0
+      version: 0.9.0-1
     source:
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
