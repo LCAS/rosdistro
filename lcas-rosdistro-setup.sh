@@ -79,14 +79,14 @@ if [ -z "$PS1" ]; then
       echo This shell is not interactive
 else
       #  Read Restricted Repo Password
-      echo -n "Type Password for L-CAS restricted repos (empty to skip):"
+      echo -n "Type Password for L-CAS restricted commercial repos (empty to skip, you usually don't need this unless in very special cases):"
       read -s password
       echo
 fi
 
 if [ -z "$password" ]
 then
-      echo "No passord provided. Skipping LCAS restricted repos."
+      echo "No passord provided. Skipping LCAS restricted commercial repos."
 else
       $SUDO apt-add-repository https://restricted:"$password"@lcas.lincoln.ac.uk/ubuntu/restricted
 fi
