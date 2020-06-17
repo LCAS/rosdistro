@@ -69,7 +69,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/AprilRobotics/apriltag-release.git
-      version: 3.1.2-1
+      version: 3.1.2-2
     source:
       type: git
       url: https://github.com/aprilrobotics/apriltag.git
@@ -1715,7 +1715,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.8.7-1
+      version: 0.8.8-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -2487,6 +2487,21 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros_control.git
+      version: noetic-devel
+    status: maintained
+  ros_control_boilerplate:
+    doc:
+      type: git
+      url: https://github.com/PickNikRobotics/ros_control_boilerplate.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/PickNikRobotics/ros_control_boilerplate-release.git
+      version: 0.6.0-1
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/ros_control_boilerplate.git
       version: noetic-devel
     status: maintained
   ros_controllers:
@@ -3349,6 +3364,36 @@ repositories:
       url: https://github.com/ros-visualization/rviz.git
       version: noetic-devel
     status: maintained
+  rviz_visual_tools:
+    doc:
+      type: git
+      url: https://github.com/PickNikRobotics/rviz_visual_tools.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/PickNikRobotics/rviz_visual_tools-release.git
+      version: 3.9.0-1
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/rviz_visual_tools.git
+      version: noetic-devel
+    status: maintained
+  sick_safetyscanners:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/SICKAG/sick_safetyscanners-release.git
+      version: 1.0.5-2
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners.git
+      version: master
+    status: developed
   sick_scan:
     doc:
       type: git
@@ -3546,6 +3591,21 @@ repositories:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
       version: kinetic-devel
+    status: maintained
+  teleop_twist_keyboard:
+    doc:
+      type: git
+      url: https://github.com/ros-teleop/teleop_twist_keyboard.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/teleop_twist_keyboard-release.git
+      version: 0.6.2-1
+    source:
+      type: git
+      url: https://github.com/ros-teleop/teleop_twist_keyboard.git
+      version: master
     status: maintained
   twist_mux:
     doc:
