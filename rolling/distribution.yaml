@@ -371,7 +371,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/demos-release.git
-      version: 0.9.3-2
+      version: 0.10.0-1
     source:
       test_pull_requests: true
       type: git
@@ -518,7 +518,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 9c28edc805863117d500ebb7aef86d509471ebd8
+      version: 2.0.x
     status: maintained
   filters:
     doc:
@@ -1385,7 +1385,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/realtime_support-release.git
-      version: 0.9.0-2
+      version: 0.10.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1512,7 +1512,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_implementation-release.git
-      version: 1.0.0-2
+      version: 1.0.0-3
     source:
       test_pull_requests: true
       type: git
@@ -1733,10 +1733,10 @@ repositories:
       url: https://github.com/ros2-gbp/rosbag2_bag_v2-release.git
       version: 0.0.10-2
     source:
-      test_pull_requests: true
+      test_commits: false
       type: git
       url: https://github.com/ros2/rosbag2_bag_v2.git
-      version: foxy
+      version: master
     status: maintained
   rosidl:
     doc:
