@@ -4162,12 +4162,23 @@ repositories:
       type: git
       url: https://github.com/JdeRobot/CamViz.git
       version: master
+  jderobot_carviz:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/JdeRobot/carViz-release.git
+      version: 0.1.6-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/JdeRobot/carViz.git
+      version: master
   jderobot_color_tuner:
     release:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/JdeRobot/ColorTuner-release.git
-      version: 0.0.4-2
+      version: 0.0.5-2
     source:
       test_pull_requests: true
       type: git
@@ -4776,7 +4787,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/fictionlab-gbp/leo_viz-release.git
-      version: 0.1.1-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/LeoRover/leo_viz.git
@@ -5718,7 +5729,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt2-release.git
-      version: 2.0.3-1
+      version: 2.0.4-1
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
@@ -9142,6 +9153,25 @@ repositories:
       type: git
       url: https://github.com/eurogroep/rosbag_pandas.git
       version: master
+    status: maintained
+  rosbag_snapshot:
+    doc:
+      type: git
+      url: https://github.com/ros/rosbag_snapshot.git
+      version: main
+    release:
+      packages:
+      - rosbag_snapshot
+      - rosbag_snapshot_msgs
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/rosbag_snapshot-release.git
+      version: 1.0.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/rosbag_snapshot.git
+      version: main
     status: maintained
   rosbash_params:
     doc:

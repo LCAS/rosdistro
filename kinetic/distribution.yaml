@@ -14,7 +14,6 @@ repositories:
     release:
       packages:
       - abb
-      - abb_driver
       - abb_irb2400_moveit_config
       - abb_irb2400_moveit_plugins
       - abb_irb2400_support
@@ -38,6 +37,11 @@ repositories:
       type: git
       url: https://github.com/ros-industrial/abb_driver.git
       version: kinetic-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-industrial-release/abb_driver-release.git
+      version: 1.4.0-1
     source:
       type: git
       url: https://github.com/ros-industrial/abb_driver.git
@@ -6500,7 +6504,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/fictionlab-gbp/leo_viz-release.git
-      version: 0.1.1-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/LeoRover/leo_viz.git
@@ -7881,7 +7885,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/groove-x/mqtt_bridge-release.git
-      version: 0.1.6-0
+      version: 0.1.7-2
     source:
       type: git
       url: https://github.com/groove-x/mqtt_bridge.git
