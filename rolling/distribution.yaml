@@ -737,7 +737,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/interactive_markers-release.git
-      version: 2.1.1-2
+      version: 2.1.2-1
     source:
       test_pull_requests: true
       type: git
@@ -1352,7 +1352,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcpputils-release.git
-      version: 1.1.0-1
+      version: 1.2.0-1
     source:
       type: git
       url: https://github.com/ros2/rcpputils.git
@@ -1367,7 +1367,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcutils-release.git
-      version: 1.0.1-2
+      version: 1.1.0-1
     source:
       test_pull_requests: true
       type: git
