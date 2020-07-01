@@ -3247,6 +3247,16 @@ python-pycodestyle:
   gentoo: [dev-python/pycodestyle]
   rhel: [python2-pycodestyle]
   ubuntu: [pycodestyle]
+python-pycpd-pip:
+  debian:
+    pip:
+      packages: [pycpd]
+  fedora:
+    pip:
+      packages: [pycpd]
+  ubuntu:
+    pip:
+      packages: [pycpd]
 python-pycryptodome:
   arch: [python2-pycryptodome]
   debian: [python-pycryptodome]
@@ -5388,6 +5398,16 @@ python3-click:
   gentoo: [dev-python/click]
   rhel: ['python%{python3_pkgversion}-click']
   ubuntu: [python3-click]
+python3-collada:
+  debian:
+    '*': [python3-collada]
+    buster: null
+    stretch: null
+  fedora: [python3-collada]
+  ubuntu:
+    '*': [python3-collada]
+    bionic: null
+    xenial: null
 python3-collada-pip:
   debian:
     pip:
@@ -5931,6 +5951,16 @@ python3-pyqt5.qtwebengine:
   debian: [python3-pyqt5.qtwebengine]
   fedora: [python3-qt5-webengine]
   ubuntu: [python3-pyqt5.qtwebengine]
+python3-pyswarms-pip:
+  debian:
+    pip:
+      packages: [pyswarms]
+  fedora:
+    pip:
+      packages: [pyswarms]
+  ubuntu:
+    pip:
+      packages: [pyswarms]
 python3-pytest:
   alpine: [py3-pytest]
   arch: [python-pytest]

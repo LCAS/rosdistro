@@ -6602,7 +6602,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/frankaemika/libfranka-release.git
-      version: 0.7.1-1
+      version: 0.8.0-1
     source:
       test_commits: false
       type: git
@@ -7489,7 +7489,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/uos-gbp/mir_robot-release.git
-      version: 1.0.5-1
+      version: 1.0.6-1
     source:
       test_pull_requests: true
       type: git
@@ -17534,6 +17534,16 @@ repositories:
       type: git
       url: https://github.com/ros/xacro.git
       version: kinetic-devel
+    status: developed
+  xarm:
+    doc:
+      type: git
+      url: https://github.com/xArm-Developer/xarm_ros.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/xArm-Developer/xarm_ros.git
+      version: master
     status: developed
   xaxxon_openlidar:
     doc:

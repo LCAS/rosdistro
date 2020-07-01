@@ -319,6 +319,21 @@ repositories:
       url: https://github.com/mikeferguson/code_coverage.git
       version: master
     status: developed
+  codec_image_transport:
+    doc:
+      type: git
+      url: https://github.com/yoshito-n-students/codec_image_transport.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/yoshito-n-students/codec_image_transport-release.git
+      version: 0.0.5-1
+    source:
+      type: git
+      url: https://github.com/yoshito-n-students/codec_image_transport.git
+      version: noetic-devel
+    status: maintained
   common_msgs:
     doc:
       type: git
@@ -1435,7 +1450,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 2.13.6-1
+      version: 2.13.7-1
     source:
       test_pull_requests: true
       type: git
@@ -1615,6 +1630,32 @@ repositories:
       url: https://github.com/ros/metapackages.git
       version: noetic-devel
     status: maintained
+  mir_robot:
+    doc:
+      type: git
+      url: https://github.com/dfki-ric/mir_robot.git
+      version: noetic
+    release:
+      packages:
+      - mir_actions
+      - mir_description
+      - mir_driver
+      - mir_dwb_critics
+      - mir_gazebo
+      - mir_msgs
+      - mir_navigation
+      - mir_robot
+      - sdc21x0
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/uos-gbp/mir_robot-release.git
+      version: 1.1.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/dfki-ric/mir_robot.git
+      version: noetic
+    status: developed
   move_base_flex:
     doc:
       type: git
@@ -1689,6 +1730,22 @@ repositories:
       url: https://github.com/KIT-MRT/mrt_cmake_modules.git
       version: master
     status: developed
+  multi_object_tracking_lidar:
+    doc:
+      type: git
+      url: https://github.com/praveen-palanisamy/multiple-object-tracking-lidar.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/praveen-palanisamy/multi_object_tracking_lidar-release.git
+      version: 1.0.3-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/praveen-palanisamy/multiple-object-tracking-lidar.git
+      version: master
+    status: maintained
   navigation:
     doc:
       type: git
@@ -2698,6 +2755,25 @@ repositories:
       url: https://github.com/ros/rosbag_migration_rule.git
       version: master
     status: maintained
+  rosbag_snapshot:
+    doc:
+      type: git
+      url: https://github.com/ros/rosbag_snapshot.git
+      version: main
+    release:
+      packages:
+      - rosbag_snapshot
+      - rosbag_snapshot_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/rosbag_snapshot-release.git
+      version: 1.0.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/rosbag_snapshot.git
+      version: main
+    status: maintained
   rosbridge_suite:
     doc:
       type: git
@@ -3558,7 +3634,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/SteveMacenski/slam_toolbox-release.git
-      version: 1.5.3-1
+      version: 1.5.4-1
     source:
       test_pull_requests: true
       type: git
@@ -3721,7 +3797,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/teleop_twist_keyboard-release.git
-      version: 0.6.2-1
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_twist_keyboard.git
@@ -3927,6 +4003,25 @@ repositories:
       url: https://github.com/ros-drivers/usb_cam.git
       version: develop
     status: unmaintained
+  usb_cam_hardware:
+    doc:
+      type: git
+      url: https://github.com/yoshito-n-students/usb_cam_hardware.git
+      version: noetic-devel
+    release:
+      packages:
+      - usb_cam_controllers
+      - usb_cam_hardware
+      - usb_cam_hardware_interface
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/yoshito-n-students/usb_cam_hardware-release.git
+      version: 0.0.5-1
+    source:
+      type: git
+      url: https://github.com/yoshito-n-students/usb_cam_hardware.git
+      version: noetic-devel
+    status: maintained
   vision_opencv:
     doc:
       type: git
