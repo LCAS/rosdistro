@@ -8073,9 +8073,9 @@ repositories:
     status: developed
   multisense_ros:
     doc:
-      type: hg
-      url: https://bitbucket.org/crl/multisense_ros
-      version: default
+      type: git
+      url: https://github.com/carnegierobotics/multisense_ros.git
+      version: master
     release:
       packages:
       - multisense
@@ -8087,11 +8087,11 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/carnegieroboticsllc/multisense_ros-release.git
-      version: 4.0.0-0
+      version: 4.0.4-1
     source:
-      type: hg
-      url: https://bitbucket.org/crl/multisense_ros
-      version: default
+      type: git
+      url: https://github.com/carnegierobotics/multisense_ros.git
+      version: master
     status: maintained
   multiwii:
     doc:
@@ -12936,6 +12936,27 @@ repositories:
       type: git
       url: https://github.com/ros/rosbag_snapshot.git
       version: main
+    status: maintained
+  rosbag_uploader:
+    doc:
+      type: git
+      url: https://github.com/aws-robotics/rosbag-uploader-ros1.git
+      version: master
+    release:
+      packages:
+      - file_uploader_msgs
+      - recorder_msgs
+      - rosbag_cloud_recorders
+      - s3_common
+      - s3_file_uploader
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/aws-gbp/rosbag_uploader-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/aws-robotics/rosbag-uploader-ros1.git
+      version: master
     status: maintained
   rosbash_params:
     doc:

@@ -1079,6 +1079,40 @@ repositories:
       url: https://github.com/ubuntu-robotics/nodl.git
       version: master
     status: developed
+  octomap:
+    doc:
+      type: git
+      url: https://github.com/octomap/octomap.git
+      version: master
+    release:
+      packages:
+      - dynamic_edt_3d
+      - octomap
+      - octovis
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros-gbp/octomap-release.git
+      version: 1.9.5-2
+    source:
+      type: git
+      url: https://github.com/octomap/octomap.git
+      version: devel
+    status: maintained
+  octomap_msgs:
+    doc:
+      type: git
+      url: https://github.com/octomap/octomap_msgs.git
+      version: ros2
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros-gbp/octomap_msgs-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/octomap/octomap_msgs.git
+      version: ros2
+    status: maintained
   ompl:
     release:
       tags:
