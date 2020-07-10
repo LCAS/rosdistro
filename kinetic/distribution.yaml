@@ -9915,6 +9915,25 @@ repositories:
       type: git
       url: https://github.com/inomuh/phm_tools.git
       version: master
+    release:
+      packages:
+      - agv_msgs
+      - phm_hazard_rate_calculation
+      - phm_msgs
+      - phm_reliability_calculation
+      - phm_robot_task_completion
+      - phm_start
+      - phm_tools
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/inomuh/phm_tools-release.git
+      version: 1.0.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/inomuh/phm_tools.git
+      version: master
+    status: developed
   phoxi_camera:
     release:
       tags:
@@ -14149,7 +14168,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/introlab/rtabmap-release.git
-      version: 0.19.3-1
+      version: 0.20.0-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -14164,7 +14183,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.19.3-1
+      version: 0.20.0-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
@@ -16718,7 +16737,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/yoshito-n-students/usb_cam_hardware-release.git
-      version: 0.0.3-0
+      version: 0.0.6-1
     source:
       type: git
       url: https://github.com/yoshito-n-students/usb_cam_hardware.git

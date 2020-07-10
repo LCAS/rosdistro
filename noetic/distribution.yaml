@@ -525,6 +525,27 @@ repositories:
       url: https://bitbucket.org/dataspeedinc/dataspeed_can.git
       version: master
     status: developed
+  dataspeed_pds:
+    doc:
+      type: git
+      url: https://bitbucket.org/DataspeedInc/dataspeed_pds.git
+      version: master
+    release:
+      packages:
+      - dataspeed_pds
+      - dataspeed_pds_can
+      - dataspeed_pds_msgs
+      - dataspeed_pds_rqt
+      - dataspeed_pds_scripts
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/DataspeedInc-release/dataspeed_pds-release.git
+      version: 1.0.3-1
+    source:
+      type: git
+      url: https://bitbucket.org/DataspeedInc/dataspeed_pds.git
+      version: master
+    status: developed
   dataspeed_ulc_ros:
     doc:
       type: git
@@ -542,6 +563,27 @@ repositories:
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/dataspeed_ulc_ros.git
+      version: master
+    status: developed
+  dbw_mkz_ros:
+    doc:
+      type: git
+      url: https://bitbucket.org/dataspeedinc/dbw_mkz_ros.git
+      version: master
+    release:
+      packages:
+      - dbw_mkz
+      - dbw_mkz_can
+      - dbw_mkz_description
+      - dbw_mkz_joystick_demo
+      - dbw_mkz_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/DataspeedInc-release/dbw_mkz_ros-release.git
+      version: 1.2.9-1
+    source:
+      type: git
+      url: https://bitbucket.org/dataspeedinc/dbw_mkz_ros.git
       version: master
     status: developed
   ddynamic_reconfigure:
@@ -3125,7 +3167,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/uos-gbp/rospy_message_converter-release.git
-      version: 0.5.1-1
+      version: 0.5.2-1
     source:
       test_pull_requests: true
       type: git
@@ -3698,6 +3740,21 @@ repositories:
       url: https://github.com/PickNikRobotics/rviz_visual_tools.git
       version: noetic-devel
     status: maintained
+  sainsmart_relay_usb:
+    doc:
+      type: git
+      url: https://bitbucket.org/DataspeedInc/sainsmart_relay_usb.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/DataspeedInc-release/sainsmart_relay_usb-release.git
+      version: 0.0.3-1
+    source:
+      type: git
+      url: https://bitbucket.org/DataspeedInc/sainsmart_relay_usb.git
+      version: master
+    status: maintained
   sbpl:
     release:
       tags:
@@ -4170,12 +4227,34 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/yoshito-n-students/usb_cam_hardware-release.git
-      version: 0.0.5-1
+      version: 0.2.1-1
     source:
       type: git
       url: https://github.com/yoshito-n-students/usb_cam_hardware.git
       version: noetic-devel
     status: maintained
+  velodyne:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/velodyne.git
+      version: master
+    release:
+      packages:
+      - velodyne
+      - velodyne_driver
+      - velodyne_laserscan
+      - velodyne_msgs
+      - velodyne_pcl
+      - velodyne_pointcloud
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/velodyne-release.git
+      version: 1.6.0-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/velodyne.git
+      version: master
+    status: developed
   vision_msgs:
     doc:
       type: git
