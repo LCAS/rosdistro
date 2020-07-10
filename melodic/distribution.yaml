@@ -1845,7 +1845,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/DataspeedInc-release/dataspeed_can-release.git
-      version: 1.0.15-1
+      version: 1.0.16-1
     source:
       type: git
       url: https://bitbucket.org/dataspeedinc/dataspeed_can.git
@@ -1866,7 +1866,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/DataspeedInc-release/dataspeed_pds-release.git
-      version: 1.0.2-0
+      version: 1.0.3-1
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/dataspeed_pds.git
@@ -1943,7 +1943,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/DataspeedInc-release/dbw_mkz_ros-release.git
-      version: 1.2.7-1
+      version: 1.2.9-1
     source:
       type: git
       url: https://bitbucket.org/dataspeedinc/dbw_mkz_ros.git
@@ -2112,7 +2112,22 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/Achllle/dual_quaternions_ros-release.git
-      version: 0.1.3-1
+      version: 0.1.4-1
+    status: maintained
+  dynamic-graph:
+    doc:
+      type: git
+      url: https://github.com/stack-of-tasks/dynamic-graph.git
+      version: devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/stack-of-tasks/dynamic-graph-ros-release.git
+      version: 4.2.1-4
+    source:
+      type: git
+      url: https://github.com/stack-of-tasks/dynamic-graph.git
+      version: devel
     status: maintained
   dynamic_reconfigure:
     doc:
@@ -7315,7 +7330,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 2.8.1-1
+      version: 2.8.2-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -7741,7 +7756,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/PilzDE/psen_scan-release.git
-      version: 1.0.5-1
+      version: 1.0.6-1
     source:
       type: git
       url: https://github.com/PilzDE/psen_scan.git
@@ -9001,7 +9016,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/code-iai-release/ros_emacs_utils-release.git
-      version: 0.4.14-1
+      version: 0.4.16-1
     source:
       type: git
       url: https://github.com/code-iai/ros_emacs_utils.git
@@ -9552,7 +9567,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/uos-gbp/rospy_message_converter-release.git
-      version: 0.5.1-1
+      version: 0.5.2-1
     source:
       test_pull_requests: true
       type: git
