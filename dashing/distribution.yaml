@@ -1175,7 +1175,7 @@ repositories:
   kdl_parser:
     doc:
       type: git
-      url: https://github.com/ros2/kdl_parser.git
+      url: https://github.com/ros/kdl_parser.git
       version: dashing
     release:
       tags:
@@ -1185,7 +1185,7 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros2/kdl_parser.git
+      url: https://github.com/ros/kdl_parser.git
       version: dashing
     status: maintained
   kinesis_manager:
@@ -2385,6 +2385,19 @@ repositories:
       type: git
       url: https://github.com/ros2/ros1_bridge.git
       version: dashing
+    status: developed
+  ros2-lgsvl-bridge:
+    release:
+      packages:
+      - lgsvl_bridge
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/lgsvl/ros2-lgsvl-bridge-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/lgsvl/ros2-lgsvl-bridge.git
+      version: master
     status: developed
   ros2_control:
     doc:
@@ -3677,6 +3690,27 @@ repositories:
       url: https://github.com/ros2/variants.git
       version: dashing
     status: developed
+  velodyne:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/velodyne.git
+      version: dashing-devel
+    release:
+      packages:
+      - velodyne
+      - velodyne_driver
+      - velodyne_laserscan
+      - velodyne_msgs
+      - velodyne_pointcloud
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/velodyne-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/velodyne.git
+      version: dashing-devel
+    status: maintained
   vision_opencv:
     doc:
       type: git
