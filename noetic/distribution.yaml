@@ -565,6 +565,27 @@ repositories:
       url: https://bitbucket.org/DataspeedInc/dataspeed_ulc_ros.git
       version: master
     status: developed
+  dbw_fca_ros:
+    doc:
+      type: git
+      url: https://bitbucket.org/DataspeedInc/dbw_fca_ros.git
+      version: master
+    release:
+      packages:
+      - dbw_fca
+      - dbw_fca_can
+      - dbw_fca_description
+      - dbw_fca_joystick_demo
+      - dbw_fca_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/DataspeedInc-release/dbw_fca_ros-release.git
+      version: 1.0.10-1
+    source:
+      type: git
+      url: https://bitbucket.org/DataspeedInc/dbw_fca_ros.git
+      version: master
+    status: developed
   dbw_mkz_ros:
     doc:
       type: git
@@ -1348,6 +1369,32 @@ repositories:
       url: https://github.com/ros-drivers/joystick_drivers.git
       version: master
     status: maintained
+  jsk_common:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_common.git
+      version: master
+    release:
+      packages:
+      - dynamic_tf_publisher
+      - image_view2
+      - jsk_common
+      - jsk_data
+      - jsk_network_tools
+      - jsk_tilt_laser
+      - jsk_tools
+      - jsk_topic_tools
+      - multi_map_server
+      - virtual_force_publisher
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/tork-a/jsk_common-release.git
+      version: 2.2.11-2
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_common.git
+      version: master
+    status: developed
   jsk_common_msgs:
     doc:
       type: git
@@ -2347,7 +2394,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 2.8.2-1
+      version: 2.8.3-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
