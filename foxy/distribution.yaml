@@ -678,6 +678,21 @@ repositories:
       url: https://github.com/swri-robotics/gps_umd.git
       version: dashing-devel
     status: developed
+  hls_lfcd_lds_driver:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
+      version: foxy-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/robotis-ros2-release/hls_lfcd_lds_driver-release.git
+      version: 2.0.1-1
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
+      version: foxy-devel
+    status: developed
   ifm3d_core:
     release:
       tags:
@@ -1366,6 +1381,22 @@ repositories:
       url: https://github.com/ros-visualization/qt_gui_core.git
       version: foxy-devel
     status: maintained
+  random_numbers:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/random_numbers.git
+      version: ros2
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros-gbp/random_numbers-release.git
+      version: 1.0.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-planning/random_numbers.git
+      version: ros2
+    status: maintained
   rcl:
     doc:
       type: git
@@ -1819,6 +1850,22 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
+      version: foxy
+    status: maintained
+  ros2cli_common_extensions:
+    doc:
+      type: git
+      url: https://github.com/ros2/ros2cli_common_extensions.git
+      version: foxy
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/ros2cli_common_extensions-release.git
+      version: 0.1.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/ros2cli_common_extensions.git
       version: foxy
     status: maintained
   ros_environment:
@@ -2476,6 +2523,7 @@ repositories:
     status: developed
   system_tests:
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros2/system_tests.git
       version: foxy
