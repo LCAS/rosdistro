@@ -75,6 +75,17 @@ repositories:
       url: https://github.com/aprilrobotics/apriltag.git
       version: master
     status: maintained
+  apriltag_ros:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/AprilRobotics/apriltag_ros-release.git
+      version: 3.1.2-1
+    source:
+      type: git
+      url: https://github.com/AprilRobotics/apriltag_ros.git
+      version: master
+    status: maintained
   astuff_sensor_msgs:
     doc:
       type: git
@@ -1168,6 +1179,23 @@ repositories:
       url: https://github.com/HebiRobotics/hebi_cpp_api_ros.git
       version: master
     status: developed
+  hls-lfcd-lds-driver:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
+      version: noetic-devel
+    release:
+      packages:
+      - hls_lfcd_lds_driver
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ROBOTIS-GIT-release/hls-lfcd-lds-driver-release.git
+      version: 1.1.1-1
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
+      version: noetic-devel
+    status: developed
   hokuyo3d:
     doc:
       type: git
@@ -1556,6 +1584,22 @@ repositories:
       type: git
       url: https://github.com/lgsvl/lgsvl_msgs.git
       version: noetic-devel
+  libfranka:
+    doc:
+      type: git
+      url: https://github.com/frankaemika/libfranka-release.git
+      version: release/noetic/libfranka
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/frankaemika/libfranka-release.git
+      version: 0.8.0-4
+    source:
+      test_commits: false
+      type: git
+      url: https://github.com/frankaemika/libfranka.git
+      version: master
+    status: developed
   libg2o:
     release:
       tags:
@@ -1614,7 +1658,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 2.13.7-1
+      version: 2.14.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3861,7 +3905,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/SICKAG/sick_scan-release.git
-      version: 1.7.6-1
+      version: 1.7.6-2
     source:
       type: git
       url: https://github.com/SICKAG/sick_scan.git
@@ -4080,6 +4124,21 @@ repositories:
       url: https://github.com/ros-teleop/teleop_twist_keyboard.git
       version: master
     status: maintained
+  turtlebot3_msgs:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ROBOTIS-GIT-release/turtlebot3_msgs-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+      version: noetic-devel
+    status: developed
   twist_mux:
     doc:
       type: git

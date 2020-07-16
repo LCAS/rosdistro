@@ -201,7 +201,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/AprilRobotics/apriltag_ros-release.git
-      version: 3.1.1-1
+      version: 3.1.2-1
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag_ros.git
@@ -3630,7 +3630,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/hls-lfcd-lds-driver-release.git
-      version: 1.1.0-1
+      version: 1.1.1-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
@@ -5166,7 +5166,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 2.13.7-1
+      version: 2.14.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5582,7 +5582,6 @@ repositories:
       - moveit_commander
       - moveit_controller_manager_example
       - moveit_core
-      - moveit_experimental
       - moveit_fake_controller_manager
       - moveit_kinematics
       - moveit_planners
@@ -5602,12 +5601,13 @@ repositories:
       - moveit_ros_visualization
       - moveit_ros_warehouse
       - moveit_runtime
+      - moveit_servo
       - moveit_setup_assistant
       - moveit_simple_controller_manager
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 1.0.4-1
+      version: 1.0.5-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit.git
@@ -10410,7 +10410,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tork-a/rtmros_nextage-release.git
-      version: 0.8.6-2
+      version: 0.8.6-3
     source:
       test_pull_requests: true
       type: git
@@ -10695,7 +10695,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/SICKAG/sick_scan-release.git
-      version: 1.7.6-1
+      version: 1.7.6-2
     source:
       type: git
       url: https://github.com/SICKAG/sick_scan.git
@@ -11424,7 +11424,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/turtlebot3_msgs-release.git
-      version: 1.0.0-0
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
