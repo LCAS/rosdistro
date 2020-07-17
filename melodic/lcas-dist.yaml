@@ -223,7 +223,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/librealsense.git
-      version: v2.29-framos
+      version: v2.33-framos
     status: maintained
   marvelmind_nav_lcas:
     release:
