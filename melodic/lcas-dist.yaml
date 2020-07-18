@@ -217,7 +217,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/lcas-releases/librealsense_framos.git
-      version: 2.29.2-1
+      version: 2.33.2-1
     source:
       test_commits: true
       test_pull_requests: true
