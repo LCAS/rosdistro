@@ -432,6 +432,31 @@ repositories:
       url: https://github.com/ROBOTIS-GIT/DynamixelSDK.git
       version: foxy-devel
     status: developed
+  ecl_lite:
+    doc:
+      type: git
+      url: https://github.com/stonier/ecl_lite.git
+      version: release/1.1.x
+    release:
+      packages:
+      - ecl_config
+      - ecl_console
+      - ecl_converters_lite
+      - ecl_errors
+      - ecl_io
+      - ecl_lite
+      - ecl_sigslots_lite
+      - ecl_time_lite
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/yujinrobot-release/ecl_lite-release.git
+      version: 1.1.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/stonier/ecl_lite.git
+      version: devel
+    status: maintained
   ecl_tools:
     doc:
       type: git
@@ -966,23 +991,6 @@ repositories:
       url: https://github.com/ros2-gbp/libg2o-release.git
       version: 2020.5.29-1
     status: maintained
-  librealsense:
-    doc:
-      type: git
-      url: https://github.com/IntelRealSense/librealsense.git
-      version: ros2debian
-    release:
-      packages:
-      - librealsense2
-      tags:
-        release: release/foxy/{package}/{version}
-      url: https://github.com/ros2-gbp/librealsense-release.git
-      version: 2.34.0-1
-    source:
-      type: git
-      url: https://github.com/IntelRealSense/librealsense.git
-      version: ros2debian
-    status: maintained
   libstatistics_collector:
     doc:
       type: git
@@ -1375,6 +1383,21 @@ repositories:
       type: git
       url: https://github.com/ros-perception/pointcloud_to_laserscan.git
       version: foxy
+  popf:
+    doc:
+      type: git
+      url: https://github.com/fmrico/popf.git
+      version: foxy-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/fmrico/popf-release.git
+      version: 0.0.12-1
+    source:
+      type: git
+      url: https://github.com/fmrico/popf.git
+      version: foxy-devel
+    status: developed
   py_trees_ros_interfaces:
     doc:
       type: git
@@ -1839,26 +1862,6 @@ repositories:
       url: https://github.com/lgsvl/ros2-lgsvl-bridge.git
       version: master
     status: developed
-  ros2_intel_realsense:
-    doc:
-      type: git
-      url: https://github.com/intel/ros2_intel_realsense.git
-      version: refactor
-    release:
-      packages:
-      - realsense_examples
-      - realsense_msgs
-      - realsense_node
-      - realsense_ros
-      tags:
-        release: release/foxy/{package}/{version}
-      url: https://github.com/ros2-gbp/ros2_intel_realsense-release.git
-      version: 2.0.8-2
-    source:
-      type: git
-      url: https://github.com/intel/ros2_intel_realsense.git
-      version: refactor
-    status: maintained
   ros2_ouster_drivers:
     doc:
       type: git
