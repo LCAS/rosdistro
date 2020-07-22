@@ -240,6 +240,24 @@ repositories:
       url: https://github.com/ros2/cartographer_ros.git
       version: dashing
     status: maintained
+  cascade_lifecycle:
+    doc:
+      type: git
+      url: https://github.com/fmrico/cascade_lifecycle.git
+      version: master
+    release:
+      packages:
+      - cascade_lifecycle_msgs
+      - rclcpp_cascade_lifecycle
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/fmrico/cascade_lifecycle-release.git
+      version: 0.0.6-1
+    source:
+      type: git
+      url: https://github.com/fmrico/cascade_lifecycle.git
+      version: master
+    status: developed
   class_loader:
     doc:
       type: git
@@ -623,6 +641,11 @@ repositories:
         release: release/foxy/{package}/{version}
       url: https://github.com/boschresearch/fmilibrary_vendor-release.git
       version: 0.2.0-1
+    source:
+      type: git
+      url: https://github.com/boschresearch/fmilibrary_vendor.git
+      version: master
+    status: maintained
   foonathan_memory_vendor:
     release:
       tags:
@@ -1544,7 +1567,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rcl_logging-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1810,7 +1833,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/cra-ros-pkg/robot_localization-release.git
-      version: 3.1.0-1
+      version: 3.1.1-1
     source:
       test_pull_requests: true
       type: git
