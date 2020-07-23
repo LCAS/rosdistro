@@ -24,6 +24,7 @@ repositories:
       - ament_cmake_export_link_flags
       - ament_cmake_export_targets
       - ament_cmake_gmock
+      - ament_cmake_google_benchmark
       - ament_cmake_gtest
       - ament_cmake_include_directories
       - ament_cmake_libraries
@@ -36,7 +37,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ament_cmake-release.git
-      version: 0.9.6-1
+      version: 1.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -277,7 +278,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/common_interfaces-release.git
-      version: 2.0.1-2
+      version: 2.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -624,7 +625,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/google_benchmark_vendor-release.git
-      version: 0.0.1-1
+      version: 0.0.2-1
     source:
       test_pull_requests: true
       type: git
@@ -1275,7 +1276,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcl_logging-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1347,7 +1348,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcpputils-release.git
-      version: 1.2.0-1
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/ros2/rcpputils.git
@@ -1419,7 +1420,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw-release.git
-      version: 2.0.0-1
+      version: 2.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2262,6 +2263,17 @@ repositories:
       url: https://github.com/ros2/system_tests.git
       version: master
     status: developed
+  tango_icons_vendor:
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/tango_icons_vendor-release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://github.com/ros-visualization/tango_icons_vendor.git
+      version: master
+    status: maintained
   teleop_twist_joy:
     doc:
       type: git

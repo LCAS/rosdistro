@@ -4583,6 +4583,18 @@ repositories:
       url: https://github.com/aws-robotics/kinesisvideo-ros1.git
       version: master
     status: maintained
+  knowledge_representation:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/utexas-bwi-gbp/knowledge_representation-release.git
+      version: 0.9.0-1
+    source:
+      test_commits: false
+      type: git
+      url: https://github.com/utexas-bwi/knowledge_representation.git
+      version: master
+    status: developed
   kobuki:
     source:
       type: git
@@ -10696,7 +10708,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/SICKAG/sick_scan-release.git
-      version: 1.7.6-2
+      version: 1.7.7-1
     source:
       type: git
       url: https://github.com/SICKAG/sick_scan.git
@@ -11661,6 +11673,12 @@ repositories:
       url: https://github.com/peci1/ubnt_airos_tools.git
       version: master
     status: developed
+  udp_com:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/flynneva/udp_com-release.git
+      version: 0.0.6-1
   um6:
     doc:
       type: git
