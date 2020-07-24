@@ -1969,6 +1969,13 @@ python-grpcio:
       pip: [grpcio]
     xenial:
       pip: [grpcio]
+python-grpcio-reflection-pip:
+  debian:
+    pip:
+      packages: [grpcio-reflection]
+  ubuntu:
+    pip:
+      packages: [grpcio-reflection]
 python-grpcio-testing-pip:
   debian:
     pip:
@@ -2030,15 +2037,7 @@ python-httplib2:
   fedora: [python-httplib2]
   gentoo: [dev-python/httplib2]
   ubuntu:
-    lucid: [python-httplib2]
-    maverick: [python-httplib2]
-    natty: [python-httplib2]
-    oneiric: [python-httplib2]
-    precise: [python-httplib2]
-    quantal: [python-httplib2]
-    raring: [python-httplib2]
-    saucy: [python-httplib2]
-    trusty: [python-httplib2]
+    '*': [python-httplib2]
     trusty_python3: [python3-httplib2]
 python-hypothesis:
   debian: [python-hypothesis]
@@ -5394,6 +5393,10 @@ python3-catkin-pkg-modules:
       packages: [catkin-pkg]
   rhel: ['python%{python3_pkgversion}-catkin_pkg']
   ubuntu: [python3-catkin-pkg-modules]
+python3-catkin-tools:
+  debian: [python3-catkin-tools]
+  fedora: [python3-catkin_tools]
+  ubuntu: [python3-catkin-tools]
 python3-cherrypy3:
   debian: [python3-cherrypy3]
   ubuntu: [python3-cherrypy3]
@@ -5609,6 +5612,11 @@ python3-grpcio:
     '*': [python3-grpcio]
     bionic: null
     xenial: null
+python3-httplib2:
+  debian: [python3-httplib2]
+  fedora: [python3-httplib2]
+  gentoo: [dev-python/httplib2]
+  ubuntu: [python3-httplib2]
 python3-hypothesis:
   debian: [python3-hypothesis]
   fedora: [python3-hypothesis]
@@ -5815,6 +5823,11 @@ python3-pandas:
   fedora: [python3-pandas]
   gentoo: [dev-python/pandas]
   ubuntu: [python3-pandas]
+python3-parameterized:
+  alpine: [py3-parameterized]
+  debian: [python3-parameterized]
+  fedora: [python3-parameterized]
+  ubuntu: [python3-parameterized]
 python3-paramiko:
   debian: [python3-paramiko]
   fedora: [python3-paramiko]
@@ -6057,7 +6070,7 @@ python3-qt5-bindings:
     '*': [libpyside2-dev, libshiboken2-dev, pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-pyside2.qtsvg, python3-sip-dev, qtbase5-dev, shiboken2]
     jessie: [pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-sip-dev, qtbase5-dev]
     stretch: [pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-sip-dev, qtbase5-dev]
-  fedora: [python3-qt5-devel, sip]
+  fedora: [python3-qt5-devel, libXext-devel]
   gentoo: [dev-python/PyQt5]
   opensuse: [python3-qt5]
   rhel: ['python%{python3_pkgversion}-qt5-devel']
@@ -6209,6 +6222,20 @@ python3-scp:
   debian: [python3-scp]
   fedora: [python3-scp]
   ubuntu: [python3-scp]
+python3-sense-emu-pip:
+  debian:
+    pip:
+      packages: [sense-emu]
+  ubuntu:
+    pip:
+      packages: [sense-emu]
+python3-sense-hat-pip:
+  debian:
+    pip:
+      packages: [sense-hat]
+  ubuntu:
+    pip:
+      packages: [sense-hat]
 python3-serial:
   debian: [python3-serial]
   fedora: [python3-pyserial]
