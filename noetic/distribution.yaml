@@ -269,7 +269,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/catkin-release.git
-      version: 0.8.6-1
+      version: 0.8.8-1
     source:
       test_pull_requests: true
       type: git
@@ -898,6 +898,28 @@ repositories:
       url: https://github.com/fkie/message_filters.git
       version: master
     status: maintained
+  fkie_multimaster:
+    doc:
+      type: git
+      url: https://github.com/fkie/multimaster_fkie.git
+      version: noetic-devel
+    release:
+      packages:
+      - fkie_master_discovery
+      - fkie_master_sync
+      - fkie_multimaster
+      - fkie_multimaster_msgs
+      - fkie_node_manager
+      - fkie_node_manager_daemon
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/fkie-release/multimaster_fkie-release.git
+      version: 1.2.1-1
+    source:
+      type: git
+      url: https://github.com/fkie/multimaster_fkie.git
+      version: noetic-devel
+    status: maintained
   fmi_adapter:
     doc:
       type: git
@@ -1032,7 +1054,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/genpy-release.git
-      version: 0.6.12-1
+      version: 0.6.13-1
     source:
       test_pull_requests: true
       type: git
@@ -2623,7 +2645,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/qt_gui_core-release.git
-      version: 0.4.1-1
+      version: 0.4.2-1
     source:
       test_pull_requests: true
       type: git
@@ -2874,7 +2896,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/ros-release.git
-      version: 1.15.4-1
+      version: 1.15.6-1
     source:
       test_pull_requests: true
       type: git
@@ -2935,7 +2957,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/ros_comm-release.git
-      version: 1.15.7-1
+      version: 1.15.8-1
     source:
       test_pull_requests: true
       type: git
@@ -3068,6 +3090,28 @@ repositories:
       url: https://github.com/ros/ros_environment.git
       version: noetic
     status: maintained
+  ros_ign:
+    doc:
+      type: git
+      url: https://github.com/ignitionrobotics/ros_ign.git
+      version: noetic
+    release:
+      packages:
+      - ros_ign
+      - ros_ign_bridge
+      - ros_ign_gazebo
+      - ros_ign_gazebo_demos
+      - ros_ign_image
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/ros_ign-release.git
+      version: 0.111.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ignitionrobotics/ros_ign.git
+      version: noetic
+    status: developed
   ros_tutorials:
     doc:
       type: git
@@ -3156,7 +3200,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rosconsole-release.git
-      version: 1.14.0-1
+      version: 1.14.1-1
     source:
       test_pull_requests: true
       type: git

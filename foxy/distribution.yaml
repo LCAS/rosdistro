@@ -1226,6 +1226,17 @@ repositories:
       url: https://github.com/SteveMacenski/nonpersistent_voxel_layer.git
       version: foxy-devel
     status: maintained
+  object_recognition_msgs:
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros-gbp/object_recognition_msgs-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/wg-perception/object_recognition_msgs.git
+      version: ros2
+    status: maintained
   octomap:
     doc:
       type: git
@@ -1435,6 +1446,22 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees.git
+      version: devel
+    status: developed
+  py_trees_ros:
+    doc:
+      type: git
+      url: https://github.com/splintered-reality/py_trees_ros.git
+      version: release/2.0.x
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/stonier/py_trees_ros-release.git
+      version: 2.0.11-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/splintered-reality/py_trees_ros.git
       version: devel
     status: developed
   py_trees_ros_interfaces:
