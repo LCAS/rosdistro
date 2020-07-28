@@ -593,7 +593,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/fastrtps-release.git
-      version: 2.0.0-3
+      version: 2.0.1-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -1013,6 +1013,23 @@ repositories:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/libg2o-release.git
       version: 2020.5.29-1
+    status: maintained
+  librealsense:
+    doc:
+      type: git
+      url: https://github.com/IntelRealSense/librealsense.git
+      version: ros2debian
+    release:
+      packages:
+      - librealsense2
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/librealsense-release.git
+      version: 2.34.0-3
+    source:
+      type: git
+      url: https://github.com/IntelRealSense/librealsense.git
+      version: ros2debian
     status: maintained
   libstatistics_collector:
     doc:
@@ -1448,6 +1465,22 @@ repositories:
       url: https://github.com/splintered-reality/py_trees.git
       version: devel
     status: developed
+  py_trees_js:
+    doc:
+      type: git
+      url: https://github.com/splintered-reality/py_trees_js.git
+      version: release/0.6.x
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/stonier/py_trees_js-release.git
+      version: 0.6.3-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/splintered-reality/py_trees_js.git
+      version: devel
+    status: developed
   py_trees_ros:
     doc:
       type: git
@@ -1478,6 +1511,22 @@ repositories:
       type: git
       url: https://github.com/splintered-reality/py_trees_ros_interfaces.git
       version: release/1.2.x
+    status: developed
+  py_trees_ros_tutorials:
+    doc:
+      type: git
+      url: https://github.com/splintered-reality/py_trees_ros_tutorials.git
+      version: release/2.0.x
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/stonier/py_trees_ros_tutorials-release.git
+      version: 2.0.2-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/splintered-reality/py_trees_ros_tutorials.git
+      version: devel
     status: developed
   python_cmake_module:
     doc:
@@ -1931,6 +1980,26 @@ repositories:
       url: https://github.com/lgsvl/ros2-lgsvl-bridge.git
       version: master
     status: developed
+  ros2_intel_realsense:
+    doc:
+      type: git
+      url: https://github.com/intel/ros2_intel_realsense.git
+      version: refactor
+    release:
+      packages:
+      - realsense_examples
+      - realsense_msgs
+      - realsense_node
+      - realsense_ros
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/ros2_intel_realsense-release.git
+      version: 2.0.8-2
+    source:
+      type: git
+      url: https://github.com/intel/ros2_intel_realsense.git
+      version: refactor
+    status: maintained
   ros2_ouster_drivers:
     doc:
       type: git
@@ -2668,7 +2737,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/yujinrobot-release/sophus-release.git
-      version: 1.2.0-1
+      version: 1.2.1-1
     source:
       type: git
       url: https://github.com/stonier/sophus.git
