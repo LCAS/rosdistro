@@ -352,6 +352,21 @@ repositories:
       url: https://github.com/ros-controls/control_msgs.git
       version: foxy-devel
     status: maintained
+  control_toolbox:
+    doc:
+      type: git
+      url: https://github.com/ros-controls/control_toolbox.git
+      version: ros2-master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros-gbp/control_toolbox-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-controls/control_toolbox.git
+      version: ros2-master
+    status: maintained
   cyclonedds:
     release:
       tags:
@@ -434,6 +449,22 @@ repositories:
       type: git
       url: https://github.com/ros/diagnostics.git
       version: foxy
+    status: maintained
+  dynamic-graph:
+    doc:
+      type: git
+      url: https://github.com/stack-of-tasks/dynamic-graph.git
+      version: devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/stack-of-tasks/dynamic-graph-ros-release.git
+      version: 4.2.2-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/stack-of-tasks/dynamic-graph.git
+      version: devel
     status: maintained
   dynamixel_sdk:
     doc:
@@ -824,7 +855,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/image_pipeline-release.git
-      version: 2.1.1-1
+      version: 2.2.0-2
     source:
       test_pull_requests: true
       type: git
@@ -1841,6 +1872,7 @@ repositories:
       url: https://github.com/ros2-gbp/rmw_connext-release.git
       version: 1.0.1-1
     source:
+      test_abi: true
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_connext.git
