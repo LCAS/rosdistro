@@ -374,7 +374,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mikeferguson/code_coverage-gbp.git
-      version: 0.4.2-1
+      version: 0.4.3-1
     source:
       type: git
       url: https://github.com/mikeferguson/code_coverage.git
@@ -2559,20 +2559,6 @@ repositories:
       url: https://github.com/ros-perception/pcl_msgs.git
       version: noetic-devel
     status: maintained
-  perception_open3d:
-    release:
-      packages:
-      - open3d_conversions
-      tags:
-        release: release/noetic/{package}/{version}
-      url: https://github.com/ros-gbp/perception_open3d-release.git
-      version: 0.0.2-1
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ros-perception/perception_open3d.git
-      version: melodic-devel
-    status: developed
   perception_pcl:
     doc:
       type: git
@@ -4729,6 +4715,21 @@ repositories:
       url: https://github.com/ros-visualization/webkit_dependency.git
       version: kinetic-devel
     status: maintained
+  webots_ros:
+    doc:
+      type: git
+      url: https://github.com/cyberbotics/webots_ros.git
+      version: noetic
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/cyberbotics/webots_ros-release.git
+      version: 2.1.0-1
+    source:
+      type: git
+      url: https://github.com/cyberbotics/webots_ros.git
+      version: master
+    status: maintained
   xacro:
     doc:
       type: git
@@ -4767,7 +4768,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/openspur/yp-spur-release.git
-      version: 1.18.1-1
+      version: 1.18.2-1
     source:
       type: git
       url: https://github.com/openspur/yp-spur.git
