@@ -346,7 +346,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros-gbp/control_msgs-release.git
-      version: 2.4.0-1
+      version: 2.4.1-1
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
@@ -361,7 +361,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros-gbp/control_toolbox-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
@@ -485,7 +485,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/stonier/ecl_core.git
-      version: release/1.0.x
+      version: release/1.1.x
     release:
       packages:
       - ecl_command_line
@@ -516,7 +516,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_core-release.git
-      version: 1.0.8-1
+      version: 1.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1558,12 +1558,12 @@ repositories:
     doc:
       type: git
       url: https://github.com/splintered-reality/py_trees_ros.git
-      version: release/2.0.x
+      version: release/2.1.x
     release:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/stonier/py_trees_ros-release.git
-      version: 2.0.11-1
+      version: 2.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1589,12 +1589,12 @@ repositories:
     doc:
       type: git
       url: https://github.com/splintered-reality/py_trees_ros_tutorials.git
-      version: release/2.0.x
+      version: release/2.1.x
     release:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/stonier/py_trees_ros_tutorials-release.git
-      version: 2.0.2-1
+      version: 2.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1664,7 +1664,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/qt_gui_core-release.git
-      version: 1.1.0-1
+      version: 1.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1701,7 +1701,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rcl-release.git
-      version: 1.1.6-1
+      version: 1.1.7-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -1788,7 +1788,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 2.0.2-1
+      version: 2.1.0-1
     source:
       test_pull_requests: true
       type: git

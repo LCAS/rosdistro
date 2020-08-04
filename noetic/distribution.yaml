@@ -456,7 +456,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/common_tutorials-release.git
-      version: 0.1.12-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/ros/common_tutorials.git
@@ -1006,7 +1006,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fkie-release/multimaster_fkie-release.git
-      version: 1.2.2-1
+      version: 1.2.3-1
     source:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
@@ -2726,7 +2726,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/stonier/py_trees-release.git
-      version: 0.7.1-1
+      version: 0.7.3-1
     source:
       test_pull_requests: true
       type: git
@@ -3282,7 +3282,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/ros_tutorials-release.git
-      version: 0.10.1-1
+      version: 0.10.2-1
     source:
       test_pull_requests: true
       type: git
