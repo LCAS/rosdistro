@@ -4582,6 +4582,16 @@ repositories:
       url: https://github.com/ros/kdl_parser.git
       version: melodic-devel
     status: maintained
+  keypress_monitor:
+    doc:
+      type: git
+      url: https://repo.ijs.si/msimonic/keypress_monitor.git
+      version: master
+    source:
+      type: git
+      url: https://repo.ijs.si/msimonic/keypress_monitor.git
+      version: master
+    status: maintained
   kinesis_manager:
     doc:
       type: git
@@ -10881,7 +10891,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mgruhler/soem-gbp.git
-      version: 1.4.1002-1
+      version: 1.4.1003-1
     source:
       test_pull_requests: true
       type: git
@@ -12171,7 +12181,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/DataspeedInc-release/velodyne_simulator-release.git
-      version: 1.0.9-0
+      version: 1.0.10-1
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/velodyne_simulator.git
