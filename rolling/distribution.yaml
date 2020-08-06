@@ -1008,7 +1008,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mimick_vendor-release.git
-      version: 0.2.0-1
+      version: 0.2.1-1
     source:
       type: git
       url: https://github.com/ros2/mimick_vendor.git
@@ -2340,17 +2340,17 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros2/teleop_twist_joy.git
-      version: dashing
+      version: eloquent
     release:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/teleop_twist_joy-release.git
-      version: 2.2.2-2
+      version: 2.3.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/teleop_twist_joy.git
-      version: dashing
+      version: eloquent
     status: maintained
   teleop_twist_keyboard:
     doc:
@@ -2455,7 +2455,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros_tutorials-release.git
-      version: 1.2.4-2
+      version: 1.2.5-1
     source:
       test_pull_requests: true
       type: git
