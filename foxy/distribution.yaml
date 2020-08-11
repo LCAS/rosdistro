@@ -188,6 +188,21 @@ repositories:
       url: https://github.com/AprilRobotics/apriltag.git
       version: master
     status: maintained
+  autoware_auto_msgs:
+    doc:
+      type: git
+      url: https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs.git
+      version: master
+    status: developed
   behaviortree_cpp:
     doc:
       type: git
@@ -449,6 +464,27 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
+      version: foxy
+    status: maintained
+  dolly:
+    doc:
+      type: git
+      url: https://github.com/chapulina/dolly.git
+      version: foxy
+    release:
+      packages:
+      - dolly
+      - dolly_follow
+      - dolly_gazebo
+      - dolly_ignition
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/chapulina/dolly-release.git
+      version: 0.3.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/chapulina/dolly.git
       version: foxy
     status: maintained
   dynamic-graph:
@@ -836,6 +872,21 @@ repositories:
       type: git
       url: https://github.com/swri-robotics/gps_umd.git
       version: dashing-devel
+    status: developed
+  grbl_ros:
+    doc:
+      type: git
+      url: https://github.com/flynneva/grbl_ros.git
+      version: main
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/flynneva/grbl_ros-release.git
+      version: 0.0.2-4
+    source:
+      type: git
+      url: https://github.com/flynneva/grbl_ros.git
+      version: main
     status: developed
   hls_lfcd_lds_driver:
     doc:
@@ -1512,6 +1563,12 @@ repositories:
       url: https://github.com/ros-drivers/phidgets_drivers.git
       version: dashing
     status: maintained
+  plotjuggler_msgs:
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/facontidavide/plotjuggler_msgs-release.git
+      version: 0.1.2-1
   pluginlib:
     doc:
       type: git
@@ -2642,7 +2699,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_image_view-release.git
-      version: 1.0.4-1
+      version: 1.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2734,7 +2791,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_robot_monitor-release.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_robot_monitor.git
@@ -3364,7 +3421,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros-gbp/xacro-release.git
-      version: 2.0.2-1
+      version: 2.0.3-1
     source:
       type: git
       url: https://github.com/ros/xacro.git

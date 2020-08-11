@@ -2266,7 +2266,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.9.1-1
+      version: 0.10.0-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -2523,7 +2523,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/DataspeedInc-release/oxford_gps_eth-release.git
-      version: 1.2.0-1
+      version: 1.2.1-1
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/oxford_gps_eth.git
@@ -3055,6 +3055,21 @@ repositories:
       url: https://github.com/locusrobotics/robot_navigation.git
       version: noetic
     status: developed
+  robot_self_filter:
+    doc:
+      type: git
+      url: https://github.com/PR2/robot_self_filter.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/pr2-gbp/robot_self_filter-gbp.git
+      version: 0.1.32-1
+    source:
+      type: git
+      url: https://github.com/pr2/robot_self_filter.git
+      version: indigo-devel
+    status: unmaintained
   robot_state_publisher:
     doc:
       type: git
@@ -4489,6 +4504,21 @@ repositories:
       type: git
       url: https://github.com/KumarRobotics/ublox.git
       version: master
+    status: maintained
+  udp_com:
+    doc:
+      type: git
+      url: https://github.com/continental/udp_com.git
+      version: ros1/main
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/flynneva/udp_com-release.git
+      version: 1.1.0-1
+    source:
+      type: git
+      url: https://github.com/continental/udp_com.git
+      version: ros1/main
     status: maintained
   unique_identifier:
     release:
