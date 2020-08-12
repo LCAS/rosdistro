@@ -1268,6 +1268,17 @@ repositories:
       url: https://github.com/swri-robotics/marti_messages.git
       version: dashing-devel
     status: developed
+  mavlink:
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/mavlink/mavlink-gbp-release.git
+      version: 2020.8.8-1
+    source:
+      type: git
+      url: https://github.com/mavlink/mavlink-gbp-release.git
+      version: release/foxy/mavlink
+    status: maintained
   message_filters:
     doc:
       type: git
@@ -1619,7 +1630,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/stonier/py_trees-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1879,6 +1890,7 @@ repositories:
       url: https://github.com/ros2-gbp/rclcpp-release.git
       version: 2.1.0-1
     source:
+      test_abi: true
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
@@ -1927,6 +1939,7 @@ repositories:
       url: https://github.com/ros2-gbp/rcutils-release.git
       version: 1.0.1-1
     source:
+      test_abi: true
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
@@ -3363,6 +3376,21 @@ repositories:
       url: https://github.com/ros-drivers/velodyne.git
       version: ros2
     status: developed
+  vision_msgs:
+    doc:
+      type: git
+      url: https://github.com/Kukanani/vision_msgs.git
+      version: ros2
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/Kukanani/vision_msgs-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/Kukanani/vision_msgs.git
+      version: ros2
+    status: maintained
   vision_opencv:
     doc:
       type: git
