@@ -2620,12 +2620,6 @@ repositories:
       url: https://github.com/eyeware/eyeware-ros.git
       version: master
     status: maintained
-  ezrassor_controller_server:
-    release:
-      tags:
-        release: release/melodic/{package}/{version}
-      url: https://github.com/EZRASSOR/ezrassor_controller_server-release.git
-      version: 1.0.0-1
   fadecandy_ros:
     release:
       packages:
@@ -3209,7 +3203,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/genpy-release.git
-      version: 0.6.12-1
+      version: 0.6.14-1
     source:
       test_pull_requests: true
       type: git
@@ -5971,7 +5965,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/KIT-MRT/mrt_cmake_modules-release.git
-      version: 1.0.3-1
+      version: 1.0.4-1
     source:
       type: git
       url: https://github.com/KIT-MRT/mrt_cmake_modules.git
@@ -9206,12 +9200,12 @@ repositories:
     doc:
       type: git
       url: https://github.com/machinekoder/ros_pytest.git
-      version: 0.1.0
+      version: melodic-devel
     release:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/machinekoder/ros_pytest-release.git
-      version: 0.1.2-2
+      version: 0.2.0-0
     source:
       type: git
       url: https://github.com/machinekoder/ros_pytest.git
@@ -9864,7 +9858,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_bag-release.git
-      version: 0.4.12-0
+      version: 0.4.14-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_bag.git
@@ -9961,7 +9955,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_image_view-release.git
-      version: 0.4.14-1
+      version: 0.4.16-1
     source:
       test_pull_requests: true
       type: git
@@ -11364,7 +11358,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://gitlab.com/toposens/public/toposens-release.git
-      version: 2.0.2-1
+      version: 2.0.3-1
     source:
       type: git
       url: https://gitlab.com/toposens/public/ros-packages.git
@@ -12028,7 +12022,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/seqsense/urg_stamped-release.git
-      version: 0.0.6-2
+      version: 0.0.7-1
     source:
       type: git
       url: https://github.com/seqsense/urg_stamped.git

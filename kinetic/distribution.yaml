@@ -8080,6 +8080,16 @@ repositories:
       url: https://github.com/fkie/multimaster_fkie.git
       version: kinetic-devel
     status: developed
+  multipoint_navigation_receiver:
+    doc:
+      type: git
+      url: https://github.com/SuperAruba/multipoint_navigation_receiver.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/SuperAruba/multipoint_navigation_receiver.git
+      version: master
+    status: maintained
   multisense_ros:
     doc:
       type: git
@@ -12953,6 +12963,7 @@ repositories:
       version: main
     release:
       packages:
+      - rosbag_snapshot
       - rosbag_snapshot_msgs
       tags:
         release: release/kinetic/{package}/{version}
@@ -15917,7 +15928,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://gitlab.com/toposens/public/toposens-release.git
-      version: 2.0.2-1
+      version: 2.0.3-1
     source:
       type: git
       url: https://gitlab.com/toposens/public/ros-packages.git
@@ -16723,7 +16734,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/seqsense/urg_stamped-release.git
-      version: 0.0.6-1
+      version: 0.0.7-1
     source:
       type: git
       url: https://github.com/seqsense/urg_stamped.git
