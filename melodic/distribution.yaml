@@ -2071,6 +2071,24 @@ repositories:
       url: https://github.com/dingo-cpr/dingo.git
       version: master
     status: developed
+  dingo_simulator:
+    doc:
+      type: git
+      url: https://github.com/dingo-cpr/dingo_simulator.git
+      version: master
+    release:
+      packages:
+      - dingo_gazebo
+      - dingo_simulator
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/clearpath-gbp/dingo_simulator-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/dingo-cpr/dingo_simulator.git
+      version: master
+    status: developed
   distance_map:
     release:
       packages:
@@ -4615,7 +4633,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/aws-gbp/kinesis_manager-release.git
-      version: 2.0.1-1
+      version: 2.0.3-1
     source:
       type: git
       url: https://github.com/aws-robotics/kinesisvideo-common.git
@@ -11790,6 +11808,12 @@ repositories:
       type: git
       url: https://github.com/continental/udp_com.git
       version: ros1/main
+    status: maintained
+  ueye_cam:
+    source:
+      type: git
+      url: https://github.com/anqixu/ueye_cam.git
+      version: master
     status: maintained
   um6:
     doc:
