@@ -255,6 +255,21 @@ repositories:
       url: https://github.com/ros2/cartographer_ros.git
       version: dashing
     status: maintained
+  casadi_vendor:
+    doc:
+      type: git
+      url: https://gitlab.com/autowarefoundation/autoware.auto/casadi_vendor.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://gitlab.com/autowarefoundation/autoware.auto/casadi_vendor-release.git
+      version: 3.5.1-1
+    source:
+      type: git
+      url: https://gitlab.com/autowarefoundation/autoware.auto/casadi_vendor.git
+      version: master
+    status: maintained
   cascade_lifecycle:
     doc:
       type: git
@@ -1236,7 +1251,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 3.3.0-1
+      version: 3.3.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1387,7 +1402,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/nodl-release.git
-      version: 0.2.0-1
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/ubuntu-robotics/nodl.git
@@ -1991,7 +2006,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/resource_retriever-release.git
-      version: 2.3.2-1
+      version: 2.3.3-1
     source:
       test_pull_requests: true
       type: git
@@ -2436,7 +2451,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl-release.git
-      version: 1.0.1-1
+      version: 1.1.0-1
     source:
       test_abi: true
       test_pull_requests: true
