@@ -4429,7 +4429,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tork-a/jsk_3rdparty-release.git
-      version: 2.1.20-1
+      version: 2.1.21-2
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
@@ -8773,7 +8773,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/mikeferguson/robot_calibration.git
-      version: master
+      version: ros1
     release:
       packages:
       - robot_calibration
@@ -8786,7 +8786,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/mikeferguson/robot_calibration.git
-      version: master
+      version: ros1
     status: maintained
   robot_controllers:
     doc:
@@ -9098,7 +9098,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/ros_comm-release.git
-      version: 1.14.8-1
+      version: 1.14.9-1
     source:
       test_pull_requests: true
       type: git
