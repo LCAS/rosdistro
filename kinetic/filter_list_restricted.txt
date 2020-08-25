@@ -1,0 +1,4 @@
+ros-kinetic-iliad-smp
+ros-kinetic-iliad-smp-global-planner
+ros-kinetic-iliad-human-perception-launch
+ros-kinetic-rgbd-gpu-person-detector

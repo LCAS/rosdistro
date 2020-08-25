@@ -1,46 +1,120 @@
 coinor-solvers:
   ubuntu: [coinor-libcbc-dev, coinor-libclp-dev, coinor-libcoinutils-dev, coinor-libcgl-dev, coinor-libosi-dev]
+cuda_10_0:
+  ubuntu: [cuda-10-0, nvidia-modprobe]
+cuda_10_1:
+  ubuntu: [cuda-10-1, nvidia-modprobe]
+cuda_10_2:
+  ubuntu: [cuda-10-2, nvidia-modprobe]
+cuda_8_0:
+  ubuntu: [cuda-8-0, nvidia-modprobe]
+cuda_9_0:
+  ubuntu: [cuda-9-0, nvidia-modprobe]
+cuda_9_1:
+  ubuntu: [cuda-9-1, nvidia-modprobe]
+cuda_9_2:
+  ubuntu: [cuda-9-2, nvidia-modprobe]
+cuda_latest:
+  ubuntu: [cuda, nvidia-modprobe]
+cudnn:
+  ubuntu: [libcudnn7, libcudnn7-dev, nvidia-modprobe]
+cvb:
+  ubuntu: [cvb-camerasuite-dev]
+czmq:
+  ubuntu: [libczmq-dev]
 deepfried2:
   ubuntu: [python-deepfried2]
+framoscamerasuite:
+  ubuntu:
+    bionic: [framoscamerasuite]
+gazebo8:
+  ubuntu:
+    xenial: [gazebo8,libgazebo8-dev]
+gazebo8_msgs:
+  ubuntu:
+    xenial: [ros-kinetic-gazebo8-msgs]
+gazebo8_plugins:
+  ubuntu:
+    xenial: [ros-kinetic-gazebo8-plugins]
+gazebo8_ros:
+  ubuntu:
+    xenial: [ros-kinetic-gazebo8-ros]
+gazebo8_ros_control:
+  ubuntu:
+    xenial: [ros-kinetic-gazebo8-ros-control]
 ghmm:
-  ubuntu:
-    trusty: [libghmm-ne]
+  ubuntu: [libghmm-ne]
 igraph:
-  ubuntu:
-    trusty: [python-igraph]
+  ubuntu: [python-igraph]
 jekyll-trusty:
   ubuntu:
     trusty: [jekyll]
+kvaser-libcan:
+  ubuntu:
+    xenial: [kvaser-libcan]
+libirimager:
+  ubuntu:
+    xenial: [libirimager]
 libsvm:
   ubuntu: [libsvm-dev]
-lm-sensors:
-  ubuntu: [lm-sensors]
 mira-scitos:
   ubuntu:
+    bionic: [mira-scitos]
     precise: [mira-scitos]
     trusty: [mira-scitos]
+    xenial: [mira-scitos]
 mongo-cxx-driver:
   ubuntu:
     trusty: [mongo-cxx-driver]
 morse-blender-bundle:
   ubuntu:
     precise: [morse-blender-2.65-py-3.3]
+opencl_latest:
+  ubuntu: [opencl-headers, nvidia-opencl-dev]
+openjdk-8:
+  ubuntu: [openjdk-8-jdk]
 prism-robots:
   ubuntu:
     precise: [prism-robots]
     trusty: [prism-robots]
+    xenial: [prism-robots]
 pybayes:
-  ubuntu: [libpybayes]
+  ubuntu: [python-pybayes]
+python-munkres:
+  ubuntu: [python-munkres]
+python-pydispatcher:
+  ubuntu: [python-pydispatcher]
+python-pykalman-apt:
+  ubuntu: [python-pykalman]
+python-pywt:
+  debian: [python-pywt]
+  fedora: [python-pywt]
+  osx:
+    pip:
+      packages: [PyWavelets]
+  ubuntu:
+    '*': [python-pywt]
+    lucid: []
+    maverick: []
+    natty: []
+    oneiric: []
 python-strands-requests:
-  ubuntu: [python-strands-requests]
-python-webpy:
-  ubuntu: [python-webpy]
+  ubuntu: [python-requests]
 rubygem-jekyll:
   ubuntu: [rubygem-jekyll]
 strands-morse-simulator:
   ubuntu:
+    bionic: [morse-simulator]
     trusty: [strands-morse-simulator]
+    xenial: [morse-blender-2.65-py-3.3]
 strands-twython:
-  ubuntu: [python-strands-twython]
+  ubuntu:
+    bionic: [python-twython]
+    trusty: [python-strands-twython]
+    xenial: [python-twython]
 theano:
   ubuntu: [python-theano]
+tmule:
+  ubuntu: [python-tmule]
+x11vnc:
+  ubuntu: [x11vnc]

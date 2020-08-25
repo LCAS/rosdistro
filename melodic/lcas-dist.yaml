@@ -1,0 +1,915 @@
+%YAML 1.1
+# ROS distribution file
+# see REP 143: http://ros.org/reps/rep-0143.html
+---
+release_platforms:
+  ubuntu:
+  - bionic
+repositories:
+  acado:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/LCAS/acado_release.git
+      version: 1.2.3-1
+    source:
+      type: git
+      url: https://github.com/LCAS/acado.git
+      version: stable
+    status: maintained
+  bacchus_lcas:
+    release:
+      packages:
+      - bacchus_gazebo
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/bacchus_lcas.git
+      version: 0.0.1-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/bacchus_lcas.git
+      version: master
+    status: developed
+  bayes_tracking:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/bayestracking.git
+      version: 1.4.0-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/bayestracking.git
+      version: master
+    status: developed
+  catkin_simple:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/catkin_simple.git
+      version: 0.2.0-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/catkin_simple.git
+      version: master
+    status: developed
+  depth_sensors:
+    release:
+      packages:
+      - asus_description
+      - depth_sensors
+      - kinect2_description
+      - kinect_control
+      - kinect_description
+      - senz3d_description
+      - simple_description
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/depth_sensors.git
+      version: 0.1.0-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/depth_sensors.git
+      version: melodic-devel
+    status: maintained
+  franka_ros_lcas:
+    release:
+      packages:
+      - franka_control
+      - franka_description
+      - franka_example_controllers
+      - franka_gripper
+      - franka_hw
+      - franka_msgs
+      - franka_ros
+      - franka_visualization
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/franka_ros.git
+      version: 0.8.0-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/franka_ros.git
+      version: kinetic-devel
+    status: maintained
+  fremen:
+    release:
+      packages:
+      - fremen2dgrid
+      - fremenarray
+      - fremengrid
+      - fremenserver
+      - froctomap
+      - frongo
+      - frongoweb
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/fremen.git
+      version: 0.3.1-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/fremen.git
+      version: master
+    status: developed
+  gazebo_contact_monitor:
+    release:
+      packages:
+      - contact_monitor
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/gazebo-contactMonitor.git
+      version: 1.2.1-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/gazebo-contactMonitor.git
+      version: melodic-devel
+    status: developed
+  graspberry:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/GRASPberry.git
+      version: master
+    status: developed
+  iai_kinect2:
+    release:
+      packages:
+      - iai_kinect2
+      - kinect2_bridge
+      - kinect2_calibration
+      - kinect2_registration
+      - kinect2_viewer
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/iai_kinect2.git
+      version: 0.0.10-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/iai_kinect2.git
+      version: master
+    status: maintained
+  iliad_sandbox:
+    source:
+      test_commits: true
+      type: git
+      url: https://gitsvn-nt.oru.se/iliad/software/private_sandbox.git
+      version: master
+    status: developed
+  image_to_v4l2loopback:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/image_to_v4l2loopback.git
+      version: 0.1.2-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/image_to_v4l2loopback.git
+      version: master
+    status: maintained
+  lcas_morse:
+    release:
+      packages:
+      - morse
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/morse.git
+      version: 1.4.2-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/morse.git
+      version: melodic-devel
+    status: maintained
+  libfreenect2:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/libfreenect2.git
+      version: 0.1.0-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/libfreenect2.git
+      version: master
+    status: maintained
+  librealsense2_framos:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/librealsense_framos.git
+      version: 2.33.2-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/librealsense.git
+      version: v2.33-framos
+    status: maintained
+  marvelmind_nav_lcas:
+    release:
+      packages:
+      - marvelmind_nav
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/ros_marvelmind_package.git
+      version: 1.0.9-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/ros_marvelmind_package.git
+      version: master
+    status: maintained
+  ncnr_uol:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/ncnr.git
+      version: melodic-devel
+    status: developed
+  openni_wrapper:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/openni_wrapper.git
+      version: 0.1.0-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/openni_wrapper.git
+      version: melodic-devel
+    status: maintained
+  pcl_catkin_c11:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/pcl_catkin.git
+      version: 1.8.3-1
+    status: maintained
+  pcl_conversions_c11:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/pcl_conversions.git
+      version: 0.2.3-1
+    status: maintained
+  perception_pcl_c11:
+    release:
+      packages:
+      - pcl_ros_c11
+      - perception_pcl_c11
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/perception_pcl_c11.git
+      version: 1.4.6-1
+    status: maintained
+  persistent_topics:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/persistent_topics.git
+      version: 1.5.2-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/marc-hanheide/persistent_topics.git
+      version: develop
+    status: developed
+  py_at_broker:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/LCAS/py_at_broker-release.git
+      version: 0.0.14-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/py_at_broker.git
+      version: catkinised
+    status: developed
+  quadprogpp:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/quadprogpp.git
+      version: 0.0.2-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/QuadProgpp.git
+      version: master
+    status: developed
+  rasberry:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/RASberry.git
+      version: master
+    status: developed
+  realsense_framos_ros:
+    release:
+      packages:
+      - realsense2_framos_camera
+      - realsense2_framos_description
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/realsense_framos_ros.git
+      version: 3.2.14-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/realsense.git
+      version: framos
+    status: maintained
+  realsense_gazebo_plugin:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/realsense_gazebo_plugin.git
+      version: 0.1.0-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/realsense_gazebo_plugin.git
+      version: master
+    status: maintained
+  realsense_ros:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/realsense.git
+      version: development
+    status: maintained
+  robot_pose_publisher:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/robot_pose_publiser.git
+      version: 0.2.4-1
+    status: maintained
+  roboticsgroup_gazebo_plugins:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/roboticsgroup_gazebo_plugins.git
+      version: 0.0.2-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/roboticsgroup_gazebo_plugins.git
+      version: master
+    status: maintained
+  ros_numpy:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/eric-wieser/ros_numpy-release.git
+      version: 0.0.3-1
+    status: maintained
+  rosduct:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/rosduct.git
+      version: 0.0.6-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/rosduct.git
+      version: master
+    status: developed
+  saga_agrinav:
+    release:
+      packages:
+      - polytunnel_navigation_actions
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/SAGARobotics/AgriNav-release.git
+      version: 0.1.1-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/SAGARobotics/AgriNav.git
+      version: master
+    status: developed
+  sandbox:
+    release:
+      packages:
+      - catkin_test_pkg
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/LCAS/sandbox-release.git
+      version: 0.0.14-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/sandbox.git
+      version: master
+    status: developed
+  scitos_apps:
+    release:
+      packages:
+      - ptu_follow_frame
+      - scitos_apps
+      - scitos_cmd_vel_mux
+      - scitos_dashboard
+      - scitos_docking
+      - scitos_ptu
+      - scitos_teleop
+      - scitos_touch
+      - scitos_virtual_bumper
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/scitos_apps.git
+      version: 0.2.0-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/scitos_apps.git
+      version: hydro-devel
+    status: developed
+  scitos_common:
+    release:
+      packages:
+      - scitos_common
+      - scitos_description
+      - scitos_msgs
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/scitos_common.git
+      version: 0.1.12-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/scitos_common.git
+      version: indigo-devel
+    status: maintained
+  scitos_drivers:
+    release:
+      packages:
+      - flir_pantilt_d46
+      - scitos_bringup
+      - scitos_drivers
+      - scitos_mira
+      - scitos_pc_monitor
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/scitos_drivers.git
+      version: 0.2.0-2
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/scitos_drivers.git
+      version: kinetic-devel
+    status: developed
+  sentor:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/sentor.git
+      version: 2.1.0-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/sentor.git
+      version: master
+    status: developed
+  sicks300:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/sicks300.git
+      version: 1.2.1-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/sicks300.git
+      version: master
+    status: maintained
+  sl_panda:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/sl.git
+      version: catkinised
+    status: developed
+  slackeros:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/slackeros.git
+      version: 0.2.1-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/marc-hanheide/slackeros.git
+      version: master
+    status: developed
+  snap_cart:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/snap_cart.git
+      version: melodic-devel
+    status: developed
+  spencer_people_tracking:
+    source:
+      test_commits: true
+      type: git
+      url: https://github.com/LCAS/spencer_people_tracking.git
+      version: master
+    status: developed
+  steering_functions:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/steering_functions.git
+      version: 1.0.5-1
+    source:
+      type: git
+      url: https://github.com/iliad-project/steering_functions.git
+      version: iliad
+    status: maintained
+  strands_apps:
+    release:
+      packages:
+      - door_pass
+      - marathon_reporter
+      - odometry_mileage
+      - pose_extractor
+      - ramp_climb
+      - reconfigure_inflation
+      - roslaunch_axserver
+      - state_checker
+      - static_transform_manager
+      - strands_apps
+      - strands_emails
+      - topic_republisher
+      - topological_roslaunch
+      - watchdog_node
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_apps.git
+      version: 0.2.6-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/strands_apps.git
+      version: kinetic-devel
+    status: maintained
+  strands_executive:
+    release:
+      packages:
+      - gcal_routine
+      - mdp_plan_exec
+      - prism_strands
+      - sim_clock
+      - strands_executive_msgs
+      - task_executor
+      - wait_action
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_executive.git
+      version: 1.2.5-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/strands_executive.git
+      version: kinetic-devel
+    status: developed
+  strands_morse:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_morse.git
+      version: 0.2.3-2
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/strands_morse.git
+      version: melodic-devel
+    status: maintained
+  strands_movebase:
+    release:
+      packages:
+      - calibrate_chest
+      - movebase_state_service
+      - param_loader
+      - strands_description
+      - strands_movebase
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_movebase.git
+      version: 1.0.0-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/strands_movebase.git
+      version: melodic-devel
+    status: developed
+  strands_navigation:
+    release:
+      packages:
+      - emergency_behaviours
+      - joy_map_saver
+      - monitored_navigation
+      - nav_goals_generator
+      - pose_initialiser
+      - strands_navigation
+      - strands_navigation_msgs
+      - topological_logging_manager
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_navigation.git
+      version: 2.0.0-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/strands_navigation.git
+      version: indigo-devel
+    status: developed
+  strands_perception_people:
+    release:
+      packages:
+      - bayes_people_tracker
+      - bayes_people_tracker_logging
+      - detector_msg_to_pose_array
+      - ground_plane_estimation
+      - human_trajectory
+      - mdl_people_tracker
+      - odometry_to_motion_matrix
+      - people_tracker_emulator
+      - people_tracker_filter
+      - perception_people_launch
+      - strands_perception_people
+      - upper_body_detector
+      - vision_people_logging
+      - visual_odometry
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_perception_people.git
+      version: 1.10.0-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/strands_perception_people.git
+      version: melodic-devel
+    status: developed
+  strands_qsr_lib:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/strands_qsr_lib.git
+      version: master
+    status: developed
+  strands_ui:
+    release:
+      packages:
+      - mary_tts
+      - mongodb_media_server
+      - music_player
+      - pygame_managed_player
+      - robot_talk
+      - sound_player_server
+      - strands_ui
+      - strands_webserver
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_ui.git
+      version: 0.2.1-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/strands_ui.git
+      version: hydro-devel
+    status: maintained
+  strands_webtools:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_webtools.git
+      version: 0.1.0-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/strands_webtools.git
+      version: kinetic-devel
+    status: developed
+  thorvald:
+    release:
+      packages:
+      - thorvald
+      - thorvald_2dnav
+      - thorvald_base
+      - thorvald_bringup
+      - thorvald_can_devices
+      - thorvald_description
+      - thorvald_example_robots
+      - thorvald_gazebo_plugins
+      - thorvald_gui
+      - thorvald_msgs
+      - thorvald_simulator
+      - thorvald_teleop
+      - thorvald_twist_mux
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/SAGARobotics/thorvald-releases.git
+      version: 1.3.2-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/SAGARobotics/Thorvald.git
+      version: melodic-devel
+    status: developed
+  thorvald_uv:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/SAGARobotics/thorvald_uv.git
+      version: master
+    status: developed
+  topic_store:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/topic_store.git
+      version: 0.1.0-1
+    source:
+      test_commits: true
+      test_pull_requests: false
+      type: git
+      url: https://github.com/RaymondKirk/topic_store.git
+      version: master
+    status: developed
+  topological_navigation:
+    release:
+      packages:
+      - topological_navigation
+      - topological_rviz_tools
+      - topological_utils
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/topological_navigation.git
+      version: 2.1.0-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/topological_navigation.git
+      version: master
+    status: developed
+  tradr_uol:
+    release:
+      packages:
+      - exploration_msgs
+      - ms_octomap_mapping
+      - ms_octomap_server
+      - networkanalysis_msgs
+      - nifti_launchers
+      - nifti_robot_description
+      - nifti_robot_driver_msgs
+      - nifti_teleop
+      - patrolling_build_graph_msgs
+      - robot_trajectory_saver_msgs
+      - stamped_msgs
+      - tradr_path_planner
+      - tradr_path_planner_rviz_wp_plugin
+      - tradr_trajectory_control
+      - tradr_trajectory_control_msgs
+      - wireless_network_msgs
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/tradr_uol.git
+      version: 1.1.0-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/tradr_uol.git
+      version: melodic-devel
+    status: maintained
+  twitter_bootstrap:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/twitter_bootstrap.git
+      version: 0.0.3-1
+    source:
+      type: git
+      url: https://github.com/strands-project/twitter_bootstrap.git
+      version: master
+    status: maintained
+  um7:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/um7.git
+      version: 0.0.6-1
+    source:
+      type: git
+      url: https://github.com/LCAS/um7.git
+      version: indigo-devel
+    status: maintained
+  uol_cmp9767m:
+    release:
+      packages:
+      - uol_cmp9767m_base
+      - uol_cmp9767m_tutorial
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/CMP9767M.git
+      version: 0.6.0-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/CMP9767M.git
+      version: master
+    status: developed
+  velodyne_oru:
+    release:
+      packages:
+      - velodyne_pointcloud_oru
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/LCAS/velodyne-release.git
+      version: 1.5.6-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/dan11003/velodyne_pointcloud_oru.git
+      version: master
+    status: maintained
+  whycon:
+    release:
+      packages:
+      - whycon_ros
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/whycon.git
+      version: 2.3.0-1
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/whycon.git
+      version: snapcart
+    status: developed
+tags:
+- iliad
+- lcas
+type: distribution
+version: 2

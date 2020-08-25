@@ -17,6 +17,12 @@ repositories:
       url: https://github.com/LCAS/acado.git
       version: stable
     status: maintained
+  bayes_tracking:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/lcas-releases/bayestracking.git
+      version: 1.0.8-0
   lcas_teaching:
     release:
       packages:
@@ -29,11 +35,29 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/lcas_teaching.git
-      version: 0.1.16-0
+      version: 0.1.19-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/LCAS/teaching.git
       version: indigo-devel
+    status: developed
+  mongodb_store:
+    release:
+      packages:
+      - libmongocxx_ros
+      - mongodb_log
+      - mongodb_store
+      - mongodb_store_msgs
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/mongodb_store.git
+      version: 0.3.6-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/mongodb_store.git
+      version: kinetic-devel
     status: developed
   oru_navigation:
     release:
@@ -69,11 +93,11 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/LCAS/oru_navigation_release.git
-      version: 0.0.1-0
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/OrebroUniversity/navigation_oru-release.git
-      version: master
+      version: indigo-devel
     status: developed
   pnp_ros:
     release:
@@ -132,33 +156,32 @@ repositories:
       url: https://github.com/LCAS/ros_web_apis.git
       version: master
     status: developed
-  rosplan:
-    release:
-      packages:
-      - rosplan
-      - rosplan_config
-      - rosplan_demos
-      - rosplan_dispatch_msgs
-      - rosplan_interface_mapping
-      - rosplan_interface_movebase
-      - rosplan_knowledge_base
-      - rosplan_knowledge_msgs
-      - rosplan_planning_system
-      - rosplan_rqt
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/strands-project-releases/ROSPlan.git
-      version: 0.0.10-0
-    source:
-      type: git
-      url: https://github.com/LCAS/ROSPlan.git
-      version: indigo-devel
-    status: maintained
   sandbox:
     source:
       type: git
       url: https://github.com/LCAS/sandbox.git
       version: master
+    status: developed
+  strands_executive:
+    release:
+      packages:
+      - gcal_routine
+      - mdp_plan_exec
+      - scheduler
+      - scipoptsuite
+      - sim_clock
+      - strands_executive_msgs
+      - task_executor
+      - wait_action
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_executive.git
+      version: 1.0.9-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/strands-project/strands_executive.git
+      version: indigo-devel
     status: developed
   thin_navigation:
     release:
