@@ -555,10 +555,10 @@ repositories:
     status: developed
   spencer_people_tracking:
     source:
-      test_commits: true
+      test_commits: false
       type: git
-      url: https://github.com/LCAS/spencer_people_tracking.git
-      version: master
+      url: https://github.com/spencer-project/spencer_people_tracking.git
+      version: melodic
     status: developed
   steering_functions:
     release:
