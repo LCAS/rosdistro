@@ -1364,7 +1364,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/SteveMacenski/navigation2-release.git
-      version: 0.4.2-1
+      version: 0.4.3-1
     source:
       test_pull_requests: true
       type: git
@@ -2314,6 +2314,19 @@ repositories:
       url: https://github.com/ros2/ros2cli_common_extensions.git
       version: foxy
     status: maintained
+  ros_canopen:
+    release:
+      packages:
+      - can_msgs
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros-industrial-release/ros_canopen-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-industrial/ros_canopen.git
+      version: dashing-devel
+    status: developed
   ros_environment:
     doc:
       type: git
@@ -2563,7 +2576,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_typesupport_connext-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros2/rosidl_typesupport_connext.git
