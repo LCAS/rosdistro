@@ -37,7 +37,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/actionlib-release.git
-      version: 1.13.1-1
+      version: 1.13.2-1
     source:
       test_pull_requests: true
       type: git
@@ -304,7 +304,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/locusrobotics/catkin_virtualenv-release.git
-      version: 0.6.0-1
+      version: 0.6.1-1
     source:
       test_pull_requests: true
       type: git
@@ -751,6 +751,22 @@ repositories:
       url: https://github.com/stack-of-tasks/dynamic-graph-python.git
       version: devel
     status: maintained
+  dynamic-graph-tutorial:
+    doc:
+      type: git
+      url: https://github.com/stack-of-tasks/dynamic-graph-tutorial.git
+      version: devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/stack-of-tasks/dynamic-graph-tutorial-ros-release.git
+      version: 1.2.2-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/stack-of-tasks/dynamic-graph-tutorial.git
+      version: devel
+    status: maintained
   dynamic_reconfigure:
     doc:
       type: git
@@ -908,7 +924,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipab-slmc/eigenpy_catkin-release.git
-      version: 2.4.0-1
+      version: 2.5.0-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -935,6 +951,24 @@ repositories:
       url: https://github.com/ros/executive_smach.git
       version: noetic-devel
     status: maintained
+  executive_smach_visualization:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/executive_smach_visualization.git
+      version: melodic-devel
+    release:
+      packages:
+      - executive_smach_visualization
+      - smach_viewer
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/jbohren/executive_smach_visualization-release.git
+      version: 3.0.1-1
+    source:
+      type: git
+      url: https://github.com/ros-visualization/executive_smach_visualization.git
+      version: melodic-devel
+    status: unmaintained
   exotica_val_description:
     release:
       tags:
@@ -1255,7 +1289,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/geometry2-release.git
-      version: 0.7.2-1
+      version: 0.7.3-1
     source:
       test_pull_requests: true
       type: git
@@ -1356,6 +1390,21 @@ repositories:
       type: git
       url: https://github.com/HebiRobotics/hebi_cpp_api_ros.git
       version: master
+    status: developed
+  hfl_driver:
+    doc:
+      type: git
+      url: https://github.com/continental/hfl_driver.git
+      version: ros1/main
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/flynneva/hfl_driver-release.git
+      version: 0.0.12-1
+    source:
+      type: git
+      url: https://github.com/continental/hfl_driver.git
+      version: ros1/main
     status: developed
   hls-lfcd-lds-driver:
     doc:
@@ -1631,7 +1680,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/jsk_3rdparty-release.git
-      version: 2.1.20-1
+      version: 2.1.21-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
@@ -2392,7 +2441,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.10.0-1
+      version: 0.10.1-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -3324,7 +3373,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-industrial-release/ros_canopen-release.git
-      version: 0.8.3-1
+      version: 0.8.4-1
     source:
       type: git
       url: https://github.com/ros-industrial/ros_canopen.git
@@ -3569,6 +3618,13 @@ repositories:
       url: https://github.com/ros/rosbag_migration_rule.git
       version: master
     status: maintained
+  rosbag_pandas:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/eurogroep/rosbag_pandas-release.git
+      version: 0.5.4-1
+    status: maintained
   rosbag_snapshot:
     doc:
       type: git
@@ -3797,6 +3853,26 @@ repositories:
       type: git
       url: https://github.com/ros-drivers/rosserial.git
       version: noetic-devel
+    release:
+      packages:
+      - rosserial
+      - rosserial_arduino
+      - rosserial_chibios
+      - rosserial_client
+      - rosserial_embeddedlinux
+      - rosserial_mbed
+      - rosserial_msgs
+      - rosserial_python
+      - rosserial_server
+      - rosserial_tivac
+      - rosserial_vex_cortex
+      - rosserial_vex_v5
+      - rosserial_windows
+      - rosserial_xbee
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/rosserial-release.git
+      version: 0.9.0-1
     source:
       test_pull_requests: true
       type: git
@@ -4606,6 +4682,25 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/swri_console.git
+      version: master
+    status: developed
+  swri_profiler:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/swri_profiler.git
+      version: master
+    release:
+      packages:
+      - swri_profiler
+      - swri_profiler_msgs
+      - swri_profiler_tools
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/swri-robotics-gbp/swri_profiler-release.git
+      version: 0.2.2-1
+    source:
+      type: git
+      url: https://github.com/swri-robotics/swri_profiler.git
       version: master
     status: developed
   teb_local_planner:
