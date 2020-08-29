@@ -4801,7 +4801,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/flynneva/hfl_driver-release.git
-      version: 0.0.12-1
+      version: 0.0.17-1
     source:
       type: git
       url: https://github.com/continental/hfl_driver.git
@@ -17844,7 +17844,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/openspur/yp-spur-release.git
-      version: 1.18.2-1
+      version: 1.19.0-1
     source:
       type: git
       url: https://github.com/openspur/yp-spur.git

@@ -3775,7 +3775,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/flynneva/hfl_driver-release.git
-      version: 0.0.12-1
+      version: 0.0.16-1
     source:
       type: git
       url: https://github.com/continental/hfl_driver.git
@@ -4271,7 +4271,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ixblue/ixblue_ins_stdbin_driver-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -6898,7 +6898,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ERC-BPGC/omnibase-release.git
-      version: 0.0.2-1
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ERC-BPGC/omnibase.git
@@ -12869,7 +12869,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/xacro-release.git
-      version: 1.13.7-1
+      version: 1.13.8-1
     source:
       type: git
       url: https://github.com/ros/xacro.git
@@ -12957,7 +12957,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/openspur/yp-spur-release.git
-      version: 1.18.2-1
+      version: 1.19.0-1
     source:
       type: git
       url: https://github.com/openspur/yp-spur.git
