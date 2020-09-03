@@ -6220,7 +6220,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/aws-gbp/kinesis_video_streamer-release.git
-      version: 2.0.2-1
+      version: 2.0.3-1
     source:
       type: git
       url: https://github.com/aws-robotics/kinesisvideo-ros1.git
@@ -8124,11 +8124,11 @@ repositories:
   multipoint_navigation_receiver:
     doc:
       type: git
-      url: https://github.com/SuperAruba/multipoint_navigation_receiver.git
+      url: https://github.com/Inspur-ROS/multipoint_navigation_receiver.git
       version: master
     source:
       type: git
-      url: https://github.com/SuperAruba/multipoint_navigation_receiver.git
+      url: https://github.com/Inspur-ROS/multipoint_navigation_receiver.git
       version: master
     status: maintained
   multisense_ros:
@@ -14812,7 +14812,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/SICKAG/sick_scan-release.git
-      version: 1.7.7-1
+      version: 1.7.8-1
     source:
       type: git
       url: https://github.com/SICKAG/sick_scan.git
@@ -17463,7 +17463,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/cyberbotics/webots_ros-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/cyberbotics/webots_ros.git

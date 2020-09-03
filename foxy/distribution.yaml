@@ -232,7 +232,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/BehaviorTree/behaviortree_cpp-release.git
-      version: 3.5.0-1
+      version: 3.5.2-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
@@ -1367,7 +1367,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/mrpt-ros2-pkg-release/mrpt2-release.git
-      version: 2.0.4-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -1437,6 +1437,21 @@ repositories:
       type: git
       url: https://github.com/ros-planning/navigation_msgs.git
       version: foxy
+    status: maintained
+  nmea_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/nmea_msgs.git
+      version: ros2
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/nmea_msgs-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/nmea_msgs.git
+      version: ros2
     status: maintained
   nodl:
     doc:
@@ -1637,21 +1652,6 @@ repositories:
       url: https://github.com/ros-drivers/phidgets_drivers.git
       version: dashing
     status: maintained
-  pinocchio:
-    doc:
-      type: git
-      url: https://github.com/stack-of-tasks/pinocchio.git
-      version: master
-    release:
-      tags:
-        release: release/foxy/{package}/{version}
-      url: https://github.com/ipab-slmc/pinocchio_catkin-release.git
-      version: 2.5.0-1
-    source:
-      type: git
-      url: https://github.com/stack-of-tasks/pinocchio.git
-      version: master
-    status: developed
   plotjuggler_msgs:
     release:
       tags:
@@ -3102,7 +3102,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros-tooling/system_metrics_collector-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/ros-tooling/system_metrics_collector.git
