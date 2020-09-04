@@ -682,7 +682,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/autoware-ai/messages-release.git
-      version: 1.13.0-1
+      version: 1.14.0-1
     source:
       type: git
       url: https://github.com/autoware-ai/messages.git
@@ -2967,7 +2967,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/fkie-release/message_filters-release.git
-      version: 1.1.1-1
+      version: 1.1.2-1
     source:
       type: git
       url: https://github.com/fkie/message_filters.git
@@ -9496,7 +9496,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/facontidavide/ros_type_introspection-release.git
-      version: 2.0.4-1
+      version: 2.1.0-2
     source:
       type: git
       url: https://github.com/facontidavide/ros_type_introspection.git
@@ -13036,6 +13036,16 @@ repositories:
       type: git
       url: https://github.com/yujinrobot/yujin_ocs.git
       version: release/0.8-melodic
+  z_laser_projector:
+    doc:
+      type: git
+      url: https://github.com/fada-catec/z_laser_projector.git
+      version: melodic
+    source:
+      type: git
+      url: https://github.com/fada-catec/z_laser_projector.git
+      version: melodic
+    status: maintained
   zeroconf_msgs:
     doc:
       type: git
