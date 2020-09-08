@@ -2,6 +2,17 @@
 
 set -x
 
+if [ $(id -u)  = "0" ]; then 
+      echo "running as root"
+      export DEBIAN_FRONTEND=noninteractive
+      SUDO=""
+else
+      SUDO="sudo"
+fi
+
+$SUDO apt-get update
+$SUDO apt-get install -y lsb-release curl python-software-properties software-properties-common python-rosdep
+
 DISTRIBUTION=$(lsb_release -sc)
 export ROS_DISTRIBUTION="kinetic"
 
@@ -19,17 +30,6 @@ case "$DISTRIBUTION" in
 esac
 
 echo "identified distribution $DISTRIBUTION, so ROS_DISTRIBUTION is $ROS_DISTRIBUTION"
-
-if [ $(id -u)  = "0" ]; then 
-      echo "running as root"
-      export DEBIAN_FRONTEND=noninteractive
-      SUDO=""
-else
-      SUDO="sudo"
-fi
-
-$SUDO apt-get update
-$SUDO apt-get install -y lsb-release curl python-software-properties software-properties-common python-rosdep
 
 # ROS base install
 
