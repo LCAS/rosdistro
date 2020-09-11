@@ -247,7 +247,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/BehaviorTree/behaviortree_cpp-release.git
-      version: 3.5.2-1
+      version: 3.5.3-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
@@ -1344,11 +1344,15 @@ repositories:
       version: dashing-devel
     status: developed
   mavlink:
+    doc:
+      type: git
+      url: https://github.com/mavlink/mavlink-gbp-release.git
+      version: release/foxy/mavlink
     release:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2020.8.8-1
+      version: 2020.9.10-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -2275,7 +2279,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/ros1_bridge-release.git
-      version: 0.9.3-7
+      version: 0.9.4-1
     source:
       test_commits: false
       type: git
