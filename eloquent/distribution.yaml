@@ -1335,7 +1335,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2020.8.8-1
+      version: 2020.9.10-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -2263,7 +2263,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/ros2-gbp/ros1_bridge-release.git
-      version: 0.8.2-1
+      version: 0.8.2-2
     source:
       test_commits: false
       type: git
