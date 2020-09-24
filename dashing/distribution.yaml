@@ -582,17 +582,6 @@ repositories:
       url: https://github.com/rst-tu-dortmund/costmap_converter.git
       version: ros2
     status: developed
-  cross_compile:
-    release:
-      tags:
-        release: release/dashing/{package}/{version}
-      url: https://github.com/ros-tooling/cross_compile-release.git
-      version: 0.2.0-1
-    source:
-      type: git
-      url: https://github.com/ros-tooling/cross_compile.git
-      version: dashing-devel
-    status: developed
   cyclonedds:
     release:
       tags:
@@ -2059,7 +2048,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/roboception-gbp/rc_genicam_api-release.git
-      version: 2.3.5-1
+      version: 2.4.1-1
     source:
       test_pull_requests: true
       type: git

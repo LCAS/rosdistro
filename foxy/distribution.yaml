@@ -759,6 +759,22 @@ repositories:
       url: https://github.com/stack-of-tasks/eigenpy.git
       version: master
     status: developed
+  eiquadprog:
+    doc:
+      type: git
+      url: https://github.com/stack-of-tasks/eiquadprog.git
+      version: devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/stack-of-tasks/eiquadprog-ros-release.git
+      version: 1.2.2-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/stack-of-tasks/eiquadprog.git
+      version: devel
+    status: maintained
   example_interfaces:
     doc:
       type: git
@@ -1115,6 +1131,12 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/interactive_markers.git
       version: foxy
+    status: maintained
+  jlb_pid:
+    doc:
+      type: git
+      url: https://gitlab.com/Juulbl/ros2-pid
+      version: ros2
     status: maintained
   joint_state_publisher:
     doc:
@@ -1955,6 +1977,38 @@ repositories:
       url: https://github.com/ros-planning/random_numbers.git
       version: ros2
     status: maintained
+  rc_dynamics_api:
+    doc:
+      type: git
+      url: https://github.com/roboception/rc_dynamics_api.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/roboception-gbp/rc_dynamics_api-release.git
+      version: 0.10.2-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/roboception/rc_dynamics_api.git
+      version: master
+    status: developed
+  rc_genicam_api:
+    doc:
+      type: git
+      url: https://github.com/roboception/rc_genicam_api.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/roboception-gbp/rc_genicam_api-release.git
+      version: 2.4.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/roboception/rc_genicam_api.git
+      version: master
+    status: developed
   rcl:
     doc:
       type: git
@@ -2481,32 +2535,6 @@ repositories:
       url: https://github.com/ros-industrial/ros_canopen.git
       version: dashing-devel
     status: developed
-  ros_cb:
-    doc:
-      type: git
-      url: https://github.com/jediofgever/ROS_CB.git
-      version: master
-    release:
-      packages:
-      - chiconybot
-      - chiconybot_bringup
-      - chiconybot_cartographer
-      - chiconybot_description
-      - chiconybot_gazebo
-      - chiconybot_msgs
-      - chiconybot_navigation2
-      - chiconybot_node
-      - chiconybot_teleop
-      tags:
-        release: release/foxy/{package}/{version}
-      url: https://github.com/jediofgever/ROS_CB-release.git
-      version: 0.0.2-1
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/jediofgever/ROS_CB.git
-      version: master
-    status: developed
   ros_environment:
     doc:
       type: git
@@ -2904,7 +2932,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_graph-release.git
-      version: 1.0.4-1
+      version: 1.1.0-1
     source:
       test_pull_requests: true
       type: git
