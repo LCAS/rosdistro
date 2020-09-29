@@ -1657,7 +1657,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_common-release.git
-      version: 0.7.2-1
+      version: 0.7.3-1
     source:
       type: git
       url: https://github.com/ipa320/cob_common.git
@@ -1745,7 +1745,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_environments-release.git
-      version: 0.6.11-1
+      version: 0.6.12-1
     source:
       type: git
       url: https://github.com/ipa320/cob_environments.git
@@ -1795,7 +1795,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_gazebo_plugins-release.git
-      version: 0.7.4-1
+      version: 0.7.5-1
     source:
       type: git
       url: https://github.com/ipa320/cob_gazebo_plugins.git
@@ -1964,7 +1964,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_supported_robots-release.git
-      version: 0.6.14-1
+      version: 0.6.15-1
     source:
       type: git
       url: https://github.com/ipa320/cob_supported_robots.git
@@ -2851,7 +2851,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/dynamixel-workbench-msgs-release.git
-      version: 2.0.0-0
+      version: 2.0.1-0
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs.git
@@ -12116,7 +12116,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/robotis_manipulator-release.git
-      version: 1.0.0-0
+      version: 1.1.0-0
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/robotis_manipulator.git

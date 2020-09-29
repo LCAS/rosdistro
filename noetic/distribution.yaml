@@ -343,6 +343,46 @@ repositories:
       url: https://github.com/ros/cmake_modules.git
       version: 0.4-devel
     status: maintained
+  cob_common:
+    doc:
+      type: git
+      url: https://github.com/ipa320/cob_common.git
+      version: kinetic_release_candidate
+    release:
+      packages:
+      - cob_actions
+      - cob_common
+      - cob_description
+      - cob_msgs
+      - cob_srvs
+      - raw_description
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ipa320/cob_common-release.git
+      version: 0.7.3-1
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_common.git
+      version: kinetic_dev
+    status: maintained
+  cob_environments:
+    doc:
+      type: git
+      url: https://github.com/ipa320/cob_environments.git
+      version: indigo_release_candidate
+    release:
+      packages:
+      - cob_default_env_config
+      - cob_environments
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ipa320/cob_environments-release.git
+      version: 0.6.12-1
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_environments.git
+      version: indigo_dev
+    status: maintained
   cob_extern:
     doc:
       type: git
@@ -364,6 +404,24 @@ repositories:
       type: git
       url: https://github.com/ipa320/cob_extern.git
       version: indigo_dev
+    status: maintained
+  cob_gazebo_plugins:
+    doc:
+      type: git
+      url: https://github.com/ipa320/cob_gazebo_plugins.git
+      version: kinetic_release_candidate
+    release:
+      packages:
+      - cob_gazebo_plugins
+      - cob_gazebo_ros_control
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ipa320/cob_gazebo_plugins-release.git
+      version: 0.7.5-1
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_gazebo_plugins.git
+      version: kinetic_dev
     status: maintained
   code_coverage:
     doc:
@@ -1201,7 +1259,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/nlamprian/gazebo_video_monitor_plugins-release.git
-      version: 0.4.2-1
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/nlamprian/gazebo_video_monitor_plugins.git
@@ -2766,6 +2824,22 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/nmea_msgs.git
+      version: master
+    status: maintained
+  nmea_navsat_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/nmea_navsat_driver.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/nmea_navsat_driver-release.git
+      version: 0.6.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-drivers/nmea_navsat_driver.git
       version: master
     status: maintained
   nodelet_core:
@@ -5081,6 +5155,22 @@ repositories:
       type: git
       url: https://github.com/ros-teleop/teleop_twist_keyboard.git
       version: master
+    status: maintained
+  tsid:
+    doc:
+      type: git
+      url: https://github.com/stack-of-tasks/tsid.git
+      version: devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/stack-of-tasks/tsid-ros-release.git
+      version: 1.4.1-2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/stack-of-tasks/tsid.git
+      version: devel
     status: maintained
   turtlebot3_msgs:
     doc:
