@@ -3952,7 +3952,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/clearpath-gbp/husky-release.git
-      version: 0.4.4-1
+      version: 0.4.5-1
     source:
       type: git
       url: https://github.com/husky/husky.git
@@ -4736,6 +4736,7 @@ repositories:
       version: master
     release:
       packages:
+      - audio_to_spectrogram
       - checkerboard_detector
       - imagesift
       - jsk_pcl_ros
@@ -4748,7 +4749,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 1.2.10-0
+      version: 1.2.11-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -6195,6 +6196,44 @@ repositories:
     source:
       type: git
       url: https://github.com/milvusrobotics/mrp2_common.git
+      version: melodic-devel
+    status: maintained
+  mrp2_desktop:
+    doc:
+      type: git
+      url: https://github.com/milvusrobotics/mrp2_desktop.git
+      version: melodic-devel
+    release:
+      packages:
+      - mrp2_desktop
+      - mrp2_viz
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/milvusrobotics/mrp2_desktop-release.git
+      version: 0.2.2-2
+    source:
+      type: git
+      url: https://github.com/milvusrobotics/mrp2_desktop.git
+      version: melodic-devel
+    status: maintained
+  mrp2_robot:
+    doc:
+      type: git
+      url: https://github.com/milvusrobotics/mrp2_robot.git
+      version: melodic-devel
+    release:
+      packages:
+      - mrp2_bringup
+      - mrp2_display
+      - mrp2_hardware
+      - mrp2_robot
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/milvusrobotics/mrp2_robot-release.git
+      version: 0.2.5-2
+    source:
+      type: git
+      url: https://github.com/milvusrobotics/mrp2_robot.git
       version: melodic-devel
     status: maintained
   mrp2_simulator:
@@ -11403,6 +11442,22 @@ repositories:
       url: https://github.com/yujinrobot-release/sophus-release.git
       version: 1.0.1-1
     status: maintained
+  sot-core:
+    doc:
+      type: git
+      url: https://github.com/stack-of-tasks/sot-core.git
+      version: devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/stack-of-tasks/sot-core-ros-release.git
+      version: 4.10.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/stack-of-tasks/sot-core.git
+      version: devel
+    status: maintained
   sparse_bundle_adjustment:
     doc:
       type: git
@@ -13154,6 +13209,24 @@ repositories:
       url: https://github.com/pr2/willow_maps.git
       version: kinetic-devel
     status: unmaintained
+  wireless:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/wireless.git
+      version: master
+    release:
+      packages:
+      - wireless_msgs
+      - wireless_watcher
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/clearpath-gbp/wireless-release.git
+      version: 0.1.1-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/wireless.git
+      version: master
+    status: maintained
   wu_ros_tools:
     doc:
       type: git
