@@ -2739,6 +2739,7 @@ python-numpy:
   ubuntu:
     artful: [python-numpy]
     bionic: [python-numpy]
+    focal: [python-numpy]
     lucid: [python-numpy]
     maverick: [python-numpy]
     natty: [python-numpy]
@@ -3576,6 +3577,16 @@ python-pyside.qtuitools:
     utopic_python3: [python3-pyside.qtuitools]
     vivid: [python-pyside.qtuitools]
     vivid_python3: [python3-pyside.qtuitools]
+python-pysimplegui27-pip:
+  debian:
+    pip:
+      packages: [pysimplegui27]
+  fedora:
+    pip:
+      packages: [pysimplegui27]
+  ubuntu:
+    pip:
+      packages: [pysimplegui27]
 python-pysnmp:
   debian: [python-pysnmp4]
   fedora: [pysnmp]
@@ -4899,6 +4910,16 @@ python-trimesh-pip:
   ubuntu:
     pip:
       packages: [trimesh]
+python-twilio-pip:
+  debian:
+    pip:
+      packages: [twilio]
+  fedora:
+    pip:
+      packages: [twilio]
+  ubuntu:
+    pip:
+      packages: [twilio]
 python-twisted-bin:
   arch: [python2-twisted]
   debian: [python-twisted-bin]
@@ -6645,6 +6666,10 @@ python3-trimesh-pip:
   ubuntu:
     pip:
       packages: [trimesh]
+python3-twilio:
+  debian: [python3-twilio]
+  fedora: [python3-twilio]
+  ubuntu: [python3-twilio]
 python3-twisted:
   arch: [python-twisted]
   debian: [python3-twisted]

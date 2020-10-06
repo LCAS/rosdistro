@@ -1954,7 +1954,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 1.2.11-1
+      version: 1.2.12-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -5427,7 +5427,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/urdf_sim_tutorial.git
-      version: master
+      version: ros1
     release:
       tags:
         release: release/noetic/{package}/{version}
@@ -5437,7 +5437,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdf_sim_tutorial.git
-      version: master
+      version: ros1
     status: maintained
   urdf_tutorial:
     doc:

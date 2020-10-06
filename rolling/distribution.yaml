@@ -830,7 +830,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/kdl_parser-release.git
-      version: 2.4.1-1
+      version: 2.5.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1431,7 +1431,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcpputils-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/ros2/rcpputils.git
@@ -2582,10 +2582,13 @@ repositories:
       url: https://github.com/ros2/urdf.git
       version: ros2
     release:
+      packages:
+      - urdf
+      - urdf_parser_plugin
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/urdf-release.git
-      version: 2.4.0-2
+      version: 2.5.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2619,7 +2622,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/urdfdom-release.git
-      version: 2.3.2-2
+      version: 2.3.3-1
     source:
       test_pull_requests: true
       type: git
@@ -2697,7 +2700,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_v4l2_camera-release.git
-      version: 0.2.0-2
+      version: 0.3.0-1
     source:
       type: git
       url: https://gitlab.com/boldhearts/ros2_v4l2_camera.git

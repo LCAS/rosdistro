@@ -1007,6 +1007,18 @@ repositories:
       url: https://github.com/ros2/geometry2.git
       version: foxy
     status: maintained
+  google_benchmark_vendor:
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/google_benchmark_vendor-release.git
+      version: 0.0.3-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ament/google_benchmark_vendor.git
+      version: main
+    status: maintained
   googletest:
     release:
       packages:
@@ -1511,6 +1523,21 @@ repositories:
       type: git
       url: https://github.com/ros2/message_filters.git
       version: foxy
+    status: maintained
+  mimick_vendor:
+    doc:
+      type: git
+      url: https://github.com/ros2/mimick_vendor.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/mimick_vendor-release.git
+      version: 0.2.2-1
+    source:
+      type: git
+      url: https://github.com/ros2/mimick_vendor.git
+      version: master
     status: maintained
   mrpt2:
     doc:
@@ -2897,6 +2924,30 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rosidl_typesupport_gurumdds.git
+      version: foxy
+    status: developed
+  roverrobotics_ros2:
+    doc:
+      type: git
+      url: https://github.com/RoverRobotics/roverrobotics_ros2.git
+      version: foxy
+    release:
+      packages:
+      - rover_bringup
+      - rover_description
+      - rover_driver
+      - rover_msgs
+      - rover_navigation
+      - rover_simulation
+      - rover_teleop
+      - roverrobotics_ros2
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/RoverRobotics-release/roverrobotics_ros2-release.git
+      version: 0.1.0-4
+    source:
+      type: git
+      url: https://github.com/RoverRobotics/roverrobotics_ros2.git
       version: foxy
     status: developed
   rplidar_ros:
