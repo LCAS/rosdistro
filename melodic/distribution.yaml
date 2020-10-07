@@ -892,6 +892,12 @@ repositories:
       url: https://github.com/ros/bond_core.git
       version: kinetic-devel
     status: maintained
+  boost_sml:
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/boost_sml.git
+      version: master
+    status: maintained
   brics_actuator:
     doc:
       type: git
@@ -2944,7 +2950,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/fetch_tools-release.git
-      version: 0.2.1-0
+      version: 0.2.2-1
     source:
       test_pull_requests: true
       type: git
@@ -3022,7 +3028,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/fkie-release/potree_rviz_plugin-release.git
-      version: 1.0.0-0
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/fkie/potree_rviz_plugin.git
@@ -5124,19 +5130,40 @@ repositories:
       version: hydro
     status: developed
     status_description: Slow development
-  leo_description:
+  leo_common:
     doc:
       type: git
-      url: https://github.com/LeoRover/leo_description.git
+      url: https://github.com/LeoRover/leo_common.git
       version: master
     release:
+      packages:
+      - leo
+      - leo_description
       tags:
         release: release/melodic/{package}/{version}
-      url: https://github.com/fictionlab-gbp/leo_description-release.git
-      version: 1.0.0-1
+      url: https://github.com/fictionlab-gbp/leo_common-release.git
+      version: 1.0.1-1
     source:
       type: git
-      url: https://github.com/LeoRover/leo_description.git
+      url: https://github.com/LeoRover/leo_common.git
+      version: master
+    status: maintained
+  leo_desktop:
+    doc:
+      type: git
+      url: https://github.com/LeoRover/leo_desktop.git
+      version: master
+    release:
+      packages:
+      - leo_desktop
+      - leo_viz
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/fictionlab-gbp/leo_desktop-release.git
+      version: 0.2.1-1
+    source:
+      type: git
+      url: https://github.com/LeoRover/leo_desktop.git
       version: master
     status: maintained
   leo_gazebo:
@@ -5152,21 +5179,6 @@ repositories:
     source:
       type: git
       url: https://github.com/LeoRover/leo_gazebo.git
-      version: master
-    status: maintained
-  leo_viz:
-    doc:
-      type: git
-      url: https://github.com/LeoRover/leo_viz.git
-      version: master
-    release:
-      tags:
-        release: release/melodic/{package}/{version}
-      url: https://github.com/fictionlab-gbp/leo_viz-release.git
-      version: 0.2.0-1
-    source:
-      type: git
-      url: https://github.com/LeoRover/leo_viz.git
       version: master
     status: maintained
   leuze_ros_drivers:
@@ -6230,7 +6242,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/milvusrobotics/mrp2_robot-release.git
-      version: 0.2.5-2
+      version: 0.2.6-1
     source:
       type: git
       url: https://github.com/milvusrobotics/mrp2_robot.git
@@ -7849,6 +7861,15 @@ repositories:
       url: https://github.com/SeaosRobotics/pipeline_planner_open.git
       version: master
     status: maintained
+  play_motion:
+    release:
+      packages:
+      - play_motion
+      - play_motion_msgs
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/pal-gbp/play_motion-release2.git
+      version: 0.4.8-1
   plotjuggler:
     doc:
       type: git
