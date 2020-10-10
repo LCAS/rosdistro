@@ -1106,6 +1106,17 @@ repositories:
       url: https://github.com/iron-ox/fadecandy_ros.git
       version: master
     status: developed
+  fcl:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/fcl-release.git
+      version: 0.6.1-1
+    source:
+      type: git
+      url: https://github.com/flexible-collision-library/fcl.git
+      version: master
+    status: maintained
   fcl_catkin:
     release:
       tags:
@@ -1965,7 +1976,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 1.2.12-1
+      version: 1.2.13-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -2365,7 +2376,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/mcl_3dl-release.git
-      version: 0.3.0-1
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/at-wat/mcl_3dl.git
@@ -2574,7 +2585,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit_msgs-release.git
-      version: 0.11.0-1
+      version: 0.11.1-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
@@ -2596,12 +2607,27 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit_resources-release.git
-      version: 0.7.0-1
+      version: 0.7.1-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
       version: master
     status: maintained
+  moveit_visual_tools:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/moveit_visual_tools.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/moveit_visual_tools-release.git
+      version: 3.6.0-1
+    source:
+      type: git
+      url: https://github.com/ros-planning/moveit_visual_tools.git
+      version: noetic-devel
+    status: developed
   mpc_local_planner:
     doc:
       type: git
@@ -2802,7 +2828,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.10.1-1
+      version: 0.10.2-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -4881,7 +4907,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/PickNikRobotics/rviz_visual_tools-release.git
-      version: 3.9.0-1
+      version: 3.9.1-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/rviz_visual_tools.git
@@ -5295,6 +5321,29 @@ repositories:
       url: https://github.com/stack-of-tasks/tsid.git
       version: devel
     status: maintained
+  turtlebot3:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3.git
+      version: noetic-devel
+    release:
+      packages:
+      - turtlebot3
+      - turtlebot3_bringup
+      - turtlebot3_description
+      - turtlebot3_example
+      - turtlebot3_navigation
+      - turtlebot3_slam
+      - turtlebot3_teleop
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ROBOTIS-GIT-release/turtlebot3-release.git
+      version: 1.2.4-1
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3.git
+      version: noetic-devel
+    status: developed
   turtlebot3_msgs:
     doc:
       type: git
@@ -5673,6 +5722,21 @@ repositories:
       type: git
       url: https://github.com/ros-planning/warehouse_ros.git
       version: kinetic-devel
+    status: maintained
+  warehouse_ros_mongo:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/warehouse_ros_mongo.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/warehouse_ros_mongo-release.git
+      version: 0.10.0-1
+    source:
+      type: git
+      url: https://github.com/ros-planning/warehouse_ros_mongo.git
+      version: noetic-devel
     status: maintained
   webkit_dependency:
     doc:
