@@ -1164,7 +1164,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/aws-gbp/cloudwatch_common-release.git
-      version: 1.1.3-1
+      version: 1.1.4-1
     source:
       type: git
       url: https://github.com/aws-robotics/cloudwatch-common.git
@@ -1522,12 +1522,11 @@ repositories:
       - cob_object_detection_visualizer
       - cob_perception_common
       - cob_perception_msgs
-      - cob_vision_utils
       - ipa_3d_fov_visualization
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipa320/cob_perception_common-release.git
-      version: 0.6.15-1
+      version: 0.6.16-1
     source:
       type: git
       url: https://github.com/ipa320/cob_perception_common.git
@@ -2017,6 +2016,27 @@ repositories:
     source:
       type: git
       url: https://bitbucket.org/dataspeedinc/dbw_mkz_ros.git
+      version: master
+    status: developed
+  dbw_polaris_ros:
+    doc:
+      type: git
+      url: https://bitbucket.org/DataspeedInc/dbw_polaris_ros.git
+      version: master
+    release:
+      packages:
+      - dbw_polaris
+      - dbw_polaris_can
+      - dbw_polaris_description
+      - dbw_polaris_joystick_demo
+      - dbw_polaris_msgs
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/DataspeedInc-release/dbw_polaris_ros-release.git
+      version: 0.0.4-1
+    source:
+      type: git
+      url: https://bitbucket.org/DataspeedInc/dbw_polaris_ros.git
       version: master
     status: developed
   dccomms_ros_pkgs:
@@ -4742,6 +4762,7 @@ repositories:
       version: master
     release:
       packages:
+      - audio_to_spectrogram
       - checkerboard_detector
       - imagesift
       - jsk_pcl_ros
@@ -4754,7 +4775,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 1.2.10-0
+      version: 1.2.15-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -5138,10 +5159,11 @@ repositories:
       packages:
       - leo
       - leo_description
+      - leo_teleop
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/fictionlab-gbp/leo_common-release.git
-      version: 1.0.1-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/LeoRover/leo_common.git
@@ -5587,7 +5609,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2020.9.10-1
+      version: 2020.10.11-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -5642,7 +5664,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/at-wat/mcl_3dl-release.git
-      version: 0.3.0-1
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/at-wat/mcl_3dl.git
@@ -6701,7 +6723,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.10.1-1
+      version: 0.10.2-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -9791,6 +9813,16 @@ repositories:
       type: git
       url: https://github.com/septentrio-gnss/rosaic.git
       version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/septentrio-gnss/rosaic-release.git
+      version: 1.0.5-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/septentrio-gnss/rosaic.git
+      version: master
     status: maintained
   rosauth:
     doc:
@@ -11474,7 +11506,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/stack-of-tasks/sot-core-ros-release.git
-      version: 4.10.1-3
+      version: 4.10.1-5
     source:
       test_pull_requests: true
       type: git
@@ -11513,6 +11545,46 @@ repositories:
       url: https://github.com/SteveMacenski/spatio_temporal_voxel_layer.git
       version: melodic-devel
     status: maintained
+  sr_common:
+    doc:
+      type: git
+      url: https://github.com/shadow-robot/sr_common.git
+      version: melodic-devel
+    source:
+      type: git
+      url: https://github.com/shadow-robot/sr_common.git
+      version: melodic-devel
+    status: maintained
+  sr_config:
+    doc:
+      type: git
+      url: https://github.com/shadow-robot/sr-config.git
+      version: melodic-devel
+    source:
+      type: git
+      url: https://github.com/shadow-robot/sr-config.git
+      version: melodic-devel
+    status: maintained
+  sr_core:
+    doc:
+      type: git
+      url: https://github.com/shadow-robot/sr_core.git
+      version: melodic-devel
+    source:
+      type: git
+      url: https://github.com/shadow-robot/sr_core.git
+      version: melodic-devel
+    status: maintained
+  sr_ethercat:
+    doc:
+      type: git
+      url: https://github.com/shadow-robot/sr-ros-interface-ethercat.git
+      version: melodic-devel
+    source:
+      type: git
+      url: https://github.com/shadow-robot/sr-ros-interface-ethercat.git
+      version: melodic-devel
+    status: maintained
   sr_hand_detector:
     release:
       tags:
@@ -11523,6 +11595,36 @@ repositories:
       type: git
       url: https://github.com/shadow-robot/sr_hand_detector.git
       version: melodic-devel
+  sr_interface:
+    doc:
+      type: git
+      url: https://github.com/shadow-robot/sr_interface.git
+      version: melodic-devel
+    source:
+      type: git
+      url: https://github.com/shadow-robot/sr_interface.git
+      version: melodic-devel
+    status: maintained
+  sr_tools:
+    doc:
+      type: git
+      url: https://github.com/shadow-robot/sr_tools.git
+      version: melodic-devel
+    source:
+      type: git
+      url: https://github.com/shadow-robot/sr_tools.git
+      version: melodic-devel
+    status: maintained
+  sr_visualisation:
+    doc:
+      type: git
+      url: https://github.com/shadow-robot/sr-visualization.git
+      version: melodic-devel
+    source:
+      type: git
+      url: https://github.com/shadow-robot/sr-visualization.git
+      version: melodic-devel
+    status: maintained
   srdfdom:
     doc:
       type: git
@@ -12503,7 +12605,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-industrial-release/ur_msgs-release.git
-      version: 1.3.1-1
+      version: 1.3.2-1
     source:
       type: git
       url: https://github.com/ros-industrial/ur_msgs.git

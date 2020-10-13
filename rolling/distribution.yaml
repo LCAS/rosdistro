@@ -1433,6 +1433,7 @@ repositories:
       url: https://github.com/ros2-gbp/rcpputils-release.git
       version: 2.0.1-1
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcpputils.git
       version: master
@@ -2508,8 +2509,8 @@ repositories:
       - tracetools_analysis
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/tracetools_analysis-release.git
-      version: 1.0.1-2
+      url: https://gitlab.com/micro-ROS/ros_tracing/tracetools_analysis-release.git
+      version: 1.0.2-2
     source:
       type: git
       url: https://gitlab.com/micro-ROS/ros_tracing/tracetools_analysis.git
@@ -2548,6 +2549,21 @@ repositories:
       type: git
       url: https://github.com/ros/ros_tutorials.git
       version: galactic-devel
+    status: maintained
+  udp_msgs:
+    doc:
+      type: git
+      url: https://github.com/flynneva/udp_msgs.git
+      version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/flynneva/udp_msgs-release.git
+      version: 0.0.2-1
+    source:
+      type: git
+      url: https://github.com/flynneva/udp_msgs.git
+      version: main
     status: maintained
   uncrustify_vendor:
     release:
