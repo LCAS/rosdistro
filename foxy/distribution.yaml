@@ -2375,7 +2375,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rmw-release.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -3613,6 +3613,27 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/ros_tutorials.git
+      version: foxy-devel
+    status: maintained
+  ublox:
+    doc:
+      type: git
+      url: https://github.com/KumarRobotics/ublox.git
+      version: foxy-devel
+    release:
+      packages:
+      - ublox
+      - ublox_gps
+      - ublox_msgs
+      - ublox_serialization
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/KumarRobotics/ublox-release.git
+      version: 2.0.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/KumarRobotics/ublox.git
       version: foxy-devel
     status: maintained
   udp_msgs:

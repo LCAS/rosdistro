@@ -893,6 +893,15 @@ repositories:
       version: kinetic-devel
     status: maintained
   boost_sml:
+    doc:
+      type: git
+      url: https://github.com/PickNikRobotics/boost_sml.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/PickNikRobotics/boost_sml-release.git
+      version: 0.1.0-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/boost_sml.git
@@ -7299,6 +7308,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/open_manipulator_with_tb3.git
+      version: melodic-devel
   open_manipulator_with_tb3_simulations:
     doc:
       type: git
@@ -7556,7 +7566,7 @@ repositories:
     source:
       type: git
       url: https://github.com/allenh1/p2os.git
-      version: master
+      version: main
     status: maintained
   pacmod:
     doc:
@@ -8405,7 +8415,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/stonier/py_trees_msgs.git
-      version: release/0.3-melodic
+      version: release/0.3.x
     release:
       tags:
         release: release/melodic/{package}/{version}
@@ -8414,7 +8424,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stonier/py_trees_msgs.git
-      version: release/0.3-melodic
+      version: release/0.3.x
     status: maintained
   py_trees_ros:
     doc:
@@ -10236,7 +10246,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/uos-gbp/rospy_message_converter-release.git
-      version: 0.5.3-1
+      version: 0.5.4-1
     source:
       test_pull_requests: true
       type: git
@@ -10318,7 +10328,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ethz-asl/rotors_simulator.git
-      version: feature/gazebo9-autobackport
+      version: master
     release:
       packages:
       - rotors_comm
@@ -10338,7 +10348,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ethz-asl/rotors_simulator.git
-      version: feature/gazebo9-autobackport
+      version: master
   rplidar_ros:
     doc:
       type: git

@@ -1880,12 +1880,11 @@ repositories:
       - cob_object_detection_visualizer
       - cob_perception_common
       - cob_perception_msgs
-      - cob_vision_utils
       - ipa_3d_fov_visualization
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_perception_common-release.git
-      version: 0.6.15-1
+      version: 0.6.16-1
     source:
       type: git
       url: https://github.com/ipa320/cob_perception_common.git
@@ -7291,7 +7290,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2020.9.10-1
+      version: 2020.10.11-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -13454,7 +13453,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/uos-gbp/rospy_message_converter-release.git
-      version: 0.5.3-1
+      version: 0.5.4-1
     source:
       test_pull_requests: true
       type: git
