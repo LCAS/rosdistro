@@ -1026,6 +1026,21 @@ repositories:
       url: https://github.com/swri-robotics/gps_umd.git
       version: dashing-devel
     status: maintained
+  grbl_msgs:
+    doc:
+      type: git
+      url: https://github.com/flynneva/grbl_msgs.git
+      version: main
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/flynneva/grbl_msgs-release.git
+      version: 0.0.2-1
+    source:
+      type: git
+      url: https://github.com/flynneva/grbl_msgs.git
+      version: main
+    status: maintained
   grbl_ros:
     doc:
       type: git
@@ -2516,7 +2531,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/lgsvl/ros2-lgsvl-bridge-release.git
-      version: 0.1.1-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/lgsvl/ros2-lgsvl-bridge.git
@@ -2622,7 +2637,7 @@ repositories:
   ros2_tracing:
     doc:
       type: git
-      url: https://gitlab.com/micro-ROS/ros_tracing/ros2_tracing.git
+      url: https://gitlab.com/ros-tracing/ros2_tracing.git
       version: dashing
     release:
       packages:
@@ -2634,11 +2649,11 @@ repositories:
       - tracetools_trace
       tags:
         release: release/dashing/{package}/{version}
-      url: https://gitlab.com/micro-ROS/ros_tracing/ros2_tracing-release.git
+      url: https://gitlab.com/ros-tracing/ros2_tracing-release.git
       version: 0.2.8-1
     source:
       type: git
-      url: https://gitlab.com/micro-ROS/ros_tracing/ros2_tracing.git
+      url: https://gitlab.com/ros-tracing/ros2_tracing.git
       version: dashing
     status: developed
   ros2cli:
@@ -3551,7 +3566,7 @@ repositories:
   tracetools_analysis:
     doc:
       type: git
-      url: https://gitlab.com/micro-ROS/ros_tracing/tracetools_analysis.git
+      url: https://gitlab.com/ros-tracing/tracetools_analysis.git
       version: dashing
     release:
       packages:
@@ -3559,11 +3574,11 @@ repositories:
       - tracetools_analysis
       tags:
         release: release/dashing/{package}/{version}
-      url: https://gitlab.com/micro-ROS/ros_tracing/tracetools_analysis-release.git
+      url: https://gitlab.com/ros-tracing/tracetools_analysis-release.git
       version: 0.2.1-1
     source:
       type: git
-      url: https://gitlab.com/micro-ROS/ros_tracing/tracetools_analysis.git
+      url: https://gitlab.com/ros-tracing/tracetools_analysis.git
       version: dashing
     status: developed
   transport_drivers:
