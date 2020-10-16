@@ -1173,7 +1173,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/aws-gbp/cloudwatch_common-release.git
-      version: 1.1.4-1
+      version: 1.1.5-1
     source:
       type: git
       url: https://github.com/aws-robotics/cloudwatch-common.git
@@ -7432,12 +7432,12 @@ repositories:
     doc:
       type: git
       url: https://github.com/tork-a/openrtm_aist_python-release.git
-      version: release/hydro/openrtm_aist_python
+      version: release/melodic/openrtm_aist_python
     release:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tork-a/openrtm_aist_python-release.git
-      version: 1.1.0-0
+      version: 1.1.0-2
     status: maintained
   openslam_gmapping:
     doc:
@@ -9834,22 +9834,6 @@ repositories:
       url: https://github.com/facontidavide/ros_type_introspection.git
       version: master
     status: developed
-  rosaic:
-    doc:
-      type: git
-      url: https://github.com/septentrio-gnss/rosaic.git
-      version: master
-    release:
-      tags:
-        release: release/melodic/{package}/{version}
-      url: https://github.com/septentrio-gnss/rosaic-release.git
-      version: 1.0.5-1
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/septentrio-gnss/rosaic.git
-      version: master
-    status: maintained
   rosauth:
     doc:
       type: git
@@ -10021,7 +10005,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/rosconsole-release.git
-      version: 1.13.17-1
+      version: 1.13.18-1
     source:
       test_pull_requests: true
       type: git
@@ -11333,6 +11317,12 @@ repositories:
       type: git
       url: https://github.com/allxone/sensehat_ros.git
       version: master
+  septentrio_gnss_driver:
+    doc:
+      type: git
+      url: https://github.com/septentrio-gnss/septentrio_gnss_driver.git
+      version: master
+    status: maintained
   serial:
     release:
       tags:
@@ -12057,7 +12047,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://gitlab.com/toposens/public/toposens-release.git
-      version: 2.0.3-1
+      version: 2.0.4-1
     source:
       type: git
       url: https://gitlab.com/toposens/public/ros-packages.git

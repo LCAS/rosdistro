@@ -2415,7 +2415,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_connext-release.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -2434,7 +2434,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_cyclonedds-release.git
-      version: 0.7.4-1
+      version: 0.7.5-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -2472,7 +2472,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_fastrtps-release.git
-      version: 1.2.1-1
+      version: 1.2.2-1
     source:
       test_pull_requests: true
       type: git
@@ -3603,6 +3603,30 @@ repositories:
       type: git
       url: https://github.com/ros-drivers/transport_drivers.git
       version: ros2
+    status: developed
+  turtlebot3:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3.git
+      version: foxy-devel
+    release:
+      packages:
+      - turtlebot3
+      - turtlebot3_bringup
+      - turtlebot3_cartographer
+      - turtlebot3_description
+      - turtlebot3_example
+      - turtlebot3_navigation2
+      - turtlebot3_node
+      - turtlebot3_teleop
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/robotis-ros2-release/turtlebot3-release.git
+      version: 2.1.0-1
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3.git
+      version: foxy-devel
     status: developed
   turtlebot3_msgs:
     doc:
