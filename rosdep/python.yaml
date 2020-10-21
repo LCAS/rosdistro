@@ -120,6 +120,12 @@ cython:
   fedora: [Cython]
   gentoo: [dev-python/cython]
   ubuntu: [cython]
+cython3:
+  arch: [cython]
+  debian: [cython3]
+  fedora: [python3-Cython]
+  gentoo: [dev-python/cython]
+  ubuntu: [cython3]
 dpath-pip:
   ubuntu:
     pip:
@@ -5869,6 +5875,16 @@ python3-importlib-metadata:
     xenial:
       pip:
         packages: [importlib-metadata]
+python3-influxdb-client-pip:
+  debian:
+    pip:
+      packages: [influxdb-client]
+  fedora:
+    pip:
+      packages: [influxdb-client]
+  ubuntu:
+    pip:
+      packages: [influxdb-client]
 python3-interpreter:
   arch: [python]
   debian: [python3-minimal]
@@ -5969,6 +5985,15 @@ python3-matplotlib:
     '7': null
   slackware: [python3-matplotlib]
   ubuntu: [python3-matplotlib]
+python3-mechanize:
+  debian:
+    '*': [python3-mechanize]
+    buster: null
+  fedora: [python3-mechanize]
+  ubuntu:
+    '*': [python3-mechanize]
+    bionic: null
+    xenial: null
 python3-mock:
   alpine: [py3-mock]
   debian: [python3-mock]
