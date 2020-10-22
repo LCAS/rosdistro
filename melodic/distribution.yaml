@@ -901,12 +901,39 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/PickNikRobotics/boost_sml-release.git
-      version: 0.1.0-1
+      version: 0.1.0-2
     source:
       type: git
       url: https://github.com/PickNikRobotics/boost_sml.git
       version: master
     status: maintained
+  bota_driver:
+    doc:
+      type: git
+      url: https://gitlab.com/botasys/bota_driver.git
+      version: master
+    release:
+      packages:
+      - bota_device_driver
+      - bota_driver
+      - rokubimini
+      - rokubimini_bus_manager
+      - rokubimini_description
+      - rokubimini_ethercat
+      - rokubimini_examples
+      - rokubimini_factory
+      - rokubimini_manager
+      - rokubimini_msgs
+      - rokubimini_serial
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://gitlab.com/botasys/bota_driver-release.git
+      version: 0.5.0-3
+    source:
+      type: git
+      url: https://gitlab.com/botasys/bota_driver.git
+      version: master
+    status: developed
   brics_actuator:
     doc:
       type: git
@@ -1296,7 +1323,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipa320/cob_command_tools-release.git
-      version: 0.6.16-1
+      version: 0.6.18-1
     source:
       type: git
       url: https://github.com/ipa320/cob_command_tools.git
@@ -1351,7 +1378,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipa320/cob_control-release.git
-      version: 0.8.11-1
+      version: 0.8.12-1
     source:
       type: git
       url: https://github.com/ipa320/cob_control.git
@@ -7312,6 +7339,24 @@ repositories:
       url: https://github.com/ROBOTIS-GIT/open_manipulator_p.git
       version: melodic-devel
     status: developed
+  open_manipulator_p_simulations:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/open_manipulator_p_simulations.git
+      version: melodic-devel
+    release:
+      packages:
+      - open_manipulator_p_gazebo
+      - open_manipulator_p_simulations
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ROBOTIS-GIT-release/open_manipulator_p_simulations-release.git
+      version: 1.0.0-3
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/open_manipulator_p_simulations.git
+      version: melodic-devel
+    status: developed
   open_manipulator_simulations:
     doc:
       type: git
@@ -7945,6 +7990,25 @@ repositories:
         release: release/melodic/{package}/{version}
       url: https://github.com/pal-gbp/play_motion-release2.git
       version: 0.4.8-1
+  play_motion_builder:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/play_motion_builder.git
+      version: master
+    release:
+      packages:
+      - play_motion_builder
+      - play_motion_builder_msgs
+      - rqt_play_motion_builder
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/pal-robotics/play_motion_builder-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/pal-robotics/play_motion_builder.git
+      version: master
+    status: maintained
   plotjuggler:
     doc:
       type: git
@@ -8427,6 +8491,21 @@ repositories:
     source:
       type: git
       url: https://github.com/PilzDE/psen_scan.git
+      version: melodic-devel
+    status: developed
+  psen_scan_v2:
+    doc:
+      type: git
+      url: https://github.com/PilzDE/psen_scan_v2.git
+      version: melodic-devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/PilzDE/psen_scan_v2-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/PilzDE/psen_scan_v2.git
       version: melodic-devel
     status: developed
   px4_msgs:

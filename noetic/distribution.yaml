@@ -379,6 +379,31 @@ repositories:
       url: https://github.com/ipa320/cob_calibration_data.git
       version: indigo_dev
     status: maintained
+  cob_command_tools:
+    doc:
+      type: git
+      url: https://github.com/ipa320/cob_command_tools.git
+      version: indigo_release_candidate
+    release:
+      packages:
+      - cob_dashboard
+      - cob_helper_tools
+      - cob_interactive_teleop
+      - cob_monitoring
+      - cob_script_server
+      - cob_teleop
+      - generic_throttle
+      - scenario_test_tools
+      - service_tools
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ipa320/cob_command_tools-release.git
+      version: 0.6.18-1
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_command_tools.git
+      version: indigo_dev
+    status: maintained
   cob_common:
     doc:
       type: git
@@ -400,6 +425,39 @@ repositories:
       type: git
       url: https://github.com/ipa320/cob_common.git
       version: kinetic_dev
+    status: maintained
+  cob_control:
+    doc:
+      type: git
+      url: https://github.com/ipa320/cob_control.git
+      version: melodic_release_candidate
+    release:
+      packages:
+      - cob_base_controller_utils
+      - cob_base_velocity_smoother
+      - cob_cartesian_controller
+      - cob_collision_velocity_filter
+      - cob_control
+      - cob_control_mode_adapter
+      - cob_control_msgs
+      - cob_footprint_observer
+      - cob_frame_tracker
+      - cob_hardware_emulation
+      - cob_mecanum_controller
+      - cob_model_identifier
+      - cob_obstacle_distance
+      - cob_omni_drive_controller
+      - cob_trajectory_controller
+      - cob_tricycle_controller
+      - cob_twist_controller
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ipa320/cob_control-release.git
+      version: 0.8.12-1
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_control.git
+      version: melodic_dev
     status: maintained
   cob_driver:
     doc:
@@ -1284,7 +1342,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/fetch_tools-release.git
-      version: 0.3.2-1
+      version: 0.3.3-1
     source:
       type: git
       url: https://github.com/fetchrobotics/fetch_tools.git
@@ -4946,7 +5004,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_robot_steering-release.git
-      version: 0.5.11-1
+      version: 0.5.12-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_robot_steering.git

@@ -1635,7 +1635,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_command_tools-release.git
-      version: 0.6.16-1
+      version: 0.6.18-1
     source:
       type: git
       url: https://github.com/ipa320/cob_command_tools.git
@@ -1690,7 +1690,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_control-release.git
-      version: 0.7.11-1
+      version: 0.7.12-1
     source:
       type: git
       url: https://github.com/ipa320/cob_control.git
@@ -6575,7 +6575,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/fictionlab-gbp/leo_common-release.git
-      version: 1.1.0-1
+      version: 1.1.0-2
     source:
       type: git
       url: https://github.com/LeoRover/leo_common.git
@@ -6593,7 +6593,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/fictionlab-gbp/leo_desktop-release.git
-      version: 0.2.2-1
+      version: 0.2.2-2
     source:
       type: git
       url: https://github.com/LeoRover/leo_desktop.git
@@ -9317,6 +9317,24 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/open_manipulator_p.git
+      version: kinetic-devel
+    status: developed
+  open_manipulator_p_simulations:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/open_manipulator_p_simulations.git
+      version: kinetic-devel
+    release:
+      packages:
+      - open_manipulator_p_gazebo
+      - open_manipulator_p_simulations
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ROBOTIS-GIT-release/open_manipulator_p_simulations-release.git
+      version: 1.0.0-4
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/open_manipulator_p_simulations.git
       version: kinetic-devel
     status: developed
   open_manipulator_perceptions:

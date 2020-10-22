@@ -1398,11 +1398,12 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/lgsvl/lgsvl_msgs-release.git
-      version: 0.0.3-1
+      version: 0.0.4-1
     source:
       type: git
       url: https://github.com/lgsvl/lgsvl_msgs.git
       version: foxy-devel
+    status: developed
   libg2o:
     release:
       tags:
@@ -1871,7 +1872,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/performance_test_fixture-release.git
-      version: 0.0.4-1
+      version: 0.0.5-1
     source:
       test_pull_requests: true
       type: git
