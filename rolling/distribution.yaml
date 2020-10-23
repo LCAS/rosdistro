@@ -708,6 +708,21 @@ repositories:
       url: https://github.com/flynneva/grbl_msgs.git
       version: main
     status: maintained
+  grbl_ros:
+    doc:
+      type: git
+      url: https://github.com/flynneva/grbl_ros.git
+      version: devel
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/flynneva/grbl_ros-release.git
+      version: 0.0.15-1
+    source:
+      type: git
+      url: https://github.com/flynneva/grbl_ros.git
+      version: devel
+    status: maintained
   ifm3d_core:
     release:
       tags:
@@ -1055,6 +1070,21 @@ repositories:
       url: https://github.com/ros2/mimick_vendor.git
       version: master
     status: maintained
+  mrpt2:
+    doc:
+      type: git
+      url: https://github.com/MRPT/mrpt.git
+      version: develop
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/mrpt-ros2-pkg-release/mrpt2-release.git
+      version: 2.1.3-1
+    source:
+      type: git
+      url: https://github.com/MRPT/mrpt.git
+      version: develop
+    status: developed
   navigation_msgs:
     doc:
       type: git
@@ -1624,9 +1654,6 @@ repositories:
       url: https://github.com/ros2/rmw_implementation.git
       version: master
     release:
-      packages:
-      - rmw_implementation
-      - test_rmw_implementation
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_implementation-release.git

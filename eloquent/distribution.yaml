@@ -970,16 +970,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/flynneva/grbl_ros.git
-      version: eloquent
+      version: main
     release:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/flynneva/grbl_ros-release.git
-      version: 0.1.1-1
+      version: 0.0.15-1
     source:
       type: git
       url: https://github.com/flynneva/grbl_ros.git
-      version: eloquent
+      version: main
     status: developed
   hls_lfcd_lds_driver:
     doc:
@@ -1297,11 +1297,12 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/lgsvl/lgsvl_msgs-release.git
-      version: 0.0.3-1
+      version: 0.0.4-1
     source:
       type: git
       url: https://github.com/lgsvl/lgsvl_msgs.git
       version: eloquent-devel
+    status: developed
   libg2o:
     release:
       tags:
@@ -1353,7 +1354,7 @@ repositories:
       tags:
         release: release/eloquent/{package}/{version}
       url: https://github.com/swri-robotics-gbp/mapviz-release.git
-      version: 2.0.0-1
+      version: 2.1.0-1
     source:
       test_pull_requests: true
       type: git

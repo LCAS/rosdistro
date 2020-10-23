@@ -1045,16 +1045,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/flynneva/grbl_ros.git
-      version: dashing
+      version: main
     release:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/flynneva/grbl_ros-release.git
-      version: 0.0.12-3
+      version: 0.0.15-1
     source:
       type: git
       url: https://github.com/flynneva/grbl_ros.git
-      version: dashing
+      version: main
     status: developed
   gtsam:
     doc:
@@ -1431,11 +1431,12 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/lgsvl/lgsvl_msgs-release.git
-      version: 0.0.3-1
+      version: 0.0.4-1
     source:
       type: git
       url: https://github.com/lgsvl/lgsvl_msgs.git
       version: dashing-devel
+    status: developed
   librealsense:
     doc:
       type: git
@@ -1480,7 +1481,7 @@ repositories:
       tags:
         release: release/dashing/{package}/{version}
       url: https://github.com/swri-robotics-gbp/mapviz-release.git
-      version: 2.0.0-1
+      version: 2.1.0-1
     source:
       test_pull_requests: true
       type: git
