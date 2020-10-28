@@ -158,6 +158,25 @@ repositories:
       url: https://github.com/ros-drivers/audio_common.git
       version: master
     status: maintained
+  automotive_autonomy_msgs:
+    doc:
+      type: git
+      url: https://github.com/astuff/automotive_autonomy_msgs.git
+      version: master
+    release:
+      packages:
+      - automotive_autonomy_msgs
+      - automotive_navigation_msgs
+      - automotive_platform_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/astuff/automotive_autonomy_msgs-release.git
+      version: 3.0.4-1
+    source:
+      type: git
+      url: https://github.com/astuff/automotive_autonomy_msgs.git
+      version: master
+    status: maintained
   auv_msgs:
     doc:
       type: git
@@ -2074,7 +2093,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ixblue/ixblue_ins_stdbin_driver-release.git
-      version: 0.1.3-1
+      version: 0.1.4-1
     source:
       test_pull_requests: true
       type: git
@@ -2263,6 +2282,28 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
+      version: master
+    status: developed
+  jsk_visualization:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_visualization.git
+      version: master
+    release:
+      packages:
+      - jsk_interactive
+      - jsk_interactive_marker
+      - jsk_interactive_test
+      - jsk_rqt_plugins
+      - jsk_rviz_plugins
+      - jsk_visualization
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/tork-a/jsk_visualization-release.git
+      version: 2.1.7-4
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_visualization.git
       version: master
     status: developed
   kdl_parser:
@@ -3889,7 +3930,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_genicam_api-release.git
-      version: 2.4.1-1
+      version: 2.4.4-1
     source:
       test_pull_requests: true
       type: git
@@ -5930,7 +5971,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/urg_node-release.git
-      version: 0.1.14-1
+      version: 0.1.15-1
     source:
       type: git
       url: https://github.com/ros-drivers/urg_node.git
@@ -6262,7 +6303,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/openspur/yp-spur-release.git
-      version: 1.19.0-1
+      version: 1.20.0-1
     source:
       type: git
       url: https://github.com/openspur/yp-spur.git
