@@ -2094,11 +2094,20 @@ repositories:
       version: master
     status: developed
   ddynamic_reconfigure:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/ddynamic_reconfigure.git
+      version: kinetic-devel
     release:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/pal-gbp/ddynamic_reconfigure.git
-      version: 0.3.1-1
+      version: 0.3.2-1
+    source:
+      type: git
+      url: https://github.com/pal-robotics/ddynamic_reconfigure.git
+      version: kinetic-devel
+    status: maintained
   ddynamic_reconfigure_python:
     release:
       tags:
@@ -9061,7 +9070,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_visard-release.git
-      version: 3.0.4-1
+      version: 3.0.5-1
     source:
       test_pull_requests: true
       type: git
@@ -9648,7 +9657,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/StefanFabian/ros_babel_fish-release.git
-      version: 0.8.0-3
+      version: 0.9.0-1
     source:
       type: git
       url: https://github.com/StefanFabian/ros_babel_fish.git
