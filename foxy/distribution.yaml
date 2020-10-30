@@ -941,7 +941,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
-      version: ros2
+      version: foxy
     release:
       packages:
       - gazebo_dev
@@ -957,7 +957,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
-      version: ros2
+      version: foxy
     status: developed
   geographic_info:
     doc:
@@ -3541,7 +3541,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros-gbp/teleop_tools-release.git
-      version: 1.2.0-1
+      version: 1.2.1-1
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
