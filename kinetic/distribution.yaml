@@ -1137,6 +1137,36 @@ repositories:
       url: https://github.com/ros/bond_core.git
       version: kinetic-devel
     status: maintained
+  bota_driver:
+    doc:
+      type: git
+      url: https://gitlab.com/botasys/bota_driver.git
+      version: master
+    release:
+      packages:
+      - bota_device_driver
+      - bota_driver
+      - bota_node
+      - bota_signal_handler
+      - bota_worker
+      - rokubimini
+      - rokubimini_bus_manager
+      - rokubimini_description
+      - rokubimini_ethercat
+      - rokubimini_examples
+      - rokubimini_factory
+      - rokubimini_manager
+      - rokubimini_msgs
+      - rokubimini_serial
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://gitlab.com/botasys/bota_driver-release.git
+      version: 0.5.4-1
+    source:
+      type: git
+      url: https://gitlab.com/botasys/bota_driver.git
+      version: kinetic-devel
+    status: developed
   brics_actuator:
     doc:
       type: git
@@ -8600,7 +8630,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/navigation_msgs-release.git
-      version: 1.13.0-0
+      version: 1.14.1-1
     status: maintained
   navigation_tutorials:
     doc:
@@ -12752,7 +12782,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/ros_comm-release.git
-      version: 1.12.16-1
+      version: 1.12.17-1
     source:
       test_pull_requests: true
       type: git
