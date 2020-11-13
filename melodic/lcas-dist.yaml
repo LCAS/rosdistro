@@ -809,12 +809,12 @@ repositories:
       url: https://github.com/SAGARobotics/Thorvald.git
       version: melodic-devel
     status: developed
-  thorvald_uv:
+  saga_apps:
     source:
       test_commits: true
       test_pull_requests: true
       type: git
-      url: https://github.com/SAGARobotics/thorvald_uv.git
+      url: https://github.com/SAGARobotics/SagaApps.git
       version: master
     status: developed
   topic_store:
