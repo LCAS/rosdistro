@@ -728,6 +728,20 @@ repositories:
       url: https://github.com/astuff/avt_vimba_camera.git
       version: master
     status: maintained
+  aws-robomaker-simulation-ros-pkgs:
+    doc:
+      type: git
+      url: https://github.com/aws-robotics/aws-robomaker-simulation-ros-pkgs.git
+      version: 1.1.1
+    release:
+      packages:
+      - aws_robomaker_simulation_ros_pkgs
+      - robomaker_simulation_msgs
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/aws-gbp/aws_robomaker_simulation_ros_pkgs-release.git
+      version: 1.1.1-2
+    status: maintained
   aws_common:
     doc:
       type: git
@@ -931,7 +945,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://gitlab.com/botasys/bota_driver-release.git
-      version: 0.5.7-1
+      version: 0.5.8-1
     source:
       type: git
       url: https://gitlab.com/botasys/bota_driver.git
@@ -2317,7 +2331,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/stack-of-tasks/dynamic-graph-ros-release.git
-      version: 4.2.2-1
+      version: 4.3.0-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/dynamic-graph.git
@@ -2332,7 +2346,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/stack-of-tasks/dynamic-graph-python-ros-release.git
-      version: 3.5.3-2
+      version: 4.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2631,7 +2645,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/stack-of-tasks/eiquadprog-ros-release.git
-      version: 1.2.2-1
+      version: 1.2.2-2
     source:
       test_pull_requests: true
       type: git
@@ -2793,14 +2807,6 @@ repositories:
         release: release/melodic/{package}/{version}
       url: https://github.com/wxmerkt/exotica_val_description-release.git
       version: 1.0.0-1
-  extest:
-    release:
-      tags:
-        release: release/melodic/{package}/{version}
-      url: https://github.com/nakakura/extest-release.git
-      version: 0.0.1-3
-    status: unmaintained
-    status_description: Test of Rosrust
   eyantra_drone:
     doc:
       type: git
@@ -4466,7 +4472,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ixblue/ixblue_stdbin_decoder-release.git
-      version: 0.1.3-1
+      version: 0.2.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5523,7 +5529,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/uos-gbp/lvr2-release.git
-      version: 20.7.1-1
+      version: 20.11.1-1
     source:
       type: git
       url: https://github.com/uos/lvr2.git
@@ -5683,7 +5689,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2020.10.11-1
+      version: 2020.11.11-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -5704,7 +5710,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 1.4.0-1
+      version: 1.5.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5804,6 +5810,7 @@ repositories:
       - hdf5_map_io
       - label_manager
       - mesh_msgs
+      - mesh_msgs_conversions
       - mesh_msgs_hdf5
       - mesh_msgs_transform
       - mesh_tools
@@ -5812,7 +5819,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/uos-gbp/mesh-tools.git
-      version: 1.0.0-2
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/uos/mesh_tools.git
@@ -6797,7 +6804,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.10.3-1
+      version: 0.10.4-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -7718,6 +7725,25 @@ repositories:
       url: https://github.com/astuff/pacmod_game_control.git
       version: master
     status: developed
+  pal_statistics:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/pal_statistics.git
+      version: kinetic-devel
+    release:
+      packages:
+      - pal_carbon_collector
+      - pal_statistics
+      - pal_statistics_msgs
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/pal-gbp/pal_statistics-release.git
+      version: 1.4.1-1
+    source:
+      type: git
+      url: https://github.com/pal-robotics/pal_statistics.git
+      version: kinetic-devel
+    status: maintained
   panda_moveit_config:
     doc:
       type: git
@@ -9522,6 +9548,28 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/robot_state_publisher.git
+      version: melodic-devel
+    status: maintained
+  robot_statemachine:
+    doc:
+      type: git
+      url: https://github.com/MarcoStb1993/robot_statemachine.git
+      version: melodic-devel
+    release:
+      packages:
+      - robot_statemachine
+      - rsm_additions
+      - rsm_core
+      - rsm_msgs
+      - rsm_rqt_plugins
+      - rsm_rviz_plugins
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/MarcoStb1993/robot_statemachine-release.git
+      version: 1.2.0-1
+    source:
+      type: git
+      url: https://github.com/MarcoStb1993/robot_statemachine.git
       version: melodic-devel
     status: maintained
   robot_upstart:
@@ -11549,7 +11597,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/SICKAG/sick_safetyscanners-release.git
-      version: 1.0.6-1
+      version: 1.0.7-1
     source:
       type: git
       url: https://github.com/SICKAG/sick_safetyscanners.git
