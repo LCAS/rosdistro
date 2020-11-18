@@ -21,10 +21,11 @@ repositories:
     release:
       packages:
       - bacchus_gazebo
+      - bacchus_move_base
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/lcas-releases/bacchus_lcas.git
-      version: 0.0.1-1
+      version: 0.1.0-1
     source:
       test_commits: true
       test_pull_requests: true
@@ -424,6 +425,14 @@ repositories:
       url: https://github.com/SAGARobotics/AgriNav.git
       version: master
     status: developed
+  saga_apps:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/SAGARobotics/SagaApps.git
+      version: master
+    status: developed
   sandbox:
     release:
       packages:
@@ -808,14 +817,6 @@ repositories:
       type: git
       url: https://github.com/SAGARobotics/Thorvald.git
       version: melodic-devel
-    status: developed
-  saga_apps:
-    source:
-      test_commits: true
-      test_pull_requests: true
-      type: git
-      url: https://github.com/SAGARobotics/SagaApps.git
-      version: master
     status: developed
   topic_store:
     release:
