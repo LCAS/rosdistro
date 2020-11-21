@@ -483,6 +483,27 @@ repositories:
       url: https://github.com/ros/cmake_modules.git
       version: 0.4-devel
     status: maintained
+  cob_android:
+    doc:
+      type: git
+      url: https://github.com/ipa320/cob_android.git
+      version: indigo_release_candidate
+    release:
+      packages:
+      - cob_android
+      - cob_android_msgs
+      - cob_android_resource_server
+      - cob_android_script_server
+      - cob_android_settings
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ipa320/cob_android-release.git
+      version: 0.1.8-1
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_android.git
+      version: indigo_dev
+    status: maintained
   cob_calibration_data:
     doc:
       type: git
@@ -539,7 +560,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_common-release.git
-      version: 0.7.3-1
+      version: 0.7.4-1
     source:
       type: git
       url: https://github.com/ipa320/cob_common.git
@@ -1529,7 +1550,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipab-slmc/exotica-release.git
-      version: 6.0.0-1
+      version: 6.0.1-1
     source:
       type: git
       url: https://github.com/ipab-slmc/exotica.git
@@ -2902,7 +2923,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_messages-release.git
-      version: 0.9.0-1
+      version: 0.10.0-1
     source:
       test_pull_requests: true
       type: git
@@ -4795,6 +4816,25 @@ repositories:
       url: https://github.com/RobotWebTools/rosbridge_suite.git
       version: develop
     status: maintained
+  roscompile:
+    doc:
+      type: git
+      url: https://github.com/DLu/roscompile.git
+      version: main
+    release:
+      packages:
+      - ros_introspection
+      - roscompile
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/wu-robotics/roscompile-release.git
+      version: 1.1.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/DLu/roscompile.git
+      version: main
+    status: developed
   rosconsole:
     doc:
       type: git
