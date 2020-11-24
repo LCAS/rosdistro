@@ -8001,7 +8001,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/PilzDE/pilz_robots-release.git
-      version: 0.5.20-1
+      version: 0.5.21-1
     source:
       type: git
       url: https://github.com/PilzDE/pilz_robots.git
@@ -8079,7 +8079,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 2.8.4-2
+      version: 3.0.1-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -8099,6 +8099,21 @@ repositories:
       type: git
       url: https://github.com/facontidavide/plotjuggler_msgs.git
       version: ros1
+    status: developed
+  plotjuggler_ros:
+    doc:
+      type: git
+      url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
+      version: development
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/PlotJuggler/plotjuggler-ros-plugins-release.git
+      version: 1.0.0-2
+    source:
+      type: git
+      url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
+      version: development
     status: developed
   pluginlib:
     doc:
@@ -11763,7 +11778,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/stack-of-tasks/sot-core-ros-release.git
-      version: 4.10.1-5
+      version: 4.11.2-3
     source:
       test_pull_requests: true
       type: git
@@ -12587,6 +12602,17 @@ repositories:
       url: https://github.com/tuw-robotics/tuw_rviz.git
       version: melodic
     status: developed
+  tvm_vendor:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/autowarefoundation/tvm_vendor-release.git
+      version: 0.7.0-1
+    source:
+      type: git
+      url: https://github.com/autowarefoundation/tvm_vendor.git
+      version: main
+    status: maintained
   twist_mux:
     doc:
       type: git
@@ -13753,11 +13779,6 @@ repositories:
       url: https://github.com/openspur/ypspur_ros.git
       version: master
     status: developed
-  yujin_lidar:
-    doc:
-      type: git
-      url: https://github.com/yujinrobot/yujin_lidar.git
-      version: master
   yujin_ocs:
     doc:
       type: git
@@ -13792,6 +13813,11 @@ repositories:
       type: git
       url: https://github.com/yujinrobot/yujin_ocs.git
       version: release/0.8-melodic
+  yujin_yrl_package:
+    doc:
+      type: git
+      url: https://github.com/yujinrobot/yujin_lidar.git
+      version: master
   z_laser_projector:
     doc:
       type: git
