@@ -2795,7 +2795,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipab-slmc/exotica-release.git
-      version: 6.0.1-1
+      version: 6.0.2-1
     source:
       type: git
       url: https://github.com/ipab-slmc/exotica.git
@@ -5505,6 +5505,21 @@ repositories:
       url: https://github.com/clearpathrobotics/lms1xx.git
       version: melodic-devel
     status: maintained
+  log_view:
+    doc:
+      type: git
+      url: https://github.com/hatchbed/log_view.git
+      version: devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/hatchbed/log_view-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/hatchbed/log_view.git
+      version: devel
+    status: developed
   lusb:
     doc:
       type: git
@@ -7977,7 +7992,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/PilzDE/pilz_industrial_motion-release.git
-      version: 0.4.11-1
+      version: 0.4.12-1
     source:
       type: git
       url: https://github.com/PilzDE/pilz_industrial_motion.git
@@ -8575,16 +8590,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/PilzDE/psen_scan_v2.git
-      version: melodic-devel
+      version: main
     release:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/PilzDE/psen_scan_v2-release.git
-      version: 0.1.1-1
+      version: 0.1.2-1
     source:
       type: git
       url: https://github.com/PilzDE/psen_scan_v2.git
-      version: melodic-devel
+      version: main
     status: developed
   px4_msgs:
     release:
@@ -9062,7 +9077,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_common_msgs-release.git
-      version: 0.5.0-1
+      version: 0.5.3-1
     source:
       type: git
       url: https://github.com/roboception/rc_common_msgs.git
@@ -9109,7 +9124,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_genicam_driver_ros-release.git
-      version: 0.2.0-1
+      version: 0.4.0-1
     source:
       test_pull_requests: true
       type: git
@@ -9134,7 +9149,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_visard-release.git
-      version: 3.0.5-1
+      version: 3.1.0-2
     source:
       test_pull_requests: true
       type: git
@@ -9597,7 +9612,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/MarcoStb1993/robot_statemachine-release.git
-      version: 1.2.0-1
+      version: 1.2.1-1
     source:
       type: git
       url: https://github.com/MarcoStb1993/robot_statemachine.git
@@ -9659,6 +9674,16 @@ repositories:
         release: release/melodic/{package}/{version}
       url: https://github.com/robotont-release/robotont_description-release.git
       version: 0.0.7-1
+  robotont_nuc_description:
+    doc:
+      type: git
+      url: https://github.com/robotont/robotont_nuc_description.git
+      version: melodic-devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/robotont-release/robotont_nuc_description-release.git
+      version: 0.0.1-1
   rocon_msgs:
     doc:
       type: git
@@ -10202,7 +10227,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.11.10-1
+      version: 0.11.11-1
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git

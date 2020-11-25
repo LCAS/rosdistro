@@ -7003,6 +7003,17 @@ repositories:
       url: https://github.com/easymov/log_server-release.git
       version: 0.1.4-1
     status: developed
+  log_view:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/hatchbed/log_view-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/hatchbed/log_view.git
+      version: devel
+    status: developed
   loki_base_node:
     release:
       tags:
@@ -11520,7 +11531,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_common_msgs-release.git
-      version: 0.5.0-1
+      version: 0.5.3-1
     source:
       type: git
       url: https://github.com/roboception/rc_common_msgs.git
@@ -11567,7 +11578,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_genicam_driver_ros-release.git
-      version: 0.2.0-1
+      version: 0.4.0-1
     source:
       test_pull_requests: true
       type: git
@@ -11592,7 +11603,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_visard-release.git
-      version: 3.0.5-1
+      version: 3.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -13247,7 +13258,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.11.10-1
+      version: 0.11.11-1
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -16190,7 +16201,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://gitlab.com/toposens/public/toposens-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://gitlab.com/toposens/public/ros-packages.git
