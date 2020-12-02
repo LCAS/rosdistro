@@ -507,7 +507,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/PeterMitrano/cnpy-release.git
-      version: 0.0.1-1
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/PeterMitrano/cnpy.git
@@ -1701,7 +1701,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fkie-release/multimaster_fkie-release.git
-      version: 1.2.3-1
+      version: 1.2.5-2
     source:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
@@ -3797,12 +3797,42 @@ repositories:
       url: https://github.com/OctoMap/octomap_ros.git
       version: melodic-devel
     status: unmaintained
+  odva_ethernetip:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/odva_ethernetip.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/odva_ethernetip-release.git
+      version: 0.1.5-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/odva_ethernetip.git
+      version: kinetic-devel
+    status: maintained
   ompl:
     release:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/ompl-release.git
       version: 1.5.1-1
+  omron_os32c_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/omron.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/omron-release.git
+      version: 1.1.0-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/omron.git
+      version: kinetic-devel
+    status: maintained
   open_karto:
     doc:
       type: git
@@ -4312,7 +4342,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_common_msgs-release.git
-      version: 0.5.0-1
+      version: 0.5.3-1
     source:
       test_pull_requests: true
       type: git
@@ -4407,6 +4437,25 @@ repositories:
       type: git
       url: https://github.com/roboception/rcdiscover.git
       version: master
+    status: developed
+  realsense2_camera:
+    doc:
+      type: git
+      url: https://github.com/IntelRealSense/realsense-ros.git
+      version: development
+    release:
+      packages:
+      - realsense2_camera
+      - realsense2_description
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/IntelRealSense/realsense-ros-release.git
+      version: 2.2.20-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/IntelRealSense/realsense-ros.git
+      version: development
     status: developed
   realtime_tools:
     doc:
@@ -4961,7 +5010,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.11.10-1
+      version: 0.11.12-1
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -6056,6 +6105,17 @@ repositories:
       url: https://github.com/ros-planning/srdfdom.git
       version: noetic-devel
     status: maintained
+  stag_ros:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/usrl-uofsc/stag_ros-release.git
+      version: 0.3.4-2
+    source:
+      type: git
+      url: https://github.com/usrl-uofsc/stag_ros.git
+      version: noetic-devel
+    status: developed
   stage:
     release:
       tags:
