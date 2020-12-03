@@ -3270,11 +3270,16 @@ python-pyaudio:
   ubuntu: [python-pyaudio]
 python-pycodestyle:
   arch: [python2-pycodestyle]
-  debian: [pycodestyle]
+  debian:
+    '*': null
+    buster: [python-pycodestyle]
+    stretch: [python-pycodestyle]
   fedora: [python-pycodestyle]
   gentoo: [dev-python/pycodestyle]
   rhel: [python2-pycodestyle]
-  ubuntu: [pycodestyle]
+  ubuntu:
+    '*': null
+    bionic: [python-pycodestyle]
 python-pycpd-pip:
   debian:
     pip:
@@ -6756,6 +6761,13 @@ python3-texttable:
   gentoo: [dev-python/texttable]
   rhel: ['python%{python3_pkgversion}-texttable']
   ubuntu: [python3-texttable]
+python3-thriftpy:
+  fedora: [python3-thriftpy]
+  ubuntu:
+    '*': [python3-thiftpy]
+    xenial:
+      pip:
+        packages: [thriftpy]
 python3-tilestache-pip:
   debian:
     pip:
@@ -6900,6 +6912,12 @@ python3-wxgtk4.0:
   fedora: [python3-wxpython4]
   gentoo: [dev-python/wxpython]
   ubuntu: [python3-wxgtk4.0]
+python3-xmltodict:
+  alpine: [py3-xmltodict]
+  arch: [python-xmltodict]
+  debian: [python3-xmltodict]
+  fedora: [python3-xmltodict]
+  ubuntu: [python3-xmltodict]
 python3-yaml:
   alpine: [py3-yaml]
   debian: [python3-yaml]
