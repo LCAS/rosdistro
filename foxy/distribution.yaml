@@ -1045,6 +1045,21 @@ repositories:
       url: https://github.com/ros-geographic-info/geographic_info.git
       version: ros2
     status: maintained
+  geometric_shapes:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/geometric_shapes.git
+      version: ros2
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/moveit/geometric_shapes-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-planning/geometric_shapes.git
+      version: ros2
+    status: maintained
   geometry2:
     doc:
       type: git
@@ -1644,6 +1659,28 @@ repositories:
       url: https://github.com/ros2/mimick_vendor.git
       version: master
     status: maintained
+  moveit_resources:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/moveit_resources.git
+      version: ros2
+    release:
+      packages:
+      - moveit_resources
+      - moveit_resources_fanuc_description
+      - moveit_resources_fanuc_moveit_config
+      - moveit_resources_panda_description
+      - moveit_resources_panda_moveit_config
+      - moveit_resources_pr2_description
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/moveit/moveit_resources-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-planning/moveit_resources.git
+      version: ros2
+    status: developed
   mrpt2:
     doc:
       type: git
@@ -3574,6 +3611,21 @@ repositories:
       url: https://github.com/ros2/spdlog_vendor.git
       version: foxy
     status: maintained
+  srdfdom:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/srdfdom.git
+      version: ros2
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/moveit/srdfdom-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-planning/srdfdom.git
+      version: ros2
+    status: maintained
   sros2:
     doc:
       type: git
@@ -4114,6 +4166,21 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/vision_opencv.git
+      version: ros2
+    status: maintained
+  warehouse_ros:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/warehouse_ros.git
+      version: ros2
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/moveit/warehouse_ros-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-planning/warehouse_ros.git
       version: ros2
     status: maintained
   webots_ros2:
