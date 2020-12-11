@@ -3,8 +3,6 @@
 # see REP 143: http://ros.org/reps/rep-0143.html
 ---
 release_platforms:
-  debian:
-  - stretch
   ubuntu:
   - bionic
 repositories:
@@ -4765,6 +4763,34 @@ repositories:
       url: https://github.com/tork-a/jsk_common_msgs-release.git
       version: 4.3.1-0
     status: developed
+  jsk_control:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_control.git
+      version: master
+    release:
+      packages:
+      - cmd_vel_smoother
+      - contact_states_observer
+      - eus_nlopt
+      - eus_qp
+      - eus_qpoases
+      - joy_mouse
+      - jsk_calibration
+      - jsk_control
+      - jsk_footstep_controller
+      - jsk_footstep_planner
+      - jsk_ik_server
+      - jsk_teleop_joy
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/tork-a/jsk_control-release.git
+      version: 0.1.15-1
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_control.git
+      version: master
+    status: developed
   jsk_model_tools:
     doc:
       type: git
@@ -8605,7 +8631,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/PilzDE/psen_scan_v2-release.git
-      version: 0.1.2-1
+      version: 0.1.3-1
     source:
       type: git
       url: https://github.com/PilzDE/psen_scan_v2.git
@@ -12658,7 +12684,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/autowarefoundation/tvm_vendor-release.git
-      version: 0.7.1-1
+      version: 0.7.2-1
     source:
       type: git
       url: https://github.com/autowarefoundation/tvm_vendor.git
