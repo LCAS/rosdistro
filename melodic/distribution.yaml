@@ -2192,6 +2192,10 @@ repositories:
       version: indigo-devel
     status: maintained
   diffdrive_arduino:
+    doc:
+      type: git
+      url: https://github.com/joshnewans/diffdrive_arduino.git
+      version: melodic-devel
     source:
       type: git
       url: https://github.com/joshnewans/diffdrive_arduino.git
@@ -3145,7 +3149,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/FlexBE/flexbe_behavior_engine-release.git
-      version: 1.3.0-1
+      version: 1.3.1-1
     source:
       type: git
       url: https://github.com/team-vigir/flexbe_behavior_engine.git
@@ -8130,7 +8134,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.0.4-1
+      version: 3.0.5-2
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -10263,7 +10267,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.11.12-1
+      version: 0.11.13-1
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -11919,7 +11923,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/shadow-robot/sr_hand_detector-release.git
-      version: 0.0.2-1
+      version: 0.0.3-2
     source:
       type: git
       url: https://github.com/shadow-robot/sr_hand_detector.git
