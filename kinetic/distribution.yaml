@@ -7375,7 +7375,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2020.11.11-1
+      version: 2020.12.12-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -14432,7 +14432,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/introlab/rtabmap-release.git
-      version: 0.20.0-1
+      version: 0.20.7-2
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -14447,7 +14447,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.20.0-1
+      version: 0.20.7-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
@@ -15361,6 +15361,17 @@ repositories:
       type: git
       url: https://github.com/srv/srv_tools.git
       version: kinetic
+    status: developed
+  stag_ros:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/usrl-uofsc/stag_ros-release.git
+      version: 0.1.1-6
+    source:
+      type: git
+      url: https://github.com/usrl-uofsc/stag_ros.git
+      version: kinetic-devel
     status: developed
   stage:
     doc:
