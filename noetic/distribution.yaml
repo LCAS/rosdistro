@@ -507,7 +507,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/PeterMitrano/cnpy-release.git
-      version: 0.0.2-1
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/PeterMitrano/cnpy.git
@@ -1858,6 +1858,25 @@ repositories:
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
       version: noetic-devel
     status: maintained
+  gazebo_video_monitors:
+    doc:
+      type: git
+      url: https://github.com/nlamprian/gazebo_video_monitors.git
+      version: master
+    release:
+      packages:
+      - gazebo_video_monitor_msgs
+      - gazebo_video_monitor_plugins
+      - gazebo_video_monitors
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/nlamprian/gazebo_video_monitors-release.git
+      version: 0.6.0-1
+    source:
+      type: git
+      url: https://github.com/nlamprian/gazebo_video_monitors.git
+      version: master
+    status: maintained
   gencpp:
     doc:
       type: git
@@ -2148,6 +2167,32 @@ repositories:
       url: https://github.com/HebiRobotics/hebi_cpp_api_ros.git
       version: master
     status: developed
+  hector_slam:
+    release:
+      packages:
+      - hector_compressed_map_transport
+      - hector_geotiff
+      - hector_geotiff_launch
+      - hector_geotiff_plugins
+      - hector_imu_attitude_to_tf
+      - hector_imu_tools
+      - hector_map_server
+      - hector_map_tools
+      - hector_mapping
+      - hector_marker_drawing
+      - hector_nav_msgs
+      - hector_slam
+      - hector_slam_launch
+      - hector_trajectory_server
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_slam-release.git
+      version: 0.5.0-1
+    source:
+      type: git
+      url: https://github.com/tu-darmstadt-ros-pkg/hector_slam.git
+      version: noetic-devel
+    status: maintained
   hfl_driver:
     doc:
       type: git
@@ -2396,6 +2441,13 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/eupedrosa/iris_lama-release.git
+      version: 1.1.0-1
+    status: developed
+  iris_lama_ros:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/eupedrosa/iris_lama_ros-release.git
       version: 1.1.0-1
     status: developed
   ivcon:
@@ -4633,12 +4685,13 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/cra-ros-pkg/robot_localization-release.git
-      version: 2.6.8-2
+      version: 2.7.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
       version: noetic-devel
+    status: developed
   robot_navigation:
     doc:
       type: git
@@ -6430,6 +6483,39 @@ repositories:
       url: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
       version: noetic-devel
     status: developed
+  tuw_geometry:
+    doc:
+      type: git
+      url: https://github.com/tuw-robotics/tuw_geometry.git
+      version: noetic
+    source:
+      type: git
+      url: https://github.com/tuw-robotics/tuw_geometry.git
+      version: noetic
+    status: maintained
+  tuw_msgs:
+    doc:
+      type: git
+      url: https://github.com/tuw-robotics/tuw_msgs.git
+      version: noetic
+    source:
+      type: git
+      url: https://github.com/tuw-robotics/tuw_msgs.git
+      version: noetic
+    status: maintained
+  tuw_multi_robot:
+    doc:
+      depends:
+      - tuw_geometry
+      - tuw_msgs
+      type: git
+      url: https://github.com/tuw-robotics/tuw_multi_robot.git
+      version: noetic
+    source:
+      type: git
+      url: https://github.com/tuw-robotics/tuw_multi_robot.git
+      version: noetic
+    status: maintained
   twist_mux:
     doc:
       type: git

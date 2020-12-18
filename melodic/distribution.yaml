@@ -3322,6 +3322,25 @@ repositories:
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
       version: melodic-devel
     status: developed
+  gazebo_video_monitors:
+    doc:
+      type: git
+      url: https://github.com/nlamprian/gazebo_video_monitors.git
+      version: master
+    release:
+      packages:
+      - gazebo_video_monitor_msgs
+      - gazebo_video_monitor_plugins
+      - gazebo_video_monitors
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/nlamprian/gazebo_video_monitors-release.git
+      version: 0.6.0-2
+    source:
+      type: git
+      url: https://github.com/nlamprian/gazebo_video_monitors.git
+      version: master
+    status: maintained
   gencpp:
     doc:
       type: git
@@ -3919,7 +3938,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/amferreiraBEV/heifu-release.git
-      version: 0.7.1-2
+      version: 0.7.2-1
     source:
       type: git
       url: https://gitlab.pdmfc.com/drones/ros1/heifu.git
@@ -5863,6 +5882,31 @@ repositories:
       url: https://github.com/ros/media_export.git
       version: indigo-devel
     status: maintained
+  mesh_navigation:
+    doc:
+      type: git
+      url: https://github.com/uos/mesh_navigation.git
+      version: master
+    release:
+      packages:
+      - dijkstra_mesh_planner
+      - mbf_mesh_core
+      - mbf_mesh_nav
+      - mesh_client
+      - mesh_controller
+      - mesh_layers
+      - mesh_map
+      - mesh_navigation
+      - wave_front_planner
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/uos-gbp/mesh_navigation-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/uos/mesh_navigation.git
+      version: master
+    status: developed
   mesh_tools:
     doc:
       type: git
@@ -9565,7 +9609,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/cra-ros-pkg/robot_localization-release.git
-      version: 2.6.7-1
+      version: 2.6.9-1
     source:
       test_pull_requests: true
       type: git
