@@ -743,6 +743,27 @@ repositories:
       url: https://github.com/ipa320/cob_hand.git
       version: indigo_dev
     status: maintained
+  cob_manipulation:
+    doc:
+      type: git
+      url: https://github.com/ipa320/cob_manipulation.git
+      version: kinetic_release_candidate
+    release:
+      packages:
+      - cob_collision_monitor
+      - cob_grasp_generation
+      - cob_lookat_action
+      - cob_moveit_bringup
+      - cob_moveit_interface
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ipa320/cob_manipulation-release.git
+      version: 0.7.5-1
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_manipulation.git
+      version: kinetic_dev
+    status: maintained
   cob_navigation:
     doc:
       type: git
@@ -2878,7 +2899,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-perception/laser_geometry.git
-      version: indigo-devel
+      version: kinetic-devel
     status: maintained
   laser_pipeline:
     doc:
@@ -3260,6 +3281,31 @@ repositories:
       url: https://github.com/ros/media_export.git
       version: indigo-devel
     status: maintained
+  mesh_navigation:
+    doc:
+      type: git
+      url: https://github.com/uos/mesh_navigation.git
+      version: master
+    release:
+      packages:
+      - dijkstra_mesh_planner
+      - mbf_mesh_core
+      - mbf_mesh_nav
+      - mesh_client
+      - mesh_controller
+      - mesh_layers
+      - mesh_map
+      - mesh_navigation
+      - wave_front_planner
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/uos-gbp/mesh_navigation-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/uos/mesh_navigation.git
+      version: master
+    status: developed
   mesh_tools:
     doc:
       type: git
