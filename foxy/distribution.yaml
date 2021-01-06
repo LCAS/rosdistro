@@ -1149,6 +1149,21 @@ repositories:
       url: https://github.com/swri-robotics/gps_umd.git
       version: dashing-devel
     status: developed
+  grasping_msgs:
+    doc:
+      type: git
+      url: https://github.com/mikeferguson/grasping_msgs.git
+      version: ros2
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/mikeferguson/grasping_msgs-ros2-gbp.git
+      version: 0.4.0-1
+    source:
+      type: git
+      url: https://github.com/mikeferguson/grasping_msgs.git
+      version: ros2
+    status: maintained
   grbl_msgs:
     doc:
       type: git
@@ -2107,7 +2122,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.0.6-1
+      version: 3.0.7-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -4412,7 +4427,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/cyberbotics/webots_ros2-release.git
-      version: 1.0.3-1
+      version: 1.0.4-1
     source:
       test_pull_requests: true
       type: git
