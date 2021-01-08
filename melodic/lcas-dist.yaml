@@ -201,6 +201,40 @@ repositories:
       version: melodic-devel
     status: maintained
   lcas_teaching:
+    release:
+      packages:
+      - kobuki_bumper2pc
+      - kobuki_description
+      - kobuki_gazebo_plugins
+      - kobuki_keyop
+      - kobuki_msgs
+      - kobuki_node
+      - kobuki_safety_controller
+      - turtlebot_actions
+      - turtlebot_apps
+      - turtlebot_bringup
+      - turtlebot_calibration
+      - turtlebot_capabilities
+      - turtlebot_description
+      - turtlebot_follower
+      - turtlebot_gazebo
+      - turtlebot_msgs
+      - turtlebot_navigation
+      - turtlebot_rapps
+      - turtlebot_simulator
+      - turtlebot_stage
+      - turtlebot_stdr
+      - turtlebot_teleop
+      - uol_cmp3103m
+      - uol_rpi_tbot
+      - uol_turtlebot_common
+      - uol_turtlebot_simulator
+      - yocs_cmd_vel_mux
+      - yocs_controllers
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/strands-project-releases/lcas_teaching.git
+      version: 3.0.1-1
     source:
       test_commits: true
       test_pull_requests: true
