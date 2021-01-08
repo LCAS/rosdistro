@@ -200,6 +200,14 @@ repositories:
       url: https://github.com/strands-project/morse.git
       version: melodic-devel
     status: maintained
+  lcas_teaching:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/teaching.git
+      version: lcas_melodic
+    status: developed
   libfreenect2:
     release:
       tags:
