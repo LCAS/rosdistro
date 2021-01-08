@@ -3670,7 +3670,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/anybotics/grid_map-release.git
-      version: 1.6.2-1
+      version: 1.6.4-2
     source:
       test_pull_requests: true
       type: git
@@ -6843,7 +6843,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/DLu/navigation_layers.git
-      version: indigo
+      version: melodic
     release:
       packages:
       - navigation_layers
@@ -6857,7 +6857,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/DLu/navigation_layers.git
-      version: indigo
+      version: melodic
     status: maintained
   navigation_msgs:
     doc:
@@ -8211,7 +8211,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.0.6-1
+      version: 3.0.7-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -13343,12 +13343,12 @@ repositories:
       packages:
       - variant
       - variant_msgs
-      - variant_topic_test
       - variant_topic_tools
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/anybotics/variant-release.git
-      version: 0.1.5-0
+      version: 0.1.6-1
+    status: maintained
   velodyne:
     doc:
       type: git
