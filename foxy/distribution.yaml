@@ -439,6 +439,22 @@ repositories:
       url: https://github.com/ros/class_loader.git
       version: foxy
     status: maintained
+  color_names:
+    doc:
+      type: git
+      url: https://github.com/OUXT-Polaris/color_names.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/OUXT-Polaris/color_names-release.git
+      version: 0.0.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/OUXT-Polaris/color_names-release.git
+      version: master
+    status: developed
   common_interfaces:
     doc:
       type: git
@@ -854,11 +870,15 @@ repositories:
       version: devel
     status: maintained
   embree_vendor:
+    doc:
+      type: git
+      url: https://github.com/OUXT-Polaris/embree_vendor.git
+      version: master
     release:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/OUXT-Polaris/embree_vendor-release.git
-      version: 0.0.5-1
+      version: 0.0.6-1
     source:
       test_pull_requests: true
       type: git
@@ -2338,6 +2358,22 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
       version: foxy-devel
+    status: maintained
+  quaternion_operation:
+    doc:
+      type: git
+      url: https://github.com/OUXT-Polaris/quaternion_operation.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/OUXT-Polaris/quaternion_operation-release.git
+      version: 0.0.4-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/OUXT-Polaris/quaternion_operation.git
+      version: ros2
     status: maintained
   random_numbers:
     doc:
