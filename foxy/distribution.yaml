@@ -281,6 +281,21 @@ repositories:
       url: https://github.com/astuff/astuff_sensor_msgs.git
       version: master
     status: maintained
+  async_web_server_cpp:
+    doc:
+      type: git
+      url: https://github.com/fkie/async_web_server_cpp.git
+      version: ros2-releases
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/fkie-release/async_web_server_cpp-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/fkie/async_web_server_cpp.git
+      version: ros2-develop
+    status: maintained
   automotive_autonomy_msgs:
     doc:
       type: git
@@ -3561,6 +3576,21 @@ repositories:
       url: https://github.com/ros-visualization/rqt_image_view.git
       version: foxy-devel
     status: maintained
+  rqt_moveit:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_moveit.git
+      version: ros2
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_moveit-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_moveit.git
+      version: ros2
+    status: maintained
   rqt_msg:
     doc:
       type: git
@@ -3798,6 +3828,21 @@ repositories:
       url: https://github.com/SBG-Systems/sbg_ros2.git
       version: master
     status: maintained
+  sick_safetyscanners2:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners2.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/SICKAG/sick_safetyscanners2-release.git
+      version: 1.0.0-2
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners2.git
+      version: master
+    status: developed
   sick_safetyscanners2_interfaces:
     doc:
       type: git
