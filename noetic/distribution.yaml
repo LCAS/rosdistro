@@ -2213,6 +2213,21 @@ repositories:
       url: https://github.com/mikeferguson/graceful_controller.git
       version: ros1
     status: developed
+  graft:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/graft.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/graft-release.git
+      version: 0.2.3-1
+    source:
+      type: git
+      url: https://github.com/ros-perception/graft.git
+      version: hydro-devel
+    status: maintained
   graph_msgs:
     doc:
       type: git
@@ -2359,7 +2374,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_slam-release.git
-      version: 0.5.0-1
+      version: 0.5.1-1
     source:
       type: git
       url: https://github.com/tu-darmstadt-ros-pkg/hector_slam.git
@@ -3380,7 +3395,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/mcl_3dl-release.git
-      version: 0.5.1-1
+      version: 0.5.2-1
     source:
       type: git
       url: https://github.com/at-wat/mcl_3dl.git
@@ -4281,6 +4296,21 @@ repositories:
       url: https://github.com/Jmeyer1292/opw_kinematics.git
       version: master
     status: developed
+  osqp_vendor:
+    doc:
+      type: git
+      url: https://github.com/tier4/osqp_vendor.git
+      version: noetic
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/tier4/osqp_vendor-release.git
+      version: 0.1.2-1
+    source:
+      type: git
+      url: https://github.com/tier4/osqp_vendor.git
+      version: noetic
+    status: maintained
   oxford_gps_eth:
     doc:
       type: git
@@ -4714,6 +4744,21 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
       version: melodic-devel
+    status: maintained
+  qpoases_vendor:
+    doc:
+      type: git
+      url: https://github.com/autoware-ai/qpoases_vendor.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/autoware-ai/qpoases_vendor-release.git
+      version: 3.2.1-1
+    source:
+      type: git
+      url: https://github.com/autoware-ai/qpoases_vendor.git
+      version: master
     status: maintained
   qt_gui_core:
     doc:
@@ -6811,7 +6856,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/turtlebot3-release.git
-      version: 1.2.4-1
+      version: 1.2.5-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/turtlebot3.git
@@ -6830,6 +6875,25 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+      version: noetic-devel
+    status: developed
+  turtlebot3_simulations:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+      version: noetic-devel
+    release:
+      packages:
+      - turtlebot3_fake
+      - turtlebot3_gazebo
+      - turtlebot3_simulations
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ROBOTIS-GIT-release/turtlebot3_simulations-release.git
+      version: 1.3.1-1
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
       version: noetic-devel
     status: developed
   tuw_geometry:
