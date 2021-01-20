@@ -6331,7 +6331,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/mikeferguson/moveit_python.git
-      version: master
+      version: ros1
     release:
       tags:
         release: release/melodic/{package}/{version}
@@ -6340,7 +6340,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mikeferguson/moveit_python.git
-      version: master
+      version: ros1
     status: developed
   moveit_resources:
     doc:
@@ -11590,6 +11590,21 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/rviz.git
       version: melodic-devel
+    status: maintained
+  rviz_satellite:
+    doc:
+      type: git
+      url: https://github.com/nobleo/rviz_satellite.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/nobleo/rviz_satellite-release.git
+      version: 3.0.3-1
+    source:
+      type: git
+      url: https://github.com/nobleo/rviz_satellite.git
+      version: master
     status: maintained
   rviz_visual_tools:
     doc:

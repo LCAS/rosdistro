@@ -1637,7 +1637,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ipa320/cob_android-release.git
-      version: 0.1.8-1
+      version: 0.1.9-1
     source:
       type: git
       url: https://github.com/ipa320/cob_android.git
@@ -2626,16 +2626,16 @@ repositories:
   dgps_ros:
     doc:
       type: git
-      url: https://gitee.com/rivercloud/dgps_ros
+      url: https://github.com/qinyunchuan/dgps_ros.git
       version: master
     release:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/qinyunchuan/dgps_ros-release.git
-      version: 1.0.0-1
+      version: 1.0.0-4
     source:
       type: git
-      url: https://gitee.com/rivercloud/dgps_ros
+      url: https://github.com/qinyunchuan/dgps_ros.git
       version: master
     status: developed
   diagnostics:
@@ -7973,7 +7973,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/mikeferguson/moveit_python.git
-      version: master
+      version: ros1
     release:
       tags:
         release: release/kinetic/{package}/{version}
@@ -7982,7 +7982,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mikeferguson/moveit_python.git
-      version: master
+      version: ros1
     status: developed
   moveit_resources:
     doc:
