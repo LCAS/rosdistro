@@ -155,6 +155,22 @@ repositories:
       url: https://github.com/astuff/astuff_sensor_msgs.git
       version: master
     status: maintained
+  async_comm:
+    doc:
+      type: git
+      url: https://github.com/dpkoch/async_comm.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/dpkoch/async_comm-release.git
+      version: 0.2.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/dpkoch/async_comm.git
+      version: master
+    status: developed
   async_web_server_cpp:
     doc:
       type: git
@@ -1830,7 +1846,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fkie-release/multimaster_fkie-release.git
-      version: 1.2.6-2
+      version: 1.2.7-1
     source:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
@@ -2174,6 +2190,16 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/gl_dependency.git
       version: kinetic-devel
+    status: maintained
+  gpp:
+    doc:
+      type: git
+      url: https://github.com/dorezyuk/gpp.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/dorezyuk/gpp.git
+      version: master
     status: maintained
   gps_umd:
     doc:
@@ -3181,6 +3207,21 @@ repositories:
       type: git
       url: https://github.com/SICKAG/libsick_ldmrs.git
       version: master
+  lms1xx:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/lms1xx.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/lms1xx-release.git
+      version: 0.3.0-2
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/lms1xx.git
+      version: noetic-devel
+    status: maintained
   log_view:
     doc:
       type: git
@@ -4004,6 +4045,21 @@ repositories:
       url: https://github.com/nerian-vision/nerian_stereo.git
       version: master
     status: developed
+  nmea_comms:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/nmea_comms.git
+      version: jade-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/nmea_comms-release.git
+      version: 1.2.0-3
+    source:
+      type: git
+      url: https://github.com/ros-drivers/nmea_comms.git
+      version: jade-devel
+    status: maintained
   nmea_msgs:
     doc:
       type: git
@@ -4117,7 +4173,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/octomap-release.git
-      version: 1.9.5-4
+      version: 1.9.6-1
     source:
       type: git
       url: https://github.com/OctoMap/octomap.git
