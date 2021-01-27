@@ -5304,6 +5304,16 @@ repositories:
       version: hydro
     status: developed
     status_description: Slow development
+  leica_scanstation:
+    doc:
+      type: git
+      url: https://github.com/fada-catec/leica_scanstation.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/fada-catec/leica_scanstation.git
+      version: master
+    status: maintained
   leo_common:
     doc:
       type: git
@@ -11627,6 +11637,21 @@ repositories:
       url: https://github.com/PickNikRobotics/rviz_visual_tools.git
       version: melodic-devel
     status: developed
+  rx_service_tools:
+    doc:
+      type: git
+      url: https://github.com/nobleo/rx_service_tools.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/nobleo/rx_service_tools-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/nobleo/rx_service_tools.git
+      version: master
+    status: maintained
   rxcpp_vendor:
     doc:
       type: git
@@ -12343,6 +12368,21 @@ repositories:
       type: git
       url: https://github.com/YugAjmera/teleop_keyboard_omni3.git
       version: master
+    status: maintained
+  teleop_legged_robots:
+    doc:
+      type: git
+      url: https://github.com/SoftServeSAG/teleop_legged_robots.git
+      version: main
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/SoftServeSAG/teleop_legged_robots-release.git
+      version: 1.1.0-1
+    source:
+      type: git
+      url: https://github.com/SoftServeSAG/teleop_legged_robots.git
+      version: main
     status: maintained
   teleop_tools:
     doc:

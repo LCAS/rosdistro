@@ -638,7 +638,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_command_tools-release.git
-      version: 0.6.19-1
+      version: 0.6.20-1
     source:
       type: git
       url: https://github.com/ipa320/cob_command_tools.git
@@ -1617,7 +1617,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipab-slmc/eigenpy_catkin-release.git
-      version: 2.5.0-1
+      version: 2.6.1-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -4104,7 +4104,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/nodelet_core-release.git
-      version: 1.10.0-1
+      version: 1.10.1-1
     source:
       test_pull_requests: true
       type: git
@@ -4543,7 +4543,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipab-slmc/pinocchio_catkin-release.git
-      version: 2.5.0-1
+      version: 2.5.6-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
@@ -6833,6 +6833,21 @@ repositories:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git
       version: noetic-devel
+    status: maintained
+  teleop_legged_robots:
+    doc:
+      type: git
+      url: https://github.com/SoftServeSAG/teleop_legged_robots.git
+      version: main
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/SoftServeSAG/teleop_legged_robots-release.git
+      version: 1.1.0-1
+    source:
+      type: git
+      url: https://github.com/SoftServeSAG/teleop_legged_robots.git
+      version: main
     status: maintained
   teleop_tools:
     doc:
