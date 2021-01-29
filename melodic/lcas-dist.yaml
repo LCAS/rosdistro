@@ -284,6 +284,13 @@ repositories:
       version: master
     status: maintained
   mqtt_bridge_lcas:
+    release:
+      packages:
+      - mqtt_bridge
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/mqtt_bridge.git
+      version: 1.0.0-1
     source:
       test_commits: true
       test_pull_requests: true
