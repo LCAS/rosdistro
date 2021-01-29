@@ -283,6 +283,14 @@ repositories:
       url: https://github.com/LCAS/ros_marvelmind_package.git
       version: master
     status: maintained
+  mqtt_bridge_lcas:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/mqtt_bridge.git
+      version: melodic-devel
+    status: developed
   ncnr_uol:
     source:
       test_commits: true
