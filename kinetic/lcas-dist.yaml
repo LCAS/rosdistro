@@ -445,6 +445,15 @@ repositories:
       url: https://github.com/strands-project/mongodb_store.git
       version: kinetic-devel
     status: developed
+  mqtt_bridge_lcas:
+    release:
+      packages:
+      - mqtt_bridge
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/lcas-releases/mqtt_bridge.git
+      version: 1.2.0-1
+    status: developed
   ncnr_uol:
     source:
       test_commits: true
