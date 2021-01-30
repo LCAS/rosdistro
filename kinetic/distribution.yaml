@@ -3506,11 +3506,11 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-industrial/fanuc_experimental.git
-      version: indigo-devel
+      version: kinetic-devel
     source:
       type: git
       url: https://github.com/ros-industrial/fanuc_experimental.git
-      version: indigo-devel
+      version: kinetic-devel
     status: developed
   fanuc_grinding:
     doc:
@@ -6573,6 +6573,7 @@ repositories:
       url: https://github.com/ros-gbp/laser_geometry-release.git
       version: 1.6.5-1
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/laser_geometry.git
       version: kinetic-devel
@@ -9007,7 +9008,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/novatel-gbp/novatel_oem7_driver-release.git
-      version: 2.0.0-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/novatel/novatel_oem7_driver.git
@@ -15877,7 +15878,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/SoftServeSAG/teleop_legged_robots-release.git
-      version: 1.1.0-1
+      version: 1.1.2-2
     source:
       test_pull_requests: true
       type: git
