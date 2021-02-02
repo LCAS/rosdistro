@@ -164,7 +164,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/dpkoch/async_comm-release.git
-      version: 0.2.1-1
+      version: 0.2.1-2
     source:
       test_pull_requests: true
       type: git
@@ -4263,7 +4263,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/ompl-release.git
-      version: 1.5.1-1
+      version: 1.5.2-1
   omron_os32c_driver:
     doc:
       type: git
@@ -4313,7 +4313,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-drivers/openni2_camera.git
-      version: noetic-devel
+      version: ros1
     release:
       packages:
       - openni2_camera
@@ -4321,11 +4321,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/openni2_camera-release.git
-      version: 1.5.0-1
+      version: 1.5.1-1
     source:
       type: git
       url: https://github.com/ros-drivers/openni2_camera.git
-      version: noetic-devel
+      version: ros1
     status: maintained
   openslam_gmapping:
     doc:
@@ -4559,7 +4559,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.0.7-1
+      version: 3.1.0-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -4589,7 +4589,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins-release.git
-      version: 1.0.0-1
+      version: 1.1.0-2
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
@@ -7497,7 +7497,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/vrpn-release.git
-      version: 7.34.0-1
+      version: 7.34.0-2
     source:
       type: git
       url: https://github.com/vrpn/vrpn.git

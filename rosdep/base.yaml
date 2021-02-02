@@ -1368,6 +1368,15 @@ gstreamer1.0-alsa:
   openembedded: [gstreamer1.0-plugins-base@openembedded-core]
   rhel: [gstreamer1-plugins-base]
   ubuntu: [gstreamer1.0-alsa]
+gstreamer1.0-gl:
+  arch: [gst-plugins-base]
+  debian:
+    '*': [gstreamer1.0-gl]
+    stretch: null
+  fedora: [gstreamer1-plugins-base]
+  ubuntu:
+    '*': [gstreamer1.0-gl]
+    xenial: null
 gstreamer1.0-libav:
   arch: [gst-libav]
   debian: [gstreamer1.0-libav]
@@ -5708,6 +5717,9 @@ qml-module-qtquick-layouts:
 qml-module-qtquick-templates2:
   debian: [qml-module-qtquick-templates2]
   ubuntu: [qml-module-qtquick-templates2]
+qml-module-qtquick-window2:
+  debian: [qml-module-qtquick-window2]
+  ubuntu: [qml-module-qtquick-window2]
 qml-module-qtquick2:
   debian: [qml-module-qtquick2]
   ubuntu: [qml-module-qtquick2]

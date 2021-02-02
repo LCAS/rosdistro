@@ -582,7 +582,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/dpkoch/async_comm-release.git
-      version: 0.2.0-1
+      version: 0.2.1-2
     source:
       test_pull_requests: true
       type: git
@@ -5336,6 +5336,26 @@ repositories:
       version: hydro
     status: developed
     status_description: Slow development
+  leica_gazebo_simulation:
+    doc:
+      type: git
+      url: https://github.com/fada-catec/leica_gazebo_simulation.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/fada-catec/leica_gazebo_simulation.git
+      version: master
+    status: maintained
+  leica_point_cloud_processing:
+    doc:
+      type: git
+      url: https://github.com/fada-catec/leica_point_cloud_processing.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/fada-catec/leica_point_cloud_processing.git
+      version: master
+    status: maintained
   leica_scanstation:
     doc:
       type: git
@@ -7697,7 +7717,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-drivers/openni2_camera.git
-      version: indigo-devel
+      version: ros1
     release:
       packages:
       - openni2_camera
@@ -7705,11 +7725,11 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/openni2_camera-release.git
-      version: 0.4.2-0
+      version: 1.5.1-1
     source:
       type: git
       url: https://github.com/ros-drivers/openni2_camera.git
-      version: indigo-devel
+      version: ros1
     status: maintained
   openni_camera:
     doc:
@@ -8285,7 +8305,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.0.7-1
+      version: 3.1.0-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -8315,7 +8335,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins-release.git
-      version: 1.0.0-2
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
