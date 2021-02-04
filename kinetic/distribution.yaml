@@ -7413,7 +7413,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2021.1.4-1
+      version: 2021.2.2-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -7434,7 +7434,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 1.5.1-1
+      version: 1.5.2-1
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -13326,12 +13326,13 @@ repositories:
       version: main
     release:
       packages:
+      - magical_ros2_conversion_tool
       - ros_introspection
       - roscompile
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/wu-robotics/roscompile-release.git
-      version: 1.1.0-1
+      version: 1.2.0-1
     source:
       test_pull_requests: true
       type: git
@@ -15036,7 +15037,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/SICKAG/sick_safetyscanners-release.git
-      version: 1.0.7-1
+      version: 1.0.8-1
     source:
       type: git
       url: https://github.com/SICKAG/sick_safetyscanners.git
