@@ -2042,6 +2042,9 @@ libboost-python:
   fedora: [boost-python2-devel, boost-python3-devel]
   gentoo: ['dev-libs/boost[python]']
   openembedded: [boost@openembedded-core]
+  rhel:
+    '*': [boost-python3]
+    '7': [boost-python, 'boost-python%{python3_pkgversion}']
   ubuntu:
     bionic: [libboost-python1.65.1]
     disco: [libboost-python1.67.0]
@@ -2055,6 +2058,9 @@ libboost-python-dev:
   fedora: [boost-python2-devel]
   gentoo: ['dev-libs/boost[python]']
   openembedded: [boost@openembedded-core]
+  rhel:
+    '*': [boost-python3-devel]
+    '7': [boost-devel, 'boost-python%{python3_pkgversion}-devel']
   ubuntu: [libboost-python-dev]
 libboost-random:
   debian:
@@ -2998,6 +3004,7 @@ libjpeg:
   macports: [jpeg]
   openembedded: [jpeg@openembedded-core]
   opensuse: [libjpeg62-devel]
+  rhel: [libjpeg-turbo-devel]
   slackware: [libjpeg-turbo]
   ubuntu:
     artful: [libjpeg-dev]
@@ -4382,6 +4389,7 @@ libudev-dev:
   fedora: [libudev-devel]
   gentoo: [virtual/libudev]
   openembedded: [udev@openembedded-core]
+  rhel: [libudev-devel]
   ubuntu: [libudev-dev]
 libunittest++:
   arch: [unittestpp]
@@ -6629,6 +6637,9 @@ wx-common:
   fedora: [wxGTK3-devel]
   gentoo: [x11-libs/wxGTK]
   openembedded: [wxwidgets@meta-ros-common]
+  rhel:
+    '*': [wxGTK3-devel]
+    '7': [wxGTK-devel]
   ubuntu: [wx-common]
 wxwidgets:
   arch: [wxgtk]
