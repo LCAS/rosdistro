@@ -1325,6 +1325,12 @@ python-debian:
     yakkety_python3: [python3-debian]
     zesty: [python-debian]
     zesty_python3: [python3-debian]
+python-decorator:
+  debian: [python-decorator]
+  gentoo: [dev-python/decorator]
+  osx:
+    pip: [decorator]
+  ubuntu: [python-decorator]
 python-deepdiff-pip:
   debian:
     pip: [deepdiff]
@@ -5744,6 +5750,13 @@ python3-dbus:
   debian: [python3-dbus]
   fedora: [python3-dbus]
   ubuntu: [python3-dbus]
+python3-decorator:
+  debian: [python3-decorator]
+  fedora: [python3-decorator]
+  gentoo: [dev-python/decorator]
+  osx:
+    pip: [decorator]
+  ubuntu: [python3-decorator]
 python3-defusedxml:
   debian: [python3-defusedxml]
   fedora: [python3-defusedxml]
@@ -5831,6 +5844,25 @@ python3-events-pip:
   ubuntu:
     pip:
       packages: [Events]
+python3-ezdxf:
+  debian:
+    '*': [python3-ezdxf]
+    buster:
+      pip:
+        packages: [ezdxf]
+    stretch:
+      pip:
+        packages: [ezdxf]
+  fedora: [python3-ezdxf]
+  freebsd: [py37-ezdxf]
+  ubuntu:
+    '*': [python3-ezdxf]
+    bionic:
+      pip:
+        packages: [ezdxf]
+    focal:
+      pip:
+        packages: [ezdxf]
 python3-fastnumbers-pip:
   arch:
     pip:
