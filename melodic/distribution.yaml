@@ -7013,6 +7013,16 @@ repositories:
       url: https://github.com/ros-planning/navigation_tutorials.git
       version: indigo-devel
     status: maintained
+  nearfield_map:
+    doc:
+      type: git
+      url: https://github.com/TUC-ProAut/ros_nearfield_map.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/TUC-ProAut/ros_nearfield_map.git
+      version: master
+    status: maintained
   neo_local_planner:
     doc:
       type: git
@@ -8114,6 +8124,23 @@ repositories:
       url: https://github.com/ros-perception/perception_pcl.git
       version: melodic-devel
     status: maintained
+  pf_lidar_ros_driver:
+    doc:
+      type: git
+      url: https://github.com/PepperlFuchs/pf_lidar_ros_driver.git
+      version: main
+    release:
+      packages:
+      - pf_driver
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/PepperlFuchs/pf_lidar_ros_driver-release.git
+      version: 1.1.1-1
+    source:
+      type: git
+      url: https://github.com/PepperlFuchs/pf_lidar_ros_driver.git
+      version: main
+    status: developed
   pheeno_ros_description:
     doc:
       type: git
@@ -10184,7 +10211,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/PickNikRobotics/ros_control_boilerplate-release.git
-      version: 0.5.0-1
+      version: 0.5.1-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/ros_control_boilerplate.git
@@ -11203,7 +11230,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_plot-release.git
-      version: 0.4.9-0
+      version: 0.4.13-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_plot.git
@@ -13595,7 +13622,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/DataspeedInc-release/velodyne_simulator-release.git
-      version: 1.0.10-1
+      version: 1.0.11-1
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/velodyne_simulator.git

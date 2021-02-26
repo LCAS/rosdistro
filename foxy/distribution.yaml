@@ -21,6 +21,17 @@ repositories:
       url: https://github.com/ros-drivers/ackermann_msgs.git
       version: ros2
     status: maintained
+  ament_acado:
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://gitlab.com/autowarefoundation/autoware.auto/ament_acado-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://gitlab.com/autowarefoundation/autoware.auto/ament_acado.git
+      version: main
+    status: maintained
   ament_cmake:
     doc:
       type: git
@@ -986,7 +997,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/fastrtps-release.git
-      version: 2.0.2-1
+      version: 2.0.2-2
     source:
       test_commits: false
       test_pull_requests: false
@@ -4351,7 +4362,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/robotis-ros2-release/turtlebot3_simulations-release.git
-      version: 2.2.1-1
+      version: 2.2.2-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git

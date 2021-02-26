@@ -8,6 +8,17 @@ release_platforms:
   ubuntu:
   - focal
 repositories:
+  ament_acado:
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://gitlab.com/autowarefoundation/autoware.auto/ament_acado-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://gitlab.com/autowarefoundation/autoware.auto/ament_acado.git
+      version: main
+    status: maintained
   ament_cmake:
     doc:
       type: git
@@ -39,7 +50,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ament_cmake-release.git
-      version: 1.0.4-1
+      version: 1.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1691,7 +1702,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw-release.git
-      version: 3.0.0-1
+      version: 3.1.0-1
     source:
       test_pull_requests: true
       type: git

@@ -1794,6 +1794,17 @@ repositories:
       url: https://github.com/fetchrobotics/fetch_msgs.git
       version: ros1
     status: maintained
+  fetch_open_auto_dock:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/fetchrobotics-gbp/fetch_open_auto_dock-gbp.git
+      version: 0.1.3-2
+    source:
+      type: git
+      url: https://github.com/fetchrobotics/fetch_open_auto_dock.git
+      version: ros1
+    status: maintained
   fetch_tools:
     release:
       tags:
@@ -2394,6 +2405,26 @@ repositories:
       type: git
       url: https://github.com/tu-darmstadt-ros-pkg/hector_gazebo.git
       version: melodic-devel
+    status: maintained
+  hector_localization:
+    doc:
+      type: git
+      url: https://github.com/tu-darmstadt-ros-pkg/hector_localization.git
+      version: catkin
+    release:
+      packages:
+      - hector_localization
+      - hector_pose_estimation
+      - hector_pose_estimation_core
+      - message_to_tf
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_localization-release.git
+      version: 0.4.0-1
+    source:
+      type: git
+      url: https://github.com/tu-darmstadt-ros-pkg/hector_localization.git
+      version: catkin
     status: maintained
   hector_models:
     release:
@@ -3708,6 +3739,22 @@ repositories:
       url: https://github.com/magazino/move_base_flex.git
       version: noetic
     status: developed
+  move_base_sequence:
+    doc:
+      type: git
+      url: https://github.com/MarkNaeem/move_base_sequence.git
+      version: main
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/MarkNaeem/move_base_sequence-release.git
+      version: 0.0.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/MarkNaeem/move_base_sequence.git
+      version: main
+    status: maintained
   moveit:
     doc:
       type: git
@@ -4013,6 +4060,16 @@ repositories:
       url: https://github.com/ros-planning/navigation_msgs.git
       version: ros1
     status: maintained
+  nearfield_map:
+    doc:
+      type: git
+      url: https://github.com/TUC-ProAut/ros_nearfield_map.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/TUC-ProAut/ros_nearfield_map.git
+      version: master
+    status: maintained
   neonavigation:
     doc:
       type: git
@@ -4262,6 +4319,16 @@ repositories:
       url: https://github.com/OctoMap/octomap_msgs.git
       version: melodic-devel
     status: maintained
+  octomap_pa:
+    doc:
+      type: git
+      url: https://github.com/TUC-ProAut/ros_octomap.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/TUC-ProAut/ros_octomap.git
+      version: master
+    status: maintained
   octomap_ros:
     doc:
       type: git
@@ -4468,6 +4535,26 @@ repositories:
       type: git
       url: https://github.com/allenh1/p2os.git
       version: main
+    status: maintained
+  parameter_pa:
+    doc:
+      type: git
+      url: https://github.com/tuc-proaut/ros_parameter.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/tuc-proaut/ros_parameter.git
+      version: master
+    status: maintained
+  pcdfilter_pa:
+    doc:
+      type: git
+      url: https://github.com/tuc-proaut/ros_pcdfilter.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/tuc-proaut/ros_pcdfilter.git
+      version: master
     status: maintained
   pcl_msgs:
     release:
@@ -4925,6 +5012,16 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/qwt_dependency.git
       version: kinetic-devel
+    status: maintained
+  radar_pa:
+    doc:
+      type: git
+      url: https://github.com/TUC-ProAut/ros_radar.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/TUC-ProAut/ros_radar.git
+      version: master
     status: maintained
   random_numbers:
     doc:
@@ -6177,7 +6274,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_plot-release.git
-      version: 0.4.12-1
+      version: 0.4.13-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_plot.git
@@ -7842,5 +7939,15 @@ repositories:
       url: https://github.com/openspur/ypspur_ros.git
       version: master
     status: developed
+  z_laser_projector:
+    doc:
+      type: git
+      url: https://github.com/fada-catec/z_laser_projector.git
+      version: noetic
+    source:
+      type: git
+      url: https://github.com/fada-catec/z_laser_projector.git
+      version: noetic
+    status: maintained
 type: distribution
 version: 2
