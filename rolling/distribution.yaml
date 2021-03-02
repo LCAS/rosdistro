@@ -8,15 +8,15 @@ release_platforms:
   ubuntu:
   - focal
 repositories:
-  ament_acado:
+  acado_vendor:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://gitlab.com/autowarefoundation/autoware.auto/ament_acado-release.git
+      url: https://gitlab.com/autowarefoundation/autoware.auto/acado_vendor-release.git
       version: 1.0.0-1
     source:
       type: git
-      url: https://gitlab.com/autowarefoundation/autoware.auto/ament_acado.git
+      url: https://gitlab.com/autowarefoundation/autoware.auto/acado_vendor.git
       version: main
     status: maintained
   ament_cmake:
@@ -1629,7 +1629,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcpputils-release.git
-      version: 2.0.4-1
+      version: 2.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1721,7 +1721,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_connext-release.git
-      version: 3.5.1-1
+      version: 3.6.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1739,7 +1739,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_cyclonedds-release.git
-      version: 0.18.4-1
+      version: 0.19.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1775,7 +1775,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_fastrtps-release.git
-      version: 4.3.0-1
+      version: 4.4.0-1
     source:
       test_pull_requests: true
       type: git

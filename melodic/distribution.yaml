@@ -1841,13 +1841,17 @@ repositories:
       version: 0.1.12-0
     status: unmaintained
   core_perception:
+    doc:
+      type: git
+      url: https://github.com/nobleo/core_perception.git
+      version: points_preprocessor_release
     release:
       packages:
       - points_preprocessor
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/nobleo/core_perception-release.git
-      version: 1.14.9-1
+      version: 1.14.13-1
     source:
       type: git
       url: https://github.com/nobleo/core_perception.git
@@ -4675,7 +4679,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/JdeRobot/drones-release.git
-      version: 1.3.6-1
+      version: 1.3.7-3
     source:
       type: git
       url: https://github.com/JdeRobot/drones.git
@@ -10831,7 +10835,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/uos-gbp/rospy_message_converter-release.git
-      version: 0.5.5-1
+      version: 0.5.6-1
     source:
       test_pull_requests: true
       type: git
