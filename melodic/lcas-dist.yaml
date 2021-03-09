@@ -492,6 +492,8 @@ repositories:
       version: master
     status: developed
   saga_people_detection:
+    release:
+      url: https://github.com/SAGARobotics/saga_people_detection-release.git
     source:
       test_commits: true
       test_pull_requests: true
