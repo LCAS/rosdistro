@@ -2158,6 +2158,21 @@ repositories:
       url: https://github.com/osrf/osrf_testing_tools_cpp.git
       version: foxy
     status: maintained
+  pal_gazebo_worlds:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/pal_gazebo_worlds.git
+      version: foxy-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/pal-gbp/pal_gazebo_worlds-ros2-release.git
+      version: 3.0.2-1
+    source:
+      type: git
+      url: https://github.com/pal-robotics/pal_gazebo_worlds.git
+      version: foxy-devel
+    status: developed
   pcl_msgs:
     release:
       tags:
@@ -2673,6 +2688,36 @@ repositories:
       url: https://github.com/ros2/rcl_logging.git
       version: foxy
     status: maintained
+  rclada:
+    doc:
+      type: git
+      url: https://github.com/ada-ros/rclada.git
+      version: foxy
+    source:
+      type: git
+      url: https://github.com/ada-ros/rclada.git
+      version: foxy
+    status: developed
+  rclada_common:
+    doc:
+      type: git
+      url: https://github.com/ada-ros/rclada_common.git
+      version: foxy
+    source:
+      type: git
+      url: https://github.com/ada-ros/rclada_common.git
+      version: foxy
+    status: developed
+  rclada_examples:
+    doc:
+      type: git
+      url: https://github.com/ada-ros/rclada_examples.git
+      version: foxy
+    source:
+      type: git
+      url: https://github.com/ada-ros/rclada_examples.git
+      version: foxy
+    status: developed
   rclc:
     doc:
       type: git
@@ -3448,6 +3493,15 @@ repositories:
       url: https://github.com/ros2/rosidl_defaults.git
       version: foxy
     status: maintained
+  rosidl_generator_ada:
+    doc:
+      type: git
+      url: https://github.com/ada-ros/rosidl_generator_ada.git
+      version: foxy
+    source:
+      type: git
+      url: https://github.com/ada-ros/rosidl_generator_ada.git
+      version: foxy
   rosidl_python:
     doc:
       type: git
