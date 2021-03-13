@@ -4175,10 +4175,11 @@ libspatialite:
     trusty: [libspatialite5]
 libspnav-dev:
   arch: [libspnav]
-  debian: [libspnav-dev]
+  debian: [libspnav-dev, libx11-dev]
   fedora: [libspnav-devel]
   gentoo: [dev-libs/libspnav]
-  ubuntu: [libspnav-dev]
+  rhel: [libspnav-devel]
+  ubuntu: [libspnav-dev, libx11-dev]
 libsqlite3-dev:
   alpine: [sqlite-dev]
   arch: [sqlite]
@@ -6097,6 +6098,7 @@ spacenavd:
   debian: [spacenavd]
   fedora: [spacenavd]
   gentoo: [app-misc/spacenavd]
+  rhel: [spacenavd]
   ubuntu: [spacenavd]
 sparsehash:
   debian: [libsparsehash-dev]

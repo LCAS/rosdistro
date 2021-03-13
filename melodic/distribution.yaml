@@ -10331,6 +10331,24 @@ repositories:
       type: git
       url: https://github.com/shadow-robot/ros_ethercat_eml.git
       version: melodic-devel
+  ros_led:
+    doc:
+      type: git
+      url: https://github.com/CopterExpress/ros_led.git
+      version: master
+    release:
+      packages:
+      - led_msgs
+      - ws281x
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/CopterExpress/ros_led-release.git
+      version: 0.0.9-1
+    source:
+      type: git
+      url: https://github.com/CopterExpress/ros_led.git
+      version: master
+    status: maintained
   ros_monitoring_msgs:
     doc:
       type: git
@@ -12200,7 +12218,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/stack-of-tasks/sot-dynamic-pinocchio-ros-release.git
-      version: 3.6.1-1
+      version: 3.6.2-2
     source:
       test_pull_requests: true
       type: git
@@ -13762,7 +13780,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/lagadic/vision_visp-release.git
-      version: 0.11.1-1
+      version: 0.12.0-1
     source:
       type: git
       url: https://github.com/lagadic/vision_visp.git
