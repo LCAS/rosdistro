@@ -493,12 +493,12 @@ repositories:
     status: developed
   saga_people_detection:
     release:
-      url: https://github.com/SAGARobotics/saga_people_detection-release.git
+      url: https://github.com/LCAS/saga_people_detection-release.git
     source:
       test_commits: true
       test_pull_requests: true
       type: git
-      url: https://github.com/SAGARobotics/people-detection.git
+      url: https://github.com/LCAS/people-detection.git
       version: master
     status: developed
   sandbox:
