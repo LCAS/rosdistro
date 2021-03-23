@@ -7043,6 +7043,22 @@ python3-shapely:
     pip:
       packages: [shapely]
   ubuntu: [python3-shapely]
+python3-simple-pid-pip:
+  debian:
+    pip:
+      packages: [simple-pid]
+  fedora:
+    pip:
+      packages: [simple-pid]
+  gentoo:
+    pip:
+      packages: [simple-pid]
+  osx:
+    pip:
+      packages: [simple-pid]
+  ubuntu:
+    pip:
+      packages: [simple-pid]
 python3-simplejson:
   arch: [python-simplejson]
   debian: [python3-simplejson]
@@ -7346,6 +7362,19 @@ python3-yaml:
       packages: [pyyaml]
   rhel: ['python%{python3_pkgversion}-PyYAML']
   ubuntu: [python3-yaml]
+python3-yappi:
+  debian:
+    '*': [python3-yappi]
+    buster: null
+    stretch: null
+  fedora: [python3-yappi]
+  gentoo: [dev-python/yappi]
+  osx:
+    pip: [yappi]
+  ubuntu:
+    '*': [python3-yappi]
+    bionic: null
+    xenial: null
 python3-zmq:
   arch: [python-pyzmq]
   debian: [python3-zmq]

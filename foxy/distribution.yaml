@@ -1043,12 +1043,12 @@ repositories:
     release:
       tags:
         release: release/foxy/{package}/{version}
-      url: https://github.com/boschresearch/fmilibrary_vendor-release.git
-      version: 0.2.0-1
+      url: https://github.com/ros2-gbp/fmilibrary_vendor-release.git
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/boschresearch/fmilibrary_vendor.git
-      version: master
+      version: foxy
     status: maintained
   foonathan_memory_vendor:
     release:
@@ -2118,12 +2118,26 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/OpenVSLAM-Community/openvslam-release.git
-      version: 0.2.0-2
+      version: 0.2.1-1
     source:
       type: git
       url: https://github.com/OpenVSLAM-Community/openvslam.git
       version: foxy-devel
     status: developed
+  optic:
+    doc:
+      type: git
+      url: https://github.com/alvaro0308/optic.git
+      version: foxy-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/alvaro0308/optic-release.git
+      version: 0.0.1-6
+    source:
+      type: git
+      url: https://github.com/alvaro0308/optic.git
+      version: foxy-devel
   orocos_kinematics_dynamics:
     doc:
       type: git
@@ -2891,7 +2905,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros-gbp/realtime_tools-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
@@ -3147,7 +3161,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 0.2.1-1
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -4857,6 +4871,21 @@ repositories:
       type: git
       url: https://github.com/ros/xacro.git
       version: dashing-devel
+    status: maintained
+  xacro_live:
+    doc:
+      type: git
+      url: https://github.com/orise-robotics/xacro_live.git
+      version: main
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/orise-robotics/xacro_live-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/orise-robotics/xacro_live.git
+      version: main
     status: maintained
   yaml_cpp_vendor:
     release:
