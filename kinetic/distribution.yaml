@@ -11862,7 +11862,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/realtime_tools-release.git
-      version: 1.11.1-0
+      version: 1.11.2-1
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
@@ -17670,7 +17670,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/botsync-gbp/volta-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/botsync/volta.git
@@ -17685,7 +17685,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/botsync-gbp/volta_simulation-release.git
-      version: 1.0.0-3
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/botsync/volta_simulation.git

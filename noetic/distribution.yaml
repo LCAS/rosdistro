@@ -1376,6 +1376,12 @@ repositories:
       url: https://github.com/pal-robotics/ddynamic_reconfigure_python.git
       version: master
     status: maintained
+  depthimage_to_laserscan:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/depthimage_to_laserscan-release.git
+      version: 1.0.8-1
   diagnostics:
     doc:
       type: git
@@ -1412,6 +1418,24 @@ repositories:
       url: https://github.com/UbiquityRobotics-release/dnn_detect-release.git
       version: 0.1.0-1
     status: maintained
+  driver_common:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/driver_common.git
+      version: indigo-devel
+    release:
+      packages:
+      - driver_base
+      - driver_common
+      - timestamp_tools
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/driver_common-release.git
+      version: 1.6.9-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/driver_common.git
+      version: indigo-devel
   dual_quaternions:
     release:
       tags:
@@ -4998,6 +5022,22 @@ repositories:
       url: https://github.com/pr2/pr2_power_drivers.git
       version: kinetic-devel
     status: unmaintained
+  prosilica_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/prosilica_driver.git
+      version: noetic-devel
+    release:
+      packages:
+      - prosilica_camera
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/prosilica_driver-release.git
+      version: 1.9.5-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/prosilica_driver.git
+      version: noetic-devel
   prosilica_gige_sdk:
     doc:
       type: git
@@ -8082,6 +8122,38 @@ repositories:
       url: https://github.com/cyberbotics/webots_ros.git
       version: master
     status: maintained
+  wge100_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/wge100_driver.git
+      version: noetic-devel
+    release:
+      packages:
+      - wge100_camera
+      - wge100_camera_firmware
+      - wge100_driver
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/wge100_driver-release.git
+      version: 1.8.5-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/wge100_driver.git
+      version: noetic-devel
+  willow_maps:
+    doc:
+      type: git
+      url: https://github.com/pr2/willow_maps.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/willow_maps-release.git
+      version: 1.0.3-1
+    source:
+      type: git
+      url: https://github.com/pr2/willow_maps.git
+      version: kinetic-devel
   wireless:
     doc:
       type: git
