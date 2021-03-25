@@ -1021,24 +1021,24 @@ repositories:
       url: https://github.com/ros/filters.git
       version: ros2
     status: maintained
-  fmi_adapter_ros2:
+  fmi_adapter:
     doc:
       type: git
-      url: https://github.com/boschresearch/fmi_adapter_ros2.git
-      version: master
+      url: https://github.com/boschresearch/fmi_adapter.git
+      version: foxy
     release:
       packages:
       - fmi_adapter
       - fmi_adapter_examples
       tags:
         release: release/foxy/{package}/{version}
-      url: https://github.com/boschresearch/fmi_adapter_ros2-release.git
-      version: 0.1.8-1
+      url: https://github.com/ros2-gbp/fmi_adapter-release.git
+      version: 2.1.0-1
     source:
       type: git
-      url: https://github.com/boschresearch/fmi_adapter_ros2.git
-      version: master
-    status: developed
+      url: https://github.com/boschresearch/fmi_adapter.git
+      version: foxy
+    status: maintained
   fmilibrary_vendor:
     release:
       tags:
@@ -2870,7 +2870,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/IntelRealSense/realsense-ros-release.git
-      version: 3.1.4-1
+      version: 3.1.5-1
     source:
       test_pull_requests: true
       type: git
@@ -3305,7 +3305,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/ros2cli-release.git
-      version: 0.9.8-1
+      version: 0.9.9-1
     source:
       test_pull_requests: true
       type: git
@@ -4881,7 +4881,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/orise-robotics/xacro_live-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/orise-robotics/xacro_live.git
