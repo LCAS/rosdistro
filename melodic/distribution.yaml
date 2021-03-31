@@ -1851,7 +1851,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/nobleo/core_perception-release.git
-      version: 1.14.13-1
+      version: 1.14.13-2
     source:
       type: git
       url: https://github.com/nobleo/core_perception.git
@@ -3223,6 +3223,25 @@ repositories:
       url: https://github.com/astuff/flir_boson_usb.git
       version: master
     status: developed
+  flir_ptu:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/flir_ptu.git
+      version: master
+    release:
+      packages:
+      - flir_ptu_description
+      - flir_ptu_driver
+      - flir_ptu_viz
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/flir_ptu-release.git
+      version: 0.2.1-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/flir_ptu.git
+      version: master
+    status: maintained
   fmi_adapter:
     doc:
       type: git
@@ -6528,10 +6547,14 @@ repositories:
       - moveit_resources_panda_description
       - moveit_resources_panda_moveit_config
       - moveit_resources_pr2_description
+      - moveit_resources_prbt_ikfast_manipulator_plugin
+      - moveit_resources_prbt_moveit_config
+      - moveit_resources_prbt_pg70_support
+      - moveit_resources_prbt_support
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/moveit_resources-release.git
-      version: 0.7.0-1
+      version: 0.7.2-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
@@ -8371,6 +8394,28 @@ repositories:
       url: https://github.com/PilzDE/pilz_robots.git
       version: melodic-devel
     status: developed
+  pincher_arm:
+    doc:
+      type: git
+      url: https://github.com/fictionlab/pincher_arm.git
+      version: master
+    release:
+      packages:
+      - pincher_arm
+      - pincher_arm_bringup
+      - pincher_arm_description
+      - pincher_arm_ikfast_plugin
+      - pincher_arm_moveit_config
+      - pincher_arm_moveit_demos
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/fictionlab-gbp/pincher_arm-release.git
+      version: 0.1.1-2
+    source:
+      type: git
+      url: https://github.com/fictionlab/pincher_arm.git
+      version: master
+    status: maintained
   ping360_sonar:
     doc:
       type: git
@@ -11704,7 +11749,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/introlab/rtabmap-release.git
-      version: 0.20.7-1
+      version: 0.20.9-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -11719,7 +11764,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.20.7-1
+      version: 0.20.9-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
@@ -13751,7 +13796,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/DataspeedInc-release/velodyne_simulator-release.git
-      version: 1.0.11-1
+      version: 1.0.12-1
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/velodyne_simulator.git
@@ -14286,7 +14331,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/xacro-release.git
-      version: 1.13.9-1
+      version: 1.13.10-1
     source:
       type: git
       url: https://github.com/ros/xacro.git

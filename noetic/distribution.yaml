@@ -1154,7 +1154,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/nobleo/core_perception-release.git
-      version: 1.14.11-2
+      version: 1.14.11-3
     source:
       type: git
       url: https://github.com/nobleo/core_perception.git
@@ -1708,7 +1708,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/shadow-robot/ethercat_grant-release.git
-      version: 0.2.5-1
+      version: 0.2.5-3
     source:
       type: git
       url: https://github.com/shadow-robot/ethercat_grant.git
@@ -3947,10 +3947,14 @@ repositories:
       - moveit_resources_panda_description
       - moveit_resources_panda_moveit_config
       - moveit_resources_pr2_description
+      - moveit_resources_prbt_ikfast_manipulator_plugin
+      - moveit_resources_prbt_moveit_config
+      - moveit_resources_prbt_pg70_support
+      - moveit_resources_prbt_support
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit_resources-release.git
-      version: 0.7.1-1
+      version: 0.7.2-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
@@ -4814,6 +4818,28 @@ repositories:
       url: https://github.com/PilzDE/pilz_common.git
       version: noetic-devel
     status: developed
+  pincher_arm:
+    doc:
+      type: git
+      url: https://github.com/fictionlab/pincher_arm.git
+      version: master
+    release:
+      packages:
+      - pincher_arm
+      - pincher_arm_bringup
+      - pincher_arm_description
+      - pincher_arm_ikfast_plugin
+      - pincher_arm_moveit_config
+      - pincher_arm_moveit_demos
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/fictionlab-gbp/pincher_arm-release.git
+      version: 0.1.1-1
+    source:
+      type: git
+      url: https://github.com/fictionlab/pincher_arm.git
+      version: master
+    status: maintained
   pinocchio:
     doc:
       type: git
@@ -6830,7 +6856,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/introlab/rtabmap-release.git
-      version: 0.20.7-2
+      version: 0.20.9-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -6845,7 +6871,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.20.7-1
+      version: 0.20.9-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
@@ -7919,7 +7945,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/DataspeedInc-release/velodyne_simulator-release.git
-      version: 1.0.11-1
+      version: 1.0.12-1
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/velodyne_simulator.git
