@@ -2153,6 +2153,21 @@ repositories:
       type: git
       url: https://github.com/alvaro0308/optic.git
       version: foxy-devel
+  oroca_rqt_command:
+    doc:
+      type: git
+      url: https://github.com/oroca/oroca-rqt-command.git
+      version: foxy
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/oroca-release/oroca_rqt_command-release.git
+      version: 0.6.0-3
+    source:
+      type: git
+      url: https://github.com/oroca/oroca-rqt-command.git
+      version: foxy
+    status: developed
   orocos_kinematics_dynamics:
     doc:
       type: git
@@ -4712,17 +4727,17 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-drivers/urg_node.git
-      version: ros2-devel
+      version: foxy-devel
     release:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/urg_node-release.git
-      version: 1.0.1-1
+      version: 1.0.3-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-drivers/urg_node.git
-      version: ros2-devel
+      version: foxy-devel
     status: maintained
   urg_node_msgs:
     doc:

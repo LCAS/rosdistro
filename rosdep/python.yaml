@@ -4263,7 +4263,7 @@ python-scp:
   fedora: [python-scp]
   ubuntu: [python-scp]
 python-seaborn:
-  arch: [python2-seaborn]
+  arch: [python-seaborn]
   debian: [python-seaborn]
   fedora:
     pip:
@@ -5908,6 +5908,18 @@ python3-empy:
   openembedded: [python3-empy@meta-ros-common]
   rhel: ['python%{python3_pkgversion}-empy']
   ubuntu: [python3-empy]
+python3-evdev:
+  arch: [python-evdev]
+  debian:
+    '*': [python3-evdev]
+    jessie: null
+    stretch: null
+  fedora: [python3-evdev]
+  gentoo: [dev-python/python-evdev]
+  osx:
+    pip:
+      packages: [evdev]
+  ubuntu: [python3-evdev]
 python3-events-pip:
   debian:
     pip:
@@ -6295,6 +6307,10 @@ python3-mechanize:
     '*': [python3-mechanize]
     bionic: null
     xenial: null
+python3-meshio:
+  arch: [python-meshio]
+  debian: [python3-meshio]
+  ubuntu: [python3-meshio]
 python3-mock:
   alpine: [py3-mock]
   debian: [python3-mock]
@@ -6520,6 +6536,19 @@ python3-pkg-resources:
   openembedded: [python3-setuptools@openembedded-core]
   rhel: ['python%{python3_pkgversion}-setuptools']
   ubuntu: [python3-pkg-resources]
+python3-pqdict-pip:
+  debian:
+    pip:
+      packages: [pqdict]
+  fedora:
+    pip:
+      packages: [pqdict]
+  osx:
+    pip:
+      packages: [pqdict]
+  ubuntu:
+    pip:
+      packages: [pqdict]
 python3-prettytable:
   debian: [python3-prettytable]
   fedora: [python3-prettytable]
@@ -7012,6 +7041,12 @@ python3-scp:
   debian: [python3-scp]
   fedora: [python3-scp]
   ubuntu: [python3-scp]
+python3-seaborn:
+  arch: [python-seaborn]
+  debian: [python3-seaborn]
+  fedora: [python3-seaborn]
+  gentoo: [dev-python/seaborn]
+  ubuntu: [python3-seaborn]
 python3-selenium:
   arch: [python-selenium]
   debian: [python3-selenium]
