@@ -2862,7 +2862,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipab-slmc/exotica-release.git
-      version: 6.1.0-1
+      version: 6.1.1-1
     source:
       type: git
       url: https://github.com/ipab-slmc/exotica.git
@@ -6000,7 +6000,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2021.3.3-1
+      version: 2021.4.5-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -6021,7 +6021,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 1.6.0-1
+      version: 1.7.0-1
     source:
       test_pull_requests: true
       type: git
