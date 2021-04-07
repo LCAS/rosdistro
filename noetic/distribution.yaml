@@ -672,7 +672,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_command_tools-release.git
-      version: 0.6.20-1
+      version: 0.6.21-1
     source:
       type: git
       url: https://github.com/ipa320/cob_command_tools.git
@@ -727,7 +727,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_control-release.git
-      version: 0.8.12-1
+      version: 0.8.13-1
     source:
       type: git
       url: https://github.com/ipa320/cob_control.git
@@ -763,7 +763,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_driver-release.git
-      version: 0.7.4-1
+      version: 0.7.5-1
     source:
       type: git
       url: https://github.com/ipa320/cob_driver.git
@@ -3614,7 +3614,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 1.7.0-1
+      version: 1.7.1-1
     source:
       test_pull_requests: true
       type: git
@@ -4817,7 +4817,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/reinzor/picovoice_ros-release.git
-      version: 0.0.2-1
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/reinzor/picovoice_ros.git
@@ -4874,7 +4874,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fictionlab-gbp/pincher_arm-release.git
-      version: 0.1.1-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/fictionlab/pincher_arm.git
@@ -5142,7 +5142,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/PilzDE/psen_scan_v2-release.git
-      version: 0.1.6-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/PilzDE/psen_scan_v2.git
