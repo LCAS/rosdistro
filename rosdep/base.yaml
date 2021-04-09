@@ -2303,7 +2303,7 @@ libcoin60-dev:
   ubuntu: [libcoin60-dev]
 libcoin80-dev:
   debian:
-    buster: [libcoin80-dev]
+    '*': [libcoin-dev]
     jessie: [libcoin80-dev]
     stretch: [libcoin80-dev]
   fedora: [Coin2-devel]
@@ -6585,6 +6585,13 @@ usbutils:
     homebrew:
       packages: [mikhailai/misc/usbutils]
   ubuntu: [usbutils]
+util-linux:
+  arch: [util-linux]
+  debian: [util-linux]
+  fedora: [util-linux]
+  gentoo: [util-linux]
+  macports: [util-linux]
+  ubuntu: [util-linux]
 uuid:
   arch: [util-linux]
   debian: [uuid-dev]
