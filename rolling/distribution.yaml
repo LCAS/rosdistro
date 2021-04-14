@@ -451,7 +451,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/cyclonedds-release.git
-      version: 0.8.0-2
+      version: 0.8.0-3
     source:
       type: git
       url: https://github.com/eclipse-cyclonedds/cyclonedds.git
@@ -649,11 +649,11 @@ repositories:
       url: https://github.com/ros2-gbp/fastrtps-release.git
       version: 2.3.0-1
     source:
-      test_commits: false
+      test_commits: true
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 2.0.x
+      version: 2.3.x
     status: maintained
   filters:
     doc:

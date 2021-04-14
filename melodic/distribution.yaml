@@ -4589,14 +4589,14 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/eupedrosa/iris_lama-release.git
-      version: 1.1.0-2
+      version: 1.2.0-1
     status: developed
   iris_lama_ros:
     release:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/eupedrosa/iris_lama_ros-release.git
-      version: 1.1.0-1
+      version: 1.2.0-1
     status: developed
   ivcon:
     doc:
@@ -6445,6 +6445,22 @@ repositories:
       type: git
       url: https://github.com/MarkNaeem/move_base_sequence.git
       version: main
+    status: maintained
+  move_basic:
+    doc:
+      type: git
+      url: https://github.com/UbiquityRobotics/move_basic.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/UbiquityRobotics-release/move_basic-release.git
+      version: 0.4.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/UbiquityRobotics/move_basic.git
+      version: kinetic-devel
     status: maintained
   moveit:
     doc:
