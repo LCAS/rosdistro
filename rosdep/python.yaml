@@ -5750,6 +5750,11 @@ python3-click:
   openembedded: [python3-click@meta-python]
   rhel: ['python%{python3_pkgversion}-click']
   ubuntu: [python3-click]
+python3-colcon-common-extensions:
+  debian: [python3-colcon-common-extensions]
+  fedora: [python3-colcon-common-extensions]
+  rhel: ['python%{python3_pkgversion}-colcon-common-extensions']
+  ubuntu: [python3-colcon-common-extensions]
 python3-collada:
   debian:
     '*': [python3-collada]
@@ -6012,10 +6017,16 @@ python3-flask:
   fedora: [python3-flask]
   gentoo: [dev-python/flask]
   ubuntu: [python3-flask]
+python3-flask-cors:
+  debian: [python3-flask-cors]
+  ubuntu: [python3-flask-cors]
 python3-flask-restplus-pip:
   ubuntu:
     pip:
       packages: [flask-restplus]
+python3-flask-socketio:
+  debian: [python3-flask-socketio]
+  ubuntu: [python3-flask-socketio]
 python3-future:
   debian: [python3-future]
   fedora: [python3-future]
@@ -6229,6 +6240,14 @@ python3-jsonschema:
   fedora: [python3-jsonschema]
   gentoo: [dev-python/jsonschema]
   ubuntu: [python3-jsonschema]
+python3-junitparser:
+  debian:
+    '*': [python3-junitparser]
+    stretch: null
+  ubuntu:
+    '*': [python3-junitparser]
+    bionic: null
+    xenial: null
 python3-kitchen:
   arch: [python-kitchen]
   debian: [python3-kitchen]

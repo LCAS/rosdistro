@@ -487,7 +487,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/class_loader-release.git
-      version: 2.0.1-1
+      version: 2.0.2-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -524,6 +524,7 @@ repositories:
       - geometry_msgs
       - nav_msgs
       - sensor_msgs
+      - sensor_msgs_py
       - shape_msgs
       - std_msgs
       - std_srvs
@@ -533,7 +534,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/common_interfaces-release.git
-      version: 2.0.3-1
+      version: 2.0.4-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -550,7 +551,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/console_bridge_vendor-release.git
-      version: 1.2.3-1
+      version: 1.2.4-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -1189,7 +1190,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/geometry2-release.git
-      version: 0.13.9-1
+      version: 0.13.10-1
     source:
       test_pull_requests: true
       type: git
@@ -1572,7 +1573,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/launch-release.git
-      version: 0.10.4-1
+      version: 0.10.5-1
     source:
       test_pull_requests: true
       type: git
@@ -1607,7 +1608,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/launch_ros-release.git
-      version: 0.11.1-1
+      version: 0.11.2-1
     source:
       test_pull_requests: true
       type: git
@@ -1668,7 +1669,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/libyaml_vendor-release.git
-      version: 1.0.3-1
+      version: 1.0.4-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -1818,7 +1819,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/mimick_vendor-release.git
-      version: 0.2.3-1
+      version: 0.2.6-1
     source:
       type: git
       url: https://github.com/ros2/mimick_vendor.git
@@ -1998,6 +1999,23 @@ repositories:
       url: https://github.com/ros-planning/navigation_msgs.git
       version: foxy
     status: maintained
+  nerian_stereo_ros2:
+    doc:
+      type: git
+      url: https://github.com/nerian-vision/nerian_stereo_ros2.git
+      version: master
+    release:
+      packages:
+      - nerian_stereo
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/nerian-vision/nerian_stereo_ros2-release.git
+      version: 1.0.0-5
+    source:
+      type: git
+      url: https://github.com/nerian-vision/nerian_stereo_ros2.git
+      version: master
+    status: developed
   nmea_msgs:
     doc:
       type: git
@@ -2722,7 +2740,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rcl-release.git
-      version: 1.1.10-1
+      version: 1.1.11-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -2769,7 +2787,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rcl_logging-release.git
-      version: 1.0.1-1
+      version: 1.1.0-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -2841,7 +2859,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 2.3.0-1
+      version: 2.3.1-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -2891,7 +2909,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rcutils-release.git
-      version: 1.1.2-1
+      version: 1.1.3-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -2984,7 +3002,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rmw-release.git
-      version: 1.0.2-1
+      version: 1.0.3-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -3040,7 +3058,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_dds_common-release.git
-      version: 1.0.2-1
+      version: 1.0.3-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -3061,7 +3079,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_fastrtps-release.git
-      version: 1.2.4-1
+      version: 1.2.5-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -3093,10 +3111,13 @@ repositories:
       url: https://github.com/ros2/rmw_implementation.git
       version: foxy
     release:
+      packages:
+      - rmw_implementation
+      - test_rmw_implementation
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_implementation-release.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -3551,7 +3572,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl-release.git
-      version: 1.2.0-1
+      version: 1.2.1-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -3589,7 +3610,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_defaults-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -3653,7 +3674,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_typesupport-release.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       test_pull_requests: true
       type: git
@@ -3673,7 +3694,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_typesupport_connext-release.git
-      version: 1.0.2-1
+      version: 1.0.3-1
     source:
       type: git
       url: https://github.com/ros2/rosidl_typesupport_connext.git
@@ -3692,7 +3713,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_typesupport_fastrtps-release.git
-      version: 1.0.2-1
+      version: 1.0.3-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -4123,6 +4144,20 @@ repositories:
       url: https://github.com/ros2/rviz.git
       version: foxy
     status: maintained
+  rviz_visual_tools:
+    doc:
+      type: git
+      url: https://github.com/PickNikRobotics/rviz_visual_tools.git
+      version: foxy-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/PickNikRobotics/rviz_visual_tools-release.git
+      version: 4.0.0-1
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/rviz_visual_tools.git
+      version: foxy-devel
   sbg_driver:
     doc:
       type: git
