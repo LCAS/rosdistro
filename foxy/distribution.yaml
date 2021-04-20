@@ -1108,7 +1108,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/gazebo_ros2_control-release.git
-      version: 0.0.1-1
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
@@ -1302,7 +1302,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/robotis-ros2-release/hls_lfcd_lds_driver-release.git
-      version: 2.0.1-1
+      version: 2.0.2-3
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
@@ -4242,7 +4242,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/oKermorgant/simple_launch-release.git
-      version: 1.0.2-1
+      version: 1.0.3-2
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
