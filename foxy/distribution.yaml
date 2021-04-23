@@ -177,7 +177,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/ament_package-release.git
-      version: 0.9.4-1
+      version: 0.9.5-1
     source:
       test_pull_requests: true
       type: git
@@ -1302,7 +1302,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/robotis-ros2-release/hls_lfcd_lds_driver-release.git
-      version: 2.0.2-3
+      version: 2.0.2-4
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
@@ -2014,7 +2014,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/nerian-vision/nerian_stereo_ros2-release.git
-      version: 1.0.0-5
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/nerian-vision/nerian_stereo_ros2.git
@@ -2168,6 +2168,21 @@ repositories:
       type: git
       url: https://github.com/OpenVSLAM-Community/openvslam.git
       version: foxy-devel
+    status: developed
+  openzen_driver:
+    doc:
+      type: git
+      url: https://bitbucket.org/lpresearch/openzenros2.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/lp-research/openzen_sensor_ros2-release.git
+      version: 1.2.0-2
+    source:
+      type: git
+      url: https://bitbucket.org/lpresearch/openzenros2.git
+      version: master
     status: developed
   oroca_rqt_command:
     doc:
@@ -2522,7 +2537,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/pybind11_vendor.git
-      version: master
+      version: foxy
     status: maintained
   python_cmake_module:
     doc:
@@ -4264,6 +4279,17 @@ repositories:
       url: https://github.com/SteveMacenski/slam_toolbox.git
       version: foxy-devel
     status: maintained
+  slider_publisher:
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/oKermorgant/slider_publisher-release.git
+      version: 1.0.2-2
+    source:
+      type: git
+      url: https://github.com/oKermorgant/slider_publisher.git
+      version: ros2
+    status: maintained
   sophus:
     doc:
       type: git
@@ -4350,10 +4376,11 @@ repositories:
       packages:
       - system_modes
       - system_modes_examples
+      - system_modes_msgs
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/microROS/system_modes-release.git
-      version: 0.6.0-1
+      version: 0.7.1-1
     source:
       test_pull_requests: true
       type: git
