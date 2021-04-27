@@ -1302,7 +1302,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/robotis-ros2-release/hls_lfcd_lds_driver-release.git
-      version: 2.0.2-4
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
@@ -1863,7 +1863,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/moveit/moveit2-release.git
-      version: 2.1.1-1
+      version: 2.1.2-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit2.git
@@ -4376,11 +4376,10 @@ repositories:
       packages:
       - system_modes
       - system_modes_examples
-      - system_modes_msgs
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/microROS/system_modes-release.git
-      version: 0.7.1-1
+      version: 0.6.0-1
     source:
       test_pull_requests: true
       type: git
