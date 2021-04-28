@@ -392,7 +392,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/common_interfaces-release.git
-      version: 2.2.2-2
+      version: 2.2.3-1
     source:
       test_pull_requests: true
       type: git
@@ -487,7 +487,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/demos-release.git
-      version: 0.14.1-2
+      version: 0.14.2-1
     source:
       test_pull_requests: true
       type: git
@@ -2056,7 +2056,8 @@ repositories:
       - can_msgs
       tags:
         release: release/galactic/{package}/{version}
-      url: https://github.com/ros-industrial-release/ros_canopen-release.git
+      url: https://github.com/ros2-gbp/ros_canopen-release.git
+      version: 2.0.0-3
     source:
       type: git
       url: https://github.com/ros-industrial/ros_canopen.git
@@ -2432,7 +2433,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_console-release.git
-      version: 2.0.0-2
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_console.git
@@ -2494,7 +2495,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_msg-release.git
-      version: 1.0.3-2
+      version: 1.0.4-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_msg.git
@@ -2509,7 +2510,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_plot-release.git
-      version: 1.0.9-4
+      version: 1.0.10-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_plot.git
@@ -2524,7 +2525,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_publisher-release.git
-      version: 1.1.1-3
+      version: 1.1.2-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_publisher.git
@@ -2539,7 +2540,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_py_console-release.git
-      version: 1.0.0-3
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_py_console.git
@@ -2600,7 +2601,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_service_caller-release.git
-      version: 1.0.3-3
+      version: 1.0.4-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_service_caller.git
@@ -2615,7 +2616,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_shell-release.git
-      version: 1.0.0-3
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_shell.git
@@ -2630,7 +2631,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_srv-release.git
-      version: 1.0.1-3
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_srv.git
@@ -2645,7 +2646,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_top-release.git
-      version: 1.0.0-3
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_top.git
@@ -3063,7 +3064,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/urdfdom-release.git
-      version: 2.3.4-2
+      version: 2.3.5-1
     source:
       test_pull_requests: true
       type: git

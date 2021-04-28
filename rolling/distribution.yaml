@@ -392,7 +392,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/common_interfaces-release.git
-      version: 2.2.2-1
+      version: 2.2.3-1
     source:
       test_pull_requests: true
       type: git
@@ -2063,7 +2063,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2cli_common_extensions-release.git
-      version: 0.1.1-1
+      version: 0.1.1-2
+    source:
+      type: git
+      url: https://github.com/ros2/ros2cli_common_extensions.git
+      version: galactic
     status: maintained
   ros_canopen:
     release:
@@ -2082,7 +2086,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/ros_environment.git
-      version: foxy
+      version: rolling
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -2092,7 +2096,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/ros_environment.git
-      version: foxy
+      version: rolling
     status: maintained
   ros_ign:
     doc:
@@ -2448,7 +2452,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_console-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_console.git
@@ -2510,7 +2514,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_msg-release.git
-      version: 1.0.3-1
+      version: 1.0.4-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_msg.git
@@ -2525,7 +2529,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_plot-release.git
-      version: 1.0.9-3
+      version: 1.0.10-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_plot.git
@@ -2540,7 +2544,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_publisher-release.git
-      version: 1.1.1-2
+      version: 1.1.2-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_publisher.git
@@ -2555,7 +2559,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_py_console-release.git
-      version: 1.0.0-2
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_py_console.git
@@ -2616,7 +2620,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_service_caller-release.git
-      version: 1.0.3-2
+      version: 1.0.4-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_service_caller.git
@@ -2631,7 +2635,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_shell-release.git
-      version: 1.0.0-2
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_shell.git
@@ -2646,7 +2650,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_srv-release.git
-      version: 1.0.1-2
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_srv.git
@@ -2661,7 +2665,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_top-release.git
-      version: 1.0.0-2
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_top.git
@@ -2945,6 +2949,21 @@ repositories:
       url: https://github.com/ros-drivers/transport_drivers.git
       version: main
     status: developed
+  turtlebot3_msgs:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+      version: rolling-devel
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/robotis-ros2-release/turtlebot3_msgs-release.git
+      version: 2.2.1-1
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+      version: rolling-devel
+    status: developed
   turtlesim:
     doc:
       type: git
@@ -3080,7 +3099,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/urdfdom-release.git
-      version: 2.3.4-1
+      version: 2.3.5-1
     source:
       test_pull_requests: true
       type: git
