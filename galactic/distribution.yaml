@@ -565,7 +565,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/eigen_stl_containers.git
-      version: ros2
+      version: dashing
     release:
       tags:
         release: release/galactic/{package}/{version}
@@ -575,7 +575,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/eigen_stl_containers.git
-      version: ros2
+      version: dashing
     status: maintained
   example_interfaces:
     doc:
@@ -1897,7 +1897,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_gurumdds-release.git
-      version: 2.1.3-2
+      version: 2.1.5-1
     source:
       type: git
       url: https://github.com/ros2/rmw_gurumdds.git
@@ -2656,7 +2656,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-visualization/rqt_topic.git
-      version: dashing-devel
+      version: foxy-devel
     release:
       tags:
         release: release/galactic/{package}/{version}
@@ -2666,7 +2666,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt_topic.git
-      version: dashing-devel
+      version: foxy-devel
     status: maintained
   rviz:
     doc:
@@ -2752,10 +2752,11 @@ repositories:
       packages:
       - system_modes
       - system_modes_examples
+      - system_modes_msgs
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/system_modes-release.git
-      version: 0.6.0-2
+      version: 0.7.1-1
     source:
       test_pull_requests: true
       type: git
