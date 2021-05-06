@@ -1312,6 +1312,21 @@ repositories:
       url: https://github.com/ubuntu-robotics/nodl.git
       version: master
     status: developed
+  ntpd_driver:
+    doc:
+      type: git
+      url: https://github.com/vooon/ntpd_driver.git
+      version: ros2
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/vooon/ntpd_driver-release.git
+      version: 2.1.0-1
+    source:
+      type: git
+      url: https://github.com/vooon/ntpd_driver.git
+      version: ros2
+    status: maintained
   octomap_msgs:
     doc:
       type: git
@@ -1794,6 +1809,21 @@ repositories:
       type: git
       url: https://github.com/ros2/realtime_support.git
       version: galactic
+    status: maintained
+  realtime_tools:
+    doc:
+      type: git
+      url: https://github.com/ros-controls/realtime_tools.git
+      version: foxy-devel
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros-gbp/realtime_tools-release.git
+      version: 2.1.1-1
+    source:
+      type: git
+      url: https://github.com/ros-controls/realtime_tools.git
+      version: foxy-devel
     status: maintained
   resource_retriever:
     doc:
