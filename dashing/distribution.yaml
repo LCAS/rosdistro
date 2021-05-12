@@ -1432,7 +1432,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-security/launch_ros_sandbox.git
-      version: dashing
+      version: dashing-devel
     release:
       tags:
         release: release/dashing/{package}/{version}
@@ -1442,7 +1442,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-security/launch_ros_sandbox.git
-      version: dashing
+      version: dashing-devel
     status: developed
   lex_common:
     doc:
@@ -1492,7 +1492,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/IntelRealSense/librealsense.git
-      version: ros2
+      version: master
     release:
       tags:
         release: release/dashing/{package}/{version}
@@ -1502,7 +1502,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/IntelRealSense/librealsense.git
-      version: ros2
+      version: master
     status: developed
   libyaml_vendor:
     release:
@@ -2387,6 +2387,26 @@ repositories:
       type: git
       url: https://github.com/ros2/rcutils.git
       version: dashing
+    status: developed
+  realsense2_camera:
+    doc:
+      type: git
+      url: https://github.com/IntelRealSense/realsense-ros.git
+      version: ros2
+    release:
+      packages:
+      - realsense2_camera
+      - realsense2_camera_msgs
+      - realsense2_description
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/IntelRealSense/realsense-ros-release.git
+      version: 3.2.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/IntelRealSense/realsense-ros.git
+      version: ros2
     status: developed
   realtime_support:
     doc:
