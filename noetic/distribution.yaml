@@ -487,6 +487,33 @@ repositories:
       url: https://gitlab.com/botasys/bota_driver.git
       version: noetic-devel
     status: developed
+  calibration:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/calibration.git
+      version: noetic-devel
+    release:
+      packages:
+      - calibration
+      - calibration_estimation
+      - calibration_launch
+      - calibration_msgs
+      - calibration_setup_helper
+      - image_cb_detector
+      - interval_intersection
+      - joint_states_settler
+      - laser_cb_detector
+      - monocam_settler
+      - settlerlib
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/calibration-release.git
+      version: 0.10.15-1
+    source:
+      type: git
+      url: https://github.com/ros-perception/calibration.git
+      version: noetic-devel
+    status: maintained
   capabilities:
     doc:
       type: git
@@ -1864,7 +1891,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/iron-ox/fadecandy_ros-release.git
-      version: 0.2.1-1
+      version: 0.2.2-1
     source:
       type: git
       url: https://github.com/iron-ox/fadecandy_ros.git
@@ -5032,7 +5059,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.1.0-1
+      version: 3.1.1-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -5062,7 +5089,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins-release.git
-      version: 1.1.0-2
+      version: 1.1.1-1
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
@@ -5269,7 +5296,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_power_drivers-release.git
-      version: 1.1.8-1
+      version: 1.1.9-1
     source:
       type: git
       url: https://github.com/pr2/pr2_power_drivers.git
@@ -5912,7 +5939,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/robot_upstart-release.git
-      version: 0.4.0-1
+      version: 0.4.1-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/robot_upstart.git
@@ -6243,6 +6270,27 @@ repositories:
       url: https://github.com/machinekoder/ros_pytest.git
       version: noetic-devel
     status: developed
+  ros_realtime:
+    doc:
+      type: git
+      url: https://github.com/ros/ros_realtime.git
+      version: noetic-devel
+    release:
+      packages:
+      - allocators
+      - lockfree
+      - ros_realtime
+      - rosatomic
+      - rosrt
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/ros_realtime-release.git
+      version: 1.0.25-1
+    source:
+      type: git
+      url: https://github.com/ros/ros_realtime.git
+      version: noetic-devel
+    status: maintained
   ros_tutorials:
     doc:
       type: git
@@ -6357,7 +6405,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/wu-robotics/roscompile-release.git
-      version: 1.2.0-1
+      version: 1.2.1-1
     source:
       test_pull_requests: true
       type: git

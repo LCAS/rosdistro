@@ -1681,6 +1681,23 @@ repositories:
       url: https://github.com/ros2/libyaml_vendor.git
       version: foxy
     status: maintained
+  locator_ros_bridge:
+    doc:
+      type: git
+      url: https://github.com/boschglobal/locator_ros_bridge.git
+      version: foxy
+    release:
+      packages:
+      - bosch_locator_bridge
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/locator_ros_bridge-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/boschglobal/locator_ros_bridge.git
+      version: foxy
+    status: maintained
   map_transformer:
     doc:
       type: git
@@ -1829,6 +1846,17 @@ repositories:
       url: https://github.com/ros2/mimick_vendor.git
       version: master
     status: maintained
+  mocap_msgs:
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/MOCAP4ROS2-Project/mocap_msgs-release.git
+      version: 0.0.2-1
+    source:
+      type: git
+      url: https://github.com/MOCAP4ROS2-Project/mocap_msgs.git
+      version: master
+    status: developed
   moveit:
     doc:
       type: git
@@ -2364,7 +2392,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.1.0-1
+      version: 3.1.1-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -2385,7 +2413,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins-release.git
-      version: 1.1.0-1
+      version: 1.1.1-4
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
@@ -2407,6 +2435,17 @@ repositories:
       url: https://github.com/ros/pluginlib.git
       version: foxy
     status: maintained
+  point_cloud_msg_wrapper:
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://gitlab.com/ApexAI/point_cloud_msg_wrapper-release
+      version: 1.0.5-1
+    source:
+      type: git
+      url: https://gitlab.com/ApexAI/point_cloud_msg_wrapper
+      version: foxy
+    status: developed
   pointcloud_to_laserscan:
     release:
       tags:
@@ -4381,7 +4420,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/microROS/system_modes-release.git
-      version: 0.7.1-3
+      version: 0.7.1-4
     source:
       test_pull_requests: true
       type: git
