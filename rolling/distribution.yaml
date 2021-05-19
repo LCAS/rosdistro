@@ -57,6 +57,21 @@ repositories:
       url: https://github.com/ament/ament_cmake.git
       version: master
     status: developed
+  ament_cmake_catch2:
+    doc:
+      type: git
+      url: https://github.com/open-rmf/ament_cmake_catch2.git
+      version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/ament_cmake_catch2-release.git
+      version: 1.2.0-1
+    source:
+      type: git
+      url: https://github.com/open-rmf/ament_cmake_catch2.git
+      version: rolling
+    status: developed
   ament_cmake_ros:
     doc:
       type: git
@@ -1357,6 +1372,25 @@ repositories:
       url: https://github.com/vooon/ntpd_driver.git
       version: ros2
     status: maintained
+  octomap:
+    doc:
+      type: git
+      url: https://github.com/octomap/octomap.git
+      version: devel
+    release:
+      packages:
+      - dynamic_edt_3d
+      - octomap
+      - octovis
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros-gbp/octomap-release.git
+      version: 1.9.7-1
+    source:
+      type: git
+      url: https://github.com/octomap/octomap.git
+      version: devel
+    status: maintained
   octomap_msgs:
     doc:
       type: git
@@ -1515,6 +1549,21 @@ repositories:
       url: https://github.com/ros-drivers/phidgets_drivers.git
       version: galactic
     status: maintained
+  plotjuggler:
+    doc:
+      type: git
+      url: https://github.com/facontidavide/PlotJuggler.git
+      version: foxy
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/facontidavide/plotjuggler-release.git
+      version: 3.1.1-1
+    source:
+      type: git
+      url: https://github.com/facontidavide/PlotJuggler.git
+      version: foxy
+    status: developed
   pluginlib:
     doc:
       type: git
@@ -1531,6 +1580,21 @@ repositories:
       url: https://github.com/ros/pluginlib.git
       version: ros2
     status: maintained
+  point_cloud_msg_wrapper:
+    doc:
+      type: git
+      url: https://gitlab.com/ApexAI/point_cloud_msg_wrapper
+      version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://gitlab.com/ApexAI/point_cloud_msg_wrapper-release
+      version: 1.0.5-1
+    source:
+      type: git
+      url: https://gitlab.com/ApexAI/point_cloud_msg_wrapper
+      version: rolling
+    status: developed
   pybind11_vendor:
     doc:
       type: git
@@ -1859,6 +1923,21 @@ repositories:
       url: https://github.com/ros/resource_retriever.git
       version: ros2
     status: maintained
+  rmf_building_map_msgs:
+    doc:
+      type: git
+      url: https://github.com/open-rmf/rmf_building_map_msgs.git
+      version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/rmf_building_map_msgs-release.git
+      version: 1.2.0-2
+    source:
+      type: git
+      url: https://github.com/open-rmf/rmf_building_map_msgs.git
+      version: rolling
+    status: developed
   rmf_cmake_uncrustify:
     doc:
       type: git
@@ -1868,7 +1947,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_cmake_uncrustify-release.git
-      version: 1.2.0-1
+      version: 1.2.0-2
     source:
       type: git
       url: https://github.com/open-rmf/rmf_cmake_uncrustify.git
@@ -2242,7 +2321,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2-release.git
-      version: 0.8.0-1
+      version: 0.9.0-1
     source:
       test_pull_requests: true
       type: git

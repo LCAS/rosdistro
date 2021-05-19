@@ -1851,7 +1851,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/MOCAP4ROS2-Project/mocap_msgs-release.git
-      version: 0.0.2-1
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/MOCAP4ROS2-Project/mocap_msgs.git
@@ -4056,6 +4056,21 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/rqt_reconfigure.git
       version: dashing
+    status: maintained
+  rqt_robot_dashboard:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_robot_dashboard.git
+      version: ROS2
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_robot_dashboard-release.git
+      version: 0.6.1-1
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_robot_dashboard.git
+      version: ROS2
     status: maintained
   rqt_robot_monitor:
     doc:
