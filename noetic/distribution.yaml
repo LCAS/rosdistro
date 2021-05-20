@@ -2330,7 +2330,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/geometric_shapes-release.git
-      version: 0.7.2-1
+      version: 0.7.3-1
     source:
       type: git
       url: https://github.com/ros-planning/geometric_shapes.git
@@ -7190,6 +7190,22 @@ repositories:
       url: https://github.com/ros-visualization/rqt_web.git
       version: master
     status: maintained
+  rt_usb_9axisimu_driver:
+    doc:
+      type: git
+      url: https://github.com/rt-net/rt_usb_9axisimu_driver.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/rt-net-gbp/rt_usb_9axisimu_driver-release.git
+      version: 1.0.1-5
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/rt-net/rt_usb_9axisimu_driver.git
+      version: noetic-devel
+    status: maintained
   rtabmap:
     doc:
       type: git
@@ -7368,6 +7384,21 @@ repositories:
       type: git
       url: https://github.com/allxone/sensehat_ros.git
       version: master
+  sensor_filters:
+    doc:
+      type: git
+      url: https://github.com/ctu-vras/sensor_filters.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ctu-vras/sensor_filters-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/ctu-vras/sensor_filters.git
+      version: master
+    status: developed
   septentrio_gnss_driver:
     doc:
       type: git

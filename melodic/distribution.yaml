@@ -3612,7 +3612,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/geometric_shapes-release.git
-      version: 0.6.3-1
+      version: 0.6.4-1
     source:
       type: git
       url: https://github.com/ros-planning/geometric_shapes.git
@@ -11851,7 +11851,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/rt-net-gbp/rt_usb_9axisimu_driver-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -12247,6 +12247,21 @@ repositories:
       type: git
       url: https://github.com/allxone/sensehat_ros.git
       version: master
+  sensor_filters:
+    doc:
+      type: git
+      url: https://github.com/ctu-vras/sensor_filters.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ctu-vras/sensor_filters-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/ctu-vras/sensor_filters.git
+      version: master
+    status: developed
   septentrio_gnss_driver:
     doc:
       type: git
