@@ -3523,7 +3523,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/locator_ros_bridge-release.git
-      version: 1.0.0-1
+      version: 1.0.1-2
     source:
       type: git
       url: https://github.com/boschglobal/locator_ros_bridge.git
@@ -5218,6 +5218,29 @@ repositories:
       url: https://github.com/pr2/pr2_common.git
       version: melodic-devel
     status: unmaintained
+  pr2_common_actions:
+    doc:
+      type: git
+      url: https://github.com/pr2/pr2_common_actions.git
+      version: kinetic-devel
+    release:
+      packages:
+      - joint_trajectory_action_tools
+      - joint_trajectory_generator
+      - pr2_arm_move_ik
+      - pr2_common_action_msgs
+      - pr2_common_actions
+      - pr2_tilt_laser_interface
+      - pr2_tuck_arms_action
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/pr2-gbp/pr2_common_actions-release.git
+      version: 0.0.12-1
+    source:
+      type: git
+      url: https://github.com/pr2/pr2_common_actions.git
+      version: kinetic-devel
+    status: unmaintained
   pr2_controllers:
     doc:
       type: git
@@ -5331,7 +5354,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_power_drivers-release.git
-      version: 1.1.9-1
+      version: 1.1.10-1
     source:
       type: git
       url: https://github.com/pr2/pr2_power_drivers.git
@@ -7393,7 +7416,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ctu-vras/sensor_filters-release.git
-      version: 1.0.1-1
+      version: 1.0.3-1
     source:
       type: git
       url: https://github.com/ctu-vras/sensor_filters.git
@@ -7907,7 +7930,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.com/toposens/public/toposens-release.git
-      version: 2.2.0-1
+      version: 2.2.1-1
     source:
       type: git
       url: https://gitlab.com/toposens/public/ros-packages.git

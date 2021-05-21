@@ -539,7 +539,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/domain_bridge-release.git
-      version: 0.2.0-2
+      version: 0.3.0-1
     source:
       test_pull_requests: true
       type: git
@@ -907,7 +907,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: ros2
+      version: galactic
     release:
       packages:
       - camera_calibration_parsers
@@ -922,7 +922,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: ros2
+      version: galactic
     status: maintained
   image_pipeline:
     doc:
@@ -1276,6 +1276,53 @@ repositories:
       url: https://github.com/MRPT/mrpt.git
       version: develop
     status: developed
+  navigation2:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/navigation2.git
+      version: galactic
+    release:
+      packages:
+      - costmap_queue
+      - dwb_core
+      - dwb_critics
+      - dwb_msgs
+      - dwb_plugins
+      - nav2_amcl
+      - nav2_behavior_tree
+      - nav2_bringup
+      - nav2_bt_navigator
+      - nav2_common
+      - nav2_controller
+      - nav2_core
+      - nav2_costmap_2d
+      - nav2_dwb_controller
+      - nav2_gazebo_spawner
+      - nav2_lifecycle_manager
+      - nav2_map_server
+      - nav2_msgs
+      - nav2_navfn_planner
+      - nav2_planner
+      - nav2_recoveries
+      - nav2_regulated_pure_pursuit_controller
+      - nav2_rviz_plugins
+      - nav2_smac_planner
+      - nav2_system_tests
+      - nav2_util
+      - nav2_voxel_grid
+      - nav2_waypoint_follower
+      - nav_2d_msgs
+      - nav_2d_utils
+      - navigation2
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/SteveMacenski/navigation2-release.git
+      version: 1.0.0-2
+    source:
+      type: git
+      url: https://github.com/ros-planning/navigation2.git
+      version: galactic
+    status: developed
   navigation_msgs:
     doc:
       type: git
@@ -1464,11 +1511,12 @@ repositories:
     release:
       packages:
       - pcl_conversions
+      - pcl_ros
       - perception_pcl
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/perception_pcl-release.git
-      version: 2.2.0-3
+      version: 2.3.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1615,6 +1663,13 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
       version: galactic-devel
+    status: maintained
+  radar_msgs:
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros2-gbp/radar_msgs-release.git
+      version: 0.2.1-1
     status: maintained
   rc_common_msgs:
     doc:
@@ -1781,7 +1836,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 9.0.3-1
+      version: 9.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1797,7 +1852,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rclpy-release.git
-      version: 1.8.2-1
+      version: 1.9.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1921,7 +1976,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_connextdds-release.git
-      version: 0.6.1-1
+      version: 0.6.2-1
     source:
       type: git
       url: https://github.com/ros2/rmw_connextdds.git
@@ -2015,6 +2070,16 @@ repositories:
       url: https://github.com/ros2/rmw_implementation.git
       version: galactic
     status: developed
+  robot_localization:
+    doc:
+      type: git
+      url: https://github.com/cra-ros-pkg/robot_localization.git
+      version: galactic
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/cra-ros-pkg/robot_localization-release.git
+      version: 3.2.1-1
   robot_state_publisher:
     doc:
       type: git
@@ -2059,7 +2124,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_ouster_drivers-release.git
-      version: 0.2.0-5
+      version: 0.3.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2822,6 +2887,22 @@ repositories:
       type: git
       url: https://github.com/ros/sdformat_urdf.git
       version: ros2
+    status: maintained
+  slam_toolbox:
+    doc:
+      type: git
+      url: https://github.com/SteveMacenski/slam_toolbox.git
+      version: galactic
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/SteveMacenski/slam_toolbox-release.git
+      version: 2.5.0-2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/SteveMacenski/slam_toolbox.git
+      version: galactic
     status: maintained
   spdlog_vendor:
     release:
