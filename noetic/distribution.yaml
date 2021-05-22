@@ -5197,6 +5197,29 @@ repositories:
       type: git
       url: https://github.com/fetchrobotics/power_msgs.git
       version: ros1
+  pr2_apps:
+    doc:
+      type: git
+      url: https://github.com/pr2/pr2_apps.git
+      version: melodic-devel
+    release:
+      packages:
+      - pr2_app_manager
+      - pr2_apps
+      - pr2_mannequin_mode
+      - pr2_position_scripts
+      - pr2_teleop
+      - pr2_teleop_general
+      - pr2_tuckarm
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/pr2-gbp/pr2_apps-release.git
+      version: 0.6.2-1
+    source:
+      type: git
+      url: https://github.com/pr2/pr2_apps.git
+      version: melodic-devel
+    status: unmaintained
   pr2_common:
     doc:
       type: git
@@ -6292,7 +6315,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/CopterExpress/ros_led-release.git
-      version: 0.0.9-1
+      version: 0.0.11-1
     source:
       type: git
       url: https://github.com/CopterExpress/ros_led.git
@@ -7238,7 +7261,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/introlab/rtabmap-release.git
-      version: 0.20.9-1
+      version: 0.20.10-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -7253,7 +7276,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.20.9-3
+      version: 0.20.10-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
@@ -8661,7 +8684,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/wifi_ddwrt-release.git
-      version: 0.2.0-1
+      version: 0.2.2-1
     source:
       type: git
       url: https://github.com/ros-drivers/wifi_ddwrt.git
