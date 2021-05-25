@@ -57,6 +57,21 @@ repositories:
       url: https://github.com/ament/ament_cmake.git
       version: master
     status: developed
+  ament_cmake_catch2:
+    doc:
+      type: git
+      url: https://github.com/open-rmf/ament_cmake_catch2.git
+      version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/ament_cmake_catch2-release.git
+      version: 1.2.0-1
+    source:
+      type: git
+      url: https://github.com/open-rmf/ament_cmake_catch2.git
+      version: rolling
+    status: developed
   ament_cmake_ros:
     doc:
       type: git
@@ -539,7 +554,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/domain_bridge-release.git
-      version: 0.2.0-1
+      version: 0.3.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1177,6 +1192,23 @@ repositories:
       url: https://github.com/ros2/libyaml_vendor.git
       version: master
     status: maintained
+  locator_ros_bridge:
+    doc:
+      type: git
+      url: https://github.com/boschglobal/locator_ros_bridge.git
+      version: main
+    release:
+      packages:
+      - bosch_locator_bridge
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/locator_ros_bridge-release.git
+      version: 2.1.1-1
+    source:
+      type: git
+      url: https://github.com/boschglobal/locator_ros_bridge.git
+      version: main
+    status: maintained
   marti_common:
     doc:
       type: git
@@ -1229,6 +1261,21 @@ repositories:
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
       version: dashing-devel
+    status: developed
+  mavlink:
+    doc:
+      type: git
+      url: https://github.com/mavlink/mavlink-gbp-release.git
+      version: release/rolling/mavlink
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/mavlink/mavlink-gbp-release.git
+      version: 2021.5.5-1
+    source:
+      type: git
+      url: https://github.com/mavlink/mavlink-gbp-release.git
+      version: release/rolling/mavlink
     status: developed
   message_filters:
     doc:
@@ -1342,6 +1389,25 @@ repositories:
       url: https://github.com/vooon/ntpd_driver.git
       version: ros2
     status: maintained
+  octomap:
+    doc:
+      type: git
+      url: https://github.com/octomap/octomap.git
+      version: devel
+    release:
+      packages:
+      - dynamic_edt_3d
+      - octomap
+      - octovis
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros-gbp/octomap-release.git
+      version: 1.9.7-1
+    source:
+      type: git
+      url: https://github.com/octomap/octomap.git
+      version: devel
+    status: maintained
   octomap_msgs:
     doc:
       type: git
@@ -1445,11 +1511,12 @@ repositories:
     release:
       packages:
       - pcl_conversions
+      - pcl_ros
       - perception_pcl
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/perception_pcl-release.git
-      version: 2.2.0-2
+      version: 2.3.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1500,6 +1567,21 @@ repositories:
       url: https://github.com/ros-drivers/phidgets_drivers.git
       version: galactic
     status: maintained
+  plotjuggler:
+    doc:
+      type: git
+      url: https://github.com/facontidavide/PlotJuggler.git
+      version: foxy
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/facontidavide/plotjuggler-release.git
+      version: 3.1.1-1
+    source:
+      type: git
+      url: https://github.com/facontidavide/PlotJuggler.git
+      version: foxy
+    status: developed
   pluginlib:
     doc:
       type: git
@@ -1516,6 +1598,21 @@ repositories:
       url: https://github.com/ros/pluginlib.git
       version: ros2
     status: maintained
+  point_cloud_msg_wrapper:
+    doc:
+      type: git
+      url: https://gitlab.com/ApexAI/point_cloud_msg_wrapper
+      version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://gitlab.com/ApexAI/point_cloud_msg_wrapper-release
+      version: 1.0.5-1
+    source:
+      type: git
+      url: https://gitlab.com/ApexAI/point_cloud_msg_wrapper
+      version: rolling
+    status: developed
   pybind11_vendor:
     doc:
       type: git
@@ -1585,6 +1682,13 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
       version: galactic-devel
+    status: maintained
+  radar_msgs:
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/radar_msgs-release.git
+      version: 0.2.1-1
     status: maintained
   rc_common_msgs:
     doc:
@@ -1751,7 +1855,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 10.0.0-1
+      version: 11.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1767,7 +1871,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclpy-release.git
-      version: 2.0.0-1
+      version: 3.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1844,6 +1948,21 @@ repositories:
       url: https://github.com/ros/resource_retriever.git
       version: ros2
     status: maintained
+  rmf_building_map_msgs:
+    doc:
+      type: git
+      url: https://github.com/open-rmf/rmf_building_map_msgs.git
+      version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/rmf_building_map_msgs-release.git
+      version: 1.2.0-4
+    source:
+      type: git
+      url: https://github.com/open-rmf/rmf_building_map_msgs.git
+      version: rolling
+    status: developed
   rmf_cmake_uncrustify:
     doc:
       type: git
@@ -1853,10 +1972,25 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_cmake_uncrustify-release.git
-      version: 1.2.0-1
+      version: 1.2.0-2
     source:
       type: git
       url: https://github.com/open-rmf/rmf_cmake_uncrustify.git
+      version: rolling
+    status: developed
+  rmf_utils:
+    doc:
+      type: git
+      url: https://github.com/open-rmf/rmf_utils.git
+      version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/rmf_utils-release.git
+      version: 1.3.0-1
+    source:
+      type: git
+      url: https://github.com/open-rmf/rmf_utils.git
       version: rolling
     status: developed
   rmw:
@@ -2029,7 +2163,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_ouster_drivers-release.git
-      version: 0.2.0-4
+      version: 0.3.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2227,7 +2361,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2-release.git
-      version: 0.8.0-1
+      version: 0.9.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2246,7 +2380,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2_bag_v2-release.git
-      version: 0.1.0-2
+      version: 0.2.0-1
     source:
       test_commits: false
       type: git
@@ -2631,6 +2765,21 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/rqt_reconfigure.git
       version: dashing
+    status: maintained
+  rqt_robot_dashboard:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_robot_dashboard.git
+      version: ROS2
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_robot_dashboard-release.git
+      version: 0.6.1-1
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_robot_dashboard.git
+      version: ROS2
     status: maintained
   rqt_robot_monitor:
     doc:

@@ -6652,6 +6652,20 @@ python3-meshio:
   arch: [python-meshio]
   debian: [python3-meshio]
   ubuntu: [python3-meshio]
+python3-mlflow:
+  debian:
+    pip:
+      packages: [mlflow]
+  fedora:
+    pip:
+      packages: [mlflow]
+  opensuse: [python-mlflow]
+  osx:
+    pip:
+      packages: [mlflow]
+  ubuntu:
+    pip:
+      packages: [mlflow]
 python3-mock:
   alpine: [py3-mock]
   debian: [python3-mock]
@@ -7954,6 +7968,7 @@ python3-zmq:
   fedora: [python3-zmq]
   gentoo: [dev-python/pyzmq]
   nixos: [python3Packages.pyzmq]
+  rhel: [python3-zmq]
   ubuntu: [python3-zmq]
 qdarkstyle-pip:
   debian:
