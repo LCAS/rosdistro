@@ -440,7 +440,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/control_msgs-release.git
-      version: 2.5.0-4
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
@@ -1332,7 +1332,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/SteveMacenski/navigation2-release.git
-      version: 1.0.3-1
+      version: 1.0.4-1
     source:
       type: git
       url: https://github.com/ros-planning/navigation2.git
@@ -1818,7 +1818,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros2/rclc.git
-      version: master
+      version: galactic
     release:
       packages:
       - rclc
@@ -1832,7 +1832,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclc.git
-      version: master
+      version: galactic
     status: developed
   rclcpp:
     doc:
