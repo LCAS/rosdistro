@@ -1404,6 +1404,17 @@ repositories:
       url: https://github.com/vooon/ntpd_driver.git
       version: ros2
     status: maintained
+  object_recognition_msgs:
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros-gbp/object_recognition_msgs-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/wg-perception/object_recognition_msgs.git
+      version: ros2
+    status: maintained
   octomap:
     doc:
       type: git
@@ -1596,11 +1607,15 @@ repositories:
       version: galactic
     status: maintained
   point_cloud_msg_wrapper:
+    doc:
+      type: git
+      url: https://gitlab.com/ApexAI/point_cloud_msg_wrapper
+      version: galactic
     release:
       tags:
         release: release/galactic/{package}/{version}
       url: https://gitlab.com/ApexAI/point_cloud_msg_wrapper-release
-      version: 1.0.5-1
+      version: 1.0.6-1
     source:
       type: git
       url: https://gitlab.com/ApexAI/point_cloud_msg_wrapper

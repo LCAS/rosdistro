@@ -1876,7 +1876,6 @@ repositories:
       - moveit
       - moveit_common
       - moveit_core
-      - moveit_fake_controller_manager
       - moveit_kinematics
       - moveit_planners
       - moveit_planners_ompl
@@ -1900,7 +1899,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/moveit/moveit2-release.git
-      version: 2.1.3-1
+      version: 2.1.4-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit2.git
@@ -2445,11 +2444,15 @@ repositories:
       version: foxy
     status: maintained
   point_cloud_msg_wrapper:
+    doc:
+      type: git
+      url: https://gitlab.com/ApexAI/point_cloud_msg_wrapper
+      version: foxy
     release:
       tags:
         release: release/foxy/{package}/{version}
       url: https://gitlab.com/ApexAI/point_cloud_msg_wrapper-release
-      version: 1.0.5-1
+      version: 1.0.6-1
     source:
       type: git
       url: https://gitlab.com/ApexAI/point_cloud_msg_wrapper
@@ -2489,7 +2492,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/stonier/py_trees-release.git
-      version: 2.1.5-2
+      version: 2.1.6-1
     source:
       test_pull_requests: true
       type: git
@@ -3291,7 +3294,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 0.6.0-1
+      version: 0.6.1-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -4791,7 +4794,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library-release.git
-      version: 0.2.1-1
+      version: 0.2.2-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
@@ -5009,7 +5012,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/moveit/warehouse_ros-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/ros-planning/warehouse_ros.git
@@ -5065,16 +5068,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/xacro.git
-      version: dashing-devel
+      version: ros2
     release:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros-gbp/xacro-release.git
-      version: 2.0.5-1
+      version: 2.0.6-1
     source:
       type: git
       url: https://github.com/ros/xacro.git
-      version: dashing-devel
+      version: ros2
     status: maintained
   xacro_live:
     doc:
