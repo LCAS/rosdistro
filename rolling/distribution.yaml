@@ -807,7 +807,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/geometry2-release.git
-      version: 0.17.1-1
+      version: 0.18.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1291,6 +1291,21 @@ repositories:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
       version: release/rolling/mavlink
+    status: developed
+  menge_vendor:
+    doc:
+      type: git
+      url: https://github.com/open-rmf/menge_vendor.git
+      version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/menge_vendor-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/open-rmf/menge_vendor.git
+      version: rolling
     status: developed
   message_filters:
     doc:
@@ -2053,6 +2068,31 @@ repositories:
       url: https://github.com/open-rmf/rmf_cmake_uncrustify.git
       version: rolling
     status: developed
+  rmf_internal_msgs:
+    doc:
+      type: git
+      url: https://github.com/open-rmf/rmf_internal_msgs.git
+      version: rolling
+    release:
+      packages:
+      - rmf_charger_msgs
+      - rmf_dispenser_msgs
+      - rmf_door_msgs
+      - rmf_fleet_msgs
+      - rmf_ingestor_msgs
+      - rmf_lift_msgs
+      - rmf_task_msgs
+      - rmf_traffic_msgs
+      - rmf_workcell_msgs
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/rmf_internal_msgs-release.git
+      version: 1.3.0-1
+    source:
+      type: git
+      url: https://github.com/open-rmf/rmf_internal_msgs.git
+      version: rolling
+    status: developed
   rmf_traffic:
     doc:
       type: git
@@ -2066,6 +2106,26 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic.git
+      version: rolling
+    status: developed
+  rmf_traffic_editor:
+    doc:
+      type: git
+      url: https://github.com/open-rmf/rmf_traffic_editor.git
+      version: rolling
+    release:
+      packages:
+      - rmf_building_map_tools
+      - rmf_traffic_editor
+      - rmf_traffic_editor_assets
+      - test_maps
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/rmf_traffic_editor-release.git
+      version: 1.3.0-2
+    source:
+      type: git
+      url: https://github.com/open-rmf/rmf_traffic_editor.git
       version: rolling
     status: developed
   rmf_utils:
@@ -2083,6 +2143,21 @@ repositories:
       url: https://github.com/open-rmf/rmf_utils.git
       version: rolling
     status: developed
+  rmf_visualization_msgs:
+    doc:
+      type: git
+      url: https://github.com/open-rmf/rmf_visualization_msgs.git
+      version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/rmf_visualization_msgs-release.git
+      version: 1.2.0-1
+    source:
+      type: git
+      url: https://github.com/open-rmf/rmf_visualization_msgs.git
+      version: rolling
+    status: developed
   rmw:
     doc:
       type: git
@@ -2095,7 +2170,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw-release.git
-      version: 3.3.1-1
+      version: 4.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3091,7 +3166,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/stubborn_buddies-release.git
-      version: 1.0.0-1
+      version: 1.0.0-2
     source:
       type: git
       url: https://github.com/open-rmf/stubborn_buddies.git
@@ -3583,7 +3658,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/moveit/warehouse_ros-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/ros-planning/warehouse_ros.git
@@ -3639,16 +3714,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/xacro.git
-      version: dashing-devel
+      version: ros2
     release:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/xacro-release.git
-      version: 2.0.2-2
+      version: 2.0.6-1
     source:
       type: git
       url: https://github.com/ros/xacro.git
-      version: dashing-devel
+      version: ros2
     status: maintained
   yaml_cpp_vendor:
     release:
