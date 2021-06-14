@@ -2421,7 +2421,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins-release.git
-      version: 1.2.0-1
+      version: 1.4.0-1
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
@@ -2653,7 +2653,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/OUXT-Polaris/quaternion_operation-release.git
-      version: 0.0.4-1
+      version: 0.0.5-1
     source:
       test_pull_requests: true
       type: git
