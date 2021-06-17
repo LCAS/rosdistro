@@ -3787,7 +3787,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mikeferguson/graceful_controller-gbp.git
-      version: 0.3.1-1
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/mikeferguson/graceful_controller.git
@@ -8289,6 +8289,21 @@ repositories:
       url: https://github.com/AutonomyLab/parrot_arsdk.git
       version: indigo-devel
     status: developed
+  pass_through_controllers:
+    doc:
+      type: git
+      url: https://github.com/UniversalRobots/Universal_Robots_ROS_passthrough_controllers.git
+      version: main
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/UniversalRobots/Universal_Robots_ROS_passthrough_controllers-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/UniversalRobots/Universal_Robots_ROS_passthrough_controllers.git
+      version: main
+    status: developed
   pcdfilter_pa:
     doc:
       type: git
@@ -9707,7 +9722,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_genicam_driver_ros-release.git
-      version: 0.5.0-1
+      version: 0.5.2-1
     source:
       test_pull_requests: true
       type: git
@@ -9726,7 +9741,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_reason_clients_ros-release.git
-      version: 0.2.0-1
+      version: 0.2.1-1
     source:
       test_pull_requests: true
       type: git
@@ -9767,7 +9782,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/roboception-gbp/rcdiscover-release.git
-      version: 1.0.3-1
+      version: 1.1.2-1
     source:
       test_pull_requests: true
       type: git
@@ -10511,7 +10526,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/ros_control-release.git
-      version: 0.18.3-1
+      version: 0.18.4-1
     source:
       type: git
       url: https://github.com/ros-controls/ros_control.git
@@ -10562,6 +10577,27 @@ repositories:
       url: https://github.com/ros-controls/ros_controllers.git
       version: melodic-devel
     status: maintained
+  ros_controllers_cartesian:
+    doc:
+      type: git
+      url: https://github.com/UniversalRobots/Universal_Robots_ROS_controllers_cartesian.git
+      version: main
+    release:
+      packages:
+      - cartesian_interface
+      - cartesian_trajectory_controller
+      - cartesian_trajectory_interpolation
+      - ros_controllers_cartesian
+      - twist_controller
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/UniversalRobots/Universal_Robots_ROS_controllers_cartesian-release.git
+      version: 0.1.2-1
+    source:
+      type: git
+      url: https://github.com/UniversalRobots/Universal_Robots_ROS_controllers_cartesian.git
+      version: main
+    status: developed
   ros_emacs_utils:
     doc:
       type: git

@@ -1807,6 +1807,41 @@ repositories:
       url: https://github.com/roboception/rc_genicam_driver_ros2.git
       version: master
     status: developed
+  rc_reason_clients:
+    doc:
+      type: git
+      url: https://github.com/roboception/rc_reason_clients_ros2.git
+      version: master
+    release:
+      packages:
+      - rc_reason_clients
+      - rc_reason_msgs
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/roboception-gbp/rc_reason_clients-release.git
+      version: 0.2.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/roboception/rc_reason_clients_ros2.git
+      version: master
+    status: developed
+  rcdiscover:
+    doc:
+      type: git
+      url: https://github.com/roboception/rcdiscover.git
+      version: master
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/roboception-gbp/rcdiscover-release.git
+      version: 1.1.2-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/roboception/rcdiscover.git
+      version: master
+    status: developed
   rcl:
     doc:
       type: git
@@ -3345,6 +3380,17 @@ repositories:
       type: git
       url: https://github.com/ros/ros_tutorials.git
       version: galactic-devel
+    status: maintained
+  tvm_vendor:
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/autowarefoundation/tvm_vendor-release.git
+      version: 0.7.3-1
+    source:
+      type: git
+      url: https://github.com/autowarefoundation/tvm_vendor.git
+      version: main
     status: maintained
   twist_stamper:
     doc:

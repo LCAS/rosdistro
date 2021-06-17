@@ -762,6 +762,21 @@ repositories:
       url: https://github.com/stack-of-tasks/dynamic-graph.git
       version: devel
     status: maintained
+  dynamixel_hardware_interface:
+    doc:
+      type: git
+      url: https://github.com/OUXT-Polaris/dynamixel_hardware_interface.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/OUXT-Polaris/dynamixel_hardware_interface-release.git
+      version: 0.0.3-1
+    source:
+      type: git
+      url: https://github.com/OUXT-Polaris/dynamixel_hardware_interface.git
+      version: master
+    status: developed
   dynamixel_sdk:
     doc:
       type: git
@@ -1108,7 +1123,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/gazebo_ros2_control-release.git
-      version: 0.0.2-1
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
@@ -1165,7 +1180,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/moveit/geometric_shapes-release.git
-      version: 2.0.2-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/ros-planning/geometric_shapes.git
@@ -2794,6 +2809,22 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/roboception/rc_reason_clients_ros2.git
+      version: master
+    status: developed
+  rcdiscover:
+    doc:
+      type: git
+      url: https://github.com/roboception/rcdiscover.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/roboception-gbp/rcdiscover-release.git
+      version: 1.1.2-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/roboception/rcdiscover.git
       version: master
     status: developed
   rcl:
@@ -4708,6 +4739,21 @@ repositories:
       url: https://github.com/autowarefoundation/tvm_vendor.git
       version: main
     status: maintained
+  twist_mux:
+    doc:
+      type: git
+      url: https://github.com/ros-teleop/twist_mux.git
+      version: foxy-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros-gbp/twist_mux-release.git
+      version: 4.0.1-1
+    source:
+      type: git
+      url: https://github.com/ros-teleop/twist_mux.git
+      version: foxy-devel
+    status: maintained
   twist_stamper:
     doc:
       type: git
@@ -4834,6 +4880,21 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdf_parser_py.git
+      version: foxy-devel
+    status: maintained
+  urdf_test:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/urdf_test.git
+      version: foxy-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/pal-gbp/urdf_test-ros2-gbp.git
+      version: 2.0.0-2
+    source:
+      type: git
+      url: https://github.com/pal-robotics/urdf_test.git
       version: foxy-devel
     status: maintained
   urdfdom:

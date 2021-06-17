@@ -449,6 +449,13 @@ can-utils:
   fedora: [can-utils]
   nixos: [can-utils]
   ubuntu: [can-utils]
+cargo:
+  archlinux: [rust]
+  debian: [cargo]
+  fedora: [cargo]
+  opensuse: [cargo]
+  rhel: [cargo]
+  ubuntu: [cargo]
 castxml:
   arch: [castxml]
   debian: [castxml]
@@ -1327,6 +1334,20 @@ git:
   opensuse: [git-core]
   rhel: [git]
   ubuntu: [git]
+git-lfs:
+  alpine: [git-lfs]
+  arch: [git-lfs]
+  debian:
+    '*': [git-lfs]
+    stretch: null
+  fedora: [git-lfs]
+  freebsd: [git-lfs]
+  gentoo: [dev-vcs/git-lfs]
+  macports: [git-lfs]
+  nixos: [git-lfs]
+  opensuse: [git-lfs]
+  rhel: [git-lfs]
+  ubuntu: [git-lfs]
 gitg:
   debian: [gitg]
   fedora: [gitg]
@@ -2881,6 +2902,13 @@ libfftw3:
   nixos: [fftw, fftwSinglePrec]
   openembedded: [fftw@meta-oe]
   ubuntu: [libfftw3-3, libfftw3-dev]
+libfl-dev:
+  debian: [libfl-dev]
+  fedora:
+    '*': [libfl-devel]
+    '33': [flex-devel]
+  opensuse: [libfl-devel]
+  ubuntu: [libfl-dev]
 libflann:
   arch: [flann]
   debian:
@@ -6775,6 +6803,13 @@ rtmidi:
   fedora: [rtmidi-devel]
   nixos: [rtmidi]
   ubuntu: [librtmidi-dev]
+rustc:
+  archlinux: [rust]
+  debian: [rustc]
+  fedora: [rust]
+  opensuse: [rust]
+  rhel: [rust]
+  ubuntu: [rustc]
 sbcl:
   alpine: [sbcl]
   arch: [sbcl]
