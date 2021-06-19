@@ -7054,6 +7054,14 @@ python3-pydantic:
       pip: [pydantic]
     xenial:
       pip: [pydantic]
+python3-pydbus:
+  debian: [python3-pydbus]
+  fedora: [python3-pydbus]
+  opensuse: [python3-pydbus]
+  rhel:
+    '*': ['python%{python3_pkgversion}-pydbus']
+    '7': null
+  ubuntu: [python3-pydbus]
 python3-pydot:
   alpine: [py3-pydot]
   arch: [python-pydot]
@@ -7066,6 +7074,11 @@ python3-pydot:
     '*': ['python%{python3_pkgversion}-pydot']
     '7': null
   ubuntu: [python3-pydot]
+python3-pyftpdlib:
+  debian: [python3-pyftpdlib]
+  gentoo: [dev-python/pyftpdlib]
+  opensuse: [python3-pyftpdlib]
+  ubuntu: [python3-pyftpdlib]
 python3-pygame:
   debian:
     '*': [python3-pygame]
