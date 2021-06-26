@@ -1038,7 +1038,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 2.0.x
+      version: 2.1.x
     status: maintained
   filters:
     doc:
@@ -2636,6 +2636,17 @@ repositories:
       url: https://github.com/ros-visualization/python_qt_binding.git
       version: crystal-devel
     status: maintained
+  qpoases_vendor:
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/Autoware-AI/qpoases_vendor-release.git
+      version: 3.2.3-2
+    source:
+      type: git
+      url: https://github.com/Autoware-AI/qpoases_vendor.git
+      version: ros2
+    status: maintained
   qt_gui_core:
     doc:
       type: git
@@ -3507,6 +3518,23 @@ repositories:
       type: git
       url: https://github.com/ros2/ros2cli_common_extensions.git
       version: foxy
+    status: maintained
+  ros_amr_interop:
+    doc:
+      type: git
+      url: https://github.com/inorbit-ai/ros_amr_interop.git
+      version: foxy-devel
+    release:
+      packages:
+      - massrobotics_amr_sender
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/inorbit-ai/ros_amr_interop-release.git
+      version: 1.0.0-2
+    source:
+      type: git
+      url: https://github.com/inorbit-ai/ros_amr_interop.git
+      version: foxy-devel
     status: maintained
   ros_canopen:
     release:
@@ -4573,6 +4601,21 @@ repositories:
       type: git
       url: https://github.com/ros2/test_interface_files.git
       version: foxy
+    status: maintained
+  tf_transformations:
+    doc:
+      type: git
+      url: https://github.com/DLu/tf_transformations.git
+      version: main
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/DLu/tf_transformations_release.git
+      version: 1.0.2-1
+    source:
+      type: git
+      url: https://github.com/DLu/tf_transformations.git
+      version: main
     status: maintained
   tinyxml2_vendor:
     doc:
