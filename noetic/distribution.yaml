@@ -1603,6 +1603,23 @@ repositories:
       url: https://github.com/ros/dynamic_reconfigure.git
       version: noetic-devel
     status: maintained
+  dynamixel-workbench-msgs:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs.git
+      version: noetic-devel
+    release:
+      packages:
+      - dynamixel_workbench_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ROBOTIS-GIT-release/dynamixel-workbench-msgs-release.git
+      version: 2.0.2-2
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs.git
+      version: noetic-devel
+    status: maintained
   dynamixel_sdk:
     doc:
       type: git
@@ -2855,6 +2872,21 @@ repositories:
       url: https://github.com/ros-perception/image_transport_plugins.git
       version: noetic-devel
     status: unmaintained
+  imu_from_ios_sensorlog:
+    doc:
+      type: git
+      url: https://github.com/pietrocolombo/imu_from_ios_sensorlog.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/pietrocolombo/imu_from_ios_sensorlog-release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://github.com/pietrocolombo/imu_from_ios_sensorlog.git
+      version: noetic-devel
+    status: maintained
   imu_pipeline:
     doc:
       type: git
@@ -2896,13 +2928,28 @@ repositories:
       version: noetic
     status: developed
   industrial_core:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/industrial_core.git
+      version: melodic
     release:
       packages:
+      - industrial_core
+      - industrial_deprecated
       - industrial_msgs
+      - industrial_robot_client
+      - industrial_robot_simulator
+      - industrial_trajectory_filters
+      - industrial_utils
+      - simple_message
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-industrial-release/industrial_core-release.git
-      version: 0.7.1-1
+      version: 0.7.2-1
+    source:
+      type: git
+      url: https://github.com/ros-industrial/industrial_core.git
+      version: melodic
     status: maintained
   industrial_robot_status_controller:
     doc:
@@ -4770,6 +4817,24 @@ repositories:
       url: https://github.com/ROBOTIS-GIT/open_manipulator_msgs.git
       version: noetic-devel
     status: maintained
+  open_manipulator_simulations:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/open_manipulator_simulations.git
+      version: noetic-devel
+    release:
+      packages:
+      - open_manipulator_gazebo
+      - open_manipulator_simulations
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ROBOTIS-GIT-release/open_manipulator_simulations-release.git
+      version: 1.1.1-1
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/open_manipulator_simulations.git
+      version: noetic-devel
+    status: maintained
   open_street_map:
     doc:
       type: git
@@ -5523,6 +5588,28 @@ repositories:
       url: https://github.com/pr2/pr2_robot.git
       version: kinetic-devel
     status: unmaintained
+  pr2_self_test:
+    doc:
+      type: git
+      url: https://github.com/PR2/pr2_self_test.git
+      version: kinetic-devel
+    release:
+      packages:
+      - joint_qualification_controllers
+      - pr2_bringup_tests
+      - pr2_counterbalance_check
+      - pr2_motor_diagnostic_tool
+      - pr2_self_test
+      - pr2_self_test_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/pr2-gbp/pr2_self_test-release.git
+      version: 1.0.15-1
+    source:
+      type: git
+      url: https://github.com/PR2/pr2_self_test.git
+      version: kinetic-devel
+    status: unmaintained
   prbt_grippers:
     doc:
       type: git
@@ -5580,7 +5667,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/PilzDE/psen_scan_v2-release.git
-      version: 0.2.1-1
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/PilzDE/psen_scan_v2.git
