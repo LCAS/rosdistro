@@ -1029,7 +1029,7 @@ python-chainer-mask-rcnn-pip:
     pip:
       depends: [cython, python-numpy]
       packages: [chainer-mask-rcnn]
-python-chainer-pip:
+python-chainer-pip: &migrate_eol_2025_04_30_python3_chainer_pip
   debian:
     pip:
       packages: [chainer]
@@ -1631,7 +1631,7 @@ python-fcl-pip:
     pip:
       depends: [libfcl-dev]
       packages: [python-fcl]
-python-fcn-pip:
+python-fcn-pip: &migrate_eol_2025_04_30_python3_fcn_pip
   debian:
     pip:
       depends: [liblapack-dev]
@@ -1824,11 +1824,15 @@ python-gcloud-pip:
     pip:
       packages: [gcloud]
 python-gdal:
-  debian: [python-gdal]
+  debian:
+    buster: [python-gdal]
+    stretch: [python-gdal]
   fedora: [python2-gdal]
   gentoo: ['sci-libs/gdal[python]']
-  ubuntu: [python-gdal]
-python-gdown-pip:
+  ubuntu:
+    bionic: [python-gdal]
+    xenial: [python-gdal]
+python-gdown-pip: &migrate_eol_2025_04_30_python3_gdown_pip
   debian:
     pip:
       packages: [gdown]
@@ -5961,6 +5965,7 @@ python3-cffi:
   nixos: [python3Packages.cffi]
   rhel: ['python%{python3_pkgversion}-cffi']
   ubuntu: [python3-cffi]
+python3-chainer-pip: *migrate_eol_2025_04_30_python3_chainer_pip
 python3-cherrypy3:
   debian: [python3-cherrypy3]
   ubuntu: [python3-cherrypy3]
@@ -6241,6 +6246,7 @@ python3-fastnumbers-pip:
   ubuntu:
     pip:
       packages: [fastnumbers]
+python3-fcn-pip: *migrate_eol_2025_04_30_python3_fcn_pip
 python3-filterpy-pip:
   debian:
     pip:
@@ -6328,6 +6334,7 @@ python3-future:
   openembedded: [python3-future@meta-python]
   rhel: ['python%{python3_pkgversion}-future']
   ubuntu: [python3-future]
+python3-gdown-pip: *migrate_eol_2025_04_30_python3_gdown_pip
 python3-geomag-pip:
   debian:
     pip:
