@@ -100,8 +100,7 @@ rosdep update
 
 # Nice things
 $SUDO apt-get install -y ssh openssh-server vim git python-pip tmux openvpn python-wstool
-$SUDO pip install web.py==0.51
-$SUDO pip install tmule
+$SUDO pip install -U tmule
 
 $SUDO curl -o /usr/local/bin/rmate https://raw.githubusercontent.com/aurora/rmate/master/rmate && $SUDO chmod +x /usr/local/bin/rmate
 
