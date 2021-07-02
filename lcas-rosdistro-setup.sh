@@ -7,7 +7,7 @@ if [ $(id -u)  = "0" ]; then
       export DEBIAN_FRONTEND=noninteractive
       SUDO=""
 else
-      SUDO="sudo"
+      SUDO="sudo -H"
 fi
 
 $SUDO apt-get update
@@ -100,7 +100,7 @@ rosdep update
 
 # Nice things
 $SUDO apt-get install -y ssh openssh-server vim git python-pip tmux openvpn python-wstool
-$SUDO pip install -U tmule 
+$SUDO pip install -U tmule
 
 $SUDO curl -o /usr/local/bin/rmate https://raw.githubusercontent.com/aurora/rmate/master/rmate && $SUDO chmod +x /usr/local/bin/rmate
 
