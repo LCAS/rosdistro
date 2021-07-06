@@ -3033,7 +3033,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/IntelRealSense/realsense-ros.git
-      version: foxy
+      version: ros2
     release:
       packages:
       - realsense2_camera
@@ -3042,12 +3042,12 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/IntelRealSense/realsense-ros-release.git
-      version: 3.2.1-1
+      version: 3.2.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/IntelRealSense/realsense-ros.git
-      version: foxy
+      version: ros2
     status: developed
   realtime_support:
     doc:
@@ -3431,7 +3431,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/IntelligentRoboticsLabs/ros2_planning_system-release.git
-      version: 1.0.9-1
+      version: 1.0.10-1
     source:
       type: git
       url: https://github.com/IntelligentRoboticsLabs/ros2_planning_system.git
