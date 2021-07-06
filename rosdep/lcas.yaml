@@ -29,7 +29,7 @@ framoscamerasuite:
     bionic: [framoscamerasuite]
 gazebo8:
   ubuntu:
-    xenial: [gazebo8,libgazebo8-dev]
+    xenial: [gazebo8, libgazebo8-dev]
 gazebo8_msgs:
   ubuntu:
     xenial: [ros-kinetic-gazebo8-msgs]
