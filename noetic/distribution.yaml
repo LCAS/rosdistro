@@ -73,7 +73,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ubi-agni-gbp/agni_tf_tools-release.git
-      version: 0.1.5-1
+      version: 0.1.6-1
     source:
       type: git
       url: https://github.com/ubi-agni/agni_tf_tools.git
@@ -5818,6 +5818,12 @@ repositories:
       url: https://github.com/ros-visualization/qt_gui_core.git
       version: melodic-devel
     status: maintained
+  quanergy_client:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/QuanergySystems/quanergy_client-release.git
+      version: 5.0.0-1
   qwt_dependency:
     doc:
       type: git
@@ -8279,7 +8285,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/locusrobotics/tf2_2d-release.git
-      version: 0.6.3-2
+      version: 0.6.4-1
     source:
       test_pull_requests: true
       type: git
