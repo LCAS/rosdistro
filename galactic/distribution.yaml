@@ -19,6 +19,17 @@ repositories:
       url: https://gitlab.com/autowarefoundation/autoware.auto/acado_vendor.git
       version: main
     status: maintained
+  ackermann_msgs:
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/ackermann_msgs-release.git
+      version: 2.0.2-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/ackermann_msgs.git
+      version: ros2
+    status: maintained
   ament_cmake:
     doc:
       type: git
@@ -822,6 +833,17 @@ repositories:
       type: git
       url: https://github.com/eProsima/foonathan_memory_vendor.git
       version: master
+    status: maintained
+  four_wheel_steering_msgs:
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/four_wheel_steering_msgs-release.git
+      version: 2.0.1-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/four_wheel_steering_msgs.git
+      version: ros2
     status: maintained
   gazebo_ros_pkgs:
     doc:
@@ -2903,10 +2925,11 @@ repositories:
       - ros_ign_gazebo
       - ros_ign_gazebo_demos
       - ros_ign_image
+      - ros_ign_interfaces
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/ros_ign-release.git
-      version: 0.233.1-5
+      version: 0.233.2-1
     source:
       test_pull_requests: true
       type: git
@@ -3663,7 +3686,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/system_modes-release.git
-      version: 0.8.0-1
+      version: 0.9.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3954,7 +3977,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/aussierobots/ublox_dgnss-release.git
-      version: 0.2.0-1
+      version: 0.2.2-1
     source:
       type: git
       url: https://github.com/aussierobots/ublox_dgnss.git
@@ -4150,6 +4173,22 @@ repositories:
       type: git
       url: https://github.com/ros2/variants.git
       version: master
+    status: maintained
+  vision_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/vision_msgs.git
+      version: galactic
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros2-gbp/vision_msgs-release.git
+      version: 3.0.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-perception/vision_msgs.git
+      version: galactic
     status: maintained
   vision_opencv:
     doc:

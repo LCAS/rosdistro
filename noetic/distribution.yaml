@@ -3365,6 +3365,26 @@ repositories:
       url: https://github.com/yujinrobot/kobuki_msgs.git
       version: noetic
     status: maintained
+  kvh_geo_fog_3d:
+    doc:
+      type: git
+      url: https://github.com/MITRE/kvh_geo_fog_3d.git
+      version: master
+    release:
+      packages:
+      - kvh_geo_fog_3d
+      - kvh_geo_fog_3d_driver
+      - kvh_geo_fog_3d_msgs
+      - kvh_geo_fog_3d_rviz
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/MITRE/kvh_geo_fog_3d-release.git
+      version: 1.5.1-1
+    source:
+      type: git
+      url: https://github.com/MITRE/kvh_geo_fog_3d.git
+      version: noetic-devel
+    status: maintained
   lanelet2:
     doc:
       type: git
@@ -5719,7 +5739,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/PilzDE/psen_scan_v2-release.git
-      version: 0.3.0-1
+      version: 0.3.1-1
     source:
       type: git
       url: https://github.com/PilzDE/psen_scan_v2.git
@@ -6637,7 +6657,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/ros_ign-release.git
-      version: 0.111.0-1
+      version: 0.111.1-2
     source:
       test_pull_requests: true
       type: git
@@ -6659,6 +6679,19 @@ repositories:
       url: https://github.com/ros-industrial/ros_industrial_cmake_boilerplate.git
       version: master
     status: developed
+  ros_inorbit_samples:
+    release:
+      packages:
+      - inorbit_republisher
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/inorbit-ai/ros_inorbit_samples-release.git
+      version: 0.2.1-1
+    source:
+      type: git
+      url: https://github.com/inorbit-ai/ros_inorbit_samples.git
+      version: noetic-devel
+    status: maintained
   ros_led:
     doc:
       type: git
@@ -8161,6 +8194,21 @@ repositories:
       url: https://github.com/ros/std_msgs.git
       version: kinetic-devel
     status: maintained
+  steering_functions:
+    doc:
+      type: git
+      url: https://github.com/hbanzhaf/steering_functions.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/nobleo/steering_functions-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/hbanzhaf/steering_functions.git
+      version: master
+    status: maintained
   swri_console:
     doc:
       type: git
@@ -8580,16 +8628,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/continental/udp_com.git
-      version: ros1/main
+      version: main
     release:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/flynneva/udp_com-release.git
-      version: 1.1.1-1
+      version: 1.1.2-1
     source:
       type: git
       url: https://github.com/continental/udp_com.git
-      version: ros1/main
+      version: main
     status: maintained
   ueye_cam:
     doc:

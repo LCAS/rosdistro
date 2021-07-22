@@ -5000,14 +5000,17 @@ repositories:
       version: master
     release:
       packages:
+      - aques_talk
       - assimp_devel
       - bayesian_belief_networks
+      - chaplus_ros
       - collada_urdf_jsk_patch
       - dialogflow_task_executive
       - downward
       - ff
       - ffha
       - gdrive_ros
+      - google_cloud_texttospeech
       - jsk_3rdparty
       - julius
       - julius_ros
@@ -5026,11 +5029,12 @@ repositories:
       - rostwitter
       - sesame_ros
       - slic
+      - switchbot_ros
       - voice_text
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tork-a/jsk_3rdparty-release.git
-      version: 2.1.21-3
+      version: 2.1.23-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
@@ -8600,7 +8604,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/PilzDE/pilz_robots-release.git
-      version: 0.5.22-1
+      version: 0.5.23-1
     source:
       type: git
       url: https://github.com/PilzDE/pilz_robots.git
@@ -9201,7 +9205,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/PilzDE/psen_scan_v2-release.git
-      version: 0.3.0-1
+      version: 0.3.1-1
     source:
       type: git
       url: https://github.com/PilzDE/psen_scan_v2.git
@@ -13669,16 +13673,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/continental/udp_com.git
-      version: ros1/main
+      version: main
     release:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/flynneva/udp_com-release.git
-      version: 1.1.1-1
+      version: 1.1.2-1
     source:
       type: git
       url: https://github.com/continental/udp_com.git
-      version: ros1/main
+      version: main
     status: maintained
   ueye_cam:
     doc:
