@@ -1584,6 +1584,21 @@ repositories:
       url: https://github.com/ijnek/nao_interfaces.git
       version: main
     status: developed
+  nao_lola:
+    doc:
+      type: git
+      url: https://github.com/ijnek/nao_lola.git
+      version: main
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ijnek/nao_lola-release.git
+      version: 0.0.2-1
+    source:
+      type: git
+      url: https://github.com/ijnek/nao_lola.git
+      version: main
+    status: developed
   naosoccer_sim:
     doc:
       type: git
@@ -2305,7 +2320,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rclc-release.git
-      version: 2.0.2-1
+      version: 2.0.3-3
     source:
       test_pull_requests: true
       type: git
@@ -2394,7 +2409,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/IntelRealSense/realsense-ros-release.git
-      version: 3.2.2-1
+      version: 3.2.2-2
     source:
       test_pull_requests: true
       type: git
@@ -3607,6 +3622,23 @@ repositories:
       url: https://github.com/ijnek/soccer_interfaces.git
       version: main
     status: developed
+  soccer_visualization:
+    doc:
+      type: git
+      url: https://github.com/ijnek/soccer_visualization.git
+      version: main
+    release:
+      packages:
+      - soccer_marker_generation
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ijnek/soccer_visualization-release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://github.com/ijnek/soccer_visualization.git
+      version: main
+    status: developed
   spdlog_vendor:
     release:
       tags:
@@ -3977,7 +4009,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/aussierobots/ublox_dgnss-release.git
-      version: 0.2.2-1
+      version: 0.2.3-4
     source:
       type: git
       url: https://github.com/aussierobots/ublox_dgnss.git

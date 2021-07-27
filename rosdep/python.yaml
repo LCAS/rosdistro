@@ -6366,6 +6366,7 @@ python3-flask:
   fedora: [python3-flask]
   gentoo: [dev-python/flask]
   nixos: [python3Packages.flask]
+  rhel: [python3-flask]
   ubuntu: [python3-flask]
 python3-flask-cors:
   debian: [python3-flask-cors]
@@ -8125,6 +8126,19 @@ python3-yappi:
     '*': [python3-yappi]
     bionic: null
     xenial: null
+python3-yolov5:
+  debian:
+    pip:
+      packages: [yolov5]
+  fedora:
+    pip:
+      packages: [yolov5]
+  osx:
+    pip:
+      packages: [yolov5]
+  ubuntu:
+    pip:
+      packages: [yolov5]
 python3-zmq:
   arch: [python-pyzmq]
   debian: [python3-zmq]
@@ -8161,6 +8175,16 @@ rosbag-metadata-pip:
   ubuntu:
     pip:
       packages: [rosbag-metadata]
+roslibpy-pip:
+  debian:
+    pip:
+      packages: [roslibpy]
+  fedora:
+    pip:
+      packages: [roslibpy]
+  ubuntu:
+    pip:
+      packages: [roslibpy]
 rpy2:
   arch: [python-rpy2]
   debian: [python-rpy2]
