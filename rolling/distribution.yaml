@@ -1178,6 +1178,32 @@ repositories:
       url: https://github.com/ros/kdl_parser.git
       version: ros2
     status: maintained
+  lanelet2:
+    doc:
+      type: git
+      url: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
+      version: master
+    release:
+      packages:
+      - lanelet2
+      - lanelet2_core
+      - lanelet2_examples
+      - lanelet2_io
+      - lanelet2_maps
+      - lanelet2_projection
+      - lanelet2_python
+      - lanelet2_routing
+      - lanelet2_traffic_rules
+      - lanelet2_validation
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/fzi-forschungszentrum-informatik/lanelet2-release.git
+      version: 1.1.1-1
+    source:
+      type: git
+      url: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
+      version: master
+    status: maintained
   laser_geometry:
     doc:
       type: git
@@ -1423,7 +1449,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_message_filters-release.git
-      version: 4.0.0-1
+      version: 4.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1536,6 +1562,21 @@ repositories:
       url: https://github.com/MRPT/mrpt.git
       version: develop
     status: developed
+  mrt_cmake_modules:
+    doc:
+      type: git
+      url: https://github.com/KIT-MRT/mrt_cmake_modules.git
+      version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/KIT-MRT/mrt_cmake_modules-release.git
+      version: 1.0.8-1
+    source:
+      type: git
+      url: https://github.com/KIT-MRT/mrt_cmake_modules.git
+      version: master
+    status: maintained
   navigation_msgs:
     doc:
       type: git
@@ -1827,6 +1868,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins-release.git
+      version: 1.5.1-1
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
@@ -2146,7 +2188,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclc-release.git
-      version: 3.0.1-1
+      version: 3.0.3-1
     source:
       test_pull_requests: true
       type: git
@@ -2489,7 +2531,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_visualization-release.git
-      version: 1.2.0-3
+      version: 1.2.0-4
     source:
       type: git
       url: https://github.com/open-rmf/rmf_visualization.git
