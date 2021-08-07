@@ -723,7 +723,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fastrtps-release.git
-      version: 2.3.1-2
+      version: 2.3.4-1
     source:
       test_commits: true
       test_pull_requests: false
@@ -1572,7 +1572,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/KIT-MRT/mrt_cmake_modules-release.git
-      version: 1.0.8-1
+      version: 1.0.8-2
     source:
       type: git
       url: https://github.com/KIT-MRT/mrt_cmake_modules.git
@@ -1968,7 +1968,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
-      version: galactic-devel
+      version: main
     release:
       packages:
       - qt_dotgraph
@@ -1985,7 +1985,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
-      version: galactic-devel
+      version: main
     status: maintained
   radar_msgs:
     release:
