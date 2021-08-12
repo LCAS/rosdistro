@@ -433,7 +433,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/common_interfaces-release.git
-      version: 2.2.3-1
+      version: 2.3.0-1
     source:
       test_pull_requests: true
       type: git
@@ -543,7 +543,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/demos-release.git
-      version: 0.15.0-1
+      version: 0.16.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1630,6 +1630,22 @@ repositories:
       url: https://github.com/ubuntu-robotics/nodl.git
       version: master
     status: developed
+  nodl_to_policy:
+    doc:
+      type: git
+      url: https://github.com/osrf/nodl_to_policy.git
+      version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/nodl_to_policy-release.git
+      version: 1.0.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/osrf/nodl_to_policy.git
+      version: master
+    status: maintained
   ntpd_driver:
     doc:
       type: git
@@ -3077,7 +3093,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_python-release.git
-      version: 0.13.0-1
+      version: 0.14.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3557,7 +3573,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rviz-release.git
-      version: 8.6.0-2
+      version: 8.7.0-1
     source:
       test_pull_requests: true
       type: git
