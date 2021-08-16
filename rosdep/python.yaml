@@ -4776,7 +4776,7 @@ python-sphinx-rtd-theme:
     yakkety_python3: [python3-sphinx-rtd-theme]
     zesty: [python-sphinx-rtd-theme]
     zesty_python3: [python3-sphinx-rtd-theme]
-python-spidev-pip:
+python-spidev-pip: &migrate_eol_2025_04_30_python3_spidev_pip
   debian:
     pip:
       packages: [spidev]
@@ -6460,6 +6460,12 @@ python3-gnupg:
   opensuse: [python3-python-gnupg]
   ubuntu: [python3-gnupg]
 python3-google-cloud-texttospeech-pip: *migrate_eol_2025_04_30_python3_google_cloud_texttospeech_pip
+python3-gpiozero:
+  debian: [python3-gpiozero]
+  fedora: [python3-gpiozero]
+  ubuntu:
+    '*': [python3-gpiozero]
+    bionic: null
 python3-gpxpy:
   debian: [python3-gpxpy]
   fedora: [python3-gpxpy]
@@ -7844,6 +7850,7 @@ python3-sphinx-rtd-theme:
   nixos: [python3Packages.sphinx_rtd_theme]
   rhel: ['python%{python3_pkgversion}-sphinx_rtd_theme']
   ubuntu: [python3-sphinx-rtd-theme]
+python3-spidev-pip: *migrate_eol_2025_04_30_python3_spidev_pip
 python3-sqlalchemy:
   arch: [python-sqlalchemy]
   debian: [python3-sqlalchemy]
