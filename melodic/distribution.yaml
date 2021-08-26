@@ -2791,7 +2791,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipab-slmc/eigenpy_catkin-release.git
-      version: 2.6.4-1
+      version: 2.6.7-2
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -10166,7 +10166,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/peci1/robot_body_filter-release.git
-      version: 1.2.1-1
+      version: 1.2.2-1
     source:
       type: git
       url: https://github.com/peci1/robot_body_filter.git
@@ -11707,6 +11707,16 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/rqt_nav_view.git
       version: master
+    status: maintained
+  rqt_paramedit:
+    doc:
+      type: git
+      url: https://github.com/dornhege/rqt_paramedit.git
+      version: melodic-devel
+    source:
+      type: git
+      url: https://github.com/dornhege/rqt_paramedit.git
+      version: melodic-devel
     status: maintained
   rqt_plot:
     doc:
