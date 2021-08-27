@@ -3087,6 +3087,16 @@ repositories:
       url: https://github.com/ros-visualization/interactive_markers.git
       version: noetic-devel
     status: maintained
+  iotbot:
+    doc:
+      type: git
+      url: https://github.com/EduArt-Robotik/iotbot.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/EduArt-Robotik/iotbot.git
+      version: main
+    status: maintained
   ira_laser_tools:
     doc:
       type: git
@@ -5147,6 +5157,17 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/eclipse/paho.mqtt.c.git
+      version: master
+    status: maintained
+  paho-mqtt-cpp:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/nobleo/paho.mqtt.cpp-release.git
+      version: 1.2.0-2
+    source:
+      type: git
+      url: https://github.com/eclipse/paho.mqtt.cpp.git
       version: master
     status: maintained
   panda_moveit_config:
@@ -8982,7 +9003,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/seqsense/urg_stamped-release.git
-      version: 0.0.13-1
+      version: 0.0.14-1
     source:
       type: git
       url: https://github.com/seqsense/urg_stamped.git
