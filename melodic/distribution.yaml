@@ -7644,7 +7644,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/novatel/novatel_oem7_driver.git
-      version: master
+      version: ros1
     release:
       packages:
       - novatel_oem7_driver
@@ -7656,8 +7656,8 @@ repositories:
     source:
       type: git
       url: https://github.com/novatel/novatel_oem7_driver.git
-      version: master
-    status: developed
+      version: ros1
+    status: maintained
   novatel_span_driver:
     doc:
       type: git
@@ -12251,6 +12251,21 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/rviz.git
       version: melodic-devel
+    status: maintained
+  rviz_animated_view_controller:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rviz_animated_view_controller.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-gbp/rviz_animated_view_controller-release.git
+      version: 0.2.0-2
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rviz_animated_view_controller.git
+      version: noetic-devel
     status: maintained
   rviz_satellite:
     doc:
