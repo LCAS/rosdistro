@@ -7399,7 +7399,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.10.11-1
+      version: 0.11.0-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -9446,11 +9446,12 @@ repositories:
       - qb_move
       - qb_move_control
       - qb_move_description
+      - qb_move_gazebo
       - qb_move_hardware_interface
       tags:
         release: release/melodic/{package}/{version}
       url: https://bitbucket.org/qbrobotics/qbmove-ros-release.git
-      version: 2.0.0-1
+      version: 2.2.1-1
     source:
       type: git
       url: https://bitbucket.org/qbrobotics/qbmove-ros.git
