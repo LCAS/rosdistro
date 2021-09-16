@@ -1343,6 +1343,21 @@ repositories:
       url: https://github.com/swri-robotics/gps_umd.git
       version: dashing-devel
     status: developed
+  graph_msgs:
+    doc:
+      type: git
+      url: https://github.com/PickNikRobotics/graph_msgs.git
+      version: ros2
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/PickNikRobotics/graph_msgs-release.git
+      version: 0.2.0-1
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/graph_msgs.git
+      version: ros2
+    status: maintained
   grasping_msgs:
     doc:
       type: git
@@ -2264,6 +2279,17 @@ repositories:
       url: https://github.com/swri-robotics/novatel_gps_driver.git
       version: dashing-devel
     status: developed
+  novatel_oem7_driver:
+    doc:
+      type: git
+      url: https://github.com/novatel/novatel_oem7_driver.git
+      version: ros2-dev
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/novatel/novatel_oem7_driver.git
+      version: ros2-dev
+    status: developed
   ntpd_driver:
     doc:
       type: git
@@ -2484,11 +2510,12 @@ repositories:
     release:
       packages:
       - pcl_conversions
+      - pcl_ros
       - perception_pcl
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/perception_pcl-release.git
-      version: 2.2.0-1
+      version: 2.2.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2883,6 +2910,16 @@ repositories:
       url: https://github.com/OUXT-Polaris/quaternion_operation.git
       version: ros2
     status: maintained
+  radar_msgs:
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/radar_msgs-release.git
+      version: 0.2.1-1
+    source:
+      type: git
+      url: https://github.com/ros-perception/radar_msgs.git
+      version: ros2
   random_numbers:
     doc:
       type: git
@@ -3489,6 +3526,27 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_utils.git
+      version: foxy
+    status: developed
+  rmf_visualization:
+    doc:
+      type: git
+      url: https://github.com/open-rmf/rmf_visualization.git
+      version: foxy
+    release:
+      packages:
+      - rmf_visualization
+      - rmf_visualization_building_systems
+      - rmf_visualization_fleet_states
+      - rmf_visualization_rviz2_plugins
+      - rmf_visualization_schedule
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rmf_visualization-release.git
+      version: 1.2.1-1
+    source:
+      type: git
+      url: https://github.com/open-rmf/rmf_visualization.git
       version: foxy
     status: developed
   rmf_visualization_msgs:
@@ -4768,11 +4826,12 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/PickNikRobotics/rviz_visual_tools-release.git
-      version: 4.0.0-1
+      version: 4.0.1-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/rviz_visual_tools.git
       version: foxy-devel
+    status: maintained
   sbg_driver:
     doc:
       type: git
@@ -4868,7 +4927,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/SteveMacenski/slam_toolbox-release.git
-      version: 2.4.0-1
+      version: 2.4.1-1
     source:
       test_pull_requests: true
       type: git
