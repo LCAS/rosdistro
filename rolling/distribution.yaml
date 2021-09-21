@@ -327,6 +327,23 @@ repositories:
       url: https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs.git
       version: master
     status: developed
+  aws-robomaker-small-warehouse-world:
+    doc:
+      type: git
+      url: https://github.com/aws-robotics/aws-robomaker-small-warehouse-world.git
+      version: ros2
+    release:
+      packages:
+      - aws_robomaker_small_warehouse_world
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/aws-gbp/aws_robomaker_small_warehouse_world-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/aws-robotics/aws-robomaker-small-warehouse-world.git
+      version: ros2
+    status: maintained
   backward_ros:
     doc:
       type: git
@@ -989,6 +1006,21 @@ repositories:
       url: https://github.com/swri-robotics/gps_umd.git
       version: dashing-devel
     status: developed
+  graph_msgs:
+    doc:
+      type: git
+      url: https://github.com/PickNikRobotics/graph_msgs.git
+      version: ros2
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/PickNikRobotics/graph_msgs-release.git
+      version: 0.2.0-1
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/graph_msgs.git
+      version: ros2
+    status: maintained
   grbl_msgs:
     doc:
       type: git
@@ -1644,7 +1676,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/moveit/moveit_resources-release.git
-      version: 2.0.2-1
+      version: 2.0.3-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
@@ -1912,7 +1944,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/perception_pcl-release.git
-      version: 2.3.1-1
+      version: 2.4.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2261,7 +2293,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcl-release.git
-      version: 3.2.0-1
+      version: 4.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2301,13 +2333,12 @@ repositories:
     release:
       packages:
       - rcl_logging_interface
-      - rcl_logging_log4cxx
       - rcl_logging_noop
       - rcl_logging_spdlog
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcl_logging-release.git
-      version: 2.1.2-1
+      version: 2.1.3-1
     source:
       test_pull_requests: true
       type: git
@@ -2706,7 +2737,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw-release.git
-      version: 4.0.0-1
+      version: 5.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2726,7 +2757,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_connextdds-release.git
-      version: 0.7.0-1
+      version: 0.8.0-1
     source:
       type: git
       url: https://github.com/ros2/rmw_connextdds.git
@@ -2743,7 +2774,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_cyclonedds-release.git
-      version: 0.23.1-1
+      version: 0.24.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2759,7 +2790,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_dds_common-release.git
-      version: 1.3.0-1
+      version: 1.4.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2779,7 +2810,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_fastrtps-release.git
-      version: 5.2.2-1
+      version: 6.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3748,6 +3779,21 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
+      version: ros2
+    status: maintained
+  rviz_visual_tools:
+    doc:
+      type: git
+      url: https://github.com/PickNikRobotics/rviz_visual_tools.git
+      version: ros2
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/PickNikRobotics/rviz_visual_tools-release.git
+      version: 4.1.0-1
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/rviz_visual_tools.git
       version: ros2
     status: maintained
   sdformat_urdf:

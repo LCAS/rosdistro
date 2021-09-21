@@ -125,7 +125,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/AprilRobotics/apriltag-release.git
-      version: 3.1.5-1
+      version: 3.1.6-1
     source:
       type: git
       url: https://github.com/aprilrobotics/apriltag.git
@@ -1168,9 +1168,9 @@ repositories:
       version: master
     release:
       tags:
-        release: release/kinetic/{package}/{version}
+        release: release/noetic/{package}/{version}
       url: https://github.com/130s/computer_status_msgs-release.git
-      version: 2.0.0-2
+      version: 2.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3218,14 +3218,17 @@ repositories:
     release:
       packages:
       - drone_assets
+      - drone_circuit_assets
       - drone_wrapper
       - jderobot_drones
       - rqt_drone_teleop
       - rqt_ground_robot_teleop
+      - tello_driver
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/JdeRobot/drones-release.git
-      version: 1.4.0-1
+      version: 1.4.1-2
+    status: maintained
   joint_state_publisher:
     doc:
       type: git
@@ -5314,7 +5317,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/perception_pcl-release.git
-      version: 1.7.2-1
+      version: 1.7.3-1
     source:
       test_pull_requests: true
       type: git
@@ -5886,7 +5889,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/PilzDE/psen_scan_v2-release.git
-      version: 0.3.1-1
+      version: 0.3.2-1
     source:
       type: git
       url: https://github.com/PilzDE/psen_scan_v2.git
@@ -8305,7 +8308,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/SteveMacenski/slam_toolbox-release.git
-      version: 1.5.5-1
+      version: 1.5.6-1
     source:
       test_pull_requests: true
       type: git
@@ -9003,7 +9006,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library-release.git
-      version: 0.3.1-1
+      version: 0.3.2-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
