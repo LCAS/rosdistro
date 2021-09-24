@@ -1241,7 +1241,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/joint_state_publisher.git
-      version: foxy
+      version: galactic
     release:
       packages:
       - joint_state_publisher
@@ -1254,7 +1254,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/joint_state_publisher.git
-      version: foxy
+      version: galactic
     status: maintained
   joystick_drivers:
     doc:
@@ -1826,6 +1826,21 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-planning/navigation_msgs.git
+      version: galactic
+    status: maintained
+  neo_simulation2:
+    doc:
+      type: git
+      url: https://github.com/neobotix/neo_simulation2.git
+      version: galactic
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/neobotix/neo_simulation2-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/neobotix/neo_simulation2.git
       version: galactic
     status: maintained
   nmea_msgs:
