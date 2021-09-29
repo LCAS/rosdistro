@@ -3658,6 +3658,25 @@ repositories:
       url: https://github.com/LeoRover/leo_desktop.git
       version: master
     status: maintained
+  leo_robot:
+    doc:
+      type: git
+      url: https://github.com/LeoRover/leo_robot.git
+      version: master
+    release:
+      packages:
+      - leo_bringup
+      - leo_fw
+      - leo_robot
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/fictionlab-gbp/leo_robot-release.git
+      version: 1.2.0-1
+    source:
+      type: git
+      url: https://github.com/LeoRover/leo_robot.git
+      version: master
+    status: maintained
   leo_simulator:
     doc:
       type: git
@@ -4348,6 +4367,17 @@ repositories:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
       version: master
+    status: maintained
+  moveit_opw_kinematics_plugin:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/JeroenDM/moveit_opw_kinematics_plugin-release.git
+      version: 0.3.1-2
+    source:
+      type: git
+      url: https://github.com/JeroenDM/moveit_opw_kinematics_plugin.git
+      version: noetic-devel
     status: maintained
   moveit_python:
     doc:
@@ -7993,7 +8023,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rviz-release.git
-      version: 1.14.9-2
+      version: 1.14.10-1
     source:
       test_pull_requests: true
       type: git
