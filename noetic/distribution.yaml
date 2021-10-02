@@ -2896,6 +2896,30 @@ repositories:
       url: https://github.com/at-wat/hokuyo3d.git
       version: master
     status: developed
+  husky:
+    doc:
+      type: git
+      url: https://github.com/husky/husky.git
+      version: noetic-devel
+    release:
+      packages:
+      - husky_control
+      - husky_description
+      - husky_desktop
+      - husky_gazebo
+      - husky_msgs
+      - husky_navigation
+      - husky_simulator
+      - husky_viz
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/husky-release.git
+      version: 0.6.0-2
+    source:
+      type: git
+      url: https://github.com/husky/husky.git
+      version: noetic-devel
+    status: maintained
   ifm3d:
     release:
       tags:
@@ -3212,6 +3236,27 @@ repositories:
       url: https://github.com/ixblue/ixblue_stdbin_decoder.git
       version: master
     status: developed
+  jackal:
+    doc:
+      type: git
+      url: https://github.com/jackal/jackal.git
+      version: noetic-devel
+    release:
+      packages:
+      - jackal_control
+      - jackal_description
+      - jackal_msgs
+      - jackal_navigation
+      - jackal_tutorials
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/jackal-release.git
+      version: 0.8.0-2
+    source:
+      type: git
+      url: https://github.com/jackal/jackal.git
+      version: noetic-devel
+    status: maintained
   jderobot_assets:
     release:
       tags:
@@ -6461,20 +6506,23 @@ repositories:
       version: master
     release:
       packages:
-      - rm_base
       - rm_common
       - rm_control
+      - rm_dbus
       - rm_description
       - rm_gazebo
+      - rm_hw
       - rm_msgs
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/rm-controls/rm_control-release.git
-      version: 0.1.1-5
+      version: 0.1.7-3
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
       version: master
+    status: developed
+    status_description: developed
   rm_controllers:
     doc:
       type: git
