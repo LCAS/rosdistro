@@ -72,7 +72,7 @@ mongo-cxx-driver:
 morse-blender-bundle:
   ubuntu:
     precise: [morse-blender-2.65-py-3.3]
-omni-drive-controller:
+omni_drive_controller:
   ubuntu:
     bionic: [ros-melodic-omni-drive-controller]
 opencl_latest:
@@ -109,10 +109,10 @@ python-strands-requests:
 rcomponent:
   ubuntu:
     bionic: [ros-melodic-rcomponent]
-robotnik-msgs:
+robotnik_msgs:
   ubuntu:
     bionic: [ros-melodic-robotnik-msgs]
-robotnik-twist2ackermann:
+robotnik_twist2ackermann:
   ubuntu:
     bionic: [ros-melodic-twist2ackermann]
 rubygem-jekyll:
