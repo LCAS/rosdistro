@@ -1,3 +1,6 @@
+ackermann_drive_controller:  
+  ubuntu:    
+    bionic: [ros-melodic-ackermann-drive-controller]
 coinor-solvers:
   ubuntu: [coinor-libcbc-dev, coinor-libclp-dev, coinor-libcoinutils-dev, coinor-libcgl-dev, coinor-libosi-dev]
 cuda_10_0:
@@ -69,6 +72,9 @@ mongo-cxx-driver:
 morse-blender-bundle:
   ubuntu:
     precise: [morse-blender-2.65-py-3.3]
+omni-drive-controller:
+  ubuntu:
+    bionic: [ros-melodic-omni-drive-controller]
 opencl_latest:
   ubuntu: [opencl-headers, nvidia-opencl-dev]
 openjdk-8:
@@ -100,6 +106,15 @@ python-pywt:
     oneiric: []
 python-strands-requests:
   ubuntu: [python-requests]
+rcontroller:
+  ubuntu:
+    bionic: [ros-melodic-rcomponent]
+robotnik-msgs:
+  ubuntu:
+    bionic: [ros-melodic-robotnik-msgs]
+robotnik-twist2ackermann:
+  ubuntu:
+    bionic: [ros-melodic-twist2ackermann]
 rubygem-jekyll:
   ubuntu: [rubygem-jekyll]
 strands-morse-simulator:
