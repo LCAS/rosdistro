@@ -1,5 +1,5 @@
-ackermann_drive_controller:  
-  ubuntu:    
+ackermann_drive_controller:
+  ubuntu:
     bionic: [ros-melodic-ackermann-drive-controller]
 coinor-solvers:
   ubuntu: [coinor-libcbc-dev, coinor-libclp-dev, coinor-libcoinutils-dev, coinor-libcgl-dev, coinor-libosi-dev]
