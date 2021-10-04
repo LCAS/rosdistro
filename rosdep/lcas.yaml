@@ -106,7 +106,7 @@ python-pywt:
     oneiric: []
 python-strands-requests:
   ubuntu: [python-requests]
-rcontroller:
+rcomponent:
   ubuntu:
     bionic: [ros-melodic-rcomponent]
 robotnik-msgs:
