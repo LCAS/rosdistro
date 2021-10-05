@@ -114,7 +114,7 @@ robotnik_msgs:
     bionic: [ros-melodic-robotnik-msgs]
 robotnik_twist2ackermann:
   ubuntu:
-    bionic: [ros-melodic-twist2ackermann]
+    bionic: [ros-melodic-robotnik-twist2ackermann]
 rubygem-jekyll:
   ubuntu: [rubygem-jekyll]
 strands-morse-simulator:
