@@ -26,6 +26,14 @@ repositories:
       version: main
     status: developed
   bacchus_lcas:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/bacchus_lcas.git
+      version: master
+    status: developed
+  bacchus_teaching:
     release:
       packages:
       - bacchus_gazebo
@@ -39,7 +47,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LCAS/bacchus_lcas.git
-      version: master
+      version: teaching
     status: developed
   bayes_tracking:
     release:
