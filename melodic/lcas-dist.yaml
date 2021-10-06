@@ -96,6 +96,14 @@ repositories:
       url: https://github.com/LCAS/depth_sensors.git
       version: melodic-devel
     status: maintained
+  ecart_autonomy:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/ecart_autonomy.git
+      version: main
+    status: developed
   franka_ros_lcas:
     release:
       packages:
