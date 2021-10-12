@@ -6039,7 +6039,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/uos-gbp/lvr2-release.git
-      version: 20.11.2-1
+      version: 20.11.3-1
     source:
       type: git
       url: https://github.com/uos/lvr2.git
@@ -6227,7 +6227,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2021.9.9-1
+      version: 2021.10.10-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -11790,6 +11790,14 @@ repositories:
       type: git
       url: https://github.com/dornhege/rqt_paramedit.git
       version: melodic-devel
+    release:
+      packages:
+      - qt_paramedit
+      - rqt_paramedit
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/dornhege/rqt_paramedit-release.git
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/dornhege/rqt_paramedit.git
