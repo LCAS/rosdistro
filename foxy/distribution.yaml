@@ -367,7 +367,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/aws-gbp/aws_robomaker_small_warehouse_world-release.git
-      version: 1.0.1-1
+      version: 1.0.1-2
     source:
       type: git
       url: https://github.com/aws-robotics/aws-robomaker-small-warehouse-world.git
@@ -1093,7 +1093,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/fastrtps-release.git
-      version: 2.0.2-2
+      version: 2.1.1-1
     source:
       test_commits: true
       test_pull_requests: false
@@ -3723,7 +3723,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_gurumdds-release.git
-      version: 1.0.10-1
+      version: 1.0.12-1
     source:
       type: git
       url: https://github.com/ros2/rmw_gurumdds.git
@@ -5709,6 +5709,25 @@ repositories:
       url: https://github.com/ros-drivers/velodyne.git
       version: ros2
     status: developed
+  velodyne_simulator:
+    doc:
+      type: git
+      url: https://bitbucket.org/DataspeedInc/velodyne_simulator.git
+      version: foxy-devel
+    release:
+      packages:
+      - velodyne_description
+      - velodyne_gazebo_plugins
+      - velodyne_simulator
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/DataspeedInc-release/velodyne_simulator-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://bitbucket.org/DataspeedInc/velodyne_simulator.git
+      version: foxy-devel
+    status: maintained
   vision_msgs:
     doc:
       type: git
@@ -5772,6 +5791,21 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/warehouse_ros_mongo.git
+      version: ros2
+    status: maintained
+  warehouse_ros_sqlite:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/warehouse_ros_sqlite.git
+      version: ros2
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/moveit/warehouse_ros_sqlite-release.git
+      version: 1.0.2-1
+    source:
+      type: git
+      url: https://github.com/ros-planning/warehouse_ros_sqlite.git
       version: ros2
     status: maintained
   webots_ros2:
