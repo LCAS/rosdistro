@@ -488,7 +488,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.com/botasys/bota_driver-release.git
-      version: 0.6.1-1
+      version: 0.6.1-2
     source:
       type: git
       url: https://gitlab.com/botasys/bota_driver.git
@@ -3908,7 +3908,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/uos-gbp/lvr2-release.git
-      version: 20.11.2-1
+      version: 20.11.3-4
     source:
       type: git
       url: https://github.com/uos/lvr2.git
@@ -4046,7 +4046,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2021.9.9-1
+      version: 2021.10.10-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -8173,6 +8173,21 @@ repositories:
       url: https://bitbucket.org/DataspeedInc/sainsmart_relay_usb.git
       version: master
     status: maintained
+  sbg_driver:
+    doc:
+      type: git
+      url: https://github.com/SBG-Systems/sbg_ros_driver.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/SBG-Systems/sbg_ros_driver-release.git
+      version: 3.1.0-2
+    source:
+      type: git
+      url: https://github.com/SBG-Systems/sbg_ros_driver.git
+      version: master
+    status: maintained
   sbpl:
     release:
       tags:
@@ -9056,7 +9071,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/KumarRobotics/ublox-release.git
-      version: 1.4.1-2
+      version: 1.5.0-1
     source:
       type: git
       url: https://github.com/KumarRobotics/ublox.git
