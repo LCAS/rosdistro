@@ -912,6 +912,11 @@ repositories:
       version: melodic-devel
     status: developed
   topic_compression:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/topic_compression.git
+      version: 0.0.2-1
     source:
       test_commits: true
       test_pull_requests: true
