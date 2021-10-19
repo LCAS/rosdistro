@@ -657,7 +657,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: ros2-devel
+      version: galactic
     release:
       packages:
       - diagnostic_aggregator
@@ -671,7 +671,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: ros2-devel
+      version: galactic
     status: maintained
   dolly:
     doc:
@@ -1704,6 +1704,21 @@ repositories:
       url: https://github.com/ros-planning/moveit_resources.git
       version: ros2
     status: developed
+  moveit_visual_tools:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/moveit_visual_tools.git
+      version: ros2
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/moveit/moveit_visual_tools-release.git
+      version: 4.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-planning/moveit_visual_tools.git
+      version: ros2
+    status: maintained
   mrpt2:
     doc:
       type: git
