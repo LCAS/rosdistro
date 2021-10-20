@@ -2128,6 +2128,21 @@ repositories:
       url: https://gitlab.com/ApexAI/point_cloud_msg_wrapper
       version: rolling
     status: developed
+  pointcloud_to_laserscan:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/pointcloud_to_laserscan.git
+      version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/pointcloud_to_laserscan-release.git
+      version: 2.0.1-1
+    source:
+      type: git
+      url: https://github.com/ros-perception/pointcloud_to_laserscan.git
+      version: rolling
+    status: maintained
   pybind11_vendor:
     doc:
       type: git
@@ -4543,6 +4558,21 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/warehouse_ros_mongo.git
+      version: ros2
+    status: maintained
+  warehouse_ros_sqlite:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/warehouse_ros_sqlite.git
+      version: ros2
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/moveit/warehouse_ros_sqlite-release.git
+      version: 1.0.2-1
+    source:
+      type: git
+      url: https://github.com/ros-planning/warehouse_ros_sqlite.git
       version: ros2
     status: maintained
   webots_ros2:
