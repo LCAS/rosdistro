@@ -2621,6 +2621,16 @@ repositories:
       url: https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs.git
       version: melodic-devel
     status: developed
+  dynamixel_interface:
+    doc:
+      type: git
+      url: https://github.com/csiro-robotics/dynamixel_interface.git
+      version: noetic-devel
+    source:
+      type: git
+      url: https://github.com/csiro-robotics/dynamixel_interface.git
+      version: noetic-devel
+    status: maintained
   dynamixel_sdk:
     doc:
       type: git
@@ -8791,7 +8801,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.3.1-1
+      version: 3.3.2-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -8821,7 +8831,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins-release.git
-      version: 1.5.0-1
+      version: 1.6.2-1
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
