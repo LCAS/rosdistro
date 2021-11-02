@@ -526,6 +526,11 @@ repositories:
       type: git
       url: https://github.com/FraunhoferIOSB/camera_aravis.git
       version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/FraunhoferIOSB/camera_aravis-release.git
+      version: 4.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1856,7 +1861,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipab-slmc/eigenpy_catkin-release.git
-      version: 2.6.8-1
+      version: 2.6.9-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -3217,16 +3222,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/iralabdisco/ira_laser_tools.git
-      version: noetic
+      version: ros1-master
     release:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/iralabdisco/ira_laser_tools-release.git
-      version: 1.0.6-2
+      version: 1.0.7-1
     source:
       type: git
       url: https://github.com/iralabdisco/ira_laser_tools.git
-      version: noetic
+      version: ros1-master
     status: developed
   iris_lama:
     release:
@@ -4201,11 +4206,10 @@ repositories:
       - mesh_msgs_transform
       - mesh_tools
       - rviz_map_plugin
-      - rviz_mesh_plugin
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/uos-gbp/mesh-tools.git
-      version: 1.0.1-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/uos/mesh_tools.git
@@ -4525,6 +4529,21 @@ repositories:
       url: https://github.com/ros-planning/moveit_resources.git
       version: master
     status: maintained
+  moveit_sim_controller:
+    doc:
+      type: git
+      url: https://github.com/PickNikRobotics/moveit_sim_controller.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/PickNikRobotics/moveit_sim_controller-release.git
+      version: 0.3.0-1
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/moveit_sim_controller.git
+      version: noetic-devel
+    status: maintained
   moveit_visual_tools:
     doc:
       type: git
@@ -4777,7 +4796,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.11.0-1
+      version: 0.11.1-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -5350,7 +5369,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/nobleo/paho.mqtt.cpp-release.git
-      version: 1.2.0-2
+      version: 1.2.0-3
     source:
       type: git
       url: https://github.com/eclipse/paho.mqtt.cpp.git
@@ -5640,7 +5659,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.3.2-1
+      version: 3.3.3-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -6632,7 +6651,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/robot_calibration-release.git
-      version: 0.6.4-1
+      version: 0.6.5-1
     source:
       test_pull_requests: true
       type: git
@@ -7518,6 +7537,21 @@ repositories:
       url: https://github.com/ros-drivers/rosserial.git
       version: noetic-devel
     status: maintained
+  roswww:
+    doc:
+      type: git
+      url: https://github.com/tork-a/roswww.git
+      version: develop
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/roswww-release.git
+      version: 0.1.13-1
+    source:
+      type: git
+      url: https://github.com/tork-a/roswww.git
+      version: develop
+    status: unmaintained
   rqt:
     doc:
       type: git

@@ -65,6 +65,7 @@ repositories:
       - ament_cmake_export_libraries
       - ament_cmake_export_link_flags
       - ament_cmake_export_targets
+      - ament_cmake_gen_version_h
       - ament_cmake_gmock
       - ament_cmake_google_benchmark
       - ament_cmake_gtest
@@ -79,7 +80,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ament_cmake-release.git
-      version: 1.1.4-1
+      version: 1.2.0-1
     source:
       test_pull_requests: true
       type: git
@@ -441,7 +442,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/cartographer_ros-release.git
-      version: 1.0.9003-3
+      version: 1.0.9004-1
     source:
       test_pull_requests: true
       type: git
@@ -1609,6 +1610,20 @@ repositories:
       url: https://github.com/ros2/message_filters.git
       version: master
     status: maintained
+  micro_ros_diagnostics:
+    release:
+      packages:
+      - micro_ros_diagnostic_bridge
+      - micro_ros_diagnostic_msgs
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/micro_ros_diagnostics-release.git
+      version: 0.2.0-1
+    source:
+      type: git
+      url: https://github.com/micro-ROS/micro_ros_diagnostics.git
+      version: master
+    status: developed
   micro_ros_msgs:
     doc:
       type: git
@@ -2494,7 +2509,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcutils-release.git
-      version: 4.0.2-1
+      version: 5.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2563,7 +2578,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_battery-release.git
-      version: 0.1.1-1
+      version: 0.1.2-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_battery.git
@@ -2714,7 +2729,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_traffic-release.git
-      version: 1.4.0-1
+      version: 1.4.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic.git
@@ -3270,18 +3285,21 @@ repositories:
     release:
       packages:
       - rosapi
+      - rosapi_msgs
       - rosbridge_library
       - rosbridge_msgs
       - rosbridge_server
       - rosbridge_suite
+      - rosbridge_test_msgs
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbridge_suite-release.git
-      version: 1.0.5-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
       version: ros2
+    status: developed
   rosidl:
     doc:
       type: git
@@ -3544,7 +3562,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_console-release.git
-      version: 2.0.1-1
+      version: 2.0.2-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_console.git

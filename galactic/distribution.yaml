@@ -919,6 +919,24 @@ repositories:
       url: https://github.com/ros-drivers/four_wheel_steering_msgs.git
       version: ros2
     status: maintained
+  gazebo_ros2_control:
+    doc:
+      type: git
+      url: https://github.com/ros-simulation/gazebo_ros2_control.git
+      version: master
+    release:
+      packages:
+      - gazebo_ros2_control
+      - gazebo_ros2_control_demos
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros2-gbp/gazebo_ros2_control-release.git
+      version: 0.0.4-1
+    source:
+      type: git
+      url: https://github.com/ros-simulation/gazebo_ros2_control.git
+      version: master
+    status: maintained
   gazebo_ros_pkgs:
     doc:
       type: git
@@ -1610,6 +1628,24 @@ repositories:
       url: https://github.com/ros2/message_filters.git
       version: galactic
     status: maintained
+  micro_ros_diagnostics:
+    doc:
+      type: git
+      url: https://github.com/micro-ROS/micro_ros_diagnostics.git
+      version: master
+    release:
+      packages:
+      - micro_ros_diagnostic_bridge
+      - micro_ros_diagnostic_msgs
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros2-gbp/micro_ros_diagnostics-release.git
+      version: 0.2.0-2
+    source:
+      type: git
+      url: https://github.com/micro-ROS/micro_ros_diagnostics.git
+      version: master
+    status: developed
   micro_ros_msgs:
     doc:
       type: git
@@ -2775,7 +2811,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_battery-release.git
-      version: 0.1.1-1
+      version: 0.1.2-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_battery.git
@@ -2926,7 +2962,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_traffic-release.git
-      version: 1.4.0-1
+      version: 1.4.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic.git
@@ -3787,7 +3823,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_console-release.git
-      version: 2.0.1-1
+      version: 2.0.2-2
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_console.git

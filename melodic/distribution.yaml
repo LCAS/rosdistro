@@ -2827,7 +2827,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ipab-slmc/eigenpy_catkin-release.git
-      version: 2.6.8-1
+      version: 2.6.9-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -4816,16 +4816,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/iralabdisco/ira_laser_tools.git
-      version: melodic
+      version: ros1-master
     release:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/iralabdisco/ira_laser_tools-release.git
-      version: 1.0.6-1
+      version: 1.0.7-1
     source:
       type: git
       url: https://github.com/iralabdisco/ira_laser_tools.git
-      version: melodic
+      version: ros1-master
     status: developed
   iris_lama:
     release:
@@ -6376,6 +6376,7 @@ repositories:
       version: master
     release:
       packages:
+      - cvp_mesh_planner
       - dijkstra_mesh_planner
       - mbf_mesh_core
       - mbf_mesh_nav
@@ -6384,11 +6385,10 @@ repositories:
       - mesh_layers
       - mesh_map
       - mesh_navigation
-      - wave_front_planner
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/uos-gbp/mesh_navigation-release.git
-      version: 1.0.0-3
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/uos/mesh_navigation.git
@@ -6409,11 +6409,10 @@ repositories:
       - mesh_msgs_transform
       - mesh_tools
       - rviz_map_plugin
-      - rviz_mesh_plugin
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/uos-gbp/mesh-tools.git
-      version: 1.0.1-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/uos/mesh_tools.git
@@ -7485,7 +7484,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.11.0-1
+      version: 0.11.1-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -8821,7 +8820,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.3.2-1
+      version: 3.3.3-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -10280,7 +10279,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/robot_calibration-release.git
-      version: 0.6.4-1
+      version: 0.6.5-1
     source:
       test_pull_requests: true
       type: git
@@ -11513,7 +11512,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/roswww-release.git
-      version: 0.1.12-0
+      version: 0.1.13-1
     source:
       type: git
       url: https://github.com/tork-a/roswww.git
