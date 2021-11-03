@@ -1640,7 +1640,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/micro_ros_diagnostics-release.git
-      version: 0.2.0-2
+      version: 0.2.0-3
     source:
       type: git
       url: https://github.com/micro-ROS/micro_ros_diagnostics.git
@@ -4187,6 +4187,21 @@ repositories:
       type: git
       url: https://github.com/ros/sdformat_urdf.git
       version: ros2
+    status: maintained
+  simple_launch:
+    doc:
+      type: git
+      url: https://github.com/oKermorgant/simple_launch.git
+      version: 1.0.2
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/oKermorgant/simple_launch-release.git
+      version: 1.2.0-1
+    source:
+      type: git
+      url: https://github.com/oKermorgant/simple_launch.git
+      version: devel
     status: maintained
   slam_toolbox:
     doc:
