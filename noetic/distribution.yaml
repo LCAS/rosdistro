@@ -4113,7 +4113,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 1.9.0-1
+      version: 1.10.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5644,7 +5644,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipab-slmc/pinocchio_catkin-release.git
-      version: 2.6.3-1
+      version: 2.6.4-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
@@ -9018,7 +9018,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/turtlebot3_autorace_2020_release.git
-      version: 1.1.0-7
+      version: 1.1.1-2
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/turtlebot3_autorace_2020.git
