@@ -546,9 +546,6 @@ clang-tidy:
   fedora: [clang-tools-extra]
   gentoo: [sys-devel/clang]
   nixos: [clang]
-  osx:
-    homebrew:
-      packages: [llvm]
   rhel:
     '*': [clang-tools-extra]
     '7': null
@@ -1441,6 +1438,9 @@ google-mock:
   nixos: [gtest]
   openembedded: [gtest@meta-oe]
   opensuse: [gmock]
+  osx:
+    homebrew:
+      packages: [googletest]
   rhel: [gmock-devel]
   ubuntu: [google-mock]
 gpac:
@@ -2921,6 +2921,13 @@ libexpat1-dev:
   gentoo: [dev-libs/expat]
   openembedded: [expat@openembedded-core]
   ubuntu: [libexpat1-dev]
+libext2fs-dev:
+  alpine: [e2fsprogs-dev]
+  debian: [libext2fs-dev]
+  fedora: [e2fsprogs-devel]
+  opensuse: [libext2fs-devel]
+  rhel: [e2fsprogs-devel]
+  ubuntu: [libext2fs-dev]
 libfcl-dev:
   arch: [fcl]
   debian:
@@ -5104,6 +5111,12 @@ libtiff4-dev:
   macports: [tiff]
   nixos: [libtiff]
   ubuntu: [libtiff4-dev]
+libtins-dev:
+  alpine: [libtins-dev]
+  arch: [libtins]
+  debian: [libtins-dev]
+  opensuse: [libtins-devel]
+  ubuntu: [libtins-dev]
 libtool:
   arch: [libtool]
   debian:
@@ -5614,9 +5627,6 @@ libxml2-utils:
   gentoo: [dev-libs/libxml2]
   nixos: [libxml2]
   openembedded: [libxml2@openembedded-core]
-  osx:
-    homebrew:
-      packages: [libxml2]
   rhel: [libxml2]
   ubuntu: [libxml2-utils]
 libxmlrpc-c++:
@@ -7634,7 +7644,7 @@ usbutils:
   openembedded: [usbutils@openembedded-core]
   osx:
     homebrew:
-      packages: [mikhailai/misc/usbutils]
+      packages: [lsusb]
   ubuntu: [usbutils]
 util-linux:
   arch: [util-linux]
@@ -7721,6 +7731,9 @@ wget:
   nixos: [wget]
   openembedded: [wget@openembedded-core]
   opensuse: [wget]
+  osx:
+    homebrew:
+      packages: [wget]
   ubuntu: [wget]
 wireless-tools:
   debian: [wireless-tools]
