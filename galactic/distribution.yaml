@@ -1475,7 +1475,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/IntelRealSense/librealsense2-release.git
-      version: 2.48.0-2
+      version: 2.50.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1671,7 +1671,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/LORD-MicroStrain/microstrain_inertial-ros2-release.git
-      version: 2.0.6-1
+      version: 2.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2531,7 +2531,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rc_genicam_driver_ros2-release.git
-      version: 0.2.0-1
+      version: 0.2.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2743,7 +2743,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/IntelRealSense/realsense-ros-release.git
-      version: 3.2.2-2
+      version: 3.2.3-1
     source:
       test_pull_requests: true
       type: git
@@ -4058,6 +4058,22 @@ repositories:
       url: https://github.com/ros-visualization/rqt_srv.git
       version: crystal-devel
     status: maintained
+  rqt_tf_tree:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_tf_tree.git
+      version: dashing-devel
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_tf_tree-release.git
+      version: 1.0.3-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/rqt_tf_tree.git
+      version: dashing-devel
+    status: maintained
   rqt_top:
     doc:
       type: git
@@ -4104,6 +4120,21 @@ repositories:
       url: https://github.com/introlab/rtabmap.git
       version: galactic-devel
     status: maintained
+  rtabmap_ros:
+    doc:
+      type: git
+      url: https://github.com/introlab/rtabmap_ros.git
+      version: galactic-devel
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/introlab/rtabmap_ros-release.git
+      version: 0.20.15-2
+    source:
+      type: git
+      url: https://github.com/introlab/rtabmap_ros.git
+      version: galactic-devel
+    status: developed
   ruckig:
     release:
       tags:

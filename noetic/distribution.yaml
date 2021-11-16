@@ -1925,6 +1925,21 @@ repositories:
       url: https://github.com/shadow-robot/ethercat_grant.git
       version: noetic-devel
     status: maintained
+  euslisp:
+    doc:
+      type: git
+      url: https://github.com/tork-a/euslisp-release.git
+      version: release/noetic/euslisp
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/tork-a/euslisp-release.git
+      version: 9.28.0-1
+    source:
+      type: git
+      url: https://github.com/euslisp/EusLisp.git
+      version: master
+    status: developed
   executive_smach:
     doc:
       type: git
@@ -3037,7 +3052,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/image_pipeline-release.git
-      version: 1.15.3-1
+      version: 1.16.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3854,7 +3869,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/IntelRealSense/librealsense2-release.git
-      version: 2.48.0-1
+      version: 2.50.0-1
     source:
       test_pull_requests: true
       type: git
@@ -4299,7 +4314,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/LORD-MicroStrain/microstrain_inertial-release.git
-      version: 2.0.5-1
+      version: 2.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5768,7 +5783,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/power_msgs-release.git
-      version: 0.4.1-1
+      version: 0.4.2-1
     source:
       type: git
       url: https://github.com/fetchrobotics/power_msgs.git
@@ -6436,7 +6451,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_genicam_driver_ros-release.git
-      version: 0.6.2-1
+      version: 0.6.3-1
     source:
       test_pull_requests: true
       type: git
@@ -6480,7 +6495,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_visard-release.git
-      version: 3.2.3-1
+      version: 3.2.4-1
     source:
       test_pull_requests: true
       type: git
@@ -6515,7 +6530,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/IntelRealSense/realsense-ros-release.git
-      version: 2.3.1-1
+      version: 2.3.2-1
     source:
       test_pull_requests: true
       type: git
@@ -6606,7 +6621,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/rm-controls/rm_control-release.git
-      version: 0.1.7-3
+      version: 0.1.7-4
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
@@ -8361,6 +8376,12 @@ repositories:
       url: https://github.com/ipa320/schunk_modular_robotics.git
       version: kinetic_dev
     status: maintained
+  sciurus17:
+    doc:
+      type: git
+      url: https://github.com/rt-net/sciurus17_ros.git
+      version: master
+    status: maintained
   sdhlibrary_cpp:
     doc:
       type: git
@@ -9599,6 +9620,31 @@ repositories:
       type: git
       url: https://github.com/lagadic/visp_ros.git
       version: master
+  visualization_rwt:
+    doc:
+      type: git
+      url: https://github.com/tork-a/visualization_rwt.git
+      version: kinetic-devel
+    release:
+      packages:
+      - rwt_app_chooser
+      - rwt_image_view
+      - rwt_nav
+      - rwt_plot
+      - rwt_robot_monitor
+      - rwt_speech_recognition
+      - rwt_steer
+      - rwt_utils_3rdparty
+      - visualization_rwt
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/tork-a/visualization_rwt-release.git
+      version: 0.1.1-2
+    source:
+      type: git
+      url: https://github.com/tork-a/visualization_rwt.git
+      version: kinetic-devel
+    status: unmaintained
   visualization_tutorials:
     doc:
       type: git
