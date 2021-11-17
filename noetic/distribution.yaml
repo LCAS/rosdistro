@@ -1318,6 +1318,12 @@ repositories:
       url: https://github.com/rst-tu-dortmund/costmap_converter.git
       version: master
     status: maintained
+  crane_x7:
+    doc:
+      type: git
+      url: https://github.com/rt-net/crane_x7_ros.git
+      version: master
+    status: maintained
   criutils:
     doc:
       type: git
@@ -3005,7 +3011,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ethz-adrl/ifopt-release.git
-      version: 2.0.7-1
+      version: 2.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -6419,7 +6425,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_genicam_api-release.git
-      version: 2.5.6-1
+      version: 2.5.12-1
     source:
       test_pull_requests: true
       type: git
