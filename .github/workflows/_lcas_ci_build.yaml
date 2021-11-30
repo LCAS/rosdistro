@@ -15,9 +15,6 @@ on:
       ros_version:
         required: true
         type: number
-    secrets:
-      envPAT:
-        required: true
 
 jobs:
   test_build_docker: # On Linux, iterates on all ROS 1 and ROS 2 distributions.
