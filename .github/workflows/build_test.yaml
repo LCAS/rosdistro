@@ -10,6 +10,8 @@ jobs:
         python-version: [3.8]
     steps:
     - uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.ORGA_GH_TOKEN }}
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v1
       with:
