@@ -28,6 +28,7 @@ jobs:
         name: caches
         path: '*-cache.yaml*'
     - name: Nexus Repo Publish
+      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
       uses: sonatype-nexus-community/nexus-repo-github-action@master
       with:
         serverUrl: https://lcas.lincoln.ac.uk/repository/
