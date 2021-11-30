@@ -60,3 +60,6 @@ jobs:
         with:
           name: Deb packages for ${{ inputs.ros_distribution }}
           path: ros-${{ inputs.ros_distribution }}-*
+      - name: Nexus Repo Publish
+        run: |
+          for f in ros-${{ inputs.ros_distribution }}-*; do curl -u ${{ secrets.LCAS_REGISTRY_PUSHER }}:${{ secrets.LCAS_REGISTRY_TOKEN }} --upload-file $f https://lcas.lincoln.ac.uk/repository/repository/misc/debs/${{ inputs.ros_distribution }}/$f; done
