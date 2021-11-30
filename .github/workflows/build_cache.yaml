@@ -23,3 +23,18 @@ jobs:
     - name: Generate cache for ${{ matrix.distro }}
       run: |
         rosdistro_build_cache https://raw.githubusercontent.com/LCAS/rosdistro/master/index.yaml ${{ matrix.distro }} --ignore-local || rosdistro_build_cache https://raw.githubusercontent.com/LCAS/rosdistro/master/index.yaml ${{ matrix.distro }} --debug --ignore-local
+    - uses: actions/upload-artifact@v2
+      with:
+        name: caches
+        path: '*-cache.yaml*'
+    - name: Nexus Repo Publish
+      uses: sonatype-nexus-community/nexus-repo-github-action@master
+      with:
+        serverUrl: https://lcas.lincoln.ac.uk/repository/
+        username: ${{ secrets.LCAS_REGISTRY_PUSHER }}
+        password: ${{ secrets.LCAS_REGISTRY_TOKEN }}
+        format: raw
+        repository: misc
+        coordinates: directory=roscache
+        assets: filename=${{ matrix.distro }}-cache.yaml.gz
+        filename: ./${{ matrix.distro }}-cache.yaml.gz
