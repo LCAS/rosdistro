@@ -9,11 +9,10 @@ on:
       docker_image:
         required: true
         type: string
-      gpg_key_id:
-        required: true
-        type: string
     secrets:
       gpg_private_key:
+        required: true
+      gpg_key_id:
         required: true
       dockerhub_user:
         required: true
@@ -55,7 +54,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Build packages
         run: |
-          docker run --rm -e GPG_KEY="${{ inputs.gpg_key_id }}" -e PACKAGE_NAME=__package -v /home/runner/.gnupg:/root/.gnupg:ro -v $GITHUB_WORKSPACE:/package lcas/debuild:${{ inputs.ros_distribution }}
+          docker run --rm -e GPG_KEY="${{ secrets.gpg_key_id }}" -e PACKAGE_NAME=__package -v /home/runner/.gnupg:/root/.gnupg:ro -v $GITHUB_WORKSPACE:/package lcas/debuild:${{ inputs.ros_distribution }}
           find $GITHUB_WORKSPACE
       - uses: actions/upload-artifact@v2
         with:
