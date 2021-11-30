@@ -1,0 +1,40 @@
+name: Generate Cache
+on: [push, pull_request]
+
+jobs:
+  generate_cache:
+    name: Generating Cache
+    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        distro: [kinetic, melodic, noetic]
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.ORGA_GH_TOKEN }}
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip setuptools wheel
+        pip install ros-buildfarm
+    - name: Generate cache for ${{ matrix.distro }}
+      run: |
+        rosdistro_build_cache https://raw.githubusercontent.com/LCAS/rosdistro/master/index.yaml ${{ matrix.distro }} --ignore-local || rosdistro_build_cache https://raw.githubusercontent.com/LCAS/rosdistro/master/index.yaml ${{ matrix.distro }} --debug --ignore-local
+    - uses: actions/upload-artifact@v2
+      with:
+        name: caches
+        path: '*-cache.yaml*'
+    - name: Nexus Repo Publish
+      uses: sonatype-nexus-community/nexus-repo-github-action@master
+      with:
+        serverUrl: https://lcas.lincoln.ac.uk/repository/
+        username: ${{ secrets.LCAS_REGISTRY_PUSHER }}
+        password: ${{ secrets.LCAS_REGISTRY_TOKEN }}
+        format: raw
+        repository: misc
+        coordinates: directory=roscache
+        assets: filename=${{ matrix.distro }}-cache.yaml.gz
+        filename: ./${{ matrix.distro }}-cache.yaml.gz
