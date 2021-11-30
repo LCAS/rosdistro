@@ -18,6 +18,10 @@ on:
         required: true
       dockerhub_token:
         required: true
+      repository_user:
+        required: true
+      repository_pass:
+        required: true
 
 jobs:
   build_deb:
@@ -62,4 +66,4 @@ jobs:
           path: ros-${{ inputs.ros_distribution }}-*
       - name: Nexus Repo Publish
         run: |
-          for f in ros-${{ inputs.ros_distribution }}-*; do curl -u ${{ secrets.LCAS_REGISTRY_PUSHER }}:${{ secrets.LCAS_REGISTRY_TOKEN }} --upload-file $f https://lcas.lincoln.ac.uk/repository/repository/misc/debs/${{ inputs.ros_distribution }}/$f; done
+          for f in ros-${{ inputs.ros_distribution }}-*; do curl -u ${{ secrets.repository_user }}:${{ secrets.repository_pass }} --upload-file $f https://lcas.lincoln.ac.uk/repository/repository/misc/debs/${{ inputs.ros_distribution }}/$f; done
