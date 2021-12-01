@@ -883,6 +883,14 @@ repositories:
       url: https://github.com/strands-project/strands_webtools.git
       version: kinetic-devel
     status: developed
+  swerve_steering_controller:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/swerve_steering_controller.git
+      version: main
+    status: maintained
   thorvald:
     release:
       packages:
