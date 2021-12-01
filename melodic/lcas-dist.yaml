@@ -884,6 +884,11 @@ repositories:
       version: kinetic-devel
     status: developed
   swerve_steering_controller:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/lcas-releases/swerve_steering_controller.git
+      version: 0.0.1-1
     source:
       test_commits: true
       test_pull_requests: true
