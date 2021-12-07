@@ -341,7 +341,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/astuff/avt_vimba_camera-release.git
-      version: 0.0.12-2
+      version: 1.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -729,7 +729,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/PeterMitrano/cnpy-release.git
-      version: 0.0.6-1
+      version: 0.0.7-3
     source:
       type: git
       url: https://github.com/PeterMitrano/cnpy.git
@@ -3546,6 +3546,21 @@ repositories:
       url: https://github.com/jsk-ros-pkg/jsk_visualization.git
       version: master
     status: developed
+  jskeus:
+    doc:
+      type: git
+      url: https://github.com/euslisp/jskeus.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/tork-a/jskeus-release.git
+      version: 1.2.5-1
+    source:
+      type: git
+      url: https://github.com/euslisp/jskeus.git
+      version: master
+    status: developed
   kdl_parser:
     doc:
       type: git
@@ -3762,11 +3777,12 @@ repositories:
       packages:
       - leo
       - leo_description
+      - leo_msgs
       - leo_teleop
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fictionlab-gbp/leo_common-release.git
-      version: 1.2.2-1
+      version: 2.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -4318,7 +4334,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/LORD-MicroStrain/microstrain_inertial-release.git
-      version: 2.1.0-1
+      version: 2.2.0-1
     source:
       test_pull_requests: true
       type: git
@@ -4740,6 +4756,31 @@ repositories:
       url: https://github.com/ros-planning/navigation.git
       version: noetic-devel
     status: maintained
+  navigation_2d:
+    doc:
+      type: git
+      url: https://github.com/skasperski/navigation_2d.git
+      version: noetic
+    release:
+      packages:
+      - nav2d
+      - nav2d_exploration
+      - nav2d_karto
+      - nav2d_localizer
+      - nav2d_msgs
+      - nav2d_navigator
+      - nav2d_operator
+      - nav2d_remote
+      - nav2d_tutorials
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/skasperski/navigation_2d-release.git
+      version: 0.4.3-1
+    source:
+      type: git
+      url: https://github.com/skasperski/navigation_2d.git
+      version: noetic
+    status: maintained
   navigation_experimental:
     doc:
       type: git
@@ -4826,7 +4867,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.11.2-1
+      version: 0.11.3-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -6648,7 +6689,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/rm-controls/rm_controllers-release.git
-      version: 0.1.1-1
+      version: 0.1.1-3
     source:
       type: git
       url: https://github.com/rm-controls/rm_controllers.git
@@ -7060,7 +7101,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/UniversalRobots/Universal_Robots_ROS_controllers_cartesian-release.git
-      version: 0.1.4-1
+      version: 0.1.5-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS_controllers_cartesian.git
@@ -7133,7 +7174,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-industrial-release/ros_industrial_cmake_boilerplate-release.git
-      version: 0.2.13-1
+      version: 0.2.14-1
     source:
       type: git
       url: https://github.com/ros-industrial/ros_industrial_cmake_boilerplate.git
@@ -8691,7 +8732,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/shadow-robot/sr_hand_detector-release.git
-      version: 0.0.7-1
+      version: 0.0.8-1
     source:
       type: git
       url: https://github.com/shadow-robot/sr_hand_detector.git
@@ -8929,7 +8970,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-industrial-release/tesseract-release.git
-      version: 0.6.8-1
+      version: 0.6.9-1
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
