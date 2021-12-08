@@ -3330,6 +3330,10 @@ python-planar-pip:
   ubuntu:
     pip:
       packages: [planar]
+python-ply:
+  '*':
+    pip:
+      packages: [ply]
 python-plyfile-pip:
   debian:
     pip:
@@ -6897,7 +6901,9 @@ python3-more-itertools:
   debian: [python3-more-itertools]
   fedora: [python3-more-itertools]
   gentoo: [dev-python/more-itertools]
-  rhel: ['python%{python3_pkgversion}-more-itertools']
+  rhel:
+    '*': [python3-more-itertools]
+    '7': null
   ubuntu: [python3-more-itertools]
 python3-msgpack:
   debian:
@@ -7361,7 +7367,9 @@ python3-pygit2:
   osx:
     pip:
       packages: [pygit2]
-  rhel: ['python%{python3_pkgversion}-pygit2']
+  rhel:
+    '*': [python3-pygit2]
+    '7': null
   ubuntu: [python3-pygit2]
 python3-pygments:
   alpine: [py3-pygments]
@@ -7403,6 +7411,26 @@ python3-pykdl:
     '*': [python3-pykdl]
     bionic: null
     xenial: null
+python3-pylibdmtx:
+  debian:
+    '*': [python3-pylibdmtx]
+    buster:
+      pip:
+        packages: [pylibdmtx]
+  fedora:
+    pip:
+      packages: [pylibdmtx]
+  osx:
+    pip:
+      packages: [pylibdmtx]
+  ubuntu:
+    '*': [python3-pylibdmtx]
+    bionic:
+      pip:
+        packages: [pylibdmtx]
+    focal:
+      pip:
+        packages: [pylibdmtx]
 python3-pymesh2-pip:
   debian:
     pip:

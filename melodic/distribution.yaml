@@ -8343,6 +8343,16 @@ repositories:
       url: https://github.com/CPFL/ouster.git
       version: autoware_branch
     status: developed
+  outsight_alb_driver:
+    doc:
+      type: git
+      url: https://gitlab.com/outsight-public/outsight-drivers/outsight_alb_driver.git
+      version: master
+    source:
+      type: git
+      url: https://gitlab.com/outsight-public/outsight-drivers/outsight_alb_driver.git
+      version: master
+    status: maintained
   oxford_gps_eth:
     doc:
       type: git
@@ -10862,13 +10872,10 @@ repositories:
       version: melodic-devel
   ros_industrial_cmake_boilerplate:
     release:
-      packages:
-      - gtest
-      - ros_industrial_cmake_boilerplate
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-industrial-release/ros_industrial_cmake_boilerplate-release.git
-      version: 0.2.14-1
+      version: 0.2.14-2
     source:
       type: git
       url: https://github.com/ros-industrial/ros_industrial_cmake_boilerplate.git
@@ -10881,7 +10888,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/inorbit-ai/ros_inorbit_samples-release.git
-      version: 0.2.1-1
+      version: 0.2.2-1
     source:
       type: git
       url: https://github.com/inorbit-ai/ros_inorbit_samples.git

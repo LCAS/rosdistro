@@ -172,6 +172,12 @@ repositories:
       url: https://github.com/vanadiumlabs/arbotix_ros.git
       version: noetic-devel
     status: maintained
+  astra_ros:
+    doc:
+      type: git
+      url: https://github.com/semio-ai/astra_ros.git
+      version: master
+    status: maintained
   astrobee:
     doc:
       type: git
@@ -5390,6 +5396,16 @@ repositories:
       url: https://github.com/tier4/osqp_vendor.git
       version: noetic
     status: maintained
+  outsight_alb_driver:
+    doc:
+      type: git
+      url: https://gitlab.com/outsight-public/outsight-drivers/outsight_alb_driver.git
+      version: master
+    source:
+      type: git
+      url: https://gitlab.com/outsight-public/outsight-drivers/outsight_alb_driver.git
+      version: master
+    status: maintained
   oxford_gps_eth:
     doc:
       type: git
@@ -6343,7 +6359,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/qwt_dependency-release.git
-      version: 1.1.1-1
+      version: 1.1.1-2
     source:
       type: git
       url: https://github.com/ros-visualization/qwt_dependency.git
@@ -6666,7 +6682,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/rm-controls/rm_control-release.git
-      version: 0.1.7-4
+      version: 0.1.8-2
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
@@ -7187,7 +7203,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/inorbit-ai/ros_inorbit_samples-release.git
-      version: 0.2.1-1
+      version: 0.2.2-1
     source:
       type: git
       url: https://github.com/inorbit-ai/ros_inorbit_samples.git
@@ -7879,7 +7895,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_plot-release.git
-      version: 0.4.13-1
+      version: 0.4.13-2
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_plot.git
@@ -8616,6 +8632,21 @@ repositories:
       type: git
       url: https://github.com/oKermorgant/slider_publisher.git
       version: ros1
+    status: maintained
+  snowbot_operating_system:
+    doc:
+      type: git
+      url: https://github.com/PickNikRobotics/snowbot_operating_system.git
+      version: main
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/PickNikRobotics/snowbot_release.git
+      version: 0.0.5-1
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/snowbot_operating_system.git
+      version: main
     status: maintained
   sob_layer:
     doc:

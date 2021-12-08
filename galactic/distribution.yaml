@@ -2149,7 +2149,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/tier4/osqp_vendor-release.git
-      version: 0.0.3-1
+      version: 0.0.4-1
     source:
       type: git
       url: https://github.com/tier4/osqp_vendor.git
@@ -2456,7 +2456,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/python_qt_binding-release.git
-      version: 1.0.7-2
+      version: 1.0.8-1
     source:
       test_pull_requests: true
       type: git
@@ -4865,6 +4865,22 @@ repositories:
       url: https://github.com/ros/urdf_parser_py.git
       version: ros2
     status: maintained
+  urdf_tutorial:
+    doc:
+      type: git
+      url: https://github.com/ros/urdf_tutorial.git
+      version: ros2
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros2-gbp/urdf_tutorial-release.git
+      version: 1.0.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/urdf_tutorial.git
+      version: ros2
+    status: maintained
   urdfdom:
     doc:
       type: git
@@ -5145,7 +5161,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/yaml_cpp_vendor-release.git
-      version: 7.1.0-2
+      version: 7.1.1-1
     source:
       test_pull_requests: true
       type: git
