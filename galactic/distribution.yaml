@@ -2115,6 +2115,21 @@ repositories:
       url: https://github.com/octomap/octomap_msgs.git
       version: ros2
     status: maintained
+  octomap_ros:
+    doc:
+      type: git
+      url: https://github.com/OctoMap/octomap_ros.git
+      version: ros2
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros2-gbp/octomap_ros-release.git
+      version: 0.4.2-1
+    source:
+      type: git
+      url: https://github.com/OctoMap/octomap_ros.git
+      version: ros2
+    status: maintained
   ompl:
     release:
       tags:
@@ -4372,6 +4387,21 @@ repositories:
     source:
       type: git
       url: https://github.com/ijnek/soccer_visualization.git
+      version: main
+    status: developed
+  sol_vendor:
+    doc:
+      type: git
+      url: https://github.com/OUXT-Polaris/sol_vendor.git
+      version: main
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/OUXT-Polaris/sol_vendor-release.git
+      version: 0.0.3-1
+    source:
+      type: git
+      url: https://github.com/OUXT-Polaris/sol_vendor.git
       version: main
     status: developed
   spatio_temporal_voxel_layer:
