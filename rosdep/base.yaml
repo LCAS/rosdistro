@@ -367,6 +367,7 @@ boost:
   arch: [boost]
   cygwin: [libboost-devel, libboost1.40]
   debian:
+    bullseye: [libboost-all-dev]
     buster: [libboost-all-dev]
     jessie: [libboost-all-dev]
     squeeze: [libboost1.42-all-dev]
@@ -7425,6 +7426,12 @@ tesseract-ocr:
   fedora: [tesseract-devel]
   gentoo: [app-text/tesseract]
   ubuntu: [tesseract-ocr]
+tesseract-ocr-jpn:
+  arch: [tesseract-data-jpn]
+  debian: [tesseract-ocr-jpn]
+  fedora: [tesseract-langpack-jpn]
+  rhel: [tesseract-langpack-jpn]
+  ubuntu: [tesseract-ocr-jpn]
 texlive-fonts-extra:
   arch: [texlive-fontsextra]
   debian: [texlive-fonts-extra]
