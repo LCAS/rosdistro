@@ -356,6 +356,21 @@ repositories:
       url: https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs.git
       version: master
     status: developed
+  avt_vimba_camera:
+    doc:
+      type: git
+      url: https://github.com/astuff/avt_vimba_camera.git
+      version: ros2_master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/astuff/avt_vimba_camera-release.git
+      version: 2001.1.0-1
+    source:
+      type: git
+      url: https://github.com/astuff/avt_vimba_camera.git
+      version: ros2_master
+    status: maintained
   aws-robomaker-small-warehouse-world:
     doc:
       type: git
@@ -1402,6 +1417,21 @@ repositories:
       type: git
       url: https://github.com/flynneva/grbl_ros.git
       version: main
+    status: developed
+  grepros:
+    doc:
+      type: git
+      url: https://github.com/suurjaak/grepros.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/suurjaak/grepros-release.git
+      version: 0.4.0-1
+    source:
+      type: git
+      url: https://github.com/suurjaak/grepros.git
+      version: master
     status: developed
   hls_lfcd_lds_driver:
     doc:
