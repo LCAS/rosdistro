@@ -1573,7 +1573,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/diagnostics-release.git
-      version: 1.10.4-1
+      version: 1.11.0-1
     source:
       test_pull_requests: true
       type: git
@@ -4561,7 +4561,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 1.1.6-1
+      version: 1.1.7-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -5831,7 +5831,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.3.3-1
+      version: 3.3.4-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -7259,7 +7259,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/ros_ign-release.git
-      version: 0.111.1-2
+      version: 0.111.2-1
     source:
       test_pull_requests: true
       type: git
@@ -8578,6 +8578,21 @@ repositories:
       type: git
       url: https://github.com/septentrio-gnss/septentrio_gnss_driver.git
       version: master
+    status: maintained
+  serial:
+    doc:
+      type: git
+      url: https://github.com/wjwwood/serial.git
+      version: main
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/wjwwood/serial-release.git
+      version: 1.2.1-1
+    source:
+      type: git
+      url: https://github.com/wjwwood/serial.git
+      version: main
     status: maintained
   sick_ldmrs_laser:
     doc:
