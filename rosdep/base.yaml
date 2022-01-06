@@ -1265,11 +1265,7 @@ gdal-bin:
   nixos: [gdal]
   ubuntu: [gdal-bin]
 geographiclib:
-  debian:
-    buster: [libgeographic-dev]
-    jessie: [libgeographic-dev]
-    stretch: [libgeographic-dev]
-    wheezy: [libgeographiclib-dev]
+  debian: [libgeographic-dev]
   fedora: [GeographicLib-devel]
   nixos: [geographiclib]
   openembedded: [geographiclib@meta-ros-common]
@@ -2170,8 +2166,7 @@ lcov:
   nixos: [lcov]
   openembedded: [lcov@meta-oe]
   opensuse: [lcov]
-  rhel:
-    '7': [lcov]
+  rhel: [lcov]
   ubuntu: [lcov]
 leveldb:
   debian: [libleveldb-dev]
@@ -3021,9 +3016,7 @@ libfftw3:
   ubuntu: [libfftw3-3, libfftw3-dev]
 libfl-dev:
   debian: [libfl-dev]
-  fedora:
-    '*': [libfl-devel]
-    '33': [flex-devel]
+  fedora: [libfl-devel]
   opensuse: [libfl-devel]
   ubuntu: [libfl-dev]
 libflann:
@@ -4222,7 +4215,8 @@ libopensplice69:
 libopenvdb:
   arch: [openvdb]
   debian:
-    buster: [libopenvdb3.2]
+    bullseye: [libopenvdb7.1]
+    buster: [libopenvdb5.2]
     jessie: [libopenvdb2.3]
     stretch: [libopenvdb3.2]
   fedora: [openvdb]
@@ -4235,6 +4229,7 @@ libopenvdb:
     artful: [libopenvdb3.2]
     bionic: [libopenvdb5.0]
     focal: [libopenvdb6.2]
+    jammy: [libopenvdb8.1]
     saucy: [libopenvdb1.1]
     trusty: [libopenvdb2.1]
     utopic: [libopenvdb2.3]
@@ -6179,6 +6174,14 @@ msgpack:
   nixos: [msgpack]
   openembedded: [msgpack-c@meta-oe]
   ubuntu: [libmsgpack-dev]
+msr-tools:
+  arch: [msr-tools]
+  debian: [msr-tools]
+  fedora: [msr-tools]
+  gentoo: [sys-apps/msr-tools]
+  opensuse: [msr-tools]
+  rhel: [msr-tools]
+  ubuntu: [msr-tools]
 multistrap:
   debian: [multistrap]
   ubuntu: [multistrap]

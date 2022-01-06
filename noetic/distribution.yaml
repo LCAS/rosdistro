@@ -3879,7 +3879,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fictionlab-gbp/leo_robot-release.git
-      version: 2.0.1-1
+      version: 2.0.2-1
     source:
       type: git
       url: https://github.com/LeoRover/leo_robot.git
@@ -4190,7 +4190,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2021.12.12-1
+      version: 2022.1.5-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -4211,7 +4211,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 1.12.2-1
+      version: 1.12.2-2
     source:
       test_pull_requests: true
       type: git
@@ -4413,7 +4413,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/LORD-MicroStrain/microstrain_inertial-release.git
-      version: 2.3.0-1
+      version: 2.4.0-1
     source:
       test_pull_requests: true
       type: git
@@ -4607,7 +4607,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/JeroenDM/moveit_opw_kinematics_plugin-release.git
-      version: 0.3.1-2
+      version: 0.4.0-3
     source:
       type: git
       url: https://github.com/JeroenDM/moveit_opw_kinematics_plugin.git
@@ -5831,7 +5831,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.3.4-1
+      version: 3.3.5-2
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git

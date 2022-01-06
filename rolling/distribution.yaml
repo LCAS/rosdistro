@@ -624,7 +624,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-perception/depthimage_to_laserscan.git
-      version: foxy-devel
+      version: ros2
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -634,7 +634,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/depthimage_to_laserscan.git
-      version: foxy-devel
+      version: ros2
     status: maintained
   diagnostics:
     doc:
@@ -1587,7 +1587,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2021.12.12-1
+      version: 2022.1.5-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -1691,7 +1691,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/LORD-MicroStrain/microstrain_inertial-ros2-release.git
-      version: 2.3.0-1
+      version: 2.4.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1878,6 +1878,21 @@ repositories:
       url: https://github.com/neobotix/neo_simulation2.git
       version: main
     status: maintained
+  nmea_hardware_interface:
+    doc:
+      type: git
+      url: https://github.com/OUXT-Polaris/nmea_hardware_interface.git
+      version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/OUXT-Polaris/nmea_hardware_interface-release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://github.com/OUXT-Polaris/nmea_hardware_interface.git
+      version: master
+    status: developed
   nmea_msgs:
     doc:
       type: git
@@ -1942,6 +1957,22 @@ repositories:
       url: https://github.com/vooon/ntpd_driver.git
       version: ros2
     status: maintained
+  ntrip_client:
+    doc:
+      type: git
+      url: https://github.com/LORD-MicroStrain/ntrip_client.git
+      version: ros2
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/LORD-MicroStrain/ntrip_client-ros2-release.git
+      version: 1.0.0-2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LORD-MicroStrain/ntrip_client.git
+      version: ros2
+    status: developed
   object_recognition_msgs:
     release:
       tags:
@@ -1971,6 +2002,24 @@ repositories:
       type: git
       url: https://github.com/octomap/octomap.git
       version: devel
+    status: maintained
+  octomap_mapping:
+    doc:
+      type: git
+      url: https://github.com/OctoMap/octomap_mapping.git
+      version: ros2
+    release:
+      packages:
+      - octomap_mapping
+      - octomap_server
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/octomap_mapping-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/OctoMap/octomap_mapping.git
+      version: ros2
     status: maintained
   octomap_msgs:
     doc:
@@ -2591,7 +2640,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 14.0.0-1
+      version: 14.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3040,7 +3089,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_gurumdds-release.git
-      version: 3.1.1-1
+      version: 3.1.2-1
     source:
       type: git
       url: https://github.com/ros2/rmw_gurumdds.git
@@ -3322,7 +3371,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros_ign-release.git
-      version: 0.244.0-1
+      version: 0.244.1-1
     source:
       test_pull_requests: true
       type: git
@@ -3583,7 +3632,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_typesupport_gurumdds-release.git
-      version: 3.0.0-1
+      version: 3.1.0-1
     source:
       type: git
       url: https://github.com/ros2/rosidl_typesupport_gurumdds.git
@@ -4694,6 +4743,25 @@ repositories:
       url: https://github.com/ros2/variants.git
       version: master
     status: maintained
+  velodyne_simulator:
+    doc:
+      type: git
+      url: https://bitbucket.org/DataspeedInc/velodyne_simulator.git
+      version: foxy-devel
+    release:
+      packages:
+      - velodyne_description
+      - velodyne_gazebo_plugins
+      - velodyne_simulator
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/DataspeedInc-release/velodyne_simulator-release.git
+      version: 2.0.2-1
+    source:
+      type: git
+      url: https://bitbucket.org/DataspeedInc/velodyne_simulator.git
+      version: foxy-devel
+    status: maintained
   vision_msgs:
     doc:
       type: git
@@ -4729,6 +4797,21 @@ repositories:
       type: git
       url: https://github.com/ros-perception/vision_opencv.git
       version: ros2
+    status: maintained
+  visp:
+    doc:
+      type: git
+      url: https://github.com/lagadic/visp.git
+      version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/lagadic/visp-release.git
+      version: 3.4.0-2
+    source:
+      type: git
+      url: https://github.com/lagadic/visp.git
+      version: master
     status: maintained
   warehouse_ros:
     doc:
