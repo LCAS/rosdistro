@@ -3938,6 +3938,21 @@ repositories:
       url: https://github.com/ros-gbp/libg2o-release.git
       version: 2020.5.3-1
     status: maintained
+  libnabo:
+    doc:
+      type: git
+      url: https://github.com/ethz-asl/libnabo.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/nobleo/libnabo-release.git
+      version: 1.0.7-1
+    source:
+      type: git
+      url: https://github.com/ethz-asl/libnabo.git
+      version: master
+    status: maintained
   librealsense2:
     doc:
       type: git
@@ -4413,7 +4428,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/LORD-MicroStrain/microstrain_inertial-release.git
-      version: 2.4.0-1
+      version: 2.4.1-1
     source:
       test_pull_requests: true
       type: git
@@ -6435,6 +6450,12 @@ repositories:
       url: https://github.com/QuanergySystems/quanergy_client_ros.git
       version: master
     status: developed
+  quori_ros:
+    doc:
+      type: git
+      url: https://github.com/Quori-ROS/quori_ros.git
+      version: master
+    status: maintained
   qwt_dependency:
     doc:
       type: git
@@ -7090,7 +7111,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/ros_comm-release.git
-      version: 1.15.13-1
+      version: 1.15.14-1
     source:
       test_pull_requests: true
       type: git
