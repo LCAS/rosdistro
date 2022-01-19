@@ -79,7 +79,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/ament_cmake-release.git
-      version: 1.1.4-1
+      version: 1.1.5-1
     source:
       test_pull_requests: true
       type: git
@@ -218,7 +218,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/angles.git
-      version: ros2
+      version: galactic-devel
     release:
       tags:
         release: release/galactic/{package}/{version}
@@ -228,7 +228,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/angles.git
-      version: ros2
+      version: galactic-devel
     status: maintained
   apex_containers:
     doc:
@@ -2344,6 +2344,21 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse/paho.mqtt.c.git
+      version: master
+    status: maintained
+  paho-mqtt-cpp:
+    doc:
+      type: git
+      url: https://github.com/eclipse/paho.mqtt.cpp.git
+      version: master
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/nobleo/paho.mqtt.cpp-release.git
+      version: 1.2.0-1
+    source:
+      type: git
+      url: https://github.com/eclipse/paho.mqtt.cpp.git
       version: master
     status: maintained
   pal_statistics:
