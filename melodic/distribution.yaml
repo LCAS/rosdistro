@@ -837,12 +837,12 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/nobleo/azure-iot-sdk-c-release.git
-      version: 1.7.0-2
+      version: 1.9.0-1
     source:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: master
+      version: main
     status: maintained
   backward_ros:
     release:
@@ -9403,7 +9403,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/PilzDE/psen_scan_v2-release.git
-      version: 0.10.0-1
+      version: 0.10.1-1
     source:
       type: git
       url: https://github.com/PilzDE/psen_scan_v2.git

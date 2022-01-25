@@ -359,7 +359,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/nobleo/azure-iot-sdk-c-release.git
-      version: 1.8.0-1
+      version: 1.9.0-1
     source:
       test_commits: false
       type: git
@@ -3434,6 +3434,24 @@ repositories:
       url: https://github.com/jackal/jackal.git
       version: noetic-devel
     status: maintained
+  jackal_simulator:
+    doc:
+      type: git
+      url: https://github.com/jackal/jackal_simulator.git
+      version: melodic-devel
+    release:
+      packages:
+      - jackal_gazebo
+      - jackal_simulator
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/jackal_simulator-release.git
+      version: 0.4.0-4
+    source:
+      type: git
+      url: https://github.com/jackal/jackal_simulator.git
+      version: melodic-devel
+    status: maintained
   jderobot_assets:
     release:
       tags:
@@ -4090,7 +4108,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/locator_ros_bridge-release.git
-      version: 1.0.3-1
+      version: 1.0.4-1
     source:
       type: git
       url: https://github.com/boschglobal/locator_ros_bridge.git
@@ -4465,7 +4483,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/Prensilia-srl/mia_hand_ros_pkgs-release.git
-      version: 1.0.0-12
+      version: 1.0.0-13
     status: maintained
   microstrain_3dmgx2_imu:
     doc:
@@ -6325,7 +6343,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/PilzDE/psen_scan_v2-release.git
-      version: 0.10.0-1
+      version: 0.10.1-1
     source:
       type: git
       url: https://github.com/PilzDE/psen_scan_v2.git
@@ -7141,6 +7159,11 @@ repositories:
       version: noetic-devel
     status: maintained
   robotraconteur:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/robotraconteur-packaging/robotraconteur-ros-release.git
+      version: 0.15.4-1
     source:
       type: git
       url: https://github.com/robotraconteur/robotraconteur.git
@@ -10151,11 +10174,29 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/warthog-release.git
-      version: 0.1.4-1
+      version: 0.1.5-1
     source:
       type: git
       url: https://github.com/warthog-cpr/warthog.git
       version: kinetic-devel
+    status: maintained
+  warthog_desktop:
+    doc:
+      type: git
+      url: https://github.com/warthog-cpr/warthog_desktop.git
+      version: melodic-devel
+    release:
+      packages:
+      - warthog_desktop
+      - warthog_viz
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/warthog_desktop-release.git
+      version: 0.1.1-1
+    source:
+      type: git
+      url: https://github.com/warthog-cpr/warthog_desktop.git
+      version: melodic-devel
     status: maintained
   web_video_server:
     doc:
