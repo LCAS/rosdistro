@@ -4544,7 +4544,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/LORD-MicroStrain/microstrain_inertial-release.git
-      version: 2.4.1-1
+      version: 2.5.0-1
     source:
       test_pull_requests: true
       type: git
@@ -9400,7 +9400,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.com/toposens/public/toposens-release.git
-      version: 2.3.1-1
+      version: 2.3.2-2
     source:
       type: git
       url: https://gitlab.com/toposens/public/ros-packages.git
@@ -9801,7 +9801,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/urg_node-release.git
-      version: 0.1.15-1
+      version: 0.1.16-1
     source:
       type: git
       url: https://github.com/ros-drivers/urg_node.git
