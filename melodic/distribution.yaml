@@ -5831,7 +5831,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/LeoRover/leo_simulator.git
-      version: master
+      version: melodic
     release:
       packages:
       - leo_gazebo
@@ -5844,7 +5844,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LeoRover/leo_simulator.git
-      version: master
+      version: melodic
     status: maintained
   leuze_ros_drivers:
     release:
@@ -8932,7 +8932,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.3.5-1
+      version: 3.4.0-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -8962,7 +8962,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins-release.git
-      version: 1.6.2-1
+      version: 1.7.0-1
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
@@ -10961,7 +10961,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-industrial-release/ros_industrial_cmake_boilerplate-release.git
-      version: 0.2.14-2
+      version: 0.2.15-1
     source:
       type: git
       url: https://github.com/ros-industrial/ros_industrial_cmake_boilerplate.git
@@ -12358,7 +12358,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/introlab/rtabmap-release.git
-      version: 0.20.16-1
+      version: 0.20.18-3
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -12373,7 +12373,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.20.16-1
+      version: 0.20.18-2
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git

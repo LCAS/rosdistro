@@ -3941,7 +3941,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fictionlab-gbp/leo_common-release.git
-      version: 2.0.1-1
+      version: 2.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3994,11 +3994,13 @@ repositories:
     release:
       packages:
       - leo_gazebo
+      - leo_gazebo_plugins
+      - leo_gazebo_worlds
       - leo_simulator
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fictionlab-gbp/leo_simulator-release.git
-      version: 0.2.0-1
+      version: 1.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -4697,7 +4699,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 1.1.7-1
+      version: 1.1.8-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -5981,7 +5983,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.3.5-2
+      version: 3.4.0-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -6011,7 +6013,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins-release.git
-      version: 1.6.2-1
+      version: 1.7.0-1
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
@@ -7480,7 +7482,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-industrial-release/ros_industrial_cmake_boilerplate-release.git
-      version: 0.2.14-1
+      version: 0.2.15-1
     source:
       type: git
       url: https://github.com/ros-industrial/ros_industrial_cmake_boilerplate.git
@@ -8536,7 +8538,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/introlab/rtabmap-release.git
-      version: 0.20.16-2
+      version: 0.20.18-2
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -8551,7 +8553,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.20.16-1
+      version: 0.20.18-2
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
@@ -9129,7 +9131,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/srdfdom-release.git
-      version: 0.6.2-1
+      version: 0.6.3-1
     source:
       type: git
       url: https://github.com/ros-planning/srdfdom.git
