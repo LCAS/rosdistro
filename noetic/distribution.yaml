@@ -4000,7 +4000,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fictionlab-gbp/leo_simulator-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -6939,6 +6939,26 @@ repositories:
       type: git
       url: https://github.com/ridgeback/ridgeback_desktop.git
       version: kinetic-devel
+    status: maintained
+  ridgeback_simulator:
+    doc:
+      type: git
+      url: https://github.com/ridgeback/ridgeback_simulator.git
+      version: noetic-devel
+    release:
+      packages:
+      - mecanum_gazebo_plugin
+      - ridgeback_gazebo
+      - ridgeback_gazebo_plugins
+      - ridgeback_simulator
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/ridgeback_simulator-release.git
+      version: 0.2.0-1
+    source:
+      type: git
+      url: https://github.com/ridgeback/ridgeback_simulator.git
+      version: noetic-devel
     status: maintained
   riptide_controllers:
     doc:
@@ -10243,6 +10263,24 @@ repositories:
     source:
       type: git
       url: https://github.com/warthog-cpr/warthog_desktop.git
+      version: melodic-devel
+    status: maintained
+  warthog_simulator:
+    doc:
+      type: git
+      url: https://github.com/warthog-cpr/warthog_simulator.git
+      version: melodic-devel
+    release:
+      packages:
+      - warthog_gazebo
+      - warthog_simulator
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/warthog_simulator-release.git
+      version: 0.2.2-1
+    source:
+      type: git
+      url: https://github.com/warthog-cpr/warthog_simulator.git
       version: melodic-devel
     status: maintained
   web_video_server:
