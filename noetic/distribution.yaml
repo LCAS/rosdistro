@@ -1618,6 +1618,24 @@ repositories:
       url: https://github.com/dingo-cpr/dingo_desktop.git
       version: master
     status: maintained
+  dingo_simulator:
+    doc:
+      type: git
+      url: https://github.com/dingo-cpr/dingo_simulator.git
+      version: master
+    release:
+      packages:
+      - dingo_gazebo
+      - dingo_simulator
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/dingo_simulator-release.git
+      version: 0.1.1-1
+    source:
+      type: git
+      url: https://github.com/dingo-cpr/dingo_simulator.git
+      version: master
+    status: maintained
   dnn_detect:
     doc:
       type: git
@@ -4515,7 +4533,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/Prensilia-srl/mia_hand_ros_pkgs-release.git
-      version: 1.0.0-14
+      version: 1.0.1-1
     status: maintained
   microstrain_3dmgx2_imu:
     doc:
@@ -5983,7 +6001,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.4.0-1
+      version: 3.4.1-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
