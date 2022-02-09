@@ -239,7 +239,7 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://gitlab.com/ApexAI/apex_containers-release.git
+      url: https://github.com/ros2-gbp/apex_containers-release.git
       version: 0.0.4-1
     source:
       type: git
@@ -257,7 +257,7 @@ repositories:
       - test_apex_test_tools
       tags:
         release: release/rolling/{package}/{version}
-      url: https://gitlab.com/ApexAI/apex_test_tools-release.git
+      url: https://github.com/ros2-gbp/apex_test_tools-release.git
       version: 0.0.2-4
     source:
       type: git
@@ -287,7 +287,7 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/fkie-release/async_web_server_cpp-release.git
+      url: https://github.com/ros2-gbp/async_web_server_cpp-release.git
       version: 2.0.0-1
     source:
       type: git
@@ -321,7 +321,7 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs-release.git
+      url: https://github.com/ros2-gbp/autoware_auto_msgs-release.git
       version: 1.0.0-2
     source:
       type: git
@@ -1120,7 +1120,7 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/flynneva/grbl_msgs-release.git
+      url: https://github.com/ros2-gbp/grbl_msgs-release.git
       version: 0.0.2-4
     source:
       type: git
@@ -1180,7 +1180,7 @@ repositories:
       - iceoryx_utils
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/ApexAI/iceoryx-release.git
+      url: https://github.com/ros2-gbp/iceoryx-release.git
       version: 1.0.0-1
     source:
       type: git
@@ -1921,7 +1921,7 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/mrpt-ros2-pkg-release/mrpt2-release.git
+      url: https://github.com/ros2-gbp/mrpt2-release.git
       version: 2.1.3-2
     source:
       type: git
@@ -2145,7 +2145,7 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/ros-gbp/octomap_msgs-release.git
+      url: https://github.com/ros2-gbp/octomap_msgs-release.git
       version: 2.0.0-1
     source:
       type: git
@@ -2564,7 +2564,7 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/roboception-gbp/rc_common_msgs_ros2-release.git
+      url: https://github.com/ros2-gbp/rc_common_msgs_ros2-release.git
       version: 0.5.3-2
     source:
       test_pull_requests: true
@@ -2580,7 +2580,7 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/roboception-gbp/rc_dynamics_api-release.git
+      url: https://github.com/ros2-gbp/rc_dynamics_api-release.git
       version: 0.10.3-1
     source:
       test_pull_requests: true
@@ -2612,7 +2612,7 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/roboception-gbp/rc_genicam_driver_ros2-release.git
+      url: https://github.com/ros2-gbp/rc_genicam_driver_ros2-release.git
       version: 0.2.1-1
     source:
       test_pull_requests: true
@@ -3467,7 +3467,7 @@ repositories:
       - can_msgs
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/ros-industrial-release/ros_canopen-release.git
+      url: https://github.com/ros2-gbp/ros_canopen-release.git
       version: 2.0.0-2
     source:
       type: git
@@ -4458,7 +4458,7 @@ repositories:
       - teleop_tools_msgs
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/ros-gbp/teleop_tools-release.git
+      url: https://github.com/ros2-gbp/teleop_tools-release.git
       version: 1.2.1-1
     source:
       type: git
@@ -4619,7 +4619,7 @@ repositories:
       - udp_driver
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/ros-drivers-gbp/transport_drivers-release.git
+      url: https://github.com/ros2-gbp/transport_drivers-release.git
       version: 1.0.1-1
     source:
       type: git
@@ -4680,7 +4680,7 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/autowarefoundation/tvm_vendor-release.git
+      url: https://github.com/ros2-gbp/tvm_vendor-release.git
       version: 0.7.3-1
     source:
       type: git
@@ -4725,7 +4725,7 @@ repositories:
       - ublox_serialization
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/KumarRobotics/ublox-release.git
+      url: https://github.com/ros2-gbp/ublox-release.git
       version: 2.0.0-2
     source:
       test_pull_requests: true
@@ -4741,7 +4741,7 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/flynneva/udp_msgs-release.git
+      url: https://github.com/ros2-gbp/udp_msgs-release.git
       version: 0.0.3-3
     source:
       type: git
@@ -4968,7 +4968,7 @@ repositories:
       - velodyne_simulator
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/DataspeedInc-release/velodyne_simulator-release.git
+      url: https://github.com/ros2-gbp/velodyne_simulator-release.git
       version: 2.0.2-1
     source:
       type: git
@@ -4983,7 +4983,7 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/Kukanani/vision_msgs-release.git
+      url: https://github.com/ros2-gbp/vision_msgs-release.git
       version: 3.0.0-4
     source:
       test_pull_requests: true
