@@ -1205,7 +1205,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/foonathan_memory_vendor-release.git
-      version: 1.0.0-1
+      version: 1.2.0-1
     source:
       type: git
       url: https://github.com/eProsima/foonathan_memory_vendor.git
@@ -1985,6 +1985,21 @@ repositories:
       type: git
       url: https://github.com/OUXT-Polaris/lua_vendor.git
       version: main
+    status: developed
+  lusb:
+    doc:
+      type: git
+      url: https://bitbucket.org/dataspeedinc/lusb.git
+      version: ros2
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/DataspeedInc-release/lusb-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://bitbucket.org/dataspeedinc/lusb.git
+      version: ros2
     status: developed
   map_transformer:
     doc:
@@ -2905,7 +2920,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.4.0-1
+      version: 3.4.1-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -3397,7 +3412,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/roboception-gbp/rc_reason_clients-release.git
-      version: 0.2.1-1
+      version: 0.3.0-1
     source:
       test_pull_requests: true
       type: git
@@ -4279,8 +4294,8 @@ repositories:
     release:
       tags:
         release: release/foxy/{package}/{version}
-      url: https://github.com/autowarefoundation/ros2_socketcan-release.git
-      version: 1.0.0-1
+      url: https://github.com/ros2-gbp/ros2_socketcan-release.git
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/autowarefoundation/ros2_socketcan.git
@@ -6130,7 +6145,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros-drivers-gbp/velodyne-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/ros-drivers/velodyne.git

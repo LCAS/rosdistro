@@ -2941,7 +2941,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tork-a/euslisp-release.git
-      version: 9.27.0-1
+      version: 9.29.0-1
     source:
       type: git
       url: https://github.com/euslisp/EusLisp.git
@@ -8656,7 +8656,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/perception_pcl-release.git
-      version: 1.7.3-1
+      version: 1.7.4-1
     source:
       test_pull_requests: true
       type: git
