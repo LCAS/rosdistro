@@ -732,6 +732,25 @@ repositories:
       url: https://github.com/eclipse-cyclonedds/cyclonedds.git
       version: releases/0.7.x
     status: maintained
+  dataspeed_can:
+    doc:
+      type: git
+      url: https://bitbucket.org/dataspeedinc/dataspeed_can.git
+      version: ros2
+    release:
+      packages:
+      - dataspeed_can
+      - dataspeed_can_msg_filters
+      - dataspeed_can_usb
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/DataspeedInc-release/dataspeed_can-release.git
+      version: 2.0.1-1
+    source:
+      type: git
+      url: https://bitbucket.org/dataspeedinc/dataspeed_can.git
+      version: ros2
+    status: developed
   demos:
     doc:
       type: git
@@ -1995,7 +2014,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/DataspeedInc-release/lusb-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://bitbucket.org/dataspeedinc/lusb.git
@@ -2568,7 +2587,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/ntrip_client-release.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       test_pull_requests: true
       type: git
@@ -3266,7 +3285,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/OUXT-Polaris/quaternion_operation-release.git
-      version: 0.0.7-1
+      version: 0.0.11-1
     source:
       test_pull_requests: true
       type: git
