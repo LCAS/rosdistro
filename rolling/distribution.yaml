@@ -1797,7 +1797,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mimick_vendor-release.git
-      version: 0.2.7-2
+      version: 0.2.7-3
     source:
       type: git
       url: https://github.com/ros2/mimick_vendor.git
@@ -3141,7 +3141,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_connextdds-release.git
-      version: 0.8.3-1
+      version: 0.8.3-2
     source:
       type: git
       url: https://github.com/ros2/rmw_connextdds.git
@@ -3227,7 +3227,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_implementation-release.git
-      version: 2.7.1-2
+      version: 2.7.1-3
     source:
       test_pull_requests: true
       type: git
