@@ -1491,6 +1491,21 @@ repositories:
       url: https://github.com/suurjaak/grepros.git
       version: master
     status: developed
+  gscam:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/gscam.git
+      version: ros2
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/gscam-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/gscam.git
+      version: ros2
+    status: developed
   hls_lfcd_lds_driver:
     doc:
       type: git
@@ -2478,7 +2493,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/OUXT-Polaris/nmea_hardware_interface-release.git
-      version: 0.0.1-1
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/OUXT-Polaris/nmea_hardware_interface.git
@@ -2939,7 +2954,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.4.1-1
+      version: 3.4.2-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -2969,7 +2984,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins-release.git
-      version: 1.6.2-1
+      version: 1.7.2-1
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
@@ -3674,7 +3689,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/OUXT-Polaris/realsense_hardware_interface-release.git
-      version: 0.0.1-1
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/OUXT-Polaris/realsense_hardware_interface.git
