@@ -1821,7 +1821,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/microstrain_inertial-release.git
-      version: 2.5.0-1
+      version: 2.5.1-1
     source:
       test_pull_requests: true
       type: git
@@ -5085,11 +5085,15 @@ repositories:
       version: galactic-devel
     status: maintained
   tvm_vendor:
+    doc:
+      type: git
+      url: https://github.com/autowarefoundation/tvm_vendor.git
+      version: main
     release:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/tvm_vendor-release.git
-      version: 0.7.3-1
+      version: 0.8.0-1
     source:
       type: git
       url: https://github.com/autowarefoundation/tvm_vendor.git
@@ -5479,7 +5483,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/lagadic/visp-release.git
-      version: 3.4.0-2
+      version: 3.5.0-3
     source:
       type: git
       url: https://github.com/lagadic/visp.git
