@@ -82,7 +82,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ament_cmake-release.git
-      version: 1.2.1-3
+      version: 1.3.0-2
     source:
       test_pull_requests: true
       type: git
@@ -183,7 +183,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ament_lint-release.git
-      version: 0.11.4-2
+      version: 0.12.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1952,6 +1952,21 @@ repositories:
       url: https://github.com/KIT-MRT/mrt_cmake_modules.git
       version: master
     status: maintained
+  nao_button_sim:
+    doc:
+      type: git
+      url: https://github.com/ijnek/nao_button_sim.git
+      version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/nao_button_sim-release.git
+      version: 0.1.1-3
+    source:
+      type: git
+      url: https://github.com/ijnek/nao_button_sim.git
+      version: rolling
+    status: developed
   nao_interfaces:
     doc:
       type: git
@@ -1968,6 +1983,21 @@ repositories:
     source:
       type: git
       url: https://github.com/ijnek/nao_interfaces.git
+      version: rolling
+    status: developed
+  nao_lola:
+    doc:
+      type: git
+      url: https://github.com/ijnek/nao_lola.git
+      version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/nao_lola-release.git
+      version: 0.0.4-3
+    source:
+      type: git
+      url: https://github.com/ijnek/nao_lola.git
       version: rolling
     status: developed
   navigation_msgs:
@@ -3259,6 +3289,7 @@ repositories:
       url: https://github.com/ros2-gbp/robot_localization-release.git
       version: 3.3.0-2
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
       version: ros2
@@ -3287,7 +3318,6 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros1_bridge-release.git
-      version: 0.10.2-2
     source:
       test_commits: false
       type: git
@@ -3312,7 +3342,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 2.1.0-3
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -3589,7 +3619,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2-release.git
-      version: 0.13.0-2
+      version: 0.13.0-3
     source:
       test_pull_requests: true
       type: git
@@ -3749,7 +3779,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_typesupport-release.git
-      version: 1.4.2-2
+      version: 1.4.2-3
     source:
       test_pull_requests: true
       type: git
@@ -4440,7 +4470,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/tango_icons_vendor-release.git
-      version: 0.1.0-4
+      version: 0.1.0-5
     source:
       type: git
       url: https://github.com/ros-visualization/tango_icons_vendor.git

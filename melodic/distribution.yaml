@@ -2941,7 +2941,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tork-a/euslisp-release.git
-      version: 9.29.0-1
+      version: 9.27.0-1
     source:
       type: git
       url: https://github.com/euslisp/EusLisp.git
@@ -10059,13 +10059,13 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_visard-release.git
-      version: 3.3.0-1
+      version: 3.3.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/roboception/rc_visard_ros.git
       version: master
-    status: developed
+    status: maintained
   rcdiscover:
     doc:
       type: git
@@ -12624,7 +12624,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/SBG-Systems/sbg_ros_driver-release.git
-      version: 3.1.0-1
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/SBG-Systems/sbg_ros_driver.git
