@@ -3638,7 +3638,6 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2_bag_v2-release.git
-      version: 0.2.0-2
     source:
       test_commits: false
       type: git
@@ -5055,7 +5054,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/visp-release.git
-      version: 3.4.0-3
+      version: 3.5.0-1
     source:
       type: git
       url: https://github.com/lagadic/visp.git
@@ -5160,6 +5159,21 @@ repositories:
       type: git
       url: https://github.com/ros2/yaml_cpp_vendor.git
       version: master
+    status: maintained
+  zbar_ros:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/zbar_ros.git
+      version: ros2
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/zbar_ros-release.git
+      version: 0.4.0-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/zbar_ros.git
+      version: ros2
     status: maintained
   zenoh_bridge_dds:
     doc:

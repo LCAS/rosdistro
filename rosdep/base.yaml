@@ -866,12 +866,7 @@ ed:
 eigen:
   alpine: [eigen-dev]
   arch: [eigen3]
-  debian:
-    bullseye: [libeigen3-dev]
-    buster: [libeigen3-dev]
-    jessie: [libeigen3-dev]
-    stretch: [libeigen3-dev]
-    wheezy: [libeigen3-dev]
+  debian: [libeigen3-dev]
   fedora: [eigen3-devel]
   freebsd: [eigen]
   gentoo: [dev-cpp/eigen]
@@ -2182,6 +2177,20 @@ lib32asound2:
   fedora: ['alsa-lib(%{__isa_name}-32)', alsa-lib]
   gentoo: [media-libs/alsa-lib]
   ubuntu: [lib32asound2]
+libabsl-dev:
+  arch: [abseil-cpp]
+  debian:
+    '*': [libabsl-dev]
+    buster: null
+  fedora: [abseil-cpp-devel]
+  gentoo: [dev-cpp/abseil-cpp]
+  rhel:
+    '*': [abseil-cpp-devel]
+    '7': null
+  ubuntu:
+    '*': [libabsl-dev]
+    bionic: null
+    focal: null
 libalglib-dev:
   debian: [libalglib-dev]
   fedora: [alglib-devel]
@@ -2988,10 +2997,7 @@ libext2fs-dev:
   ubuntu: [libext2fs-dev]
 libfcl-dev:
   arch: [fcl]
-  debian:
-    buster: [libfcl-dev]
-    jessie: [libfcl-0.5-dev]
-    stretch: [libfcl-dev]
+  debian: [libfcl-dev]
   fedora: [fcl-devel]
   gentoo: [sci-libs/fcl]
   nixos: [fcl]

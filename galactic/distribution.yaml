@@ -1234,6 +1234,24 @@ repositories:
       url: https://github.com/ros2-gbp/ifm3d-release.git
       version: 0.18.0-6
     status: developed
+  ign_ros2_control:
+    doc:
+      type: git
+      url: https://github.com/ignitionrobotics/ign_ros2_control.git
+      version: galactic
+    release:
+      packages:
+      - ign_ros2_control
+      - ign_ros2_control_demos
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros2-gbp/ign_ros2_control-release.git
+      version: 0.2.0-1
+    source:
+      type: git
+      url: https://github.com/ignitionrobotics/ign_ros2_control.git
+      version: galactic
+    status: maintained
   ign_rviz:
     doc:
       type: git
@@ -1587,7 +1605,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/IntelRealSense/librealsense2-release.git
-      version: 2.50.0-1
+      version: 2.50.0-2
     source:
       test_pull_requests: true
       type: git
@@ -1976,6 +1994,21 @@ repositories:
       url: https://github.com/KIT-MRT/mrt_cmake_modules.git
       version: master
     status: maintained
+  nao_button_sim:
+    doc:
+      type: git
+      url: https://github.com/ijnek/nao_button_sim.git
+      version: rolling
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros2-gbp/nao_button_sim-release.git
+      version: 0.1.1-6
+    source:
+      type: git
+      url: https://github.com/ijnek/nao_button_sim.git
+      version: rolling
+    status: developed
   nao_interfaces:
     doc:
       type: git
