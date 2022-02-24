@@ -439,7 +439,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/cartographer-release.git
-      version: 1.0.9001-3
+      version: 2.0.9001-1
     source:
       test_pull_requests: true
       type: git
@@ -551,6 +551,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/control_box_rst-release.git
+      version: 0.0.7-3
     source:
       test_pull_requests: true
       type: git
@@ -882,6 +883,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fmi_adapter-release.git
+      version: 2.1.1-2
     source:
       type: git
       url: https://github.com/boschresearch/fmi_adapter.git
@@ -892,6 +894,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fmilibrary_vendor-release.git
+      version: 1.0.1-2
     source:
       type: git
       url: https://github.com/boschresearch/fmilibrary_vendor.git
@@ -931,6 +934,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gazebo_ros2_control-release.git
+      version: 0.0.8-2
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
@@ -2105,7 +2109,8 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/vooon/ntpd_driver-release.git
+      url: https://github.com/ros2-gbp/ntpd_driver-release.git
+      version: 2.1.0-2
     source:
       type: git
       url: https://github.com/vooon/ntpd_driver.git
@@ -2224,7 +2229,8 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/ros-gbp/ompl-release.git
+      url: https://github.com/ros2-gbp/ompl-release.git
+      version: 1.5.2-2
   orocos_kinematics_dynamics:
     doc:
       type: git
@@ -3342,7 +3348,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 2.3.0-1
+      version: 2.4.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -3365,11 +3371,12 @@ repositories:
       - joint_trajectory_controller
       - position_controllers
       - ros2_controllers
+      - ros2_controllers_test_nodes
       - velocity_controllers
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 2.0.1-2
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -3853,7 +3860,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-visualization/rqt.git
-      version: crystal-devel
+      version: ros2
     release:
       packages:
       - rqt
@@ -3869,7 +3876,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt.git
-      version: crystal-devel
+      version: ros2
     status: maintained
   rqt_action:
     doc:
@@ -4949,7 +4956,8 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/ros-gbp/usb_cam-release.git
+      url: https://github.com/ros2-gbp/usb_cam-release.git
+      version: 0.4.1-1
     source:
       type: git
       url: https://github.com/ros-drivers/usb_cam.git
