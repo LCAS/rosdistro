@@ -2951,7 +2951,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tork-a/euslisp-release.git
-      version: 9.29.0-4
+      version: 9.29.0-5
     source:
       type: git
       url: https://github.com/euslisp/EusLisp.git
@@ -5933,6 +5933,23 @@ repositories:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/libg2o-release.git
       version: 2018.3.25-0
+  libhri:
+    doc:
+      type: git
+      url: https://github.com/ros4hri/libhri.git
+      version: main
+    release:
+      packages:
+      - hri
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros4hri/libhri-release.git
+      version: 0.4.0-1
+    source:
+      type: git
+      url: https://github.com/ros4hri/libhri.git
+      version: main
+    status: maintained
   libnabo:
     doc:
       type: git
@@ -9527,21 +9544,6 @@ repositories:
     source:
       type: git
       url: https://github.com/asmodehn/pyros-test.git
-      version: devel
-    status: maintained
-  pyros_utils:
-    doc:
-      type: git
-      url: https://github.com/asmodehn/pyros-utils.git
-      version: devel
-    release:
-      tags:
-        release: release/melodic/{package}/{version}
-      url: https://github.com/pyros-dev/pyros-utils-release.git
-      version: 0.1.4-1
-    source:
-      type: git
-      url: https://github.com/asmodehn/pyros-utils.git
       version: devel
     status: maintained
   python_qt_binding:

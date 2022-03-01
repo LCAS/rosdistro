@@ -1176,7 +1176,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/gscam-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/ros-drivers/gscam.git
@@ -3054,7 +3054,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/IntelRealSense/realsense-ros-release.git
-      version: 3.2.3-1
+      version: 4.0.2-1
     source:
       test_pull_requests: true
       type: git
@@ -4184,8 +4184,8 @@ repositories:
       - rqt_image_overlay_layer
       tags:
         release: release/galactic/{package}/{version}
-      url: https://github.com/ros-sports/rqt_image_overlay-release.git
-      version: 0.0.1-1
+      url: https://github.com/ros2-gbp/rqt_image_overlay-release.git
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/ros-sports/rqt_image_overlay.git
