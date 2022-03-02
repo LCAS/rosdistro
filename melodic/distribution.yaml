@@ -2951,7 +2951,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tork-a/euslisp-release.git
-      version: 9.29.0-5
+      version: 9.29.0-6
     source:
       type: git
       url: https://github.com/euslisp/EusLisp.git
@@ -5360,7 +5360,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tork-a/jskeus-release.git
-      version: 1.2.2-1
+      version: 1.2.5-1
     source:
       type: git
       url: https://github.com/euslisp/jskeus.git
@@ -7130,7 +7130,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt2-release.git
-      version: 2.4.0-1
+      version: 2.4.3-1
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
@@ -7614,7 +7614,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/nerian-vision/nerian_stereo-release.git
-      version: 3.9.0-3
+      version: 3.9.1-1
     source:
       type: git
       url: https://github.com/nerian-vision/nerian_stereo.git

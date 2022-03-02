@@ -6401,6 +6401,22 @@ python3-falcon:
   fedora: [python3-falcon]
   opensuse: [python3-falcon]
   ubuntu: [python3-falcon]
+python3-fastapi:
+  arch: [python-fastapi]
+  debian:
+    '*': [python3-fastapi]
+    buster:
+      pip:
+        packages: [fastapi]
+  fedora: [python-fastapi]
+  ubuntu:
+    '*': [python3-fastapi]
+    bionic:
+      pip:
+        packages: [fastapi]
+    focal:
+      pip:
+        packages: [fastapi]
 python3-fastnumbers-pip:
   arch:
     pip:
@@ -7142,6 +7158,38 @@ python3-nuscenes-devkit-pip:
   ubuntu:
     pip:
       packages: [nuscenes-devkit]
+python3-onnxruntime-gpu-pip:
+  arch:
+    pip:
+      packages: [onnxruntime-gpu]
+  debian:
+    pip:
+      packages: [onnxruntime-gpu]
+  fedora:
+    pip:
+      packages: [onnxruntime-gpu]
+  osx:
+    pip:
+      packages: [onnxruntime-gpu]
+  ubuntu:
+    pip:
+      packages: [onnxruntime-gpu]
+python3-onnxruntime-pip:
+  arch:
+    pip:
+      packages: [onnxruntime]
+  debian:
+    pip:
+      packages: [onnxruntime]
+  fedora:
+    pip:
+      packages: [onnxruntime]
+  osx:
+    pip:
+      packages: [onnxruntime]
+  ubuntu:
+    pip:
+      packages: [onnxruntime]
 python3-open3d-pip:
   debian:
     pip:
@@ -8529,6 +8577,15 @@ python3-usb:
   nixos: [python3Packages.pyusb]
   openembedded: [python3-pyusb@meta-python]
   ubuntu: [python3-usb]
+python3-uvicorn:
+  alpine: [uvicorn]
+  debian: [python3-uvicorn]
+  fedora: [python-uvicorn]
+  ubuntu:
+    '*': [python3-uvicorn]
+    bionic:
+      pip:
+        packages: [uvicorn]
 python3-vcstool:
   alpine: [vcstool]
   debian:
