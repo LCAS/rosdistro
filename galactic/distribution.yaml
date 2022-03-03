@@ -1735,7 +1735,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2022.2.2-1
+      version: 2022.3.3-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -1755,7 +1755,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -2471,6 +2471,10 @@ repositories:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/pcl_msgs-release.git
       version: 1.0.0-6
+    source:
+      type: git
+      url: https://github.com/ros-perception/pcl_msgs.git
+      version: ros2
     status: maintained
   perception_pcl:
     doc:
