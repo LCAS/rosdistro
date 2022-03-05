@@ -4033,7 +4033,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fictionlab-gbp/leo_robot-release.git
-      version: 2.0.3-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/LeoRover/leo_robot.git
@@ -4957,6 +4957,21 @@ repositories:
       url: https://github.com/mrpt/mrpt.git
       version: develop
     status: developed
+  mrpt_bridge:
+    doc:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/mrpt_bridge.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/mrpt-ros-pkg-release/mrpt_bridge-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/mrpt_bridge.git
+      version: ros1
+    status: maintained
   mrpt_msgs:
     doc:
       type: git
@@ -5030,6 +5045,21 @@ repositories:
       type: git
       url: https://github.com/221eROS/muse_v2_driver.git
       version: main
+  mvsim:
+    doc:
+      type: git
+      url: https://github.com/ual-arm-ros-pkg/mvsim.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
+      version: 0.3.0-1
+    source:
+      type: git
+      url: https://github.com/ual-arm-ros-pkg/mvsim.git
+      version: master
+    status: developed
   navigation:
     doc:
       type: git
@@ -6160,6 +6190,21 @@ repositories:
       type: git
       url: https://github.com/ros-drivers/pointgrey_camera_driver.git
       version: noetic-devel
+    status: maintained
+  pose_cov_ops:
+    doc:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/mrpt-ros-pkg-release/pose_cov_ops-release.git
+      version: 0.3.0-1
+    source:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
+      version: master
     status: maintained
   power_msgs:
     doc:
@@ -9951,7 +9996,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/urg_node-release.git
-      version: 0.1.16-1
+      version: 0.1.17-1
     source:
       type: git
       url: https://github.com/ros-drivers/urg_node.git
