@@ -910,7 +910,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/BehaviorTree/behaviortree_cpp_v3-release.git
-      version: 3.6.0-1
+      version: 3.6.1-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
@@ -5944,7 +5944,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros4hri/libhri-release.git
-      version: 0.4.0-1
+      version: 0.4.1-1
     source:
       type: git
       url: https://github.com/ros4hri/libhri.git
@@ -6712,7 +6712,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/clearpath-gbp/moose-release.git
-      version: 0.1.0-1
+      version: 0.1.2-1
     source:
       type: git
       url: https://github.com/moose-cpr/moose.git
@@ -6850,7 +6850,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 1.0.9-1
+      version: 1.0.10-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit.git
@@ -7155,16 +7155,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
-      version: master
+      version: ros1
     release:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_msgs-release.git
-      version: 0.1.22-0
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
-      version: master
+      version: ros1
     status: maintained
   mrpt_navigation:
     doc:
@@ -7446,7 +7446,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/navigation_experimental-release.git
-      version: 0.3.3-1
+      version: 0.3.5-1
     source:
       test_pull_requests: true
       type: git
@@ -7812,7 +7812,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/novatel-gbp/novatel_oem7_driver-release.git
-      version: 3.0.0-1
+      version: 4.0.0-1
     source:
       type: git
       url: https://github.com/novatel/novatel_oem7_driver.git
@@ -8941,7 +8941,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.4.2-1
+      version: 3.4.3-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git

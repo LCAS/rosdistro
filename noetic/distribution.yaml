@@ -448,7 +448,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/BehaviorTree/behaviortree_cpp-release.git
-      version: 3.5.6-1
+      version: 3.6.1-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
@@ -4033,7 +4033,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fictionlab-gbp/leo_robot-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/LeoRover/leo_robot.git
@@ -4105,7 +4105,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros4hri/libhri-release.git
-      version: 0.4.0-1
+      version: 0.4.1-1
     source:
       type: git
       url: https://github.com/ros4hri/libhri.git
@@ -4784,7 +4784,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 1.1.8-1
+      version: 1.1.9-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -4981,7 +4981,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_msgs-release.git
-      version: 0.1.23-2
+      version: 0.2.0-2
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
@@ -5136,7 +5136,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/navigation_experimental-release.git
-      version: 0.3.4-1
+      version: 0.4.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5374,7 +5374,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/novatel-gbp/novatel_oem7_driver-release.git
-      version: 3.0.0-2
+      version: 4.0.0-1
     source:
       type: git
       url: https://github.com/novatel/novatel_oem7_driver.git
@@ -6102,7 +6102,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.4.2-1
+      version: 3.4.3-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
