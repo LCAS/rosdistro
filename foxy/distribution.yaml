@@ -3635,10 +3635,11 @@ repositories:
       - rclc
       - rclc_examples
       - rclc_lifecycle
+      - rclc_parameter
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rclc-release.git
-      version: 1.1.0-1
+      version: 1.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -5135,7 +5136,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_robot_monitor-release.git
-      version: 1.0.4-1
+      version: 1.0.5-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_robot_monitor.git
