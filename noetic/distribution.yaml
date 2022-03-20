@@ -1992,6 +1992,17 @@ repositories:
       url: https://github.com/ros-gbp/eml-release.git
       version: 1.8.15-7
     status: unmaintained
+  ensenso_driver:
+    doc:
+      type: git
+      url: https://github.com/ensenso/ros_driver.git
+      version: master
+    source:
+      test_commits: false
+      type: git
+      url: https://github.com/ensenso/ros_driver.git
+      version: master
+    status: developed
   ergodic_exploration:
     doc:
       type: git
@@ -2022,6 +2033,17 @@ repositories:
       url: https://github.com/shadow-robot/ethercat_grant.git
       version: noetic-devel
     status: maintained
+  euslime:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/jsk-ros-pkg/euslime-release.git
+      version: 1.1.1-1
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/euslime.git
+      version: master
+    status: developed
   euslisp:
     doc:
       type: git
@@ -2369,6 +2391,25 @@ repositories:
       url: https://github.com/team-vigir/flexbe_behavior_engine.git
       version: master
     status: developed
+  flir_camera_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/flir_camera_driver.git
+      version: noetic-devel
+    release:
+      packages:
+      - flir_camera_description
+      - flir_camera_driver
+      - spinnaker_camera_driver
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/flir_camera_driver-release.git
+      version: 0.2.0-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/flir_camera_driver.git
+      version: noetic-devel
+    status: maintained
   floam:
     doc:
       type: git
@@ -2432,6 +2473,21 @@ repositories:
       url: https://github.com/foxglove/ros_foxglove_msgs.git
       version: main
     status: developed
+  frame_editor:
+    doc:
+      type: git
+      url: https://github.com/ipa320/rqt_frame_editor_plugin.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ipa320/rqt_frame_editor_plugin-release.git
+      version: 1.1.0-1
+    source:
+      type: git
+      url: https://github.com/ipa320/rqt_frame_editor_plugin.git
+      version: kinetic-devel
+    status: maintained
   franka_ros:
     doc:
       type: git

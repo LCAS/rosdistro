@@ -1246,7 +1246,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/ign_ros2_control-release.git
-      version: 0.3.0-1
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/ignitionrobotics/ign_ros2_control.git
@@ -1654,6 +1654,21 @@ repositories:
       url: https://github.com/OUXT-Polaris/lua_vendor.git
       version: main
     status: developed
+  magic_enum:
+    doc:
+      type: git
+      url: https://github.com/Neargye/magic_enum.git
+      version: master
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/nobleo/magic_enum-release.git
+      version: 0.7.3-1
+    source:
+      type: git
+      url: https://github.com/Neargye/magic_enum.git
+      version: master
+    status: maintained
   mapviz:
     doc:
       type: git
@@ -4674,6 +4689,21 @@ repositories:
       type: git
       url: https://github.com/SteveMacenski/slam_toolbox.git
       version: galactic
+    status: maintained
+  slider_publisher:
+    doc:
+      type: git
+      url: https://github.com/oKermorgant/slider_publisher.git
+      version: ros2
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/oKermorgant/slider_publisher-release.git
+      version: 2.1.0-1
+    source:
+      type: git
+      url: https://github.com/oKermorgant/slider_publisher.git
+      version: ros2
     status: maintained
   snowbot_operating_system:
     doc:
