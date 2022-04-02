@@ -455,7 +455,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/bond_core-release.git
-      version: 3.0.1-4
+      version: 3.0.2-1
     source:
       test_pull_requests: true
       type: git
@@ -487,10 +487,11 @@ repositories:
       packages:
       - cartographer_ros
       - cartographer_ros_msgs
+      - cartographer_rviz
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/cartographer_ros-release.git
-      version: 1.0.9004-2
+      version: 2.0.9000-1
     source:
       test_pull_requests: true
       type: git
@@ -3727,7 +3728,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2_storage_mcap-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/ros-tooling/rosbag2_storage_mcap.git
@@ -4746,7 +4747,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-acceleration/tracetools_acceleration.git
-      version: main
+      version: rolling
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -4756,7 +4757,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-acceleration/tracetools_acceleration.git
-      version: main
+      version: rolling
     status: developed
   tracetools_analysis:
     doc:
@@ -5208,7 +5209,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/vision_opencv-release.git
-      version: 3.0.2-3
+      version: 3.0.3-1
     source:
       test_pull_requests: true
       type: git
