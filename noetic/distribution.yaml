@@ -3432,7 +3432,7 @@ repositories:
   imu_tools:
     doc:
       type: git
-      url: https://github.com/ccny-ros-pkg/imu_tools.git
+      url: https://github.com/CCNYRoboticsLab/imu_tools.git
       version: noetic
     release:
       packages:
@@ -3443,11 +3443,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/uos-gbp/imu_tools-release.git
-      version: 1.2.3-1
+      version: 1.2.4-1
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ccny-ros-pkg/imu_tools.git
+      url: https://github.com/CCNYRoboticsLab/imu_tools.git
       version: noetic
     status: developed
   industrial_core:
@@ -3964,6 +3964,38 @@ repositories:
       url: https://github.com/ros/kdl_parser.git
       version: noetic-devel
     status: maintained
+  khi_robot:
+    doc:
+      type: git
+      url: https://github.com/Kawasaki-Robotics/khi_robot.git
+      version: master
+    release:
+      packages:
+      - khi_duaro_description
+      - khi_duaro_gazebo
+      - khi_duaro_ikfast_plugin
+      - khi_duaro_moveit_config
+      - khi_robot
+      - khi_robot_bringup
+      - khi_robot_control
+      - khi_robot_msgs
+      - khi_robot_test
+      - khi_rs007l_moveit_config
+      - khi_rs007n_moveit_config
+      - khi_rs013n_moveit_config
+      - khi_rs080n_moveit_config
+      - khi_rs_description
+      - khi_rs_gazebo
+      - khi_rs_ikfast_plugin
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/Kawasaki-Robotics/khi_robot-release.git
+      version: 1.3.0-2
+    source:
+      type: git
+      url: https://github.com/Kawasaki-Robotics/khi_robot.git
+      version: master
+    status: developed
   knowledge_representation:
     release:
       tags:
@@ -5549,6 +5581,24 @@ repositories:
       url: https://github.com/SteveMacenski/nonpersistent_voxel_layer.git
       version: melodic-devel
     status: maintained
+  novatel_gps_driver:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/novatel_gps_driver.git
+      version: master
+    release:
+      packages:
+      - novatel_gps_driver
+      - novatel_gps_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/swri-robotics-gbp/novatel_gps_driver-release.git
+      version: 3.9.0-2
+    source:
+      type: git
+      url: https://github.com/swri-robotics/novatel_gps_driver.git
+      version: master
+    status: developed
   novatel_oem7_driver:
     doc:
       type: git
@@ -5888,7 +5938,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/openni2_camera-release.git
-      version: 1.5.1-1
+      version: 1.6.0-1
     source:
       type: git
       url: https://github.com/ros-drivers/openni2_camera.git
@@ -9162,7 +9212,7 @@ repositories:
   scan_tools:
     doc:
       type: git
-      url: https://github.com/ccny-ros-pkg/scan_tools.git
+      url: https://github.com/CCNYRoboticsLab/scan_tools.git
       version: ros1
     release:
       packages:
@@ -9180,7 +9230,7 @@ repositories:
       version: 0.3.3-1
     source:
       type: git
-      url: https://github.com/ccny-ros-pkg/scan_tools.git
+      url: https://github.com/CCNYRoboticsLab/scan_tools.git
       version: ros1
     status: unmaintained
   schunk_modular_robotics:
