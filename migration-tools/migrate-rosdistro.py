@@ -21,7 +21,11 @@ from rosdistro.writer import yaml_from_distribution_file
 # make assumptions about the release repository that are not true during the
 # manipulation of the release repository for this script.
 def read_tracks_file():
-    return yaml.safe_load(show('master', 'tracks.yaml'))
+    tracks_yaml = show('master', 'tracks.yaml')
+    if tracks_yaml:
+        return yaml.safe_load(tracks_yaml)
+    else:
+        raise ValueError('repository is missing tracks.yaml in master branch.')
 
 @inbranch('master')
 def write_tracks_file(tracks, commit_msg=None):
@@ -213,7 +217,7 @@ for repo_name in sorted(new_repositories + repositories_to_retry):
 
         # Bloom will not run with multiple remotes.
         subprocess.check_call(['git', 'remote', 'remove', 'oldorigin'])
-        subprocess.check_call(['git', 'bloom-release', '--non-interactive', '--release-increment', release_inc, '--unsafe', args.dest], env=os.environ)
+        subprocess.check_call(['git', 'bloom-release', '--non-interactive', '--release-increment', release_inc, '--unsafe', args.dest], stdin=subprocess.DEVNULL, env=os.environ)
         subprocess.check_call(['git', 'push', 'origin', '--all', '--force'])
         subprocess.check_call(['git', 'push', 'origin', '--tags', '--force'])
         subprocess.check_call(['git', 'checkout', 'master'])
