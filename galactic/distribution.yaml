@@ -974,6 +974,21 @@ repositories:
       url: https://github.com/ros-drivers/four_wheel_steering_msgs.git
       version: ros2
     status: maintained
+  foxglove_msgs:
+    doc:
+      type: git
+      url: https://github.com/foxglove/ros_foxglove_msgs.git
+      version: main
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros2-gbp/ros_foxglove_msgs-release.git
+      version: 1.1.0-1
+    source:
+      type: git
+      url: https://github.com/foxglove/ros_foxglove_msgs.git
+      version: main
+    status: maintained
   gazebo_ros2_control:
     doc:
       type: git
@@ -1764,7 +1779,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 3.4.0-1
+      version: 3.4.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2313,7 +2328,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/ntrip_client-release.git
-      version: 1.0.2-1
+      version: 1.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3609,7 +3624,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/clearpath-gbp/robot_upstart-release.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/robot_upstart.git
@@ -3985,10 +4000,13 @@ repositories:
       url: https://github.com/ros-tooling/rosbag2_storage_mcap.git
       version: main
     release:
+      packages:
+      - mcap_vendor
+      - rosbag2_storage_mcap
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2_storage_mcap-release.git
-      version: 0.1.1-1
+      version: 0.1.4-1
     source:
       type: git
       url: https://github.com/ros-tooling/rosbag2_storage_mcap.git
@@ -5406,7 +5424,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library-release.git
-      version: 1.0.0-3
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git

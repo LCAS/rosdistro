@@ -6780,6 +6780,14 @@ python3-ifcfg:
   ubuntu:
     bionic: [python3-ifcfg]
     focal: [python3-ifcfg]
+python3-ignition-gazebo6:
+  ubuntu:
+    focal: [python3-ignition-gazebo6]
+    jammy: [python3-ignition-gazebo6]
+python3-ignition-math6:
+  ubuntu:
+    focal: [python3-ignition-math6]
+    jammy: [python3-ignition-math6]
 python3-imageio:
   debian: [python3-imageio]
   gentoo: [dev-python/imageio]
@@ -6907,15 +6915,15 @@ python3-jsonpickle:
   debian: [python3-jsonpickle]
   fedora: [python3-jsonpickle]
   gentoo: [dev-python/jsonpickle]
-  rhel:
-    '*': [python3-jsonschema]
-    '7': [python36-jsonschema]
   ubuntu: [python3-jsonpickle]
 python3-jsonschema:
   debian: [python3-jsonschema]
   fedora: [python3-jsonschema]
   gentoo: [dev-python/jsonschema]
   nixos: [python3Packages.jsonschema]
+  rhel:
+    '*': [python3-jsonschema]
+    '7': [python36-jsonschema]
   ubuntu: [python3-jsonschema]
 python3-junitparser:
   debian:
@@ -7384,6 +7392,16 @@ python3-pexpect:
   debian: [python3-pexpect]
   opensuse: [python3-pexpect]
   ubuntu: [python3-pexpect]
+python3-pickleDB-pip:
+  debian:
+    pip:
+      packages: [pickleDB]
+  fedora:
+    pip:
+      packages: [pickleDB]
+  ubuntu:
+    pip:
+      packages: [pickleDB]
 python3-pika:
   debian: [python3-pika]
   ubuntu: [python3-pika]
