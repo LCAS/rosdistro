@@ -661,7 +661,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-cyclonedds/cyclonedds.git
-      version: releases/0.8.x
+      version: releases/0.9.x
     status: maintained
   demos:
     doc:
@@ -970,6 +970,21 @@ repositories:
       type: git
       url: https://github.com/ros-drivers/four_wheel_steering_msgs.git
       version: ros2
+    status: maintained
+  foxglove_msgs:
+    doc:
+      type: git
+      url: https://github.com/foxglove/ros_foxglove_msgs.git
+      version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/ros_foxglove_msgs-release.git
+      version: 1.1.0-1
+    source:
+      type: git
+      url: https://github.com/foxglove/ros_foxglove_msgs.git
+      version: main
     status: maintained
   gazebo_ros2_control:
     doc:
@@ -1404,7 +1419,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/joint_state_publisher-release.git
-      version: 2.2.0-3
+      version: 2.3.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2101,6 +2116,21 @@ repositories:
       url: https://github.com/neobotix/neo_simulation2.git
       version: main
     status: maintained
+  nlohmann_json_schema_validator_vendor:
+    doc:
+      type: git
+      url: https://github.com/open-rmf/nlohmann_json_schema_validator_vendor.git
+      version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/nlohmann_json_schema_validator_vendor-release.git
+      version: 0.1.0-2
+    source:
+      type: git
+      url: https://github.com/open-rmf/nlohmann_json_schema_validator_vendor.git
+      version: main
+    status: developed
   nmea_hardware_interface:
     doc:
       type: git
@@ -2967,7 +2997,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcss3d_agent-release.git
-      version: 0.0.6-1
+      version: 0.0.7-1
     source:
       type: git
       url: https://github.com/ros-sports/rcss3d_agent.git
@@ -3226,7 +3256,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_traffic_editor-release.git
-      version: 1.5.0-1
+      version: 1.5.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
@@ -3468,7 +3498,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 2.5.0-1
+      version: 2.6.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -3496,7 +3526,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 2.2.0-1
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -3685,6 +3715,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros_ign-release.git
+      version: 0.244.2-1
     source:
       test_pull_requests: true
       type: git
@@ -3793,10 +3824,13 @@ repositories:
       url: https://github.com/ros-tooling/rosbag2_storage_mcap.git
       version: main
     release:
+      packages:
+      - mcap_vendor
+      - rosbag2_storage_mcap
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2_storage_mcap-release.git
-      version: 0.1.1-1
+      version: 0.1.4-1
     source:
       type: git
       url: https://github.com/ros-tooling/rosbag2_storage_mcap.git
@@ -4675,7 +4709,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/tango_icons_vendor-release.git
-      version: 0.1.1-1
+      version: 0.1.1-2
     source:
       type: git
       url: https://github.com/ros-visualization/tango_icons_vendor.git
@@ -5059,7 +5093,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_Client_Library-release.git
-      version: 1.0.0-2
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
@@ -5235,7 +5269,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/usb_cam-release.git
-      version: 0.4.1-1
+      version: 0.4.2-1
     source:
       type: git
       url: https://github.com/ros-drivers/usb_cam.git
