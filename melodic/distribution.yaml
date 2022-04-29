@@ -5982,7 +5982,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros4hri/libhri-release.git
-      version: 0.4.1-1
+      version: 0.4.3-1
     source:
       type: git
       url: https://github.com/ros4hri/libhri.git
@@ -7183,7 +7183,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_bridge-release.git
-      version: 0.1.25-0
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_bridge.git
@@ -13657,6 +13657,19 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/toposens/public/ros-packages.git
+      version: master
+    status: developed
+  toposens-library:
+    release:
+      packages:
+      - toposens-sensor-library
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://gitlab.com/toposens/public/toposens-library-release.git
+      version: 1.1.4-1
+    source:
+      type: git
+      url: https://gitlab.com/toposens/public/toposens-library.git
       version: master
     status: developed
   tork_moveit_tutorial:
