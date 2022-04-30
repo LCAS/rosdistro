@@ -6647,6 +6647,28 @@ repositories:
       url: https://github.com/peci1/mikrotik_swos_tools.git
       version: master
     status: developed
+  minas:
+    doc:
+      type: git
+      url: https://github.com/tork-a/minas.git
+      version: master
+    release:
+      packages:
+      - ethercat_manager
+      - minas
+      - minas_control
+      - tra1_bringup
+      - tra1_description
+      - tra1_moveit_config
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/tork-a/minas-release.git
+      version: 1.0.10-1
+    source:
+      type: git
+      url: https://github.com/tork-a/minas.git
+      version: master
+    status: maintained
   mir_robot:
     doc:
       type: git
@@ -7337,17 +7359,17 @@ repositories:
   mvsim:
     doc:
       type: git
-      url: https://github.com/ual-arm-ros-pkg/mvsim.git
+      url: https://github.com/MRPT/mvsim.git
       version: master
     release:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
-      version: 0.2.1-0
+      version: 0.3.1-1
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ual-arm-ros-pkg/mvsim.git
+      url: https://github.com/MRPT/mvsim.git
       version: master
     status: maintained
   nanomsg:
