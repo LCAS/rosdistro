@@ -6453,6 +6453,9 @@ python3-fastapi:
     focal:
       pip:
         packages: [fastapi]
+python3-fastkml:
+  debian: [python3-fastkml]
+  ubuntu: [python3-fastkml]
 python3-fastnumbers-pip:
   arch:
     pip:
@@ -7259,6 +7262,26 @@ python3-nuscenes-devkit-pip:
   ubuntu:
     pip:
       packages: [nuscenes-devkit]
+python3-nxt-python-pip:
+  debian:
+    pip:
+      packages: [nxt-python]
+  fedora:
+    pip:
+      packages: [nxt-python]
+  ubuntu:
+    pip:
+      packages: [nxt-python]
+python3-odrive-pip:
+  debian:
+    pip:
+      packages: [odrive]
+  fedora:
+    pip:
+      packages: [odrive]
+  ubuntu:
+    pip:
+      packages: [odrive]
 python3-onnxruntime-gpu-pip:
   arch:
     pip:
