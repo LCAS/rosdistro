@@ -4950,6 +4950,17 @@ repositories:
       url: https://github.com/ros2/rosidl_typesupport_gurumdds.git
       version: foxy
     status: developed
+  rospy_message_converter:
+    doc:
+      type: git
+      url: https://github.com/uos/rospy_message_converter.git
+      version: foxy
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/uos/rospy_message_converter.git
+      version: foxy
+    status: maintained
   rosxbee:
     doc:
       type: git
@@ -5585,7 +5596,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/oKermorgant/slider_publisher-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/oKermorgant/slider_publisher.git
@@ -6373,7 +6384,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros2/variants.git
-      version: master
+      version: foxy
     release:
       packages:
       - desktop
@@ -6387,7 +6398,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/variants.git
-      version: master
+      version: foxy
     status: maintained
   velodyne:
     doc:

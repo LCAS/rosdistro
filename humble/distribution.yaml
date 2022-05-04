@@ -949,6 +949,15 @@ repositories:
       url: https://github.com/boschresearch/fmilibrary_vendor.git
       version: master
     status: maintained
+  fogros2:
+    release:
+      packages:
+      - fogros2
+      - fogros2_examples
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/fogros2-release.git
+      version: 0.1.2-2
   foonathan_memory_vendor:
     release:
       tags:
@@ -2360,24 +2369,6 @@ repositories:
       url: https://github.com/ros2/orocos_kdl_vendor.git
       version: humble
     status: developed
-  orocos_kinematics_dynamics:
-    doc:
-      type: git
-      url: https://github.com/ros2/orocos_kinematics_dynamics.git
-      version: ros2
-    release:
-      packages:
-      - orocos_kdl
-      tags:
-        release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/orocos_kinematics_dynamics-release.git
-      version: 3.3.3-3
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ros2/orocos_kinematics_dynamics.git
-      version: ros2
-    status: maintained
   osqp_vendor:
     doc:
       type: git
@@ -4015,6 +4006,17 @@ repositories:
       url: https://github.com/ros2/rosidl_typesupport_gurumdds.git
       version: master
     status: developed
+  rospy_message_converter:
+    doc:
+      type: git
+      url: https://github.com/uos/rospy_message_converter.git
+      version: humble
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/uos/rospy_message_converter.git
+      version: humble
+    status: maintained
   rot_conv_lib:
     release:
       packages:

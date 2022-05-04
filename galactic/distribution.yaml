@@ -3751,7 +3751,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/IntelligentRoboticsLabs/ros2_planning_system-release.git
-      version: 2.0.3-1
+      version: 2.0.6-1
     source:
       type: git
       url: https://github.com/IntelligentRoboticsLabs/ros2_planning_system.git
@@ -4201,6 +4201,17 @@ repositories:
       url: https://github.com/ros2/rosidl_typesupport_gurumdds.git
       version: galactic
     status: developed
+  rospy_message_converter:
+    doc:
+      type: git
+      url: https://github.com/uos/rospy_message_converter.git
+      version: galactic
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/uos/rospy_message_converter.git
+      version: galactic
+    status: maintained
   rplidar_ros:
     release:
       tags:
@@ -4853,7 +4864,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/oKermorgant/slider_publisher-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/oKermorgant/slider_publisher.git
@@ -5308,6 +5319,26 @@ repositories:
       url: https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
       version: galactic-devel
     status: developed
+  turtlebot4:
+    doc:
+      type: git
+      url: https://github.com/turtlebot/turtlebot4.git
+      version: galactic
+    release:
+      packages:
+      - turtlebot4_description
+      - turtlebot4_msgs
+      - turtlebot4_navigation
+      - turtlebot4_node
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros2-gbp/turtlebot4-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/turtlebot/turtlebot4.git
+      version: galactic
+    status: developed
   turtlesim:
     doc:
       type: git
@@ -5487,6 +5518,28 @@ repositories:
       url: https://github.com/ros-industrial/ur_msgs.git
       version: foxy
     status: developed
+  ur_robot_driver:
+    doc:
+      type: git
+      url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
+      version: galactic
+    release:
+      packages:
+      - ur_bringup
+      - ur_calibration
+      - ur_controllers
+      - ur_dashboard_msgs
+      - ur_moveit_config
+      - ur_robot_driver
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
+      version: 2.1.0-1
+    source:
+      type: git
+      url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
+      version: galactic
+    status: developed
   urdf:
     doc:
       type: git
@@ -5652,7 +5705,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros2/variants.git
-      version: master
+      version: galactic
     release:
       packages:
       - desktop
@@ -5666,7 +5719,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/variants.git
-      version: master
+      version: galactic
     status: maintained
   velodyne:
     doc:
