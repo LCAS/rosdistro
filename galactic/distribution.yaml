@@ -3751,7 +3751,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/IntelligentRoboticsLabs/ros2_planning_system-release.git
-      version: 2.0.6-1
+      version: 2.0.8-1
     source:
       type: git
       url: https://github.com/IntelligentRoboticsLabs/ros2_planning_system.git
@@ -4772,7 +4772,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/septentrio-users/septentrio_gnss_driver_ros2-release.git
-      version: 1.2.0-4
+      version: 1.2.0-5
     source:
       test_pull_requests: true
       type: git
@@ -5227,7 +5227,7 @@ repositories:
     doc:
       type: git
       url: https://gitlab.com/ros-tracing/tracetools_analysis.git
-      version: foxy
+      version: galactic
     release:
       packages:
       - ros2trace_analysis
@@ -5239,7 +5239,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ros-tracing/tracetools_analysis.git
-      version: foxy
+      version: galactic
     status: developed
   transport_drivers:
     doc:
@@ -5337,6 +5337,44 @@ repositories:
     source:
       type: git
       url: https://github.com/turtlebot/turtlebot4.git
+      version: galactic
+    status: developed
+  turtlebot4_desktop:
+    doc:
+      type: git
+      url: https://github.com/turtlebot/turtlebot4_desktop.git
+      version: galactic
+    release:
+      packages:
+      - turtlebot4_desktop
+      - turtlebot4_viz
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros2-gbp/turtlebot4_desktop-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/turtlebot/turtlebot4_desktop.git
+      version: galactic
+    status: developed
+  turtlebot4_simulator:
+    doc:
+      type: git
+      url: https://github.com/turtlebot/turtlebot4_simulator.git
+      version: galactic
+    release:
+      packages:
+      - turtlebot4_ignition_bringup
+      - turtlebot4_ignition_gui_plugins
+      - turtlebot4_ignition_toolbox
+      - turtlebot4_simulator
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros2-gbp/turtlebot4_simulator-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/turtlebot/turtlebot4_simulator.git
       version: galactic
     status: developed
   turtlesim:

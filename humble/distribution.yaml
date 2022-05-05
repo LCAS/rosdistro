@@ -1354,10 +1354,11 @@ repositories:
       - image_rotate
       - image_view
       - stereo_image_proc
+      - tracetools_image_pipeline
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/image_pipeline-release.git
-      version: 2.2.1-5
+      version: 3.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3685,7 +3686,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros_environment-release.git
-      version: 3.2.0-3
+      version: 3.2.1-1
     source:
       test_pull_requests: true
       type: git
@@ -4901,7 +4902,7 @@ repositories:
     doc:
       type: git
       url: https://gitlab.com/ros-tracing/tracetools_analysis.git
-      version: master
+      version: humble
     release:
       packages:
       - ros2trace_analysis
@@ -4913,7 +4914,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ros-tracing/tracetools_analysis.git
-      version: master
+      version: humble
     status: developed
   transport_drivers:
     doc:
