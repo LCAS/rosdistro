@@ -577,7 +577,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/FraunhoferIOSB/camera_aravis-release.git
-      version: 4.0.1-2
+      version: 4.0.2-1
     source:
       test_pull_requests: true
       type: git
@@ -1026,13 +1026,14 @@ repositories:
       - cob_collision_monitor
       - cob_grasp_generation
       - cob_lookat_action
+      - cob_manipulation
       - cob_manipulation_msgs
       - cob_moveit_bringup
       - cob_moveit_interface
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_manipulation-release.git
-      version: 0.7.6-1
+      version: 0.7.6-2
     source:
       type: git
       url: https://github.com/ipa320/cob_manipulation.git
@@ -1828,6 +1829,21 @@ repositories:
       type: git
       url: https://github.com/ros/dynamic_reconfigure.git
       version: noetic-devel
+    status: maintained
+  dynamic_robot_state_publisher:
+    doc:
+      type: git
+      url: https://github.com/peci1/dynamic_robot_state_publisher.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/peci1/dynamic_robot_state_publisher-release.git
+      version: 1.2.0-1
+    source:
+      type: git
+      url: https://github.com/peci1/dynamic_robot_state_publisher.git
+      version: master
     status: maintained
   dynamixel-workbench:
     doc:
@@ -3254,7 +3270,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros4hri/hri_msgs-release.git
-      version: 0.4.1-2
+      version: 0.5.2-1
     source:
       type: git
       url: https://github.com/ros4hri/hri_msgs.git
@@ -4462,6 +4478,16 @@ repositories:
       url: https://github.com/hatchbed/log_view.git
       version: devel
     status: developed
+  lsm_localization:
+    doc:
+      type: git
+      url: https://github.com/ihadzic/lsm_localization.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ihadzic/lsm_localization.git
+      version: master
+    status: maintained
   lusb:
     doc:
       type: git
@@ -4970,6 +4996,16 @@ repositories:
       url: https://github.com/MarkNaeem/move_base_sequence.git
       version: main
     status: maintained
+  move_base_swp:
+    doc:
+      type: git
+      url: https://github.com/ihadzic/move_base_swp.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ihadzic/move_base_swp.git
+      version: master
+    status: maintained
   move_basic:
     release:
       tags:
@@ -5182,7 +5218,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt2-release.git
-      version: 2.4.3-1
+      version: 2.4.4-1
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
@@ -5197,7 +5233,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_bridge-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_bridge.git
@@ -5216,6 +5252,29 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
+      version: ros1
+    status: developed
+  mrpt_navigation:
+    doc:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
+      version: ros1
+    release:
+      packages:
+      - mrpt_local_obstacles
+      - mrpt_localization
+      - mrpt_map
+      - mrpt_navigation
+      - mrpt_rawlog
+      - mrpt_reactivenav2d
+      - mrpt_tutorials
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/mrpt-ros-pkg-release/mrpt_navigation-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
       version: ros1
     status: developed
   mrt_cmake_modules:
@@ -6504,7 +6563,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/pose_cov_ops-release.git
-      version: 0.3.0-1
+      version: 0.3.1-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
@@ -9359,7 +9418,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/septentrio-users/septentrio_gnss_driver-release.git
-      version: 1.1.0-6
+      version: 1.1.0-7
     source:
       test_pull_requests: true
       type: git
