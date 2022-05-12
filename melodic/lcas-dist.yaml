@@ -75,6 +75,14 @@ repositories:
       url: https://github.com/LCAS/catkin_simple.git
       version: master
     status: developed
+  darko:
+    source:
+      test_commits: true
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LCAS/DARKO.git
+      version: main
+    status: developed
   depth_sensors:
     release:
       packages:
