@@ -862,6 +862,22 @@ repositories:
       url: https://github.com/ros2/demos.git
       version: foxy
     status: developed
+  depthai:
+    doc:
+      type: git
+      url: https://github.com/luxonis/depthai-core.git
+      version: ros-release
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/luxonis/depthai-core-release.git
+      version: 2.15.4-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/luxonis/depthai-core.git
+      version: ros-release
+    status: developed
   depthimage_to_laserscan:
     doc:
       type: git
@@ -1073,7 +1089,6 @@ repositories:
       url: https://github.com/yujinrobot-release/ecl_tools-release.git
       version: 1.0.2-2
     source:
-      test_pull_requests: true
       type: git
       url: https://github.com/stonier/ecl_tools.git
       version: devel
@@ -2559,6 +2574,21 @@ repositories:
       type: git
       url: https://github.com/MRPT/mrpt.git
       version: develop
+    status: developed
+  mrpt_msgs:
+    doc:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/mrpt_msgs-release.git
+      version: 0.4.0-1
+    source:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
+      version: master
     status: developed
   mrt_cmake_modules:
     doc:

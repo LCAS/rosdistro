@@ -701,7 +701,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/luxonis/depthai-core-release.git
-      version: 1.5.0-1
+      version: 2.15.4-2
     source:
       test_pull_requests: true
       type: git
@@ -800,6 +800,26 @@ repositories:
       url: https://github.com/ROBOTIS-GIT/DynamixelSDK.git
       version: galactic-devel
     status: developed
+  ecl_tools:
+    doc:
+      type: git
+      url: https://github.com/stonier/ecl_tools.git
+      version: release/1.0.x
+    release:
+      packages:
+      - ecl_build
+      - ecl_license
+      - ecl_tools
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/yujinrobot-release/ecl_tools-release.git
+      version: 1.0.2-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/stonier/ecl_tools.git
+      version: devel
+    status: maintained
   eigen3_cmake_module:
     doc:
       type: git
@@ -2690,7 +2710,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.4.2-1
+      version: 3.4.4-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -4788,7 +4808,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/septentrio-users/septentrio_gnss_driver_ros2-release.git
-      version: 1.2.0-5
+      version: 1.2.1-1
     source:
       test_pull_requests: true
       type: git
@@ -5968,5 +5988,20 @@ repositories:
       url: https://github.com/ros2/yaml_cpp_vendor.git
       version: galactic
     status: maintained
+  zmqpp_vendor:
+    doc:
+      type: git
+      url: https://github.com/tier4/zmqpp_vendor.git
+      version: main
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/tier4/zmqpp_vendor-release.git
+      version: 0.0.1-2
+    source:
+      type: git
+      url: https://github.com/tier4/zmqpp_vendor.git
+      version: main
+    status: developed
 type: distribution
 version: 2
