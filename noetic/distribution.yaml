@@ -1864,7 +1864,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/dynamic_reconfigure-release.git
-      version: 1.7.2-1
+      version: 1.7.3-1
     source:
       test_pull_requests: true
       type: git
@@ -3350,7 +3350,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/husky-release.git
-      version: 0.6.2-1
+      version: 0.6.3-1
     source:
       type: git
       url: https://github.com/husky/husky.git
@@ -5304,7 +5304,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_msgs-release.git
-      version: 0.2.0-2
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
@@ -6101,7 +6101,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/openrtm_aist-release.git
-      version: 1.1.2-2
+      version: 1.1.2-4
     source:
       type: git
       url: https://github.com/tork-a/openrtm_aist-release.git
@@ -6824,6 +6824,33 @@ repositories:
       url: https://github.com/pr2/pr2_mechanism_msgs.git
       version: master
     status: unmaintained
+  pr2_navigation:
+    doc:
+      type: git
+      url: https://github.com/PR2/pr2_navigation.git
+      version: kinetic-devel
+    release:
+      packages:
+      - laser_tilt_controller_filter
+      - pr2_move_base
+      - pr2_navigation
+      - pr2_navigation_config
+      - pr2_navigation_global
+      - pr2_navigation_local
+      - pr2_navigation_perception
+      - pr2_navigation_self_filter
+      - pr2_navigation_slam
+      - pr2_navigation_teleop
+      - semantic_point_annotator
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/pr2-gbp/pr2_navigation-release.git
+      version: 0.2.0-1
+    source:
+      type: git
+      url: https://github.com/PR2/pr2_navigation.git
+      version: kinetic-devel
+    status: maintained
   pr2_power_drivers:
     doc:
       type: git
@@ -7524,7 +7551,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/ridgeback-release.git
-      version: 0.3.1-1
+      version: 0.3.2-1
     source:
       type: git
       url: https://github.com/ridgeback/ridgeback.git
@@ -8093,6 +8120,17 @@ repositories:
       type: git
       url: https://github.com/ros/ros_environment.git
       version: noetic
+    status: maintained
+  ros_ethercat_eml:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/shadow-robot/ros_ethercat_eml-release.git
+      version: 0.4.0-2
+    source:
+      type: git
+      url: https://github.com/shadow-robot/ros_ethercat_eml.git
+      version: noetic-devel
     status: maintained
   ros_ign:
     doc:
@@ -9492,7 +9530,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/septentrio-users/septentrio_gnss_driver-release.git
-      version: 1.1.0-7
+      version: 1.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -10147,7 +10185,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.com/toposens/public/toposens-library-release.git
-      version: 1.1.4-1
+      version: 1.2.4-4
     source:
       type: git
       url: https://gitlab.com/toposens/public/toposens-library.git
