@@ -6383,6 +6383,31 @@ python3-elasticsearch:
     '*': [python3-elasticsearch]
     '7': null
   ubuntu: [python3-elasticsearch]
+python3-emoji:
+  debian:
+    '*': [python3-emoji]
+    bullseye:
+      pip:
+        packages: [emoji]
+    buster:
+      pip:
+        packages: [emoji]
+    stretch:
+      pip:
+        packages: [emoji]
+  fedora: [python3-emoji]
+  opensuse: [python3-emoji]
+  rhel:
+    '*': [python3-emoji]
+    '7': null
+  ubuntu:
+    '*': [python3-emoji]
+    bionic:
+      pip:
+        packages: [emoji]
+    focal:
+      pip:
+        packages: [emoji]
 python3-empy:
   alpine: [py3-empy]
   arch: [python-empy]
@@ -8297,6 +8322,9 @@ python3-scp:
   debian: [python3-scp]
   fedora: [python3-scp]
   opensuse: [python3-scp]
+  rhel:
+    '*': [python3-scp]
+    '7': null
   ubuntu: [python3-scp]
 python3-seaborn:
   arch: [python-seaborn]
@@ -8313,6 +8341,9 @@ python3-selenium:
   osx:
     pip:
       packages: [selenium]
+  rhel:
+    '*': [python3-selenium]
+    '7': null
   ubuntu: [python3-selenium]
 python3-semantic-version:
   debian: [python3-semantic-version]
