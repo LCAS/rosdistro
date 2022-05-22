@@ -1641,15 +1641,42 @@ repositories:
       url: https://github.com/pal-robotics/ddynamic_reconfigure_python.git
       version: master
     status: maintained
+  depthai:
+    doc:
+      type: git
+      url: https://github.com/luxonis/depthai-core.git
+      version: ros-release
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/luxonis/depthai-core-release.git
+      version: 1.7.4-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/luxonis/depthai-core.git
+      version: ros-release
+    status: developed
   depthai-ros:
     doc:
       type: git
       url: https://github.com/luxonis/depthai-ros.git
-      version: main
+      version: ros-release
+    release:
+      packages:
+      - depthai-ros
+      - depthai_bridge
+      - depthai_examples
+      - depthai_ros_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/luxonis/depthai-ros-release.git
+      version: 2.5.1-2
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/luxonis/depthai-ros.git
-      version: main
+      version: ros-release
     status: developed
   depthimage_to_laserscan:
     release:
