@@ -2081,7 +2081,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/fictionlab-gbp/leo_common-ros2-release.git
-      version: 1.0.2-1
+      version: 1.0.3-1
     source:
       type: git
       url: https://github.com/LeoRover/leo_common-ros2.git
@@ -2465,7 +2465,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/microstrain_inertial-release.git
-      version: 2.5.1-1
+      version: 2.6.0-1
     source:
       test_pull_requests: true
       type: git
@@ -6208,7 +6208,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/tvm_vendor-release.git
-      version: 0.8.0-1
+      version: 0.8.1-1
     source:
       type: git
       url: https://github.com/autowarefoundation/tvm_vendor.git

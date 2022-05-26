@@ -1665,6 +1665,24 @@ repositories:
       url: https://github.com/LeoRover/leo_common-ros2.git
       version: humble
     status: maintained
+  leo_desktop:
+    doc:
+      type: git
+      url: https://github.com/LeoRover/leo_desktop-ros2.git
+      version: humble
+    release:
+      packages:
+      - leo_desktop
+      - leo_viz
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/fictionlab-gbp/leo_desktop-ros2-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/LeoRover/leo_desktop-ros2.git
+      version: humble
+    status: maintained
   lgsvl_msgs:
     release:
       tags:
@@ -5039,7 +5057,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/tvm_vendor-release.git
-      version: 0.8.0-2
+      version: 0.8.1-1
     source:
       type: git
       url: https://github.com/autowarefoundation/tvm_vendor.git
@@ -5105,7 +5123,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/aussierobots/ublox_dgnss-release.git
-      version: 0.3.2-3
+      version: 0.3.5-4
     source:
       type: git
       url: https://github.com/aussierobots/ublox_dgnss.git
