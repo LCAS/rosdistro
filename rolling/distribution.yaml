@@ -792,6 +792,31 @@ repositories:
       url: https://github.com/ROBOTIS-GIT/DynamixelSDK.git
       version: ros2
     status: maintained
+  ecl_lite:
+    doc:
+      type: git
+      url: https://github.com/stonier/ecl_lite.git
+      version: release/1.1.x
+    release:
+      packages:
+      - ecl_config
+      - ecl_console
+      - ecl_converters_lite
+      - ecl_errors
+      - ecl_io
+      - ecl_lite
+      - ecl_sigslots_lite
+      - ecl_time_lite
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/yujinrobot-release/ecl_lite-release.git
+      version: 1.1.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/stonier/ecl_lite.git
+      version: devel
+    status: maintained
   ecl_tools:
     doc:
       type: git
@@ -1555,7 +1580,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/laser_filters-release.git
-      version: 2.0.4-4
+      version: 2.0.5-2
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
@@ -1625,7 +1650,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/launch_param_builder-release.git
-      version: 0.1.0-2
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/launch_param_builder.git
@@ -1910,7 +1935,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/microstrain_inertial-release.git
-      version: 2.5.1-1
+      version: 2.6.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1954,6 +1979,7 @@ repositories:
       - moveit
       - moveit_chomp_optimizer_adapter
       - moveit_common
+      - moveit_configs_utils
       - moveit_core
       - moveit_hybrid_planning
       - moveit_kinematics
@@ -1985,6 +2011,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/moveit/moveit2-release.git
+      version: 2.5.0-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -2053,7 +2080,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.4.5-1
+      version: 2.4.8-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -3315,7 +3342,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_task-release.git
-      version: 2.0.0-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_task.git
@@ -4722,6 +4749,21 @@ repositories:
       url: https://github.com/OUXT-Polaris/sol_vendor.git
       version: main
     status: developed
+  sophus:
+    doc:
+      type: git
+      url: https://github.com/stonier/sophus.git
+      version: release/1.2.x
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/yujinrobot-release/sophus-release.git
+      version: 1.2.1-1
+    source:
+      type: git
+      url: https://github.com/stonier/sophus.git
+      version: release/1.2.x
+    status: maintained
   spdlog_vendor:
     release:
       tags:
@@ -5152,6 +5194,26 @@ repositories:
       type: git
       url: https://github.com/KumarRobotics/ublox.git
       version: ros2
+    status: maintained
+  ublox_dgnss:
+    doc:
+      type: git
+      url: https://github.com/aussierobots/ublox_dgnss.git
+      version: main
+    release:
+      packages:
+      - ublox_dgnss
+      - ublox_dgnss_node
+      - ublox_ubx_interfaces
+      - ublox_ubx_msgs
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/aussierobots/ublox_dgnss-release.git
+      version: 0.3.5-3
+    source:
+      type: git
+      url: https://github.com/aussierobots/ublox_dgnss.git
+      version: main
     status: maintained
   udp_msgs:
     doc:

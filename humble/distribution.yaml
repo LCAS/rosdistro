@@ -514,6 +514,24 @@ repositories:
       url: https://github.com/ros2/cartographer_ros.git
       version: ros2
     status: maintained
+  cascade_lifecycle:
+    doc:
+      type: git
+      url: https://github.com/fmrico/cascade_lifecycle.git
+      version: humble-devel
+    release:
+      packages:
+      - cascade_lifecycle_msgs
+      - rclcpp_cascade_lifecycle
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/fmrico/cascade_lifecycle-release.git
+      version: 1.0.1-3
+    source:
+      type: git
+      url: https://github.com/fmrico/cascade_lifecycle.git
+      version: humble-devel
+    status: developed
   class_loader:
     doc:
       type: git
@@ -1565,7 +1583,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/laser_filters-release.git
-      version: 2.0.4-5
+      version: 2.0.5-1
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
@@ -2103,7 +2121,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.4.5-1
+      version: 2.4.8-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -2683,6 +2701,21 @@ repositories:
       url: https://github.com/ros-perception/pointcloud_to_laserscan.git
       version: rolling
     status: maintained
+  popf:
+    doc:
+      type: git
+      url: https://github.com/fmrico/popf.git
+      version: humble-devel
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/fmrico/popf-release.git
+      version: 0.0.14-1
+    source:
+      type: git
+      url: https://github.com/fmrico/popf.git
+      version: humble-devel
+    status: developed
   pybind11_json_vendor:
     doc:
       type: git
@@ -4717,7 +4750,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/srdfdom-release.git
-      version: 2.0.3-3
+      version: 2.0.4-1
     source:
       type: git
       url: https://github.com/ros-planning/srdfdom.git
