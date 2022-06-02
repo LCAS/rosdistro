@@ -410,7 +410,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/bond_core.git
-      version: ros2
+      version: galactic
     release:
       packages:
       - bond
@@ -426,7 +426,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/bond_core.git
-      version: ros2
+      version: galactic
     status: maintained
   cartographer:
     doc:
@@ -1122,7 +1122,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/gazebo_ros2_control-release.git
-      version: 0.0.7-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
@@ -2910,6 +2910,21 @@ repositories:
       url: https://github.com/fmrico/popf.git
       version: galactic-devel
     status: maintained
+  pose_cov_ops:
+    doc:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
+      version: master
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros2-gbp/pose_cov_ops-release.git
+      version: 0.3.4-1
+    source:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
+      version: master
+    status: maintained
   py_trees_ros_interfaces:
     doc:
       type: git
@@ -3829,7 +3844,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 1.5.0-1
+      version: 1.5.1-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
