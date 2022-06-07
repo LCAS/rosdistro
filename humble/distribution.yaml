@@ -1049,7 +1049,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros_foxglove_msgs-release.git
-      version: 1.2.0-1
+      version: 1.2.1-1
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
@@ -2225,6 +2225,53 @@ repositories:
       type: git
       url: https://github.com/ijnek/nao_lola.git
       version: rolling
+    status: developed
+  navigation2:
+    release:
+      packages:
+      - costmap_queue
+      - dwb_core
+      - dwb_critics
+      - dwb_msgs
+      - dwb_plugins
+      - nav2_amcl
+      - nav2_behavior_tree
+      - nav2_behaviors
+      - nav2_bringup
+      - nav2_bt_navigator
+      - nav2_common
+      - nav2_constrained_smoother
+      - nav2_controller
+      - nav2_core
+      - nav2_costmap_2d
+      - nav2_dwb_controller
+      - nav2_lifecycle_manager
+      - nav2_map_server
+      - nav2_msgs
+      - nav2_navfn_planner
+      - nav2_planner
+      - nav2_regulated_pure_pursuit_controller
+      - nav2_rotation_shim_controller
+      - nav2_rviz_plugins
+      - nav2_simple_commander
+      - nav2_smac_planner
+      - nav2_smoother
+      - nav2_system_tests
+      - nav2_theta_star_planner
+      - nav2_util
+      - nav2_voxel_grid
+      - nav2_waypoint_follower
+      - nav_2d_msgs
+      - nav_2d_utils
+      - navigation2
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/SteveMacenski/navigation2-release.git
+      version: 1.1.0-1
+    source:
+      type: git
+      url: https://github.com/ros-planning/navigation2.git
+      version: humble
     status: developed
   navigation_msgs:
     doc:
@@ -4675,6 +4722,18 @@ repositories:
       url: https://github.com/oKermorgant/simple_launch.git
       version: devel
     status: maintained
+  slam_toolbox:
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/SteveMacenski/slam_toolbox-release.git
+      version: 2.6.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/SteveMacenski/slam_toolbox.git
+      version: humble
+    status: maintained
   slider_publisher:
     doc:
       type: git
@@ -4846,11 +4905,10 @@ repositories:
       - system_modes
       - system_modes_examples
       - system_modes_msgs
-      - test_launch_system_modes
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/system_modes-release.git
-      version: 0.9.0-3
+      version: 0.9.0-6
     source:
       test_pull_requests: true
       type: git
@@ -5150,7 +5208,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/tvm_vendor-release.git
-      version: 0.8.1-1
+      version: 0.8.2-1
     source:
       type: git
       url: https://github.com/autowarefoundation/tvm_vendor.git

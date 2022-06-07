@@ -48,6 +48,20 @@ repositories:
       url: https://github.com/ros-drivers/ackermann_msgs.git
       version: ros2
     status: maintained
+  ament_black:
+    release:
+      packages:
+      - ament_black
+      - ament_cmake_black
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/Timple/ament_black-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/Timple/ament_black.git
+      version: main
+    status: maintained
   ament_cmake:
     doc:
       type: git
@@ -701,7 +715,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/luxonis/depthai-core-release.git
-      version: 2.15.4-2
+      version: 2.15.5-1
     source:
       test_pull_requests: true
       type: git
@@ -722,7 +736,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/luxonis/depthai-ros-release.git
-      version: 2.5.1-1
+      version: 2.5.2-1
     source:
       test_pull_requests: true
       type: git
@@ -1104,7 +1118,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/ros_foxglove_msgs-release.git
-      version: 1.2.0-1
+      version: 1.2.1-1
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
@@ -1406,7 +1420,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/ign_ros2_control-release.git
-      version: 0.4.0-1
+      version: 0.4.1-1
     source:
       type: git
       url: https://github.com/ignitionrobotics/ign_ros2_control.git
@@ -5217,11 +5231,10 @@ repositories:
       - system_modes
       - system_modes_examples
       - system_modes_msgs
-      - test_launch_system_modes
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/system_modes-release.git
-      version: 0.9.0-1
+      version: 0.9.0-3
     source:
       test_pull_requests: true
       type: git
@@ -5645,7 +5658,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/tvm_vendor-release.git
-      version: 0.8.1-1
+      version: 0.8.2-1
     source:
       type: git
       url: https://github.com/autowarefoundation/tvm_vendor.git
@@ -6142,7 +6155,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: rolling
+      version: master
     release:
       packages:
       - webots_ros2
@@ -6161,7 +6174,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/webots_ros2-release.git
-      version: 1.2.2-1
+      version: 1.2.3-1
     source:
       test_pull_requests: true
       type: git
