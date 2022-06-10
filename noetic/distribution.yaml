@@ -4994,6 +4994,21 @@ repositories:
       url: https://github.com/LORD-MicroStrain/microstrain_inertial.git
       version: ros
     status: developed
+  mikrotik_swos_tools:
+    doc:
+      type: git
+      url: https://github.com/peci1/mikrotik_swos_tools.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/peci1/mikrotik_swos_tools-release.git
+      version: 1.1.0-1
+    source:
+      type: git
+      url: https://github.com/peci1/mikrotik_swos_tools.git
+      version: master
+    status: maintained
   mir_robot:
     doc:
       type: git
@@ -5303,6 +5318,21 @@ repositories:
       url: https://github.com/ros-planning/moveit_visual_tools.git
       version: noetic-devel
     status: developed
+  movie_publisher:
+    doc:
+      type: git
+      url: https://github.com/peci1/movie_publisher.git
+      version: melodic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/peci1/movie_publisher-release.git
+      version: 1.4.0-1
+    source:
+      type: git
+      url: https://github.com/peci1/movie_publisher.git
+      version: melodic-devel
+    status: maintained
   mpc_local_planner:
     doc:
       type: git
@@ -5358,7 +5388,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt2-release.git
-      version: 2.4.8-1
+      version: 2.4.9-1
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
@@ -10232,6 +10262,21 @@ repositories:
       url: https://github.com/locusrobotics/tf2_2d.git
       version: devel
     status: developed
+  tf2_server:
+    doc:
+      type: git
+      url: https://github.com/peci1/tf2_server.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/peci1/tf2_server-release.git
+      version: 1.1.1-1
+    source:
+      type: git
+      url: https://github.com/peci1/tf2_server.git
+      version: master
+    status: maintained
   tf2_web_republisher:
     doc:
       type: git
@@ -10537,6 +10582,21 @@ repositories:
     source:
       type: git
       url: https://github.com/KumarRobotics/ublox.git
+      version: master
+    status: maintained
+  ubnt_airos_tools:
+    doc:
+      type: git
+      url: https://github.com/peci1/ubnt_airos_tools.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/peci1/ubnt_airos_tools-release.git
+      version: 1.1.0-1
+    source:
+      type: git
+      url: https://github.com/peci1/ubnt_airos_tools.git
       version: master
     status: maintained
   udp_com:
