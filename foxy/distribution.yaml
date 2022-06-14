@@ -2295,7 +2295,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/maliput-release.git
-      version: 1.0.3-1
+      version: 1.0.4-1
     source:
       test_pull_requests: true
       type: git
@@ -2311,11 +2311,27 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/maliput_documentation-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/maliput/maliput_drake.git
+      version: main
+    status: developed
+  maliput_malidrive:
+    doc:
+      type: git
+      url: https://github.com/maliput/maliput_malidrive.git
+      version: main
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/maliput_malidrive-release.git
+      version: 0.1.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/maliput/maliput_malidrive.git
       version: main
     status: developed
   maliput_object:

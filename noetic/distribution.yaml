@@ -5418,7 +5418,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_msgs-release.git
-      version: 0.4.3-1
+      version: 0.4.4-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
@@ -7731,7 +7731,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/rm-controls/rm_control-release.git
-      version: 0.1.11-1
+      version: 0.1.13-1
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
@@ -10223,6 +10223,17 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_twist_keyboard.git
+      version: master
+    status: maintained
+  tensorflow_ros_cpp:
+    doc:
+      type: git
+      url: https://github.com/tradr-project/tensorflow_ros_cpp.git
+      version: master
+    source:
+      test_commits: false
+      type: git
+      url: https://github.com/tradr-project/tensorflow_ros_cpp.git
       version: master
     status: maintained
   tesseract:
