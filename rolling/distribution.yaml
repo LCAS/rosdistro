@@ -1262,7 +1262,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gscam-release.git
-      version: 2.0.1-1
+      version: 2.0.2-1
     source:
       type: git
       url: https://github.com/ros-drivers/gscam.git
@@ -3122,7 +3122,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcss3d_agent-release.git
-      version: 0.0.7-1
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/ros-sports/rcss3d_agent.git
@@ -3875,7 +3875,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros_image_to_qimage-release.git
-      version: 0.0.2-2
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/ros-sports/ros_image_to_qimage.git
@@ -4323,7 +4323,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_image_overlay-release.git
-      version: 0.0.5-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/ros-sports/rqt_image_overlay.git
