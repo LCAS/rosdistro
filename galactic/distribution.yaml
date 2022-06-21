@@ -2231,7 +2231,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_msgs-release.git
-      version: 0.4.3-1
+      version: 0.4.4-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
@@ -2959,7 +2959,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/pose_cov_ops-release.git
-      version: 0.3.5-1
+      version: 0.3.6-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
@@ -3342,7 +3342,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-sports/rcss3d_agent.git
-      version: rolling
+      version: galactic
     release:
       packages:
       - rcss3d_agent
@@ -3351,11 +3351,11 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rcss3d_agent-release.git
-      version: 0.0.7-1
+      version: 0.1.0-1
     source:
       type: git
       url: https://github.com/ros-sports/rcss3d_agent.git
-      version: rolling
+      version: galactic
     status: developed
   rcutils:
     doc:
@@ -4121,16 +4121,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-sports/ros_image_to_qimage.git
-      version: rolling
+      version: galactic
     release:
       tags:
         release: release/galactic/{package}/{version}
-      url: https://github.com/ros-sports/ros_image_to_qimage-release.git
-      version: 0.0.2-1
+      url: https://github.com/ros2-gbp/ros_image_to_qimage-release.git
+      version: 0.1.0-1
     source:
       type: git
       url: https://github.com/ros-sports/ros_image_to_qimage.git
-      version: rolling
+      version: galactic
     status: developed
   ros_testing:
     doc:
@@ -4554,7 +4554,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-sports/rqt_image_overlay.git
-      version: rolling
+      version: galactic
     release:
       packages:
       - rqt_image_overlay
@@ -4562,11 +4562,11 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_image_overlay-release.git
-      version: 0.0.5-1
+      version: 0.0.6-1
     source:
       type: git
       url: https://github.com/ros-sports/rqt_image_overlay.git
-      version: rolling
+      version: galactic
     status: developed
   rqt_image_view:
     doc:

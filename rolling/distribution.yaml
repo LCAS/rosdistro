@@ -403,7 +403,8 @@ repositories:
       - aws_robomaker_small_warehouse_world
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/aws-gbp/aws_robomaker_small_warehouse_world-release.git
+      url: https://github.com/ros2-gbp/aws_robomaker_small_warehouse_world-release.git
+      version: 1.0.5-2
     source:
       type: git
       url: https://github.com/aws-robotics/aws-robomaker-small-warehouse-world.git
@@ -1882,7 +1883,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_message_filters-release.git
-      version: 4.4.0-1
+      version: 4.4.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2716,7 +2717,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pose_cov_ops-release.git
-      version: 0.3.5-1
+      version: 0.3.6-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
@@ -3642,7 +3643,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 2.9.0-1
+      version: 2.10.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -3670,7 +3671,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 2.5.0-1
+      version: 2.6.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -4709,13 +4710,14 @@ repositories:
       version: rolling
     release:
       packages:
+      - soccer_interfaces
       - soccer_vision_2d_msgs
       - soccer_vision_3d_msgs
       - soccer_vision_attribute_msgs
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/soccer_interfaces-release.git
-      version: 0.0.1-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/ros-sports/soccer_interfaces.git

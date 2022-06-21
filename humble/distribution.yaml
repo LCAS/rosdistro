@@ -403,7 +403,8 @@ repositories:
       - aws_robomaker_small_warehouse_world
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/aws-gbp/aws_robomaker_small_warehouse_world-release.git
+      url: https://github.com/ros2-gbp/aws_robomaker_small_warehouse_world-release.git
+      version: 1.0.5-1
     source:
       type: git
       url: https://github.com/aws-robotics/aws-robomaker-small-warehouse-world.git
@@ -952,7 +953,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/fastrtps-release.git
-      version: 2.6.0-3
+      version: 2.6.1-1
     source:
       test_commits: true
       test_pull_requests: false
@@ -1050,7 +1051,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros_foxglove_msgs-release.git
-      version: 1.2.1-1
+      version: 1.2.2-1
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
@@ -1089,7 +1090,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/gazebo_ros_pkgs-release.git
-      version: 3.6.0-1
+      version: 3.7.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1286,7 +1287,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/gscam-release.git
-      version: 2.0.1-2
+      version: 2.0.2-1
     source:
       type: git
       url: https://github.com/ros-drivers/gscam.git
@@ -1944,7 +1945,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_message_filters-release.git
-      version: 4.3.1-2
+      version: 4.3.2-1
     source:
       test_pull_requests: true
       type: git
@@ -2158,7 +2159,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_msgs-release.git
-      version: 0.4.3-1
+      version: 0.4.4-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
@@ -3211,7 +3212,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-sports/rcss3d_agent.git
-      version: rolling
+      version: humble
     release:
       packages:
       - rcss3d_agent
@@ -3220,11 +3221,11 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rcss3d_agent-release.git
-      version: 0.0.7-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/ros-sports/rcss3d_agent.git
-      version: rolling
+      version: humble
     status: developed
   rcutils:
     doc:
@@ -3748,7 +3749,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 2.9.0-1
+      version: 2.10.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -3776,7 +3777,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 2.5.0-1
+      version: 2.6.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -4421,7 +4422,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-sports/rqt_image_overlay.git
-      version: rolling
+      version: humble
     release:
       packages:
       - rqt_image_overlay
@@ -4429,11 +4430,11 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_image_overlay-release.git
-      version: 0.0.5-2
+      version: 0.1.0-1
     source:
       type: git
       url: https://github.com/ros-sports/rqt_image_overlay.git
-      version: rolling
+      version: humble
     status: developed
   rqt_image_view:
     doc:
@@ -4824,20 +4825,21 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-sports/soccer_interfaces.git
-      version: rolling
+      version: humble
     release:
       packages:
+      - soccer_interfaces
       - soccer_vision_2d_msgs
       - soccer_vision_3d_msgs
       - soccer_vision_attribute_msgs
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/soccer_interfaces-release.git
-      version: 0.0.1-2
+      version: 0.1.0-1
     source:
       type: git
       url: https://github.com/ros-sports/soccer_interfaces.git
-      version: rolling
+      version: humble
     status: developed
   soccer_object_msgs:
     doc:
