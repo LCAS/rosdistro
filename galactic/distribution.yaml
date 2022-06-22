@@ -442,6 +442,21 @@ repositories:
       url: https://github.com/ros/bond_core.git
       version: galactic
     status: maintained
+  boost_geometry_util:
+    doc:
+      type: git
+      url: https://github.com/OUXT-Polaris/boost_geometry_util.git
+      version: master
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/OUXT-Polaris/boost_geometry_util-release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://github.com/OUXT-Polaris/boost_geometry_util.git
+      version: master
+    status: developed
   cartographer:
     doc:
       type: git
@@ -1175,6 +1190,27 @@ repositories:
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
       version: galactic
     status: maintained
+  gc_spl:
+    doc:
+      type: git
+      url: https://github.com/ros-sports/gc_spl.git
+      version: galactic
+    release:
+      packages:
+      - gc_spl_2022
+      - rcgcd_spl_14
+      - rcgcd_spl_14_conversion
+      - rcgcrd_spl_4
+      - rcgcrd_spl_4_conversion
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros2-gbp/gc_spl-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-sports/gc_spl.git
+      version: galactic
+    status: developed
   geographic_info:
     doc:
       type: git
@@ -1361,7 +1397,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/gscam-release.git
-      version: 2.0.1-1
+      version: 2.0.2-1
     source:
       type: git
       url: https://github.com/ros-drivers/gscam.git
@@ -3076,6 +3112,25 @@ repositories:
       url: https://github.com/OUXT-Polaris/quaternion_operation.git
       version: ros2
     status: maintained
+  r2r_spl:
+    doc:
+      type: git
+      url: https://github.com/ros-sports/r2r_spl.git
+      version: galactic
+    release:
+      packages:
+      - r2r_spl_7
+      - splsm_7
+      - splsm_7_conversion
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros2-gbp/r2r_spl-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-sports/r2r_spl.git
+      version: galactic
+    status: developed
   radar_msgs:
     release:
       tags:
@@ -4857,6 +4912,24 @@ repositories:
       url: https://github.com/RoboSense-LiDAR/rslidar_sdk.git
       version: dev
     status: maintained
+  rt_manipulators_cpp:
+    doc:
+      type: git
+      url: https://github.com/rt-net/rt_manipulators_cpp.git
+      version: ros2
+    release:
+      packages:
+      - rt_manipulators_cpp
+      - rt_manipulators_examples
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/rt-net-gbp/rt_manipulators_cpp-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/rt-net/rt_manipulators_cpp.git
+      version: ros2
+    status: maintained
   rtabmap:
     doc:
       type: git
@@ -5064,6 +5137,11 @@ repositories:
       url: https://github.com/SteveMacenski/slam_toolbox.git
       version: galactic
     status: maintained
+  slg_msgs:
+    doc:
+      type: git
+      url: https://github.com/ajtudela/slg_msgs.git
+      version: galactic
   slider_publisher:
     doc:
       type: git
