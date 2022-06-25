@@ -5263,6 +5263,23 @@ repositories:
       url: https://github.com/jsk-ros-pkg/jsk_control.git
       version: master
     status: developed
+  jsk_geometry2_python3:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/geometry2_python3.git
+      version: melodic-devel
+    release:
+      packages:
+      - jsk_tf2_py_python3
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/tork-a/geometry2_python3-release.git
+      version: 0.6.9-2
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/geometry2_python3.git
+      version: melodic-devel
+    status: maintained
   jsk_model_tools:
     doc:
       type: git
@@ -7215,7 +7232,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt2-release.git
-      version: 2.4.9-2
+      version: 2.4.10-1
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
@@ -7246,6 +7263,7 @@ repositories:
       - mrpt_local_obstacles
       - mrpt_localization
       - mrpt_map
+      - mrpt_msgs_bridge
       - mrpt_navigation
       - mrpt_rawlog
       - mrpt_reactivenav2d
@@ -7253,7 +7271,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_navigation-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
@@ -7264,6 +7282,15 @@ repositories:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
       version: ros1
+    release:
+      packages:
+      - mrpt_generic_sensor
+      - mrpt_sensorlib
+      - mrpt_sensors
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/mrpt-ros-pkg-release/mrpt_sensors-release.git
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
@@ -7285,7 +7312,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_slam-release.git
-      version: 0.1.10-1
+      version: 0.1.11-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_slam.git
@@ -7375,7 +7402,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
-      version: 0.3.2-1
+      version: 0.3.2-2
     source:
       test_pull_requests: true
       type: git
@@ -9127,7 +9154,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/pose_cov_ops-release.git
-      version: 0.3.6-1
+      version: 0.3.7-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
