@@ -2191,7 +2191,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/moveit_resources-release.git
-      version: 2.0.4-1
+      version: 2.0.5-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
@@ -2480,7 +2480,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ntpd_driver-release.git
-      version: 2.1.0-1
+      version: 2.1.0-2
     source:
       type: git
       url: https://github.com/vooon/ntpd_driver.git
@@ -5168,7 +5168,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/tensorrt_cmake_module-release.git
-      version: 0.0.2-3
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/tier4/tensorrt_cmake_module.git
