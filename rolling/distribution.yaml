@@ -3691,6 +3691,24 @@ repositories:
       url: https://github.com/ros2/rmw_implementation.git
       version: master
     status: developed
+  robot_calibration:
+    doc:
+      type: git
+      url: https://github.com/mikeferguson/robot_calibration.git
+      version: ros2
+    release:
+      packages:
+      - robot_calibration
+      - robot_calibration_msgs
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/robot_calibration-release.git
+      version: 0.8.0-1
+    source:
+      type: git
+      url: https://github.com/mikeferguson/robot_calibration.git
+      version: ros2
+    status: developed
   robot_localization:
     release:
       tags:
@@ -5466,7 +5484,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
-      version: 2.2.0-1
+      version: 2.2.1-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git

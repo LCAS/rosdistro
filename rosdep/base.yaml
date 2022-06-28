@@ -404,6 +404,7 @@ bullet-extras:
   debian: [libbullet-extras-dev]
   fedora: [bullet-extras]
   gentoo: [sci-physics/bullet]
+  nixos: [bullet]
   ubuntu: [libbullet-extras-dev]
 bzip2:
   alpine: [bzip2-dev]
@@ -441,6 +442,7 @@ cargo:
   archlinux: [rust]
   debian: [cargo]
   fedora: [cargo]
+  nixos: [cargo]
   opensuse: [cargo]
   rhel: [cargo]
   ubuntu: [cargo]
@@ -603,6 +605,7 @@ collada-dom:
   freebsd: [collada-dom]
   gentoo: [dev-libs/collada-dom]
   macports: [collada-dom]
+  nixos: [collada-dom]
   openembedded: [collada-dom@meta-ros-common]
   slackware: [collada-dom]
   ubuntu:
@@ -2091,6 +2094,7 @@ iproute2:
 iputils-ping:
   debian: [iputils-ping]
   fedora: [iputils]
+  nixos: [unixtools.ping]
   ubuntu: [iputils-ping]
 iwyu:
   debian: [iwyu]
@@ -2233,6 +2237,7 @@ libabsl-dev:
     buster: null
   fedora: [abseil-cpp-devel]
   gentoo: [dev-cpp/abseil-cpp]
+  nixos: [abseil-cpp]
   rhel:
     '*': [abseil-cpp-devel]
     '7': null
@@ -3461,6 +3466,7 @@ libgphoto-dev:
 libgpiod-dev:
   debian: [libgpiod-dev]
   fedora: [libgpiod-devel]
+  nixos: [libgpiod]
   opensuse: [libgpiod-devel]
   rhel:
     '*': [libgpiod-devel]
