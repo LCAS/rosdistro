@@ -5405,7 +5405,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt2-release.git
-      version: 2.4.9-1
+      version: 2.4.10-1
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
@@ -5436,6 +5436,7 @@ repositories:
       - mrpt_local_obstacles
       - mrpt_localization
       - mrpt_map
+      - mrpt_msgs_bridge
       - mrpt_navigation
       - mrpt_rawlog
       - mrpt_reactivenav2d
@@ -5443,10 +5444,29 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_navigation-release.git
-      version: 1.0.0-1
+      version: 1.0.3-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
+      version: ros1
+    status: developed
+  mrpt_sensors:
+    doc:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
+      version: ros1
+    release:
+      packages:
+      - mrpt_generic_sensor
+      - mrpt_sensorlib
+      - mrpt_sensors
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/mrpt-ros-pkg-release/mrpt_sensors-release.git
+      version: 0.0.2-1
+    source:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
       version: ros1
     status: developed
   mrt_cmake_modules:
@@ -5721,7 +5741,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/nerian-vision/nerian_stereo-release.git
-      version: 3.9.1-1
+      version: 3.10.0-1
     source:
       type: git
       url: https://github.com/nerian-vision/nerian_stereo.git
@@ -6753,7 +6773,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/pose_cov_ops-release.git
-      version: 0.3.6-1
+      version: 0.3.7-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
@@ -9849,6 +9869,21 @@ repositories:
       url: https://github.com/oKermorgant/slider_publisher.git
       version: ros1
     status: maintained
+  snmp_ros:
+    doc:
+      type: git
+      url: https://github.com/ctu-vras/snmp_ros.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ctu-vras/snmp_ros-release.git
+      version: 1.0.2-1
+    source:
+      type: git
+      url: https://github.com/ctu-vras/snmp_ros.git
+      version: master
+    status: developed
   snowbot_operating_system:
     doc:
       type: git

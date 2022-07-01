@@ -4454,7 +4454,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros4hri/hri_msgs-release.git
-      version: 0.5.2-1
+      version: 0.7.0-1
     source:
       type: git
       url: https://github.com/ros4hri/hri_msgs.git
@@ -7300,7 +7300,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_slam.git
-      version: ros1
+      version: melodic-devel
     release:
       packages:
       - mrpt_ekf_slam_2d
@@ -7315,7 +7315,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_slam.git
-      version: ros1
+      version: melodic-devel
     status: maintained
   mrt_cmake_modules:
     doc:
@@ -7710,7 +7710,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/nerian-vision/nerian_stereo-release.git
-      version: 3.9.1-1
+      version: 3.10.0-1
     source:
       type: git
       url: https://github.com/nerian-vision/nerian_stereo.git
@@ -9055,7 +9055,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.4.3-1
+      version: 3.4.5-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -9361,7 +9361,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_mechanism-release.git
-      version: 1.8.20-1
+      version: 1.8.21-1
     source:
       type: git
       url: https://github.com/pr2/pr2_mechanism.git
@@ -13104,6 +13104,21 @@ repositories:
       url: https://github.com/SteveMacenski/slam_toolbox.git
       version: melodic-devel
     status: maintained
+  snmp_ros:
+    doc:
+      type: git
+      url: https://github.com/ctu-vras/snmp_ros.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ctu-vras/snmp_ros-release.git
+      version: 1.0.3-1
+    source:
+      type: git
+      url: https://github.com/ctu-vras/snmp_ros.git
+      version: master
+    status: developed
   snowbot_operating_system:
     doc:
       type: git
