@@ -662,7 +662,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/control_toolbox-release.git
-      version: 2.0.2-2
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
@@ -1198,7 +1198,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/geometry2-release.git
-      version: 0.26.0-1
+      version: 0.26.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1899,7 +1899,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mavlink-gbp-release.git
-      version: 2022.2.2-2
+      version: 2022.6.27-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -1919,7 +1919,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mavros-release.git
-      version: 2.1.0-2
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -2793,6 +2793,7 @@ repositories:
       url: https://github.com/ros2-gbp/pointcloud_to_laserscan-release.git
       version: 2.0.1-2
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/pointcloud_to_laserscan.git
       version: rolling
@@ -3228,10 +3229,11 @@ repositories:
       - rcss3d_agent
       - rcss3d_agent_basic
       - rcss3d_agent_msgs
+      - rcss3d_agent_msgs_to_soccer_interfaces
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcss3d_agent-release.git
-      version: 0.3.0-1
+      version: 0.4.1-1
     source:
       type: git
       url: https://github.com/ros-sports/rcss3d_agent.git
@@ -3769,7 +3771,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 2.10.0-1
+      version: 2.11.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -3797,7 +3799,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 2.6.0-1
+      version: 2.7.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
