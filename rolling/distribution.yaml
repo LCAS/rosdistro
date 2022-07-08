@@ -440,6 +440,21 @@ repositories:
       url: https://github.com/pal-robotics/backward_ros.git
       version: foxy-devel
     status: maintained
+  bag2_to_image:
+    doc:
+      type: git
+      url: https://github.com/wep21/bag2_to_image.git
+      version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/bag2_to_image-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/wep21/bag2_to_image.git
+      version: main
+    status: maintained
   behaviortree_cpp:
     doc:
       type: git
@@ -1090,7 +1105,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gazebo_ros2_control-release.git
-      version: 0.3.0-1
+      version: 0.3.1-1
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
@@ -2644,13 +2659,10 @@ repositories:
       url: https://gitlab.com/ApexAI/performance_test.git
       version: 1.0.0
     release:
-      packages:
-      - performance_report
-      - performance_test
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/performance_test-release.git
-      version: 1.0.0-1
+      version: 1.2.1-2
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
