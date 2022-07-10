@@ -176,6 +176,21 @@ repositories:
       url: https://github.com/vanadiumlabs/arbotix_ros.git
       version: noetic-devel
     status: maintained
+  aruco_opencv:
+    doc:
+      type: git
+      url: https://github.com/fictionlab/aruco_opencv.git
+      version: noetic
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/fictionlab-gbp/aruco_opencv-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/fictionlab/aruco_opencv.git
+      version: noetic
+    status: developed
   aruco_ros:
     doc:
       type: git
@@ -588,7 +603,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/FraunhoferIOSB/camera_aravis-release.git
-      version: 4.0.2-1
+      version: 4.0.3-1
     source:
       test_pull_requests: true
       type: git
@@ -4661,7 +4676,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/nobleo/magic_enum-release.git
-      version: 0.7.3-1
+      version: 0.8.0-1
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
@@ -5708,7 +5723,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.11.4-1
+      version: 0.11.5-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -6304,7 +6319,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-industrial-release/opw_kinematics-release.git
-      version: 0.4.6-1
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/Jmeyer1292/opw_kinematics.git
@@ -8332,7 +8347,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-industrial-release/ros_industrial_cmake_boilerplate-release.git
-      version: 0.2.16-1
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/ros-industrial/ros_industrial_cmake_boilerplate.git
@@ -10316,7 +10331,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-industrial-release/tesseract-release.git
-      version: 0.8.6-1
+      version: 0.10.0-1
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
@@ -10978,7 +10993,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/velodyne-release.git
-      version: 1.6.1-1
+      version: 1.7.0-1
     source:
       type: git
       url: https://github.com/ros-drivers/velodyne.git

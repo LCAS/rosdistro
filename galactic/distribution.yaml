@@ -1901,7 +1901,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/hatchbed/log_view-release.git
-      version: 0.2.0-1
+      version: 0.2.1-1
     source:
       type: git
       url: https://github.com/hatchbed/log_view.git
@@ -2848,15 +2848,12 @@ repositories:
     doc:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: 1.0.0
+      version: 1.2.1
     release:
-      packages:
-      - performance_report
-      - performance_test
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/performance_test-release.git
-      version: 1.0.0-1
+      version: 1.2.1-1
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
@@ -6160,7 +6157,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-drivers/velodyne.git
-      version: galactic-devel
+      version: ros2
     release:
       packages:
       - velodyne
@@ -6171,11 +6168,11 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/velodyne-release.git
-      version: 2.2.0-1
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/ros-drivers/velodyne.git
-      version: galactic-devel
+      version: ros2
     status: developed
   velodyne_simulator:
     doc:

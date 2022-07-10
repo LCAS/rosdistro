@@ -2760,15 +2760,12 @@ repositories:
     doc:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: 1.1.0
+      version: 1.2.1
     release:
-      packages:
-      - performance_report
-      - performance_test
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/performance_test-release.git
-      version: 1.1.0-1
+      version: 1.2.1-1
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
@@ -3888,6 +3885,7 @@ repositories:
       - controller_manager
       - controller_manager_msgs
       - hardware_interface
+      - joint_limits
       - ros2_control
       - ros2_control_test_assets
       - ros2controlcli
@@ -3895,7 +3893,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 2.11.0-1
+      version: 2.12.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -3923,7 +3921,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 2.7.0-1
+      version: 2.8.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -5821,6 +5819,27 @@ repositories:
       url: https://github.com/ros2/variants.git
       version: master
     status: maintained
+  velodyne:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/velodyne.git
+      version: ros2
+    release:
+      packages:
+      - velodyne
+      - velodyne_driver
+      - velodyne_laserscan
+      - velodyne_msgs
+      - velodyne_pointcloud
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/velodyne-release.git
+      version: 2.3.0-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/velodyne.git
+      version: ros2
+    status: developed
   velodyne_simulator:
     doc:
       type: git

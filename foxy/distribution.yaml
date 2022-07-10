@@ -669,7 +669,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/canlab-co/CLPE_G_NVP2650D_SDK-ros2-release.git
-      version: 0.1.0-5
+      version: 0.1.0-6
     source:
       test_pull_requests: true
       type: git
@@ -3413,15 +3413,12 @@ repositories:
     doc:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: 1.0.0
+      version: 1.2.1
     release:
-      packages:
-      - performance_report
-      - performance_test
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/performance_test-release.git
-      version: 1.0.0-1
+      version: 1.2.1-1
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
@@ -6972,6 +6969,21 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
+      version: master
+    status: maintained
+  vrpn:
+    doc:
+      type: git
+      url: https://github.com/vrpn/vrpn.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/vrpn-release.git
+      version: 7.35.0-8
+    source:
+      type: git
+      url: https://github.com/vrpn/vrpn.git
       version: master
     status: maintained
   warehouse_ros:
