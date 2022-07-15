@@ -3387,6 +3387,21 @@ repositories:
       url: https://github.com/ros4hri/hri_msgs.git
       version: master
     status: developed
+  hri_rviz:
+    doc:
+      type: git
+      url: https://github.com/ros4hri/hri_rviz.git
+      version: main
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros4hri/hri_rviz-release.git
+      version: 0.3.1-1
+    source:
+      type: git
+      url: https://github.com/ros4hri/hri_rviz.git
+      version: main
+    status: developed
   human_description:
     doc:
       type: git
@@ -3940,6 +3955,7 @@ repositories:
       version: master
     release:
       packages:
+      - audio_video_recorder
       - dynamic_tf_publisher
       - image_view2
       - jsk_common
@@ -3953,7 +3969,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 2.2.11-2
+      version: 2.2.12-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
