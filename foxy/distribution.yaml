@@ -1455,7 +1455,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/ros_foxglove_msgs-release.git
-      version: 1.2.2-1
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
@@ -1850,7 +1850,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: ros2
+      version: foxy
     release:
       packages:
       - camera_calibration
@@ -1869,7 +1869,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: ros2
+      version: foxy
     status: maintained
   image_transport_plugins:
     doc:
@@ -3949,6 +3949,21 @@ repositories:
       url: https://github.com/rt-net/raspimouse2.git
       version: foxy-devel
     status: maintained
+  raspimouse_description:
+    doc:
+      type: git
+      url: https://github.com/rt-net/raspimouse_description.git
+      version: foxy-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/raspimouse_description-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/rt-net/raspimouse_description.git
+      version: foxy-devel
+    status: maintained
   rc_common_msgs:
     doc:
       type: git
@@ -5549,7 +5564,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_console-release.git
-      version: 1.1.1-1
+      version: 1.1.2-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_console.git
