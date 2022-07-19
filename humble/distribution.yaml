@@ -66,6 +66,16 @@ repositories:
       url: https://github.com/ros-acceleration/adaptive_component.git
       version: rolling
     status: developed
+  affordance_primitives:
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/PickNikRobotics/affordance_primitives-release.git
+      version: 0.1.0-3
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/affordance_primitives.git
+      version: main
   ament_acceleration:
     doc:
       type: git
@@ -289,7 +299,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/angles-release.git
-      version: 1.13.0-3
+      version: 1.15.0-1
     source:
       test_pull_requests: true
       type: git
@@ -774,7 +784,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/luxonis/depthai-core-release.git
-      version: 2.15.5-1
+      version: 2.17.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1070,7 +1080,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/fogros2-release.git
-      version: 0.1.6-3
+      version: 0.1.7-1
     source:
       type: git
       url: https://github.com/BerkeleyAutomation/FogROS2.git
@@ -1107,7 +1117,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros_foxglove_msgs-release.git
-      version: 1.2.2-1
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
@@ -1570,7 +1580,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/imu_tools-release.git
-      version: 2.1.1-1
+      version: 2.1.1-2
     source:
       test_pull_requests: true
       type: git
@@ -1978,6 +1988,12 @@ repositories:
       url: https://github.com/swri-robotics/marti_messages.git
       version: dashing-devel
     status: developed
+  marvelmind_ros2_msgs:
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/MarvelmindRobotics/marvelmind_ros2_msgs_release.git
+      version: 1.0.2-1
   mavlink:
     doc:
       type: git
@@ -2236,7 +2252,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.4.9-1
+      version: 2.5.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -2830,7 +2846,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-release.git
-      version: 3.4.5-1
+      version: 3.5.0-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -2860,7 +2876,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-ros-plugins-release.git
-      version: 1.5.1-3
+      version: 1.7.1-3
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
@@ -3921,7 +3937,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 2.8.0-1
+      version: 2.9.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -3946,6 +3962,35 @@ repositories:
       url: https://github.com/SteveMacenski/ros2_ouster_drivers.git
       version: foxy-devel
     status: maintained
+  ros2_planning_system:
+    doc:
+      type: git
+      url: https://github.com/IntelligentRoboticsLabs/ros2_planning_system.git
+      version: humble-devel
+    release:
+      packages:
+      - plansys2_bringup
+      - plansys2_bt_actions
+      - plansys2_core
+      - plansys2_domain_expert
+      - plansys2_executor
+      - plansys2_lifecycle_manager
+      - plansys2_msgs
+      - plansys2_pddl_parser
+      - plansys2_planner
+      - plansys2_popf_plan_solver
+      - plansys2_problem_expert
+      - plansys2_terminal
+      - plansys2_tools
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/IntelligentRoboticsLabs/ros2_planning_system-release.git
+      version: 2.0.9-1
+    source:
+      type: git
+      url: https://github.com/IntelligentRoboticsLabs/ros2_planning_system.git
+      version: humble-devel
+    status: developed
   ros2_socketcan:
     doc:
       type: git
@@ -4927,6 +4972,51 @@ repositories:
       url: https://github.com/septentrio-gnss/septentrio_gnss_driver.git
       version: ros2
     status: maintained
+  sick_safetyscanners2:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners2.git
+      version: master
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/SICKAG/sick_safetyscanners2-release.git
+      version: 1.0.3-1
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners2.git
+      version: master
+    status: developed
+  sick_safetyscanners2_interfaces:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners2_interfaces.git
+      version: master
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/SICKAG/sick_safetyscanners2_interfaces-release.git
+      version: 1.0.0-2
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners2_interfaces.git
+      version: master
+    status: developed
+  sick_safetyscanners_base:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners_base.git
+      version: ros2
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/SICKAG/sick_safetyscanners_base-release.git
+      version: 1.0.1-3
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners_base.git
+      version: ros2
+    status: developed
   simple_launch:
     doc:
       type: git
