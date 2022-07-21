@@ -2009,6 +2009,18 @@ repositories:
         release: release/humble/{package}/{version}
       url: https://github.com/MarvelmindRobotics/marvelmind_ros2_msgs_release.git
       version: 1.0.2-1
+  marvelmind_ros2_release:
+    release:
+      packages:
+      - marvelmind_ros2
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/MarvelmindRobotics/marvelmind_ros2_release_repo.git
+      version: 1.0.2-3
+    source:
+      type: git
+      url: https://github.com/MarvelmindRobotics/marvelmind_ros2_upstream.git
+      version: main
   mavlink:
     doc:
       type: git
@@ -3304,7 +3316,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rclc-release.git
-      version: 4.0.0-1
+      version: 4.0.1-1
     source:
       test_pull_requests: true
       type: git
