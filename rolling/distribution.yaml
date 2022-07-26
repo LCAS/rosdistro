@@ -924,7 +924,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/eigenpy-release.git
-      version: 2.7.7-1
+      version: 2.7.8-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -1394,6 +1394,21 @@ repositories:
       type: git
       url: https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
       version: rolling-devel
+    status: developed
+  hpp-fcl:
+    doc:
+      type: git
+      url: https://github.com/humanoid-path-planner/hpp-fcl.git
+      version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/hpp_fcl-release.git
+      version: 2.1.1-1
+    source:
+      type: git
+      url: https://github.com/humanoid-path-planner/hpp-fcl.git
+      version: devel
     status: developed
   iceoryx:
     release:
@@ -2102,14 +2117,19 @@ repositories:
       - moveit_ros_warehouse
       - moveit_runtime
       - moveit_servo
+      - moveit_setup_app_plugins
       - moveit_setup_assistant
+      - moveit_setup_controllers
+      - moveit_setup_core_plugins
+      - moveit_setup_framework
+      - moveit_setup_srdf_plugins
       - moveit_simple_controller_manager
       - pilz_industrial_motion_planner
       - pilz_industrial_motion_planner_testutils
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/moveit/moveit2-release.git
-      version: 2.5.1-1
+      version: 2.5.2-1
     source:
       test_commits: false
       test_pull_requests: false
