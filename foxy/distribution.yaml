@@ -920,7 +920,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/demos-release.git
-      version: 0.9.3-1
+      version: 0.9.4-1
     source:
       test_pull_requests: true
       type: git
@@ -2381,7 +2381,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/maliput-release.git
-      version: 1.0.4-1
+      version: 1.0.5-1
     source:
       test_pull_requests: true
       type: git
@@ -2756,7 +2756,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros2/mimick_vendor.git
-      version: master
+      version: foxy
     release:
       tags:
         release: release/foxy/{package}/{version}
@@ -2765,7 +2765,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/mimick_vendor.git
-      version: master
+      version: foxy
     status: maintained
   mir_robot:
     doc:
@@ -3279,7 +3279,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/orocos_kinematics_dynamics-release.git
-      version: 3.3.2-1
+      version: 3.3.4-1
     source:
       test_pull_requests: true
       type: git
@@ -3445,7 +3445,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/performance_test_fixture-release.git
-      version: 0.0.8-1
+      version: 0.0.9-1
     source:
       test_pull_requests: true
       type: git
@@ -4077,7 +4077,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rcl-release.git
-      version: 1.1.13-1
+      version: 1.1.14-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -4197,7 +4197,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 2.4.1-1
+      version: 2.4.2-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -4247,7 +4247,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rcutils-release.git
-      version: 1.1.3-1
+      version: 1.1.4-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -4631,7 +4631,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_cyclonedds-release.git
-      version: 0.7.8-1
+      version: 0.7.9-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -4669,7 +4669,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_fastrtps-release.git
-      version: 1.3.0-1
+      version: 1.3.1-1
     source:
       test_abi: true
       test_pull_requests: true
@@ -5323,7 +5323,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_python-release.git
-      version: 0.9.5-1
+      version: 0.9.6-1
     source:
       test_pull_requests: true
       type: git
