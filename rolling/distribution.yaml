@@ -924,7 +924,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/eigenpy-release.git
-      version: 2.7.8-1
+      version: 2.7.10-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -2129,7 +2129,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/moveit/moveit2-release.git
-      version: 2.5.2-1
+      version: 2.5.3-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -2753,6 +2753,21 @@ repositories:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/picknik_ament_copyright-release.git
       version: 0.0.2-2
+  pinocchio:
+    doc:
+      type: git
+      url: https://github.com/stack-of-tasks/pinocchio.git
+      version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/pinocchio-release.git
+      version: 2.6.8-1
+    source:
+      type: git
+      url: https://github.com/stack-of-tasks/pinocchio.git
+      version: devel
+    status: developed
   plotjuggler:
     doc:
       type: git
@@ -3905,8 +3920,8 @@ repositories:
   ros2_tracing:
     doc:
       type: git
-      url: https://gitlab.com/ros-tracing/ros2_tracing.git
-      version: master
+      url: https://github.com/ros2/ros2_tracing.git
+      version: rolling
     release:
       packages:
       - ros2trace
@@ -3920,9 +3935,10 @@ repositories:
       url: https://github.com/ros2-gbp/ros2_tracing-release.git
       version: 4.1.0-1
     source:
+      test_pull_requests: true
       type: git
-      url: https://gitlab.com/ros-tracing/ros2_tracing.git
-      version: master
+      url: https://github.com/ros2/ros2_tracing.git
+      version: rolling
     status: developed
   ros2acceleration:
     doc:

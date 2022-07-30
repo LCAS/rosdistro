@@ -1217,7 +1217,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/stack-of-tasks/eigenpy-ros-release.git
-      version: 2.7.8-1
+      version: 2.7.10-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -2445,7 +2445,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/maliput_integration-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2484,7 +2484,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/maliput_multilane-release.git
-      version: 0.1.1-1
+      version: 0.1.2-1
     source:
       test_pull_requests: true
       type: git
@@ -3941,8 +3941,8 @@ repositories:
       - raspimouse_msgs
       tags:
         release: release/foxy/{package}/{version}
-      url: https://github.com/rt-net/raspimouse2-release.git
-      version: 1.0.2-1
+      url: https://github.com/ros2-gbp/raspimouse2-release.git
+      version: 1.1.0-4
     source:
       test_pull_requests: true
       type: git
@@ -4948,7 +4948,7 @@ repositories:
   ros2_tracing:
     doc:
       type: git
-      url: https://gitlab.com/ros-tracing/ros2_tracing.git
+      url: https://github.com/ros2/ros2_tracing.git
       version: foxy
     release:
       packages:
@@ -4965,7 +4965,7 @@ repositories:
     source:
       test_abi: true
       type: git
-      url: https://gitlab.com/ros-tracing/ros2_tracing.git
+      url: https://github.com/ros2/ros2_tracing.git
       version: foxy
     status: developed
   ros2cli:

@@ -944,7 +944,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/eigenpy-release.git
-      version: 2.7.8-1
+      version: 2.7.10-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -1023,7 +1023,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/fastrtps-release.git
-      version: 2.6.1-1
+      version: 2.6.2-1
     source:
       test_commits: true
       test_pull_requests: false
@@ -1439,6 +1439,21 @@ repositories:
       type: git
       url: https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
       version: rolling-devel
+    status: developed
+  hpp-fcl:
+    doc:
+      type: git
+      url: https://github.com/humanoid-path-planner/hpp-fcl.git
+      version: master
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/hpp_fcl-release.git
+      version: 2.1.1-1
+    source:
+      type: git
+      url: https://github.com/humanoid-path-planner/hpp-fcl.git
+      version: devel
     status: developed
   iceoryx:
     release:
@@ -2215,7 +2230,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/moveit/moveit2-release.git
-      version: 2.5.2-1
+      version: 2.5.3-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -4041,7 +4056,7 @@ repositories:
   ros2_tracing:
     doc:
       type: git
-      url: https://gitlab.com/ros-tracing/ros2_tracing.git
+      url: https://github.com/ros2/ros2_tracing.git
       version: humble
     release:
       packages:
@@ -4057,7 +4072,7 @@ repositories:
       version: 4.1.0-2
     source:
       type: git
-      url: https://gitlab.com/ros-tracing/ros2_tracing.git
+      url: https://github.com/ros2/ros2_tracing.git
       version: humble
     status: developed
   ros2acceleration:
