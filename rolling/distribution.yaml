@@ -924,7 +924,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/eigenpy-release.git
-      version: 2.7.10-2
+      version: 2.7.10-3
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -1120,7 +1120,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gazebo_ros2_control-release.git
-      version: 0.3.1-1
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
@@ -1425,7 +1425,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/hpp_fcl-release.git
-      version: 2.1.2-2
+      version: 2.1.2-3
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
@@ -1453,6 +1453,24 @@ repositories:
       url: https://github.com/ros2-gbp/ifm3d-release.git
       version: 0.18.0-6
     status: developed
+  ign_ros2_control:
+    doc:
+      type: git
+      url: https://github.com/ros-controls/gz_ros2_control.git
+      version: master
+    release:
+      packages:
+      - ign_ros2_control
+      - ign_ros2_control_demos
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/ign_ros2_control-release.git
+      version: 0.5.0-1
+    source:
+      type: git
+      url: https://github.com/ros-controls/gz_ros2_control.git
+      version: master
+    status: maintained
   ign_rviz:
     doc:
       type: git
@@ -3035,7 +3053,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/r2r_spl-release.git
-      version: 3.0.0-1
+      version: 3.0.1-1
     source:
       type: git
       url: https://github.com/ros-sports/r2r_spl.git
@@ -4554,7 +4572,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_image_overlay-release.git
-      version: 0.2.0-1
+      version: 0.2.1-1
     source:
       type: git
       url: https://github.com/ros-sports/rqt_image_overlay.git
