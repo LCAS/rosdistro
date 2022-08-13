@@ -4494,6 +4494,13 @@ python-rx-pip:
   ubuntu:
     pip:
       packages: [rx]
+python-sbp-pip: &migrate_eol_2027_04_30_python3_sbp_pip
+  debian:
+    pip:
+      packages: [sbp]
+  ubuntu:
+    pip:
+      packages: [sbp]
 python-scapy:
   debian: [python-scapy]
   fedora: [scapy]
@@ -4922,6 +4929,13 @@ python-sqlalchemy:
 python-sqlite:
   debian: [python-sqlite]
   ubuntu: [python-sqlite]
+python-statistics-pip:
+  debian:
+    pip:
+      packages: [statistics]
+  ubuntu:
+    pip:
+      packages: [statistics]
 python-statsd:
   debian: [python-statsd]
   fedora: [python-statsd]
@@ -7721,6 +7735,19 @@ python3-ply:
     '*': [python3-ply]
     '7': null
   ubuntu: [python3-ply]
+python3-polling2-pip:
+  debian:
+    pip:
+      packages: [polling2]
+  fedora:
+    pip:
+      packages: [polling2]
+  osx:
+    pip:
+      packages: [polling2]
+  ubuntu:
+    pip:
+      packages: [polling2]
 python3-pqdict-pip:
   debian:
     pip:
@@ -8498,6 +8525,7 @@ python3-ruamel.yaml:
   nixos: [python3Packages.ruamel_yaml]
   openembedded: [python3-ruamel-yaml@meta-python]
   ubuntu: [python3-ruamel.yaml]
+python3-sbp-pip: *migrate_eol_2027_04_30_python3_sbp_pip
 python3-schedule:
   debian: [python3-schedule]
   nixos: [python3Packages.schedule]
@@ -8861,6 +8889,19 @@ python3-staticmap-pip:
   ubuntu:
     pip:
       packages: [staticmap]
+python3-stonesoup-pip:
+  debian:
+    pip:
+      packages: [stonesoup]
+  fedora:
+    pip:
+      packages: [stonesoup]
+  osx:
+    pip:
+      packages: [stonesoup]
+  ubuntu:
+    pip:
+      packages: [stonesoup]
 python3-suas-interop-clients-pip:
   debian:
     pip:
