@@ -974,7 +974,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/eigenpy-release.git
-      version: 2.7.10-2
+      version: 2.7.11-2
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -1457,7 +1457,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/hpp_fcl-release.git
-      version: 2.1.2-1
+      version: 2.1.2-2
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
@@ -2939,6 +2939,21 @@ repositories:
         release: release/galactic/{package}/{version}
       url: https://github.com/PickNikRobotics/picknik_ament_copyright-release.git
       version: 0.0.1-1
+  pinocchio:
+    doc:
+      type: git
+      url: https://github.com/stack-of-tasks/pinocchio.git
+      version: master
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros2-gbp/pinocchio-release.git
+      version: 2.6.9-2
+    source:
+      type: git
+      url: https://github.com/stack-of-tasks/pinocchio.git
+      version: devel
+    status: developed
   plotjuggler:
     doc:
       type: git
@@ -4340,7 +4355,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2_storage_mcap-release.git
-      version: 0.1.6-1
+      version: 0.1.7-1
     source:
       type: git
       url: https://github.com/ros-tooling/rosbag2_storage_mcap.git

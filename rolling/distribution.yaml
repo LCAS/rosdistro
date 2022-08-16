@@ -924,7 +924,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/eigenpy-release.git
-      version: 2.7.10-3
+      version: 2.7.11-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -1249,7 +1249,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/geometry2-release.git
-      version: 0.26.1-1
+      version: 0.26.2-1
     source:
       test_pull_requests: true
       type: git
@@ -1536,7 +1536,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_common-release.git
-      version: 3.2.1-1
+      version: 4.0.0-2
     source:
       test_pull_requests: true
       type: git
@@ -2801,7 +2801,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pinocchio-release.git
-      version: 2.6.8-1
+      version: 2.6.9-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git

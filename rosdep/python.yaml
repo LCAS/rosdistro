@@ -7370,6 +7370,10 @@ python3-mypy:
   osx:
     pip:
       packages: [mypy]
+  rhel:
+    '*': [python3-mypy]
+    '7': null
+    '8': null
   ubuntu: [python3-mypy]
 python3-nclib-pip:
   arch:
@@ -8286,6 +8290,7 @@ python3-pytest-timeout:
   debian: [python3-pytest-timeout]
   fedora: [python3-pytest-timeout]
   gentoo: [dev-python/pytest-timeout]
+  nixos: [python3Packages.pytest-timeout]
   opensuse: [python3-pytest-timeout]
   rhel: ['python%{python3_pkgversion}-pytest-timeout']
   ubuntu: [python3-pytest-timeout]
