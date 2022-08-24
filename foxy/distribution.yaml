@@ -817,8 +817,8 @@ repositories:
       - crane_plus_moveit_config
       tags:
         release: release/foxy/{package}/{version}
-      url: https://github.com/rt-net-gbp/crane_plus-release.git
-      version: 1.0.0-5
+      url: https://github.com/ros2-gbp/crane_plus-release.git
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/rt-net/crane_plus.git
@@ -2531,7 +2531,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/maliput_object_py-release.git
-      version: 0.1.1-1
+      version: 0.1.2-1
     source:
       test_pull_requests: true
       type: git
@@ -3858,6 +3858,23 @@ repositories:
       url: https://github.com/Autoware-AI/qpoases_vendor.git
       version: ros2
     status: maintained
+  qt_advanced_docking_system:
+    doc:
+      type: git
+      url: https://github.com/githubuser0xFFFF/Qt-Advanced-Docking-System.git
+      version: master
+    release:
+      packages:
+      - qt_advanced_docking
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/tesseract-robotics-release/qt_advanced_docking_system-release.git
+      version: 3.8.2-1
+    source:
+      type: git
+      url: https://github.com/githubuser0xFFFF/Qt-Advanced-Docking-System.git
+      version: master
+    status: developed
   qt_gui_core:
     doc:
       type: git
@@ -4007,6 +4024,25 @@ repositories:
     source:
       type: git
       url: https://github.com/rt-net/raspimouse_ros2_examples.git
+      version: foxy-devel
+    status: maintained
+  raspimouse_slam_navigation_ros2:
+    doc:
+      type: git
+      url: https://github.com/rt-net/raspimouse_slam_navigation_ros2.git
+      version: foxy-devel
+    release:
+      packages:
+      - raspimouse_navigation
+      - raspimouse_slam
+      - raspimouse_slam_navigation
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/raspimouse_slam_navigation_ros2-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/rt-net/raspimouse_slam_navigation_ros2.git
       version: foxy-devel
     status: maintained
   rc_common_msgs:
