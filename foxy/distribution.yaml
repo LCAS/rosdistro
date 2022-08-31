@@ -1646,7 +1646,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/swri-robotics-gbp/gps_umd-release.git
-      version: 1.0.4-1
+      version: 1.0.5-2
     source:
       test_pull_requests: true
       type: git
@@ -2208,7 +2208,7 @@ repositories:
       - leo_teleop
       tags:
         release: release/foxy/{package}/{version}
-      url: https://github.com/fictionlab-gbp/leo_common-ros2-release.git
+      url: https://github.com/ros2-gbp/leo_common-release.git
       version: 1.0.3-1
     source:
       type: git
@@ -2226,7 +2226,7 @@ repositories:
       - leo_viz
       tags:
         release: release/foxy/{package}/{version}
-      url: https://github.com/fictionlab-gbp/leo_desktop-ros2-release.git
+      url: https://github.com/ros2-gbp/leo_desktop-release.git
       version: 1.0.0-1
     source:
       type: git
@@ -2909,7 +2909,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.5.1-1
+      version: 2.5.2-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -7116,6 +7116,21 @@ repositories:
       url: https://github.com/vrpn/vrpn.git
       version: master
     status: maintained
+  vrpn_mocap:
+    doc:
+      type: git
+      url: https://github.com/alvinsunyixiao/vrpn_mocap.git
+      version: main
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/vrpn_mocap-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/alvinsunyixiao/vrpn_mocap.git
+      version: main
+    status: developed
   warehouse_ros:
     doc:
       type: git
