@@ -2861,7 +2861,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/stack-of-tasks/eigenpy-ros-release.git
-      version: 2.7.12-1
+      version: 2.7.8-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -3597,7 +3597,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/frankaemika/franka_ros-release.git
-      version: 0.9.1-1
+      version: 0.9.0-1
     source:
       type: git
       url: https://github.com/frankaemika/franka_ros.git
@@ -4488,7 +4488,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/humanoid-path-planner/hpp-fcl-ros-release.git
-      version: 2.1.2-1
+      version: 1.8.1-1
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
@@ -6028,7 +6028,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/frankaemika/libfranka-release.git
-      version: 0.9.1-1
+      version: 0.9.0-1
     source:
       test_commits: false
       type: git
@@ -9084,7 +9084,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/stack-of-tasks/pinocchio-ros-release.git
-      version: 2.6.9-1
+      version: 2.6.8-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
@@ -9795,7 +9795,6 @@ repositories:
       - qb_device_control
       - qb_device_description
       - qb_device_driver
-      - qb_device_gazebo
       - qb_device_hardware_interface
       - qb_device_msgs
       - qb_device_srvs
@@ -9803,7 +9802,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://bitbucket.org/qbrobotics/qbdevice-ros-release.git
-      version: 3.0.4-3
+      version: 2.0.1-0
     source:
       type: git
       url: https://bitbucket.org/qbrobotics/qbdevice-ros.git

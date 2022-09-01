@@ -8,6 +8,21 @@ release_platforms:
   ubuntu:
   - focal
 repositories:
+  abb_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/abb_driver.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-industrial-release/abb_driver-release.git
+      version: 1.4.0-1
+    source:
+      type: git
+      url: https://github.com/ros-industrial/abb_driver.git
+      version: kinetic-devel
+    status: maintained
   abb_robot_driver_interfaces:
     doc:
       type: git
@@ -4532,7 +4547,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/frankaemika/libfranka-release.git
-      version: 0.9.1-1
+      version: 0.9.2-1
     source:
       test_commits: false
       type: git
