@@ -936,7 +936,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/luxonis/depthai-core-release.git
-      version: 2.17.0-1
+      version: 2.17.3-1
     source:
       test_pull_requests: true
       type: git
@@ -2209,7 +2209,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/leo_common-release.git
-      version: 1.0.3-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/LeoRover/leo_common-ros2.git
@@ -3403,7 +3403,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/pal-gbp/pal_statistics-release.git
-      version: 2.0.1-1
+      version: 2.0.2-1
     source:
       type: git
       url: https://github.com/pal-robotics/pal_statistics.git
@@ -6983,7 +6983,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_v4l2_camera-release.git
-      version: 0.4.0-1
+      version: 0.5.0-1
     source:
       type: git
       url: https://gitlab.com/boldhearts/ros2_v4l2_camera.git
