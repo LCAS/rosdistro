@@ -2297,7 +2297,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.5.2-1
+      version: 2.5.3-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -3069,7 +3069,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/pose_cov_ops-release.git
-      version: 0.3.6-1
+      version: 0.3.8-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
@@ -4554,8 +4554,8 @@ repositories:
     release:
       tags:
         release: release/galactic/{package}/{version}
-      url: https://github.com/allenh1/rplidar_ros-release.git
-      version: 2.0.3-1
+      url: https://github.com/ros2-gbp/rplidar_ros-release.git
+      version: 2.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -6274,7 +6274,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-perception/vision_opencv.git
-      version: ros2
+      version: galactic
     release:
       packages:
       - cv_bridge
@@ -6288,7 +6288,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/vision_opencv.git
-      version: ros2
+      version: galactic
     status: maintained
   visp:
     doc:

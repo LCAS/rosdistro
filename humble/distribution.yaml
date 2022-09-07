@@ -2337,7 +2337,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.5.2-1
+      version: 2.5.3-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -2815,6 +2815,24 @@ repositories:
       url: https://github.com/OUXT-Polaris/ouxt_common.git
       version: master
     status: developed
+  pal_statistics:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/pal_statistics.git
+      version: galactic-devel
+    release:
+      packages:
+      - pal_statistics
+      - pal_statistics_msgs
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/pal-gbp/pal_statistics-release.git
+      version: 2.1.2-1
+    source:
+      type: git
+      url: https://github.com/pal-robotics/pal_statistics.git
+      version: galactic-devel
+    status: maintained
   pcl_msgs:
     release:
       tags:
@@ -3054,7 +3072,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/pose_cov_ops-release.git
-      version: 0.3.6-1
+      version: 0.3.8-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
@@ -6108,7 +6126,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-perception/vision_opencv.git
-      version: ros2
+      version: humble
     release:
       packages:
       - cv_bridge
@@ -6122,7 +6140,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/vision_opencv.git
-      version: ros2
+      version: humble
     status: maintained
   visp:
     doc:
