@@ -197,10 +197,13 @@ repositories:
       url: https://github.com/fictionlab/aruco_opencv.git
       version: noetic
     release:
+      packages:
+      - aruco_opencv
+      - aruco_opencv_msgs
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fictionlab-gbp/aruco_opencv-release.git
-      version: 0.1.0-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/fictionlab/aruco_opencv.git
@@ -1920,7 +1923,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/stack-of-tasks/dynamic-graph-ros-release.git
-      version: 4.4.0-1
+      version: 4.4.3-2
     source:
       test_pull_requests: true
       type: git
@@ -1936,7 +1939,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/stack-of-tasks/dynamic-graph-python-ros-release.git
-      version: 4.0.4-1
+      version: 4.0.9-1
     source:
       test_pull_requests: true
       type: git
@@ -1952,7 +1955,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/stack-of-tasks/dynamic-graph-tutorial-ros-release.git
-      version: 1.3.2-1
+      version: 1.3.5-1
     source:
       test_pull_requests: true
       type: git
@@ -2196,7 +2199,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/stack-of-tasks/eiquadprog-ros-release.git
-      version: 1.2.3-1
+      version: 1.2.4-1
     source:
       test_pull_requests: true
       type: git
@@ -5708,6 +5711,27 @@ repositories:
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
       version: master
     status: developed
+  nao_meshes:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-naoqi/nao_meshes-release.git
+      version: 0.1.13-0
+  naoqi_bridge_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-naoqi/naoqi_bridge_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-naoqi/naoqi_bridge_msgs-release.git
+      version: 0.0.9-1
+    source:
+      type: git
+      url: https://github.com/ros-naoqi/naoqi_bridge_msgs.git
+      version: master
+    status: maintained
   navigation:
     doc:
       type: git
@@ -6630,6 +6654,13 @@ repositories:
       url: https://github.com/wg-perception/people.git
       version: noetic
     status: maintained
+  pepper_meshes:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-naoqi/pepper_meshes-release.git
+      version: 0.2.5-0
+    status: maintained
   perception_pcl:
     doc:
       type: git
@@ -6998,7 +7029,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_common-release.git
-      version: 1.13.0-1
+      version: 1.13.1-1
     source:
       type: git
       url: https://github.com/pr2/pr2_common.git
@@ -7443,11 +7474,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://bitbucket.org/qbrobotics/qbdevice-ros-release.git
-      version: 3.0.4-1
+      version: 3.0.5-1
     source:
       type: git
       url: https://bitbucket.org/qbrobotics/qbdevice-ros.git
       version: production-melodic
+    status: developed
   qb_hand:
     doc:
       type: git
@@ -10160,7 +10192,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/stack-of-tasks/sot-core-ros-release.git
-      version: 4.11.6-1
+      version: 4.11.8-1
     source:
       test_pull_requests: true
       type: git
@@ -10176,7 +10208,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/stack-of-tasks/sot-dynamic-pinocchio-ros-release.git
-      version: 3.6.3-1
+      version: 3.6.5-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/sot-dynamic-pinocchio.git
@@ -10191,7 +10223,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/stack-of-tasks/sot-tools-ros-release.git
-      version: 2.3.4-1
+      version: 2.3.5-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/sot-tools.git

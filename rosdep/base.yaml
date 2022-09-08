@@ -113,8 +113,9 @@ aravis:
   gentoo: [media-video/aravis]
   nixos: [aravis]
   ubuntu:
-    '*': [libaravis-0.6-0, aravis-tools]
+    '*': [libaravis-0.8-0, aravis-tools]
     bionic: null
+    focal: [libaravis-0.6-0, aravis-tools]
     xenial: null
 aravis-dev:
   debian: [libaravis-dev]
@@ -8171,6 +8172,20 @@ xpath-perl:
   gentoo: [dev-perl/XML-XPath]
   macports: [p5-xml-xpath]
   ubuntu: [libxml-xpath-perl]
+xsimd:
+  alpine: [xsimd]
+  debian:
+    '*': [libxsimd-dev]
+    bullseye: null
+    buster: null
+  fedora: [xsimd-devel]
+  rhel:
+    '*': [xsimd-devel]
+    '7': null
+  ubuntu:
+    '*': [libxsimd-dev]
+    bionic: null
+    focal: null
 xsltproc:
   arch: [libxslt]
   debian: [xsltproc]
