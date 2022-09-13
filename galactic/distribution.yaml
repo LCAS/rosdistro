@@ -974,7 +974,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/eigenpy-release.git
-      version: 2.7.13-1
+      version: 2.7.14-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -1888,7 +1888,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/IntelRealSense/librealsense2-release.git
-      version: 2.50.0-2
+      version: 2.51.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1961,7 +1961,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/nobleo/magic_enum-release.git
-      version: 0.8.0-1
+      version: 0.8.1-1
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
@@ -2390,10 +2390,25 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros-naoqi/libqi-release.git
-      version: 2.9.7-0
+      version: 2.9.7-1
     source:
       type: git
       url: https://github.com/ros-naoqi/libqi.git
+      version: ros2
+    status: maintained
+  naoqi_libqicore:
+    doc:
+      type: git
+      url: https://github.com/ros-naoqi/libqicore.git
+      version: ros2
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros-naoqi/libqicore-release.git
+      version: 2.9.7-0
+    source:
+      type: git
+      url: https://github.com/ros-naoqi/libqicore.git
       version: ros2
     status: maintained
   navigation2:
@@ -2868,6 +2883,13 @@ repositories:
       type: git
       url: https://github.com/ros-perception/pcl_msgs.git
       version: ros2
+    status: maintained
+  pepper_meshes:
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros-naoqi/pepper_meshes2-release.git
+      version: 2.0.0-0
     status: maintained
   perception_pcl:
     doc:
@@ -5049,6 +5071,21 @@ repositories:
       url: https://github.com/introlab/rtabmap_ros.git
       version: galactic-devel
     status: developed
+  rtcm_msgs:
+    doc:
+      type: git
+      url: https://github.com/tilk/rtcm_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/nobleo/rtcm_msgs-release.git
+      version: 1.1.0-1
+    source:
+      type: git
+      url: https://github.com/tilk/rtcm_msgs.git
+      version: master
+    status: maintained
   ruckig:
     release:
       tags:

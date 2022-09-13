@@ -943,7 +943,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/eigenpy-release.git
-      version: 2.7.13-1
+      version: 2.7.14-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -4999,6 +4999,21 @@ repositories:
       type: git
       url: https://github.com/introlab/rtabmap.git
       version: rolling-devel
+    status: maintained
+  rtcm_msgs:
+    doc:
+      type: git
+      url: https://github.com/tilk/rtcm_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/nobleo/rtcm_msgs-release.git
+      version: 1.1.0-1
+    source:
+      type: git
+      url: https://github.com/tilk/rtcm_msgs.git
+      version: master
     status: maintained
   ruckig:
     release:

@@ -1217,7 +1217,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/stack-of-tasks/eigenpy-ros-release.git
-      version: 2.7.13-1
+      version: 2.7.14-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -2954,10 +2954,25 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros-naoqi/libqi-release.git
-      version: 2.9.7-1
+      version: 2.9.7-2
     source:
       type: git
       url: https://github.com/ros-naoqi/libqi.git
+      version: ros2
+    status: maintained
+  naoqi_libqicore:
+    doc:
+      type: git
+      url: https://github.com/ros-naoqi/libqicore.git
+      version: ros2
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros-naoqi/libqicore-release.git
+      version: 2.9.7-0
+    source:
+      type: git
+      url: https://github.com/ros-naoqi/libqicore.git
       version: ros2
     status: maintained
   navigation2:
@@ -3434,6 +3449,13 @@ repositories:
       type: git
       url: https://github.com/ros-perception/pcl_msgs.git
       version: ros2
+    status: maintained
+  pepper_meshes:
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros-naoqi/pepper_meshes2-release.git
+      version: 2.0.0-0
     status: maintained
   perception_pcl:
     doc:
@@ -5523,6 +5545,14 @@ repositories:
       type: git
       url: https://github.com/uos/rospy_message_converter.git
       version: foxy
+    release:
+      packages:
+      - rclpy_message_converter
+      - rclpy_message_converter_msgs
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/rospy_message_converter-release.git
+      version: 2.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -6004,6 +6034,21 @@ repositories:
       url: https://github.com/introlab/rtabmap_ros.git
       version: foxy-devel
     status: developed
+  rtcm_msgs:
+    doc:
+      type: git
+      url: https://github.com/tilk/rtcm_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/nobleo/rtcm_msgs-release.git
+      version: 1.1.0-1
+    source:
+      type: git
+      url: https://github.com/tilk/rtcm_msgs.git
+      version: master
+    status: maintained
   ruckig:
     release:
       tags:
