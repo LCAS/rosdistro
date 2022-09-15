@@ -2396,6 +2396,21 @@ repositories:
       url: https://github.com/ros-naoqi/naoqi_bridge_msgs2.git
       version: main
     status: maintained
+  naoqi_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-naoqi/naoqi_driver2.git
+      version: main
+    release:
+      tags:
+        release: release/galactic/{package}/{version}
+      url: https://github.com/ros-naoqi/naoqi_driver2-release.git
+      version: 2.0.0-0
+    source:
+      type: git
+      url: https://github.com/ros-naoqi/naoqi_driver2.git
+      version: main
+    status: maintained
   naoqi_libqi:
     doc:
       type: git
@@ -6358,7 +6373,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/vision_opencv-release.git
-      version: 2.2.1-2
+      version: 3.1.0-1
     source:
       test_pull_requests: true
       type: git
