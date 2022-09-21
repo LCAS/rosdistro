@@ -3145,7 +3145,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mikeferguson/graceful_controller-gbp.git
-      version: 0.4.4-1
+      version: 0.4.5-1
     source:
       type: git
       url: https://github.com/mikeferguson/graceful_controller.git
@@ -5246,6 +5246,19 @@ repositories:
       version: master
     status: maintained
   mongodb_store:
+    doc:
+      type: git
+      url: https://github.com/strands-project/mongodb_store.git
+      version: noetic-devel
+    release:
+      packages:
+      - mongodb_log
+      - mongodb_store
+      - mongodb_store_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/strands-project-releases/mongodb_store.git
+      version: 0.6.0-1
     source:
       type: git
       url: https://github.com/strands-project/mongodb_store.git
@@ -9826,7 +9839,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/PickNikRobotics/rviz_visual_tools-release.git
-      version: 3.9.1-1
+      version: 3.9.2-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/rviz_visual_tools.git

@@ -6784,6 +6784,17 @@ python3-flask-restplus-pip:
 python3-flask-socketio:
   debian: [python3-flask-socketio]
   ubuntu: [python3-flask-socketio]
+python3-flask-sqlalchemy:
+  arch: [python-flask-sqlalchemy]
+  debian: [python3-flask-sqlalchemy]
+  fedora: [python3-flask-sqlalchemy]
+  gentoo: [dev-python/flask-sqlalchemy]
+  nixos: [python39Packages.flask_sqlalchemy]
+  opensuse: [python-Flask-SQLAlchemy]
+  rhel:
+    '*': [python3-flask-sqlalchemy]
+    '7': null
+  ubuntu: [python3-flask-sqlalchemy]
 python3-funcsigs:
   debian: [python3-funcsigs]
   fedora: [python3-funcsigs]
@@ -6855,6 +6866,9 @@ python3-git:
   fedora: [python3-GitPython]
   gentoo: [dev-python/git-python]
   nixos: [python3Packages.GitPython]
+  rhel:
+    '*': [python3-GitPython]
+    '7': null
   ubuntu: [python3-git]
 python3-github:
   debian: [python3-github]
@@ -9036,6 +9050,13 @@ python3-tilestache-pip:
   ubuntu:
     pip:
       packages: [tilestache]
+python3-timm-pip:
+  debian:
+    pip:
+      packages: [timm]
+  ubuntu:
+    pip:
+      packages: [timm]
 python3-tk:
   debian: [python3-tk]
   fedora: [python3-tkinter]
