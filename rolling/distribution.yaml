@@ -683,6 +683,20 @@ repositories:
       url: https://github.com/ros-controls/control_toolbox.git
       version: ros2-master
     status: maintained
+  cpp_polyfills:
+    release:
+      packages:
+      - tcb_span
+      - tl_expected
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/PickNikRobotics/cpp_polyfills-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/cpp_polyfills.git
+      version: main
+    status: maintained
   cudnn_cmake_module:
     doc:
       type: git
@@ -1009,7 +1023,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: master
+      version: 2.7.x
     status: maintained
   filters:
     doc:
@@ -1180,11 +1194,10 @@ repositories:
       - generate_parameter_library_example
       - generate_parameter_library_py
       - parameter_traits
-      - tcb_span
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/PickNikRobotics/generate_parameter_library-release.git
-      version: 0.2.4-1
+      version: 0.2.5-2
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
@@ -4933,6 +4946,12 @@ repositories:
       url: https://github.com/ros2/rviz.git
       version: rolling
     status: maintained
+  rviz_2d_overlay_plugins:
+    source:
+      type: git
+      url: https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins.git
+      version: main
+    status: maintained
   rviz_visual_tools:
     doc:
       type: git
@@ -5204,6 +5223,22 @@ repositories:
       type: git
       url: https://github.com/open-rmf/stubborn_buddies.git
       version: main
+    status: developed
+  system_fingerprint:
+    doc:
+      type: git
+      url: https://github.com/MetroRobots/ros_system_fingerprint.git
+      version: ros2
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/MetroRobots/ros_system_fingerprint-release.git
+      version: 0.5.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/MetroRobots/ros_system_fingerprint.git
+      version: ros2
     status: developed
   system_modes:
     doc:
