@@ -730,7 +730,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/luxonis/depthai-core-release.git
-      version: 2.17.3-1
+      version: 2.17.4-1
     source:
       test_pull_requests: true
       type: git
@@ -2152,7 +2152,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/microstrain_inertial-release.git
-      version: 2.6.0-1
+      version: 2.7.0-1
     source:
       test_pull_requests: true
       type: git
@@ -4108,7 +4108,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 1.5.0-1
+      version: 1.5.1-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -6479,7 +6479,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/webots_ros2-release.git
-      version: 1.2.3-1
+      version: 2022.1.0-1
     source:
       test_pull_requests: true
       type: git
