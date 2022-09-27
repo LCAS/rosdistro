@@ -2068,7 +2068,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 2.1.1-1
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -2297,7 +2297,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.5.3-1
+      version: 2.5.4-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -4766,7 +4766,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_image_overlay-release.git
-      version: 0.0.7-1
+      version: 0.0.8-1
     source:
       type: git
       url: https://github.com/ros-sports/rqt_image_overlay.git

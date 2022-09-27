@@ -2564,7 +2564,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/stack-of-tasks/dynamic-graph-python-ros-release.git
-      version: 4.0.9-1
+      version: 4.0.10-1
     source:
       test_pull_requests: true
       type: git
@@ -3725,7 +3725,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/gencpp-release.git
-      version: 0.6.5-1
+      version: 0.6.6-1
     source:
       type: git
       url: https://github.com/ros/gencpp.git
@@ -3781,7 +3781,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/genmsg-release.git
-      version: 0.5.16-1
+      version: 0.5.17-1
     source:
       test_pull_requests: true
       type: git
@@ -6484,7 +6484,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 1.13.0-1
+      version: 1.14.0-1
     source:
       test_pull_requests: true
       type: git
@@ -7314,7 +7314,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt2-release.git
-      version: 2.5.3-1
+      version: 2.5.4-1
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
