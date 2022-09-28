@@ -853,6 +853,48 @@ repositories:
       url: https://github.com/ROBOTIS-GIT/DynamixelSDK.git
       version: ros2
     status: maintained
+  ecl_core:
+    doc:
+      type: git
+      url: https://github.com/stonier/ecl_core.git
+      version: release/1.2.x
+    release:
+      packages:
+      - ecl_command_line
+      - ecl_concepts
+      - ecl_containers
+      - ecl_converters
+      - ecl_core
+      - ecl_core_apps
+      - ecl_devices
+      - ecl_eigen
+      - ecl_exceptions
+      - ecl_filesystem
+      - ecl_formatters
+      - ecl_geometry
+      - ecl_ipc
+      - ecl_linear_algebra
+      - ecl_manipulators
+      - ecl_math
+      - ecl_mobile_robot
+      - ecl_mpl
+      - ecl_sigslots
+      - ecl_statistics
+      - ecl_streams
+      - ecl_threads
+      - ecl_time
+      - ecl_type_traits
+      - ecl_utilities
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/yujinrobot-release/ecl_core-release.git
+      version: 1.2.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/stonier/ecl_core.git
+      version: devel
+    status: maintained
   ecl_lite:
     doc:
       type: git
@@ -871,7 +913,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_lite-release.git
-      version: 1.1.0-1
+      version: 1.2.0-1
     source:
       test_pull_requests: true
       type: git
@@ -891,7 +933,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_tools-release.git
-      version: 1.0.2-1
+      version: 1.0.3-1
     source:
       test_pull_requests: true
       type: git
@@ -3534,6 +3576,8 @@ repositories:
       - rmf_fleet_msgs
       - rmf_ingestor_msgs
       - rmf_lift_msgs
+      - rmf_obstacle_msgs
+      - rmf_scheduler_msgs
       - rmf_site_map_msgs
       - rmf_task_msgs
       - rmf_traffic_msgs
@@ -3541,7 +3585,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_internal_msgs-release.git
-      version: 2.0.0-1
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_internal_msgs.git
@@ -4947,6 +4991,18 @@ repositories:
       version: rolling
     status: maintained
   rviz_2d_overlay_plugins:
+    doc:
+      type: git
+      url: https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins.git
+      version: main
+    release:
+      packages:
+      - rviz_2d_overlay_msgs
+      - rviz_2d_overlay_plugins
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/rviz_2d_overlay_plugins-release.git
+      version: 1.2.0-2
     source:
       type: git
       url: https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins.git
@@ -5154,7 +5210,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/yujinrobot-release/sophus-release.git
-      version: 1.2.1-1
+      version: 1.3.1-1
     source:
       type: git
       url: https://github.com/stonier/sophus.git
