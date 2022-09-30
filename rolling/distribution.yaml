@@ -2333,6 +2333,11 @@ repositories:
       type: git
       url: https://github.com/MRPT/mvsim.git
       version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/mvsim-release.git
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
@@ -2428,7 +2433,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/nlohmann_json_schema_validator_vendor-release.git
-      version: 0.1.0-2
+      version: 0.1.0-3
     source:
       type: git
       url: https://github.com/open-rmf/nlohmann_json_schema_validator_vendor.git
@@ -3119,7 +3124,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/radar_msgs-release.git
-      version: 0.2.1-2
+      version: 0.2.2-1
     status: maintained
   random_numbers:
     doc:
@@ -3585,7 +3590,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_internal_msgs-release.git
-      version: 3.0.0-1
+      version: 3.0.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_internal_msgs.git
@@ -3602,10 +3607,11 @@ repositories:
       - rmf_fleet_adapter_python
       - rmf_task_ros2
       - rmf_traffic_ros2
+      - rmf_websocket
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_ros2-release.git
-      version: 2.0.0-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
@@ -3645,7 +3651,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_task-release.git
-      version: 2.1.0-1
+      version: 2.1.0-2
     source:
       type: git
       url: https://github.com/open-rmf/rmf_task.git
@@ -3663,7 +3669,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_traffic-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic.git
@@ -3714,12 +3720,15 @@ repositories:
       - rmf_visualization
       - rmf_visualization_building_systems
       - rmf_visualization_fleet_states
+      - rmf_visualization_floorplans
+      - rmf_visualization_navgraphs
+      - rmf_visualization_obstacles
       - rmf_visualization_rviz2_plugins
       - rmf_visualization_schedule
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_visualization-release.git
-      version: 1.2.1-2
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_visualization.git
@@ -4181,7 +4190,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros_image_to_qimage-release.git
-      version: 0.4.0-1
+      version: 0.4.1-1
     source:
       type: git
       url: https://github.com/ros-sports/ros_image_to_qimage.git
