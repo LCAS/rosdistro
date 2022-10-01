@@ -1055,11 +1055,15 @@ repositories:
       version: master
     status: maintained
   fastrtps:
+    doc:
+      type: git
+      url: https://github.com/eProsima/Fast-RTPS.git
+      version: master
     release:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fastrtps-release.git
-      version: 2.7.1-1
+      version: 2.8.0-1
     source:
       test_commits: true
       test_pull_requests: false
@@ -2433,7 +2437,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/nlohmann_json_schema_validator_vendor-release.git
-      version: 0.1.0-3
+      version: 0.1.0-5
     source:
       type: git
       url: https://github.com/open-rmf/nlohmann_json_schema_validator_vendor.git
@@ -5011,7 +5015,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rviz_2d_overlay_plugins-release.git
-      version: 1.2.0-2
+      version: 1.2.1-1
     source:
       type: git
       url: https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins.git
@@ -6196,7 +6200,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/webots_ros2-release.git
-      version: 2022.1.0-1
+      version: 2022.1.0-2
     source:
       test_pull_requests: true
       type: git
