@@ -1800,6 +1800,22 @@ repositories:
       url: https://github.com/ros-tooling/keyboard_handler.git
       version: main
     status: developed
+  kobuki_velocity_smoother:
+    doc:
+      type: git
+      url: https://github.com/kobuki-base/kobuki_velocity_smoother.git
+      version: release/0.15.x
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/kobuki_velocity_smoother-release.git
+      version: 0.15.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/kobuki-base/kobuki_velocity_smoother.git
+      version: release/0.15.x
+    status: maintained
   lanelet2:
     doc:
       type: git
@@ -2462,6 +2478,21 @@ repositories:
       url: https://github.com/KIT-MRT/mrt_cmake_modules.git
       version: master
     status: maintained
+  mvsim:
+    doc:
+      type: git
+      url: https://github.com/MRPT/mvsim.git
+      version: master
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/mvsim-release.git
+      version: 0.4.0-1
+    source:
+      type: git
+      url: https://github.com/MRPT/mvsim.git
+      version: master
+    status: developed
   nao_button_sim:
     doc:
       type: git
@@ -6466,7 +6497,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/webots_ros2-release.git
-      version: 2022.1.0-1
+      version: 2022.1.0-2
     source:
       test_pull_requests: true
       type: git
