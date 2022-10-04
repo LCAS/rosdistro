@@ -9085,7 +9085,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/stack-of-tasks/pinocchio-ros-release.git
-      version: 2.6.8-1
+      version: 2.6.10-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
@@ -12554,7 +12554,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/introlab/rtabmap-release.git
-      version: 0.20.18-4
+      version: 0.20.21-4
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -12569,7 +12569,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.20.18-2
+      version: 0.20.20-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
@@ -14876,7 +14876,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/vision_opencv-release.git
-      version: 1.13.0-0
+      version: 1.13.1-1
     source:
       test_pull_requests: true
       type: git

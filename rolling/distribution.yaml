@@ -691,7 +691,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/PickNikRobotics/cpp_polyfills-release.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/cpp_polyfills.git
@@ -4686,7 +4686,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_image_overlay-release.git
-      version: 0.2.1-1
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/ros-sports/rqt_image_overlay.git
@@ -5126,8 +5126,8 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/oKermorgant/slider_publisher-release.git
-      version: 2.1.0-1
+      url: https://github.com/ros2-gbp/slider_publisher-release.git
+      version: 2.2.1-1
     source:
       type: git
       url: https://github.com/oKermorgant/slider_publisher.git
@@ -6079,7 +6079,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/vision_opencv-release.git
-      version: 3.3.1-1
+      version: 3.4.0-1
     source:
       test_pull_requests: true
       type: git

@@ -718,7 +718,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/PickNikRobotics/cpp_polyfills-release.git
-      version: 1.0.1-1
+      version: 1.0.2-2
     source:
       type: git
       url: https://github.com/PickNikRobotics/cpp_polyfills.git
@@ -5181,11 +5181,26 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rtabmap-release.git
-      version: 0.20.18-2
+      version: 0.20.21-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
       version: rolling-devel
+    status: maintained
+  rtabmap_ros:
+    doc:
+      type: git
+      url: https://github.com/introlab/rtabmap_ros.git
+      version: humble-devel
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/introlab/rtabmap_ros-release.git
+      version: 0.20.20-1
+    source:
+      type: git
+      url: https://github.com/introlab/rtabmap_ros.git
+      version: humble-devel
     status: maintained
   rtcm_msgs:
     doc:
@@ -5408,7 +5423,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/slider_publisher-release.git
-      version: 2.2.0-1
+      version: 2.2.1-1
     source:
       type: git
       url: https://github.com/oKermorgant/slider_publisher.git

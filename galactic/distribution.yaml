@@ -5104,7 +5104,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/introlab/rtabmap-release.git
-      version: 0.20.18-1
+      version: 0.20.21-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -5119,7 +5119,7 @@ repositories:
       tags:
         release: release/galactic/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.20.18-1
+      version: 0.20.20-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
@@ -5346,8 +5346,8 @@ repositories:
     release:
       tags:
         release: release/galactic/{package}/{version}
-      url: https://github.com/oKermorgant/slider_publisher-release.git
-      version: 2.2.0-1
+      url: https://github.com/ros2-gbp/slider_publisher-release.git
+      version: 2.2.1-1
     source:
       type: git
       url: https://github.com/oKermorgant/slider_publisher.git
