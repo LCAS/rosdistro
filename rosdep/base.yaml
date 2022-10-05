@@ -6,7 +6,9 @@ ace:
   ubuntu: [libace-dev]
 ack:
   debian: [ack]
+  fedora: [ack]
   nixos: [ack]
+  rhel: [ack]
   ubuntu:
     '*': [ack]
     xenial: null
@@ -765,8 +767,10 @@ debtree:
 devilspie2:
   arch: [devilspie2]
   debian: [devilspie2]
+  fedora: [devilspie2]
   gentoo: [x11-misc/devilspie2]
   nixos: [devilspie2]
+  rhel: [devilspie2]
   ubuntu: [devilspie2]
 devscripts:
   debian: [devscripts]
@@ -956,8 +960,10 @@ f2c:
   ubuntu: [f2c, libf2c2, libf2c2-dev]
 fakeroot:
   debian: [fakeroot]
+  fedora: [fakeroot]
   gentoo: [sys-apps/fakeroot]
   nixos: [fakeroot]
+  rhel: [fakeroot]
   ubuntu: [fakeroot]
 fcgi:
   arch: [fcgi, mod_fcgid, spawn-fcgi]
@@ -1126,7 +1132,11 @@ fsharp:
   nixos: [fsharp]
   ubuntu: [fsharp]
 fswebcam:
+  fedora: [fswebcam]
   nixos: [fswebcam]
+  rhel:
+    '*': [fswebcam]
+    '7': null
   ubuntu: [fswebcam]
 ftdi-eeprom:
   arch: [libftdi]
@@ -2907,7 +2917,9 @@ libcap-dev:
   ubuntu: [libcap-dev]
 libcap-ng-dev:
   debian: [libcap-ng-dev]
+  fedora: [libcap-ng-devel]
   nixos: [libcap_ng]
+  rhel: [libcap-ng-devel]
   ubuntu: [libcap-ng-dev]
 libcap-ng0:
   debian: [libcap-ng0]
@@ -2993,8 +3005,10 @@ libcoin80-dev:
     xenial: [libcoin80-dev]
 libconfig++-dev:
   debian: [libconfig++-dev]
+  fedora: [libconfig-devel]
   gentoo: ['dev-libs/libconfig[cxx]']
   nixos: [libconfig]
+  rhel: [libconfig-devel]
   ubuntu: [libconfig++-dev]
 libconfig-dev:
   debian: [libconfig-dev]
@@ -3098,7 +3112,9 @@ libdmtx-dev:
   ubuntu: [libdmtx-dev]
 libdpkg-dev:
   debian: [libdpkg-dev]
+  fedora: [dpkg-devel]
   nixos: [dpkg]
+  rhel: [dpkg-devel]
   ubuntu: [libdpkg-dev]
 libdrm-dev:
   arch: [libdrm]
@@ -3433,8 +3449,10 @@ libgconf2:
   ubuntu: [libgconf-2-4]
 libgdal-dev:
   debian: [libgdal-dev]
+  fedora: [gdal-devel]
   nixos: [gdal]
   opensuse: [gdal-devel]
+  rhel: [gdal-devel]
   ubuntu: [libgdal-dev]
 libgeographiclib-dev:
   debian:
@@ -3888,6 +3906,8 @@ libiw-dev:
   ubuntu: [libiw-dev]
 libjack-dev:
   debian: [libjack-dev]
+  fedora: [jack-audio-connection-kit-devel]
+  rhel: [jack-audio-connection-kit-devel]
   ubuntu: [libjack-dev]
 libjackson-json-java:
   debian: [libjackson-json-java]

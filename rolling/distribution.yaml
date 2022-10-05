@@ -980,7 +980,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/eigenpy-release.git
-      version: 2.7.14-1
+      version: 2.7.14-2
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -2453,7 +2453,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/nlohmann_json_schema_validator_vendor-release.git
-      version: 0.1.0-5
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/open-rmf/nlohmann_json_schema_validator_vendor.git
@@ -3018,7 +3018,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pybind11_json_vendor-release.git
-      version: 0.1.0-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/open-rmf/pybind11_json_vendor.git
@@ -3513,7 +3513,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_api_msgs-release.git
-      version: 0.0.1-3
+      version: 0.0.1-4
     source:
       type: git
       url: https://github.com/open-rmf/rmf_api_msgs.git
@@ -3573,16 +3573,18 @@ repositories:
       packages:
       - rmf_demos
       - rmf_demos_assets
+      - rmf_demos_bridges
       - rmf_demos_dashboard_resources
+      - rmf_demos_fleet_adapter
       - rmf_demos_gz
-      - rmf_demos_ign
+      - rmf_demos_gz_classic
       - rmf_demos_maps
       - rmf_demos_panel
       - rmf_demos_tasks
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_demos-release.git
-      version: 1.3.1-2
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
@@ -3631,7 +3633,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_ros2-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
@@ -3645,15 +3647,15 @@ repositories:
     release:
       packages:
       - rmf_building_sim_common
-      - rmf_building_sim_gazebo_plugins
-      - rmf_building_sim_ignition_plugins
+      - rmf_building_sim_gz_classic_plugins
+      - rmf_building_sim_gz_plugins
       - rmf_robot_sim_common
-      - rmf_robot_sim_gazebo_plugins
-      - rmf_robot_sim_ignition_plugins
+      - rmf_robot_sim_gz_classic_plugins
+      - rmf_robot_sim_gz_plugins
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_simulation-release.git
-      version: 1.2.0-3
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_simulation.git
@@ -3689,7 +3691,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_traffic-release.git
-      version: 2.0.1-1
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic.git
@@ -3748,7 +3750,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_visualization-release.git
-      version: 2.0.0-1
+      version: 2.0.0-2
     source:
       type: git
       url: https://github.com/open-rmf/rmf_visualization.git
@@ -4935,6 +4937,21 @@ repositories:
       url: https://github.com/ros-visualization/rqt_topic.git
       version: rolling
     status: maintained
+  rsl:
+    doc:
+      type: git
+      url: https://github.com/PickNikRobotics/RSL.git
+      version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/PickNikRobotics/RSL-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/RSL.git
+      version: main
+    status: developed
   rt_manipulators_cpp:
     doc:
       type: git
@@ -4962,7 +4979,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rtabmap-release.git
-      version: 0.20.18-1
+      version: 0.20.21-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -5767,7 +5784,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_Client_Library-release.git
-      version: 1.1.0-1
+      version: 1.2.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git

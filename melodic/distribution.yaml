@@ -2078,6 +2078,16 @@ repositories:
       type: git
       url: https://github.com/whoenig/crazyflie_ros.git
       version: master
+  create_robot:
+    doc:
+      type: git
+      url: https://github.com/AutonomyLab/create_robot.git
+      version: melodic
+    source:
+      type: git
+      url: https://github.com/AutonomyLab/create_robot.git
+      version: melodic
+    status: developed
   criutils:
     doc:
       type: git
@@ -13927,7 +13937,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/stack-of-tasks/tsid-ros-release.git
-      version: 1.6.0-1
+      version: 1.6.2-1
     source:
       test_pull_requests: true
       type: git
