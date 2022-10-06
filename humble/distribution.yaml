@@ -3914,7 +3914,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_traffic_editor-release.git
-      version: 1.5.0-2
+      version: 1.6.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
@@ -4235,7 +4235,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 2.12.0-1
+      version: 2.13.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -5188,7 +5188,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/PickNikRobotics/RSL-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git
