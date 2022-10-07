@@ -59,6 +59,7 @@ alsa-utils:
   gentoo: [media-sound/alsa-utils]
   nixos: [alsaUtils]
   opensuse: [alsa-utils]
+  rhel: [alsa-utils]
   ubuntu: [alsa-utils]
 ant:
   arch: [apache-ant]
@@ -66,6 +67,7 @@ ant:
   fedora: [ant]
   gentoo: [dev-java/ant]
   nixos: [ant]
+  rhel: [ant]
   ubuntu: [ant]
 antlr:
   arch: [antlr]
@@ -202,6 +204,7 @@ at-spi2-core:
   fedora: [at-spi2-core]
   gentoo: [at-spi2-core]
   nixos: [at-spi2-core]
+  rhel: [at-spi2-core]
   ubuntu: [at-spi2-core]
 atlas:
   arch: [atlas-lapack]
@@ -209,6 +212,7 @@ atlas:
   fedora: [atlas-devel]
   gentoo: [sci-libs/atlas]
   macports: [atlas]
+  rhel: [atlas-devel]
   ubuntu: [libatlas-base-dev]
 autoconf:
   arch: [autoconf]
@@ -406,9 +410,10 @@ bullet:
 bullet-extras:
   arch: [bullet]
   debian: [libbullet-extras-dev]
-  fedora: [bullet-extras]
+  fedora: [bullet-extras-devel]
   gentoo: [sci-physics/bullet]
   nixos: [bullet]
+  rhel: [bullet-extras-devel]
   ubuntu: [libbullet-extras-dev]
 bzip2:
   alpine: [bzip2-dev]
@@ -436,6 +441,7 @@ ca-certificates:
   nixos: [cacert]
   openembedded: [ca-certificates@openembedded-core]
   opensuse: [ca-certificates]
+  rhel: [ca-certificates]
   ubuntu: [ca-certificates]
 can-utils:
   debian: [can-utils]
@@ -1931,6 +1937,7 @@ i2c-tools:
   gentoo: [sys-apps/i2c-tools]
   nixos: [i2c-tools]
   opensuse: [i2c-tools]
+  rhel: [i2c-tools]
   ubuntu: [i2c-tools]
 ifstat:
   debian: [ifstat]
@@ -3915,8 +3922,10 @@ libjackson-json-java:
   ubuntu: [libjackson-json-java]
 libjansson-dev:
   debian: [libjansson-dev]
+  fedora: [jansson-devel]
   gentoo: [dev-libs/jansson]
   nixos: [jansson]
+  rhel: [jansson-devel]
   ubuntu: [libjansson-dev]
 libjaxp1.3-java:
   debian: [libjaxp1.3-java]
@@ -4007,7 +4016,11 @@ libkdtree++-dev:
 libkml-dev:
   arch: [libkml]
   debian: [libkml-dev]
+  fedora: [libkml-devel]
   nixos: [libkml]
+  rhel:
+    '*': [libkml-devel]
+    '7': null
   ubuntu: [libkml-dev]
 liblapack-dev:
   arch: [lapack]

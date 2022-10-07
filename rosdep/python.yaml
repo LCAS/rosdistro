@@ -251,6 +251,9 @@ ipython3:
   fedora: [ipython3]
   nixos: [python3Packages.ipython]
   openembedded: [python3-ipython@meta-python]
+  rhel:
+    '*': [python3-ipython]
+    '7': null
   ubuntu: [ipython3]
 jupyter-nbconvert:
   arch: [jupyter-nbconvert]
@@ -6188,6 +6191,7 @@ python3-catkin-lint:
     stretch: null
   fedora: [python3-catkin_lint]
   openembedded: [python3-catkin-lint@meta-ros-common]
+  rhel: [python3-catkin_lint]
   ubuntu:
     '*': [python3-catkin-lint]
     bionic: null
@@ -6476,7 +6480,11 @@ python3-django-extra-views:
   ubuntu: [python3-django-extra-views]
 python3-djangorestframework:
   debian: [python3-djangorestframework]
+  fedora: [python3-django-rest-framework]
   opensuse: [python3-djangorestframework]
+  rhel:
+    '*': [python3-django-rest-framework]
+    '7': null
   ubuntu: [python3-djangorestframework]
 python3-dlib-pip:
   debian:
@@ -6854,6 +6862,9 @@ python3-geographiclib:
   gentoo: [sci-geosciences/GeographicLib]
   nixos: [python3Packages.geographiclib]
   opensuse: [python3-geographiclib]
+  rhel:
+    '*': [python3-GeographicLib]
+    '7': null
   ubuntu: [python3-geographiclib]
 python3-geomag-pip:
   debian:
@@ -7960,6 +7971,10 @@ python3-progressbar:
   ubuntu: [python3-progressbar]
 python3-prometheus-client:
   debian: [python3-prometheus-client]
+  fedora: [python3-prometheus_client]
+  rhel:
+    '*': [python3-prometheus_client]
+    '7': null
   ubuntu: [python3-prometheus-client]
 python3-prompt-toolkit:
   arch: [python-prompt_toolkit]
@@ -8113,6 +8128,7 @@ python3-pydot:
   ubuntu: [python3-pydot]
 python3-pyee:
   debian: [python3-pyee]
+  fedora: [python3-ee]
   opensuse: [python3-pyee]
   ubuntu: [python3-pyee]
 python3-pyftdi-pip:
@@ -9154,6 +9170,10 @@ python3-systemd:
   ubuntu: [python3-systemd]
 python3-sysv-ipc:
   debian: [python3-sysv-ipc]
+  fedora: [python3-sysv_ipc]
+  rhel:
+    '*': [python3-sysv_ipc]
+    '7': null
   ubuntu: [python3-sysv-ipc]
 python3-tables:
   debian: [python3-tables]
@@ -9364,6 +9384,18 @@ python3-ubjson:
   ubuntu:
     '*': [python3-ubjson]
     xenial: null
+python3-ujson:
+  debian: [python3-ujson]
+  fedora: [python3-ujson]
+  gentoo: [dev-python/ujson]
+  nixos: [python3Packages.ujson]
+  osx:
+    pip:
+      packages: [ujson]
+  rhel:
+    '*': [python3-ujson]
+    '7': null
+  ubuntu: [python3-ujson]
 python3-unidiff:
   arch: [python-unidiff]
   debian: [python3-unidiff]
