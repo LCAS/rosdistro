@@ -1168,6 +1168,17 @@ repositories:
       url: https://github.com/foxglove/schemas.git
       version: main
     status: maintained
+  fuse:
+    doc:
+      type: git
+      url: https://github.com/locusrobotics/fuse.git
+      version: rolling
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/locusrobotics/fuse.git
+      version: rolling
+    status: maintained
   gazebo_ros2_control:
     doc:
       type: git
@@ -2473,7 +2484,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/nlohmann_json_schema_validator_vendor-release.git
-      version: 0.2.0-1
+      version: 0.2.1-1
     source:
       type: git
       url: https://github.com/open-rmf/nlohmann_json_schema_validator_vendor.git
@@ -3604,7 +3615,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_demos-release.git
-      version: 2.0.0-1
+      version: 2.0.2-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
@@ -3653,7 +3664,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_ros2-release.git
-      version: 2.1.1-1
+      version: 2.1.2-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
@@ -6019,7 +6030,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_v4l2_camera-release.git
-      version: 0.6.0-1
+      version: 0.6.1-1
     source:
       type: git
       url: https://gitlab.com/boldhearts/ros2_v4l2_camera.git
