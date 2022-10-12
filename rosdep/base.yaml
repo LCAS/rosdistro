@@ -1057,6 +1057,7 @@ flite:
   debian: [flite]
   fedora: [flite]
   gentoo: [app-accessibility/flite]
+  nixos: [flite]
   rhel: [flite]
   ubuntu: [flite]
 fltk:  # Consider using the libfltk-dev and fluid (fltk runtime) keys instead.
@@ -1128,10 +1129,12 @@ freeimage:
   ubuntu: [libfreeimage-dev]
 freetype:
   alpine: [freetype]
+  debian: [libfreetype6]
   fedora: [freetype]
   gentoo: [media-libs/freetype]
   macports: [freetype]
   nixos: [freetype]
+  ubuntu: [libfreetype6]
 fsharp:
   debian: [fsharp]
   gentoo: [dev-lang/fsharp]
@@ -1894,12 +1897,12 @@ hddtemp:
     impish: [hddtemp]
 hdf5:
   arch: [hdf5-cpp-fortran]
-  debian: [libhdf5-serial-dev]
+  debian: [libhdf5-dev]
   fedora: [hdf5-devel]
   gentoo: [sci-libs/hdf5]
   macports: [hdf5]
   nixos: [hdf5]
-  ubuntu: [libhdf5-serial-dev]
+  ubuntu: [libhdf5-dev]
 hdf5-tools:
   debian: [hdf5-tools]
   ubuntu: [hdf5-tools]
@@ -3173,6 +3176,14 @@ libespeak-dev:
   gentoo: [app-accessibility/espeak]
   nixos: [espeak]
   ubuntu: [libespeak-dev]
+libespeak-ng1:
+  debian: [libespeak-ng1]
+  fedora: [espeak-ng]
+  opensuse: [libespeak-ng1]
+  rhel:
+    '*': [espeak-ng]
+    '7': null
+  ubuntu: [libespeak-ng1]
 libestools-dev:
   debian:
     buster: [libestools-dev]
@@ -5373,11 +5384,7 @@ libtheora:
   ubuntu: [libtheora-dev]
 libtiff-dev:
   arch: [libtiff]
-  debian:
-    buster: [libtiff5-dev]
-    jessie: [libtiff5-dev]
-    stretch: [libtiff5-dev]
-    wheezy: [libtiff5-alt-dev]
+  debian: [libtiff-dev]
   fedora: [libtiff]
   freebsd: [tiff]
   gentoo: [media-libs/tiff]
@@ -5387,26 +5394,7 @@ libtiff-dev:
   slackware:
     slackpkg:
       packages: [libtiff]
-  ubuntu:
-    artful: [libtiff5-dev]
-    bionic: [libtiff5-dev]
-    focal: [libtiff-dev]
-    lucid: [libtiff4-dev]
-    maverick: [libtiff4-dev]
-    natty: [libtiff4-dev]
-    oneiric: [libtiff4-dev]
-    precise: [libtiff4-dev]
-    quantal: [libtiff5-dev]
-    raring: [libtiff5-dev]
-    saucy: [libtiff5-dev]
-    trusty: [libtiff5-dev]
-    trusty_python3: [libtiff5-dev]
-    utopic: [libtiff5-dev]
-    vivid: [libtiff5-dev]
-    wily: [libtiff5-dev]
-    xenial: [libtiff5-dev]
-    yakkety: [libtiff5-dev]
-    zesty: [libtiff5-dev]
+  ubuntu: [libtiff-dev]
 libtiff4-dev:
   arch: [libtiff]
   debian: [libtiff4-dev]
@@ -6995,6 +6983,9 @@ python-dev:
   debian: [python-dev]
   fedora: [python2-devel]
   nixos: [pythonPackages.python]
+  rhel:
+    '7': [python2-devel]
+    '8': [python2-devel]
   ubuntu:
     '*': [python-dev]
     focal: [python2-dev]
