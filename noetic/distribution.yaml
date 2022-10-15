@@ -504,7 +504,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/BehaviorTree/behaviortree_cpp-release.git
-      version: 3.6.1-1
+      version: 3.8.0-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
@@ -814,6 +814,11 @@ repositories:
       type: git
       url: https://github.com/canlab-co/clpe_ros.git
       version: noetic
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/canlab-co/clpe_ros-ros-release.git
+      version: 0.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -825,6 +830,11 @@ repositories:
       type: git
       url: https://github.com/canlab-co/clpe_ros_msgs.git
       version: noetic
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/canlab-co/clpe_ros_msgs-ros-release.git
+      version: 0.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -836,6 +846,13 @@ repositories:
       type: git
       url: https://github.com/canlab-co/CLPE_G_NVP2650D_SDK.git
       version: noetic
+    release:
+      packages:
+      - clpe
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/canlab-co/CLPE_G_NVP2650D_SDK-ros-release.git
+      version: 0.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1496,7 +1513,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.fel.cvut.cz/cras/ros-release/ros-utils.git
-      version: 2.0.3-1
+      version: 2.0.4-1
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
@@ -3046,7 +3063,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/geometry2-release.git
-      version: 0.7.5-1
+      version: 0.7.6-1
     source:
       test_pull_requests: true
       type: git
@@ -5566,7 +5583,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ika-rwth-aachen/mqtt_client-release.git
-      version: 1.0.2-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
@@ -5734,7 +5751,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
-      version: 0.4.0-1
+      version: 0.4.1-1
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
@@ -7177,6 +7194,26 @@ repositories:
       type: git
       url: https://github.com/pr2/pr2_ethercat_drivers.git
       version: kinetic-devel
+    status: unmaintained
+  pr2_gripper_sensor:
+    doc:
+      type: git
+      url: https://github.com/pr2/pr2_gripper_sensor.git
+      version: hydro-devel
+    release:
+      packages:
+      - pr2_gripper_sensor
+      - pr2_gripper_sensor_action
+      - pr2_gripper_sensor_controller
+      - pr2_gripper_sensor_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/pr2-gbp/pr2_gripper_sensor-release.git
+      version: 1.0.12-1
+    source:
+      type: git
+      url: https://github.com/PR2/pr2_gripper_sensor.git
+      version: hydro-devel
     status: unmaintained
   pr2_kinematics:
     doc:
@@ -10476,7 +10513,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/MetroRobots/ros_system_fingerprint-release.git
-      version: 0.6.0-1
+      version: 0.6.1-1
     source:
       test_pull_requests: true
       type: git

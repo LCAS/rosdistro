@@ -359,6 +359,16 @@ repositories:
       url: https://github.com/fkie/async_web_server_cpp.git
       version: ros2-develop
     status: maintained
+  asyncapi_gencpp:
+    doc:
+      type: git
+      url: https://github.com/hatchbed/asyncapi_gencpp.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/hatchbed/asyncapi_gencpp.git
+      version: main
+    status: developed
   automotive_autonomy_msgs:
     doc:
       type: git
@@ -1471,6 +1481,16 @@ repositories:
       url: https://github.com/tier4/hash_library_vendor.git
       version: main
     status: maintained
+  hatchbed_common:
+    doc:
+      type: git
+      url: https://github.com/hatchbed/hatchbed_common.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/hatchbed/hatchbed_common.git
+      version: main
+    status: developed
   hls_lfcd_lds_driver:
     doc:
       type: git
@@ -2005,6 +2025,16 @@ repositories:
       url: https://github.com/boschglobal/locator_ros_bridge.git
       version: main
     status: maintained
+  log_view:
+    doc:
+      type: git
+      url: https://github.com/hatchbed/log_view.git
+      version: ros2
+    source:
+      type: git
+      url: https://github.com/hatchbed/log_view.git
+      version: ros2
+    status: developed
   marti_common:
     doc:
       type: git
@@ -2027,7 +2057,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/marti_common-release.git
-      version: 3.4.0-2
+      version: 3.5.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2388,7 +2418,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.4.0-1
+      version: 0.4.1-1
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
@@ -2715,6 +2745,26 @@ repositories:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ompl-release.git
       version: 1.5.2-2
+  opensw:
+    doc:
+      type: git
+      url: https://github.com/hatchbed/opensw.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/hatchbed/opensw.git
+      version: main
+    status: developed
+  opensw_ros:
+    doc:
+      type: git
+      url: https://github.com/hatchbed/opensw_ros.git
+      version: ros2
+    source:
+      type: git
+      url: https://github.com/hatchbed/opensw_ros.git
+      version: ros2
+    status: developed
   orocos_kdl_vendor:
     release:
       packages:
@@ -5351,7 +5401,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/MetroRobots/ros_system_fingerprint-release.git
-      version: 0.5.0-1
+      version: 0.7.0-1
     source:
       test_pull_requests: true
       type: git
