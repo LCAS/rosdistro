@@ -111,6 +111,7 @@ apr:
   ubuntu: [libapr1-dev, libaprutil1-dev]
 apt-transport-https:
   debian: [apt-transport-https]
+  fedora: [apt]
   ubuntu: [apt-transport-https]
 aravis:
   debian: [libaravis-0.6-0, aravis-tools]
@@ -1448,6 +1449,7 @@ gnuplot-x11:
   ubuntu: [gnuplot-x11]
 golang-go:
   debian: [golang-go]
+  fedora: [golang-bin]
   gentoo: [dev-lang/go]
   nixos: [go]
   ubuntu: [golang-go]
@@ -1506,6 +1508,7 @@ gphoto2:
   ubuntu: [gphoto2]
 gprbuild:
   debian: [gprbuild]
+  fedora: [gprbuild]
   ubuntu: [gprbuild]
 gpsd:
   debian: [gpsd]
@@ -3106,6 +3109,7 @@ libdevil-dev:
   ubuntu: [libdevil-dev]
 libdlib-dev:
   debian: [libdlib-dev]
+  fedora: [dlib-devel]
   gentoo:
     portage:
       packages: [sci-libs/dlib]
@@ -3419,6 +3423,7 @@ libgazebo-dev:
   debian:
     bullseye: [libgazebo-dev]
     buster: [libgazebo11-dev]
+  fedora: [gazebo-devel]
   gentoo: [=sci-electronics/gazebo-11*]
   ubuntu:
     focal: [libgazebo11-dev]
@@ -3775,6 +3780,7 @@ libhidapi-dev:
 libi2c-dev:
   arch: [linux-api-headers]
   debian: [libi2c-dev]
+  fedora: [libi2c-devel]
   gentoo: [sys-apps/i2c-tools]
   nixos: [i2c-tools]
   ubuntu: [libi2c-dev]
@@ -4045,6 +4051,7 @@ liblapack-dev:
   ubuntu: [liblapack-dev]
 liblapacke-dev:
   debian: [liblapacke-dev]
+  fedora: [lapack-devel]
   ubuntu: [liblapacke-dev]
 liblcm:
   debian: [liblcm1]
@@ -4737,6 +4744,7 @@ libpqxx-dev:
   ubuntu: [libpqxx-dev]
 libprocps-dev:
   debian: [libprocps-dev]
+  fedora: [procps-ng-devel]
   nixos: [procps]
   ubuntu: [libprocps-dev]
 libprocps6:
@@ -4860,11 +4868,13 @@ libqhull:
   ubuntu: [libqhull-dev]
 libqrencode:
   debian: [libqrencode3]
+  fedora: [qrencode]
   gentoo: [media-gfx/qrencode]
   nixos: [qrencode]
   ubuntu: [libqrencode3]
 libqrencode-dev:
   debian: [libqrencode-dev]
+  fedora: [qrencode-devel]
   gentoo: [media-gfx/qrencode]
   nixos: [qrencode]
   ubuntu: [libqrencode-dev]
@@ -5248,6 +5258,7 @@ libsoqt4-dev:
   ubuntu: [libsoqt4-dev]
 libspatialindex-dev:
   debian: [libspatialindex-dev]
+  fedora: [spatialindex-devel]
   nixos: [libspatialindex]
   ubuntu: [libspatialindex-dev]
 libspatialite:
@@ -5354,6 +5365,7 @@ libswscale-dev:
   ubuntu: [libswscale-dev]
 libsystemd-dev:
   debian: [libsystemd-dev]
+  fedora: [systemd-devel]
   ubuntu:
     '*': [libsystemd-dev]
     trusty: null
@@ -5411,6 +5423,7 @@ libtins-dev:
   alpine: [libtins-dev]
   arch: [libtins]
   debian: [libtins-dev]
+  fedora: [libtins-devel]
   opensuse: [libtins-devel]
   ubuntu: [libtins-dev]
 libtool:
@@ -5856,6 +5869,7 @@ libxaw:
   ubuntu: [libxaw7-dev]
 libxcursor-dev:
   debian: [libxcursor-dev]
+  fedora: [libXcursor-devel]
   nixos: [xorg.libXcursor]
   ubuntu: [libxcursor-dev]
 libxenomai-dev:
@@ -5877,6 +5891,7 @@ libxext:
   ubuntu: [libxext-dev]
 libxft-dev:
   debian: [libxft-dev]
+  fedora: [libXft-devel]
   gentoo: [x11-libs/libXft]
   nixos: [xorg.libXft]
   ubuntu: [libxft-dev]
@@ -5898,6 +5913,7 @@ libxinerama-dev:
   ubuntu: [libxinerama-dev]
 libxkbcommon-dev:
   debian: [libxkbcommon-dev]
+  fedora: [libxkbcommon-devel]
   ubuntu: [libxkbcommon-dev]
 libxml++-2.6:
   arch: [libxml++]
@@ -6067,6 +6083,7 @@ linux-kernel-headers:
 llvm:
   arch: [llvm]
   debian: [llvm]
+  fedora: [llvm]
   gentoo: [sys-devel/llvm]
   nixos: [llvm]
   openembedded: [llvm@openembedded-core]
@@ -6092,6 +6109,7 @@ llvm-7-dev:
 llvm-dev:
   arch: [llvm]
   debian: [llvm-dev]
+  fedora: [llvm-devel]
   gentoo: [sys-devel/llvm]
   nixos: [llvm]
   openembedded: [llvm@openembedded-core]
@@ -6359,6 +6377,7 @@ mongodb-dev:
   ubuntu: [libmongoclient-dev]
 mono-complete:
   debian: [mono-complete]
+  fedora: [mono-complete]
   gentoo: [dev-lang/mono]
   ubuntu: [mono-complete]
 mono-devel:
@@ -6816,6 +6835,7 @@ polyclipping-dev:
     buster: [libpolyclipping-dev]
     jessie: [libpolyclipping-dev]
     stretch: [libpolyclipping-dev]
+  fedora: [polyclipping-devel]
   ubuntu: [libpolyclipping-dev]
 poppler-utils:
   debian: [poppler-utils]
@@ -7847,6 +7867,7 @@ tmux:
   ubuntu: [tmux]
 touchegg:
   arch: [touchegg]
+  fedora: [touchegg]
   nixos: [touchegg]
   ubuntu: [touchegg]
 trang:
