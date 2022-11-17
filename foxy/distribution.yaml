@@ -795,7 +795,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros-gbp/control_toolbox-release.git
-      version: 2.1.1-1
+      version: 2.1.2-1
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
@@ -1526,7 +1526,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/gazebo_ros2_control-release.git
-      version: 0.1.0-1
+      version: 0.1.1-2
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
@@ -2529,7 +2529,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/maliput-release.git
-      version: 1.0.7-1
+      version: 1.0.8-1
     source:
       test_pull_requests: true
       type: git
@@ -3042,7 +3042,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.5.4-1
+      version: 2.5.6-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -3087,7 +3087,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.4.2-1
+      version: 0.4.3-1
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
@@ -5731,7 +5731,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/rospy_message_converter-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -6222,7 +6222,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/nobleo/rtcm_msgs-release.git
-      version: 1.1.4-1
+      version: 1.1.6-1
     source:
       type: git
       url: https://github.com/tilk/rtcm_msgs.git
@@ -6308,7 +6308,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/septentrio-users/septentrio_gnss_driver_ros2-release.git
-      version: 1.2.2-2
+      version: 1.2.3-1
     source:
       test_pull_requests: true
       type: git
@@ -6929,7 +6929,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/tvm_vendor-release.git
-      version: 0.9.0-1
+      version: 0.9.1-1
     source:
       type: git
       url: https://github.com/autowarefoundation/tvm_vendor.git
