@@ -1069,14 +1069,14 @@ repositories:
       url: https://github.com/stack-of-tasks/dynamic-graph.git
       version: devel
     status: maintained
-  dynamixel_control:
+  dynamixel_hardware:
     doc:
       type: git
-      url: https://github.com/youtalk/dynamixel_control.git
+      url: https://github.com/dynamixel-community/dynamixel_hardware.git
       version: foxy
     source:
       type: git
-      url: https://github.com/youtalk/dynamixel_control.git
+      url: https://github.com/dynamixel-community/dynamixel_hardware.git
       version: foxy
     status: developed
   dynamixel_hardware_interface:
@@ -1508,7 +1508,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/ros_foxglove_msgs-release.git
-      version: 2.0.0-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
@@ -7464,7 +7464,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/webots_ros2-release.git
-      version: 2022.1.3-1
+      version: 2022.1.4-1
     source:
       test_pull_requests: true
       type: git

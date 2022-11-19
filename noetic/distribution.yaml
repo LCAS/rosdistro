@@ -935,7 +935,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_calibration_data-release.git
-      version: 0.6.17-1
+      version: 0.6.18-1
     source:
       type: git
       url: https://github.com/ipa320/cob_calibration_data.git
@@ -962,7 +962,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_command_tools-release.git
-      version: 0.6.29-1
+      version: 0.6.30-2
     source:
       type: git
       url: https://github.com/ipa320/cob_command_tools.git
@@ -1017,7 +1017,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_control-release.git
-      version: 0.8.19-1
+      version: 0.8.20-1
     source:
       type: git
       url: https://github.com/ipa320/cob_control.git
@@ -1053,7 +1053,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_driver-release.git
-      version: 0.7.13-1
+      version: 0.7.14-1
     source:
       type: git
       url: https://github.com/ipa320/cob_driver.git
@@ -1223,7 +1223,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_robots-release.git
-      version: 0.7.7-1
+      version: 0.7.8-1
     source:
       type: git
       url: https://github.com/ipa320/cob_robots.git
@@ -1281,7 +1281,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_supported_robots-release.git
-      version: 0.6.16-1
+      version: 0.6.17-1
     source:
       type: git
       url: https://github.com/ipa320/cob_supported_robots.git
@@ -2763,7 +2763,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/foxglove/ros_foxglove_msgs-release.git
-      version: 2.0.0-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
@@ -3930,7 +3930,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/jackal-release.git
-      version: 0.8.4-1
+      version: 0.8.6-1
     source:
       type: git
       url: https://github.com/jackal/jackal.git
@@ -5474,7 +5474,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit_msgs-release.git
-      version: 0.11.3-1
+      version: 0.11.4-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
@@ -8402,6 +8402,28 @@ repositories:
       type: git
       url: https://github.com/robotont/robotont_description.git
       version: noetic-devel
+    status: maintained
+  robotont_gazebo:
+    doc:
+      type: git
+      url: https://github.com/robotont/robotont_gazebo.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/robotont-release/robotont_gazebo-release.git
+      version: 0.0.2-2
+    status: maintained
+  robotont_msgs:
+    doc:
+      type: git
+      url: https://github.com/robotont/robotont_msgs.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/robotont-release/robotont_msgs-release.git
+      version: 0.0.2-2
     status: maintained
   robotont_nuc_description:
     release:
