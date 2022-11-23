@@ -791,7 +791,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: ros2-devel
+      version: rolling
     release:
       packages:
       - diagnostic_aggregator
@@ -805,7 +805,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: ros2-devel
+      version: rolling
     status: maintained
   dolly:
     doc:
@@ -1159,7 +1159,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/boschresearch/fmi_adapter.git
-      version: master
+      version: rolling
     release:
       packages:
       - fmi_adapter
@@ -1171,7 +1171,7 @@ repositories:
     source:
       type: git
       url: https://github.com/boschresearch/fmi_adapter.git
-      version: master
+      version: rolling
     status: maintained
   fmilibrary_vendor:
     release:
@@ -1182,7 +1182,7 @@ repositories:
     source:
       type: git
       url: https://github.com/boschresearch/fmilibrary_vendor.git
-      version: master
+      version: rolling
     status: maintained
   foonathan_memory_vendor:
     release:
@@ -1206,6 +1206,21 @@ repositories:
       url: https://github.com/ros-drivers/four_wheel_steering_msgs.git
       version: ros2
     status: maintained
+  foxglove_bridge:
+    doc:
+      type: git
+      url: https://github.com/foxglove/ros-foxglove-bridge.git
+      version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/foxglove_bridge-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/foxglove/ros-foxglove-bridge.git
+      version: main
+    status: developed
   foxglove_msgs:
     doc:
       type: git
@@ -1372,7 +1387,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/geometry2-release.git
-      version: 0.28.0-1
+      version: 0.29.0-1
     source:
       test_pull_requests: true
       type: git
