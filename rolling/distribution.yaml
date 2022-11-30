@@ -1230,7 +1230,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros_foxglove_msgs-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
@@ -4687,23 +4687,6 @@ repositories:
       url: https://github.com/ros2/rosidl_typesupport_fastrtps.git
       version: rolling
     status: developed
-  rosidl_typesupport_gurumdds:
-    doc:
-      type: git
-      url: https://github.com/ros2/rosidl_typesupport_gurumdds.git
-      version: master
-    release:
-      packages:
-      - gurumdds_cmake_module
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/rosidl_typesupport_gurumdds-release.git
-      version: 4.0.0-1
-    source:
-      type: git
-      url: https://github.com/ros2/rosidl_typesupport_gurumdds.git
-      version: master
-    status: developed
   rospy_message_converter:
     doc:
       type: git
@@ -5135,7 +5118,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/PickNikRobotics/RSL-release.git
-      version: 0.2.0-2
+      version: 0.2.1-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git

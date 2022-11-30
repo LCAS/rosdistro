@@ -4013,7 +4013,7 @@ python-pytides-pip:
   ubuntu:
     pip:
       packages: [pytides]
-python-pytorch-pip:
+python-pytorch-pip: &migrate_eol_2025_04_30_python3_pytorch_pip
   debian:
     pip:
       packages: [torch, torchvision]
@@ -6990,6 +6990,12 @@ python3-geographiclib:
     '*': [python3-GeographicLib]
     '7': null
   ubuntu: [python3-geographiclib]
+python3-geojson:
+  arch: [python-geojson]
+  debian: [python3-geojson]
+  fedora: [python3-geojson]
+  opensuse: [python3-geojson]
+  ubuntu: [python3-geojson]
 python3-geomag-pip:
   debian:
     pip:
@@ -7414,6 +7420,16 @@ python3-kiwisolver:
     bionic:
       pip:
         packages: [kiwisolver]
+python3-kml2geojson-pip:
+  debian:
+    pip:
+      packages: [kml2geojson]
+  fedora:
+    pip:
+      packages: [kml2geojson]
+  ubuntu:
+    pip:
+      packages: [kml2geojson]
 python3-lark-parser:
   alpine: [py3-lark-parser]
   arch: [python-lark-parser]
@@ -7430,6 +7446,20 @@ python3-lark-parser:
     '*': [python3-lark]
     bionic: [python3-lark-parser]
     xenial: [python3-lark-parser]
+python3-libgpiod:
+  alpine: [py3-libgpiod]
+  arch: [libgpiod]
+  debian: [python3-libgpiod]
+  fedora: [python3-libgpiod]
+  gentoo: [dev-libs/libgpiod]
+  nixos: [python3Packages.libgpiod]
+  opensuse: [python3-gpiod]
+  rhel:
+    '*': [python3-libgpiod]
+    '7': null
+  ubuntu:
+    '*': [python3-libgpiod]
+    bionic: null
 python3-lingua-franca-pip:
   debian:
     pip:
@@ -8665,6 +8695,7 @@ python3-pytest-timeout:
   opensuse: [python3-pytest-timeout]
   rhel: ['python%{python3_pkgversion}-pytest-timeout']
   ubuntu: [python3-pytest-timeout]
+python3-pytorch-pip: *migrate_eol_2025_04_30_python3_pytorch_pip
 python3-pytrinamic-pip:
   debian:
     pip:
