@@ -308,7 +308,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/aruco_opencv-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/fictionlab/ros_aruco_opencv.git
@@ -2523,6 +2523,21 @@ repositories:
       type: git
       url: https://github.com/boschglobal/locator_ros_bridge.git
       version: foxy
+    status: maintained
+  lsc_ros2_driver:
+    doc:
+      type: git
+      url: https://github.com/AutonicsLiDAR/lsc_ros2_driver.git
+      version: main
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/AutonicsLiDAR-release/lsc_ros2_driver-release.git
+      version: 1.0.0-10
+    source:
+      type: git
+      url: https://github.com/AutonicsLiDAR/lsc_ros2_driver.git
+      version: main
     status: maintained
   lua_vendor:
     doc:
