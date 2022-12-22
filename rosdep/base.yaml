@@ -2196,6 +2196,13 @@ imagemagick:
   gentoo: [virtual/imagemagick-tools]
   nixos: [imagemagick]
   ubuntu: [imagemagick]
+intel-opencl-icd:
+  debian:
+    '*': [intel-opencl-icd]
+    buster: null
+  ubuntu:
+    '*': [intel-opencl-icd]
+    bionic: null
 intltool:
   arch: [intltool]
   debian: [intltool]
@@ -3287,6 +3294,7 @@ libflann:
   fedora: [flann]
   gentoo: [sci-libs/flann]
   macports: [flann]
+  nixos: [flann]
   openembedded: [libflann@meta-ros-common]
   rhel: [flann]
   ubuntu:

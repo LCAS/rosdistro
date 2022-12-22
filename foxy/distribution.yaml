@@ -5143,7 +5143,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/cra-ros-pkg/robot_localization-release.git
-      version: 3.1.1-1
+      version: 3.1.2-1
     source:
       test_pull_requests: true
       type: git
@@ -5808,7 +5808,7 @@ repositories:
   rospy_message_converter:
     doc:
       type: git
-      url: https://github.com/uos/rospy_message_converter.git
+      url: https://github.com/DFKI-NI/rospy_message_converter.git
       version: foxy
     release:
       packages:
@@ -5821,7 +5821,7 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/uos/rospy_message_converter.git
+      url: https://github.com/DFKI-NI/rospy_message_converter.git
       version: foxy
     status: maintained
   rosxbee:
