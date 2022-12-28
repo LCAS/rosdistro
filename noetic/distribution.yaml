@@ -329,7 +329,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/audio_common-release.git
-      version: 0.3.15-1
+      version: 0.3.16-1
     source:
       type: git
       url: https://github.com/ros-drivers/audio_common.git
@@ -627,7 +627,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/FraunhoferIOSB/camera_aravis-release.git
-      version: 4.0.3-1
+      version: 4.0.4-1
     source:
       test_pull_requests: true
       type: git
@@ -5515,7 +5515,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mikeferguson/moveit_python-release.git
-      version: 0.4.3-1
+      version: 0.4.4-1
     source:
       type: git
       url: https://github.com/mikeferguson/moveit_python.git
@@ -8233,7 +8233,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/robot_calibration-release.git
-      version: 0.7.1-1
+      version: 0.7.2-1
     source:
       test_pull_requests: true
       type: git
@@ -10105,6 +10105,21 @@ repositories:
       url: https://github.com/ipa320/schunk_modular_robotics.git
       version: kinetic_dev
     status: maintained
+  schunk_svh_library:
+    doc:
+      type: git
+      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_library.git
+      version: main
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_library-release.git
+      version: 1.0.1-4
+    source:
+      type: git
+      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_library.git
+      version: main
+    status: developed
   sciurus17:
     doc:
       type: git
