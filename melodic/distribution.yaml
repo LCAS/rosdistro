@@ -3576,7 +3576,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/foxglove/ros_foxglove_bridge-release.git
-      version: 0.2.2-1
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -4537,7 +4537,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros4hri/hri_msgs-release.git
-      version: 0.7.1-1
+      version: 0.8.0-1
     source:
       type: git
       url: https://github.com/ros4hri/hri_msgs.git
@@ -4758,7 +4758,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-perception/image_transport_plugins.git
-      version: indigo-devel
+      version: melodic-devel
     release:
       packages:
       - compressed_depth_image_transport
@@ -4772,7 +4772,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-perception/image_transport_plugins.git
-      version: indigo-devel
+      version: melodic-devel
     status: maintained
   imagezero_transport:
     doc:
@@ -6086,7 +6086,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros4hri/libhri-release.git
-      version: 0.5.0-1
+      version: 0.6.0-1
     source:
       type: git
       url: https://github.com/ros4hri/libhri.git
@@ -6552,7 +6552,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/at-wat/mcl_3dl-release.git
-      version: 0.6.0-1
+      version: 0.6.1-1
     source:
       type: git
       url: https://github.com/at-wat/mcl_3dl.git
@@ -7771,7 +7771,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.11.7-1
+      version: 0.11.8-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -14698,7 +14698,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/seqsense/urg_stamped-release.git
-      version: 0.0.15-1
+      version: 0.0.16-1
     source:
       type: git
       url: https://github.com/seqsense/urg_stamped.git

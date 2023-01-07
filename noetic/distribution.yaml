@@ -658,12 +658,13 @@ repositories:
     release:
       packages:
       - care_o_bot
+      - care_o_bot_desktop
       - care_o_bot_robot
       - care_o_bot_simulation
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/care-o-bot-release.git
-      version: 0.7.9-1
+      version: 0.7.10-1
     source:
       type: git
       url: https://github.com/ipa320/care-o-bot.git
@@ -962,7 +963,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_command_tools-release.git
-      version: 0.6.30-2
+      version: 0.6.31-1
     source:
       type: git
       url: https://github.com/ipa320/cob_command_tools.git
@@ -1017,7 +1018,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_control-release.git
-      version: 0.8.20-1
+      version: 0.8.21-1
     source:
       type: git
       url: https://github.com/ipa320/cob_control.git
@@ -1176,7 +1177,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_navigation-release.git
-      version: 0.6.13-1
+      version: 0.6.14-1
     source:
       type: git
       url: https://github.com/ipa320/cob_navigation.git
@@ -1223,7 +1224,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_robots-release.git
-      version: 0.7.8-1
+      version: 0.7.9-1
     source:
       type: git
       url: https://github.com/ipa320/cob_robots.git
@@ -1245,7 +1246,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_simulation-release.git
-      version: 0.7.6-1
+      version: 0.7.7-1
     source:
       type: git
       url: https://github.com/ipa320/cob_simulation.git
@@ -2763,7 +2764,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/foxglove/ros_foxglove_bridge-release.git
-      version: 0.2.2-1
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -5041,7 +5042,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/mcl_3dl-release.git
-      version: 0.6.0-1
+      version: 0.6.1-1
     source:
       type: git
       url: https://github.com/at-wat/mcl_3dl.git
@@ -6021,7 +6022,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.11.7-1
+      version: 0.11.8-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -11407,7 +11408,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/seqsense/urg_stamped-release.git
-      version: 0.0.15-1
+      version: 0.0.16-1
     source:
       type: git
       url: https://github.com/seqsense/urg_stamped.git
