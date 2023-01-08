@@ -1153,7 +1153,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_manipulation-release.git
-      version: 0.7.7-1
+      version: 0.7.8-1
     source:
       type: git
       url: https://github.com/ipa320/cob_manipulation.git
@@ -2701,7 +2701,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/flir_camera_driver-release.git
-      version: 0.2.3-1
+      version: 0.2.5-1
     source:
       type: git
       url: https://github.com/ros-drivers/flir_camera_driver.git
@@ -4656,7 +4656,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros4hri/libhri-release.git
-      version: 0.5.3-1
+      version: 0.6.0-1
     source:
       type: git
       url: https://github.com/ros4hri/libhri.git
@@ -5516,7 +5516,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mikeferguson/moveit_python-release.git
-      version: 0.4.4-1
+      version: 0.4.5-1
     source:
       type: git
       url: https://github.com/mikeferguson/moveit_python.git
@@ -9982,7 +9982,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/PickNikRobotics/rviz_visual_tools-release.git
-      version: 3.9.2-1
+      version: 3.9.3-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/rviz_visual_tools.git
@@ -10135,7 +10135,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_ros_driver-release.git
-      version: 0.1.1-1
+      version: 0.1.2-1
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_ros_driver.git
