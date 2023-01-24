@@ -3462,7 +3462,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/pinocchio-release.git
-      version: 2.6.12-1
+      version: 2.6.14-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
@@ -4673,7 +4673,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 3.0.0-1
+      version: 2.15.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -5627,7 +5627,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rtabmap-release.git
-      version: 0.20.22-1
+      version: 0.20.23-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -5642,7 +5642,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.20.22-1
+      version: 0.20.23-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
@@ -5844,7 +5844,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/simple_launch-release.git
-      version: 1.6.1-1
+      version: 1.6.2-1
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
