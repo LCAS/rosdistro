@@ -1150,7 +1150,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/eigenpy-release.git
-      version: 2.9.0-1
+      version: 2.9.1-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -1716,6 +1716,16 @@ repositories:
       type: git
       url: https://github.com/ros-drivers/gscam.git
       version: ros2
+    status: developed
+  gtsam:
+    doc:
+      type: git
+      url: https://github.com/borglab/gtsam.git
+      version: develop
+    source:
+      type: git
+      url: https://github.com/borglab/gtsam.git
+      version: develop
     status: developed
   hash_library_vendor:
     doc:
@@ -3919,6 +3929,21 @@ repositories:
       url: https://github.com/rt-net/raspimouse2.git
       version: humble-devel
     status: maintained
+  raspimouse_description:
+    doc:
+      type: git
+      url: https://github.com/rt-net/raspimouse_description.git
+      version: humble-devel
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/raspimouse_description-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/rt-net/raspimouse_description.git
+      version: humble-devel
+    status: maintained
   rc_common_msgs:
     doc:
       type: git
@@ -4763,7 +4788,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 2.21.0-1
+      version: 2.22.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -4794,7 +4819,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 2.16.0-1
+      version: 2.16.1-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
