@@ -2361,7 +2361,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/executive_smach-release.git
-      version: 2.5.0-1
+      version: 2.5.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2782,7 +2782,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/foxglove/ros_foxglove_bridge-release.git
-      version: 0.3.0-1
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -5598,7 +5598,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit_task_constructor-release.git
-      version: 0.1.0-2
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_task_constructor.git
@@ -7046,7 +7046,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/stack-of-tasks/pinocchio-ros-release.git
-      version: 2.6.16-1
+      version: 2.6.17-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
@@ -8613,7 +8613,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/ros_comm-release.git
-      version: 1.15.15-1
+      version: 1.16.0-1
     source:
       test_pull_requests: true
       type: git
@@ -9157,7 +9157,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/roslisp-release.git
-      version: 1.9.24-1
+      version: 1.9.25-1
     source:
       type: git
       url: https://github.com/ros/roslisp.git

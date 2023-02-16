@@ -3576,7 +3576,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/foxglove/ros_foxglove_bridge-release.git
-      version: 0.3.0-1
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -11649,7 +11649,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/roslisp-release.git
-      version: 1.9.24-1
+      version: 1.9.25-1
     source:
       type: git
       url: https://github.com/ros/roslisp.git
