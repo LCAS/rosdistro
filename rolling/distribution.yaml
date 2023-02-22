@@ -1400,7 +1400,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/generate_parameter_library-release.git
-      version: 0.3.0-1
+      version: 0.3.1-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
@@ -3872,6 +3872,13 @@ repositories:
       url: https://github.com/ros/resource_retriever.git
       version: rolling
     status: maintained
+  rig_reconfigure:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/teamspatzenhirn/rig_reconfigure.git
+      version: master
+    status: developed
   rmf_api_msgs:
     doc:
       type: git
@@ -4573,6 +4580,12 @@ repositories:
       url: https://github.com/ros-sports/ros_image_to_qimage.git
       version: rolling
     status: developed
+  ros_industrial_cmake_boilerplate:
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros-industrial-release/ros_industrial_cmake_boilerplate-release.git
+      version: 0.4.0-1
   ros_testing:
     doc:
       type: git
@@ -6425,10 +6438,13 @@ repositories:
       url: https://github.com/ros-perception/vision_msgs.git
       version: ros2
     release:
+      packages:
+      - vision_msgs
+      - vision_msgs_rviz_plugins
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/vision_msgs-release.git
-      version: 4.0.0-1
+      version: 4.1.0-1
     source:
       test_pull_requests: true
       type: git

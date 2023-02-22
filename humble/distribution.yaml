@@ -786,7 +786,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/control_toolbox-release.git
-      version: 2.1.2-1
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
@@ -1499,7 +1499,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/generate_parameter_library-release.git
-      version: 0.3.0-1
+      version: 0.3.1-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
@@ -1826,7 +1826,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/iceoryx-release.git
-      version: 2.0.2-3
+      version: 2.0.3-1
     source:
       type: git
       url: https://github.com/eclipse-iceoryx/iceoryx.git
@@ -1838,6 +1838,24 @@ repositories:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ifm3d-release.git
       version: 0.18.0-7
+    status: developed
+  ign_ros2_control:
+    doc:
+      type: git
+      url: https://github.com/ros-controls/gz_ros2_control.git
+      version: humble
+    release:
+      packages:
+      - ign_ros2_control
+      - ign_ros2_control_demos
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/ign_ros2_control-release.git
+      version: 0.4.3-2
+    source:
+      type: git
+      url: https://github.com/ros-controls/gz_ros2_control.git
+      version: humble
     status: developed
   ign_rviz:
     doc:
@@ -4367,6 +4385,13 @@ repositories:
       url: https://github.com/ros/resource_retriever.git
       version: humble
     status: maintained
+  rig_reconfigure:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/teamspatzenhirn/rig_reconfigure.git
+      version: master
+    status: developed
   rmf_api_msgs:
     doc:
       type: git
@@ -5146,6 +5171,12 @@ repositories:
       url: https://github.com/ros-sports/ros_image_to_qimage.git
       version: humble
     status: developed
+  ros_industrial_cmake_boilerplate:
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros-industrial-release/ros_industrial_cmake_boilerplate-release.git
+      version: 0.4.0-1
   ros_testing:
     doc:
       type: git
@@ -5961,6 +5992,21 @@ repositories:
       url: https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins.git
       version: main
     status: developed
+  rviz_satellite:
+    doc:
+      type: git
+      url: https://github.com/nobleo/rviz_satellite.git
+      version: ros2
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/nobleo/rviz_satellite-release.git
+      version: 4.0.0-1
+    source:
+      type: git
+      url: https://github.com/nobleo/rviz_satellite.git
+      version: ros2
+    status: maintained
   rviz_visual_tools:
     doc:
       type: git
@@ -6736,6 +6782,65 @@ repositories:
       url: https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
       version: ros2
     status: maintained
+  turtlebot4:
+    doc:
+      type: git
+      url: https://github.com/turtlebot/turtlebot4.git
+      version: humble
+    release:
+      packages:
+      - turtlebot4_description
+      - turtlebot4_msgs
+      - turtlebot4_navigation
+      - turtlebot4_node
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/turtlebot4-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/turtlebot/turtlebot4.git
+      version: humble
+    status: developed
+  turtlebot4_desktop:
+    doc:
+      type: git
+      url: https://github.com/turtlebot/turtlebot4_desktop.git
+      version: humble
+    release:
+      packages:
+      - turtlebot4_desktop
+      - turtlebot4_viz
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/turtlebot4_desktop-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/turtlebot/turtlebot4_desktop.git
+      version: humble
+    status: developed
+  turtlebot4_robot:
+    doc:
+      type: git
+      url: https://github.com/turtlebot/turtlebot4_robot.git
+      version: humble
+    release:
+      packages:
+      - turtlebot4_base
+      - turtlebot4_bringup
+      - turtlebot4_diagnostics
+      - turtlebot4_robot
+      - turtlebot4_tests
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/turtlebot4_robot-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/turtlebot/turtlebot4_robot.git
+      version: humble
+    status: developed
   turtlesim:
     doc:
       type: git
@@ -7193,10 +7298,13 @@ repositories:
       url: https://github.com/ros-perception/vision_msgs.git
       version: ros2
     release:
+      packages:
+      - vision_msgs
+      - vision_msgs_rviz_plugins
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/vision_msgs-release.git
-      version: 4.0.0-2
+      version: 4.1.0-1
     source:
       test_pull_requests: true
       type: git

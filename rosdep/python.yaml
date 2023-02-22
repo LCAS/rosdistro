@@ -392,8 +392,16 @@ pyflakes3:
   ubuntu: [pyflakes3]
 pymap3d-pip:
   debian:
-    pip:
-      packages: [pymap3d]
+    '*': null
+    buster:
+      pip:
+        packages: [pymap3d]
+    jessie:
+      pip:
+        packages: [pymap3d]
+    stretch:
+      pip:
+        packages: [pymap3d]
   fedora:
     pip:
       packages: [pymap3d]
@@ -401,8 +409,13 @@ pymap3d-pip:
     pip:
       packages: [pymap3d]
   ubuntu:
-    pip:
-      packages: [pymap3d]
+    '*': null
+    bionic:
+      pip:
+        packages: [pymap3d]
+    focal:
+      pip:
+        packages: [pymap3d]
 pymodbustcp-pip:
   debian:
     pip:
@@ -6022,6 +6035,13 @@ python3-anytree-pip:
   ubuntu:
     pip:
       packages: [anytree]
+python3-apa102-pi-pip:
+  debian:
+    pip:
+      packages: [apa102-pi]
+  ubuntu:
+    pip:
+      packages: [apa102-pi]
 python3-argcomplete:
   alpine: [py3-argcomplete]
   arch: [python-argcomplete]
@@ -7362,6 +7382,18 @@ python3-imageio:
   nixos: [python3Packages.imageio]
   openembedded: [python3-imageio@meta-python]
   ubuntu: [python3-imageio]
+python3-img2pdf:
+  alpine: [py3-img2pdf]
+  arch: [img2pdf]
+  debian: [python3-img2pdf]
+  fedora: [python3-img2pdf]
+  gentoo: [media-gfx/img2pdf]
+  nixos: [python39Packages.img2pdf]
+  opensuse: [python3-img2pdf]
+  rhel:
+    '*': [python3-img2pdf]
+    '7': null
+  ubuntu: [python3-img2pdf]
 python3-importlib-metadata:
   alpine: [py3-importlib-metadata]
   arch: [python-importlib-metadata]
@@ -8637,6 +8669,17 @@ python3-pylibdmtx:
     focal:
       pip:
         packages: [pylibdmtx]
+python3-pymap3d:
+  debian:
+    '*': [python3-pymap3d]
+    buster: null
+    jessie: null
+    stretch: null
+  gentoo: [sci-geosciences/pymap3d]
+  ubuntu:
+    '*': [python3-pymap3d]
+    bionic: null
+    focal: null
 python3-pymesh2-pip:
   debian:
     pip:
@@ -8901,6 +8944,12 @@ python3-pytrinamic-pip:
   ubuntu:
     pip:
       packages: [pytrinamic]
+python3-pyudev:
+  debian: [python3-pyudev]
+  fedora: [python3-pyudev]
+  gentoo: [dev-python/pyudev]
+  nixos: [pythonPackages.pyudev]
+  ubuntu: [python3-pyudev]
 python3-pyvista-pip:
   debian:
     pip:
