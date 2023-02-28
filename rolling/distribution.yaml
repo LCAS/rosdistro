@@ -1607,6 +1607,11 @@ repositories:
       type: git
       url: https://github.com/borglab/gtsam.git
       version: develop
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/gtsam-release.git
+      version: 4.2.0-1
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
@@ -2630,7 +2635,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.5.1-2
+      version: 0.6.0-1
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
@@ -3327,8 +3332,9 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/py_trees_js-release.git
-      version: 0.6.3-1
+      version: 0.6.4-1
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees_js.git
       version: devel
@@ -3873,6 +3879,11 @@ repositories:
       version: rolling
     status: maintained
   rig_reconfigure:
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/rig_reconfigure-release.git
+      version: 1.0.0-3
     source:
       test_pull_requests: true
       type: git
@@ -5664,6 +5675,21 @@ repositories:
       type: git
       url: https://github.com/open-rmf/stubborn_buddies.git
       version: main
+    status: developed
+  swri_console:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/swri_console.git
+      version: ros2-devel
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/swri_console-release.git
+      version: 2.0.3-1
+    source:
+      type: git
+      url: https://github.com/swri-robotics/swri_console.git
+      version: ros2-devel
     status: developed
   system_fingerprint:
     doc:
