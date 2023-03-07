@@ -180,7 +180,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/ament_lint-release.git
-      version: 0.9.7-1
+      version: 0.9.8-1
     source:
       test_pull_requests: true
       type: git
@@ -3169,7 +3169,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.6.0-1
+      version: 2.7.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -3214,7 +3214,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.6.0-1
+      version: 0.6.1-1
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
@@ -3587,6 +3587,21 @@ repositories:
       type: git
       url: https://github.com/OctoMap/octomap_rviz_plugins.git
       version: ros2
+    status: maintained
+  odom_to_tf_ros2:
+    doc:
+      type: git
+      url: https://github.com/gstavrinos/odom_to_tf_ros2.git
+      version: master
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/gstavrinos/odom_to_tf_ros2-release.git
+      version: 1.0.2-1
+    source:
+      type: git
+      url: https://github.com/gstavrinos/odom_to_tf_ros2.git
+      version: master
     status: maintained
   ompl:
     release:
