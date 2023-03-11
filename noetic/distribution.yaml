@@ -3562,7 +3562,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/husky-release.git
-      version: 0.6.6-3
+      version: 0.6.7-1
     source:
       type: git
       url: https://github.com/husky/husky.git
@@ -7966,7 +7966,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_genicam_api-release.git
-      version: 2.5.12-1
+      version: 2.6.1-1
     source:
       test_pull_requests: true
       type: git
