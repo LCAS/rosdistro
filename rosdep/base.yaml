@@ -5837,6 +5837,9 @@ libtins-dev:
   debian: [libtins-dev]
   fedora: [libtins-devel]
   opensuse: [libtins-devel]
+  rhel:
+    '*': [libtins-devel]
+    '8': null
   ubuntu: [libtins-dev]
 libtool:
   arch: [libtool]
@@ -6657,6 +6660,9 @@ matio:
   debian: [libmatio-dev]
   fedora: [matio-devel]
   nixos: [matio]
+  rhel:
+    '*': null
+    '8': [matio-devel]
   ubuntu: [libmatio-dev]
 maven:
   alpine: [maven]
@@ -7860,6 +7866,9 @@ simde:
   debian:
     '*': [libsimde-dev]
     buster: null
+  rhel:
+    '*': [simde-devel]
+    '9': null
   ubuntu:
     '*': [libsimde-dev]
     bionic: null

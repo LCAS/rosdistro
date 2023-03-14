@@ -811,7 +811,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros-gbp/control_toolbox-release.git
-      version: 2.1.2-1
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
@@ -2608,7 +2608,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/maliput-release.git
-      version: 1.1.0-1
+      version: 1.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2775,7 +2775,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/maliput_py-release.git
-      version: 0.1.4-1
+      version: 0.1.5-1
     source:
       test_pull_requests: true
       type: git
@@ -2807,7 +2807,7 @@ repositories:
       tags:
         release: release/foxy/{package}/{version}
       url: https://github.com/ros2-gbp/maliput_viz-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -6451,6 +6451,25 @@ repositories:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_library.git
       version: main
+    status: developed
+  schunk_svh_ros_driver:
+    doc:
+      type: git
+      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_ros_driver.git
+      version: ros2-foxy
+    release:
+      packages:
+      - schunk_svh_description
+      - schunk_svh_driver
+      - schunk_svh_tests
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/schunk_svh_ros_driver-release.git
+      version: 2.0.1-1
+    source:
+      type: git
+      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_ros_driver.git
+      version: ros2-foxy
     status: developed
   septentrio_gnss_driver:
     doc:
