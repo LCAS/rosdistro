@@ -10890,7 +10890,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-industrial-release/tesseract-release.git
-      version: 0.15.0-2
+      version: 0.15.1-1
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
@@ -12070,19 +12070,7 @@ repositories:
       type: git
       url: https://github.com/ElettraSciComp/witmotion_IMU_ros.git
       version: main
-    source:
-      type: git
-      url: https://github.com/ElettraSciComp/witmotion_IMU_ros.git
-      version: main
-    status: maintained
-  witmotion_ros-release:
-    doc:
-      type: git
-      url: https://github.com/ElettraSciComp/witmotion_IMU_ros.git
-      version: main
     release:
-      packages:
-      - witmotion_ros
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/twdragon/witmotion_ros-release.git
