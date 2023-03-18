@@ -1015,7 +1015,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/diagnostics-release.git
-      version: 3.1.0-2
+      version: 3.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1816,7 +1816,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/hpp_fcl-release.git
-      version: 2.2.0-1
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
@@ -3499,7 +3499,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/pal_gripper-release.git
-      version: 3.0.2-1
+      version: 3.0.3-1
     source:
       type: git
       url: https://github.com/pal-robotics/pal_gripper.git
@@ -3775,7 +3775,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/pmb2_robot-gbp.git
-      version: 5.0.0-1
+      version: 5.0.2-1
     source:
       type: git
       url: https://github.com/pal-robotics/pmb2_robot.git
@@ -3859,6 +3859,16 @@ repositories:
       url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
       version: master
     status: maintained
+  proxsuite:
+    doc:
+      type: git
+      url: https://github.com/Simple-Robotics/proxsuite.git
+      version: devel
+    source:
+      type: git
+      url: https://github.com/Simple-Robotics/proxsuite.git
+      version: devel
+    status: developed
   py_trees:
     doc:
       type: git
