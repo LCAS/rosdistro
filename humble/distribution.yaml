@@ -2213,7 +2213,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/laser_filters-release.git
-      version: 2.0.5-1
+      version: 2.0.6-2
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
@@ -2770,12 +2770,12 @@ repositories:
   mir_robot:
     doc:
       type: git
-      url: https://github.com/dfki-ric/mir_robot.git
+      url: https://github.com/DFKI-NI/mir_robot.git
       version: humble
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/dfki-ric/mir_robot.git
+      url: https://github.com/DFKI-NI/mir_robot.git
       version: humble
     status: developed
   mod:
@@ -7359,7 +7359,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/urg_node-release.git
-      version: 1.1.0-3
+      version: 1.1.1-1
     source:
       test_pull_requests: true
       type: git

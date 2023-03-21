@@ -2065,7 +2065,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/laser_filters-release.git
-      version: 2.0.5-2
+      version: 2.0.6-2
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
@@ -2456,12 +2456,12 @@ repositories:
   mir_robot:
     doc:
       type: git
-      url: https://github.com/dfki-ric/mir_robot.git
+      url: https://github.com/DFKI-NI/mir_robot.git
       version: rolling
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/dfki-ric/mir_robot.git
+      url: https://github.com/DFKI-NI/mir_robot.git
       version: rolling
     status: developed
   moveit:
@@ -6435,7 +6435,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/urg_node-release.git
-      version: 1.1.0-2
+      version: 1.1.1-1
     source:
       test_pull_requests: true
       type: git
