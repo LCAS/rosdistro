@@ -6433,6 +6433,7 @@ libxxf86vm:
   freebsd: [libXxf86vm]
   gentoo: [x11-libs/libXxf86vm]
   macports: [xorg-libXxf86vm]
+  nixos: [xorg.libXxf86vm]
   openembedded: [libxxf86vm@openembedded-core]
   opensuse: [xorg-x11-devel]
   rhel: [libXxf86vm-devel]
@@ -6498,6 +6499,12 @@ lighttpd:
   fedora: [lighttpd]
   nixos: [lighttpd]
   ubuntu: [lighttpd]
+lilypond:
+  arch: [lilypond]
+  debian: [lilypond]
+  fedora: [lilypond]
+  opensuse: [lilypond]
+  ubuntu: [lilypond]
 linphone:
   debian: [linphone]
   fedora: [linphone]
