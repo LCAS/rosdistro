@@ -959,7 +959,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_command_tools-release.git
-      version: 0.6.31-1
+      version: 0.6.32-1
     source:
       type: git
       url: https://github.com/ipa320/cob_command_tools.git
@@ -1014,7 +1014,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_control-release.git
-      version: 0.8.21-1
+      version: 0.8.22-1
     source:
       type: git
       url: https://github.com/ipa320/cob_control.git
@@ -1506,7 +1506,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.fel.cvut.cz/cras/ros-release/cras_msgs
-      version: 1.0.1-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/ctu-vras/cras_msgs.git
@@ -1787,13 +1787,15 @@ repositories:
       packages:
       - depthai-ros
       - depthai_bridge
+      - depthai_descriptions
       - depthai_examples
+      - depthai_filters
       - depthai_ros_driver
       - depthai_ros_msgs
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/luxonis/depthai-ros-release.git
-      version: 2.6.4-1
+      version: 2.7.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1871,7 +1873,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/dingo-release.git
-      version: 0.3.0-1
+      version: 0.3.1-2
     source:
       type: git
       url: https://github.com/dingo-cpr/dingo.git
@@ -1889,7 +1891,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/dingo_desktop-release.git
-      version: 0.1.1-1
+      version: 0.1.2-1
     source:
       type: git
       url: https://github.com/dingo-cpr/dingo_desktop.git
@@ -1907,7 +1909,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/dingo_simulator-release.git
-      version: 0.1.1-1
+      version: 0.1.2-1
     source:
       type: git
       url: https://github.com/dingo-cpr/dingo_simulator.git
@@ -2671,7 +2673,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fkie-release/potree_rviz_plugin-release.git
-      version: 1.0.1-1
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/fkie/potree_rviz_plugin.git
@@ -2795,7 +2797,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/foxglove/ros_foxglove_bridge-release.git
-      version: 0.5.3-1
+      version: 0.6.0-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -3977,7 +3979,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/jackal-release.git
-      version: 0.8.6-1
+      version: 0.8.7-3
     source:
       type: git
       url: https://github.com/jackal/jackal.git
@@ -5926,7 +5928,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
-      version: 0.6.1-1
+      version: 0.7.0-1
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
@@ -8222,7 +8224,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/ridgeback-release.git
-      version: 0.3.2-1
+      version: 0.3.3-2
     source:
       type: git
       url: https://github.com/ridgeback/ridgeback.git
@@ -10421,7 +10423,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/uos-gbp/sick_tim-release.git
-      version: 0.0.17-1
+      version: 0.0.18-1
     source:
       test_pull_requests: true
       type: git
@@ -10437,7 +10439,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/simple_grasping-release.git
-      version: 0.4.0-1
+      version: 0.4.1-1
     source:
       type: git
       url: https://github.com/mikeferguson/simple_grasping.git
@@ -10906,7 +10908,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
-      version: kinetic-devel
+      version: noetic-devel
     release:
       packages:
       - joy_teleop
@@ -10917,11 +10919,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/teleop_tools-release.git
-      version: 0.4.0-1
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
-      version: kinetic-devel
+      version: noetic-devel
     status: maintained
   teleop_twist_joy:
     doc:
