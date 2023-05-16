@@ -1692,6 +1692,11 @@ repositories:
       url: https://github.com/hatchbed/hatchbed_common.git
       version: main
     status: developed
+  heaphook:
+    source:
+      type: git
+      url: https://github.com/tier4/heaphook.git
+      version: main
   hls_lfcd_lds_driver:
     doc:
       type: git
@@ -4523,7 +4528,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 3.7.0-1
+      version: 3.8.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
