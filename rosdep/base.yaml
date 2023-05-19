@@ -292,6 +292,16 @@ babeltrace:
   gentoo: [dev-util/babeltrace]
   nixos: [babeltrace]
   ubuntu: [babeltrace]
+bandit:
+  arch: [bandit]
+  debian: [bandit]
+  fedora: [bandit]
+  gentoo: [dev-python/bandit]
+  opensuse: [python3-bandit]
+  osx:
+    homebrew:
+      packages: [bandit]
+  ubuntu: [bandit]
 bazaar:
   arch: [bzr]
   debian: [bzr]
@@ -4107,6 +4117,11 @@ libnanoflann-dev:
     '*': [libnanoflann-dev]
     bionic: null
     focal: null
+libnanopb-dev:
+  debian: [libnanopb-dev]
+  ubuntu:
+    '*': [libnanopb-dev]
+    bionic: null
 libncurses:
   arch: [ncurses]
   debian: [libncurses5]

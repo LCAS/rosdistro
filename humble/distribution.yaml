@@ -440,7 +440,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/aruco_opencv-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/fictionlab/ros_aruco_opencv.git
@@ -3002,7 +3002,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/moveit_msgs-release.git
-      version: 2.2.2-1
+      version: 2.2.1-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
@@ -6285,7 +6285,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rviz_2d_overlay_plugins-release.git
-      version: 1.2.1-1
+      version: 1.3.0-1
     source:
       test_pull_requests: true
       type: git
@@ -7311,7 +7311,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/turtlebot4_tutorials-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/turtlebot/turtlebot4_tutorials.git
