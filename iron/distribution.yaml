@@ -393,7 +393,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/aruco_opencv-release.git
-      version: 4.1.0-4
+      version: 5.0.0-1
     source:
       type: git
       url: https://github.com/fictionlab/ros_aruco_opencv.git
@@ -2566,6 +2566,7 @@ repositories:
       - moveit_planners
       - moveit_planners_chomp
       - moveit_planners_ompl
+      - moveit_planners_stomp
       - moveit_plugins
       - moveit_py
       - moveit_resources_prbt_ikfast_manipulator_plugin
@@ -2597,7 +2598,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/moveit2-release.git
-      version: 2.7.3-1
+      version: 2.7.4-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -2627,6 +2628,7 @@ repositories:
       version: ros2
     release:
       packages:
+      - dual_arm_panda_moveit_config
       - moveit_resources
       - moveit_resources_fanuc_description
       - moveit_resources_fanuc_moveit_config
@@ -2636,7 +2638,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/moveit_resources-release.git
-      version: 2.0.6-3
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
@@ -2784,6 +2786,60 @@ repositories:
       type: git
       url: https://github.com/ros-sports/nao_lola.git
       version: rolling
+    status: developed
+  navigation2:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/navigation2.git
+      version: iron
+    release:
+      packages:
+      - costmap_queue
+      - dwb_core
+      - dwb_critics
+      - dwb_msgs
+      - dwb_plugins
+      - nav2_amcl
+      - nav2_behavior_tree
+      - nav2_behaviors
+      - nav2_bringup
+      - nav2_bt_navigator
+      - nav2_collision_monitor
+      - nav2_common
+      - nav2_constrained_smoother
+      - nav2_controller
+      - nav2_core
+      - nav2_costmap_2d
+      - nav2_dwb_controller
+      - nav2_lifecycle_manager
+      - nav2_map_server
+      - nav2_mppi_controller
+      - nav2_msgs
+      - nav2_navfn_planner
+      - nav2_planner
+      - nav2_regulated_pure_pursuit_controller
+      - nav2_rotation_shim_controller
+      - nav2_rviz_plugins
+      - nav2_simple_commander
+      - nav2_smac_planner
+      - nav2_smoother
+      - nav2_system_tests
+      - nav2_theta_star_planner
+      - nav2_util
+      - nav2_velocity_smoother
+      - nav2_voxel_grid
+      - nav2_waypoint_follower
+      - nav_2d_msgs
+      - nav_2d_utils
+      - navigation2
+      tags:
+        release: release/iron/{package}/{version}
+      url: https://github.com/SteveMacenski/navigation2-release.git
+      version: 1.2.0-1
+    source:
+      type: git
+      url: https://github.com/ros-planning/navigation2.git
+      version: iron
     status: developed
   navigation_msgs:
     doc:
@@ -3623,7 +3679,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/qt_gui_core-release.git
-      version: 2.4.1-2
+      version: 2.4.2-1
     source:
       test_pull_requests: true
       type: git
@@ -3799,7 +3855,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/rcl-release.git
-      version: 6.0.1-2
+      version: 6.0.2-1
     source:
       test_pull_requests: true
       type: git
@@ -4549,25 +4605,6 @@ repositories:
       url: https://github.com/ros-controls/ros2_controllers.git
       version: master
     status: developed
-  ros2_ouster_drivers:
-    doc:
-      type: git
-      url: https://github.com/SteveMacenski/ros2_ouster_drivers.git
-      version: foxy-devel
-    release:
-      packages:
-      - ouster_msgs
-      - ros2_ouster
-      tags:
-        release: release/iron/{package}/{version}
-      url: https://github.com/ros2-gbp/ros2_ouster_drivers-release.git
-      version: 0.5.0-3
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/SteveMacenski/ros2_ouster_drivers.git
-      version: foxy-devel
-    status: maintained
   ros2_socketcan:
     doc:
       type: git
@@ -4830,7 +4867,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2-release.git
-      version: 0.22.0-2
+      version: 0.22.1-1
     source:
       test_pull_requests: true
       type: git
@@ -5144,7 +5181,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/rqt-release.git
-      version: 1.3.2-2
+      version: 1.3.3-1
     source:
       test_pull_requests: true
       type: git
@@ -5689,6 +5726,22 @@ repositories:
       url: https://github.com/oKermorgant/simple_launch.git
       version: devel
     status: maintained
+  slam_toolbox:
+    doc:
+      type: git
+      url: https://github.com/SteveMacenski/slam_toolbox.git
+      version: iron
+    release:
+      tags:
+        release: release/iron/{package}/{version}
+      url: https://github.com/SteveMacenski/slam_toolbox-release.git
+      version: 2.7.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/SteveMacenski/slam_toolbox.git
+      version: iron
+    status: maintained
   slider_publisher:
     doc:
       type: git
@@ -5855,7 +5908,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/sros2-release.git
-      version: 0.11.2-2
+      version: 0.11.3-1
     source:
       test_pull_requests: true
       type: git
