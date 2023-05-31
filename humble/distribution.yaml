@@ -2701,7 +2701,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/nobleo/magic_enum-release.git
-      version: 0.8.2-1
+      version: 0.9.0-1
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
@@ -2722,7 +2722,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mapviz-release.git
-      version: 2.2.0-1
+      version: 2.2.1-1
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
@@ -2750,6 +2750,7 @@ repositories:
       version: ros2-devel
     release:
       packages:
+      - swri_cli_tools
       - swri_console_util
       - swri_dbw_interface
       - swri_geometry_util
@@ -2765,7 +2766,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/marti_common-release.git
-      version: 3.5.1-2
+      version: 3.5.2-1
     source:
       test_pull_requests: true
       type: git
@@ -2791,7 +2792,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/marti_messages-release.git
-      version: 1.4.1-1
+      version: 1.4.1-2
     source:
       test_pull_requests: true
       type: git
@@ -3121,7 +3122,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_msgs-release.git
-      version: 0.4.5-1
+      version: 0.4.6-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
@@ -5264,7 +5265,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 2.20.0-1
+      version: 2.21.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -7087,6 +7088,12 @@ repositories:
       url: https://github.com/ros2/tlsf.git
       version: humble
     status: maintained
+  topic_based_ros2_control:
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/PickNikRobotics/topic_based_ros2_control-release.git
+      version: 0.1.0-2
   topic_tools:
     doc:
       type: git
@@ -7755,7 +7762,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-drivers/urg_node_msgs.git
-      version: master
+      version: iron
     release:
       tags:
         release: release/humble/{package}/{version}
@@ -7834,7 +7841,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/velodyne-release.git
-      version: 2.3.0-1
+      version: 2.4.0-1
     source:
       type: git
       url: https://github.com/ros-drivers/velodyne.git
