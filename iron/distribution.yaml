@@ -1324,7 +1324,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 0.5.3-2
+      version: 0.6.2-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -1387,7 +1387,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/gazebo_ros2_control-release.git
-      version: 0.5.1-4
+      version: 0.6.0-1
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
@@ -2739,7 +2739,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_msgs-release.git
-      version: 0.4.5-1
+      version: 0.4.6-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
@@ -4649,7 +4649,9 @@ repositories:
       version: master
     release:
       packages:
+      - ackermann_steering_controller
       - admittance_controller
+      - bicycle_steering_controller
       - diff_drive_controller
       - effort_controllers
       - force_torque_sensor_broadcaster
@@ -4662,12 +4664,14 @@ repositories:
       - ros2_controllers
       - ros2_controllers_test_nodes
       - rqt_joint_trajectory_controller
+      - steering_controllers_library
       - tricycle_controller
+      - tricycle_steering_controller
       - velocity_controllers
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 3.5.0-2
+      version: 3.9.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -5712,6 +5716,21 @@ repositories:
       type: git
       url: https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins.git
       version: main
+    status: maintained
+  rviz_satellite:
+    doc:
+      type: git
+      url: https://github.com/nobleo/rviz_satellite.git
+      version: ros2
+    release:
+      tags:
+        release: release/iron/{package}/{version}
+      url: https://github.com/nobleo/rviz_satellite-release.git
+      version: 4.0.0-1
+    source:
+      type: git
+      url: https://github.com/nobleo/rviz_satellite.git
+      version: ros2
     status: maintained
   rviz_visual_tools:
     doc:

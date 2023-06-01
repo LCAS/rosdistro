@@ -6308,7 +6308,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/AutonicsLiDAR-release/lsc_ros_driver-release.git
-      version: 1.0.2-1
+      version: 1.0.3-10
     source:
       type: git
       url: https://github.com/AutonicsLiDAR/lsc_ros_driver.git
@@ -7808,7 +7808,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.12.2-1
+      version: 0.13.0-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -13138,7 +13138,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/ctu-vras/sensor_filters-release.git
-      version: 1.0.3-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/ctu-vras/sensor_filters.git
@@ -15178,7 +15178,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/tork-a/visualization_rwt-release.git
-      version: 0.1.1-1
+      version: 0.1.2-2
     source:
       type: git
       url: https://github.com/tork-a/visualization_rwt.git

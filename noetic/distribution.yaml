@@ -4227,6 +4227,8 @@ repositories:
       - eus_nlopt
       - eus_qp
       - eus_qpoases
+      - eus_teleop
+      - joy_mouse
       - jsk_calibration
       - jsk_control
       - jsk_footstep_controller
@@ -4236,7 +4238,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/jsk_control-release.git
-      version: 0.1.16-1
+      version: 0.1.17-2
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_control.git
@@ -4855,6 +4857,16 @@ repositories:
       url: https://github.com/ros-drivers/libuvc_ros.git
       version: master
     status: unmaintained
+  line_planner:
+    doc:
+      type: git
+      url: https://github.com/MoffKalast/line_planner.git
+      version: noetic-devel
+    source:
+      type: git
+      url: https://github.com/MoffKalast/line_planner.git
+      version: noetic-devel
+    status: maintained
   linux_peripheral_interfaces:
     doc:
       type: git
@@ -4930,7 +4942,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/AutonicsLiDAR-release/lsc_ros_driver-release.git
-      version: 1.0.2-2
+      version: 1.0.3-1
     source:
       type: git
       url: https://github.com/AutonicsLiDAR/lsc_ros_driver.git
@@ -5823,7 +5835,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_msgs-release.git
-      version: 0.4.5-1
+      version: 0.4.6-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
@@ -6178,7 +6190,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.12.2-1
+      version: 0.13.0-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -10403,7 +10415,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ctu-vras/sensor_filters-release.git
-      version: 1.0.3-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/ctu-vras/sensor_filters.git
@@ -11878,6 +11890,7 @@ repositories:
       version: kinetic-devel
     release:
       packages:
+      - rwt_app_chooser
       - rwt_image_view
       - rwt_nav
       - rwt_plot
@@ -11885,10 +11898,11 @@ repositories:
       - rwt_speech_recognition
       - rwt_steer
       - rwt_utils_3rdparty
+      - visualization_rwt
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/visualization_rwt-release.git
-      version: 0.1.1-2
+      version: 0.1.2-1
     source:
       type: git
       url: https://github.com/tork-a/visualization_rwt.git
@@ -11915,6 +11929,16 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/visualization_tutorials.git
+      version: noetic-devel
+    status: maintained
+  vizanti:
+    doc:
+      type: git
+      url: https://github.com/MoffKalast/vizanti.git
+      version: noetic-devel
+    source:
+      type: git
+      url: https://github.com/MoffKalast/vizanti.git
       version: noetic-devel
     status: maintained
   vl53l1x_ros:
