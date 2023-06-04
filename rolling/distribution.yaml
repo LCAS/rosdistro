@@ -784,7 +784,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: foxy-devel
+      version: master
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -793,7 +793,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: foxy-devel
+      version: master
     status: maintained
   control_toolbox:
     doc:
@@ -6493,16 +6493,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: ros2
+      version: rolling
     release:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ur_description-release.git
-      version: 2.0.1-2
+      version: 2.1.0-2
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: ros2
+      version: rolling
     status: developed
   ur_msgs:
     doc:
@@ -6527,7 +6527,6 @@ repositories:
     release:
       packages:
       - ur
-      - ur_bringup
       - ur_calibration
       - ur_controllers
       - ur_dashboard_msgs
@@ -6536,7 +6535,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
-      version: 2.3.1-2
+      version: 2.3.2-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
