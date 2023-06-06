@@ -2392,9 +2392,10 @@ repositories:
     doc:
       type: git
       url: https://github.com/swri-robotics/marti_common.git
-      version: dashing-devel
+      version: ros2-devel
     release:
       packages:
+      - swri_cli_tools
       - swri_console_util
       - swri_dbw_interface
       - swri_geometry_util
@@ -2410,18 +2411,18 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/marti_common-release.git
-      version: 3.5.0-3
+      version: 3.5.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_common.git
-      version: dashing-devel
+      version: ros2-devel
     status: developed
   marti_messages:
     doc:
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
-      version: dashing-devel
+      version: ros2-devel
     release:
       packages:
       - marti_can_msgs
@@ -2436,12 +2437,12 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/marti_messages-release.git
-      version: 1.3.0-4
+      version: 1.4.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
-      version: dashing-devel
+      version: ros2-devel
     status: developed
   mavlink:
     doc:
@@ -3886,7 +3887,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/rc_reason_clients-release.git
-      version: 0.2.1-5
+      version: 0.3.0-1
     source:
       test_pull_requests: true
       type: git
@@ -4671,7 +4672,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 3.9.0-1
+      version: 3.10.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -4683,10 +4684,13 @@ repositories:
       url: https://github.com/autowarefoundation/ros2_socketcan.git
       version: main
     release:
+      packages:
+      - ros2_socketcan
+      - ros2_socketcan_msgs
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_socketcan-release.git
-      version: 1.1.0-4
+      version: 1.2.0-1
     source:
       type: git
       url: https://github.com/autowarefoundation/ros2_socketcan.git
@@ -4893,6 +4897,24 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros_testing.git
+      version: iron
+    status: maintained
+  ros_tutorials:
+    doc:
+      type: git
+      url: https://github.com/ros/ros_tutorials.git
+      version: iron
+    release:
+      packages:
+      - turtlesim
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/ros_tutorials-release.git
+      version: 1.6.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/ros_tutorials.git
       version: iron
     status: maintained
   ros_workspace:
@@ -6406,22 +6428,6 @@ repositories:
       type: git
       url: https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
       version: ros2
-    status: maintained
-  turtlesim:
-    doc:
-      type: git
-      url: https://github.com/ros/ros_tutorials.git
-      version: iron
-    release:
-      tags:
-        release: release/iron/{package}/{version}
-      url: https://github.com/ros2-gbp/ros_tutorials-release.git
-      version: 1.6.1-1
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ros/ros_tutorials.git
-      version: iron
     status: maintained
   tuw_geometry:
     doc:

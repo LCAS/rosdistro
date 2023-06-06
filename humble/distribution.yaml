@@ -4466,7 +4466,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rc_reason_clients-release.git
-      version: 0.2.1-4
+      version: 0.3.0-1
     source:
       test_pull_requests: true
       type: git
@@ -4901,7 +4901,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_task-release.git
-      version: 2.1.1-1
+      version: 2.1.4-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_task.git
@@ -4911,7 +4911,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/open-rmf/rmf_traffic.git
-      version: main
+      version: humble
     release:
       packages:
       - rmf_traffic
@@ -4919,17 +4919,17 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_traffic-release.git
-      version: 3.0.0-1
+      version: 3.0.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic.git
-      version: main
+      version: humble
     status: developed
   rmf_traffic_editor:
     doc:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
-      version: main
+      version: humble
     release:
       packages:
       - rmf_building_map_tools
@@ -4939,32 +4939,32 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_traffic_editor-release.git
-      version: 1.6.0-1
+      version: 1.6.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
-      version: main
+      version: humble
     status: developed
   rmf_utils:
     doc:
       type: git
       url: https://github.com/open-rmf/rmf_utils.git
-      version: main
+      version: humble
     release:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_utils-release.git
-      version: 1.4.0-2
+      version: 1.4.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_utils.git
-      version: main
+      version: humble
     status: developed
   rmf_visualization:
     doc:
       type: git
       url: https://github.com/open-rmf/rmf_visualization.git
-      version: main
+      version: humble
     release:
       packages:
       - rmf_visualization
@@ -4978,26 +4978,26 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_visualization-release.git
-      version: 2.0.0-1
+      version: 2.0.2-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_visualization.git
-      version: main
+      version: humble
     status: developed
   rmf_visualization_msgs:
     doc:
       type: git
       url: https://github.com/open-rmf/rmf_visualization_msgs.git
-      version: main
+      version: humble
     release:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_visualization_msgs-release.git
-      version: 1.2.0-4
+      version: 1.2.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_visualization_msgs.git
-      version: main
+      version: humble
     status: developed
   rmw:
     doc:
@@ -5551,6 +5551,24 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros_testing.git
+      version: humble
+    status: maintained
+  ros_tutorials:
+    doc:
+      type: git
+      url: https://github.com/ros/ros_tutorials.git
+      version: humble
+    release:
+      packages:
+      - turtlesim
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/ros_tutorials-release.git
+      version: 1.4.2-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/ros_tutorials.git
       version: humble
     status: maintained
   ros_workspace:
@@ -7394,22 +7412,6 @@ repositories:
       url: https://github.com/turtlebot/turtlebot4_tutorials.git
       version: humble
     status: developed
-  turtlesim:
-    doc:
-      type: git
-      url: https://github.com/ros/ros_tutorials.git
-      version: humble
-    release:
-      tags:
-        release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ros_tutorials-release.git
-      version: 1.4.2-1
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ros/ros_tutorials.git
-      version: humble
-    status: maintained
   tuw_geometry:
     doc:
       type: git

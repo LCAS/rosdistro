@@ -1495,7 +1495,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/cpr_onav_description-release.git
-      version: 0.1.1-1
+      version: 0.1.2-1
     source:
       type: git
       url: https://github.com/cpr-application/cpr_onav_description.git
@@ -4017,7 +4017,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/jackal-release.git
-      version: 0.8.7-3
+      version: 0.8.8-1
     source:
       type: git
       url: https://github.com/jackal/jackal.git
@@ -12076,7 +12076,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/warthog-release.git
-      version: 0.1.6-1
+      version: 0.1.7-1
     source:
       type: git
       url: https://github.com/warthog-cpr/warthog.git
