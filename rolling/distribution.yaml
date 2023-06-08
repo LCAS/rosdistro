@@ -129,7 +129,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ament_cmake-release.git
-      version: 2.1.0-1
+      version: 2.2.0-1
     source:
       test_pull_requests: true
       type: git
@@ -245,7 +245,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ament_lint-release.git
-      version: 0.15.0-1
+      version: 0.15.1-1
     source:
       test_pull_requests: true
       type: git
@@ -559,6 +559,23 @@ repositories:
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
       version: v3.8
     status: developed
+  behaviortree_cpp_v4:
+    doc:
+      type: git
+      url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
+      version: master
+    release:
+      packages:
+      - behaviortree_cpp
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/behaviortree_cpp_v4-release.git
+      version: 4.2.1-1
+    source:
+      type: git
+      url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
+      version: master
+    status: developed
   bno055:
     doc:
       type: git
@@ -741,7 +758,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/common_interfaces-release.git
-      version: 5.1.0-1
+      version: 5.2.0-1
     source:
       test_pull_requests: true
       type: git
@@ -881,7 +898,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/demos-release.git
-      version: 0.28.1-1
+      version: 0.29.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2214,7 +2231,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/launch-release.git
-      version: 2.1.0-1
+      version: 2.2.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2486,7 +2503,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_message_filters-release.git
-      version: 4.8.0-1
+      version: 4.9.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2739,6 +2756,15 @@ repositories:
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
       version: ros2
     status: developed
+  mrpt_path_planning:
+    doc:
+      type: git
+      url: https://github.com/MRPT/mrpt_path_planning.git
+      version: develop
+    source:
+      type: git
+      url: https://github.com/MRPT/mrpt_path_planning.git
+      version: develop
   mrpt_sensors:
     doc:
       type: git
@@ -3665,7 +3691,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/qt_gui_core-release.git
-      version: 2.5.0-1
+      version: 2.6.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3841,7 +3867,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcl-release.git
-      version: 6.1.1-1
+      version: 6.2.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3941,7 +3967,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 21.1.1-1
+      version: 21.2.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3957,7 +3983,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclpy-release.git
-      version: 4.2.1-1
+      version: 4.2.2-1
     source:
       test_pull_requests: true
       type: git
@@ -4308,6 +4334,12 @@ repositories:
       url: https://github.com/open-rmf/rmf_utils.git
       version: main
     status: developed
+  rmf_variants:
+    source:
+      type: git
+      url: https://github.com/open-rmf/rmf_variants.git
+      version: main
+    status: developed
   rmf_visualization:
     doc:
       type: git
@@ -4512,7 +4544,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/robot_state_publisher-release.git
-      version: 3.3.0-1
+      version: 3.3.1-1
     source:
       test_pull_requests: true
       type: git
@@ -4534,6 +4566,16 @@ repositories:
       url: https://github.com/ros2/ros1_bridge.git
       version: master
     status: maintained
+  ros2_canopen:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/ros2_canopen.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ros-industrial/ros2_canopen.git
+      version: master
+    status: developed
   ros2_control:
     doc:
       type: git
@@ -4696,7 +4738,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2cli-release.git
-      version: 0.26.1-1
+      version: 0.27.0-1
     source:
       test_pull_requests: true
       type: git
@@ -4968,7 +5010,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl-release.git
-      version: 4.1.1-1
+      version: 4.2.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5109,7 +5151,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_typesupport-release.git
-      version: 3.1.0-1
+      version: 3.2.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5129,7 +5171,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_typesupport_fastrtps-release.git
-      version: 3.1.0-1
+      version: 3.2.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5211,7 +5253,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt-release.git
-      version: 1.4.0-1
+      version: 1.4.1-1
     source:
       test_pull_requests: true
       type: git
@@ -5245,7 +5287,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_bag-release.git
-      version: 1.4.1-1
+      version: 1.5.0-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_bag.git
@@ -5355,7 +5397,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_msg-release.git
-      version: 1.4.0-1
+      version: 1.5.0-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_msg.git
@@ -5650,7 +5692,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rviz-release.git
-      version: 12.5.1-1
+      version: 12.6.0-1
     source:
       test_pull_requests: true
       type: git
@@ -6062,7 +6104,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/teleop_twist_joy-release.git
-      version: 2.4.3-4
+      version: 2.6.0-1
     source:
       test_pull_requests: true
       type: git

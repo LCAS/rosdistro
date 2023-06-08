@@ -506,6 +506,23 @@ repositories:
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
       version: v3.8
     status: developed
+  behaviortree_cpp_v4:
+    doc:
+      type: git
+      url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
+      version: master
+    release:
+      packages:
+      - behaviortree_cpp
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros2-gbp/behaviortree_cpp_v4-release.git
+      version: 4.2.1-1
+    source:
+      type: git
+      url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
+      version: master
+    status: developed
   bond_core:
     doc:
       type: git
@@ -5820,7 +5837,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt2-release.git
-      version: 2.8.1-1
+      version: 2.9.0-1
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
@@ -5865,6 +5882,15 @@ repositories:
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
       version: ros1
     status: developed
+  mrpt_path_planning:
+    doc:
+      type: git
+      url: https://github.com/MRPT/mrpt_path_planning.git
+      version: develop
+    source:
+      type: git
+      url: https://github.com/MRPT/mrpt_path_planning.git
+      version: develop
   mrpt_sensors:
     doc:
       type: git
@@ -6190,7 +6216,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.13.0-1
+      version: 0.14.0-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -6205,6 +6231,7 @@ repositories:
       packages:
       - costmap_cspace_msgs
       - map_organizer_msgs
+      - neonavigation_metrics_msgs
       - neonavigation_msgs
       - planner_cspace_msgs
       - safety_limiter_msgs
@@ -6212,7 +6239,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation_msgs-release.git
-      version: 0.12.0-1
+      version: 0.14.0-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation_msgs.git
@@ -10415,7 +10442,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ctu-vras/sensor_filters-release.git
-      version: 1.1.0-1
+      version: 1.1.1-1
     source:
       type: git
       url: https://github.com/ctu-vras/sensor_filters.git
