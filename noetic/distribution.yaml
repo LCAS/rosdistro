@@ -3393,6 +3393,16 @@ repositories:
       url: https://github.com/CogRob/catkin_grpc.git
       version: master
     status: maintained
+  gtsam:
+    doc:
+      type: git
+      url: https://github.com/borglab/gtsam.git
+      version: develop
+    source:
+      type: git
+      url: https://github.com/borglab/gtsam.git
+      version: develop
+    status: developed
   haf_grasping:
     doc:
       type: git
@@ -5032,7 +5042,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/nobleo/magic_enum-release.git
-      version: 0.9.1-1
+      version: 0.9.2-1
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
@@ -5316,7 +5326,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ika-rwth-aachen/message_tf_frame_transformer-release.git
-      version: 1.0.0-4
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/message_tf_frame_transformer.git
@@ -5829,10 +5839,13 @@ repositories:
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
       version: main
     release:
+      packages:
+      - mqtt_client
+      - mqtt_client_interfaces
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ika-rwth-aachen/mqtt_client-release.git
-      version: 1.1.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
@@ -5847,7 +5860,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt2-release.git
-      version: 2.9.0-1
+      version: 2.9.0-2
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
@@ -6009,7 +6022,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
-      version: 0.7.0-1
+      version: 0.7.1-1
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git

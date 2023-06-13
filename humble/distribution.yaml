@@ -793,7 +793,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_msgs-release.git
-      version: 0.0.2-1
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_msgs.git
@@ -1918,7 +1918,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/gtsam-release.git
-      version: 4.2.0-1
+      version: 4.2.0-2
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
@@ -2736,7 +2736,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/nobleo/magic_enum-release.git
-      version: 0.9.1-1
+      version: 0.9.2-1
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
@@ -2927,7 +2927,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ika-rwth-aachen/message_tf_frame_transformer-release.git
-      version: 1.0.0-2
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/message_tf_frame_transformer.git
@@ -3133,6 +3133,24 @@ repositories:
       url: https://github.com/ros-planning/moveit_visual_tools.git
       version: ros2
     status: maintained
+  mqtt_client:
+    doc:
+      type: git
+      url: https://github.com/ika-rwth-aachen/mqtt_client.git
+      version: main
+    release:
+      packages:
+      - mqtt_client
+      - mqtt_client_interfaces
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ika-rwth-aachen/mqtt_client-release.git
+      version: 2.0.1-1
+    source:
+      type: git
+      url: https://github.com/ika-rwth-aachen/mqtt_client.git
+      version: main
+    status: maintained
   mrpt2:
     doc:
       type: git
@@ -3187,7 +3205,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.7.0-1
+      version: 0.7.1-1
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
@@ -5865,11 +5883,15 @@ repositories:
       version: master
     status: maintained
   rplidar_ros:
+    doc:
+      type: git
+      url: https://github.com/Slamtec/rplidar_ros.git
+      version: ros2
     release:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rplidar_ros-release.git
-      version: 2.1.0-1
+      version: 2.1.2-1
     source:
       test_pull_requests: true
       type: git
