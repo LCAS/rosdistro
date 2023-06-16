@@ -5793,6 +5793,11 @@ repositories:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
       version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/mrpt-ros-pkg-release/mp2p_icp-release.git
+      version: 0.1.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -5924,10 +5929,11 @@ repositories:
       - mrpt_generic_sensor
       - mrpt_sensorlib
       - mrpt_sensors
+      - mrpt_sensors_examples
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_sensors-release.git
-      version: 0.0.2-1
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
