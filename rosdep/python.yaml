@@ -8493,6 +8493,16 @@ python3-squaternion-pip:
   ubuntu:
     pip:
       packages: [squaternion]
+python3-sshkeyboard-pip:
+  debian:
+    pip:
+      packages: [sshkeyboard]
+  osx:
+    pip:
+      packages: [sshkeyboard]
+  ubuntu:
+    pip:
+      packages: [sshkeyboard]
 python3-sshtunnel:
   debian: [python3-sshtunnel]
   fedora: [python3-sshtunnel]
@@ -8894,9 +8904,7 @@ python3-uvicorn:
         packages: [uvicorn]
 python3-vcstool:
   alpine: [vcstool]
-  debian:
-    pip:
-      packages: [vcstool]
+  debian: [python3-vcstool]
   fedora: [python3-vcstool]
   gentoo: [vcstool]
   macports:
