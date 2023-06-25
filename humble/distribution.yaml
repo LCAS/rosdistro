@@ -3990,6 +3990,12 @@ repositories:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/picknik_ament_copyright-release.git
       version: 0.0.2-3
+  picknik_controllers:
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/picknik_controllers.git
+      version: main
+    status: developed
   pinocchio:
     doc:
       type: git
@@ -6755,6 +6761,16 @@ repositories:
       url: https://github.com/robosoft-ai/SMACC2.git
       version: humble
     status: developed
+  smach:
+    doc:
+      type: git
+      url: https://github.com/ros/executive_smach.git
+      version: ros2
+    source:
+      type: git
+      url: https://github.com/ros/executive_smach.git
+      version: ros2
+    status: maintained
   snowbot_operating_system:
     doc:
       type: git
