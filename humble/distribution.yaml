@@ -610,7 +610,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/BehaviorTree/behaviortree_cpp_v3-release.git
-      version: 3.8.3-2
+      version: 3.8.4-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
@@ -755,6 +755,11 @@ repositories:
       type: git
       url: https://github.com/ngmor/catch_ros2.git
       version: humble
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/catch_ros2-release.git
+      version: 0.1.0-1
     source:
       type: git
       url: https://github.com/ngmor/catch_ros2.git
@@ -1150,7 +1155,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/luxonis/depthai-ros-release.git
-      version: 2.7.3-1
+      version: 2.7.4-1
     source:
       test_pull_requests: true
       type: git
@@ -1979,7 +1984,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/hey5_description-release.git
-      version: 3.0.2-1
+      version: 3.0.3-1
     source:
       type: git
       url: https://github.com/pal-robotics/hey5_description.git
@@ -2483,7 +2488,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/launch_pal-release.git
-      version: 0.0.7-1
+      version: 0.0.8-1
     source:
       type: git
       url: https://github.com/pal-robotics/launch_pal.git
@@ -3788,7 +3793,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/pal_gazebo_plugins-release.git
-      version: 4.0.3-1
+      version: 4.0.4-1
     source:
       type: git
       url: https://github.com/pal-robotics/pal_gazebo_plugins.git
@@ -4104,7 +4109,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/pmb2_navigation-gbp.git
-      version: 4.0.4-1
+      version: 4.0.5-1
     source:
       type: git
       url: https://github.com/pal-robotics/pmb2_navigation.git
@@ -4124,7 +4129,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/pmb2_robot-gbp.git
-      version: 5.0.4-1
+      version: 5.0.6-1
     source:
       type: git
       url: https://github.com/pal-robotics/pmb2_robot.git
@@ -4142,7 +4147,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/pmb2_simulation-release.git
-      version: 4.0.3-1
+      version: 4.0.4-1
     source:
       type: git
       url: https://github.com/pal-robotics/pmb2_simulation.git
@@ -4771,7 +4776,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/IntelRealSense/realsense-ros.git
-      version: ros2-beta
+      version: ros2-development
     release:
       packages:
       - realsense2_camera
@@ -4780,11 +4785,11 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/IntelRealSense/realsense-ros-release.git
-      version: 4.51.1-1
+      version: 4.54.1-1
     source:
       type: git
       url: https://github.com/IntelRealSense/realsense-ros.git
-      version: ros2-beta
+      version: ros2-development
     status: developed
   realtime_support:
     doc:
@@ -5352,6 +5357,16 @@ repositories:
       url: https://github.com/ros2/ros1_bridge.git
       version: master
     status: maintained
+  ros2_canopen:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/ros2_canopen.git
+      version: humble
+    source:
+      type: git
+      url: https://github.com/ros-industrial/ros2_canopen.git
+      version: humble
+    status: developed
   ros2_control:
     doc:
       type: git
@@ -6766,6 +6781,16 @@ repositories:
       type: git
       url: https://github.com/ros/executive_smach.git
       version: ros2
+    release:
+      packages:
+      - executive_smach
+      - smach
+      - smach_msgs
+      - smach_ros
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/executive_smach-release.git
+      version: 3.0.2-1
     source:
       type: git
       url: https://github.com/ros/executive_smach.git
@@ -8214,7 +8239,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/webots_ros2-release.git
-      version: 2023.0.4-1
+      version: 2023.1.0-1
     source:
       test_pull_requests: true
       type: git
