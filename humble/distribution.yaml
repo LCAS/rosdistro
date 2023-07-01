@@ -787,6 +787,30 @@ repositories:
       url: https://github.com/MetroRobots/classic_bags.git
       version: main
     status: developed
+  clearpath_common:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/clearpath_common.git
+      version: humble
+    release:
+      packages:
+      - clearpath_common
+      - clearpath_control
+      - clearpath_description
+      - clearpath_generator_common
+      - clearpath_mounts_description
+      - clearpath_platform
+      - clearpath_platform_description
+      - clearpath_sensors_description
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/clearpath-gbp/clearpath_common-release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/clearpath_common.git
+      version: humble
+    status: developed
   clearpath_config:
     doc:
       type: git
@@ -2710,7 +2734,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/clearpath-gbp/LMS1xx-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/LMS1xx.git
@@ -4865,7 +4889,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_api_msgs-release.git
-      version: 0.0.2-1
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_api_msgs.git
@@ -4991,7 +5015,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_simulation-release.git
-      version: 2.0.1-1
+      version: 2.0.2-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_simulation.git
@@ -5009,7 +5033,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_task-release.git
-      version: 2.1.4-1
+      version: 2.1.5-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_task.git
@@ -7161,7 +7185,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/tiago_moveit_config-release.git
-      version: 3.0.1-1
+      version: 3.0.2-1
     source:
       type: git
       url: https://github.com/pal-robotics/tiago_moveit_config.git
@@ -7180,7 +7204,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/tiago_navigation-release.git
-      version: 4.0.4-1
+      version: 4.0.5-1
     source:
       type: git
       url: https://github.com/pal-robotics/tiago_navigation.git
@@ -7200,7 +7224,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/tiago_robot-release.git
-      version: 4.0.7-1
+      version: 4.0.11-1
     source:
       type: git
       url: https://github.com/pal-robotics/tiago_robot.git
@@ -7218,7 +7242,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/tiago_simulation-release.git
-      version: 4.0.2-1
+      version: 4.0.3-1
     source:
       type: git
       url: https://github.com/pal-robotics/tiago_simulation.git
