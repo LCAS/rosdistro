@@ -6232,6 +6232,10 @@ python3-h5py:
   nixos: [python3Packages.h5py]
   openembedded: [python3-h5py@meta-python]
   ubuntu: [python3-h5py]
+python3-helyos_agent_sdk-pip:
+  '*':
+    pip:
+      packages: [helyos_agent_sdk]
 python3-httplib2:
   debian: [python3-httplib2]
   fedora: [python3-httplib2]
@@ -7612,6 +7616,13 @@ python3-pynmea2:
     pip:
       packages: [pynmea2]
   ubuntu: [python3-nmea2]
+python3-pynmeagps-pip:
+  debian:
+    pip:
+      packages: [pynmeagps]
+  ubuntu:
+    pip:
+      packages: [pynmeagps]
 python3-pyosmium:
   debian: [python3-pyosmium]
   fedora: [python3-osmium]

@@ -570,7 +570,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/behaviortree_cpp_v4-release.git
-      version: 4.3.1-1
+      version: 4.3.3-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
@@ -2773,7 +2773,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.9.3-1
+      version: 2.9.4-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -4746,6 +4746,12 @@ repositories:
       url: https://github.com/SteveMacenski/ros2_ouster_drivers.git
       version: foxy-devel
     status: maintained
+  ros2_robotiq_gripper:
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/ros2_robotiq_gripper.git
+      version: main
+    status: maintained
   ros2_socketcan:
     doc:
       type: git
@@ -6531,6 +6537,21 @@ repositories:
       type: git
       url: https://github.com/ros-teleop/twist_mux.git
       version: foxy-devel
+    status: maintained
+  twist_mux_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-teleop/twist_mux_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/twist_mux_msgs-release.git
+      version: 3.0.1-1
+    source:
+      type: git
+      url: https://github.com/ros-teleop/twist_mux_msgs.git
+      version: master
     status: maintained
   twist_stamper:
     doc:

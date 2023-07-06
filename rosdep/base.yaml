@@ -4002,6 +4002,12 @@ liblmdb-dev:
   opensuse: [lmdb-devel]
   rhel: [lmdb-devel]
   ubuntu: [liblmdb-dev]
+liblttng-ctl-dev:
+  debian: [liblttng-ctl-dev]
+  fedora: [lttng-tools-devel]
+  opensuse: [lttng-tools-devel]
+  rhel: [lttng-tools-devel]
+  ubuntu: [liblttng-ctl-dev]
 liblttng-ust-dev:
   arch: [lttng-ust]
   debian: [liblttng-ust-dev]
@@ -8432,6 +8438,18 @@ zlib:
     slackpkg:
       packages: [zlib]
   ubuntu: [zlib1g-dev]
+zsh:
+  alpine: [zsh]
+  arch: [zsh]
+  debian: [zsh]
+  fedora: [zsh]
+  freebsd: [zsh]
+  gentoo: [shells/zsh]
+  macports: [zsh]
+  nixos: [zsh]
+  opensuse: [zsh]
+  rhel: [zsh]
+  ubuntu: [zsh]
 zziplib:
   arch: [zziplib]
   debian: [libzzip-0-13, libzzip-dev]
