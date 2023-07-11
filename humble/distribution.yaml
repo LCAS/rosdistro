@@ -805,7 +805,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_common-release.git
-      version: 0.0.3-1
+      version: 0.0.4-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_common.git
@@ -820,7 +820,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_config-release.git
-      version: 0.0.2-2
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_config.git
@@ -839,7 +839,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_desktop-release.git
-      version: 0.0.1-1
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_desktop.git
@@ -1668,7 +1668,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 0.6.3-1
+      version: 0.6.4-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -2570,7 +2570,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/launch_pal-release.git
-      version: 0.0.8-1
+      version: 0.0.8-2
     source:
       type: git
       url: https://github.com/pal-robotics/launch_pal.git
@@ -3293,7 +3293,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.9.4-1
+      version: 2.10.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -5469,7 +5469,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 2.28.0-1
+      version: 2.29.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -5509,6 +5509,16 @@ repositories:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
       version: humble
+    status: developed
+  ros2_kortex:
+    doc:
+      type: git
+      url: https://github.com/PickNikRobotics/ros2_kortex.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/ros2_kortex.git
+      version: main
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -7725,6 +7735,21 @@ repositories:
       type: git
       url: https://github.com/ros-teleop/twist_mux.git
       version: foxy-devel
+    status: maintained
+  twist_mux_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-teleop/twist_mux_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/twist_mux_msgs-release.git
+      version: 3.0.1-1
+    source:
+      type: git
+      url: https://github.com/ros-teleop/twist_mux_msgs.git
+      version: master
     status: maintained
   twist_stamper:
     doc:
