@@ -1413,6 +1413,24 @@ repositories:
       url: https://github.com/ros/common_tutorials.git
       version: noetic-devel
     status: maintained
+  compass:
+    doc:
+      type: git
+      url: https://github.com/ctu-vras/compass.git
+      version: master
+    release:
+      packages:
+      - compass_msgs
+      - magnetometer_compass
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://gitlab.fel.cvut.cz/cras/ros-release/compass.git
+      version: 1.0.3-1
+    source:
+      type: git
+      url: https://github.com/ctu-vras/compass.git
+      version: master
+    status: maintained
   computer_status_msgs:
     doc:
       type: git
@@ -1994,7 +2012,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/dingo_simulator-release.git
-      version: 0.1.2-1
+      version: 0.1.2-2
     source:
       type: git
       url: https://github.com/dingo-cpr/dingo_simulator.git
