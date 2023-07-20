@@ -2858,11 +2858,6 @@ repositories:
       version: noetic
     status: developed
   flexbe_app:
-    release:
-      tags:
-        release: release/noetic/{package}/{version}
-      url: https://github.com/flexbe/flexbe_app-release.git
-      version: 2.4.1-1
     source:
       type: git
       url: https://github.com/flexbe/flexbe_app.git
@@ -4269,7 +4264,6 @@ repositories:
       - ff
       - ffha
       - gdrive_ros
-      - google_chat_ros
       - google_cloud_texttospeech
       - influxdb_store
       - jsk_3rdparty
@@ -4279,12 +4273,10 @@ repositories:
       - libsiftfast
       - lpg_planner
       - mini_maxwell
-      - nfc_ros
       - opt_camera
       - osqp
       - pgm_learner
       - respeaker_ros
-      - ros_google_cloud_language
       - ros_speech_recognition
       - rospatlite
       - rosping
@@ -4295,7 +4287,6 @@ repositories:
       - voice_text
       - webrtcvad_ros
       - zdepth
-      - zdepth_image_transport
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/jsk_3rdparty-release.git
@@ -5754,13 +5745,6 @@ repositories:
       type: git
       url: https://github.com/ros-planning/moveit_calibration.git
       version: master
-    release:
-      packages:
-      - moveit_calibration_gui
-      tags:
-        release: release/noetic/{package}/{version}
-      url: https://github.com/JStech/moveit_calibration-release.git
-      version: 0.1.0-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_calibration.git
@@ -9161,7 +9145,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-industrial-release/ros_industrial_cmake_boilerplate-release.git
-      version: 0.4.7-1
+      version: 0.4.8-1
     source:
       type: git
       url: https://github.com/ros-industrial/ros_industrial_cmake_boilerplate.git
@@ -9178,12 +9162,6 @@ repositories:
     source:
       type: git
       url: https://github.com/inorbit-ai/ros_inorbit_samples.git
-      version: noetic-devel
-    status: maintained
-  ros_kortex:
-    source:
-      type: git
-      url: https://github.com/Kinovarobotics/ros_kortex.git
       version: noetic-devel
     status: maintained
   ros_led:
