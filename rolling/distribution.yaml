@@ -1272,7 +1272,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fastrtps-release.git
-      version: 2.11.0-1
+      version: 2.11.1-1
     source:
       test_commits: true
       test_pull_requests: false
@@ -1729,6 +1729,25 @@ repositories:
       url: https://github.com/borglab/gtsam.git
       version: develop
     status: developed
+  gz_ros2_control:
+    doc:
+      type: git
+      url: https://github.com/ros-controls/gz_ros2_control.git
+      version: master
+    release:
+      packages:
+      - gz_ros2_control
+      - gz_ros2_control_demos
+      - gz_ros2_control_tests
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/ign_ros2_control-release.git
+      version: 1.1.1-1
+    source:
+      type: git
+      url: https://github.com/ros-controls/gz_ros2_control.git
+      version: master
+    status: maintained
   hash_library_vendor:
     doc:
       type: git
@@ -1821,24 +1840,6 @@ repositories:
       url: https://github.com/ros2-gbp/ifm3d-release.git
       version: 0.18.0-8
     status: developed
-  ign_ros2_control:
-    doc:
-      type: git
-      url: https://github.com/ros-controls/gz_ros2_control.git
-      version: master
-    release:
-      packages:
-      - ign_ros2_control
-      - ign_ros2_control_demos
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/ign_ros2_control-release.git
-      version: 0.6.1-2
-    source:
-      type: git
-      url: https://github.com/ros-controls/gz_ros2_control.git
-      version: master
-    status: maintained
   ign_rviz:
     doc:
       type: git
@@ -3309,6 +3310,24 @@ repositories:
       url: https://github.com/OUXT-Polaris/ouxt_common.git
       version: master
     status: developed
+  pal_statistics:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/pal_statistics.git
+      version: humble-devel
+    release:
+      packages:
+      - pal_statistics
+      - pal_statistics_msgs
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/pal-gbp/pal_statistics-release.git
+      version: 2.1.5-1
+    source:
+      type: git
+      url: https://github.com/pal-robotics/pal_statistics.git
+      version: humble-devel
+    status: maintained
   pcl_msgs:
     release:
       tags:
@@ -3435,6 +3454,18 @@ repositories:
       url: https://github.com/ros2-gbp/picknik_ament_copyright-release.git
       version: 0.0.2-3
   picknik_controllers:
+    doc:
+      type: git
+      url: https://github.com/PickNikRobotics/picknik_controllers.git
+      version: main
+    release:
+      packages:
+      - picknik_reset_fault_controller
+      - picknik_twist_controller
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/picknik_controllers-release.git
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/picknik_controllers.git
@@ -4767,6 +4798,18 @@ repositories:
       version: foxy-devel
     status: maintained
   ros2_robotiq_gripper:
+    doc:
+      type: git
+      url: https://github.com/PickNikRobotics/ros2_robotiq_gripper.git
+      version: main
+    release:
+      packages:
+      - robotiq_controllers
+      - robotiq_description
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/ros2_robotiq_gripper-release.git
+      version: 0.0.1-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/ros2_robotiq_gripper.git
@@ -5876,7 +5919,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/septentrio_gnss_driver_ros2-release.git
-      version: 1.2.3-2
+      version: 1.3.1-2
     source:
       test_pull_requests: true
       type: git
