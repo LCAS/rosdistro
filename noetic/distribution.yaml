@@ -4294,7 +4294,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/jsk_3rdparty-release.git
-      version: 2.1.27-1
+      version: 2.1.28-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
@@ -7420,6 +7420,21 @@ repositories:
       type: git
       url: https://github.com/ros/pluginlib.git
       version: noetic-devel
+    status: maintained
+  point_cloud2_filters:
+    doc:
+      type: git
+      url: https://github.com/ADVRHumanoids/point_cloud2_filters.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ADVRHumanoids/point_cloud2_filters-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/ADVRHumanoids/point_cloud2_filters.git
+      version: master
     status: maintained
   point_cloud_color:
     doc:
