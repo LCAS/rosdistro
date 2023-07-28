@@ -2252,7 +2252,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/image_common-release.git
-      version: 3.1.5-1
+      version: 3.1.6-1
     source:
       test_pull_requests: true
       type: git
@@ -3153,7 +3153,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/microstrain_inertial-release.git
-      version: 3.0.1-1
+      version: 3.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5603,7 +5603,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_kortex-release.git
-      version: 0.2.0-1
+      version: 0.2.1-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/ros2_kortex.git
@@ -5900,7 +5900,7 @@ repositories:
       packages:
       - turtlesim
       tags:
-        release: release/rolling/{package}/{version}
+        release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros_tutorials-release.git
       version: 1.4.2-1
     source:
