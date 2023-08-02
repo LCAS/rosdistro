@@ -1200,6 +1200,11 @@ repositories:
       type: git
       url: https://github.com/ros-event-camera/event_camera_msgs.git
       version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/event_camera_msgs-release.git
+      version: 1.1.2-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_msgs.git
@@ -1321,6 +1326,16 @@ repositories:
       url: https://github.com/introlab/find-object.git
       version: rolling-devel
     status: maintained
+  flexbe_behavior_engine:
+    doc:
+      type: git
+      url: https://github.com/flexbe/flexbe_behavior_engine.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/flexbe/flexbe_behavior_engine.git
+      version: rolling
+    status: developed
   fluent_rviz:
     doc:
       type: git
@@ -1523,7 +1538,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/generate_parameter_library-release.git
-      version: 0.3.4-1
+      version: 0.3.6-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
@@ -2203,7 +2218,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/laser_filters-release.git
-      version: 2.0.6-3
+      version: 2.0.7-1
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
@@ -4791,7 +4806,7 @@ repositories:
   ros2_kortex:
     doc:
       type: git
-      url: https://github.com/PickNikRobotics/ros2_kortex.git
+      url: https://github.com/Kinovarobotics/ros2_kortex.git
       version: main
     release:
       packages:
@@ -4807,7 +4822,7 @@ repositories:
       version: 0.2.1-1
     source:
       type: git
-      url: https://github.com/PickNikRobotics/ros2_kortex.git
+      url: https://github.com/Kinovarobotics/ros2_kortex.git
       version: main
     status: developed
   ros2_ouster_drivers:

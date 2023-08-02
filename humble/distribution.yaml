@@ -805,7 +805,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_common-release.git
-      version: 0.0.8-1
+      version: 0.0.9-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_common.git
@@ -820,7 +820,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_config-release.git
-      version: 0.0.4-1
+      version: 0.0.5-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_config.git
@@ -1033,6 +1033,28 @@ repositories:
       type: git
       url: https://github.com/PickNikRobotics/cpp_polyfills.git
       version: main
+    status: maintained
+  crane_plus:
+    doc:
+      type: git
+      url: https://github.com/rt-net/crane_plus.git
+      version: humble-devel
+    release:
+      packages:
+      - crane_plus
+      - crane_plus_control
+      - crane_plus_description
+      - crane_plus_examples
+      - crane_plus_gazebo
+      - crane_plus_moveit_config
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/crane_plus-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/rt-net/crane_plus.git
+      version: humble-devel
     status: maintained
   create3_sim:
     release:
@@ -1446,6 +1468,11 @@ repositories:
       type: git
       url: https://github.com/ros-event-camera/event_camera_msgs.git
       version: master
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/event_camera_msgs-release.git
+      version: 1.1.2-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_msgs.git
@@ -1578,6 +1605,21 @@ repositories:
       type: git
       url: https://github.com/flexbe/flexbe_behavior_engine.git
       version: humble
+    release:
+      packages:
+      - flexbe_behavior_engine
+      - flexbe_core
+      - flexbe_input
+      - flexbe_mirror
+      - flexbe_msgs
+      - flexbe_onboard
+      - flexbe_states
+      - flexbe_testing
+      - flexbe_widget
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/flexbe_behavior_engine-release.git
+      version: 2.3.2-1
     source:
       type: git
       url: https://github.com/flexbe/flexbe_behavior_engine.git
@@ -1596,7 +1638,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros-drivers-gbp/flir_camera_driver-release.git
-      version: 2.0.0-1
+      version: 2.0.3-1
     source:
       type: git
       url: https://github.com/ros-drivers/flir_camera_driver.git
@@ -1809,7 +1851,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/generate_parameter_library-release.git
-      version: 0.3.4-1
+      version: 0.3.6-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
@@ -2539,7 +2581,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/laser_filters-release.git
-      version: 2.0.6-2
+      version: 2.0.7-1
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
@@ -3101,6 +3143,11 @@ repositories:
       type: git
       url: https://github.com/ros-event-camera/metavision_driver.git
       version: master
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/metavision_driver-release.git
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros-event-camera/metavision_driver.git
@@ -5590,7 +5637,7 @@ repositories:
   ros2_kortex:
     doc:
       type: git
-      url: https://github.com/PickNikRobotics/ros2_kortex.git
+      url: https://github.com/Kinovarobotics/ros2_kortex.git
       version: main
     release:
       packages:
@@ -5606,7 +5653,7 @@ repositories:
       version: 0.2.1-1
     source:
       type: git
-      url: https://github.com/PickNikRobotics/ros2_kortex.git
+      url: https://github.com/Kinovarobotics/ros2_kortex.git
       version: main
     status: developed
   ros2_ouster_drivers:

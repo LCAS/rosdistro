@@ -1994,7 +1994,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/dingo_desktop-release.git
-      version: 0.1.2-1
+      version: 0.1.2-2
     source:
       type: git
       url: https://github.com/dingo-cpr/dingo_desktop.git
@@ -5736,7 +5736,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 1.1.13-1
+      version: 1.1.13-2
     source:
       test_commits: false
       test_pull_requests: false
@@ -6061,7 +6061,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_slam-release.git
-      version: 0.1.14-1
+      version: 0.1.15-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_slam.git
@@ -6351,7 +6351,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.14.1-1
+      version: 0.14.2-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
