@@ -2982,7 +2982,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ijnek/nao_interfaces.git
-      version: rolling
+      version: iron
     release:
       packages:
       - nao_command_msgs
@@ -2994,13 +2994,13 @@ repositories:
     source:
       type: git
       url: https://github.com/ijnek/nao_interfaces.git
-      version: rolling
+      version: iron
     status: developed
   nao_lola:
     doc:
       type: git
       url: https://github.com/ros-sports/nao_lola.git
-      version: rolling
+      version: iron
     release:
       tags:
         release: release/iron/{package}/{version}
@@ -3009,7 +3009,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/nao_lola.git
-      version: rolling
+      version: iron
     status: developed
   navigation2:
     doc:
@@ -4967,7 +4967,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_planning_system-release.git
-      version: 2.0.10-1
+      version: 2.0.11-1
     source:
       type: git
       url: https://github.com/PlanSys2/ros2_planning_system.git
