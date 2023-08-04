@@ -1204,7 +1204,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/event_camera_msgs-release.git
-      version: 1.1.2-1
+      version: 1.1.4-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_msgs.git
@@ -2571,6 +2571,11 @@ repositories:
       type: git
       url: https://github.com/ros-event-camera/metavision_driver.git
       version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/metavision_driver-release.git
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/ros-event-camera/metavision_driver.git
@@ -2904,7 +2909,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/nao_button_sim-release.git
-      version: 0.1.1-4
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/ijnek/nao_button_sim.git
@@ -2943,7 +2948,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/nao_lola-release.git
-      version: 1.0.0-1
+      version: 1.1.0-2
     source:
       type: git
       url: https://github.com/ros-sports/nao_lola.git
@@ -4167,7 +4172,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcss3d_nao-release.git
-      version: 0.1.1-2
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/ros-sports/rcss3d_nao.git
