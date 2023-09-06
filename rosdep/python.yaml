@@ -218,19 +218,6 @@ gym-pip:
   ubuntu:
     pip:
       packages: [gym]
-gymnasium-pip:
-  debian:
-    pip:
-      packages: [gymnasium]
-  fedora:
-    pip:
-      packages: [gymnasium]
-  osx:
-    pip:
-      packages: [gymnasium]
-  ubuntu:
-    pip:
-      packages: [gymnasium]
 imgaug-pip:
   debian:
     pip:
@@ -2594,7 +2581,7 @@ python-opencv:
   debian: [python-opencv]
   freebsd: [py27-opencv]
   gentoo: ['media-libs/opencv[python]']
-  nixos: [pythonPackages.opencv3]
+  nixos: [pythonPackages.opencv4]
   openembedded: [opencv@meta-oe]
   opensuse: [python2-opencv]
   rhel:
@@ -5792,6 +5779,22 @@ python3-flake8:
     '*': ['python%{python3_pkgversion}-flake8']
     '7': null
   ubuntu: [python3-flake8]
+python3-flake8-black:
+  arch: [python-flake8-black]
+  debian:
+    '*':
+      pip:
+        packages: [flake8-black]
+    bookworm: [python3-flake8-black]
+  fedora:
+    pip:
+      packages: [flake8-black]
+  osx:
+    pip:
+      packages: [flake8-black]
+  ubuntu:
+    pip:
+      packages: [flake8-black]
 python3-flake8-blind-except:
   opensuse: [python3-flake8-blind-except]
   ubuntu:
@@ -5869,6 +5872,20 @@ python3-flake8-import-order-pip:
   ubuntu:
     pip:
       packages: [flake8-import-order]
+python3-flake8-isort:
+  arch: [python-flake8-isort]
+  debian:
+    pip:
+      packages: [flake8-isort]
+  fedora:
+    pip:
+      packages: [flake8-isort]
+  osx:
+    pip:
+      packages: [flake8-isort]
+  ubuntu:
+    pip:
+      packages: [flake8-isort]
 python3-flake8-quotes:
   fedora:
     '*': [python3-flake8-quotes]
@@ -5886,6 +5903,19 @@ python3-flake8-quotes-pip:
   ubuntu:
     pip:
       packages: [flake8-quotes]
+python3-flaky:
+  alpine: [py3-flaky]
+  arch: [python-flaky]
+  debian: [python3-flaky]
+  fedora: [python3-flaky]
+  gentoo: [dev-python/flaky]
+  nixos: ['python%{python3_pkgversion}Packages.flaky']
+  opensuse: [python-flaky]
+  rhel:
+    '*': [python3-flaky]
+    '7': null
+    '8': null
+  ubuntu: [python3-flaky]
 python3-flask:
   debian: [python3-flask]
   fedora: [python3-flask]
@@ -6232,6 +6262,36 @@ python3-grpcio:
     '*': [python3-grpcio]
     bionic: null
 python3-gurobipy-pip: *migrate_eol_2025_04_30_python3_gurobipy_pip
+python3-gymnasium-pip:
+  debian:
+    pip:
+      packages: [gymnasium]
+  fedora:
+    pip:
+      packages: [gymnasium]
+  osx:
+    pip:
+      packages: [gymnasium]
+  ubuntu:
+    '*':
+      pip:
+        packages: [gymnasium]
+    focal: null
+python3-gymnasium-robotics-pip:
+  debian:
+    pip:
+      packages: [gymnasium-robotics]
+  fedora:
+    pip:
+      packages: [gymnasium-robotics]
+  osx:
+    pip:
+      packages: [gymnasium-robotics]
+  ubuntu:
+    '*':
+      pip:
+        packages: [gymnasium-robotics]
+    focal: null
 python3-gz-math6:
   ubuntu:
     focal: [python3-gz-math6]
@@ -6816,6 +6876,13 @@ python3-mypy:
     '7': null
     '8': null
   ubuntu: [python3-mypy]
+python3-mysqldb:
+  arch: [python-mysqlclient]
+  debian: [python3-mysqldb]
+  fedora: [python3-mysql]
+  gentoo: [dev-python/mysqlclient]
+  opensuse: [python-mysqlclient]
+  ubuntu: [python3-mysqldb]
 python3-myst-parser-pip:
   debian:
     pip:
@@ -6886,6 +6953,11 @@ python3-nlopt:
   ubuntu:
     '*': [python3-nlopt]
     bionic: null
+python3-nmcli-pip:
+  ubuntu:
+    pip:
+      depends: [network-manager]
+      packages: [nmcli]
 python3-nose:
   arch: [python-nose]
   debian: [python3-nose]
@@ -6969,6 +7041,16 @@ python3-oauth2client:
     '*': [python3-oauth2client]
     '7': null
   ubuntu: [python3-oauth2client]
+python3-oct2py-pip:
+  debian:
+    pip:
+      packages: [oct2py]
+  fedora:
+    pip:
+      packages: [oct2py]
+  ubuntu:
+    pip:
+      packages: [oct2py]
 python3-odrive-pip:
   debian:
     pip:
@@ -7044,7 +7126,7 @@ python3-opencv:
   debian: [python3-opencv]
   fedora: [python3-opencv]
   gentoo: ['media-libs/opencv[python]']
-  nixos: [python3Packages.opencv3]
+  nixos: [python3Packages.opencv4]
   openembedded: [opencv@meta-oe]
   opensuse: [python3-opencv]
   rhel:
@@ -7935,6 +8017,17 @@ python3-pytest-timeout:
   opensuse: [python3-pytest-timeout]
   rhel: ['python%{python3_pkgversion}-pytest-timeout']
   ubuntu: [python3-pytest-timeout]
+python3-pytest-xdist:
+  arch: [python-pytest-xdist]
+  debian: [python3-pytest-xdist]
+  fedora: [python3-pytest-xdist]
+  gentoo: [dev-python/pytest-xdist]
+  nixos: [python3Packages.pytest-xdist]
+  opensuse: [python3-pytest-xdist]
+  rhel:
+    "*": [python3-pytest-xdist]
+    "7": ['python%{python3_pkgversion}-pytest-xdist']
+  ubuntu: [python3-pytest-xdist]
 python3-pytorch-pip: *migrate_eol_2025_04_30_python3_pytorch_pip
 python3-pytrinamic-pip:
   debian:
