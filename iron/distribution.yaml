@@ -561,7 +561,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/behaviortree_cpp_v4-release.git
-      version: 4.3.6-1
+      version: 4.3.7-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
@@ -938,7 +938,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/luxonis/depthai-ros-release.git
-      version: 2.7.5-1
+      version: 2.8.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1451,7 +1451,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 0.7.1-1
+      version: 0.7.2-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -1713,7 +1713,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/gps_umd-release.git
-      version: 2.0.2-1
+      version: 2.0.3-1
     source:
       test_pull_requests: true
       type: git
@@ -2575,7 +2575,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/marti_common-release.git
-      version: 3.5.4-1
+      version: 3.6.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2617,7 +2617,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mavlink-gbp-release.git
-      version: 2023.6.6-1
+      version: 2023.9.9-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -2637,7 +2637,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mavros-release.git
-      version: 2.5.0-1
+      version: 2.6.0-1
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -2777,15 +2777,22 @@ repositories:
     release:
       packages:
       - mola_common
+      - mola_demos
+      - mola_imu_preintegration
       - mola_input_euroc_dataset
       - mola_input_kitti_dataset
+      - mola_input_rawlog
+      - mola_input_ros2
       - mola_kernel
+      - mola_launcher
+      - mola_test_datasets
+      - mola_viz
       - mola_yaml
       - mp2p_icp
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 0.2.1-1
+      version: 0.2.2-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
@@ -2841,7 +2848,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/moveit2-release.git
-      version: 2.7.4-1
+      version: 2.8.0-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -2858,7 +2865,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/moveit_msgs-release.git
-      version: 2.2.2-1
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
@@ -3009,7 +3016,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.8.0-1
+      version: 0.8.1-1
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
@@ -3111,7 +3118,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/SteveMacenski/navigation2-release.git
-      version: 1.2.2-1
+      version: 1.2.2-2
     source:
       type: git
       url: https://github.com/ros-planning/navigation2.git
@@ -4980,6 +4987,7 @@ repositories:
       - joint_state_broadcaster
       - joint_trajectory_controller
       - position_controllers
+      - range_sensor_broadcaster
       - ros2_controllers
       - ros2_controllers_test_nodes
       - rqt_joint_trajectory_controller
@@ -4990,7 +4998,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 3.14.0-1
+      version: 3.15.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -6808,7 +6816,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/PickNikRobotics/topic_based_ros2_control-release.git
-      version: 0.1.1-1
+      version: 0.2.0-1
   topic_tools:
     doc:
       type: git
@@ -7099,7 +7107,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_Client_Library-release.git
-      version: 1.3.2-1
+      version: 1.3.3-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
@@ -7114,7 +7122,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/ur_description-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
@@ -7179,17 +7187,17 @@ repositories:
   urdf_launch:
     doc:
       type: git
-      url: https://github.com/MetroRobots/urdf_launch.git
+      url: https://github.com/ros/urdf_launch.git
       version: main
     release:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/urdf_launch-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/MetroRobots/urdf_launch.git
+      url: https://github.com/ros/urdf_launch.git
       version: main
     status: developed
   urdf_parser_py:
