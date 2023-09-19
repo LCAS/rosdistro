@@ -1244,6 +1244,11 @@ repositories:
       type: git
       url: https://github.com/ros-event-camera/event_camera_codecs.git
       version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/event_camera_codecs-release.git
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_codecs.git
@@ -2910,7 +2915,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ika-rwth-aachen/mqtt_client-release.git
-      version: 2.0.1-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
@@ -3724,11 +3729,24 @@ repositories:
       version: rolling
     status: developed
   point_cloud_transport:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/point_cloud_transport_tutorial.git
+      version: rolling
+    release:
+      packages:
+      - point_cloud_transport
+      - point_cloud_transport_py
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/point_cloud_transport-release.git
+      version: 2.0.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
       version: rolling
+    status: maintained
   point_cloud_transport_plugins:
     source:
       test_pull_requests: true
@@ -3787,7 +3805,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pose_cov_ops-release.git
-      version: 0.3.10-1
+      version: 0.3.11-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
@@ -6787,7 +6805,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/twist_mux-release.git
-      version: 4.1.0-3
+      version: 4.2.0-1
     source:
       type: git
       url: https://github.com/ros-teleop/twist_mux.git
