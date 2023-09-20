@@ -4977,6 +4977,12 @@ libpcsclite-dev:
   gentoo: [sys-apps/pcsc-lite]
   nixos: [pcsclite]
   ubuntu: [libpcsclite-dev]
+libpcsclite1:
+  debian: [libpcsclite1]
+  fedora: [pcsc-lite-libs]
+  opensuse: [libpcsclite1]
+  rhel: [pcsc-lite-libs]
+  ubuntu: [libpcsclite1]
 libphonon:
   debian: [libphonon4]
   fedora: [phonon]
@@ -6953,6 +6959,14 @@ pcre-dev:
   nixos: [pcre]
   rhel: [pcre-devel]
   ubuntu: [libpcre++-dev]
+pcscd:
+  alpine: [pcsc-lite]
+  arch: [pcsclite]
+  debian: [pcscd]
+  fedora: [pcsc-lite]
+  gentoo: [sys-apps/pcsc-lite]
+  nixos: [pcsclite]
+  ubuntu: [pcscd]
 phantomjs:
   debian:
     buster: [phantomjs]

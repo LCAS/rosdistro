@@ -1274,6 +1274,11 @@ repositories:
       type: git
       url: https://github.com/ros-event-camera/event_camera_py.git
       version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/event_camera_py-release.git
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_py.git
@@ -1284,6 +1289,11 @@ repositories:
       type: git
       url: https://github.com/ros-event-camera/event_camera_renderer.git
       version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/event_camera_renderer-release.git
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_renderer.git
@@ -3731,7 +3741,7 @@ repositories:
   point_cloud_transport:
     doc:
       type: git
-      url: https://github.com/ros-perception/point_cloud_transport_tutorial.git
+      url: https://github.com/ros-perception/point_cloud_transport.git
       version: rolling
     release:
       packages:
@@ -6145,7 +6155,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/simple_actions-release.git
-      version: 0.2.2-1
+      version: 0.3.0-1
     source:
       test_pull_requests: true
       type: git
