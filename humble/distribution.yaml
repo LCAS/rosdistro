@@ -18,8 +18,8 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/TechMagicKK/aandd_ekew_driver_py-release.git
-      version: 0.0.2-2
+      url: https://github.com/ros2-gbp/aandd_ekew_driver_py-release.git
+      version: 0.0.2-3
     source:
       test_pull_requests: true
       type: git
@@ -358,6 +358,17 @@ repositories:
       type: git
       url: https://github.com/ros-acceleration/ament_vitis.git
       version: rolling
+    status: developed
+  andino:
+    doc:
+      type: git
+      url: https://github.com/Ekumen-OS/andino.git
+      version: humble
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/Ekumen-OS/andino.git
+      version: humble
     status: developed
   angles:
     doc:
@@ -3749,7 +3760,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/SteveMacenski/navigation2-release.git
-      version: 1.1.10-1
+      version: 1.1.11-1
     source:
       type: git
       url: https://github.com/ros-planning/navigation2.git
