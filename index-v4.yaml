@@ -64,7 +64,7 @@ distributions:
     distribution_type: ros1
     python_version: 2
   indigo:
-    distribution: [indigo/distribution.yaml,indigo/strands-dist.yaml,indigo/lcas-dist.yaml]
+    distribution: [indigo/distribution.yaml, indigo/strands-dist.yaml, indigo/lcas-dist.yaml]
     distribution_cache: http://lcas.lincoln.ac.uk/rosdistro_cache/indigo-cache.yaml.gz
     distribution_status: end-of-life
     distribution_type: ros1
@@ -82,7 +82,7 @@ distributions:
     distribution_type: ros1
     python_version: 2
   kinetic:
-    distribution: [kinetic/distribution.yaml,kinetic/lcas-dist.yaml]
+    distribution: [kinetic/distribution.yaml, kinetic/lcas-dist.yaml]
     distribution_cache: http://lcas.lincoln.ac.uk/rosdistro_cache/kinetic-cache.yaml.gz
     distribution_status: active
     distribution_type: ros1
@@ -94,7 +94,7 @@ distributions:
     distribution_type: ros1
     python_version: 2
   melodic:
-    distribution: [melodic/distribution.yaml,melodic/lcas-dist.yaml]
+    distribution: [melodic/distribution.yaml, melodic/lcas-dist.yaml]
     distribution_cache: http://lcas.lincoln.ac.uk/rosdistro_cache/melodic-cache.yaml.gz
     distribution_status: end-of-life
     distribution_type: ros1

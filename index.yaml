@@ -34,7 +34,7 @@ distributions:
     distribution: [hydro/distribution.yaml]
     distribution_cache: http://repositories.ros.org/rosdistro_cache/hydro-cache.yaml.gz
   indigo:
-    distribution: [indigo/distribution.yaml,indigo/strands-dist.yaml,indigo/lcas-dist.yaml]
+    distribution: [indigo/distribution.yaml, indigo/strands-dist.yaml, indigo/lcas-dist.yaml]
     distribution_cache: http://lcas.lincoln.ac.uk/rosdistro_cache/indigo-cache.yaml.gz
   iron:
     distribution: [iron/distribution.yaml]
@@ -43,13 +43,13 @@ distributions:
     distribution: [jade/distribution.yaml]
     distribution_cache: http://repositories.ros.org/rosdistro_cache/jade-cache.yaml.gz
   kinetic:
-    distribution: [kinetic/distribution.yaml,kinetic/lcas-dist.yaml]
+    distribution: [kinetic/distribution.yaml, kinetic/lcas-dist.yaml]
     distribution_cache: http://lcas.lincoln.ac.uk/rosdistro_cache/kinetic-cache.yaml.gz
   lunar:
     distribution: [lunar/distribution.yaml]
     distribution_cache: http://repositories.ros.org/rosdistro_cache/lunar-cache.yaml.gz
   melodic:
-    distribution: [melodic/distribution.yaml,melodic/lcas-dist.yaml]
+    distribution: [melodic/distribution.yaml, melodic/lcas-dist.yaml]
     distribution_cache: http://lcas.lincoln.ac.uk/rosdistro_cache/melodic-cache.yaml.gz
   noetic:
     distribution: [noetic/distribution.yaml]
