@@ -22,7 +22,10 @@ jobs:
         pip install ros-buildfarm
     - name: Generate cache for ${{ matrix.distro }}
       run: |
-        rosdistro_build_cache https://raw.githubusercontent.com/LCAS/rosdistro/master/index.yaml ${{ matrix.distro }} --ignore-local || rosdistro_build_cache https://raw.githubusercontent.com/LCAS/rosdistro/master/index.yaml ${{ matrix.distro }} --debug --ignore-local
+        rosdistro_build_cache https://raw.githubusercontent.com/LCAS/rosdistro/master/index.yaml \
+          ${{ matrix.distro }} --ignore-local || \
+        rosdistro_build_cache https://raw.githubusercontent.com/LCAS/rosdistro/master/index.yaml \
+          ${{ matrix.distro }} --debug --ignore-local
     - uses: actions/upload-artifact@v2
       with:
         name: caches
