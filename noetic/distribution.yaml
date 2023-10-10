@@ -1637,7 +1637,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.fel.cvut.cz/cras/ros-release/ros-utils.git
-      version: 2.3.2-1
+      version: 2.3.3-1
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
@@ -6180,7 +6180,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
-      version: 0.8.1-1
+      version: 0.8.2-1
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
