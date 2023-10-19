@@ -523,6 +523,15 @@ repositories:
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
       version: master
     status: developed
+  boeing_gazebo_model_attachment_plugin:
+    doc:
+      type: git
+      url: https://github.com/Boeing/gazebo_model_attachment_plugin.git
+      version: noetic
+    source:
+      type: git
+      url: https://github.com/Boeing/gazebo_model_attachment_plugin.git
+      version: noetic
   bond_core:
     doc:
       type: git
@@ -3731,7 +3740,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros4hri/hri_rviz-release.git
-      version: 0.4.1-1
+      version: 0.4.2-1
     source:
       type: git
       url: https://github.com/ros4hri/hri_rviz.git
@@ -10849,6 +10858,24 @@ repositories:
       url: https://github.com/SICKAG/sick_safetyscanners.git
       version: master
     status: developed
+  sick_safevisionary_ros1:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_safevisionary_ros1.git
+      version: main
+    release:
+      packages:
+      - sick_safevisionary_driver
+      - sick_safevisionary_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/SICKAG/sick_safevisionary_ros1-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_safevisionary_ros1.git
+      version: main
+    status: developed
   sick_scan:
     doc:
       type: git
@@ -10864,6 +10891,11 @@ repositories:
       url: https://github.com/SICKAG/sick_scan.git
       version: master
     status: developed
+  sick_scan_xd:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_scan_xd.git
+      version: master
   sick_tim:
     doc:
       type: git

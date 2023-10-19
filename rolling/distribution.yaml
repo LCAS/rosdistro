@@ -2094,6 +2094,21 @@ repositories:
       url: https://github.com/CCNYRoboticsLab/imu_tools.git
       version: rolling
     status: maintained
+  interactive_marker_twist_server:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/interactive_marker_twist_server.git
+      version: humble-devel
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros-gbp/interactive_marker_twist_server-release.git
+      version: 2.1.0-1
+    source:
+      type: git
+      url: https://github.com/ros-visualization/interactive_marker_twist_server.git
+      version: humble-devel
+    status: maintained
   interactive_markers:
     doc:
       type: git
@@ -2460,7 +2475,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/libstatistics_collector-release.git
-      version: 1.6.2-1
+      version: 1.6.3-1
     source:
       type: git
       url: https://github.com/ros-tooling/libstatistics_collector.git
