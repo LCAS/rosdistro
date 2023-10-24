@@ -325,21 +325,6 @@ repositories:
       url: https://github.com/ros/angles.git
       version: ros2
     status: maintained
-  apex_containers:
-    doc:
-      type: git
-      url: https://gitlab.com/ApexAI/apex_containers.git
-      version: rolling
-    release:
-      tags:
-        release: release/iron/{package}/{version}
-      url: https://github.com/ros2-gbp/apex_containers-release.git
-      version: 0.0.4-5
-    source:
-      type: git
-      url: https://gitlab.com/ApexAI/apex_containers.git
-      version: rolling
-    status: developed
   apex_test_tools:
     doc:
       type: git
@@ -1570,6 +1555,16 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
+      version: ros2
+    status: maintained
+  gazebo_video_monitors:
+    doc:
+      type: git
+      url: https://github.com/nlamprian/gazebo_video_monitors.git
+      version: ros2
+    source:
+      type: git
+      url: https://github.com/nlamprian/gazebo_video_monitors.git
       version: ros2
     status: maintained
   gc_spl:
