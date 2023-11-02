@@ -866,7 +866,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_onav_examples-release.git
-      version: 0.0.2-1
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/cpr-application/clearpath_onav_examples.git
@@ -1604,7 +1604,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/cpr_onav_description-release.git
-      version: 0.1.9-1
+      version: 0.1.10-1
     source:
       type: git
       url: https://github.com/cpr-application/cpr_onav_description.git
@@ -4506,10 +4506,11 @@ repositories:
       packages:
       - jsk_pr2eus
       - pr2eus
+      - pr2eus_moveit
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/jsk_pr2eus-release.git
-      version: 0.3.15-1
+      version: 0.3.15-3
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
@@ -4884,7 +4885,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fictionlab-gbp/leo_desktop-release.git
-      version: 0.2.3-1
+      version: 0.3.0-1
     source:
       test_pull_requests: true
       type: git
@@ -4924,7 +4925,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fictionlab-gbp/leo_robot-release.git
-      version: 2.3.0-1
+      version: 2.4.0-1
     source:
       type: git
       url: https://github.com/LeoRover/leo_robot.git
