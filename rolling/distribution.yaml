@@ -1500,7 +1500,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros_foxglove_msgs-release.git
-      version: 2.2.0-1
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
@@ -2489,7 +2489,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/locator_ros_bridge-release.git
-      version: 2.1.9-2
+      version: 2.1.10-1
     source:
       type: git
       url: https://github.com/boschglobal/locator_ros_bridge.git
@@ -4971,7 +4971,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 3.19.1-1
+      version: 3.20.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -5007,7 +5007,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 3.16.0-1
+      version: 3.17.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -6526,7 +6526,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/teleop_tools-release.git
-      version: 1.4.0-1
+      version: 1.5.0-1
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
