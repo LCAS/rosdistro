@@ -104,7 +104,7 @@ repositories:
       - ament_cmake_black
       tags:
         release: release/iron/{package}/{version}
-      url: https://github.com/botsandus/ament_black-release.git
+      url: https://github.com/ros2-gbp/ament_black-release.git
       version: 0.2.3-1
     source:
       type: git
@@ -1250,6 +1250,46 @@ repositories:
       url: https://github.com/stack-of-tasks/eigenpy.git
       version: devel
     status: maintained
+  event_camera_codecs:
+    doc:
+      type: git
+      url: https://github.com/ros-event-camera/event_camera_codecs.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ros-event-camera/event_camera_codecs.git
+      version: master
+    status: developed
+  event_camera_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-event-camera/event_camera_msgs.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ros-event-camera/event_camera_msgs.git
+      version: master
+    status: developed
+  event_camera_py:
+    doc:
+      type: git
+      url: https://github.com/ros-event-camera/event_camera_py.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ros-event-camera/event_camera_py.git
+      version: master
+    status: developed
+  event_camera_renderer:
+    doc:
+      type: git
+      url: https://github.com/ros-event-camera/event_camera_renderer.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ros-event-camera/event_camera_renderer.git
+      version: master
+    status: developed
   example_interfaces:
     doc:
       type: git
@@ -2425,6 +2465,26 @@ repositories:
       url: https://github.com/ros2/launch_ros.git
       version: iron
     status: maintained
+  leo_common:
+    doc:
+      type: git
+      url: https://github.com/LeoRover/leo_common-ros2.git
+      version: iron
+    release:
+      packages:
+      - leo
+      - leo_description
+      - leo_msgs
+      - leo_teleop
+      tags:
+        release: release/iron/{package}/{version}
+      url: https://github.com/ros2-gbp/leo_common-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/LeoRover/leo_common-ros2.git
+      version: iron
+    status: maintained
   lgsvl_msgs:
     release:
       tags:
@@ -2435,6 +2495,16 @@ repositories:
       type: git
       url: https://github.com/lgsvl/lgsvl_msgs.git
       version: foxy-devel
+  libcaer_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-event-camera/libcaer_driver.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ros-event-camera/libcaer_driver.git
+      version: master
+    status: developed
   libcreate:
     doc:
       type: git
@@ -2729,6 +2799,16 @@ repositories:
       url: https://github.com/ika-rwth-aachen/message_tf_frame_transformer.git
       version: main
     status: maintained
+  metavision_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-event-camera/metavision_driver.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ros-event-camera/metavision_driver.git
+      version: master
+    status: developed
   micro_ros_diagnostics:
     doc:
       type: git
@@ -5030,7 +5110,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: master
+      version: iron
     release:
       packages:
       - controller_interface
@@ -5046,17 +5126,17 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 3.20.0-1
+      version: 3.21.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: master
+      version: iron
     status: developed
   ros2_controllers:
     doc:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: master
+      version: iron
     release:
       packages:
       - ackermann_steering_controller
@@ -5086,7 +5166,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: master
+      version: iron
     status: developed
   ros2_kortex:
     doc:

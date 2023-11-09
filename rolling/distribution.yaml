@@ -2418,6 +2418,26 @@ repositories:
       url: https://github.com/ros2/launch_ros.git
       version: rolling
     status: maintained
+  leo_common:
+    doc:
+      type: git
+      url: https://github.com/LeoRover/leo_common-ros2.git
+      version: rolling
+    release:
+      packages:
+      - leo
+      - leo_description
+      - leo_msgs
+      - leo_teleop
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/leo_common-release.git
+      version: 3.0.0-1
+    source:
+      type: git
+      url: https://github.com/LeoRover/leo_common-ros2.git
+      version: rolling
+    status: maintained
   lgsvl_msgs:
     release:
       tags:
@@ -2428,6 +2448,16 @@ repositories:
       type: git
       url: https://github.com/lgsvl/lgsvl_msgs.git
       version: foxy-devel
+  libcaer_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-event-camera/libcaer_driver.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ros-event-camera/libcaer_driver.git
+      version: master
+    status: developed
   libg2o:
     release:
       tags:
@@ -4921,6 +4951,11 @@ repositories:
       url: https://github.com/ros/robot_state_publisher.git
       version: rolling
     status: maintained
+  robotont_msgs:
+    doc:
+      type: git
+      url: https://github.com/robotont/robotont_msgs.git
+      version: ros2-rolling-devel
   ros1_bridge:
     doc:
       type: git
