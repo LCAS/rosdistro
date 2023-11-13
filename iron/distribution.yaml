@@ -1255,6 +1255,11 @@ repositories:
       type: git
       url: https://github.com/ros-event-camera/event_camera_codecs.git
       version: master
+    release:
+      tags:
+        release: release/iron/{package}/{version}
+      url: https://github.com/ros2-gbp/event_camera_codecs-release.git
+      version: 1.2.2-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_codecs.git
@@ -7179,7 +7184,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/twist_mux-release.git
-      version: 4.2.0-1
+      version: 4.3.0-1
     source:
       type: git
       url: https://github.com/ros-teleop/twist_mux.git
