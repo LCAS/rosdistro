@@ -52,7 +52,7 @@ distributions:
     distribution_type: ros1
     python_version: 2
   humble:
-    distribution: [humble/distribution.yaml]
+    distribution: [humble/distribution.yaml, humble/lcas-dist.yaml]
     distribution_cache: http://repo.ros2.org/rosdistro_cache/humble-cache.yaml.gz
     distribution_status: active
     distribution_type: ros2

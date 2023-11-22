@@ -1,0 +1,18 @@
+%YAML 1.1
+# ROS distribution file
+# see REP 143: http://ros.org/reps/rep-0143.html
+---
+release_platforms:
+  ubuntu:
+  - jammy
+repositories:
+  topological_navigation:
+    source:
+      type: git
+      url: https://github.com/LCAS/topological_navigation.git
+      version: humble-dev
+    status: developed
+tags:
+- lcas
+type: distribution
+version: 2
