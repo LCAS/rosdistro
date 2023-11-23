@@ -29,7 +29,7 @@ distributions:
     distribution_cache: http://repositories.ros.org/rosdistro_cache/groovy-cache.yaml.gz
   humble:
     distribution: [humble/distribution.yaml, humble/lcas-dist.yaml]
-    distribution_cache: http://repo.ros2.org/rosdistro_cache/humble-cache.yaml.gz
+    distribution_cache: https://lcas.lincoln.ac.uk/repository/repository/misc/roscache/humble-cache.yaml.gz
   hydro:
     distribution: [hydro/distribution.yaml]
     distribution_cache: http://repositories.ros.org/rosdistro_cache/hydro-cache.yaml.gz
