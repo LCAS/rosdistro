@@ -7528,7 +7528,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.7.1-2
+      version: 3.8.0-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -9956,8 +9956,8 @@ repositories:
     release:
       tags:
         release: release/noetic/{package}/{version}
-      url: https://github.com/nobleo/rplidar_ros-release.git
-      version: 2.0.0-1
+      url: https://github.com/Slamtec/rplidar_ros-release.git
+      version: 2.1.5-1
     source:
       type: git
       url: https://github.com/Slamtec/rplidar_ros.git

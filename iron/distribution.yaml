@@ -3264,6 +3264,21 @@ repositories:
       url: https://github.com/ros-sports/nao_lola.git
       version: iron
     status: developed
+  nao_meshes:
+    doc:
+      type: git
+      url: https://github.com/ros-naoqi/nao_meshes2.git
+      version: main
+    release:
+      tags:
+        release: release/iron/{package}/{version}
+      url: https://github.com/ros-naoqi/nao_meshes-release.git
+      version: 2.1.1-1
+    source:
+      type: git
+      url: https://github.com/ros-naoqi/nao_meshes2.git
+      version: main
+    status: maintained
   naoqi_bridge_msgs2:
     release:
       packages:
@@ -3834,7 +3849,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros-naoqi/pepper_meshes2-release.git
-      version: 2.0.1-1
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/ros-naoqi/pepper_meshes2.git
@@ -3996,7 +4011,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-release.git
-      version: 3.7.1-2
+      version: 3.8.0-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -6601,6 +6616,25 @@ repositories:
       url: https://github.com/SICKAG/sick_safevisionary_base.git
       version: main
     status: developed
+  sick_safevisionary_ros2:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_safevisionary_ros2.git
+      version: main
+    release:
+      packages:
+      - sick_safevisionary_driver
+      - sick_safevisionary_interfaces
+      - sick_safevisionary_tests
+      tags:
+        release: release/iron/{package}/{version}
+      url: https://github.com/ros2-gbp/sick_safevisionary_ros2-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_safevisionary_ros2.git
+      version: main
+    status: developed
   simple_actions:
     doc:
       type: git
@@ -7148,7 +7182,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-tooling/topic_tools.git
-      version: main
+      version: iron
     release:
       packages:
       - topic_tools
@@ -7160,7 +7194,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/topic_tools.git
-      version: main
+      version: iron
     status: developed
   tracetools_acceleration:
     doc:
