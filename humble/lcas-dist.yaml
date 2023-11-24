@@ -6,6 +6,12 @@ release_platforms:
   ubuntu:
   - jammy
 repositories:
+  livox_gazebo:
+    source:
+      type: git
+      url: https://github.com/LCAS/livox_laser_simulation_RO2.git
+      version: main
+    status: maintained
   topological_navigation:
     release:
       packages:
