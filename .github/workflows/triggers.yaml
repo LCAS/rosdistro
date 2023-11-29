@@ -1,11 +1,12 @@
+---
 name: Fire Triggers
 
-on: 
+on:
   workflow_dispatch:
   push:
     branches: ['master']
     paths:
-      - 'humble/*'
+    - 'humble/*'
 
 jobs:
   triggers:
@@ -22,9 +23,9 @@ jobs:
         dispatch-method: workflow_dispatch
         repo: docker-dpkg-build
         owner: LCAS
-        ref: refs/heads/master # or main
-        workflow: build-chain.yaml # Or Workflow ID
-        token: ${{ secrets.ORGA_GH_TOKEN }} # GitHub Token With Relevant Permissions
+        ref: refs/heads/master  # or main
+        workflow: build-chain.yaml  # Or Workflow ID
+        token: ${{ secrets.ORGA_GH_TOKEN }}  # GitHub Token With Relevant Permissions
         workflow-inputs: |
           {
             "ros_distro": "humble"
