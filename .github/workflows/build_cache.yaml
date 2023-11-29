@@ -1,3 +1,4 @@
+---
 name: Generate Cache
 on: [push, pull_request]
 
