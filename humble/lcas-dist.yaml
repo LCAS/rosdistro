@@ -6,7 +6,23 @@ release_platforms:
   ubuntu:
   - jammy
 repositories:
+  livox_gazebo:
+    source:
+      type: git
+      url: https://github.com/LCAS/livox_laser_simulation_RO2.git
+      version: main
+    status: maintained
   topological_navigation:
+    release:
+      packages:
+      - bayesian_topological_localisation
+      - topological_navigation
+      - topological_navigation_msgs
+      - topological_utils
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/lcas-releases/topological_navigation.git
+      version: 3.0.3-1
     source:
       type: git
       url: https://github.com/LCAS/topological_navigation.git
