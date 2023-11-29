@@ -1,6 +1,6 @@
 ---
 name: Generate Cache
-on: 
+on:
   push:
     branches: [master]
 
