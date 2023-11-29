@@ -40,6 +40,22 @@ curl -s https://lcas.lincoln.ac.uk/apt/repo_signing.gpg | $SUDO apt-key add -
 $SUDO sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list'
 wget https://packages.osrfoundation.org/gazebo.key -O - | $SUDO apt-key add -
 
+
+
+
+# docker
+$SUDO install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | $SUDO gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+$SUDO chmod a+r /etc/apt/keyrings/docker.gpg
+
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  $SUDO tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+
+
 distro=$DISTRIBUTION
 arch=`arch`
 
