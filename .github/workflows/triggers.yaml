@@ -1,0 +1,31 @@
+name: Fire Triggers
+
+on: 
+  workflow_dispatch:
+  push:
+    branches: ['master']
+    paths:
+      - 'humble/*'
+
+jobs:
+  triggers:
+    name: Fire Triggers
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        distro: [humble]
+    steps:
+    - uses: lasith-kg/dispatch-workflow@v1
+      id: workflow-dispatch_develop
+      name: 'Trigger build of missing packages'
+      with:
+        dispatch-method: workflow_dispatch
+        repo: docker-dpkg-build
+        owner: LCAS
+        ref: refs/heads/master # or main
+        workflow: build-chain.yaml # Or Workflow ID
+        token: ${{ secrets.ORGA_GH_TOKEN }} # GitHub Token With Relevant Permissions
+        workflow-inputs: |
+          {
+            "ros_distro": "humble"
+          }
