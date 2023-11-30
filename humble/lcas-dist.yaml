@@ -12,6 +12,12 @@ repositories:
       url: https://github.com/LCAS/livox_laser_simulation_RO2.git
       version: main
     status: maintained
+  sandbox:
+    source:
+      type: git
+      url: https://github.com/LCAS/sandbox.git
+      version: humble
+    status: developed
   topological_navigation:
     release:
       packages:
