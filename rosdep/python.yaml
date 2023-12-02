@@ -459,6 +459,7 @@ pyqt5-dev-tools:
   debian: [pyqt5-dev-tools]
   fedora: [python-qt5-devel]
   gentoo: [dev-python/PyQt5]
+  nixos: [python3Packages.pyqt5]
   openembedded: ['${PYTHON_PN}-pyqt5@meta-qt5']
   rhel: [python3-qt5-devel]
   ubuntu: [pyqt5-dev-tools]
@@ -7774,6 +7775,19 @@ python3-pygraphviz:
   rhel: ['python%{python3_pkgversion}-pygraphviz']
   slackware: [pygraphviz]
   ubuntu: [python3-pygraphviz]
+python3-pyinotify:
+  alpine: [py3-inotify]
+  arch: [python-pyinotify]
+  debian: [python3-pyinotify]
+  fedora: [python3-inotify]
+  gentoo: [dev-python/pyinotify]
+  nixos: [python3Packages.pyinotify]
+  opensuse: [python3-pyinotify]
+  osx:
+    pip:
+      packages: [pyinotify]
+  rhel: [python3-inotify]
+  ubuntu: [python3-pyinotify]
 python3-pykdl:
   debian:
     '*': [python3-pykdl]
@@ -9142,6 +9156,7 @@ python3-transforms3d:
     pip:
       packages: [transforms3d]
   fedora: [python3-transforms3d]
+  nixos: [python3Packages.transforms3d]
   ubuntu:
     '*': [python3-transforms3d]
     bionic:
