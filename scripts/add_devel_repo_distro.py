@@ -34,9 +34,9 @@ def add_devel_repository(yaml_file, name, vcs_type, url, version=None, status='d
         raise ImportError(str(e) + ' - you need to install the latest version of python-rosdistro.')
     data = _to_yaml(data)
     data = '\n'.join(_yaml_header_lines('distribution',2)) + '\n' + data
-    print(data)
-    #with open(yaml_file, 'w') as f:
-    #    f.write(data)
+    #print(data)
+    with open(yaml_file, 'w') as f:
+        f.write(data)
 
 
 def add_devel_repository_fuerte(yaml_file, data, name, vcs_type, url, version):
@@ -67,10 +67,11 @@ if __name__ == "__main__":
     parser.add_argument('type', help='The type of the repository (i.e. "git", "hg", "svn")')
     parser.add_argument('url', help='The url of the repository')
     parser.add_argument('version', nargs='?', help='The version')
+    parser.add_argument('status', nargs='?', help='The status', default="developed")
     args = parser.parse_args()
 
     try:
-        add_devel_repository(args.yaml_file, args.name, args.type, args.url, args.version)
+        add_devel_repository(args.yaml_file, args.name, args.type, args.url, args.version, args.status)
     except Exception as e:
         print(str(e), file=sys.stderr)
         exit(1)
