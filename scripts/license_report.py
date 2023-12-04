@@ -8,7 +8,8 @@ from threading import Thread, Lock
 from time import sleep
 
 from catkin_pkg.packages import parse_package_string
-
+import traceback
+from collections import defaultdict
 
 import sys
 from os import environ
@@ -26,19 +27,25 @@ class LicenseReport:
 
         index = get_index(self.rosdistro_index_url)
         self.dist_cache = get_distribution_cache(index, self.distro)
-        self.license_dict = None
+        self.package_dict = None
+        self.used_licenses = None
         self.max_depth = max_depth
 
     def build(self, start_pkg_name, level=0):
-        if self.license_dict is None:
-            self.license_dict = []
-        if start_pkg_name not in self.license_dict:
+        if self.package_dict is None:
+            self.package_dict = {}
+            self.used_licenses = defaultdict(set)
+        if start_pkg_name not in self.package_dict:
             try:
-                xmlstr = self.dist_cache.release_package_xmls[start_pkg_name]
+                try:
+                    xmlstr = self.dist_cache.release_package_xmls[start_pkg_name]
+                except KeyError:
+                    # key errors are expected for dependencies outside the ROS realm
+                    return
                 pkg = parse_package_string(xmlstr)
                 deps = pkg.build_depends
                 deps.extend(pkg.exec_depends)
-                self.license_dict[start_pkg_name] = {
+                self.package_dict[start_pkg_name] = {
                     'licenses': set(pkg.licenses),
                     'dependencies': set([str(d) for d in set(deps)]),
                     'maintainers': set([m.email for m in pkg.maintainers]),
@@ -46,6 +53,8 @@ class LicenseReport:
                     'version': pkg.version,
                     'level': level
                 }
+                for l in set(pkg.licenses):
+                    self.used_licenses[l].add(start_pkg_name)
                 # stop recursion if max_depth is defined and reached
                 if self.max_depth is not None:
                     if level >= self.max_depth:
@@ -53,18 +62,34 @@ class LicenseReport:
                 # otherwise, recurse to next level of dependencies
                 for d in set(deps):
                     self.build(str(d), level+1)
-            except:
+            except Exception as e:
                 print('couldn\'t process package %s, continuing as best as we can' % start_pkg_name )
+                print(traceback.format_exc())
                 pass
 
     def report(self, pkg_name):
-        if self.license_dict is None:
+        if self.package_dict is None:
             self.build(pkg_name)
-        return pformat(self.license_dict)
+        return pformat(self.package_dict), pformat(self.used_licenses)
 
+    def markdown_license_report(self, pkg_name):
+        if self.package_dict is None:
+            self.build(pkg_name)
+        s = '# License Report, starting from package "%s"\n' % pkg_name
+        for k, v in self.used_licenses.items():
+            s += '\n## %s\n' % k
+            for p in v:
+                s += '* `%s` (%s)\n' % (p, self.package_dict[p]['level'])
+        return s
+        
+
+
+        return pformat(self.package_dict), pformat(self.used_licenses)
 
 b = LicenseReport()
-print(b.report('topological_navigation'))
+#pkgs, licenses = b.report('topological_navigation')
+pkgs, licenses = b.report('rviz2')
+print(b.markdown_license_report('rviz2'))
 
 # pkgs = b.get_ordered_packages()
 # print(b.is_uptodate("desktop"))
