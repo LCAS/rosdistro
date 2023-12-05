@@ -1244,7 +1244,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/eigenpy-release.git
-      version: 2.9.2-5
+      version: 3.1.4-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -1418,6 +1418,26 @@ repositories:
       url: https://github.com/eProsima/Fast-DDS.git
       version: 2.10.x
     status: maintained
+  ffmpeg_image_transport:
+    doc:
+      type: git
+      url: https://github.com/ros-misc-utilities/ffmpeg_image_transport.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ros-misc-utilities/ffmpeg_image_transport.git
+      version: master
+    status: developed
+  ffmpeg_image_transport_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-misc-utilities/ffmpeg_image_transport_msgs.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ros-misc-utilities/ffmpeg_image_transport_msgs.git
+      version: master
+    status: developed
   fields2cover:
     release:
       tags:
@@ -1486,6 +1506,15 @@ repositories:
       type: git
       url: https://github.com/ros-drivers/flir_camera_driver.git
       version: humble-devel
+    release:
+      packages:
+      - flir_camera_description
+      - flir_camera_msgs
+      - spinnaker_camera_driver
+      tags:
+        release: release/iron/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/flir_camera_driver-release.git
+      version: 2.0.8-1
     source:
       type: git
       url: https://github.com/ros-drivers/flir_camera_driver.git
@@ -2043,7 +2072,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/hpp_fcl-release.git
-      version: 2.3.0-5
+      version: 2.4.0-1
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
@@ -3163,7 +3192,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ika-rwth-aachen/mqtt_client-release.git
-      version: 2.1.0-1
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
@@ -3248,6 +3277,16 @@ repositories:
       type: git
       url: https://github.com/KIT-MRT/mrt_cmake_modules.git
       version: master
+    status: maintained
+  multidim_rrt_planner:
+    doc:
+      type: git
+      url: https://github.com/daviddorf2023/multidim_rrt_planner.git
+      version: iron
+    source:
+      type: git
+      url: https://github.com/daviddorf2023/multidim_rrt_planner.git
+      version: iron
     status: maintained
   mvsim:
     doc:
@@ -4044,7 +4083,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/pinocchio-release.git
-      version: 2.6.17-5
+      version: 2.6.21-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
@@ -5373,7 +5412,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 3.18.0-1
+      version: 3.19.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
