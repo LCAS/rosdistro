@@ -1,4 +1,5 @@
 from rosdistro import get_distribution_cache
+from rosdistro import get_distribution_file
 from rosdistro import get_index
 #from ros_buildfarm.release_job import _get_direct_dependencies, _get_downstream_package_names
 #from ros_buildfarm.common import get_debian_package_name
@@ -27,6 +28,7 @@ class LicenseReport:
 
         index = get_index(self.rosdistro_index_url)
         self.dist_cache = get_distribution_cache(index, self.distro)
+        self.dist = get_distribution_file(index, self.distro)
         self.package_dict = None
         self.used_licenses = None
         self.max_depth = max_depth
@@ -35,12 +37,15 @@ class LicenseReport:
         if self.package_dict is None:
             self.package_dict = {}
             self.used_licenses = defaultdict(set)
+            self.root = start_pkg_name
+            self.unparsed_dependencies = set()
         if start_pkg_name not in self.package_dict:
             try:
                 try:
                     xmlstr = self.dist_cache.release_package_xmls[start_pkg_name]
                 except KeyError:
                     # key errors are expected for dependencies outside the ROS realm
+                    self.unparsed_dependencies.add(start_pkg_name)
                     return
                 pkg = parse_package_string(xmlstr)
                 deps = pkg.build_depends
@@ -67,29 +72,59 @@ class LicenseReport:
                 print(traceback.format_exc())
                 pass
 
-    def report(self, pkg_name):
+    def report(self):
         if self.package_dict is None:
-            self.build(pkg_name)
+            return None
         return pformat(self.package_dict), pformat(self.used_licenses)
 
-    def markdown_license_report(self, pkg_name):
-        if self.package_dict is None:
-            self.build(pkg_name)
-        s = '# License Report, starting from package "%s"\n' % pkg_name
+    def markdown_license_report(self):
+        if self.used_licenses is None:
+            return None
+        s = '# License Report, starting from package "%s"\n' % self.root
         for k, v in self.used_licenses.items():
             s += '\n## %s\n' % k
             for p in v:
-                s += '* `%s` (%s)\n' % (p, self.package_dict[p]['level'])
+                try:
+                    repo = self.dist.release_packages[p].repository_name
+                    url = self.dist.repositories[repo].source_repository.url
+                except:
+                    url = ""
+                level = self.package_dict[p]['level']
+                maintainers = ', '.join(self.package_dict[p]['maintainers'])
+                s += '* [`%s`](%s) (depth: %s, maintainers: _%s_)\n' % (p, url, level, maintainers)
+        s += '\n## Dependencies for which no license could be found (no ROS `package.xml` in cache)\n'
+        s += '\n_These licenses may have to be checked manually_\n'
+        for d in self.unparsed_dependencies:
+            s += '* `%s`\n' % d
         return s
         
 
 
         return pformat(self.package_dict), pformat(self.used_licenses)
 
-b = LicenseReport()
-#pkgs, licenses = b.report('topological_navigation')
-pkgs, licenses = b.report('rviz2')
-print(b.markdown_license_report('rviz2'))
+if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser(description='Generate a license and package report in markdown from a root package.')
+    parser.add_argument('root', help='The name of the root package, e.g., "topological_navigation"')
+
+    #parser.add_argument('name', help='The unique name of the repo')
+    #parser.add_argument('type', help='The type of the repository (i.e. "git", "hg", "svn")')
+    #parser.add_argument('url', help='The url of the repository')
+    #parser.add_argument('version', nargs='?', help='The version')
+    #parser.add_argument('status', nargs='?', help='The status', default="developed")
+    args = parser.parse_args()
+
+    try:
+        b = LicenseReport()
+        b.build(args.root)
+        pkgs, licenses = b.report()
+        print(b.markdown_license_report())
+
+    except Exception as e:
+        print(str(e), file=sys.stderr)
+        exit(1)
+
 
 # pkgs = b.get_ordered_packages()
 # print(b.is_uptodate("desktop"))
