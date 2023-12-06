@@ -75,6 +75,16 @@ repositories:
       url: https://github.com/ros/actionlib.git
       version: noetic-devel
     status: maintained
+  adi_tmcl:
+    doc:
+      type: git
+      url: https://github.com/analogdevicesinc/tmcl_ros.git
+      version: noetic
+    source:
+      type: git
+      url: https://github.com/analogdevicesinc/tmcl_ros.git
+      version: noetic
+    status: maintained
   agni_tf_tools:
     doc:
       type: git
@@ -2526,6 +2536,21 @@ repositories:
       url: https://github.com/bostoncleek/ergodic_exploration.git
       version: noetic-devel
     status: developed
+  ess_imu_driver:
+    doc:
+      type: git
+      url: https://github.com/cubicleguy/ess_imu_driver.git
+      version: noetic
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/cubicleguy/ess_imu_driver-release.git
+      version: 1.0.1-3
+    source:
+      type: git
+      url: https://github.com/cubicleguy/ess_imu_driver.git
+      version: noetic
+    status: maintained
   ess_imu_ros1_uart_driver:
     doc:
       type: git
@@ -4538,6 +4563,27 @@ repositories:
       url: https://github.com/jsk-ros-pkg/jsk_model_tools.git
       version: master
     status: developed
+  jsk_planning:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_planning.git
+      version: master
+    release:
+      packages:
+      - jsk_planning
+      - pddl_msgs
+      - pddl_planner
+      - pddl_planner_viewer
+      - task_compiler
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/tork-a/jsk_planning-release.git
+      version: 0.1.14-1
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_planning.git
+      version: master
+    status: developed
   jsk_pr2eus:
     doc:
       type: git
@@ -6293,7 +6339,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
-      version: 0.8.2-1
+      version: 0.8.3-1
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
@@ -9572,6 +9618,12 @@ repositories:
       url: https://github.com/eurogroep/rosbag_pandas-release.git
       version: 0.5.4-1
     status: maintained
+  rosbag_rviz_panel:
+    source:
+      type: git
+      url: https://github.com/fada-catec/rosbag_rviz_panel.git
+      version: main
+    status: maintained
   rosbag_snapshot:
     doc:
       type: git
@@ -11063,6 +11115,21 @@ repositories:
       type: git
       url: https://github.com/uos/sick_tim.git
       version: noetic
+    status: developed
+  sick_visionary_ros:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_visionary_ros.git
+      version: main
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/SICKAG/sick_visionary_ros-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_visionary_ros.git
+      version: main
     status: developed
   simple_grasping:
     doc:
