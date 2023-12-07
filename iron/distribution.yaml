@@ -1272,7 +1272,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ika-rwth-aachen/etsi_its_messages-release.git
-      version: 1.0.0-1
+      version: 1.0.0-2
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/etsi_its_messages.git
@@ -2083,11 +2083,12 @@ repositories:
       packages:
       - iceoryx_binding_c
       - iceoryx_hoofs
+      - iceoryx_introspection
       - iceoryx_posh
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/iceoryx-release.git
-      version: 2.0.3-5
+      version: 2.0.5-1
     source:
       type: git
       url: https://github.com/eclipse-iceoryx/iceoryx.git
@@ -3297,7 +3298,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.8.2-1
+      version: 0.8.3-1
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
@@ -3389,7 +3390,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros-naoqi/naoqi_driver2-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/ros-naoqi/naoqi_driver2.git
@@ -5376,7 +5377,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 3.21.1-1
+      version: 3.21.2-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -5412,7 +5413,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 3.19.0-1
+      version: 3.19.1-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -7785,7 +7786,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/usb_cam-release.git
-      version: 0.7.0-1
+      version: 0.8.0-1
     source:
       type: git
       url: https://github.com/ros-drivers/usb_cam.git
