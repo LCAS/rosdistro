@@ -1,5 +1,5 @@
 from rosdistro import get_distribution_cache
-from rosdistro import get_distribution_file
+from rosdistro import get_distribution_file, get_distribution_files
 from rosdistro import get_index
 #from ros_buildfarm.release_job import _get_direct_dependencies, _get_downstream_package_names
 #from ros_buildfarm.common import get_debian_package_name
@@ -29,6 +29,8 @@ class LicenseReport:
         index = get_index(self.rosdistro_index_url)
         self.dist_cache = get_distribution_cache(index, self.distro)
         self.dist = get_distribution_file(index, self.distro)
+        # the last distribution file is ours
+        self.lcas_dist = get_distribution_files(index, self.distro)[-1]
         self.package_dict = None
         self.used_licenses = None
         self.max_depth = max_depth
@@ -80,9 +82,9 @@ class LicenseReport:
     def markdown_license_report(self):
         if self.used_licenses is None:
             return None
-        s = '# License Report, starting from package "%s"\n' % self.root
+        s = ''
         for k, v in self.used_licenses.items():
-            s += '\n## %s\n' % k
+            s += '\n#### %s\n' % k
             for p in v:
                 try:
                     repo = self.dist.release_packages[p].repository_name
@@ -92,21 +94,38 @@ class LicenseReport:
                 level = self.package_dict[p]['level']
                 maintainers = ', '.join(self.package_dict[p]['maintainers'])
                 s += '* [`%s`](%s) (depth: %s, maintainers: _%s_)\n' % (p, url, level, maintainers)
-        s += '\n## Dependencies for which no license could be found (no ROS `package.xml` in cache)\n'
+        s += '\n#### Dependencies for which no license could be found (no ROS `package.xml` in cache)\n'
         s += '\n_These licenses may have to be checked manually_\n'
         for d in self.unparsed_dependencies:
             s += '* `%s`\n' % d
         return s
-        
+
+    def markdown_license_report_all(self):
+        pkgs = self.lcas_dist.release_packages
+        report = '# License report\n\n'
+        for p in pkgs.keys():
+            self.package_dict = None
+            self.build(p)
+            report += '\n## Package "%s"\n\n' % p
+            try:
+                repo = self.dist.release_packages[p].repository_name
+                url = self.dist.repositories[repo].source_repository.url
+            except:
+                url = ""
+            maintainers = ', '.join(self.package_dict[p]['maintainers'])
+            report += '* Maintainers: %s\n' % maintainers
+            report += '* Repository: [`%s`](%s)\n' % (url, url)
 
 
-        return pformat(self.package_dict), pformat(self.used_licenses)
+            report += '\n### License Report for package "%s"\n' % p
+            report += self.markdown_license_report()+'\n\n'
+        return report
 
 if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(description='Generate a license and package report in markdown from a root package.')
-    parser.add_argument('root', help='The name of the root package, e.g., "topological_navigation"')
+    parser.add_argument('--root', default=None, required=False, help='The name of the root package, e.g., "topological_navigation"')
 
     #parser.add_argument('name', help='The unique name of the repo')
     #parser.add_argument('type', help='The type of the repository (i.e. "git", "hg", "svn")')
@@ -117,9 +136,13 @@ if __name__ == "__main__":
 
     try:
         b = LicenseReport()
-        b.build(args.root)
-        pkgs, licenses = b.report()
-        print(b.markdown_license_report())
+        if args.root is None:
+            print(b.markdown_license_report_all())
+        else:
+            b.build(args.root)
+            #pkgs, licenses = b.report()
+            print('\n### License Report for package "%s"\n' % args.root)
+            print(b.markdown_license_report())
 
     except Exception as e:
         print(str(e), file=sys.stderr)
