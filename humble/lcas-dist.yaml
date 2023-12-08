@@ -6,6 +6,18 @@ release_platforms:
   ubuntu:
   - jammy
 repositories:
+  dogtooth_robot:
+    source:
+      type: git
+      url: https://github.com/LCAS/dogtooth_robot.git
+      version:
+    status: developed
+  limo_ros2:
+    source:
+      type: git
+      url: https://github.com/LCAS/limo_ros2.git
+      version:
+    status: developed
   livox_gazebo:
     source:
       type: git
