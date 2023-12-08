@@ -28,17 +28,17 @@ jobs:
         options: -e ORGA_GH_TOKEN=${{ secrets.ORGA_GH_TOKEN }} -e ROS_DISTRO=${{ github.event.inputs.ros_distro}} 
         run: |
           set -x
-          mkdir -p ~/.config
+          set -e
           echo "https://oauth2:${{ secrets.ORGA_GH_TOKEN }}@github.com" > ~/.git-credentials
           git config --global credential.helper store
           git config --global user.name "L-CAS ROS Buildfarm"
           git config --global user.email "marc@hanheide.net"
 
-          git clone -depth 1 https://github.com/LCAS/rosdistro
-          git clone -depth 1 https://github.com/LCAS/rosdistro.wiki
+          git clone --depth 1 https://github.com/LCAS/rosdistro
+          git clone --depth 1 https://github.com/LCAS/rosdistro.wiki
 
           cd rosdistro.wiki
 
           python3 ../rosdistro/scripts/rosdistro_analyser.py -t lcas -d $ROS_DISTRO > $ROS_DISTRO.md
-          git commit -a -m "report update"
+          git commit -a -m "report update" && git push
           git status
