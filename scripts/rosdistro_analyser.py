@@ -224,9 +224,11 @@ class CacheAnalyser:
         return _pkgs
 
     def __checkout(self, url, branch, name, dir):
-        check_call(["git", "clone", '--depth', '1',
+        cmd = ["git", "clone", '--depth', '1', '--single-branch',
             #'--recurse-submodules',
-            '-b', branch, url, name], cwd=dir)
+            '-b', branch, url, name]
+        print('run: %s' % ' '.join(cmd), file=sys.stderr)
+        check_call(cmd, cwd=dir)
 
     def parse_package_xml(self, package):
             xml = self._distro.get_release_package_xml(package)
