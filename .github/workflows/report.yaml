@@ -1,0 +1,44 @@
+name: run reports
+
+on:
+  workflow_dispatch:
+    inputs:
+      ros_distro:
+        type: string
+        required: true
+        default: humble
+        description: "The ROS distro"
+
+run-name: run reports on distribution
+
+jobs:
+
+  report:
+
+    runs-on: ubuntu-latest
+    if: github.repository_owner == 'LCAS'
+
+    steps:
+    - uses: addnab/docker-run-action@v3
+      with:
+        username: lcas
+        password: lincoln
+        registry: lcas.lincoln.ac.uk
+        image: lcas.lincoln.ac.uk/lcas/docker-dpkg-build:master
+        options: -e ORGA_GH_TOKEN=${{ secrets.ORGA_GH_TOKEN }} -e ROS_DISTRO=${{ github.event.inputs.ros_distro}} 
+        run: |
+          set -x
+          mkdir -p ~/.config
+          echo "https://oauth2:${{ secrets.ORGA_GH_TOKEN }}@github.com" > ~/.git-credentials
+          git config --global credential.helper store
+          git config --global user.name "L-CAS ROS Buildfarm"
+          git config --global user.email "marc@hanheide.net"
+
+          git clone -depth 1 https://github.com/LCAS/rosdistro
+          git clone -depth 1 https://github.com/LCAS/rosdistro.wiki
+
+          cd rosdistro.wiki
+
+          python3 ../rosdistro/scripts/rosdistro_analyser.py -t lcas -d $ROS_DISTRO > $ROS_DISTRO.md
+          git commit -a -m "report update"
+          git status
