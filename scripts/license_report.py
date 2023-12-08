@@ -126,6 +126,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description='Generate a license and package report in markdown from a root package.')
     parser.add_argument('--root', default=None, required=False, help='The name of the root package, e.g., "topological_navigation"')
+    parser.add_argument('--distro', default='humble', required=False, help='The ROS-distro, e.g., "humble"')
 
     #parser.add_argument('name', help='The unique name of the repo')
     #parser.add_argument('type', help='The type of the repository (i.e. "git", "hg", "svn")')
@@ -135,7 +136,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     try:
-        b = LicenseReport()
+        b = LicenseReport(distro=args.distro)
         if args.root is None:
             print(b.markdown_license_report_all())
         else:
