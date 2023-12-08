@@ -2,6 +2,10 @@
 name: Generate Cache
 on:
   push:
+    paths-ignore:
+      - 'scripts/**'
+      - '.github/**'
+      - '.devcontainer/**'
     branches: [master]
 
 jobs:
