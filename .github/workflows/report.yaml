@@ -40,5 +40,8 @@ jobs:
           cd rosdistro.wiki
 
           python3 ../rosdistro/scripts/rosdistro_analyser.py -t lcas -d $ROS_DISTRO > $ROS_DISTRO.md
-          git commit -a -m "report update" && git push
+          git add $ROS_DISTRO.md repos-$ROS_DISTRO.pdf
           git status
+          git commit -a -m "report update" 
+          git status
+          git push
