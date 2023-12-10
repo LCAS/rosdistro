@@ -225,10 +225,19 @@ class CacheAnalyser:
 
     def __checkout(self, url, branch, name, dir):
         cmd = ["git", "clone", '--depth', '1', '--single-branch',
+               '--no-checkout','--filter=tree:0',
             #'--recurse-submodules',
             '-b', branch, url, name]
         print('run: %s' % ' '.join(cmd), file=sys.stderr)
         check_call(cmd, cwd=dir)
+        # only checkout package.xml's
+        cmd = ['git', 'sparse-checkout', 'set', '**/package.xml']
+        print('run: %s' % ' '.join(cmd), file=sys.stderr)
+        check_call(cmd, cwd=dir+'/'+name)
+
+        cmd = ['git', 'checkout', branch]
+        print('run: %s' % ' '.join(cmd), file=sys.stderr)
+        check_call(cmd, cwd=dir+'/'+name)
 
     def parse_package_xml(self, package):
             xml = self._distro.get_release_package_xml(package)
