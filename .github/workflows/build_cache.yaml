@@ -7,6 +7,12 @@ on:
     - '.github/**'
     - '.devcontainer/**'
     branches: [master]
+  pull_request:
+    paths-ignore:
+    - 'scripts/**'
+    - '.github/**'
+    - '.devcontainer/**'
+    branches: [master]
 
 jobs:
   generate_cache:
