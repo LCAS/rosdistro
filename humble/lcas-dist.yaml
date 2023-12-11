@@ -6,6 +6,12 @@ release_platforms:
   ubuntu:
   - jammy
 repositories:
+  dogtooth_platform:
+    source:
+      type: git
+      url: https://github.com/LCAS/dogtooth_platform.git
+      version: main
+    status: developed
   dogtooth_robot:
     source:
       type: git
