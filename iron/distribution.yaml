@@ -836,7 +836,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/control_toolbox-release.git
-      version: 3.0.0-2
+      version: 3.2.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
@@ -4178,7 +4178,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/point_cloud_transport-release.git
-      version: 2.0.2-1
+      version: 2.0.3-1
     source:
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
@@ -4199,7 +4199,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/point_cloud_transport_plugins-release.git
-      version: 2.0.2-1
+      version: 2.0.3-1
     source:
       type: git
       url: https://github.com/ros-perception/point_cloud_transport_plugins.git
@@ -5413,7 +5413,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 3.19.1-1
+      version: 3.19.2-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
