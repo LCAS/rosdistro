@@ -3032,6 +3032,16 @@ repositories:
       url: https://github.com/ros-planning/moveit_visual_tools.git
       version: ros2
     status: maintained
+  mp2p_icp:
+    doc:
+      type: git
+      url: https://github.com/MOLAorg/mp2p_icp.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/MOLAorg/mp2p_icp.git
+      version: master
+    status: developed
   mqtt_client:
     doc:
       type: git
@@ -3824,7 +3834,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-release.git
-      version: 3.8.2-1
+      version: 3.8.3-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -3854,7 +3864,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-ros-plugins-release.git
-      version: 1.7.3-5
+      version: 2.0.0-2
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
