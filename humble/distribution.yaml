@@ -720,10 +720,19 @@ repositories:
       type: git
       url: https://github.com/Boeing/gazebo_model_attachment_plugin.git
       version: humble
+    release:
+      packages:
+      - gazebo_model_attachment_plugin
+      - gazebo_model_attachment_plugin_msgs
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/boeing_gazebo_model_attachement_plugin-release.git
+      version: 1.0.3-2
     source:
       type: git
       url: https://github.com/Boeing/gazebo_model_attachment_plugin.git
       version: humble
+    status: maintained
   boeing_gazebo_set_joint_positions_plugin:
     doc:
       type: git
@@ -3693,6 +3702,16 @@ repositories:
       url: https://github.com/MOLAorg/mola.git
       version: develop
     status: developed
+  mola_common:
+    doc:
+      type: git
+      url: https://github.com/MOLAorg/mola_common.git
+      version: develop
+    source:
+      type: git
+      url: https://github.com/MOLAorg/mola_common.git
+      version: develop
+    status: developed
   moveit:
     doc:
       type: git
@@ -4610,7 +4629,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/pal_statistics-release.git
-      version: 2.1.5-1
+      version: 2.2.3-1
     source:
       type: git
       url: https://github.com/pal-robotics/pal_statistics.git
@@ -4625,7 +4644,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/pal_urdf_utils-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/pal-robotics/pal_urdf_utils.git
@@ -5936,7 +5955,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_traffic-release.git
-      version: 3.0.1-1
+      version: 3.0.2-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic.git
@@ -6202,7 +6221,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/robot_localization-release.git
-      version: 3.5.1-2
+      version: 3.5.2-1
     source:
       test_pull_requests: true
       type: git
@@ -8257,7 +8276,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/tiago_simulation-release.git
-      version: 4.0.5-1
+      version: 4.0.6-1
     source:
       type: git
       url: https://github.com/pal-robotics/tiago_simulation.git
