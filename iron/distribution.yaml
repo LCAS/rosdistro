@@ -3023,7 +3023,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/microstrain_inertial-release.git
-      version: 3.1.0-1
+      version: 3.2.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3055,35 +3055,6 @@ repositories:
       type: git
       url: https://github.com/DFKI-NI/mir_robot.git
       version: rolling
-    status: developed
-  mola:
-    doc:
-      type: git
-      url: https://github.com/MOLAorg/mola.git
-      version: develop
-    release:
-      packages:
-      - mola_common
-      - mola_demos
-      - mola_imu_preintegration
-      - mola_input_euroc_dataset
-      - mola_input_kitti_dataset
-      - mola_input_rawlog
-      - mola_input_ros2
-      - mola_kernel
-      - mola_launcher
-      - mola_test_datasets
-      - mola_viz
-      - mola_yaml
-      - mp2p_icp
-      tags:
-        release: release/iron/{package}/{version}
-      url: https://github.com/ros2-gbp/mola-release.git
-      version: 0.2.2-1
-    source:
-      type: git
-      url: https://github.com/MOLAorg/mola.git
-      version: develop
     status: developed
   mola_common:
     doc:
@@ -3206,6 +3177,16 @@ repositories:
       url: https://github.com/ros-planning/moveit_visual_tools.git
       version: ros2
     status: maintained
+  mp2p_icp:
+    doc:
+      type: git
+      url: https://github.com/MOLAorg/mp2p_icp.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/MOLAorg/mp2p_icp.git
+      version: master
+    status: developed
   mqtt_client:
     doc:
       type: git
@@ -3233,7 +3214,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.11.4-1
+      version: 2.11.5-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -4955,7 +4936,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_building_map_msgs-release.git
-      version: 1.3.0-1
+      version: 1.3.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_building_map_msgs.git
@@ -6468,7 +6449,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/RSL-release.git
-      version: 1.0.1-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git
@@ -7597,7 +7578,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/ur_description-release.git
-      version: 2.1.2-1
+      version: 2.1.3-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
