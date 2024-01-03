@@ -1200,6 +1200,12 @@ fxload:
   debian: [fxload]
   fedora: [fxload]
   ubuntu: [fxload]
+g++-10:
+  debian:
+    bullseye: [g++-10]
+  ubuntu:
+    focal: [g++-10]
+    jammy: [g++-10]
 g++-5-arm-linux-gnueabihf:
   ubuntu: [g++-5-arm-linux-gnueabihf]
 g++-5-multilib:
@@ -7424,6 +7430,13 @@ qttools5-dev-tools:
   openembedded: [qttools@meta-qt5]
   rhel: [qt5-qttools-devel]
   ubuntu: [qttools5-dev-tools]
+qtwebengine5-dev:
+  debian: [qtwebengine5-dev]
+  fedora: [qt5-qtwebengine-devel]
+  gentoo: [dev-qt/qtwebengine]
+  nixos: [libsForQt5.qt5.qtwebengine]
+  rhel: [qt5-qtwebengine-devel]
+  ubuntu: [qtwebengine5-dev]
 r-base:
   debian: [r-base]
   fedora: [R]

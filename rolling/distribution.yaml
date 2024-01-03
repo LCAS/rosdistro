@@ -1778,7 +1778,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/swri-robotics/gps_umd.git
-      version: dashing-devel
+      version: ros2-devel
     release:
       packages:
       - gps_msgs
@@ -1793,7 +1793,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/gps_umd.git
-      version: dashing-devel
+      version: ros2-devel
     status: developed
   graph_msgs:
     doc:
@@ -1829,7 +1829,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/flynneva/grbl_ros.git
-      version: devel
+      version: main
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -1838,7 +1838,7 @@ repositories:
     source:
       type: git
       url: https://github.com/flynneva/grbl_ros.git
-      version: devel
+      version: main
     status: maintained
   gscam:
     doc:
@@ -2902,6 +2902,16 @@ repositories:
       url: https://github.com/MOLAorg/mola_common.git
       version: develop
     status: developed
+  motion_capture_tracking:
+    doc:
+      type: git
+      url: https://github.com/IMRCLab/motion_capture_tracking.git
+      version: ros2
+    source:
+      type: git
+      url: https://github.com/IMRCLab/motion_capture_tracking.git
+      version: ros2
+    status: developed
   moveit:
     doc:
       type: git
@@ -3322,7 +3332,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/swri-robotics/novatel_gps_driver.git
-      version: dashing-devel
+      version: ros2-devel
     release:
       packages:
       - novatel_gps_driver
@@ -3334,7 +3344,7 @@ repositories:
     source:
       type: git
       url: https://github.com/swri-robotics/novatel_gps_driver.git
-      version: dashing-devel
+      version: ros2-devel
     status: developed
   ntpd_driver:
     doc:
@@ -6228,7 +6238,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: master
+      version: main
     status: developed
   rviz:
     doc:
