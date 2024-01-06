@@ -1683,12 +1683,13 @@ repositories:
       - etsi_its_denm_msgs
       - etsi_its_messages
       - etsi_its_msgs
+      - etsi_its_msgs_utils
       - etsi_its_primitives_conversion
       - etsi_its_rviz_plugins
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ika-rwth-aachen/etsi_its_messages-release.git
-      version: 1.0.0-2
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/etsi_its_messages.git
@@ -2709,6 +2710,25 @@ repositories:
       url: https://github.com/ros-perception/image_transport_plugins.git
       version: humble
     status: maintained
+  imu_pipeline:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/imu_pipeline.git
+      version: ros2
+    release:
+      packages:
+      - imu_pipeline
+      - imu_processors
+      - imu_transformer
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/imu_pipeline-release.git
+      version: 0.4.1-1
+    source:
+      type: git
+      url: https://github.com/ros-perception/imu_pipeline.git
+      version: ros2
+    status: maintained
   imu_tools:
     doc:
       type: git
@@ -3290,7 +3310,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/boschglobal/locator_ros_bridge.git
-      version: main
+      version: humble
     release:
       packages:
       - bosch_locator_bridge
@@ -3301,7 +3321,7 @@ repositories:
     source:
       type: git
       url: https://github.com/boschglobal/locator_ros_bridge.git
-      version: main
+      version: humble
     status: maintained
   lsc_ros2_driver:
     doc:
@@ -8910,7 +8930,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
-      version: 2.2.9-1
+      version: 2.2.10-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
