@@ -4150,7 +4150,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-release.git
-      version: 3.8.3-1
+      version: 3.8.6-2
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -5715,7 +5715,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/ros_ign-release.git
-      version: 0.247.0-1
+      version: 0.254.0-1
     source:
       test_pull_requests: true
       type: git
@@ -6207,6 +6207,21 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/rqt_console.git
       version: iron
+    status: maintained
+  rqt_gauges:
+    doc:
+      type: git
+      url: https://github.com/ToyotaResearchInstitute/gauges2.git
+      version: main
+    release:
+      tags:
+        release: release/iron/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_gauges-release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://github.com/ToyotaResearchInstitute/gauges2.git
+      version: main
     status: maintained
   rqt_graph:
     doc:
