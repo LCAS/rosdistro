@@ -1424,6 +1424,11 @@ repositories:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_image_transport.git
       version: master
+    release:
+      tags:
+        release: release/iron/{package}/{version}
+      url: https://github.com/ros2-gbp/ffmpeg_image_transport-release.git
+      version: 1.2.0-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_image_transport.git
@@ -1740,6 +1745,7 @@ repositories:
       version: main
     release:
       packages:
+      - cmake_generate_parameter_module_example
       - generate_parameter_library
       - generate_parameter_library_example
       - generate_parameter_library_py
@@ -1748,7 +1754,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/generate_parameter_library-release.git
-      version: 0.3.6-1
+      version: 0.3.7-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
@@ -3335,6 +3341,13 @@ repositories:
       type: git
       url: https://github.com/daviddorf2023/multidim_rrt_planner.git
       version: iron
+    release:
+      packages:
+      - rrt_planner
+      tags:
+        release: release/iron/{package}/{version}
+      url: https://github.com/ros2-gbp/multidim_rrt_planner-release.git
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/daviddorf2023/multidim_rrt_planner.git
@@ -5465,7 +5478,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 3.20.1-1
+      version: 3.20.2-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
