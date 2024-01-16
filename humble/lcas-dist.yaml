@@ -6,6 +6,12 @@ release_platforms:
   ubuntu:
   - jammy
 repositories:
+  bayesian_topological_localisation:
+    source:
+      type: git
+      url: https://github.com/LCAS/bayesian_topological_localisation.git
+      version: humble-dev
+    status: developed
   dogtooth_platform:
     source:
       type: git
@@ -17,6 +23,12 @@ repositories:
       type: git
       url: https://github.com/LCAS/dogtooth_robot.git
       version: main
+    status: developed
+  lcas_teaching:
+    source:
+      type: git
+      url: https://github.com/LCAS/teaching.git
+      version: 2324-devel
     status: developed
   limo_ros2:
     source:
