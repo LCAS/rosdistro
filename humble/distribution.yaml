@@ -942,7 +942,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_common-release.git
-      version: 0.2.5-1
+      version: 0.2.6-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_common.git
@@ -1028,7 +1028,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_simulator-release.git
-      version: 0.2.2-1
+      version: 0.2.3-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_simulator.git
@@ -1839,7 +1839,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/fastrtps-release.git
-      version: 2.6.6-1
+      version: 2.6.7-1
     source:
       test_commits: true
       test_pull_requests: false
@@ -2127,6 +2127,24 @@ repositories:
       url: https://github.com/Boeing/gazebo_model_attachment_plugin.git
       version: humble
     status: maintained
+  gazebo_no_physics_plugin:
+    doc:
+      type: git
+      url: https://github.com/Boeing/gazebo_no_physics_plugin.git
+      version: humble
+    source:
+      type: git
+      url: https://github.com/Boeing/gazebo_no_physics_plugin.git
+      version: humble
+  gazebo_planar_move_plugin:
+    doc:
+      type: git
+      url: https://github.com/Boeing/gazebo_planar_move_plugin.git
+      version: humble
+    source:
+      type: git
+      url: https://github.com/Boeing/gazebo_planar_move_plugin.git
+      version: humble
   gazebo_ros2_control:
     doc:
       type: git
@@ -4746,6 +4764,25 @@ repositories:
       url: https://github.com/pal-robotics/pal_navigation_cfg_public.git
       version: humble-devel
     status: developed
+  pal_robotiq_gripper:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/pal_robotiq_gripper.git
+      version: humble-devel
+    release:
+      packages:
+      - pal_robotiq_controller_configuration
+      - pal_robotiq_description
+      - pal_robotiq_gripper
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/pal-gbp/pal_robotiq_gripper-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/pal-robotics/pal_robotiq_gripper.git
+      version: humble-devel
+    status: developed
   pal_statistics:
     doc:
       type: git
@@ -4990,7 +5027,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-release.git
-      version: 3.8.7-1
+      version: 3.8.8-3
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
