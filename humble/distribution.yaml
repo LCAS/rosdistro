@@ -169,7 +169,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ament_black-release.git
-      version: 0.2.3-1
+      version: 0.2.4-1
     source:
       type: git
       url: https://github.com/botsandus/ament_black.git
@@ -3084,7 +3084,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/launch_pal-release.git
-      version: 0.0.15-1
+      version: 0.0.16-1
     source:
       type: git
       url: https://github.com/pal-robotics/launch_pal.git
@@ -4720,7 +4720,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/pal_gripper-release.git
-      version: 3.0.7-1
+      version: 3.1.0-1
     source:
       type: git
       url: https://github.com/pal-robotics/pal_gripper.git
@@ -4739,7 +4739,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/pal_hey5-release.git
-      version: 4.0.1-1
+      version: 4.1.0-1
     source:
       type: git
       url: https://github.com/pal-robotics/pal_hey5.git
@@ -4821,7 +4821,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/Pangolin-release.git
-      version: 0.9.0-2
+      version: 0.9.1-1
     source:
       type: git
       url: https://github.com/stevenlovegrove/Pangolin.git
@@ -8471,7 +8471,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/tiago_robot-release.git
-      version: 4.0.28-1
+      version: 4.1.2-1
     source:
       type: git
       url: https://github.com/pal-robotics/tiago_robot.git
@@ -8489,7 +8489,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/tiago_simulation-release.git
-      version: 4.0.7-1
+      version: 4.0.8-1
     source:
       type: git
       url: https://github.com/pal-robotics/tiago_simulation.git
