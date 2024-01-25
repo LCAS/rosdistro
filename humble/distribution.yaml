@@ -2157,7 +2157,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/gazebo_ros2_control-release.git
-      version: 0.4.5-1
+      version: 0.4.6-1
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
@@ -2635,7 +2635,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ign_ros2_control-release.git
-      version: 0.7.4-1
+      version: 0.7.5-1
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
@@ -3865,7 +3865,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/motion_capture_tracking-release.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/IMRCLab/motion_capture_tracking.git
@@ -5318,6 +5318,16 @@ repositories:
       url: https://github.com/Simple-Robotics/proxsuite.git
       version: devel
     status: developed
+  psdk_ros2:
+    doc:
+      type: git
+      url: https://github.com/umdlife/psdk_ros2.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/umdlife/psdk_ros2.git
+      version: main
+    status: maintained
   py_trees:
     doc:
       type: git
@@ -6853,7 +6863,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros_ign-release.git
-      version: 0.244.12-1
+      version: 0.244.13-1
     source:
       type: git
       url: https://github.com/gazebosim/ros_gz.git
@@ -8006,7 +8016,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/SteveMacenski/slam_toolbox-release.git
-      version: 2.6.6-1
+      version: 2.6.8-1
     source:
       test_pull_requests: true
       type: git
@@ -9421,7 +9431,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/vision_msgs-release.git
-      version: 4.1.0-1
+      version: 4.1.1-1
     source:
       test_pull_requests: true
       type: git
