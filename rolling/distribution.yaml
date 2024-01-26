@@ -904,12 +904,31 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/cyclonedds-release.git
-      version: 0.10.3-1
+      version: 0.10.4-1
     source:
       type: git
       url: https://github.com/eclipse-cyclonedds/cyclonedds.git
       version: releases/0.10.x
     status: maintained
+  data_tamer:
+    doc:
+      type: git
+      url: https://github.com/PickNikRobotics/data_tamer.git
+      version: main
+    release:
+      packages:
+      - data_tamer_cpp
+      - data_tamer_msgs
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/data_tamer-release.git
+      version: 0.9.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/PickNikRobotics/data_tamer.git
+      version: main
+    status: developed
   demos:
     doc:
       type: git
@@ -7751,7 +7770,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/xacro-release.git
-      version: 2.0.9-2
+      version: 2.0.10-1
     source:
       type: git
       url: https://github.com/ros/xacro.git
