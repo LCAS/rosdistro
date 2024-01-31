@@ -358,6 +358,16 @@ repositories:
       url: https://github.com/AprilRobotics/apriltag.git
       version: master
     status: maintained
+  apriltag_detector:
+    doc:
+      type: git
+      url: https://github.com/ros-misc-utilities/apriltag_detector.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ros-misc-utilities/apriltag_detector.git
+      version: master
+    status: developed
   apriltag_msgs:
     release:
       tags:
@@ -3391,12 +3401,10 @@ repositories:
       url: https://github.com/daviddorf2023/multidim_rrt_planner.git
       version: iron
     release:
-      packages:
-      - rrt_planner
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/multidim_rrt_planner-release.git
-      version: 0.0.4-1
+      version: 0.0.6-1
     source:
       type: git
       url: https://github.com/daviddorf2023/multidim_rrt_planner.git
