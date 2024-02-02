@@ -824,6 +824,11 @@ repositories:
       type: git
       url: https://github.com/tier4/caret_analyze_cpp_impl.git
       version: main
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/caret_analyze_cpp_impl-release.git
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/tier4/caret_analyze_cpp_impl.git
@@ -834,6 +839,14 @@ repositories:
       type: git
       url: https://github.com/tier4/caret_trace.git
       version: main
+    release:
+      packages:
+      - caret_msgs
+      - caret_trace
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/caret_trace-release.git
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/tier4/caret_trace.git
@@ -1310,7 +1323,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/data_tamer-release.git
-      version: 0.9.2-1
+      version: 0.9.3-2
     source:
       type: git
       url: https://github.com/PickNikRobotics/data_tamer.git
@@ -2622,6 +2635,21 @@ repositories:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
       version: devel
+    status: developed
+  hri_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros4hri/hri_msgs.git
+      version: humble-devel
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros4hri/hri_msgs-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros4hri/hri_msgs.git
+      version: humble-devel
     status: developed
   iceoryx:
     release:
@@ -4657,7 +4685,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-drivers/openni2_camera.git
-      version: ros2
+      version: iron
     release:
       tags:
         release: release/humble/{package}/{version}
@@ -4666,7 +4694,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/openni2_camera.git
-      version: ros2
+      version: iron
     status: maintained
   orocos_kdl_vendor:
     release:

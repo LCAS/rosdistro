@@ -3585,6 +3585,15 @@ repositories:
       url: https://github.com/gstavrinos/odom_to_tf_ros2.git
       version: master
     status: maintained
+  odri_master_board:
+    release:
+      packages:
+      - odri_master_board_sdk
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/odri_master_board_sdk-release.git
+      version: 1.0.6-3
+    status: maintained
   odri_master_board_sdk:
     doc:
       type: git
@@ -5217,6 +5226,7 @@ repositories:
       - controller_manager
       - controller_manager_msgs
       - hardware_interface
+      - hardware_interface_testing
       - joint_limits
       - ros2_control
       - ros2_control_test_assets
@@ -5226,7 +5236,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.3.0-1
+      version: 4.4.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -5263,7 +5273,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 4.4.0-1
+      version: 4.5.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
