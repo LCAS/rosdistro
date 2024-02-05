@@ -30,6 +30,12 @@ repositories:
       url: https://github.com/LCAS/teaching.git
       version: 2324-devel
     status: developed
+  libfranka_lcas:
+    source:
+      type: git
+      url: https://github.com/LCAS/libfranka.git
+      version: lcas_0.9.2
+    status: maintained
   limo_ros2:
     source:
       type: git
