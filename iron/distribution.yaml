@@ -3,8 +3,6 @@
 # see REP 143: http://ros.org/reps/rep-0143.html
 ---
 release_platforms:
-  debian:
-  - bullseye
   rhel:
   - '9'
   ubuntu:
@@ -523,7 +521,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/nobleo/azure-iot-sdk-c-release.git
-      version: 1.10.1-4
+      version: 1.12.0-1
     source:
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
@@ -3132,6 +3130,16 @@ repositories:
       url: https://github.com/DFKI-NI/mir_robot.git
       version: rolling
     status: developed
+  mola:
+    doc:
+      type: git
+      url: https://github.com/MOLAorg/mola.git
+      version: develop
+    source:
+      type: git
+      url: https://github.com/MOLAorg/mola.git
+      version: develop
+    status: developed
   mola_common:
     doc:
       type: git
@@ -3300,7 +3308,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.1.0-1
+      version: 1.1.1-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -3333,7 +3341,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.11.7-1
+      version: 2.11.8-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -3413,7 +3421,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/multidim_rrt_planner-release.git
-      version: 0.0.6-1
+      version: 0.0.7-3
     source:
       type: git
       url: https://github.com/daviddorf2023/multidim_rrt_planner.git
@@ -4195,7 +4203,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-drivers/phidgets_drivers.git
-      version: rolling
+      version: iron
     status: maintained
   pick_ik:
     doc:
@@ -8159,7 +8167,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/vrpn_mocap-release.git
-      version: 1.0.3-3
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/alvinsunyixiao/vrpn_mocap.git

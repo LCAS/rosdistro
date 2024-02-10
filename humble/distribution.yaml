@@ -845,7 +845,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/caret_trace-release.git
-      version: 0.5.0-2
+      version: 0.5.0-4
     source:
       type: git
       url: https://github.com/tier4/caret_trace.git
@@ -4684,6 +4684,16 @@ repositories:
       url: https://github.com/gstavrinos/odom_to_tf_ros2.git
       version: master
     status: maintained
+  off_highway_sensor_drivers:
+    doc:
+      type: git
+      url: https://github.com/bosch-engineering/off_highway_sensor_drivers.git
+      version: humble-devel
+    source:
+      type: git
+      url: https://github.com/bosch-engineering/off_highway_sensor_drivers.git
+      version: humble-devel
+    status: maintained
   ompl:
     release:
       tags:
@@ -5051,7 +5061,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-drivers/phidgets_drivers.git
-      version: rolling
+      version: humble
     status: maintained
   pick_ik:
     doc:
@@ -9632,7 +9642,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/vrpn_mocap-release.git
-      version: 1.0.4-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/alvinsunyixiao/vrpn_mocap.git
