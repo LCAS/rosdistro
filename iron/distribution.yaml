@@ -603,7 +603,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/bno055-release.git
-      version: 0.4.1-4
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/flynneva/bno055.git
@@ -4298,16 +4298,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
-      version: rolling
+      version: main
     release:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-ros-plugins-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
-      version: rolling
+      version: main
     status: developed
   pluginlib:
     doc:
@@ -4373,7 +4373,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/point_cloud_transport_plugins-release.git
-      version: 2.0.3-1
+      version: 2.0.4-1
     source:
       type: git
       url: https://github.com/ros-perception/point_cloud_transport_plugins.git
@@ -6341,7 +6341,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_gauges-release.git
-      version: 0.0.1-1
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/ToyotaResearchInstitute/gauges2.git

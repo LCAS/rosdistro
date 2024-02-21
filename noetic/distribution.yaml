@@ -707,7 +707,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/care-o-bot-release.git
-      version: 0.7.10-1
+      version: 0.7.11-1
     source:
       type: git
       url: https://github.com/ipa320/care-o-bot.git
@@ -1024,7 +1024,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_android-release.git
-      version: 0.1.10-1
+      version: 0.1.11-1
     source:
       type: git
       url: https://github.com/ipa320/cob_android.git
@@ -1039,7 +1039,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_calibration_data-release.git
-      version: 0.6.18-1
+      version: 0.6.19-1
     source:
       type: git
       url: https://github.com/ipa320/cob_calibration_data.git
@@ -1048,7 +1048,7 @@ repositories:
   cob_command_tools:
     doc:
       type: git
-      url: https://github.com/ipa320/cob_command_tools.git
+      url: https://github.com/4am-robotics/cob_command_tools.git
       version: indigo_release_candidate
     release:
       packages:
@@ -1056,7 +1056,6 @@ repositories:
       - cob_command_tools
       - cob_dashboard
       - cob_helper_tools
-      - cob_interactive_teleop
       - cob_monitoring
       - cob_script_server
       - cob_teleop
@@ -1065,17 +1064,17 @@ repositories:
       - service_tools
       tags:
         release: release/noetic/{package}/{version}
-      url: https://github.com/ipa320/cob_command_tools-release.git
-      version: 0.6.33-1
+      url: https://github.com/4am-robotics/cob_command_tools-release.git
+      version: 0.6.34-1
     source:
       type: git
-      url: https://github.com/ipa320/cob_command_tools.git
+      url: https://github.com/4am-robotics/cob_command_tools.git
       version: indigo_dev
     status: maintained
   cob_common:
     doc:
       type: git
-      url: https://github.com/ipa320/cob_common.git
+      url: https://github.com/4am-robotics/cob_common.git
       version: kinetic_release_candidate
     release:
       packages:
@@ -1087,17 +1086,17 @@ repositories:
       - raw_description
       tags:
         release: release/noetic/{package}/{version}
-      url: https://github.com/ipa320/cob_common-release.git
-      version: 0.7.9-1
+      url: https://github.com/4am-robotics/cob_common-release.git
+      version: 0.7.10-1
     source:
       type: git
-      url: https://github.com/ipa320/cob_common.git
+      url: https://github.com/4am-robotics/cob_common.git
       version: kinetic_dev
     status: maintained
   cob_control:
     doc:
       type: git
-      url: https://github.com/ipa320/cob_control.git
+      url: https://github.com/4am-robotics/cob_control.git
       version: melodic_release_candidate
     release:
       packages:
@@ -1120,17 +1119,17 @@ repositories:
       - cob_twist_controller
       tags:
         release: release/noetic/{package}/{version}
-      url: https://github.com/ipa320/cob_control-release.git
-      version: 0.8.22-1
+      url: https://github.com/4am-robotics/cob_control-release.git
+      version: 0.8.23-1
     source:
       type: git
-      url: https://github.com/ipa320/cob_control.git
+      url: https://github.com/4am-robotics/cob_control.git
       version: melodic_dev
     status: maintained
   cob_driver:
     doc:
       type: git
-      url: https://github.com/ipa320/cob_driver.git
+      url: https://github.com/4am-robotics/cob_driver.git
       version: kinetic_release_candidate
     release:
       packages:
@@ -1156,11 +1155,11 @@ repositories:
       - laser_scan_densifier
       tags:
         release: release/noetic/{package}/{version}
-      url: https://github.com/ipa320/cob_driver-release.git
-      version: 0.7.15-1
+      url: https://github.com/4am-robotics/cob_driver-release.git
+      version: 0.7.16-2
     source:
       type: git
-      url: https://github.com/ipa320/cob_driver.git
+      url: https://github.com/4am-robotics/cob_driver.git
       version: kinetic_dev
     status: maintained
   cob_environments:
@@ -1175,7 +1174,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_environments-release.git
-      version: 0.6.13-1
+      version: 0.6.14-1
     source:
       type: git
       url: https://github.com/ipa320/cob_environments.git
@@ -1197,7 +1196,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_extern-release.git
-      version: 0.6.18-1
+      version: 0.6.19-1
     source:
       type: git
       url: https://github.com/ipa320/cob_extern.git
@@ -1215,7 +1214,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_gazebo_plugins-release.git
-      version: 0.7.7-1
+      version: 0.7.8-1
     source:
       type: git
       url: https://github.com/ipa320/cob_gazebo_plugins.git
@@ -1233,7 +1232,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_hand-release.git
-      version: 0.6.10-1
+      version: 0.6.11-1
     source:
       type: git
       url: https://github.com/ipa320/cob_hand.git
@@ -1256,7 +1255,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_manipulation-release.git
-      version: 0.7.8-1
+      version: 0.7.9-1
     source:
       type: git
       url: https://github.com/ipa320/cob_manipulation.git
@@ -1280,7 +1279,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_navigation-release.git
-      version: 0.6.14-1
+      version: 0.6.15-1
     source:
       type: git
       url: https://github.com/ipa320/cob_navigation.git
@@ -1305,7 +1304,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_perception_common-release.git
-      version: 0.6.19-1
+      version: 0.6.20-1
     source:
       type: git
       url: https://github.com/ipa320/cob_perception_common.git
@@ -1327,7 +1326,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_robots-release.git
-      version: 0.7.9-1
+      version: 0.7.10-1
     source:
       type: git
       url: https://github.com/ipa320/cob_robots.git
@@ -1349,7 +1348,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_simulation-release.git
-      version: 0.7.7-1
+      version: 0.7.8-1
     source:
       type: git
       url: https://github.com/ipa320/cob_simulation.git
@@ -1370,7 +1369,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_substitute-release.git
-      version: 0.6.12-1
+      version: 0.6.13-1
     source:
       type: git
       url: https://github.com/ipa320/cob_substitute.git
@@ -1385,7 +1384,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_supported_robots-release.git
-      version: 0.6.17-1
+      version: 0.6.18-1
     source:
       type: git
       url: https://github.com/ipa320/cob_supported_robots.git
@@ -7638,7 +7637,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.9.0-1
+      version: 3.9.1-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -7663,16 +7662,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
-      version: development
+      version: main
     release:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins-release.git
-      version: 2.1.0-1
+      version: 2.1.1-2
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
-      version: development
+      version: main
     status: developed
   pluginlib:
     doc:
