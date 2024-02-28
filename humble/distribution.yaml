@@ -1385,7 +1385,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/DataspeedInc-release/dbw_ros-release.git
-      version: 2.1.8-1
+      version: 2.1.9-1
     source:
       type: git
       url: https://bitbucket.org/dataspeedinc/dbw_ros.git
@@ -2014,7 +2014,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros-drivers-gbp/flir_camera_driver-release.git
-      version: 2.0.8-2
+      version: 2.0.8-3
     source:
       type: git
       url: https://github.com/ros-drivers/flir_camera_driver.git
@@ -6855,7 +6855,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros2caret-release.git
-      version: 0.5.0-2
+      version: 0.5.0-6
     source:
       type: git
       url: https://github.com/tier4/ros2caret.git
@@ -9204,7 +9204,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_Client_Library-release.git
-      version: 1.3.4-1
+      version: 1.3.5-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
