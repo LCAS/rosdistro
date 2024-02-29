@@ -1726,7 +1726,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.fel.cvut.cz/cras/ros-release/ros-utils.git
-      version: 2.3.8-1
+      version: 2.3.9-1
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
@@ -2610,7 +2610,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ika-rwth-aachen/etsi_its_messages-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/etsi_its_messages.git
@@ -5440,6 +5440,7 @@ repositories:
       type: git
       url: https://github.com/apl-ocean-engineering/marine_msgs.git
       version: main
+    status: maintained
   marker_msgs:
     doc:
       type: git
