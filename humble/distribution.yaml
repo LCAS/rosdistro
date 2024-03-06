@@ -2632,6 +2632,16 @@ repositories:
       url: https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
       version: rolling-devel
     status: developed
+  homing_local_planner:
+    doc:
+      type: git
+      url: https://github.com/zengxiaolei/homing_local_planner.git
+      version: humble-devel
+    source:
+      type: git
+      url: https://github.com/zengxiaolei/homing_local_planner.git
+      version: humble-devel
+    status: developed
   hpp-fcl:
     doc:
       type: git
@@ -4094,7 +4104,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.11.9-1
+      version: 2.11.11-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -4140,6 +4150,16 @@ repositories:
       url: https://github.com/MRPT/mrpt_path_planning.git
       version: develop
     status: developed
+  mrpt_sensors:
+    doc:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
+      version: ros2
+    source:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
+      version: ros2
+    status: developed
   mrt_cmake_modules:
     doc:
       type: git
@@ -4164,7 +4184,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.9.0-1
+      version: 0.9.1-1
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
