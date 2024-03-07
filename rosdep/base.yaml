@@ -2667,6 +2667,7 @@ libboost-date-time:
     bionic: [libboost-date-time1.65.1]
     focal: [libboost-date-time1.71.0]
     jammy: [libboost-date-time1.74.0]
+    noble: [libboost-date-time1.83.0]
 libboost-date-time-dev:
   debian: [libboost-date-time-dev]
   fedora: [boost-devel]
@@ -2802,6 +2803,7 @@ libboost-python:
     bionic: [libboost-python1.65.1]
     focal: [libboost-python1.71.0]
     jammy: [libboost-python1.74.0]
+    noble: [libboost-python1.83.0]
 libboost-python-dev:
   alpine: [boost-python2]
   debian: [libboost-python-dev]
@@ -2829,6 +2831,7 @@ libboost-random:
     bionic: [libboost-random1.65.1]
     focal: [libboost-random1.71.0]
     jammy: [libboost-random1.74.0]
+    noble: [libboost-random1.83.0]
 libboost-random-dev:
   debian: [libboost-random-dev]
   fedora: [boost-devel]
@@ -2922,6 +2925,7 @@ libboost-thread:
     bionic: [libboost-thread1.65.1]
     focal: [libboost-thread1.71.0]
     jammy: [libboost-thread1.74.0]
+    noble: [libboost-thread1.83.0]
 libboost-thread-dev:
   debian: [libboost-thread-dev]
   fedora: [boost-devel]
@@ -4698,6 +4702,9 @@ libpaho-mqtt-dev:
     bionic: null
     focal: null
 libpaho-mqttpp:
+  debian:
+    '*': [libpaho-mqttpp3-1]
+    bullseye: null
   nixos: [paho-mqtt-cpp]
   openembedded: [paho-mqtt-cpp@meta-oe]
   ubuntu:
@@ -4705,6 +4712,9 @@ libpaho-mqttpp:
     bionic: null
     focal: null
 libpaho-mqttpp-dev:
+  debian:
+    '*': [libpaho-mqttpp-dev]
+    bullseye: null
   nixos: [paho-mqtt-cpp]
   openembedded: [paho-mqtt-cpp@meta-oe]
   ubuntu:
@@ -4741,6 +4751,7 @@ libpcl-all:
     bionic: [libpcl-apps1.8, libpcl-common1.8, libpcl-features1.8, libpcl-filters1.8, libpcl-io1.8, libpcl-kdtree1.8, libpcl-keypoints1.8, libpcl-ml1.8, libpcl-octree1.8, libpcl-outofcore1.8, libpcl-people1.8, libpcl-recognition1.8, libpcl-registration1.8, libpcl-sample-consensus1.8, libpcl-search1.8, libpcl-segmentation1.8, libpcl-stereo1.8, libpcl-surface1.8, libpcl-tracking1.8, libpcl-visualization1.8]
     focal: [libpcl-apps1.10, libpcl-common1.10, libpcl-features1.10, libpcl-filters1.10, libpcl-io1.10, libpcl-kdtree1.10, libpcl-keypoints1.10, libpcl-ml1.10, libpcl-octree1.10, libpcl-outofcore1.10, libpcl-people1.10, libpcl-recognition1.10, libpcl-registration1.10, libpcl-sample-consensus1.10, libpcl-search1.10, libpcl-segmentation1.10, libpcl-stereo1.10, libpcl-surface1.10, libpcl-tracking1.10, libpcl-visualization1.10]
     jammy: [libpcl-apps1.12, libpcl-common1.12, libpcl-features1.12, libpcl-filters1.12, libpcl-io1.12, libpcl-kdtree1.12, libpcl-keypoints1.12, libpcl-ml1.12, libpcl-octree1.12, libpcl-outofcore1.12, libpcl-people1.12, libpcl-recognition1.12, libpcl-registration1.12, libpcl-sample-consensus1.12, libpcl-search1.12, libpcl-segmentation1.12, libpcl-stereo1.12, libpcl-surface1.12, libpcl-tracking1.12, libpcl-visualization1.12]
+    noble: [libpcl-apps1.13, libpcl-common1.13, libpcl-features1.13, libpcl-filters1.13, libpcl-io1.13, libpcl-kdtree1.13, libpcl-keypoints1.13, libpcl-ml1.13, libpcl-octree1.13, libpcl-outofcore1.13, libpcl-people1.13, libpcl-recognition1.13, libpcl-registration1.13, libpcl-sample-consensus1.13, libpcl-search1.13, libpcl-segmentation1.13, libpcl-stereo1.13, libpcl-surface1.13, libpcl-tracking1.13, libpcl-visualization1.13]
 libpcl-all-dev:
   arch: [pcl]
   debian: [libpcl-dev]
