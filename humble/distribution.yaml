@@ -458,7 +458,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag-release.git
-      version: 3.2.0-2
+      version: 3.4.0-1
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
@@ -1898,7 +1898,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ffmpeg_image_transport-release.git
-      version: 1.1.0-1
+      version: 1.1.1-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_image_transport.git
@@ -1918,6 +1918,16 @@ repositories:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_image_transport_msgs.git
       version: master
+    status: developed
+  ffmpeg_image_transport_tools:
+    doc:
+      type: git
+      url: https://github.com/ros-misc-utilities/ffmpeg_image_transport_tools.git
+      version: humble
+    source:
+      type: git
+      url: https://github.com/ros-misc-utilities/ffmpeg_image_transport_tools.git
+      version: humble
     status: developed
   fields2cover:
     doc:
@@ -2293,13 +2303,16 @@ repositories:
       version: main
     release:
       packages:
+      - cmake_generate_parameter_module_example
       - generate_parameter_library
+      - generate_parameter_library_example
       - generate_parameter_library_py
+      - generate_parameter_module_example
       - parameter_traits
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/generate_parameter_library-release.git
-      version: 0.3.7-1
+      version: 0.3.8-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
@@ -3369,7 +3382,7 @@ repositories:
   libpointmatcher:
     doc:
       type: git
-      url: https://github.com/ethz-asl/libpointmatcher.git
+      url: https://github.com/norlab-ulaval/libpointmatcher.git
       version: master
     release:
       tags:
@@ -3378,7 +3391,7 @@ repositories:
       version: 1.3.1-3
     source:
       type: git
-      url: https://github.com/ethz-asl/libpointmatcher.git
+      url: https://github.com/norlab-ulaval/libpointmatcher.git
       version: master
     status: maintained
   librealsense2:
@@ -4071,7 +4084,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.2.0-1
+      version: 1.3.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -4104,7 +4117,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.11.11-1
+      version: 2.11.12-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -9215,6 +9228,11 @@ repositories:
       url: https://github.com/ros2/unique_identifier_msgs.git
       version: humble
     status: maintained
+  unitree_ros:
+    source:
+      type: git
+      url: https://github.com/snt-arg/unitree_ros.git
+      version: main
   ur_client_library:
     doc:
       type: git
