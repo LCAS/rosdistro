@@ -351,7 +351,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag-release.git
-      version: 3.2.0-6
+      version: 3.4.0-1
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
@@ -361,7 +361,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-misc-utilities/apriltag_detector.git
-      version: master
+      version: rolling
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -370,7 +370,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-misc-utilities/apriltag_detector.git
-      version: master
+      version: rolling
     status: developed
   apriltag_msgs:
     release:
@@ -1274,7 +1274,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-event-camera/event_camera_codecs.git
-      version: master
+      version: rolling
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -1283,13 +1283,13 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_codecs.git
-      version: master
+      version: rolling
     status: developed
   event_camera_msgs:
     doc:
       type: git
       url: https://github.com/ros-event-camera/event_camera_msgs.git
-      version: master
+      version: rolling
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -1298,13 +1298,13 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_msgs.git
-      version: master
+      version: rolling
     status: developed
   event_camera_py:
     doc:
       type: git
       url: https://github.com/ros-event-camera/event_camera_py.git
-      version: master
+      version: rolling
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -1313,13 +1313,13 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_py.git
-      version: master
+      version: rolling
     status: developed
   event_camera_renderer:
     doc:
       type: git
       url: https://github.com/ros-event-camera/event_camera_renderer.git
-      version: master
+      version: rolling
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -1328,7 +1328,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_renderer.git
-      version: master
+      version: rolling
     status: developed
   example_interfaces:
     doc:
@@ -1419,7 +1419,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_image_transport.git
-      version: master
+      version: rolling
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -1428,13 +1428,13 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_image_transport.git
-      version: master
+      version: rolling
     status: developed
   ffmpeg_image_transport_msgs:
     doc:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_image_transport_msgs.git
-      version: master
+      version: rolling
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -1443,7 +1443,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_image_transport_msgs.git
-      version: master
+      version: rolling
     status: developed
   fields2cover:
     release:
@@ -1461,7 +1461,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/filters-release.git
-      version: 2.1.0-5
+      version: 2.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1700,13 +1700,16 @@ repositories:
       version: main
     release:
       packages:
+      - cmake_generate_parameter_module_example
       - generate_parameter_library
+      - generate_parameter_library_example
       - generate_parameter_library_py
+      - generate_parameter_module_example
       - parameter_traits
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/generate_parameter_library-release.git
-      version: 0.3.7-3
+      version: 0.3.8-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
@@ -2603,7 +2606,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-event-camera/libcaer_driver.git
-      version: master
+      version: rolling
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -2612,7 +2615,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/libcaer_driver.git
-      version: master
+      version: rolling
     status: developed
   libg2o:
     release:
@@ -2890,7 +2893,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-event-camera/metavision_driver.git
-      version: master
+      version: rolling
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -2899,7 +2902,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/metavision_driver.git
-      version: master
+      version: rolling
     status: developed
   micro_ros_diagnostics:
     doc:
@@ -3900,7 +3903,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/phidgets_drivers-release.git
-      version: 2.3.2-2
+      version: 2.3.3-1
     source:
       test_pull_requests: true
       type: git
@@ -4402,6 +4405,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rc_dynamics_api-release.git
+      version: 0.10.5-1
     source:
       test_pull_requests: true
       type: git
@@ -4417,7 +4421,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rc_genicam_api-release.git
-      version: 2.6.1-3
+      version: 2.6.5-1
     source:
       test_pull_requests: true
       type: git
@@ -4468,7 +4472,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcdiscover-release.git
-      version: 1.1.6-3
+      version: 1.1.7-1
     source:
       test_pull_requests: true
       type: git
@@ -4868,7 +4872,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_ros2-release.git
-      version: 2.5.0-2
+      version: 2.6.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
@@ -5255,7 +5259,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.5.0-2
+      version: 4.6.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -6023,7 +6027,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_gauges-release.git
-      version: 0.0.2-2
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/ToyotaResearchInstitute/gauges2.git
@@ -7742,20 +7746,6 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/warehouse_ros.git
-      version: ros2
-    status: maintained
-  warehouse_ros_mongo:
-    doc:
-      type: git
-      url: https://github.com/ros-planning/warehouse_ros_mongo.git
-      version: ros2
-    release:
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/warehouse_ros_mongo-release.git
-    source:
-      type: git
-      url: https://github.com/ros-planning/warehouse_ros_mongo.git
       version: ros2
     status: maintained
   warehouse_ros_sqlite:
