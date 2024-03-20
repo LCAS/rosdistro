@@ -1328,13 +1328,18 @@ gdal-bin:
   nixos: [gdal]
   ubuntu: [gdal-bin]
 geographiclib:
-  debian: [libgeographic-dev]
+  debian:
+    '*': [libgeographiclib-dev]
+    bullseye: [libgeographic-dev]
   fedora: [GeographicLib-devel]
   gentoo: [sci-geosciences/GeographicLib]
   nixos: [geographiclib]
   openembedded: [geographiclib@meta-ros-common]
   rhel: [GeographicLib-devel]
-  ubuntu: [libgeographic-dev]
+  ubuntu:
+    '*': [libgeographiclib-dev]
+    focal: [libgeographic-dev]
+    jammy: [libgeographic-dev]
 geographiclib-tools:
   debian: [geographiclib-tools]
   fedora: [GeographicLib]
@@ -7421,6 +7426,15 @@ pybind11-dev:
     '*': [pybind11-devel]
     '7': null
   ubuntu: [pybind11-dev]
+pybind11-json-dev:
+  debian: [pybind11-json-dev]
+  fedora:
+    '*': [pybind11-json-devel]
+    '38': null
+  rhel: [pybind11-json-devel]
+  ubuntu:
+    '*': [pybind11-json-dev]
+    focal: null
 python-dev:
   debian: [python-dev]
   fedora: [python2-devel]
