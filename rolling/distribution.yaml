@@ -1926,6 +1926,114 @@ repositories:
       url: https://github.com/borglab/gtsam.git
       version: develop
     status: developed
+  gz_cmake_vendor:
+    doc:
+      type: git
+      url: https://github.com/gazebo-release/gz_cmake_vendor.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/gazebo-release/gz_cmake_vendor.git
+      version: rolling
+  gz_common_vendor:
+    doc:
+      type: git
+      url: https://github.com/gazebo-release/gz_common_vendor.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/gazebo-release/gz_common_vendor.git
+      version: rolling
+  gz_dartsim_vendor:
+    doc:
+      type: git
+      url: https://github.com/gazebo-release/gz_dartsim_vendor.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/gazebo-release/gz_dartsim_vendor.git
+      version: rolling
+  gz_fuel_tools_vendor:
+    doc:
+      type: git
+      url: https://github.com/gazebo-release/gz_fuel_tools_vendor.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/gazebo-release/gz_fuel_tools_vendor.git
+      version: rolling
+  gz_gui_vendor:
+    doc:
+      type: git
+      url: https://github.com/gazebo-release/gz_gui_vendor.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/gazebo-release/gz_gui_vendor.git
+      version: rolling
+  gz_launch_vendor:
+    doc:
+      type: git
+      url: https://github.com/gazebo-release/gz_launch_vendor.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/gazebo-release/gz_launch_vendor.git
+      version: rolling
+  gz_math_vendor:
+    doc:
+      type: git
+      url: https://github.com/gazebo-release/gz_math_vendor.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/gazebo-release/gz_math_vendor.git
+      version: rolling
+  gz_msgs_vendor:
+    doc:
+      type: git
+      url: https://github.com/gazebo-release/gz_msgs_vendor.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/gazebo-release/gz_msgs_vendor.git
+      version: rolling
+  gz_ogre_next_vendor:
+    doc:
+      type: git
+      url: https://github.com/gazebo-release/gz_ogre_next_vendor.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/gazebo-release/gz_ogre_next_vendor.git
+      version: rolling
+  gz_physics_vendor:
+    doc:
+      type: git
+      url: https://github.com/gazebo-release/gz_physics_vendor.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/gazebo-release/gz_physics_vendor.git
+      version: rolling
+  gz_plugin_vendor:
+    doc:
+      type: git
+      url: https://github.com/gazebo-release/gz_plugin_vendor.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/gazebo-release/gz_plugin_vendor.git
+      version: rolling
+  gz_rendering_vendor:
+    doc:
+      type: git
+      url: https://github.com/gazebo-release/gz_rendering_vendor.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/gazebo-release/gz_rendering_vendor.git
+      version: rolling
   gz_ros2_control:
     doc:
       type: git
@@ -1938,11 +2046,57 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ign_ros2_control-release.git
+      version: 1.2.2-1
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
       version: master
     status: maintained
+  gz_sensors_vendor:
+    doc:
+      type: git
+      url: https://github.com/gazebo-release/gz_sensors_vendor.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/gazebo-release/gz_sensors_vendor.git
+      version: rolling
+  gz_sim_vendor:
+    doc:
+      type: git
+      url: https://github.com/gazebo-release/gz_sim_vendor.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/gazebo-release/gz_sim_vendor.git
+      version: rolling
+  gz_tools_vendor:
+    doc:
+      type: git
+      url: https://github.com/gazebo-release/gz_tools_vendor.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/gazebo-release/gz_tools_vendor.git
+      version: rolling
+  gz_transport_vendor:
+    doc:
+      type: git
+      url: https://github.com/gazebo-release/gz_transport_vendor.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/gazebo-release/gz_transport_vendor.git
+      version: rolling
+  gz_utils_vendor:
+    doc:
+      type: git
+      url: https://github.com/gazebo-release/gz_utils_vendor.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/gazebo-release/gz_utils_vendor.git
+      version: rolling
   hash_library_vendor:
     doc:
       type: git
@@ -3268,7 +3422,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_path_planning-release.git
-      version: 0.1.0-2
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
@@ -3308,7 +3462,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.9.1-1
+      version: 0.9.2-1
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
@@ -6495,6 +6649,15 @@ repositories:
       url: https://github.com/ros/sdformat_urdf.git
       version: ros2
     status: maintained
+  sdformat_vendor:
+    doc:
+      type: git
+      url: https://github.com/gazebo-release/sdformat_vendor.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/gazebo-release/sdformat_vendor.git
+      version: rolling
   septentrio_gnss_driver:
     doc:
       type: git
