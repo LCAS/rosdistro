@@ -6447,7 +6447,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
-      version: 0.9.1-2
+      version: 0.9.2-1
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
@@ -6664,7 +6664,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.17.0-1
+      version: 0.17.1-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -6937,7 +6937,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/octomap_mapping-release.git
-      version: 0.6.7-1
+      version: 0.6.8-1
     source:
       type: git
       url: https://github.com/OctoMap/octomap_mapping.git
@@ -13128,7 +13128,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/openspur/yp-spur-release.git
-      version: 1.20.2-1
+      version: 1.21.0-1
     source:
       type: git
       url: https://github.com/openspur/yp-spur.git
