@@ -2242,7 +2242,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/image_common-release.git
-      version: 4.2.3-1
+      version: 4.2.4-1
     source:
       test_pull_requests: true
       type: git
@@ -2268,7 +2268,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/image_pipeline-release.git
-      version: 4.0.0-1
+      version: 4.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -4407,7 +4407,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/point_cloud_transport-release.git
-      version: 2.0.4-1
+      version: 2.0.5-1
     source:
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
@@ -6810,7 +6810,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/rviz-release.git
-      version: 12.4.6-1
+      version: 12.4.7-1
     source:
       test_pull_requests: true
       type: git
@@ -7004,7 +7004,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/simple_launch-release.git
-      version: 1.9.1-1
+      version: 1.9.2-1
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
@@ -7786,10 +7786,20 @@ repositories:
       version: iron
     status: maintained
   unitree_ros:
+    doc:
+      type: git
+      url: https://github.com/snt-arg/unitree_ros.git
+      version: main
+    release:
+      tags:
+        release: release/iron/{package}/{version}
+      url: https://github.com/ros2-gbp/unitree_ros-release.git
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/snt-arg/unitree_ros.git
       version: main
+    status: developed
   ur_client_library:
     doc:
       type: git
