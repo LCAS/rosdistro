@@ -3460,6 +3460,17 @@ repositories:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
       version: ros2
+    release:
+      packages:
+      - mrpt_generic_sensor
+      - mrpt_sensor_bumblebee_stereo
+      - mrpt_sensor_gnns_nmea
+      - mrpt_sensorlib
+      - mrpt_sensors
+      tags:
+        release: release/iron/{package}/{version}
+      url: https://github.com/ros2-gbp/mrpt_sensors-release.git
+      version: 0.1.0-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
@@ -4003,24 +4014,6 @@ repositories:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/ompl-release.git
       version: 1.5.2-4
-  opennav_coverage:
-    release:
-      packages:
-      - opennav_coverage
-      - opennav_coverage_bt
-      - opennav_coverage_demo
-      - opennav_coverage_msgs
-      - opennav_coverage_navigator
-      - opennav_row_coverage
-      tags:
-        release: release/iron/{package}/{version}
-      url: https://github.com/open-navigation/opennav_coverage-release.git
-      version: 0.0.1-1
-    source:
-      type: git
-      url: https://github.com/open-navigation/opennav_coverage.git
-      version: iron
-    status: developed
   openni2_camera:
     doc:
       type: git
@@ -5220,7 +5213,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_internal_msgs-release.git
-      version: 3.1.1-1
+      version: 3.1.2-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_internal_msgs.git
@@ -5282,7 +5275,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_task-release.git
-      version: 2.2.4-1
+      version: 2.2.5-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_task.git
@@ -5376,7 +5369,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_visualization-release.git
-      version: 2.1.1-1
+      version: 2.1.2-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_visualization.git
