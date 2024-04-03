@@ -24,6 +24,12 @@ repositories:
       url: https://github.com/LCAS/dogtooth_robot.git
       version: main
     status: developed
+  hunter_ros2:
+    source:
+      type: git
+      url: https://github.com/LCAS/hunter_ros2.git
+      version: master
+    status: maintained
   lcas_teaching:
     source:
       type: git
@@ -83,6 +89,12 @@ repositories:
       url: https://github.com/LCAS/topological_navigation.git
       version: humble-dev
     status: developed
+  ugv_sdk_ros2:
+    source:
+      type: git
+      url: https://github.com/LCAS/ugv_sdk.git
+      version: main
+    status: maintained
 tags:
 - lcas
 type: distribution
