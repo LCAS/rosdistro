@@ -90,6 +90,13 @@ repositories:
       version: humble-dev
     status: developed
   ugv_sdk_ros2:
+    release:
+      packages:
+      - ugv_sdk
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/lcas-releases/ugv_sdk.git
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/LCAS/ugv_sdk.git
