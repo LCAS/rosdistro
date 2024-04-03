@@ -25,6 +25,14 @@ repositories:
       version: main
     status: developed
   hunter_ros2:
+    release:
+      packages:
+      - hunter_base
+      - hunter_msgs
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/lcas-releases/hunter_ros2.git
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/LCAS/hunter_ros2.git
