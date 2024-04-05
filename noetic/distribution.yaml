@@ -531,7 +531,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/blackcoffeerobotics/bcr_bot-release.git
-      version: 0.0.1-4
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/blackcoffeerobotics/bcr_bot.git
@@ -7231,6 +7231,17 @@ repositories:
       type: git
       url: https://github.com/tork-a/openrtm_aist-release.git
       version: release/melodic/openrtm_aist
+    status: maintained
+  openrtm_aist_python:
+    doc:
+      type: git
+      url: https://github.com/tork-a/openrtm_aist_python-release.git
+      version: release/noetic/openrtm_aist_python
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/tork-a/openrtm_aist_python-release.git
+      version: 1.1.0-5
     status: maintained
   openslam_gmapping:
     doc:
