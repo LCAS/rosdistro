@@ -406,7 +406,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/aruco_opencv-release.git
-      version: 4.1.1-2
+      version: 4.2.0-1
     source:
       type: git
       url: https://github.com/fictionlab/ros_aruco_opencv.git
@@ -1464,7 +1464,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fields2cover-release.git
-      version: 1.2.1-5
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
@@ -1756,7 +1756,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/geographic_info-release.git
-      version: 1.0.5-2
+      version: 1.0.6-1
     source:
       test_pull_requests: true
       type: git
@@ -3172,7 +3172,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/microstrain_inertial-release.git
-      version: 4.1.0-1
+      version: 4.2.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3442,7 +3442,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.12.0-2
+      version: 2.12.1-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -4103,7 +4103,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/perception_pcl-release.git
-      version: 2.4.0-5
+      version: 2.6.1-2
     source:
       test_pull_requests: true
       type: git
@@ -6672,7 +6672,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rviz-release.git
-      version: 13.4.2-1
+      version: 14.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -7609,7 +7609,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ur_description-release.git
-      version: 2.2.4-2
+      version: 2.2.5-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
@@ -7646,7 +7646,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
-      version: 2.4.3-2
+      version: 2.4.4-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
