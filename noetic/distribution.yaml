@@ -7226,7 +7226,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/openrtm_aist-release.git
-      version: 1.1.2-4
+      version: 1.1.2-5
     source:
       type: git
       url: https://github.com/tork-a/openrtm_aist-release.git
@@ -10816,6 +10816,21 @@ repositories:
     source:
       type: git
       url: https://github.com/gbiggs/rtctree.git
+      version: master
+    status: maintained
+  rtshell:
+    doc:
+      type: git
+      url: https://github.com/gbiggs/rtshell.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/tork-a/rtshell-release.git
+      version: 3.0.1-2
+    source:
+      type: git
+      url: https://github.com/gbiggs/rtshell.git
       version: master
     status: maintained
   rtsprofile:
