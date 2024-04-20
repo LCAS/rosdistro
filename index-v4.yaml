@@ -81,6 +81,12 @@ distributions:
     distribution_status: end-of-life
     distribution_type: ros1
     python_version: 2
+  jazzy:
+    distribution: [jazzy/distribution.yaml]
+    distribution_cache: http://repo.ros2.org/rosdistro_cache/jazzy-cache.yaml.gz
+    distribution_status: pre-release
+    distribution_type: ros2
+    python_version: 3
   kinetic:
     distribution: [kinetic/distribution.yaml, kinetic/lcas-dist.yaml]
     distribution_cache: http://lcas.lincoln.ac.uk/rosdistro_cache/kinetic-cache.yaml.gz
