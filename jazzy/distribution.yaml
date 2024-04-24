@@ -3581,7 +3581,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/nao_button_sim-release.git
-      version: 1.0.0-3
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ijnek/nao_button_sim.git
@@ -6751,7 +6751,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/sdformat_urdf.git
-      version: ros2
+      version: jazzy
     release:
       packages:
       - sdformat_test_files
@@ -6759,11 +6759,12 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/sdformat_urdf-release.git
+      version: 1.0.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/sdformat_urdf.git
-      version: ros2
+      version: jazzy
     status: maintained
   sdformat_vendor:
     doc:
@@ -6933,21 +6934,6 @@ repositories:
       url: https://github.com/ros-sports/soccer_interfaces.git
       version: rolling
     status: developed
-  soccer_object_msgs:
-    doc:
-      type: git
-      url: https://github.com/ijnek/soccer_object_msgs.git
-      version: rolling
-    release:
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/soccer_object_msgs-release.git
-      version: 1.1.0-4
-    source:
-      type: git
-      url: https://github.com/ijnek/soccer_object_msgs.git
-      version: rolling
-    status: developed
   soccer_vision_3d_rviz_markers:
     doc:
       type: git
@@ -6961,23 +6947,6 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/soccer_vision_3d_rviz_markers.git
-      version: rolling
-    status: developed
-  soccer_visualization:
-    doc:
-      type: git
-      url: https://github.com/ijnek/soccer_visualization.git
-      version: rolling
-    release:
-      packages:
-      - soccer_marker_generation
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/soccer_visualization-release.git
-      version: 0.1.0-4
-    source:
-      type: git
-      url: https://github.com/ijnek/soccer_visualization.git
       version: rolling
     status: developed
   sol_vendor:
@@ -8138,10 +8107,13 @@ repositories:
       url: https://github.com/ros-drivers/zbar_ros.git
       version: ros2
     release:
+      packages:
+      - zbar_ros
+      - zbar_ros_interfaces
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/zbar_ros-release.git
-      version: 0.5.0-2
+      version: 0.6.0-1
     source:
       type: git
       url: https://github.com/ros-drivers/zbar_ros.git
