@@ -1956,7 +1956,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/gz_cmake_vendor-release.git
-      version: 0.0.6-2
+      version: 0.0.7-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_cmake_vendor.git
@@ -1971,7 +1971,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/gz_common_vendor-release.git
-      version: 0.0.3-1
+      version: 0.0.4-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_common_vendor.git
@@ -2001,7 +2001,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/gz_fuel_tools_vendor-release.git
-      version: 0.0.2-1
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_fuel_tools_vendor.git
@@ -2016,7 +2016,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/gz_gui_vendor-release.git
-      version: 0.0.2-1
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_gui_vendor.git
@@ -2031,7 +2031,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/gz_launch_vendor-release.git
-      version: 0.0.2-1
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_launch_vendor.git
@@ -2046,7 +2046,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/gz_math_vendor-release.git
-      version: 0.0.4-2
+      version: 0.0.5-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_math_vendor.git
@@ -2061,7 +2061,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/gz_msgs_vendor-release.git
-      version: 0.0.2-2
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_msgs_vendor.git
@@ -2076,7 +2076,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/gz_ogre_next_vendor-release.git
-      version: 0.0.3-1
+      version: 0.0.4-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_ogre_next_vendor.git
@@ -2091,7 +2091,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/gz_physics_vendor-release.git
-      version: 0.0.2-2
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_physics_vendor.git
@@ -2106,7 +2106,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/gz_plugin_vendor-release.git
-      version: 0.0.3-2
+      version: 0.0.4-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_plugin_vendor.git
@@ -2121,7 +2121,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/gz_rendering_vendor-release.git
-      version: 0.0.2-1
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_rendering_vendor.git
@@ -2153,7 +2153,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/gz_sensors_vendor-release.git
-      version: 0.0.2-1
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_sensors_vendor.git
@@ -2168,7 +2168,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/gz_sim_vendor-release.git
-      version: 0.0.2-1
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_sim_vendor.git
@@ -2183,7 +2183,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/gz_tools_vendor-release.git
-      version: 0.0.3-1
+      version: 0.0.4-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_tools_vendor.git
@@ -2198,7 +2198,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/gz_transport_vendor-release.git
-      version: 0.0.3-2
+      version: 0.0.4-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_transport_vendor.git
@@ -2213,7 +2213,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/gz_utils_vendor-release.git
-      version: 0.0.3-2
+      version: 0.0.4-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_utils_vendor.git
@@ -6775,7 +6775,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/sdformat_vendor-release.git
-      version: 0.0.3-2
+      version: 0.0.4-1
     source:
       type: git
       url: https://github.com/gazebo-release/sdformat_vendor.git
@@ -7347,8 +7347,8 @@ repositories:
   tracetools_analysis:
     doc:
       type: git
-      url: https://gitlab.com/ros-tracing/tracetools_analysis.git
-      version: master
+      url: https://github.com/ros-tracing/tracetools_analysis.git
+      version: jazzy
     release:
       packages:
       - ros2trace_analysis
@@ -7359,8 +7359,8 @@ repositories:
       version: 3.0.0-6
     source:
       type: git
-      url: https://gitlab.com/ros-tracing/tracetools_analysis.git
-      version: master
+      url: https://github.com/ros-tracing/tracetools_analysis.git
+      version: jazzy
     status: developed
   transport_drivers:
     doc:
