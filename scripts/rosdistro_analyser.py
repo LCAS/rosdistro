@@ -464,7 +464,7 @@ class CacheAnalyser:
                 '_Dependency Graph (download as [PDF](repos-%s.pdf), download as [PNG](repos-%s.png))_\n'
                 '[![repos](repos-%s.svg)](repos-%s.svg)' %
                 (
-                    self._distro_name, self._distro_name, self._distro_name, self._distro_name
+                    self._distro_name, self._distro_name, self._distro_name, self._distro_name, self._distro_name
                     )
                 )
 
