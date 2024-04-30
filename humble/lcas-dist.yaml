@@ -6,6 +6,18 @@ release_platforms:
   ubuntu:
   - jammy
 repositories:
+  aoc_navigation:
+    source:
+      type: git
+      url: https://github.com/LCAS/aoc_navigation.git
+      version: humble-dev
+    status: developed
+  aoc_tomato_farm:
+    source:
+      type: git
+      url: https://github.com/LCAS/aoc_tomato_farm.git
+      version: main
+    status: developed
   bayesian_topological_localisation:
     source:
       type: git
@@ -22,6 +34,24 @@ repositories:
     source:
       type: git
       url: https://github.com/LCAS/dogtooth_robot.git
+      version: main
+    status: developed
+  flir_camera_driver:
+    source:
+      type: git
+      url: https://github.com/LCAS/flir_camera_driver.git
+      version: humble-devel
+    status: maintained
+  human_detection_rgbd_camera:
+    source:
+      type: git
+      url: https://github.com/LCAS/human_detection_rgbd_camera.git
+      version: main
+    status: developed
+  hunter_platform:
+    source:
+      type: git
+      url: https://github.com/LCAS/hunter_platform.git
       version: main
     status: developed
   hunter_robot:
@@ -115,6 +145,12 @@ repositories:
       type: git
       url: https://github.com/LCAS/ugv_sdk.git
       version: main
+    status: maintained
+  zed_ros2_wrapper:
+    source:
+      type: git
+      url: https://github.com/LCAS/zed-ros2-wrapper.git
+      version: master
     status: maintained
 tags:
 - lcas
