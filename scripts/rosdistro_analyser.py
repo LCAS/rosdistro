@@ -262,10 +262,11 @@ class CacheAnalyser:
         dot = pgv.AGraph(label="<<B>Dependency Graph of Repositories</B>>",
                          directed=True,
                          strict=True,
-                         size=16,
                          splines='true',
                          compound=True,
-                         ratio='auto',
+                         ratio='expand',
+                         size='15,9!',
+                         dpi='600',
                          rankdir='tb',
                          concentrate=True)
         released = dot.add_subgraph(name='released')
@@ -516,9 +517,9 @@ def main():
         ca.write(args.write)
     dot = ca.generate_graph()
     dot.layout(prog='dot')
-    dot.draw('repos-%s.svg' % args.distro, args="-Gdpi=96")
+    dot.draw('repos-%s.svg' % args.distro)
     dot.draw('repos-%s.pdf' % args.distro)
-    dot.draw('repos-%s.png' % args.distro, args="-Gdpi=96")
+    dot.draw('repos-%s.png' % args.distro)
 
     print(ca.preamble())
     print(ca.generate_markdown_repos())
