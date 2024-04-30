@@ -40,6 +40,11 @@ jobs:
           cd rosdistro.wiki
 
           python3 ../rosdistro/scripts/rosdistro_analyser.py -t lcas -d $ROS_DISTRO > $ROS_DISTRO.md
+
+          # remove viewbox
+          cat repos-$ROS_DISTRO.svg | sed -s 's/viewBox="[^"]*" //' > /tmp/repos.svg
+          mv /tmp/repos.svg repos-$ROS_DISTRO.svg
+
           python3 ../rosdistro/scripts/license_report.py --distro $ROS_DISTRO > license-report-$ROS_DISTRO.md
           git add license-report-$ROS_DISTRO.md $ROS_DISTRO.md repos-$ROS_DISTRO.*
           git status
