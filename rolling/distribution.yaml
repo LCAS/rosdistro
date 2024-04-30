@@ -6735,7 +6735,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rviz-release.git
-      version: 14.1.0-1
+      version: 14.2.0-1
     source:
       test_pull_requests: true
       type: git
@@ -7012,7 +7012,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/spdlog_vendor-release.git
-      version: 1.6.0-1
+      version: 1.7.0-1
     source:
       test_pull_requests: true
       type: git
@@ -7046,7 +7046,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/sros2-release.git
-      version: 0.13.0-2
+      version: 0.14.0-1
     source:
       test_pull_requests: true
       type: git
@@ -7215,7 +7215,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/test_interface_files-release.git
-      version: 0.11.0-2
+      version: 0.12.0-1
     source:
       test_pull_requests: true
       type: git
@@ -7278,7 +7278,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/tinyxml2_vendor-release.git
-      version: 0.9.1-2
+      version: 0.10.0-1
     source:
       test_pull_requests: true
       type: git
@@ -7306,7 +7306,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/tlsf-release.git
-      version: 0.9.0-2
+      version: 0.10.0-1
     source:
       test_pull_requests: true
       type: git
@@ -7612,7 +7612,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/unique_identifier_msgs-release.git
-      version: 2.5.0-2
+      version: 2.6.0-2
     source:
       test_pull_requests: true
       type: git
@@ -7698,7 +7698,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/urdf-release.git
-      version: 2.10.0-2
+      version: 2.11.0-1
     source:
       test_pull_requests: true
       type: git
@@ -8122,7 +8122,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/yaml_cpp_vendor-release.git
-      version: 9.0.0-1
+      version: 9.1.0-1
     source:
       test_pull_requests: true
       type: git

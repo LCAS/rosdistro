@@ -607,7 +607,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/behaviortree_cpp_v4-release.git
-      version: 4.5.1-3
+      version: 4.6.0-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
@@ -1671,6 +1671,31 @@ repositories:
       url: https://github.com/locusrobotics/fuse.git
       version: rolling
     status: maintained
+  game_controller_spl:
+    doc:
+      type: git
+      url: https://github.com/ros-sports/game_controller_spl.git
+      version: rolling
+    release:
+      packages:
+      - game_controller_spl
+      - game_controller_spl_interfaces
+      - gc_spl
+      - gc_spl_2022
+      - gc_spl_interfaces
+      - rcgcd_spl_14
+      - rcgcd_spl_14_conversion
+      - rcgcrd_spl_4
+      - rcgcrd_spl_4_conversion
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/game_controller_spl-release.git
+      version: 4.0.1-1
+    source:
+      type: git
+      url: https://github.com/ros-sports/game_controller_spl.git
+      version: rolling
+    status: developed
   gazebo_ros2_control:
     doc:
       type: git
@@ -1688,31 +1713,6 @@ repositories:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
       version: master
-    status: developed
-  gc_spl:
-    doc:
-      type: git
-      url: https://github.com/ros-sports/gc_spl.git
-      version: rolling
-    release:
-      packages:
-      - game_controller_spl
-      - game_controller_spl_interfaces
-      - gc_spl
-      - gc_spl_2022
-      - gc_spl_interfaces
-      - rcgcd_spl_14
-      - rcgcd_spl_14_conversion
-      - rcgcrd_spl_4
-      - rcgcrd_spl_4_conversion
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/gc_spl-release.git
-      version: 4.0.0-3
-    source:
-      type: git
-      url: https://github.com/ros-sports/gc_spl.git
-      version: rolling
     status: developed
   generate_parameter_library:
     doc:
@@ -2821,6 +2821,26 @@ repositories:
       type: git
       url: https://github.com/LeoRover/leo_robot-ros2.git
       version: rolling
+    status: maintained
+  leo_simulator:
+    doc:
+      type: git
+      url: https://github.com/LeoRover/leo_simulator-ros2.git
+      version: jazzy
+    release:
+      packages:
+      - leo_gz_bringup
+      - leo_gz_plugins
+      - leo_gz_worlds
+      - leo_simulator
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/leo_simulator-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/LeoRover/leo_simulator-ros2.git
+      version: jazzy
     status: maintained
   lgsvl_msgs:
     release:
@@ -5821,15 +5841,11 @@ repositories:
       - ros_gz_interfaces
       - ros_gz_sim
       - ros_gz_sim_demos
-      - ros_ign
-      - ros_ign_bridge
-      - ros_ign_gazebo
-      - ros_ign_gazebo_demos
-      - ros_ign_image
-      - ros_ign_interfaces
+      - test_ros_gz_bridge
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ros_ign-release.git
+      version: 1.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -7615,7 +7631,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ur_description-release.git
-      version: 2.2.5-2
+      version: 2.4.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
@@ -8105,7 +8121,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-drivers/zbar_ros.git
-      version: ros2
+      version: jazzy
     release:
       packages:
       - zbar_ros
@@ -8117,7 +8133,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/zbar_ros.git
-      version: ros2
+      version: jazzy
     status: maintained
   zenoh_bridge_dds:
     doc:
