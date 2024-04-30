@@ -265,7 +265,7 @@ class CacheAnalyser:
                          size=16,
                          splines='true',
                          compound=True,
-                         ratio='expand',
+                         ratio='auto',
                          rankdir='tb',
                          concentrate=True)
         released = dot.add_subgraph(name='released')
@@ -516,9 +516,9 @@ def main():
         ca.write(args.write)
     dot = ca.generate_graph()
     dot.layout(prog='dot')
-    dot.draw('repos-%s.svg' % args.distro, args="-Gsize=15,9! -Gratio=fill")
+    dot.draw('repos-%s.svg' % args.distro, args="-Gdpi=96")
     dot.draw('repos-%s.pdf' % args.distro)
-    dot.draw('repos-%s.png' % args.distro, args="-Gsize=15,9! -Gratio=fill")
+    dot.draw('repos-%s.png' % args.distro, args="-Gdpi=96")
 
     print(ca.preamble())
     print(ca.generate_markdown_repos())
