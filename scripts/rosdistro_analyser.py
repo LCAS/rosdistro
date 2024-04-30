@@ -20,7 +20,7 @@ from tempfile import mkdtemp
 from logging import info, basicConfig, exception, warning, INFO
 
 import xml.etree.ElementTree as ET
-from subprocess import check_call
+from subprocess import check_call, DEVNULL
 from os.path import join
 from copy import copy
 from catkin_pkg import topological_order
@@ -229,15 +229,15 @@ class CacheAnalyser:
             #'--recurse-submodules',
             '-b', branch, url, name]
         print('run: %s' % ' '.join(cmd), file=sys.stderr)
-        check_call(cmd, cwd=dir)
+        check_call(cmd, cwd=dir, stderr=DEVNULL, stdout=DEVNULL)
         # only checkout package.xml's
         cmd = ['git', 'sparse-checkout', 'set', '**/package.xml']
         print('run: %s' % ' '.join(cmd), file=sys.stderr)
-        check_call(cmd, cwd=dir+'/'+name)
+        check_call(cmd, cwd=dir+'/'+name, stderr=DEVNULL, stdout=DEVNULL)
 
         cmd = ['git', 'checkout', branch]
         print('run: %s' % ' '.join(cmd), file=sys.stderr)
-        check_call(cmd, cwd=dir+'/'+name)
+        check_call(cmd, cwd=dir+'/'+name, stderr=DEVNULL, stdout=DEVNULL)
 
     def parse_package_xml(self, package):
             xml = self._distro.get_release_package_xml(package)
