@@ -517,6 +517,12 @@ repositories:
       url: https://github.com/autowarefoundation/autoware_cmake.git
       version: rolling
     status: developed
+  autoware_utils:
+    source:
+      type: git
+      url: https://github.com/autowarefoundation/autoware_utils.git
+      version: rolling
+    status: developed
   avt_vimba_camera:
     doc:
       type: git
@@ -1657,7 +1663,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: rolling
+      version: jazzy
     release:
       packages:
       - fuse
@@ -1676,12 +1682,12 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/fuse-release.git
-      version: 1.0.1-4
+      version: 1.1.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: rolling
+      version: jazzy
     status: maintained
   game_controller_spl:
     doc:
@@ -1968,7 +1974,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/gz_cmake_vendor-release.git
-      version: 0.0.7-1
+      version: 0.0.8-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_cmake_vendor.git
@@ -4155,8 +4161,9 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/perception_open3d-release.git
-      version: 0.1.2-1
     source:
+      test_commits: false
+      test_pull_requests: false
       type: git
       url: https://github.com/ros-perception/perception_open3d.git
       version: ros2
