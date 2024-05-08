@@ -610,6 +610,14 @@ repositories:
       version: master
     status: maintained
   autoware_adapi_msgs:
+    release:
+      packages:
+      - autoware_adapi_v1_msgs
+      - autoware_adapi_version_msgs
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/autoware_adapi_msgs-release.git
+      version: 1.2.1-1
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
@@ -631,6 +639,14 @@ repositories:
       version: master
     status: developed
   autoware_cmake:
+    release:
+      packages:
+      - autoware_cmake
+      - autoware_lint_common
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/autoware_cmake-release.git
+      version: 1.0.0-2
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_cmake.git
@@ -2510,7 +2526,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/gps_umd-release.git
-      version: 2.0.3-1
+      version: 2.0.4-1
     source:
       test_pull_requests: true
       type: git
@@ -4405,6 +4421,11 @@ repositories:
       type: git
       url: https://github.com/yukkysaito/multiple_topic_monitor.git
       version: humble
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/multiple_topic_monitor-release.git
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/yukkysaito/multiple_topic_monitor.git
