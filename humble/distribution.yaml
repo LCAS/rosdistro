@@ -653,6 +653,11 @@ repositories:
       version: rolling
     status: developed
   autoware_utils:
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/autoware_utils-release.git
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_utils.git
@@ -3344,7 +3349,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/launch_pal-release.git
-      version: 0.1.4-1
+      version: 0.1.6-1
     source:
       type: git
       url: https://github.com/pal-robotics/launch_pal.git
@@ -4425,7 +4430,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/multiple_topic_monitor-release.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/yukkysaito/multiple_topic_monitor.git
