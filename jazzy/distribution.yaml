@@ -351,7 +351,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag-release.git
-      version: 3.2.0-7
+      version: 3.4.1-1
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
@@ -1022,7 +1022,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/demos-release.git
-      version: 0.33.2-2
+      version: 0.33.3-1
     source:
       test_pull_requests: true
       type: git
@@ -1517,7 +1517,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/fields2cover-release.git
-      version: 2.0.0-4
+      version: 2.0.0-6
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
@@ -1834,7 +1834,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/geometry2-release.git
-      version: 0.36.2-2
+      version: 0.36.3-1
     source:
       test_pull_requests: true
       type: git
@@ -2818,7 +2818,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/leo_common-release.git
-      version: 3.0.2-1
+      version: 3.0.3-1
     source:
       type: git
       url: https://github.com/LeoRover/leo_common-ros2.git
@@ -2920,6 +2920,16 @@ repositories:
       type: git
       url: https://github.com/ros-event-camera/libcaer_driver.git
       version: rolling
+    status: developed
+  libcaer_vendor:
+    doc:
+      type: git
+      url: https://github.com/ros-event-camera/libcaer_vendor.git
+      version: jazzy
+    source:
+      type: git
+      url: https://github.com/ros-event-camera/libcaer_vendor.git
+      version: jazzy
     status: developed
   libg2o:
     release:
@@ -4039,7 +4049,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/orocos_kdl_vendor-release.git
-      version: 0.5.0-3
+      version: 0.5.1-2
     source:
       test_pull_requests: true
       type: git
@@ -4642,7 +4652,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/python_qt_binding-release.git
-      version: 2.2.0-2
+      version: 2.2.1-1
     source:
       test_pull_requests: true
       type: git
@@ -4852,7 +4862,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/rcl-release.git
-      version: 9.2.2-1
+      version: 9.2.3-1
     source:
       test_pull_requests: true
       type: git
@@ -4952,7 +4962,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 28.1.1-1
+      version: 28.1.2-1
     source:
       test_pull_requests: true
       type: git
@@ -5098,7 +5108,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/resource_retriever-release.git
-      version: 3.4.1-2
+      version: 3.4.2-2
     source:
       test_pull_requests: true
       type: git
@@ -5433,7 +5443,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_cyclonedds-release.git
-      version: 2.2.0-2
+      version: 2.2.1-1
     source:
       test_pull_requests: true
       type: git
@@ -5521,7 +5531,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/robot_calibration-release.git
-      version: 0.8.1-3
+      version: 0.9.0-1
     source:
       type: git
       url: https://github.com/mikeferguson/robot_calibration.git
@@ -5689,7 +5699,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_ouster_drivers-release.git
-      version: 0.5.1-4
+      version: 0.5.1-5
     source:
       test_pull_requests: true
       type: git
@@ -5797,7 +5807,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ros2cli-release.git
-      version: 0.32.0-2
+      version: 0.32.1-1
     source:
       test_pull_requests: true
       type: git
@@ -5942,7 +5952,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ros_tutorials-release.git
-      version: 1.8.2-2
+      version: 1.8.3-1
     source:
       test_pull_requests: true
       type: git
@@ -6055,7 +6065,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl-release.git
-      version: 4.6.1-1
+      version: 4.6.2-1
     source:
       test_pull_requests: true
       type: git
@@ -6762,7 +6772,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/rviz-release.git
-      version: 14.1.0-2
+      version: 14.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -7039,7 +7049,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/spdlog_vendor-release.git
-      version: 1.6.0-2
+      version: 1.6.1-1
     source:
       test_pull_requests: true
       type: git

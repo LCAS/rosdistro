@@ -351,7 +351,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag-release.git
-      version: 3.2.0-6
+      version: 3.4.1-1
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
@@ -363,10 +363,15 @@ repositories:
       url: https://github.com/ros-misc-utilities/apriltag_detector.git
       version: rolling
     release:
+      packages:
+      - apriltag_detector
+      - apriltag_detector_mit
+      - apriltag_detector_umich
+      - apriltag_draw
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag_detector-release.git
-      version: 1.0.0-2
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/apriltag_detector.git
@@ -1538,7 +1543,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fields2cover-release.git
-      version: 2.0.0-8
+      version: 2.0.0-12
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
@@ -2840,7 +2845,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/leo_common-release.git
-      version: 3.0.2-1
+      version: 3.0.3-1
     source:
       type: git
       url: https://github.com/LeoRover/leo_common-ros2.git
@@ -2941,6 +2946,16 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/libcaer_driver.git
+      version: rolling
+    status: developed
+  libcaer_vendor:
+    doc:
+      type: git
+      url: https://github.com/ros-event-camera/libcaer_vendor.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/ros-event-camera/libcaer_vendor.git
       version: rolling
     status: developed
   libg2o:

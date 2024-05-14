@@ -362,10 +362,15 @@ repositories:
       url: https://github.com/ros-misc-utilities/apriltag_detector.git
       version: iron
     release:
+      packages:
+      - apriltag_detector
+      - apriltag_detector_mit
+      - apriltag_detector_umich
+      - apriltag_draw
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag_detector-release.git
-      version: 1.2.1-1
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/apriltag_detector.git
@@ -412,7 +417,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/fictionlab/ros_aruco_opencv.git
-      version: rolling
+      version: iron
     release:
       packages:
       - aruco_opencv
@@ -424,7 +429,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fictionlab/ros_aruco_opencv.git
-      version: rolling
+      version: iron
     status: maintained
   async_web_server_cpp:
     doc:
@@ -1531,7 +1536,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/fields2cover-release.git
-      version: 2.0.0-6
+      version: 2.0.0-9
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
@@ -2711,7 +2716,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/leo_common-release.git
-      version: 2.0.2-1
+      version: 2.0.3-1
     source:
       type: git
       url: https://github.com/LeoRover/leo_common-ros2.git
@@ -2812,6 +2817,16 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/libcaer_driver.git
+      version: iron
+    status: developed
+  libcaer_vendor:
+    doc:
+      type: git
+      url: https://github.com/ros-event-camera/libcaer_vendor.git
+      version: iron
+    source:
+      type: git
+      url: https://github.com/ros-event-camera/libcaer_vendor.git
       version: iron
     status: developed
   libcreate:
