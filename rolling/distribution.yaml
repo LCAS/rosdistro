@@ -351,7 +351,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag-release.git
-      version: 3.4.1-1
+      version: 3.4.2-1
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
@@ -431,6 +431,25 @@ repositories:
       type: git
       url: https://github.com/fictionlab/ros_aruco_opencv.git
       version: rolling
+    status: maintained
+  aruco_ros:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/aruco_ros.git
+      version: humble-devel
+    release:
+      packages:
+      - aruco
+      - aruco_msgs
+      - aruco_ros
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/pal-gbp/aruco_ros-release.git
+      version: 5.0.5-1
+    source:
+      type: git
+      url: https://github.com/pal-robotics/aruco_ros.git
+      version: humble-devel
     status: maintained
   astuff_sensor_msgs:
     doc:
@@ -1543,7 +1562,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fields2cover-release.git
-      version: 2.0.0-12
+      version: 2.0.0-13
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
@@ -2204,7 +2223,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ign_ros2_control-release.git
-      version: 1.2.2-1
+      version: 1.3.0-1
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
@@ -3365,7 +3384,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 1.0.3-1
+      version: 1.0.4-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
@@ -4448,7 +4467,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/point_cloud_transport-release.git
-      version: 4.1.0-1
+      version: 5.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5660,7 +5679,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.10.0-1
+      version: 4.11.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -5697,7 +5716,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 4.7.0-1
+      version: 4.8.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -5737,7 +5756,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_ouster_drivers-release.git
-      version: 0.5.1-3
+      version: 0.5.1-4
     source:
       test_pull_requests: true
       type: git

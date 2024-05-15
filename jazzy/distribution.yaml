@@ -351,7 +351,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag-release.git
-      version: 3.4.1-1
+      version: 3.4.2-1
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
@@ -421,6 +421,25 @@ repositories:
       type: git
       url: https://github.com/fictionlab/ros_aruco_opencv.git
       version: jazzy
+    status: maintained
+  aruco_ros:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/aruco_ros.git
+      version: humble-devel
+    release:
+      packages:
+      - aruco
+      - aruco_msgs
+      - aruco_ros
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/pal-gbp/aruco_ros-release.git
+      version: 5.0.5-1
+    source:
+      type: git
+      url: https://github.com/pal-robotics/aruco_ros.git
+      version: humble-devel
     status: maintained
   astuff_sensor_msgs:
     doc:
@@ -651,6 +670,16 @@ repositories:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
       version: master
+    status: developed
+  beluga:
+    doc:
+      type: git
+      url: https://github.com/Ekumen-OS/beluga.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/Ekumen-OS/beluga.git
+      version: main
     status: developed
   bno055:
     doc:
@@ -1517,7 +1546,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/fields2cover-release.git
-      version: 2.0.0-6
+      version: 2.0.0-8
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
@@ -2170,7 +2199,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: master
+      version: jazzy
     release:
       packages:
       - gz_ros2_control
@@ -2178,10 +2207,11 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ign_ros2_control-release.git
+      version: 1.2.3-1
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: master
+      version: jazzy
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -5623,7 +5653,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.10.0-1
+      version: 4.11.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -5660,7 +5690,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 4.7.0-2
+      version: 4.8.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git

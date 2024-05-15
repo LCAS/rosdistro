@@ -465,6 +465,13 @@ pyqt5-dev-tools:
   openembedded: ['${PYTHON_PN}-pyqt5@meta-qt5']
   rhel: [python3-qt5-devel]
   ubuntu: [pyqt5-dev-tools]
+pyqt6-dev-tools:
+  debian: [pyqt6-dev-tools]
+  fedora: [python3-pyqt6-base]
+  ubuntu:
+    '*': [pyqt6-dev-tools]
+    focal: null
+    jammy: null
 pyrebase-pip:
   debian:
     pip:
@@ -7610,6 +7617,11 @@ python3-pil:
     slackpkg:
       packages: [python3-pillow]
   ubuntu: [python3-pil]
+python3-pil-imagetk:
+  debian: [python3-pil.imagetk]
+  fedora: [python3-pillow-tk]
+  rhel: [python3-pillow-tk]
+  ubuntu: [python3-pil.imagetk]
 python3-pip:
   alpine: [py3-pip]
   debian: [python3-pip]
@@ -9947,6 +9959,10 @@ python3-yolov5:
   ubuntu:
     pip:
       packages: [yolov5]
+python3-yourdfpy-pip:
+  '*':
+    pip:
+      packages: [yourdfpy]
 python3-zmq:
   arch: [python-pyzmq]
   debian: [python3-zmq]
