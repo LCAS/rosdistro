@@ -4051,6 +4051,16 @@ repositories:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ompl-release.git
       version: 1.5.2-4
+  openeb_vendor:
+    doc:
+      type: git
+      url: https://github.com/ros-event-camera/openeb_vendor.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/ros-event-camera/openeb_vendor.git
+      version: rolling
+    status: developed
   openni2_camera:
     doc:
       type: git
@@ -6906,16 +6916,17 @@ repositories:
     doc:
       type: git
       url: https://github.com/septentrio-gnss/septentrio_gnss_driver.git
-      version: ros2
+      version: master
     release:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/septentrio_gnss_driver_ros2-release.git
+      version: 1.4.0-4
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/septentrio-gnss/septentrio_gnss_driver.git
-      version: ros2
+      version: master
     status: maintained
   sick_safevisionary_base:
     doc:
