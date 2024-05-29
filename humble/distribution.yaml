@@ -805,7 +805,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/beluga-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/Ekumen-OS/beluga.git
@@ -1051,7 +1051,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_common-release.git
-      version: 0.2.8-1
+      version: 0.2.9-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_common.git
@@ -1066,7 +1066,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_config-release.git
-      version: 0.2.8-1
+      version: 0.2.9-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_config.git
@@ -1137,7 +1137,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_simulator-release.git
-      version: 0.2.4-1
+      version: 0.2.5-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_simulator.git
@@ -4191,7 +4191,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 1.0.4-1
+      version: 1.0.5-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
@@ -4362,7 +4362,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.4.1-1
+      version: 1.4.2-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -4421,6 +4421,21 @@ repositories:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
       version: ros2
+    release:
+      packages:
+      - mrpt_map_server
+      - mrpt_msgs_bridge
+      - mrpt_nav_interfaces
+      - mrpt_navigation
+      - mrpt_pf_localization
+      - mrpt_pointcloud_pipeline
+      - mrpt_rawlog
+      - mrpt_reactivenav2d
+      - mrpt_tutorials
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/mrpt_navigation-release.git
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
@@ -5870,6 +5885,17 @@ repositories:
       url: https://github.com/umdlife/psdk_ros2.git
       version: main
     status: maintained
+  py_binding_tools:
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros-gbp/py_binding_tools-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-planning/py_binding_tools.git
+      version: ros2
+    status: maintained
   py_trees:
     doc:
       type: git
@@ -6506,7 +6532,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/IntelRealSense/realsense-ros-release.git
-      version: 4.54.1-1
+      version: 4.55.1-1
     source:
       type: git
       url: https://github.com/IntelRealSense/realsense-ros.git
@@ -8455,7 +8481,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/septentrio_gnss_driver_ros2-release.git
-      version: 1.4.0-1
+      version: 1.4.0-2
     source:
       test_pull_requests: true
       type: git
@@ -8613,6 +8639,12 @@ repositories:
       url: https://github.com/clearpathrobotics/simple-term-menu.git
       version: humble
     status: developed
+  situational_graphs_msgs:
+    source:
+      type: git
+      url: https://github.com/snt-arg/situational_graphs_msgs.git
+      version: main
+    status: maintained
   slam_toolbox:
     doc:
       type: git
@@ -10073,7 +10105,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/vimbax_ros2_driver-release.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/alliedvision/vimbax_ros2_driver.git
