@@ -513,7 +513,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag_ros-release.git
-      version: 3.1.2-1
+      version: 3.2.0-1
     source:
       type: git
       url: https://github.com/christianrauch/apriltag_ros.git
@@ -655,6 +655,18 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_cmake.git
+      version: rolling
+    status: developed
+  autoware_internal_msgs:
+    source:
+      type: git
+      url: https://github.com/autowarefoundation/autoware_internal_msgs.git
+      version: rolling
+    status: developed
+  autoware_lanelet2_extension:
+    source:
+      type: git
+      url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
       version: rolling
     status: developed
   autoware_utils:
@@ -1321,6 +1333,12 @@ repositories:
       url: https://github.com/rt-net/crane_plus.git
       version: humble-devel
     status: maintained
+  create3_examples:
+    source:
+      type: git
+      url: https://github.com/iRobotEducation/create3_examples.git
+      version: humble
+    status: developed
   create3_sim:
     release:
       packages:
@@ -1831,7 +1849,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/event_camera_msgs-release.git
-      version: 1.1.5-1
+      version: 1.1.6-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_msgs.git
@@ -2503,7 +2521,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/geometry2-release.git
-      version: 0.25.6-1
+      version: 0.25.7-1
     source:
       test_pull_requests: true
       type: git
@@ -3551,7 +3569,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/libcaer_driver-release.git
-      version: 1.1.1-1
+      version: 1.1.3-1
     source:
       type: git
       url: https://github.com/ros-event-camera/libcaer_driver.git
@@ -10355,6 +10373,26 @@ repositories:
       url: https://github.com/TechMagicKK/weight_scale_interfaces.git
       version: main
     status: maintained
+  whill:
+    doc:
+      type: git
+      url: https://github.com/whill-labs/ros2_whill.git
+      version: humble
+    source:
+      type: git
+      url: https://github.com/whill-labs/ros2_whill.git
+      version: humble
+    status: developed
+  whill_msgs:
+    doc:
+      type: git
+      url: https://github.com/whill-labs/ros2_whill_interfaces.git
+      version: humble
+    source:
+      type: git
+      url: https://github.com/whill-labs/ros2_whill_interfaces.git
+      version: humble
+    status: developed
   wireless:
     doc:
       type: git
