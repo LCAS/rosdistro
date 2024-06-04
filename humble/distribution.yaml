@@ -658,6 +658,11 @@ repositories:
       version: rolling
     status: developed
   autoware_internal_msgs:
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/autoware_internal_msgs-release.git
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_internal_msgs.git
@@ -842,7 +847,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/bond_core.git
-      version: ros2
+      version: galactic
     release:
       packages:
       - bond
@@ -857,7 +862,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/bond_core.git
-      version: ros2
+      version: galactic
     status: maintained
   boost_geometry_util:
     doc:
@@ -1818,8 +1823,8 @@ repositories:
       - etsi_its_rviz_plugins
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ika-rwth-aachen/etsi_its_messages-release.git
-      version: 2.0.1-1
+      url: https://github.com/ros2-gbp/etsi_its_messages-release.git
+      version: 2.0.2-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/etsi_its_messages.git
@@ -5188,6 +5193,11 @@ repositories:
       type: git
       url: https://github.com/ros-event-camera/openeb_vendor.git
       version: humble
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/openeb_vendor-release.git
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/ros-event-camera/openeb_vendor.git
@@ -9813,7 +9823,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_Client_Library-release.git
-      version: 1.3.6-1
+      version: 1.3.7-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
