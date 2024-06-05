@@ -1583,7 +1583,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/fields2cover-release.git
-      version: 2.0.0-10
+      version: 2.0.0-11
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
@@ -4172,7 +4172,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/openeb_vendor-release.git
-      version: 1.2.0-1
+      version: 1.2.1-1
     source:
       type: git
       url: https://github.com/ros-event-camera/openeb_vendor.git
@@ -7033,7 +7033,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/nobleo/rviz_satellite.git
-      version: ros2
+      version: main
     release:
       tags:
         release: release/iron/{package}/{version}
@@ -7042,7 +7042,7 @@ repositories:
     source:
       type: git
       url: https://github.com/nobleo/rviz_satellite.git
-      version: ros2
+      version: main
     status: maintained
   rviz_visual_tools:
     doc:
@@ -7475,6 +7475,21 @@ repositories:
       url: https://github.com/ros2/sros2.git
       version: iron
     status: developed
+  steering_functions:
+    doc:
+      type: git
+      url: https://github.com/hbanzhaf/steering_functions.git
+      version: master
+    release:
+      tags:
+        release: release/iron/{package}/{version}
+      url: https://github.com/ros2-gbp/steering_functions-release.git
+      version: 0.3.0-1
+    source:
+      type: git
+      url: https://github.com/hbanzhaf/steering_functions.git
+      version: master
+    status: maintained
   stomp:
     doc:
       type: git
