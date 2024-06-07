@@ -133,6 +133,12 @@ repositories:
       url: https://github.com/LCAS/topological_navigation.git
       version: humble-dev
     status: developed
+  trimble_gnss_driver_ros2:
+    source:
+      type: git
+      url: https://github.com/LCAS/trimble_gnss_driver_ros2.git
+      version: ros2
+    status: developed
   ugv_sdk_ros2:
     release:
       packages:
