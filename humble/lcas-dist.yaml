@@ -134,6 +134,11 @@ repositories:
       version: humble-dev
     status: developed
   trimble_gnss_driver_ros2:
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/lcas-releases/trimble_gnss_driver_ros2.git
+      version: 0.0.1-1
     source:
       type: git
       url: https://github.com/LCAS/trimble_gnss_driver_ros2.git
