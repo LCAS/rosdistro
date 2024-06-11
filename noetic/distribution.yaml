@@ -216,7 +216,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fictionlab-gbp/aruco_opencv-release.git
-      version: 0.4.0-1
+      version: 0.4.1-1
     source:
       type: git
       url: https://github.com/fictionlab/aruco_opencv.git
@@ -2500,7 +2500,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/stack-of-tasks/eigenpy-ros-release.git
-      version: 3.1.4-5
+      version: 3.6.0-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -3947,7 +3947,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/humanoid-path-planner/hpp-fcl-ros-release.git
-      version: 2.4.0-1
+      version: 2.4.4-1
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
@@ -5355,7 +5355,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/locator_ros_bridge-release.git
-      version: 1.0.10-1
+      version: 1.0.11-2
     source:
       type: git
       url: https://github.com/boschglobal/locator_ros_bridge.git
@@ -5598,7 +5598,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2024.3.3-1
+      version: 2024.6.6-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -5619,7 +5619,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 1.18.0-1
+      version: 1.19.0-1
     source:
       test_pull_requests: true
       type: git
