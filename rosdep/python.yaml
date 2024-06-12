@@ -5795,6 +5795,15 @@ python3-fasteners-pip:
   ubuntu:
     pip:
       packages: [fasteners]
+python3-fastjsonschema:
+  debian: [python3-fastjsonschema]
+  fedora: [python3-fastjsonschema]
+  rhel:
+    '*': [python3-fastjsonschema]
+    '8': null
+  ubuntu:
+    '*': [python3-fastjsonschema]
+    focal: null
 python3-fastkml:
   debian: [python3-fastkml]
   ubuntu: [python3-fastkml]
@@ -7899,6 +7908,9 @@ python3-pydantic:
   fedora: [python3-pydantic]
   gentoo: [dev-python/pydantic]
   nixos: [python3Packages.pydantic]
+  rhel:
+    '*': [python3-pydantic]
+    '8': null
   ubuntu:
     '*': [python3-pydantic]
     bionic:
@@ -7986,6 +7998,10 @@ python3-pygments:
     '*': [python3-pygments]
     '7': null
   ubuntu: [python3-pygments]
+python3-pygnssutils-pip:
+  '*':
+    pip:
+      packages: [pygnssutils]
 python3-pygraphviz:
   alpine: [py3-pygraphviz]
   debian: [python3-pygraphviz]

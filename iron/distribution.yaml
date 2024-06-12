@@ -907,7 +907,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/control_msgs-release.git
-      version: 5.1.0-1
+      version: 5.2.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
@@ -1253,7 +1253,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/stonier/ecl_lite.git
-      version: release/1.1.x
+      version: release/1.2.x
     release:
       packages:
       - ecl_config
@@ -1272,7 +1272,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stonier/ecl_lite.git
-      version: devel
+      version: release/1.2.x
     status: maintained
   ecl_tools:
     doc:
@@ -1620,6 +1620,16 @@ repositories:
       url: https://github.com/introlab/find-object.git
       version: rolling-devel
     status: maintained
+  flex_sync:
+    doc:
+      type: git
+      url: https://github.com/ros-misc-utilities/flex_sync.git
+      version: iron
+    source:
+      type: git
+      url: https://github.com/ros-misc-utilities/flex_sync.git
+      version: iron
+    status: developed
   flexbe_behavior_engine:
     doc:
       type: git
@@ -2975,6 +2985,12 @@ repositories:
       url: https://github.com/ros2/libyaml_vendor.git
       version: iron
     status: maintained
+  lidar_situational_graphs:
+    source:
+      type: git
+      url: https://github.com/snt-arg/lidar_situational_graphs.git
+      version: feature/ros2
+    status: maintained
   locator_ros_bridge:
     doc:
       type: git
@@ -3494,7 +3510,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.4.2-1
+      version: 1.4.3-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -4233,7 +4249,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/ortools_vendor-release.git
-      version: 9.9.0-10
+      version: 9.9.0-12
     source:
       test_pull_requests: true
       type: git
@@ -7221,11 +7237,23 @@ repositories:
       url: https://github.com/snt-arg/situational_graphs_msgs.git
       version: main
     status: maintained
+  situational_graphs_reasoning:
+    source:
+      type: git
+      url: https://github.com/snt-arg/situational_graphs_reasoning.git
+      version: develop
+    status: maintained
   situational_graphs_reasoning_msgs:
     source:
       type: git
       url: https://github.com/snt-arg/situational_graphs_reasoning_msgs.git
       version: main
+    status: maintained
+  situational_graphs_wrapper:
+    source:
+      type: git
+      url: https://github.com/snt-arg/situational_graphs_wrapper.git
+      version: develop
     status: maintained
   slam_toolbox:
     doc:
