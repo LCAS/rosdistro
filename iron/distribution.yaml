@@ -1019,7 +1019,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/luxonis/depthai-core-release.git
-      version: 2.26.0-2
+      version: 2.26.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1247,7 +1247,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stonier/ecl_core.git
-      version: devel
+      version: release/1.2.x
     status: maintained
   ecl_lite:
     doc:
@@ -1334,7 +1334,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/eigenpy-release.git
-      version: 3.6.0-1
+      version: 3.7.0-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
