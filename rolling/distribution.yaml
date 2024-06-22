@@ -1506,7 +1506,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fastcdr-release.git
-      version: 2.2.1-1
+      version: 2.2.2-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -3431,6 +3431,7 @@ repositories:
       - mola_kernel
       - mola_launcher
       - mola_metric_maps
+      - mola_navstate_fg
       - mola_navstate_fuse
       - mola_pose_list
       - mola_relocalization
@@ -3440,7 +3441,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 1.0.5-1
+      version: 1.0.6-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
@@ -3614,7 +3615,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.4.3-1
+      version: 1.5.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -6168,7 +6169,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2-release.git
-      version: 0.27.0-1
+      version: 0.28.0-1
     source:
       test_pull_requests: true
       type: git
