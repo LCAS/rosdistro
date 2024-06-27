@@ -815,7 +815,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/BehaviorTree/behaviortree_cpp_v3-release.git
-      version: 3.8.6-1
+      version: 3.8.7-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
@@ -832,7 +832,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/behaviortree_cpp_v4-release.git
-      version: 4.6.1-1
+      version: 4.6.2-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
@@ -8014,6 +8014,11 @@ repositories:
       type: git
       url: https://github.com/facontidavide/rosx_introspection.git
       version: master
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/rosx_introspection-release.git
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/facontidavide/rosx_introspection.git
@@ -8865,6 +8870,11 @@ repositories:
       version: humble
     status: developed
   situational_graphs_datasets:
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/situational_graphs_dataset-release.git
+      version: 0.0.0-1
     source:
       type: git
       url: https://github.com/snt-arg/situational_graphs_datasets.git
@@ -8882,18 +8892,33 @@ repositories:
       version: main
     status: maintained
   situational_graphs_reasoning:
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/situational_graphs_reasoning-release.git
+      version: 0.0.1-1
     source:
       type: git
       url: https://github.com/snt-arg/situational_graphs_reasoning.git
       version: develop
     status: maintained
   situational_graphs_reasoning_msgs:
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/situational_graphs_reasoning_msgs-release.git
+      version: 0.0.0-1
     source:
       type: git
       url: https://github.com/snt-arg/situational_graphs_reasoning_msgs.git
       version: main
     status: maintained
   situational_graphs_wrapper:
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/situational_graphs_wrapper-release.git
+      version: 0.0.0-1
     source:
       type: git
       url: https://github.com/snt-arg/situational_graphs_wrapper.git

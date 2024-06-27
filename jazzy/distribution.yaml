@@ -1954,7 +1954,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/geometric_shapes-release.git
-      version: 2.2.0-1
+      version: 2.2.1-1
     source:
       type: git
       url: https://github.com/ros-planning/geometric_shapes.git
@@ -7044,7 +7044,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/rtabmap-release.git
-      version: 0.21.5-1
+      version: 0.21.1-4
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -7807,6 +7807,7 @@ repositories:
       url: https://github.com/ros2-gbp/tracetools_analysis-release.git
       version: 3.0.0-6
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros-tracing/tracetools_analysis.git
       version: jazzy
