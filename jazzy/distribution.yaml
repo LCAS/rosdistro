@@ -1065,7 +1065,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/cyclonedds-release.git
-      version: 0.10.4-4
+      version: 0.10.5-1
     source:
       type: git
       url: https://github.com/eclipse-cyclonedds/cyclonedds.git
@@ -1598,7 +1598,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/fastrtps-release.git
-      version: 2.14.0-2
+      version: 2.14.1-1
     source:
       test_commits: true
       test_pull_requests: false
