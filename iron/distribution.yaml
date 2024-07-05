@@ -3525,7 +3525,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.5.0-1
+      version: 1.5.1-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -3628,14 +3628,15 @@ repositories:
       packages:
       - mrpt_generic_sensor
       - mrpt_sensor_bumblebee_stereo
-      - mrpt_sensor_gnns_nmea
+      - mrpt_sensor_gnss_nmea
+      - mrpt_sensor_gnss_novatel
       - mrpt_sensor_imu_taobotics
       - mrpt_sensorlib
       - mrpt_sensors
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_sensors-release.git
-      version: 0.2.0-1
+      version: 0.2.1-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
@@ -4122,7 +4123,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/octomap_mapping-release.git
-      version: 2.0.0-4
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/OctoMap/octomap_mapping.git
@@ -4152,7 +4153,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/octomap_ros-release.git
-      version: 0.4.3-3
+      version: 0.4.4-1
     source:
       type: git
       url: https://github.com/OctoMap/octomap_ros.git
@@ -4167,7 +4168,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/octomap_rviz_plugins-release.git
-      version: 2.0.0-4
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/OctoMap/octomap_rviz_plugins.git
