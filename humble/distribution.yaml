@@ -919,6 +919,17 @@ repositories:
       url: https://github.com/tesseract-robotics/boost_plugin_loader.git
       version: main
     status: developed
+  camera_aravis2:
+    doc:
+      type: git
+      url: https://github.com/FraunhoferIOSB/camera_aravis2.git
+      version: main
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/FraunhoferIOSB/camera_aravis2.git
+      version: main
+    status: maintained
   camera_ros:
     release:
       tags:
@@ -2206,7 +2217,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-misc-utilities/flex_sync.git
-      version: humble
+      version: release
     release:
       tags:
         release: release/humble/{package}/{version}
@@ -2215,7 +2226,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-misc-utilities/flex_sync.git
-      version: humble
+      version: release
     status: developed
   flexbe_app:
     doc:
@@ -2256,7 +2267,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-drivers/flir_camera_driver.git
-      version: humble-release
+      version: ros2-release
     release:
       packages:
       - flir_camera_description
@@ -2270,7 +2281,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/flir_camera_driver.git
-      version: humble-release
+      version: ros2-release
     status: maintained
   fluent_bit_vendor:
     source:
@@ -2658,7 +2669,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/geometry_tutorials.git
-      version: ros2
+      version: humble
     release:
       packages:
       - geometry_tutorials
@@ -2671,7 +2682,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros/geometry_tutorials.git
-      version: ros2
+      version: humble
     status: developed
   google_benchmark_vendor:
     doc:
@@ -3563,7 +3574,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/launch_pal-release.git
-      version: 0.1.13-1
+      version: 0.1.15-1
     source:
       type: git
       url: https://github.com/pal-robotics/launch_pal.git
@@ -5833,7 +5844,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/play_motion2-release.git
-      version: 1.1.1-1
+      version: 1.1.2-1
     source:
       type: git
       url: https://github.com/pal-robotics/play_motion2.git
@@ -8876,7 +8887,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/simple_launch-release.git
-      version: 1.10.0-1
+      version: 1.10.1-1
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
