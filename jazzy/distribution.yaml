@@ -80,6 +80,16 @@ repositories:
       url: https://github.com/ros-acceleration/adaptive_component.git
       version: rolling
     status: developed
+  ai_prompt_msgs:
+    doc:
+      type: git
+      url: https://github.com/robosoft-ai/ai_prompt_msgs.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/robosoft-ai/ai_prompt_msgs.git
+      version: main
+    status: developed
   ament_acceleration:
     doc:
       type: git
@@ -747,6 +757,8 @@ repositories:
       url: https://github.com/ros2-gbp/beluga-release.git
       version: 2.0.2-1
     source:
+      test_commits: false
+      test_pull_requests: false
       type: git
       url: https://github.com/Ekumen-OS/beluga.git
       version: main
@@ -2364,7 +2376,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ign_ros2_control-release.git
-      version: 1.2.4-1
+      version: 1.2.6-1
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
@@ -7539,6 +7551,16 @@ repositories:
       type: git
       url: https://github.com/clalancette/sophus.git
       version: release/1.22.x
+    status: maintained
+  spatio_temporal_voxel_layer:
+    release:
+      packages:
+      - openvdb_vendor
+      - spatio_temporal_voxel_layer
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/SteveMacenski/spatio_temporal_voxel_layer-release.git
+      version: 2.5.0-1
     status: maintained
   spdlog_vendor:
     release:

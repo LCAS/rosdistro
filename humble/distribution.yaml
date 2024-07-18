@@ -143,6 +143,16 @@ repositories:
       type: git
       url: https://github.com/PickNikRobotics/affordance_primitives.git
       version: main
+  ai_prompt_msgs:
+    doc:
+      type: git
+      url: https://github.com/robosoft-ai/ai_prompt_msgs.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/robosoft-ai/ai_prompt_msgs.git
+      version: main
+    status: developed
   ament_acceleration:
     doc:
       type: git
@@ -853,6 +863,8 @@ repositories:
       url: https://github.com/ros2-gbp/beluga-release.git
       version: 2.0.2-1
     source:
+      test_commits: false
+      test_pull_requests: false
       type: git
       url: https://github.com/Ekumen-OS/beluga.git
       version: main
