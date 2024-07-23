@@ -5640,7 +5640,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/mcl_3dl-release.git
-      version: 0.6.2-1
+      version: 0.6.3-1
     source:
       type: git
       url: https://github.com/at-wat/mcl_3dl.git
@@ -6777,6 +6777,21 @@ repositories:
     source:
       type: git
       url: https://github.com/astuff/network_interface.git
+      version: master
+    status: maintained
+  nicla_vision_ros:
+    doc:
+      type: git
+      url: https://github.com/ADVRHumanoids/nicla_vision_ros.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ADVRHumanoids/nicla_vision_ros-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/ADVRHumanoids/nicla_vision_ros.git
       version: master
     status: maintained
   nmea_comms:
