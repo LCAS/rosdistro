@@ -2154,6 +2154,37 @@ repositories:
       url: https://github.com/flynneva/grbl_ros.git
       version: main
     status: maintained
+  grid_map:
+    doc:
+      type: git
+      url: https://github.com/ANYbotics/grid_map.git
+      version: jazzy
+    release:
+      packages:
+      - grid_map
+      - grid_map_cmake_helpers
+      - grid_map_core
+      - grid_map_costmap_2d
+      - grid_map_cv
+      - grid_map_demos
+      - grid_map_filters
+      - grid_map_loader
+      - grid_map_msgs
+      - grid_map_octomap
+      - grid_map_pcl
+      - grid_map_ros
+      - grid_map_rviz_plugin
+      - grid_map_sdf
+      - grid_map_visualization
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/grid_map-release.git
+      version: 2.2.0-1
+    source:
+      type: git
+      url: https://github.com/ANYbotics/grid_map.git
+      version: jazzy
+    status: developed
   gscam:
     doc:
       type: git
@@ -2631,7 +2662,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/image_transport_plugins-release.git
-      version: 4.0.0-2
+      version: 4.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -4069,6 +4100,11 @@ repositories:
       type: git
       url: https://github.com/ADVRHumanoids/nicla_vision_ros2.git
       version: jazzy
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/nicla_vision_ros2-release.git
+      version: 1.1.1-1
     source:
       type: git
       url: https://github.com/ADVRHumanoids/nicla_vision_ros2.git
@@ -5531,7 +5567,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/rig_reconfigure-release.git
-      version: 1.4.0-4
+      version: 1.5.0-1
     source:
       test_pull_requests: true
       type: git
@@ -6028,7 +6064,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.13.0-1
+      version: 4.14.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -6052,6 +6088,7 @@ repositories:
       - imu_sensor_broadcaster
       - joint_state_broadcaster
       - joint_trajectory_controller
+      - parallel_gripper_controller
       - pid_controller
       - position_controllers
       - range_sensor_broadcaster
@@ -6065,7 +6102,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 4.11.0-1
+      version: 4.12.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -6311,7 +6348,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ros_ign-release.git
-      version: 1.0.2-1
+      version: 1.0.3-1
     source:
       test_pull_requests: true
       type: git
@@ -7154,7 +7191,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/rtabmap-release.git
-      version: 0.21.5-1
+      version: 0.21.6-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -7381,7 +7418,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/sick_scan_xd-release.git
-      version: 3.4.0-1
+      version: 3.5.0-1
     source:
       type: git
       url: https://github.com/SICKAG/sick_scan_xd.git

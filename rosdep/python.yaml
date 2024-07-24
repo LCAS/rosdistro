@@ -4287,16 +4287,8 @@ python-transforms3d-pip:
     pip:
       packages: [transforms3d]
   ubuntu:
-    '*': null
-    bionic:
-      pip:
-        packages: [transforms3d]
-    focal:
-      pip:
-        packages: [transforms3d]
-    jammy:
-      pip:
-        packages: [transforms3d]
+    pip:
+      packages: [transforms3d]
 python-transitions:
   debian:
     '*': [python-transitions]
@@ -5571,10 +5563,12 @@ python3-dill:
   ubuntu: [python3-dill]
 python3-distro:
   debian: [python3-distro]
-  fedora: [python3-distro]
+  fedora: [python3-distro, lsb_release]
   gentoo: [dev-python/distro]
   nixos: [python3Packages.distro]
-  rhel: [python3-distro]
+  rhel:
+    '*': [python3-distro, lsb_release]
+    '8': [python3-distro, redhat-lsb-core]
   ubuntu: [python3-distro]
 python3-distutils:
   debian:
@@ -8304,11 +8298,14 @@ python3-pyqt5.qtquick:
   ubuntu: [python3-pyqt5.qtquick]
 python3-pyqt5.qtwebengine:
   debian: [python3-pyqt5.qtwebengine]
-  fedora: [python3-qt5-webengine]
+  fedora: [python3-qt5-webengine, pyqtwebengine-devel]
   gentoo: [dev-python/PyQtWebEngine]
   nixos: [python3Packages.pyqtwebengine]
   openembedded: ['${PYTHON_PN}-pyqt5@meta-qt5']
   opensuse: [python3-qtwebengine-qt5]
+  rhel:
+    '*': [python3-qt5-webengine, pyqtwebengine-devel]
+    '8': null
   ubuntu: [python3-pyqt5.qtwebengine]
 python3-pyqtdarktheme-pip:
   debian:
@@ -9597,6 +9594,10 @@ python3-tk:
   opensuse: [python3-tk]
   rhel: ['python%{python3_pkgversion}-tkinter']
   ubuntu: [python3-tk]
+python3-tkintermapview-pip:
+  '*':
+    pip:
+      packages: [tkintermapview]
 python3-toml:
   debian: [python3-toml]
   fedora: [python3-toml]

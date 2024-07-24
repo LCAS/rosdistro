@@ -2515,7 +2515,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_pipeline-release.git
-      version: 6.0.1-1
+      version: 6.0.2-1
     source:
       test_pull_requests: true
       type: git
@@ -5844,7 +5844,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.13.0-1
+      version: 4.14.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -5868,6 +5868,7 @@ repositories:
       - imu_sensor_broadcaster
       - joint_state_broadcaster
       - joint_trajectory_controller
+      - parallel_gripper_controller
       - pid_controller
       - position_controllers
       - range_sensor_broadcaster
@@ -5881,7 +5882,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 4.11.0-1
+      version: 4.12.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -6537,7 +6538,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt-release.git
-      version: 1.7.1-1
+      version: 1.7.2-1
     source:
       test_pull_requests: true
       type: git
@@ -6951,7 +6952,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rtabmap-release.git
-      version: 0.21.5-1
+      version: 0.21.6-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git

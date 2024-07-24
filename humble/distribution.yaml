@@ -409,6 +409,17 @@ repositories:
       url: https://github.com/Ekumen-OS/andino.git
       version: humble
     status: developed
+  andino_gz:
+    doc:
+      type: git
+      url: https://github.com/Ekumen-OS/andino_gz.git
+      version: humble
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/Ekumen-OS/andino_gz.git
+      version: humble
+    status: developed
   angles:
     doc:
       type: git
@@ -3951,6 +3962,16 @@ repositories:
       url: https://github.com/boschglobal/locator_ros_bridge.git
       version: humble
     status: maintained
+  log_view:
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/hatchbed/log_view-release.git
+      version: 0.2.3-1
+    source:
+      type: git
+      url: https://github.com/hatchbed/log_view.git
+      version: ros2
   lsc_ros2_driver:
     doc:
       type: git
@@ -7509,7 +7530,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 2.41.0-1
+      version: 2.42.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -8642,7 +8663,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rtabmap-release.git
-      version: 0.21.5-1
+      version: 0.21.6-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
