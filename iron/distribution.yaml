@@ -3375,7 +3375,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 1.0.6-1
+      version: 1.0.7-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
@@ -3549,7 +3549,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.5.1-1
+      version: 1.5.2-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -3582,7 +3582,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.13.3-1
+      version: 2.13.4-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -5910,7 +5910,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 3.25.0-1
+      version: 3.26.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
