@@ -3396,6 +3396,16 @@ repositories:
       url: https://github.com/MOLAorg/mola_common.git
       version: develop
     status: developed
+  mola_lidar_odometry:
+    doc:
+      type: git
+      url: https://github.com/MOLAorg/mola_lidar_odometry.git
+      version: develop
+    source:
+      type: git
+      url: https://github.com/MOLAorg/mola_lidar_odometry.git
+      version: develop
+    status: developed
   mola_test_datasets:
     doc:
       type: git
@@ -6109,6 +6119,17 @@ repositories:
       url: https://github.com/osrf/ros2launch_security.git
       version: main
     status: maintained
+  ros_battery_monitoring:
+    doc:
+      type: git
+      url: https://github.com/ipa320/ros_battery_monitoring.git
+      version: main
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ipa320/ros_battery_monitoring.git
+      version: main
+    status: developed
   ros_canopen:
     release:
       packages:

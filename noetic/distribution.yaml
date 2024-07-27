@@ -75,6 +75,16 @@ repositories:
       url: https://github.com/ros/actionlib.git
       version: noetic-devel
     status: maintained
+  adi_tmc_coe:
+    doc:
+      type: git
+      url: https://github.com/analogdevicesinc/adi_tmc_coe.git
+      version: noetic
+    source:
+      type: git
+      url: https://github.com/analogdevicesinc/adi_tmc_coe.git
+      version: noetic
+    status: maintained
   adi_tmcl:
     doc:
       type: git
@@ -11321,7 +11331,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/SICKAG/sick_scan_xd-release.git
-      version: 3.2.6-1
+      version: 3.5.0-1
     source:
       type: git
       url: https://github.com/SICKAG/sick_scan_xd.git
