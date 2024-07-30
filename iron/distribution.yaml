@@ -103,7 +103,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/ament_black-release.git
-      version: 0.2.4-1
+      version: 0.2.5-1
     source:
       type: git
       url: https://github.com/botsandus/ament_black.git
@@ -2407,7 +2407,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-perception/image_transport_plugins.git
-      version: rolling
+      version: iron
     release:
       packages:
       - compressed_depth_image_transport
@@ -2422,7 +2422,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_transport_plugins.git
-      version: rolling
+      version: iron
     status: maintained
   imu_pipeline:
     doc:
@@ -3365,6 +3365,7 @@ repositories:
       - mola_kernel
       - mola_launcher
       - mola_metric_maps
+      - mola_msgs
       - mola_navstate_fg
       - mola_navstate_fuse
       - mola_pose_list
@@ -3375,7 +3376,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 1.0.7-1
+      version: 1.0.8-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
@@ -3415,7 +3416,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mola_test_datasets-release.git
-      version: 0.3.3-1
+      version: 0.3.4-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_test_datasets.git
@@ -3645,6 +3646,16 @@ repositories:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
       version: develop
+    status: developed
+  mrpt_ros:
+    doc:
+      type: git
+      url: https://github.com/MRPT/mrpt_ros.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/MRPT/mrpt_ros.git
+      version: main
     status: developed
   mrpt_sensors:
     doc:
@@ -4889,6 +4900,16 @@ repositories:
       type: git
       url: https://github.com/ros2/python_cmake_module.git
       version: iron
+    status: developed
+  python_mrpt_ros:
+    doc:
+      type: git
+      url: https://github.com/MRPT/python_mrpt_ros.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/MRPT/python_mrpt_ros.git
+      version: main
     status: developed
   python_qt_binding:
     doc:
