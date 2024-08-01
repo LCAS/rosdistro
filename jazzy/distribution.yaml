@@ -1247,7 +1247,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/diagnostics-release.git
-      version: 3.1.2-3
+      version: 4.2.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1908,7 +1908,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 0.7.9-1
+      version: 0.8.0-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -2593,7 +2593,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/hpp_fcl-release.git
-      version: 2.4.4-3
+      version: 2.4.5-1
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
@@ -2692,7 +2692,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-perception/image_transport_plugins.git
-      version: rolling
+      version: jazzy
     release:
       packages:
       - compressed_depth_image_transport
@@ -2703,12 +2703,12 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/image_transport_plugins-release.git
-      version: 4.0.1-1
+      version: 4.0.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_transport_plugins.git
-      version: rolling
+      version: jazzy
     status: maintained
   imu_pipeline:
     doc:
@@ -3208,11 +3208,15 @@ repositories:
       version: jazzy
     status: developed
   libcamera:
+    doc:
+      type: git
+      url: https://git.libcamera.org/libcamera/libcamera.git
+      version: v0.3.1
     release:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/libcamera-release.git
-      version: 0.3.0-3
+      version: 0.3.1-1
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
@@ -3506,7 +3510,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_message_filters-release.git
-      version: 4.11.1-2
+      version: 4.11.2-1
     source:
       test_pull_requests: true
       type: git

@@ -1151,7 +1151,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/diagnostics-release.git
-      version: 4.3.0-1
+      version: 4.3.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1781,7 +1781,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 0.7.9-1
+      version: 0.8.0-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -2427,7 +2427,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/hpp_fcl-release.git
-      version: 2.4.4-2
+      version: 2.4.5-1
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
@@ -2537,7 +2537,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_transport_plugins-release.git
-      version: 4.0.1-1
+      version: 5.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3052,11 +3052,15 @@ repositories:
       version: rolling
     status: developed
   libcamera:
+    doc:
+      type: git
+      url: https://git.libcamera.org/libcamera/libcamera.git
+      version: v0.3.1
     release:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/libcamera-release.git
-      version: 0.3.0-3
+      version: 0.3.1-1
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
@@ -3320,7 +3324,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_message_filters-release.git
-      version: 6.0.2-1
+      version: 6.0.3-1
     source:
       test_pull_requests: true
       type: git

@@ -4890,6 +4890,11 @@ python3-ansible-runner-pip:
   ubuntu:
     pip:
       packages: [ansible-runner]
+python3-antlr4:
+  debian: [python3-antlr4]
+  ubuntu:
+    '*': [python3-antlr4]
+    focal: null
 python3-anytree-pip:
   debian:
     pip:
@@ -8315,6 +8320,14 @@ python3-pyqt5.qtwebengine:
     '*': [python3-qt5-webengine, pyqtwebengine-devel]
     '8': null
   ubuntu: [python3-pyqt5.qtwebengine]
+python3-pyqt6.qtmultimedia:
+  debian:
+    '*': [python3-pyqt6.qtmultimedia]
+    bullseye: null
+  ubuntu:
+    '*': [python3-pyqt6.qtmultimedia]
+    focal: null
+    jammy: null
 python3-pyqtdarktheme-pip:
   debian:
     pip:
