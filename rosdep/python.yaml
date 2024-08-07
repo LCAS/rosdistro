@@ -8442,6 +8442,22 @@ python3-pysnmp:
     '*': [python3-pysnmp]
     '7': [pysnmp]
   ubuntu: [python3-pysnmp4]
+python3-pysnmp-mibs:
+  debian: [python3-pysnmp4-mibs]
+  fedora: [python3-pysnmp-mibs]
+  gentoo: [dev-python/pysnmp-mibs]
+  nixos:
+    pip:
+      packages: [pysnmp-mibs]
+  opensuse:
+    '*': [python3-pysnmp-mibs]
+    '15.2':
+      pip:
+        packages: [pysnmp-mibs]
+  rhel:
+    pip:
+      packages: [pysnmp-mibs]
+  ubuntu: [python3-pysnmp4-mibs]
 python3-pystemd:
   debian:
     bullseye: [python3-pystemd]
@@ -8896,6 +8912,19 @@ python3-rospkg-modules:
     pip:
       packages: [rospkg]
   ubuntu: [python3-rospkg-modules]
+python3-rsa:
+  alpine: [py3-rsa]
+  arch: [python-rsa]
+  debian: [python3-rsa]
+  fedora: [python3-rsa]
+  gentoo: [dev-python/rsa]
+  nixos: [python3Packages.rsa]
+  opensuse: [python3-rsa]
+  osx:
+    pip:
+      packages: [rsa]
+  rhel: [python3-rsa]
+  ubuntu: [python3-rsa]
 python3-rtree:
   debian: [python3-rtree]
   fedora: [python3-rtree]
