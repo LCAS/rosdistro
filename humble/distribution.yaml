@@ -1141,7 +1141,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_common-release.git
-      version: 0.2.10-1
+      version: 0.2.11-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_common.git
@@ -1156,7 +1156,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_config-release.git
-      version: 0.2.10-1
+      version: 0.2.11-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_config.git
@@ -3641,7 +3641,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/launch_pal-release.git
-      version: 0.2.0-1
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/pal-robotics/launch_pal.git
@@ -4037,7 +4037,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mapviz-release.git
-      version: 2.2.1-1
+      version: 2.4.1-1
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
@@ -4713,11 +4713,12 @@ repositories:
       - mrpt_pointcloud_pipeline
       - mrpt_rawlog
       - mrpt_reactivenav2d
+      - mrpt_tps_astar_planner
       - mrpt_tutorials
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_navigation-release.git
-      version: 2.0.1-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
@@ -5424,7 +5425,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/omni_base_navigation-release.git
-      version: 2.1.1-1
+      version: 2.2.1-1
     source:
       type: git
       url: https://github.com/pal-robotics/omni_base_navigation.git
@@ -5444,7 +5445,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/omni_base_robot-release.git
-      version: 2.0.19-1
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/pal-robotics/omni_base_robot.git
@@ -5653,7 +5654,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/pal_gripper-release.git
-      version: 3.2.0-1
+      version: 3.3.0-1
     source:
       type: git
       url: https://github.com/pal-robotics/pal_gripper.git
@@ -5672,7 +5673,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/pal_hey5-release.git
-      version: 4.1.0-1
+      version: 4.2.0-1
     source:
       type: git
       url: https://github.com/pal-robotics/pal_hey5.git
@@ -5725,7 +5726,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/pal_robotiq_gripper-release.git
-      version: 2.1.0-1
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/pal-robotics/pal_robotiq_gripper.git
@@ -6040,7 +6041,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/pmb2_navigation-gbp.git
-      version: 4.0.23-1
+      version: 4.1.1-1
     source:
       type: git
       url: https://github.com/pal-robotics/pmb2_navigation.git
@@ -6060,7 +6061,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/pmb2_robot-gbp.git
-      version: 5.1.1-1
+      version: 5.1.2-1
     source:
       type: git
       url: https://github.com/pal-robotics/pmb2_robot.git
@@ -9031,7 +9032,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/simple_actions-release.git
-      version: 0.3.0-1
+      version: 0.4.0-1
     source:
       test_pull_requests: true
       type: git
@@ -9670,7 +9671,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/tiago_robot-release.git
-      version: 4.2.21-1
+      version: 4.3.0-1
     source:
       type: git
       url: https://github.com/pal-robotics/tiago_robot.git
