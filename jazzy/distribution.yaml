@@ -3359,27 +3359,6 @@ repositories:
       url: https://github.com/Neargye/magic_enum.git
       version: master
     status: maintained
-  mapviz:
-    doc:
-      type: git
-      url: https://github.com/swri-robotics/mapviz.git
-      version: ros2-devel
-    release:
-      packages:
-      - mapviz
-      - mapviz_interfaces
-      - mapviz_plugins
-      - multires_image
-      - tile_map
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/mapviz-release.git
-      version: 2.4.1-1
-    source:
-      type: git
-      url: https://github.com/swri-robotics/mapviz.git
-      version: ros2-devel
-    status: developed
   marine_msgs:
     doc:
       type: git
@@ -3447,7 +3426,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/marti_messages-release.git
-      version: 1.5.2-3
+      version: 1.6.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3679,7 +3658,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mola_common-release.git
-      version: 0.3.1-1
+      version: 0.3.2-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_common.git
@@ -3963,7 +3942,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_sensors-release.git
-      version: 0.2.1-1
+      version: 0.2.2-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
@@ -4499,7 +4478,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/openni2_camera-release.git
-      version: 2.2.0-2
+      version: 2.2.1-1
     source:
       type: git
       url: https://github.com/ros-drivers/openni2_camera.git
@@ -8371,7 +8350,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ur_description-release.git
-      version: 2.4.0-1
+      version: 2.4.2-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
@@ -8408,7 +8387,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
-      version: 2.4.8-1
+      version: 2.4.9-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
