@@ -417,6 +417,11 @@ repositories:
       type: git
       url: https://github.com/Ekumen-OS/andino_gz.git
       version: humble
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/andino_gz-release.git
+      version: 0.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1250,6 +1255,13 @@ repositories:
       url: https://github.com/clearpathrobotics/clearpath_desktop.git
       version: main
     status: developed
+  clearpath_mecanum_drive_controller:
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/clearpath-gbp/clearpath_mecanum_drive_controller-release.git
+      version: 0.1.0-1
+    status: maintained
   clearpath_msgs:
     doc:
       type: git
@@ -4565,6 +4577,11 @@ repositories:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
       version: develop
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/mola_lidar_odometry-release.git
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
@@ -4813,6 +4830,26 @@ repositories:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
       version: main
+    release:
+      packages:
+      - mrpt_apps
+      - mrpt_libapps
+      - mrpt_libbase
+      - mrpt_libgui
+      - mrpt_libhwdrivers
+      - mrpt_libmaps
+      - mrpt_libmath
+      - mrpt_libnav
+      - mrpt_libobs
+      - mrpt_libopengl
+      - mrpt_libposes
+      - mrpt_libros2bridge
+      - mrpt_libslam
+      - mrpt_libtclap
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/mrpt_ros-release.git
+      version: 2.13.6-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -7035,7 +7072,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/realtime_tools-release.git
-      version: 2.5.0-1
+      version: 2.6.0-1
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
@@ -7685,7 +7722,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 2.37.0-1
+      version: 2.37.1-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -10844,7 +10881,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/warehouse_ros_sqlite-release.git
-      version: 1.0.3-1
+      version: 1.0.4-1
     source:
       type: git
       url: https://github.com/ros-planning/warehouse_ros_sqlite.git
