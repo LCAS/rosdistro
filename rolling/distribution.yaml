@@ -1609,7 +1609,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fields2cover-release.git
-      version: 2.0.0-14
+      version: 2.0.0-15
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
@@ -3324,7 +3324,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_message_filters-release.git
-      version: 6.0.3-1
+      version: 6.0.4-1
     source:
       test_pull_requests: true
       type: git
@@ -3475,7 +3475,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 1.0.8-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
@@ -3490,7 +3490,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_common-release.git
-      version: 0.3.2-1
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_common.git
@@ -3776,7 +3776,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.13.6-1
+      version: 2.13.6-3
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -3814,7 +3814,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrt_cmake_modules-release.git
-      version: 1.0.9-4
+      version: 1.0.10-1
     source:
       type: git
       url: https://github.com/KIT-MRT/mrt_cmake_modules.git

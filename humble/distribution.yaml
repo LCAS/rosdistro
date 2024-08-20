@@ -104,32 +104,29 @@ repositories:
       - as2_behavior
       - as2_behavior_tree
       - as2_behaviors_motion
-      - as2_behaviors_path_planning
       - as2_behaviors_perception
       - as2_behaviors_platform
       - as2_behaviors_trajectory_generation
       - as2_cli
       - as2_core
-      - as2_external_object_to_tf
       - as2_gazebo_assets
-      - as2_geozones
+      - as2_gazebo_classic_assets
       - as2_keyboard_teleoperation
-      - as2_map_server
       - as2_motion_controller
       - as2_motion_reference_handlers
       - as2_msgs
+      - as2_platform_crazyflie
+      - as2_platform_dji_osdk
       - as2_platform_gazebo
-      - as2_platform_multirotor_simulator
+      - as2_platform_tello
       - as2_python_api
       - as2_realsense_interface
-      - as2_rviz_plugins
       - as2_state_estimator
       - as2_usb_camera_interface
-      - as2_visualization
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/aerostack2-release.git
-      version: 1.1.0-1
+      version: 1.0.9-1
     source:
       test_pull_requests: true
       type: git
@@ -2297,7 +2294,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/fields2cover-release.git
-      version: 2.0.0-10
+      version: 2.0.0-11
     source:
       test_pull_requests: true
       type: git
@@ -4566,7 +4563,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 1.0.8-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
@@ -4581,7 +4578,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mola_common-release.git
-      version: 0.3.2-1
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_common.git
@@ -4864,7 +4861,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.13.6-1
+      version: 2.13.6-3
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -4902,7 +4899,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mrt_cmake_modules-release.git
-      version: 1.0.9-3
+      version: 1.0.10-1
     source:
       type: git
       url: https://github.com/KIT-MRT/mrt_cmake_modules.git
@@ -5168,6 +5165,11 @@ repositories:
       type: git
       url: https://github.com/neobotix/neo_nav2_bringup.git
       version: humble
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/neo_nav2_bringup-release.git
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/neobotix/neo_nav2_bringup.git
@@ -7628,7 +7630,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/robotraconteur-packaging/robotraconteur-ros2-release.git
+      url: https://github.com/ros2-gbp/robotraconteur-release.git
       version: 1.1.1-1
     source:
       type: git
