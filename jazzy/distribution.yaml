@@ -1685,6 +1685,16 @@ repositories:
       url: https://github.com/eProsima/Fast-DDS.git
       version: 2.14.x
     status: maintained
+  ffmpeg_encoder_decoder:
+    doc:
+      type: git
+      url: https://github.com/ros-misc-utilities/ffmpeg_encoder_decoder.git
+      version: release
+    source:
+      type: git
+      url: https://github.com/ros-misc-utilities/ffmpeg_encoder_decoder.git
+      version: release
+    status: developed
   ffmpeg_image_transport:
     doc:
       type: git
@@ -2690,7 +2700,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/image_pipeline-release.git
-      version: 5.0.3-1
+      version: 5.0.4-1
     source:
       test_pull_requests: true
       type: git
@@ -3838,7 +3848,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.5.2-1
+      version: 1.5.3-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
