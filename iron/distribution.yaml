@@ -1040,7 +1040,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/luxonis/depthai-core-release.git
-      version: 2.26.1-1
+      version: 2.28.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3399,7 +3399,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 1.1.0-1
+      version: 1.1.1-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
@@ -3429,7 +3429,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mola_lidar_odometry-release.git
-      version: 0.3.0-1
+      version: 0.3.1-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
@@ -5955,7 +5955,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 3.27.0-1
+      version: 3.28.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -5992,7 +5992,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 3.26.1-1
+      version: 3.26.2-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
