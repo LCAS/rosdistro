@@ -1237,6 +1237,30 @@ repositories:
       url: https://github.com/luxonis/depthai-core.git
       version: ros-release
     status: developed
+  depthai-ros:
+    doc:
+      type: git
+      url: https://github.com/luxonis/depthai-ros.git
+      version: jazzy
+    release:
+      packages:
+      - depthai-ros
+      - depthai_bridge
+      - depthai_descriptions
+      - depthai_examples
+      - depthai_filters
+      - depthai_ros_driver
+      - depthai_ros_msgs
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/luxonis/depthai-ros-release.git
+      version: 2.10.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/luxonis/depthai-ros.git
+      version: jazzy
+    status: developed
   depthimage_to_laserscan:
     doc:
       type: git
@@ -1520,7 +1544,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/eigenpy-release.git
-      version: 3.7.0-1
+      version: 3.8.2-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -1711,6 +1735,11 @@ repositories:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_encoder_decoder.git
       version: release
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/ffmpeg_encoder_decoder-release.git
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_encoder_decoder.git
@@ -3991,7 +4020,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.13.7-2
+      version: 2.13.7-3
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -6540,7 +6569,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ros_ign-release.git
-      version: 1.0.3-1
+      version: 1.0.4-1
     source:
       test_pull_requests: true
       type: git
@@ -7383,7 +7412,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/rt_manipulators_cpp-release.git
-      version: 1.0.0-4
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/rt-net/rt_manipulators_cpp.git
@@ -8249,6 +8278,15 @@ repositories:
       version: rolling
     status: maintained
   turtle_nest:
+    doc:
+      type: git
+      url: https://github.com/Jannkar/turtle_nest.git
+      version: main
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/turtle_nest-release.git
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/Jannkar/turtle_nest.git
@@ -8288,6 +8326,26 @@ repositories:
       url: https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
       version: ros2
     status: maintained
+  turtlebot4:
+    doc:
+      type: git
+      url: https://github.com/turtlebot/turtlebot4.git
+      version: jazzy
+    release:
+      packages:
+      - turtlebot4_description
+      - turtlebot4_msgs
+      - turtlebot4_navigation
+      - turtlebot4_node
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/turtlebot4-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/turtlebot/turtlebot4.git
+      version: jazzy
+    status: developed
   tuw_geometry:
     doc:
       type: git
