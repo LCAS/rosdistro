@@ -3749,7 +3749,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mola_lidar_odometry-release.git
-      version: 0.3.1-1
+      version: 0.3.3-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
@@ -3975,7 +3975,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_navigation-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
@@ -4043,7 +4043,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_sensors-release.git
-      version: 0.2.2-1
+      version: 0.2.3-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
@@ -7837,7 +7837,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/SteveMacenski/spatio_temporal_voxel_layer-release.git
-      version: 2.5.1-1
+      version: 2.5.2-1
     source:
       type: git
       url: https://github.com/SteveMacenski/spatio_temporal_voxel_layer.git
