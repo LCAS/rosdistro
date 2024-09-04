@@ -3085,7 +3085,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/libcamera-release.git
-      version: 0.3.1-4
+      version: 0.3.1-5
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
@@ -4691,7 +4691,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/point_cloud_transport_plugins-release.git
-      version: 5.0.0-1
+      version: 5.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -4907,6 +4907,13 @@ repositories:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
       version: main
+    release:
+      packages:
+      - python_mrpt
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/python_mrpt_ros-release.git
+      version: 2.13.7-1
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
@@ -7549,7 +7556,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
-      version: foxy-devel
+      version: master
     release:
       packages:
       - joy_teleop
@@ -7560,11 +7567,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/teleop_tools-release.git
-      version: 1.5.0-2
+      version: 1.5.1-1
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
-      version: foxy-devel
+      version: master
     status: maintained
   teleop_twist_joy:
     doc:
@@ -8490,7 +8497,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/warehouse_ros_sqlite-release.git
-      version: 1.0.4-1
+      version: 1.0.5-1
     source:
       type: git
       url: https://github.com/ros-planning/warehouse_ros_sqlite.git
