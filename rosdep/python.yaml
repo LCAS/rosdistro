@@ -6671,6 +6671,7 @@ python3-inflection-pip:
 python3-influxdb:
   debian: [python3-influxdb]
   fedora: [python3-influxdb]
+  nixos: [python3Packages.influxdb]
   opensuse: [python3-influxdb]
   rhel: [python3-influxdb]
   ubuntu: [python3-influxdb]
@@ -7640,6 +7641,14 @@ python3-owlready2-pip:
   ubuntu:
     pip:
       packages: [owlready2]
+python3-owslib:
+  arch: [python-owslib]
+  debian: [python3-owslib]
+  fedora: [python3-OWSLib]
+  gentoo: [dev-python/owslib]
+  nixos: [python312Packages.owslib]
+  rhel: [python3-OWSLib]
+  ubuntu: [python3-owslib]
 python3-packaging:
   alpine: [py3-packaging]
   arch: [python-packaging]
@@ -9144,6 +9153,7 @@ python3-seaborn:
   debian: [python3-seaborn]
   fedora: [python3-seaborn]
   gentoo: [dev-python/seaborn]
+  nixos: [python3Packages.seaborn]
   ubuntu: [python3-seaborn]
 python3-segno:
   debian:
@@ -9153,6 +9163,7 @@ python3-segno:
     '*': [python3-segno]
     '36': null
     '37': null
+  nixos: [python3Packages.segno]
   rhel:
     '*': [python3-segno]
     '7': null

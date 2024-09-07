@@ -5501,7 +5501,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/mapviz-release.git
-      version: 1.4.2-1
+      version: 1.4.3-1
     source:
       test_pull_requests: true
       type: git
@@ -12075,6 +12075,21 @@ repositories:
       url: https://github.com/ThundeRatz/thunder_line_follower_pmr3100.git
       version: master
     status: developed
+  timed_roslaunch:
+    doc:
+      type: git
+      url: https://github.com/Tiryoh/timed_roslaunch.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/Tiryoh/timed_roslaunch-release.git
+      version: 0.2.0-1
+    source:
+      type: git
+      url: https://github.com/Tiryoh/timed_roslaunch.git
+      version: noetic-devel
+    status: maintained
   trac_ik:
     doc:
       type: git
