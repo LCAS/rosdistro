@@ -3705,7 +3705,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.5.5-1
+      version: 1.6.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -3817,7 +3817,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.13.7-3
+      version: 2.13.8-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -4929,7 +4929,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/python_mrpt_ros-release.git
-      version: 2.13.7-1
+      version: 2.13.8-1
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git

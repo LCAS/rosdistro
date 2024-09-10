@@ -6118,7 +6118,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 1.1.14-1
+      version: 1.1.15-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -6280,7 +6280,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mp2p_icp-release.git
-      version: 1.5.5-1
+      version: 1.6.0-2
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -6425,7 +6425,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_ros-release.git
-      version: 2.13.7-5
+      version: 2.13.8-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -8465,6 +8465,23 @@ repositories:
       url: https://github.com/Achllle/pyquaternion.git
       version: noetic-devel
     status: maintained
+  python_mrpt_ros:
+    doc:
+      type: git
+      url: https://github.com/MRPT/python_mrpt_ros.git
+      version: main
+    release:
+      packages:
+      - python_mrpt
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/mrpt-ros-pkg-release/python_mrpt_ros-release.git
+      version: 2.13.8-1
+    source:
+      type: git
+      url: https://github.com/MRPT/python_mrpt_ros.git
+      version: main
+    status: developed
   python_qt_binding:
     doc:
       type: git

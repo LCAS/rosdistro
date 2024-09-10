@@ -103,7 +103,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/ament_black-release.git
-      version: 0.2.5-1
+      version: 0.2.6-1
     source:
       type: git
       url: https://github.com/botsandus/ament_black.git
@@ -3152,7 +3152,6 @@ repositories:
       - swri_image_util
       - swri_math_util
       - swri_opencv_util
-      - swri_prefix_tools
       - swri_roscpp
       - swri_route_util
       - swri_serial_util
@@ -3161,7 +3160,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/marti_common-release.git
-      version: 3.6.1-1
+      version: 3.7.1-1
     source:
       test_pull_requests: true
       type: git
@@ -3187,7 +3186,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/marti_messages-release.git
-      version: 1.6.0-1
+      version: 1.6.1-1
     source:
       test_pull_requests: true
       type: git
@@ -3593,7 +3592,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.5.5-1
+      version: 1.6.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -3705,7 +3704,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.13.7-3
+      version: 2.13.8-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -4969,6 +4968,13 @@ repositories:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
       version: main
+    release:
+      packages:
+      - python_mrpt
+      tags:
+        release: release/iron/{package}/{version}
+      url: https://github.com/ros2-gbp/python_mrpt_ros-release.git
+      version: 2.13.8-1
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
@@ -7850,7 +7856,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/teleop_twist_joy-release.git
-      version: 2.5.1-1
+      version: 2.5.2-1
     source:
       test_pull_requests: true
       type: git
@@ -8098,7 +8104,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/turtle_nest-release.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/Jannkar/turtle_nest.git
@@ -8835,7 +8841,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/xacro-release.git
-      version: 2.0.9-3
+      version: 2.0.11-1
     source:
       type: git
       url: https://github.com/ros/xacro.git
