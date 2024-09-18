@@ -1,6 +1,7 @@
 ---
 name: Generate Cache
 on:
+  workflow_dispatch:
   push:
     paths-ignore:
     - 'scripts/**'
