@@ -1895,7 +1895,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/gazebo_ros2_control-release.git
-      version: 0.6.7-1
+      version: 0.6.8-1
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
@@ -3160,7 +3160,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/marti_common-release.git
-      version: 3.7.1-1
+      version: 3.7.2-1
     source:
       test_pull_requests: true
       type: git
@@ -3592,7 +3592,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.6.0-1
+      version: 1.6.2-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -3674,7 +3674,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_path_planning-release.git
-      version: 0.1.4-1
+      version: 0.1.5-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
@@ -3704,7 +3704,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.13.8-1
+      version: 2.14.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -4789,7 +4789,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/polygon_ros-release.git
-      version: 1.0.2-2
+      version: 1.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -4974,7 +4974,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/python_mrpt_ros-release.git
-      version: 2.13.8-1
+      version: 2.14.0-1
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
