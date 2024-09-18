@@ -37,7 +37,7 @@ jobs:
           ${{ matrix.distro }} --ignore-local || \
         rosdistro_build_cache https://raw.githubusercontent.com/LCAS/rosdistro/master/index.yaml \
           ${{ matrix.distro }} --debug --ignore-local
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v4
       with:
         name: caches
         path: '*-cache.yaml*'
