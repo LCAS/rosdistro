@@ -718,6 +718,7 @@ crypto++:
   debian: [libcrypto++-dev]
   fedora: [cryptopp-devel]
   gentoo: [dev-libs/crypto++]
+  nixos: [cryptopp]
   ubuntu: [libcrypto++-dev]
 curl:
   alpine: [curl-dev]
@@ -3893,7 +3894,7 @@ libgpiod-dev:
   debian: [libgpiod-dev]
   fedora: [libgpiod-devel]
   gentoo: [dev-libs/libgpiod]
-  nixos: [libgpiod]
+  nixos: [libgpiod_1]
   opensuse: [libgpiod-devel]
   rhel:
     '*': [libgpiod-devel]
@@ -7717,6 +7718,7 @@ protobuf-compiler-grpc:
   arch: [grpc]
   debian: [protobuf-compiler-grpc]
   fedora: [grpc-plugins]
+  nixos: [grpc]
   rhel:
     '8': null
     '9': [grpc-plugins]

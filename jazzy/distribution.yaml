@@ -1254,7 +1254,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/luxonis/depthai-ros-release.git
-      version: 2.10.0-1
+      version: 2.10.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1982,6 +1982,11 @@ repositories:
       type: git
       url: https://github.com/ros-misc-utilities/foxglove_compressed_video_transport.git
       version: release
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/foxglove_compressed_video_transport-release.git
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/foxglove_compressed_video_transport.git
@@ -3451,6 +3456,28 @@ repositories:
       url: https://github.com/Neargye/magic_enum.git
       version: master
     status: maintained
+  mapviz:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/mapviz.git
+      version: ros2-devel
+    release:
+      packages:
+      - mapviz
+      - mapviz_interfaces
+      - mapviz_plugins
+      - multires_image
+      - tile_map
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/mapviz-release.git
+      version: 2.4.3-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/swri-robotics/mapviz.git
+      version: ros2-devel
+    status: developed
   marine_msgs:
     doc:
       type: git
@@ -3491,7 +3518,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/marti_common-release.git
-      version: 3.7.1-1
+      version: 3.7.3-1
     source:
       test_pull_requests: true
       type: git
@@ -4065,7 +4092,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mrt_cmake_modules-release.git
-      version: 1.0.10-1
+      version: 1.0.11-2
     source:
       type: git
       url: https://github.com/KIT-MRT/mrt_cmake_modules.git
@@ -7641,6 +7668,21 @@ repositories:
       url: https://github.com/septentrio-gnss/septentrio_gnss_driver.git
       version: master
     status: maintained
+  sick_safetyscanners_base:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners_base.git
+      version: ros2
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/sick_safetyscanners_base-release.git
+      version: 1.0.3-1
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners_base.git
+      version: ros2
+    status: developed
   sick_safevisionary_base:
     doc:
       type: git
