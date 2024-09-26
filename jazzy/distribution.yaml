@@ -3316,7 +3316,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/libcamera-release.git
-      version: 0.3.1-4
+      version: 0.3.2-1
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
@@ -4009,7 +4009,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_navigation-release.git
-      version: 2.1.1-1
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
@@ -4054,7 +4054,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.14.0-1
+      version: 2.14.1-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -4831,12 +4831,12 @@ repositories:
     doc:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: 1.2.1
+      version: master
     release:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/performance_test-release.git
-      version: 2.0.0-2
+      version: 2.3.0-1
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
@@ -5273,7 +5273,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/python_mrpt_ros-release.git
-      version: 2.14.0-1
+      version: 2.14.1-1
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
@@ -7668,6 +7668,36 @@ repositories:
       url: https://github.com/septentrio-gnss/septentrio_gnss_driver.git
       version: master
     status: maintained
+  sick_safetyscanners2:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners2.git
+      version: master
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/sick_safetyscanners2-release.git
+      version: 1.0.4-1
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners2.git
+      version: master
+    status: developed
+  sick_safetyscanners2_interfaces:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners2_interfaces.git
+      version: master
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/sick_safetyscanners2_interfaces-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners2_interfaces.git
+      version: master
+    status: developed
   sick_safetyscanners_base:
     doc:
       type: git

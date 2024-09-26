@@ -3664,7 +3664,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_navigation-release.git
-      version: 2.1.1-1
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
@@ -3709,7 +3709,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.14.0-1
+      version: 2.14.1-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -3997,6 +3997,11 @@ repositories:
       type: git
       url: https://github.com/neobotix/neo_nav2_bringup.git
       version: iron
+    release:
+      tags:
+        release: release/iron/{package}/{version}
+      url: https://github.com/ros2-gbp/neo_nav2_bringup-release.git
+      version: 1.1.1-1
     source:
       type: git
       url: https://github.com/neobotix/neo_nav2_bringup.git
@@ -4539,12 +4544,12 @@ repositories:
     doc:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: 1.2.1
+      version: master
     release:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/performance_test-release.git
-      version: 1.2.1-4
+      version: 2.3.0-1
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
@@ -4979,7 +4984,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/python_mrpt_ros-release.git
-      version: 2.14.0-1
+      version: 2.14.1-1
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
