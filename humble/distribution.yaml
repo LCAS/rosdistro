@@ -521,7 +521,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag_mit-release.git
-      version: 1.1.2-1
+      version: 1.0.3-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/apriltag_mit.git
@@ -4026,6 +4026,11 @@ repositories:
       version: master
     status: maintained
   libfranka:
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/frankaemika/libfranka-release.git
+      version: 0.13.6-1
     source:
       type: git
       url: https://github.com/frankaemika/libfranka.git
@@ -6051,12 +6056,12 @@ repositories:
     doc:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: 1.2.1
+      version: master
     release:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/performance_test-release.git
-      version: 1.2.1-1
+      version: 2.3.0-1
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
@@ -9757,6 +9762,24 @@ repositories:
       type: git
       url: https://github.com/ros2/system_tests.git
       version: humble
+    status: developed
+  talos_robot:
+    release:
+      packages:
+      - talos_bringup
+      - talos_controller_configuration
+      - talos_description
+      - talos_description_calibration
+      - talos_description_inertial
+      - talos_robot
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/pal-gbp/talos_robot-release.git
+      version: 2.0.1-1
+    source:
+      type: git
+      url: https://github.com/pal-robotics/talos_robot.git
+      version: humble-devel
     status: developed
   tango_icons_vendor:
     release:

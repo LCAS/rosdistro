@@ -387,6 +387,11 @@ repositories:
       type: git
       url: https://github.com/ros-misc-utilities/apriltag_mit.git
       version: rolling
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/apriltag_mit-release.git
+      version: 1.0.3-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/apriltag_mit.git
@@ -8457,7 +8462,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/turtlebot4-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/turtlebot/turtlebot4.git
@@ -8475,7 +8480,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/turtlebot4_desktop-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/turtlebot/turtlebot4_desktop.git
@@ -8495,7 +8500,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/turtlebot4_simulator-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/turtlebot/turtlebot4_simulator.git
