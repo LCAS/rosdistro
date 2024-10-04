@@ -804,6 +804,10 @@ repositories:
       version: main
     status: developed
   autoware_msgs:
+    doc:
+      type: git
+      url: https://github.com/autowarefoundation/autoware_msgs.git
+      version: main
     release:
       packages:
       - autoware_common_msgs
@@ -814,11 +818,12 @@ repositories:
       - autoware_planning_msgs
       - autoware_sensing_msgs
       - autoware_system_msgs
+      - autoware_v2x_msgs
       - autoware_vehicle_msgs
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/autoware_msgs-release.git
-      version: 1.1.0-1
+      version: 1.2.0-1
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_msgs.git
@@ -2055,7 +2060,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ess_imu_driver2-release.git
-      version: 1.0.1-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/cubicleguy/ess_imu_driver2.git
@@ -3416,7 +3421,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/imu_tools-release.git
-      version: 2.1.4-1
+      version: 2.1.5-1
     source:
       test_pull_requests: true
       type: git
@@ -8615,6 +8620,11 @@ repositories:
       type: git
       url: https://github.com/niwcpac/rqt_dotgraph.git
       version: main
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_dotgraph-release.git
+      version: 0.0.4-1
     source:
       type: git
       url: https://github.com/niwcpac/rqt_dotgraph.git
@@ -9106,10 +9116,31 @@ repositories:
       version: ros2
     status: maintained
   scenario_execution:
+    doc:
+      type: git
+      url: https://github.com/IntelLabs/scenario_execution.git
+      version: humble
+    release:
+      packages:
+      - scenario_coverage
+      - scenario_execution
+      - scenario_execution_control
+      - scenario_execution_gazebo
+      - scenario_execution_interfaces
+      - scenario_execution_nav2
+      - scenario_execution_os
+      - scenario_execution_py_trees_ros
+      - scenario_execution_ros
+      - scenario_execution_rviz
+      - scenario_execution_x11
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/scenario_execution-release.git
+      version: 1.2.0-1
     source:
       type: git
       url: https://github.com/IntelLabs/scenario_execution.git
-      version: main
+      version: humble
     status: maintained
   schunk_svh_library:
     doc:
@@ -9792,6 +9823,19 @@ repositories:
       url: https://github.com/pal-robotics/talos_robot.git
       version: humble-devel
     status: developed
+  talos_simulation:
+    release:
+      packages:
+      - talos_gazebo
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/pal-gbp/talos_simulation-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/pal-robotics/talos_simulation.git
+      version: humble-devel
+    status: developed
   tango_icons_vendor:
     release:
       tags:
@@ -9818,7 +9862,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/teleop_tools-release.git
-      version: 1.5.1-1
+      version: 1.6.0-1
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
