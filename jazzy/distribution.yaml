@@ -1282,7 +1282,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/luxonis/depthai-ros-release.git
-      version: 2.10.1-1
+      version: 2.10.2-1
     source:
       test_pull_requests: true
       type: git
@@ -3738,7 +3738,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/microstrain_inertial-release.git
-      version: 4.3.0-1
+      version: 4.4.0-1
     source:
       test_pull_requests: true
       type: git
@@ -4067,7 +4067,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_path_planning-release.git
-      version: 0.1.5-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
@@ -4097,7 +4097,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.14.1-1
+      version: 2.14.2-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -5316,7 +5316,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/python_mrpt_ros-release.git
-      version: 2.14.1-1
+      version: 2.14.2-1
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
@@ -6357,7 +6357,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.17.0-1
+      version: 4.18.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -6395,7 +6395,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 4.14.0-1
+      version: 4.15.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -7672,9 +7672,9 @@ repositories:
       version: jazzy
     release:
       packages:
-      - scenario_coverage
       - scenario_execution
       - scenario_execution_control
+      - scenario_execution_coverage
       - scenario_execution_gazebo
       - scenario_execution_interfaces
       - scenario_execution_nav2
@@ -7686,7 +7686,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/scenario_execution-release.git
-      version: 1.2.0-3
+      version: 1.2.0-4
     source:
       type: git
       url: https://github.com/IntelLabs/scenario_execution.git
@@ -8056,7 +8056,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/srdfdom-release.git
-      version: 2.0.4-4
+      version: 2.0.5-1
     source:
       type: git
       url: https://github.com/ros-planning/srdfdom.git
@@ -8586,7 +8586,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/turtlebot4_setup-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/turtlebot/turtlebot4_setup.git
@@ -8806,16 +8806,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-industrial/ur_msgs.git
-      version: foxy
+      version: humble
     release:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ur_msgs-release.git
-      version: 2.0.0-4
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/ros-industrial/ur_msgs.git
-      version: foxy
+      version: humble-devel
     status: developed
   ur_robot_driver:
     doc:

@@ -2071,7 +2071,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/luxonis/depthai-ros-release.git
-      version: 2.10.1-1
+      version: 2.10.2-1
     source:
       test_pull_requests: true
       type: git
@@ -5860,7 +5860,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/LORD-MicroStrain/microstrain_inertial-release.git
-      version: 4.3.0-1
+      version: 4.4.0-1
     source:
       test_pull_requests: true
       type: git
@@ -6118,7 +6118,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 1.1.15-1
+      version: 1.1.16-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -6395,7 +6395,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_path_planning-release.git
-      version: 0.1.5-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
@@ -6425,7 +6425,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_ros-release.git
-      version: 2.14.1-1
+      version: 2.14.2-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -8476,7 +8476,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/python_mrpt_ros-release.git
-      version: 2.14.1-1
+      version: 2.14.2-1
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
