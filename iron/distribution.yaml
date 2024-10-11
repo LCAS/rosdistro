@@ -3207,7 +3207,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mavlink-gbp-release.git
-      version: 2024.6.6-1
+      version: 2024.10.10-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -3227,7 +3227,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/mavros-release.git
-      version: 2.8.0-1
+      version: 2.9.0-1
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -4330,7 +4330,7 @@ repositories:
       tags:
         release: release/iron/{package}/{version}
       url: https://github.com/ros2-gbp/openeb_vendor-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/ros-event-camera/openeb_vendor.git
