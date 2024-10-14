@@ -6436,7 +6436,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_ros-release.git
-      version: 2.14.2-1
+      version: 2.14.3-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -6551,7 +6551,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
-      version: 0.10.0-2
+      version: 0.11.0-1
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
@@ -8487,7 +8487,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/python_mrpt_ros-release.git
-      version: 2.14.2-1
+      version: 2.14.3-1
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
