@@ -78,6 +78,10 @@ repositories:
       version: rolling
     status: developed
   adi_3dtof_image_stitching:
+    doc:
+      type: git
+      url: https://github.com/analogdevicesinc/adi_3dtof_image_stitching.git
+      version: humble-devel
     source:
       type: git
       url: https://github.com/analogdevicesinc/adi_3dtof_image_stitching.git
@@ -3832,7 +3836,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/launch_pal-release.git
-      version: 0.4.0-1
+      version: 0.7.0-1
     source:
       type: git
       url: https://github.com/pal-robotics/launch_pal.git
@@ -4040,7 +4044,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/frankaemika/libfranka-release.git
-      version: 0.13.6-1
+      version: 0.14.2-1
     source:
       type: git
       url: https://github.com/frankaemika/libfranka.git
@@ -5033,7 +5037,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.11.0-1
+      version: 0.11.1-1
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
@@ -5590,7 +5594,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/octomap_rviz_plugins-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/OctoMap/octomap_rviz_plugins.git
@@ -5652,7 +5656,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/omni_base_navigation-release.git
-      version: 2.3.0-1
+      version: 2.4.0-1
     source:
       type: git
       url: https://github.com/pal-robotics/omni_base_navigation.git
@@ -5672,7 +5676,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/omni_base_robot-release.git
-      version: 2.4.0-1
+      version: 2.4.1-1
     source:
       type: git
       url: https://github.com/pal-robotics/omni_base_robot.git
@@ -5690,7 +5694,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/omni_base_simulation-release.git
-      version: 2.1.0-1
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/pal-robotics/omni_base_simulation.git
@@ -6288,7 +6292,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/pmb2_robot-gbp.git
-      version: 5.3.0-1
+      version: 5.3.1-1
     source:
       type: git
       url: https://github.com/pal-robotics/pmb2_robot.git
@@ -9967,7 +9971,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/tiago_moveit_config-release.git
-      version: 3.0.18-1
+      version: 3.1.0-1
     source:
       type: git
       url: https://github.com/pal-robotics/tiago_moveit_config.git
@@ -10006,7 +10010,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/tiago_robot-release.git
-      version: 4.5.0-1
+      version: 4.6.0-1
     source:
       type: git
       url: https://github.com/pal-robotics/tiago_robot.git
@@ -10741,7 +10745,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/urdf_test-ros2-gbp.git
-      version: 2.0.3-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/pal-robotics/urdf_test.git
