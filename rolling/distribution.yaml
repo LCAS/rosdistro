@@ -3816,7 +3816,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.14.4-1
+      version: 2.14.5-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -4928,7 +4928,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/python_mrpt_ros-release.git
-      version: 2.14.4-1
+      version: 2.14.5-1
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
@@ -5396,7 +5396,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/realtime_tools-release.git
-      version: 2.8.0-1
+      version: 2.8.1-1
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
@@ -5816,7 +5816,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_gurumdds-release.git
-      version: 5.0.0-1
+      version: 5.0.0-2
     source:
       type: git
       url: https://github.com/ros2/rmw_gurumdds.git
