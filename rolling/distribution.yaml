@@ -2060,6 +2060,21 @@ repositories:
       url: https://github.com/PickNikRobotics/graph_msgs.git
       version: ros2
     status: maintained
+  grasping_msgs:
+    doc:
+      type: git
+      url: https://github.com/mikeferguson/grasping_msgs.git
+      version: ros2
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/grasping_msgs-release.git
+      version: 0.5.0-1
+    source:
+      type: git
+      url: https://github.com/mikeferguson/grasping_msgs.git
+      version: ros2
+    status: maintained
   grbl_msgs:
     doc:
       type: git
@@ -4085,7 +4100,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/novatel_gps_driver-release.git
-      version: 4.1.3-1
+      version: 4.2.0-1
     source:
       type: git
       url: https://github.com/swri-robotics/novatel_gps_driver.git
@@ -4160,7 +4175,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/octomap_msgs-release.git
-      version: 2.0.0-4
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/octomap/octomap_msgs.git
@@ -5860,7 +5875,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/robot_calibration-release.git
-      version: 0.9.1-1
+      version: 0.9.2-1
     source:
       type: git
       url: https://github.com/mikeferguson/robot_calibration.git
@@ -5963,7 +5978,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.19.0-1
+      version: 4.20.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -5989,6 +6004,7 @@ repositories:
       - joint_trajectory_controller
       - parallel_gripper_controller
       - pid_controller
+      - pose_broadcaster
       - position_controllers
       - range_sensor_broadcaster
       - ros2_controllers
@@ -6001,7 +6017,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 4.15.0-1
+      version: 4.16.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -7350,10 +7366,20 @@ repositories:
       version: main
     status: developed
   simple_grasping:
+    doc:
+      type: git
+      url: https://github.com/mikeferguson/simple_grasping.git
+      version: ros2
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/simple_grasping-release.git
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/mikeferguson/simple_grasping.git
       version: ros2
+    status: developed
   simple_launch:
     doc:
       type: git
