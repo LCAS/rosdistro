@@ -7091,6 +7091,32 @@ python3-meson-pip:
   ubuntu:
     pip:
       packages: [meson]
+python3-minijinja:
+  debian:
+    '*': [librust-minijinja-dev]
+    bookworm:
+      pip:
+        packages: [minijinja]
+    bullseye:
+      pip:
+        packages: [minijinja]
+    buster:
+      pip:
+        packages: [minijinja]
+  osx:
+    pip:
+      packages: [minijinja]
+  ubuntu:
+    '*': [librust-minijinja-dev]
+    focal:
+      pip:
+        packages: [minijinja]
+    jammy:
+      pip:
+        packages: [minijinja]
+    noble:
+      pip:
+        packages: [minijinja]
 python3-minimalmodbus-pip:
   debian:
     pip:
@@ -9083,6 +9109,21 @@ python3-retrying:
     pip:
       packages: [retrying]
   ubuntu: [python3-retrying]
+python3-rich:
+  debian: [python3-rich]
+  fedora: [python3-rich]
+  gentoo: [rich]
+  osx:
+    pip:
+      packages: [rich]
+  rhel:
+    '*': [python3-rich]
+    '8': null
+  ubuntu:
+    '*': [python3-rich]
+    focal:
+      pip:
+        packages: [rich]
 python3-river-pip:
   debian:
     pip:

@@ -1195,6 +1195,16 @@ repositories:
       url: https://github.com/ros2/domain_bridge.git
       version: main
     status: developed
+  dual_laser_merger:
+    doc:
+      type: git
+      url: https://github.com/pradyum/dual_laser_merger.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/pradyum/dual_laser_merger.git
+      version: rolling
+    status: developed
   dynamixel_hardware:
     doc:
       type: git
@@ -2144,7 +2154,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_cmake_vendor-release.git
-      version: 0.2.0-1
+      version: 0.2.1-1
     source:
       test_pull_requests: true
       type: git
