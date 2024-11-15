@@ -195,7 +195,7 @@ repositories:
       type: git
       url: https://github.com/LCAS/scans_merger.git
       version: main
-    status: developed 
+    status: developed
   SegmentAnything3D:
     source:
       type: git
