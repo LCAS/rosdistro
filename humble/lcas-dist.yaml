@@ -6,6 +6,24 @@ release_platforms:
   ubuntu:
   - jammy
 repositories:
+  aoc_calibration:
+    source:
+      type: git
+      url: https://github.com/LCAS/aoc_calibration.git
+      version: main
+    status: developed
+  aoc_distro:
+    source:
+      type: git
+      url: https://github.com/LCAS/aoc_distro.git
+      version: main
+    status: developed
+  aoc_hri_ros2_pkg:
+    source:
+      type: git
+      url: https://github.com/LCAS/aoc_hri_ros2_pkg.git
+      version: main
+    status: developed
   aoc_navigation:
     source:
       type: git
@@ -18,6 +36,18 @@ repositories:
       url: https://github.com/LCAS/aoc_tomato_farm.git
       version: main
     status: developed
+  aoc_safety:
+    source:
+      type: git
+      url: https://github.com/LCAS/aoc_safety.git
+      version: main
+    status: developed    
+  autonomy_metrics_logger:
+    source:
+      type: git
+      url: https://github.com/LCAS/autonomy_metrics_logger.git
+      version: main
+    status: developed    
   bayesian_topological_localisation:
     source:
       type: git
@@ -42,6 +72,18 @@ repositories:
       url: https://github.com/LCAS/flir_camera_driver.git
       version: humble-devel
     status: maintained
+  franka_arm_ros2:
+    source:
+      type: git
+      url: https://github.com/LCAS/franka_arm_ros2.git
+      version: humble
+    status: developed    
+  fruit_detector:
+    source:
+      type: git
+      url: https://github.com/LCAS/fruit_detector.git
+      version: main
+    status: developed
   human_detection_rgbd_camera:
     source:
       type: git
@@ -111,6 +153,30 @@ repositories:
       url: https://github.com/LCAS/livox_laser_simulation_RO2.git
       version: main
     status: maintained
+  moveit2_commander_recorder:
+    source:
+      type: git
+      url: https://github.com/LCAS/moveit2_commander_recorder.git
+      version: humble-dev
+    status: maintained
+  pcl_density_estimator:
+    source:
+      type: git
+      url: https://github.com/LCAS/pcl_density_estimator.git
+      version: main
+    status: developed
+  ros2_topic_monitor:
+    source:
+      type: git
+      url: https://github.com/LCAS/ros2_topic_monitor.git
+      version: main
+    status: developed
+  ros2_zed_multi_camera:
+    source:
+      type: git
+      url: https://github.com/LCAS/ros2_zed_multi_camera.git
+      version: master
+    status: maintained    
   sandbox:
     release:
       packages:
@@ -124,6 +190,18 @@ repositories:
       url: https://github.com/LCAS/sandbox.git
       version: humble
     status: developed
+  scans_merger:
+    source:
+      type: git
+      url: https://github.com/LCAS/scans_merger.git
+      version: main
+    status: developed 
+  SegmentAnything3D:
+    source:
+      type: git
+      url: https://github.com/LCAS/SegmentAnything3D.git
+      version: main
+    status: maintained
   topological_navigation:
     release:
       packages:
@@ -163,6 +241,18 @@ repositories:
       url: https://github.com/LCAS/ugv_sdk.git
       version: main
     status: maintained
+  ultralytics_ros:
+    source:
+      type: git
+      url: https://github.com/LCAS/ultralytics_ros.git
+      version: humble-devel
+    status: maintained   
+  viewpoint_generator:
+    source:
+      type: git
+      url: https://github.com/LCAS/viewpoint_generator.git
+      version: humble-dev
+    status: developed    
   zed_ros2_wrapper:
     source:
       type: git
