@@ -41,13 +41,13 @@ repositories:
       type: git
       url: https://github.com/LCAS/aoc_safety.git
       version: main
-    status: developed    
+    status: developed
   autonomy_metrics_logger:
     source:
       type: git
       url: https://github.com/LCAS/autonomy_metrics_logger.git
       version: main
-    status: developed    
+    status: developed
   bayesian_topological_localisation:
     source:
       type: git
@@ -77,7 +77,7 @@ repositories:
       type: git
       url: https://github.com/LCAS/franka_arm_ros2.git
       version: humble
-    status: developed    
+    status: developed
   fruit_detector:
     source:
       type: git
@@ -176,7 +176,7 @@ repositories:
       type: git
       url: https://github.com/LCAS/ros2_zed_multi_camera.git
       version: master
-    status: maintained    
+    status: maintained
   sandbox:
     release:
       packages:
@@ -246,13 +246,13 @@ repositories:
       type: git
       url: https://github.com/LCAS/ultralytics_ros.git
       version: humble-devel
-    status: maintained   
+    status: maintained
   viewpoint_generator:
     source:
       type: git
       url: https://github.com/LCAS/viewpoint_generator.git
       version: humble-dev
-    status: developed    
+    status: developed
   zed_ros2_wrapper:
     source:
       type: git
