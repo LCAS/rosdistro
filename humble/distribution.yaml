@@ -95,7 +95,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/adi_tmcl-release.git
-      version: 2.0.2-1
+      version: 2.0.3-1
     source:
       type: git
       url: https://github.com/analogdevicesinc/tmcl_ros2.git
@@ -1355,6 +1355,12 @@ repositories:
       url: https://github.com/clearpathrobotics/clearpath_simulator.git
       version: main
     status: developed
+  clips_vendor:
+    source:
+      type: git
+      url: https://github.com/carologistics/clips_vendor.git
+      version: main
+    status: maintained
   cob_common:
     doc:
       type: git
@@ -3491,6 +3497,17 @@ repositories:
       type: git
       url: https://github.com/iRobotEducation/irobot_create_msgs.git
       version: humble
+  jacro:
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/JafarAbdi/jacro-release.git
+      version: 0.2.0-1
+    source:
+      type: git
+      url: https://github.com/JafarAbdi/jacro.git
+      version: main
+    status: developed
   joint_state_publisher:
     doc:
       type: git
@@ -3812,6 +3829,11 @@ repositories:
       type: git
       url: https://github.com/ajtudela/laser_segmentation.git
       version: humble
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/laser_segmentation-release.git
+      version: 3.0.2-1
     source:
       type: git
       url: https://github.com/ajtudela/laser_segmentation.git
