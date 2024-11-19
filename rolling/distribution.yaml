@@ -1009,7 +1009,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/control_msgs-release.git
-      version: 5.2.0-1
+      version: 5.3.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
@@ -1827,7 +1827,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_compressed_video_transport-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/foxglove_compressed_video_transport.git
@@ -2935,6 +2935,11 @@ repositories:
       type: git
       url: https://github.com/ajtudela/laser_segmentation.git
       version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/laser_segmentation-release.git
+      version: 3.0.2-1
     source:
       type: git
       url: https://github.com/ajtudela/laser_segmentation.git
@@ -3049,7 +3054,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/leo_robot-release.git
-      version: 1.4.0-2
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/LeoRover/leo_robot-ros2.git
@@ -4236,7 +4241,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/odom_to_tf_ros2-release.git
-      version: 1.0.2-3
+      version: 1.0.3-3
     source:
       type: git
       url: https://github.com/gstavrinos/odom_to_tf_ros2.git
@@ -8142,7 +8147,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/twist_stamper-release.git
-      version: 0.0.3-3
+      version: 0.0.5-1
     source:
       type: git
       url: https://github.com/joshnewans/twist_stamper.git
