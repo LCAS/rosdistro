@@ -725,6 +725,16 @@ repositories:
       url: https://github.com/fkie/async_web_server_cpp.git
       version: ros2-develop
     status: maintained
+  automatika_ros_sugar:
+    doc:
+      type: git
+      url: https://github.com/automatika-robotics/ros-sugar.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/automatika-robotics/ros-sugar.git
+      version: main
+    status: developed
   automotive_autonomy_msgs:
     doc:
       type: git
@@ -806,7 +816,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/autoware_lanelet2_extension-release.git
-      version: 0.6.0-1
+      version: 0.6.2-1
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
@@ -1336,6 +1346,21 @@ repositories:
       url: https://github.com/clearpathrobotics/clearpath_nav2_demos.git
       version: main
     status: developed
+  clearpath_ros2_socketcan_interface:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/clearpath_ros2_socketcan_interface.git
+      version: humble
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/clearpath-gbp/clearpath_ros2_socketcan_interface-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/clearpath_ros2_socketcan_interface.git
+      version: humble
+    status: maintained
   clearpath_simulator:
     doc:
       type: git
@@ -2484,7 +2509,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros-drivers-gbp/flir_camera_driver-release.git
-      version: 2.1.17-1
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/ros-drivers/flir_camera_driver.git
@@ -2650,6 +2675,12 @@ repositories:
       type: git
       url: https://github.com/frankaemika/franka_description.git
       version: main
+    status: developed
+  franka_ros2:
+    source:
+      type: git
+      url: https://github.com/frankaemika/franka_ros2.git
+      version: humble
     status: developed
   game_controller_spl:
     doc:
@@ -3221,6 +3252,7 @@ repositories:
       type: git
       url: https://github.com/ros4hri/hri_actions_msgs.git
       version: humble-devel
+    status: developed
   hri_face_body_matcher:
     doc:
       type: git
@@ -3236,6 +3268,16 @@ repositories:
       url: https://github.com/ros4hri/hri_face_body_matcher.git
       version: humble-devel
     status: developed
+  hri_face_detect:
+    doc:
+      type: git
+      url: https://github.com/ros4hri/hri_face_detect.git
+      version: humble-devel
+    source:
+      type: git
+      url: https://github.com/ros4hri/hri_face_detect.git
+      version: humble-devel
+    status: developed
   hri_msgs:
     doc:
       type: git
@@ -3249,6 +3291,21 @@ repositories:
     source:
       type: git
       url: https://github.com/ros4hri/hri_msgs.git
+      version: humble-devel
+    status: developed
+  hri_privacy_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros4hri/hri_privacy_msgs.git
+      version: humble-devel
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros4hri/hri_privacy_msgs-release.git
+      version: 1.2.0-1
+    source:
+      type: git
+      url: https://github.com/ros4hri/hri_privacy_msgs.git
       version: humble-devel
     status: developed
   hri_rviz:

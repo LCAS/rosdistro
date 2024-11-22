@@ -500,6 +500,16 @@ repositories:
       url: https://github.com/hatchbed/asyncapi_gencpp.git
       version: main
     status: developed
+  automatika_ros_sugar:
+    doc:
+      type: git
+      url: https://github.com/automatika-robotics/ros-sugar.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/automatika-robotics/ros-sugar.git
+      version: main
+    status: developed
   automotive_autonomy_msgs:
     doc:
       type: git
@@ -581,7 +591,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/autoware_lanelet2_extension-release.git
-      version: 0.6.0-1
+      version: 0.6.2-1
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
@@ -1731,7 +1741,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/flir_camera_driver-release.git
-      version: 2.0.20-1
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/ros-drivers/flir_camera_driver.git
@@ -4306,16 +4316,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-event-camera/openeb_vendor.git
-      version: rolling
+      version: release
     release:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/openeb_vendor-release.git
-      version: 2.0.1-1
+      version: 2.0.1-2
     source:
       type: git
       url: https://github.com/ros-event-camera/openeb_vendor.git
-      version: rolling
+      version: release
     status: developed
   openni2_camera:
     doc:
@@ -5198,7 +5208,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rc_reason_clients-release.git
-      version: 0.4.0-1
+      version: 0.3.1-2
     source:
       test_pull_requests: true
       type: git
