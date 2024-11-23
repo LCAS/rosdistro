@@ -82,10 +82,16 @@ repositories:
       type: git
       url: https://github.com/analogdevicesinc/adi_3dtof_image_stitching.git
       version: humble-devel
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/adi_3dtof_image_stitching-release.git
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/analogdevicesinc/adi_3dtof_image_stitching.git
       version: humble-devel
+    status: maintained
   adi_tmcl:
     doc:
       type: git
@@ -1889,6 +1895,11 @@ repositories:
       type: git
       url: https://github.com/pradyum/dual_laser_merger.git
       version: humble
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/dual_laser_merger-release.git
+      version: 0.0.1-1
     source:
       type: git
       url: https://github.com/pradyum/dual_laser_merger.git
@@ -6092,7 +6103,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/pal_statistics-release.git
-      version: 2.3.1-1
+      version: 2.5.0-1
     source:
       type: git
       url: https://github.com/pal-robotics/pal_statistics.git
@@ -7086,7 +7097,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rc_reason_clients-release.git
-      version: 0.4.0-1
+      version: 0.4.0-2
     source:
       test_pull_requests: true
       type: git
@@ -8433,6 +8444,21 @@ repositories:
       type: git
       url: https://github.com/ros2/rosbag2_bag_v2.git
       version: master
+    status: maintained
+  rosbag2_to_video:
+    doc:
+      type: git
+      url: https://github.com/fictionlab/rosbag2_to_video.git
+      version: ros2
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/rosbag2_to_video-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/fictionlab/rosbag2_to_video.git
+      version: ros2
     status: maintained
   rosbridge_suite:
     doc:
@@ -11483,6 +11509,17 @@ repositories:
       version: humble
     status: maintained
   zed-ros2-interfaces:
+    doc:
+      type: git
+      url: https://github.com/stereolabs/zed-ros2-interfaces.git
+      version: master
+    release:
+      packages:
+      - zed_msgs
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/zed-ros2-interfaces-release.git
+      version: 4.2.2-1
     source:
       type: git
       url: https://github.com/stereolabs/zed-ros2-interfaces.git

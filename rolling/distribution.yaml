@@ -1216,6 +1216,11 @@ repositories:
       type: git
       url: https://github.com/pradyum/dual_laser_merger.git
       version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/dual_laser_merger-release.git
+      version: 0.0.1-1
     source:
       type: git
       url: https://github.com/pradyum/dual_laser_merger.git
@@ -4478,7 +4483,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pal_statistics-release.git
-      version: 2.2.4-1
+      version: 2.5.0-1
     source:
       type: git
       url: https://github.com/pal-robotics/pal_statistics.git
@@ -5208,7 +5213,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rc_reason_clients-release.git
-      version: 0.3.1-2
+      version: 0.4.0-2
     source:
       test_pull_requests: true
       type: git
@@ -6473,11 +6478,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/fictionlab/rosbag2_to_video.git
-      version: rolling
+      version: ros2
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/rosbag2_to_video-release.git
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/fictionlab/rosbag2_to_video.git
-      version: rolling
+      version: ros2
     status: maintained
   rosbridge_suite:
     doc:
