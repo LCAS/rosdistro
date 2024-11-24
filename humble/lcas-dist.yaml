@@ -60,6 +60,18 @@ repositories:
       url: https://github.com/LCAS/bayesian_topological_localisation.git
       version: humble-dev
     status: developed
+  costmap_converter:
+    source:
+      type: git
+      url: https://github.com/rst-tu-dortmund/costmap_converter.git
+      version: 0.1.2
+    status: maintained
+  decomp_ros:
+    source:
+      type: git
+      url: https://github.com/LCAS/DecompROS.git
+      version: v0.0.0
+    status: maintained
   dogtooth_platform:
     source:
       type: git
@@ -88,6 +100,12 @@ repositories:
     source:
       type: git
       url: https://github.com/LCAS/fruit_detector.git
+      version: main
+    status: developed
+  gofar_navigation:
+    source:
+      type: git
+      url: https://github.com/amieo-ra/gofar_navigation
       version: main
     status: developed
   human_detection_rgbd_camera:
@@ -121,6 +139,12 @@ repositories:
       type: git
       url: https://github.com/LCAS/hunter_ros2.git
       version: master
+    status: maintained
+  kindr_humble:
+    source:
+      type: git
+      url: https://github.com/LCAS/kindr_humble.git
+      version: v0.0.1
     status: maintained
   kiss_icp:
     source:
@@ -159,17 +183,53 @@ repositories:
       url: https://github.com/LCAS/livox_laser_simulation_RO2.git
       version: main
     status: maintained
+  livox_laser_simulation_ros2:
+    source:
+      type: git
+      url: https://github.com/LCAS/livox_laser_simulation_ros2
+      version: v0.0.0
+    status: maintained
+  livox_ros_driver2:
+    source:
+      type: git
+      url: https://github.com/LCAS/livox_ros_driver2.git
+      version: v0.0.0
+    status: maintained
+  meshroom_CLI:
+    source:
+      type: git
+      url: https://github.com/LCAS/meshroom_CLI.git
+      version: main
+    status: maintained
   moveit2_commander_recorder:
     source:
       type: git
       url: https://github.com/LCAS/moveit2_commander_recorder.git
       version: humble-dev
     status: maintained
+  mqtt_ros2:
+    source:
+      type: git
+      url: https://github.com/amieo-ra/mqtt_ros2
+      version: main
+    status: developed
   pcl_density_estimator:
     source:
       type: git
       url: https://github.com/LCAS/pcl_density_estimator.git
       version: main
+    status: developed
+  point_cloud_msg_wrapper:
+    source:
+      type: git
+      url: https://gitlab.com/ApexAI/point_cloud_msg_wrapper.git
+      version: master
+    status: maintained
+  rasberry_coordination:
+    source:
+      type: git
+      url: https://github.com/amieo-ra/rasberry_coordination
+      version: master
     status: developed
   ros2_topic_monitor:
     source:
@@ -182,6 +242,12 @@ repositories:
       type: git
       url: https://github.com/LCAS/ros2_zed_multi_camera.git
       version: master
+    status: maintained
+  rviz_2d_overlay_plugins:
+    source:
+      type: git
+      url: https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins.git
+      version: 1.3.0
     status: maintained
   sandbox:
     release:
@@ -223,6 +289,12 @@ repositories:
       url: https://github.com/LCAS/topological_navigation.git
       version: humble-dev
     status: developed
+  tinyspline_ros:
+    source:
+      type: git
+      url: https://github.com/LCAS/tinyspline_ros.git
+      version: humble_dev
+    status: maintained
   trimble_gnss_driver_ros2:
     release:
       tags:
@@ -258,6 +330,12 @@ repositories:
       type: git
       url: https://github.com/LCAS/viewpoint_generator.git
       version: humble-dev
+    status: developed
+  volumetric_viewpoint_planner:
+    source:
+      type: git
+      url: https://github.com/LCAS/volumetric_viewpoint_planner.git
+      version: main
     status: developed
   zed_ros2_wrapper:
     source:
