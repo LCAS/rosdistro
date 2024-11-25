@@ -6,6 +6,12 @@ release_platforms:
   ubuntu:
   - jammy
 repositories:
+  SegmentAnything3D:
+    source:
+      type: git
+      url: https://github.com/LCAS/SegmentAnything3D.git
+      version: main
+    status: maintained
   aoc_calibration:
     source:
       type: git
@@ -30,6 +36,12 @@ repositories:
       url: https://github.com/LCAS/aoc_navigation.git
       version: humble_dev
     status: developed
+  aoc_safety:
+    source:
+      type: git
+      url: https://github.com/LCAS/aoc_safety.git
+      version: main
+    status: developed
   aoc_strawberry_scenario:
     source:
       type: git
@@ -40,12 +52,6 @@ repositories:
     source:
       type: git
       url: https://github.com/LCAS/aoc_tomato_farm.git
-      version: main
-    status: developed
-  aoc_safety:
-    source:
-      type: git
-      url: https://github.com/LCAS/aoc_safety.git
       version: main
     status: developed
   autonomy_metrics_logger:
@@ -121,6 +127,14 @@ repositories:
       version: main
     status: developed
   hunter_robot:
+    release:
+      packages:
+      - hunter_description
+      - hunter_gazebo
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/lcas-releases/hunter_robot.git
+      version: 0.0.1-1
     source:
       type: git
       url: https://github.com/LCAS/hunter_robot.git
@@ -268,11 +282,11 @@ repositories:
       url: https://github.com/LCAS/scans_merger.git
       version: main
     status: developed
-  SegmentAnything3D:
+  tinyspline_ros:
     source:
       type: git
-      url: https://github.com/LCAS/SegmentAnything3D.git
-      version: main
+      url: https://github.com/LCAS/tinyspline_ros.git
+      version: humble_dev
     status: maintained
   topological_navigation:
     release:
@@ -289,12 +303,6 @@ repositories:
       url: https://github.com/LCAS/topological_navigation.git
       version: humble-dev
     status: developed
-  tinyspline_ros:
-    source:
-      type: git
-      url: https://github.com/LCAS/tinyspline_ros.git
-      version: humble_dev
-    status: maintained
   trimble_gnss_driver_ros2:
     release:
       tags:
