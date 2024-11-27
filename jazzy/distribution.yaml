@@ -837,10 +837,20 @@ repositories:
       url: https://github.com/tesseract-robotics/boost_plugin_loader.git
       version: main
   boost_sml_vendor:
+    doc:
+      type: git
+      url: https://github.com/nobleo/boost_sml_vendor.git
+      version: main
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/boost_sml_vendor-release.git
+      version: 1.1.11-1
     source:
       type: git
       url: https://github.com/nobleo/boost_sml_vendor.git
       version: main
+    status: maintained
   camera_aravis2:
     doc:
       type: git
@@ -2890,12 +2900,13 @@ repositories:
       packages:
       - camera_calibration_parsers
       - camera_info_manager
+      - camera_info_manager_py
       - image_common
       - image_transport
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/image_common-release.git
-      version: 5.1.4-1
+      version: 5.1.5-1
     source:
       test_pull_requests: true
       type: git
@@ -4725,17 +4736,6 @@ repositories:
       url: https://github.com/stack-of-tasks/odri_master_board_sdk_release.git
       version: main
     status: maintained
-  odri_master_board_sdk:
-    doc:
-      type: git
-      url: https://github.com/stack-of-tasks/odri_master_board_sdk_release.git
-      version: master
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/stack-of-tasks/odri_master_board_sdk_release.git
-      version: master
-    status: developed
   ompl:
     doc:
       type: git
@@ -5617,6 +5617,26 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/rt-net/raspimouse_description.git
+      version: jazzy
+    status: maintained
+  raspimouse_sim:
+    doc:
+      type: git
+      url: https://github.com/rt-net/raspimouse_sim.git
+      version: jazzy
+    release:
+      packages:
+      - raspimouse_fake
+      - raspimouse_gazebo
+      - raspimouse_sim
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/raspimouse_sim-release.git
+      version: 3.0.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/rt-net/raspimouse_sim.git
       version: jazzy
     status: maintained
   rc_common_msgs:
