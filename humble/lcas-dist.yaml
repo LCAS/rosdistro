@@ -282,6 +282,12 @@ repositories:
       url: https://github.com/LCAS/scans_merger.git
       version: main
     status: developed
+  teach_repeat:
+    source:
+      type: git
+      url: https://github.com/LCAS/teach_repeat.git
+      version: main
+    status: developed
   tinyspline_ros:
     source:
       type: git
