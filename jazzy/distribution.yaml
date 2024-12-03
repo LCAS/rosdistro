@@ -694,7 +694,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/clearpath-gbp/axis_camera-release.git
-      version: 3.0.0-1
+      version: 3.0.1-1
     source:
       type: git
       url: https://github.com/ros-drivers/axis_camera.git
@@ -1695,7 +1695,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ess_imu_driver2-release.git
-      version: 2.0.2-1
+      version: 2.0.3-1
     source:
       type: git
       url: https://github.com/cubicleguy/ess_imu_driver2.git
@@ -1876,7 +1876,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/fastrtps-release.git
-      version: 2.14.3-1
+      version: 2.14.4-1
     source:
       test_commits: true
       test_pull_requests: false
@@ -2275,7 +2275,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/geometric_shapes-release.git
-      version: 2.2.1-1
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/ros-planning/geometric_shapes.git
@@ -3217,6 +3217,16 @@ repositories:
       url: https://github.com/kobuki-base/kobuki_velocity_smoother.git
       version: release/0.15.x
     status: maintained
+  kompass:
+    doc:
+      type: git
+      url: https://github.com/automatika-robotics/kompass.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/automatika-robotics/kompass.git
+      version: main
+    status: developed
   lanelet2:
     doc:
       type: git
@@ -4034,6 +4044,7 @@ repositories:
       - moveit_ros_planning_interface
       - moveit_ros_robot_interaction
       - moveit_ros_tests
+      - moveit_ros_trajectory_cache
       - moveit_ros_visualization
       - moveit_ros_warehouse
       - moveit_runtime
@@ -4050,7 +4061,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/moveit2-release.git
-      version: 2.10.0-1
+      version: 2.12.0-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -4067,7 +4078,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/moveit_msgs-release.git
-      version: 2.5.0-1
+      version: 2.6.0-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
@@ -4090,7 +4101,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/moveit_resources-release.git
-      version: 3.0.0-3
+      version: 3.1.0-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
@@ -4105,7 +4116,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/moveit_visual_tools-release.git
-      version: 4.1.0-4
+      version: 4.1.1-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_visual_tools.git
@@ -5067,7 +5078,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/pick_ik-release.git
-      version: 1.1.0-4
+      version: 1.1.1-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/pick_ik.git
@@ -5667,7 +5678,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/raspimouse_sim-release.git
-      version: 3.0.0-1
+      version: 3.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -7841,7 +7852,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/rtabmap-release.git
-      version: 0.21.6-1
+      version: 0.21.9-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -7870,7 +7881,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.21.5-3
+      version: 0.21.9-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
@@ -9152,7 +9163,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ur_msgs-release.git
-      version: 2.0.1-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/ros-industrial/ur_msgs.git
