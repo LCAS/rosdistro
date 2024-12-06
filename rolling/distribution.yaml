@@ -3344,6 +3344,21 @@ repositories:
       url: https://github.com/apl-ocean-engineering/marine_msgs.git
       version: ros2
     status: developed
+  marker_msgs:
+    doc:
+      type: git
+      url: https://github.com/tuw-robotics/marker_msgs.git
+      version: ros2
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/marker_msgs-release.git
+      version: 0.0.8-1
+    source:
+      type: git
+      url: https://github.com/tuw-robotics/marker_msgs.git
+      version: ros2
+    status: maintained
   marti_common:
     doc:
       type: git
@@ -4508,7 +4523,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pal_statistics-release.git
-      version: 2.5.0-1
+      version: 2.6.0-1
     source:
       type: git
       url: https://github.com/pal-robotics/pal_statistics.git
@@ -8151,12 +8166,38 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/tuw_geometry-release.git
-      version: 0.0.7-3
+      version: 0.1.2-1
     source:
       type: git
       url: https://github.com/tuw-robotics/tuw_geometry.git
       version: ros2
     status: maintained
+  tuw_msgs:
+    doc:
+      type: git
+      url: https://github.com/tuw-robotics/tuw_msgs.git
+      version: ros2
+    release:
+      packages:
+      - tuw_airskin_msgs
+      - tuw_geo_msgs
+      - tuw_geometry_msgs
+      - tuw_graph_msgs
+      - tuw_msgs
+      - tuw_multi_robot_msgs
+      - tuw_nav_msgs
+      - tuw_object_map_msgs
+      - tuw_object_msgs
+      - tuw_std_msgs
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/tuw_msgs-release.git
+      version: 0.2.2-2
+    source:
+      type: git
+      url: https://github.com/tuw-robotics/tuw_msgs.git
+      version: ros2
+    status: developed
   tvm_vendor:
     doc:
       type: git
@@ -8834,6 +8875,16 @@ repositories:
       url: https://github.com/ros2/yaml_cpp_vendor.git
       version: rolling
     status: maintained
+  yasmin:
+    doc:
+      type: git
+      url: https://github.com/uleroboticsgroup/yasmin.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/uleroboticsgroup/yasmin.git
+      version: main
+    status: developed
   zbar_ros:
     doc:
       type: git
