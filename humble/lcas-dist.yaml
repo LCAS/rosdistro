@@ -288,6 +288,12 @@ repositories:
       url: https://github.com/LCAS/teach_repeat.git
       version: main
     status: developed
+  teach_repeat_controller_plugin:
+    source:
+      type: git
+      url: https://github.com/LCAS/teach_repeat_controller_plugin.git
+      version: main
+    status: developed
   tinyspline_ros:
     source:
       type: git
