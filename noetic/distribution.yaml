@@ -2547,7 +2547,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/stack-of-tasks/eiquadprog-ros-release.git
-      version: 1.2.8-1
+      version: 1.2.9-1
     source:
       test_pull_requests: true
       type: git
@@ -4730,7 +4730,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/jsk_control-release.git
-      version: 0.1.17-2
+      version: 0.1.18-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_control.git
@@ -6474,7 +6474,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_ros-release.git
-      version: 2.14.6-1
+      version: 2.14.7-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -7854,7 +7854,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/stack-of-tasks/pinocchio-ros-release.git
-      version: 2.6.21-1
+      version: 3.3.0-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
@@ -8525,7 +8525,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/python_mrpt_ros-release.git
-      version: 2.14.6-1
+      version: 2.14.7-1
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git

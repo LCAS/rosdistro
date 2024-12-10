@@ -1152,7 +1152,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/control_toolbox-release.git
-      version: 3.3.0-1
+      version: 3.4.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
@@ -2210,7 +2210,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/game_controller_spl-release.git
-      version: 4.0.1-1
+      version: 4.1.0-1
     source:
       type: git
       url: https://github.com/ros-sports/game_controller_spl.git
@@ -4250,7 +4250,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.14.6-1
+      version: 2.14.7-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -5132,7 +5132,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/pinocchio-release.git
-      version: 2.6.21-3
+      version: 3.3.0-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
@@ -5502,7 +5502,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/python_mrpt_ros-release.git
-      version: 2.14.6-1
+      version: 2.14.7-1
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
@@ -6655,10 +6655,12 @@ repositories:
       - effort_controllers
       - force_torque_sensor_broadcaster
       - forward_command_controller
+      - gpio_controllers
       - gripper_controllers
       - imu_sensor_broadcaster
       - joint_state_broadcaster
       - joint_trajectory_controller
+      - mecanum_drive_controller
       - parallel_gripper_controller
       - pid_controller
       - pose_broadcaster
@@ -6674,7 +6676,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 4.16.0-1
+      version: 4.17.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -7792,7 +7794,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_topic-release.git
-      version: 1.7.2-2
+      version: 1.7.3-1
     source:
       test_pull_requests: true
       type: git
@@ -8203,7 +8205,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/sick_scan_xd-release.git
-      version: 3.5.0-1
+      version: 3.6.0-1
     source:
       type: git
       url: https://github.com/SICKAG/sick_scan_xd.git
