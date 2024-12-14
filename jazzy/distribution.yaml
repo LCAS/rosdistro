@@ -152,7 +152,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ament_cmake-release.git
-      version: 2.5.2-1
+      version: 2.5.2-2
     source:
       test_pull_requests: true
       type: git
@@ -1005,6 +1005,25 @@ repositories:
       url: https://github.com/MetroRobots/classic_bags.git
       version: main
     status: developed
+  clearpath_msgs:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/clearpath_msgs.git
+      version: main
+    release:
+      packages:
+      - clearpath_motor_msgs
+      - clearpath_msgs
+      - clearpath_platform_msgs
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/clearpath-gbp/clearpath_msgs-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/clearpath_msgs.git
+      version: main
+    status: maintained
   clearpath_ros2_socketcan_interface:
     doc:
       type: git
@@ -3826,7 +3845,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_message_filters-release.git
-      version: 4.11.2-1
+      version: 4.11.3-1
     source:
       test_pull_requests: true
       type: git
@@ -7071,7 +7090,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ros_workspace-release.git
-      version: 1.0.3-6
+      version: 1.0.3-7
     source:
       type: git
       url: https://github.com/ros2/ros_workspace.git
