@@ -1298,7 +1298,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/DataspeedInc-release/dataspeed_can-release.git
-      version: 2.0.4-1
+      version: 2.0.5-1
     source:
       type: git
       url: https://bitbucket.org/dataspeedinc/dataspeed_can.git
@@ -9076,7 +9076,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/tuw_msgs-release.git
-      version: 0.2.3-1
+      version: 0.2.4-1
     source:
       type: git
       url: https://github.com/tuw-robotics/tuw_msgs.git
@@ -9822,6 +9822,17 @@ repositories:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
       version: main
+    release:
+      packages:
+      - yasmin
+      - yasmin_demos
+      - yasmin_msgs
+      - yasmin_ros
+      - yasmin_viewer
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/yasmin-release.git
+      version: 3.0.2-1
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
