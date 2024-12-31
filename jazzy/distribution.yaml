@@ -510,6 +510,11 @@ repositories:
       type: git
       url: https://github.com/automatika-robotics/ros-sugar.git
       version: main
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/automatika_ros_sugar-release.git
+      version: 0.2.4-1
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-sugar.git
@@ -579,10 +584,14 @@ repositories:
     status: developed
   autoware_internal_msgs:
     release:
+      packages:
+      - autoware_internal_debug_msgs
+      - autoware_internal_msgs
+      - autoware_internal_perception_msgs
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/autoware_internal_msgs-release.git
-      version: 1.1.0-1
+      version: 1.3.0-1
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_internal_msgs.git
@@ -3102,6 +3111,17 @@ repositories:
       url: https://github.com/iRobotEducation/irobot_create_msgs.git
       version: rolling
     status: developed
+  jacro:
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/jacro-release.git
+      version: 0.2.0-2
+    source:
+      type: git
+      url: https://github.com/JafarAbdi/jacro.git
+      version: main
+    status: maintained
   joint_state_publisher:
     doc:
       type: git
@@ -3974,7 +3994,6 @@ repositories:
       - mola
       - mola_bridge_ros2
       - mola_demos
-      - mola_imu_preintegration
       - mola_input_euroc_dataset
       - mola_input_kitti360_dataset
       - mola_input_kitti_dataset
@@ -3986,8 +4005,6 @@ repositories:
       - mola_launcher
       - mola_metric_maps
       - mola_msgs
-      - mola_navstate_fg
-      - mola_navstate_fuse
       - mola_pose_list
       - mola_relocalization
       - mola_traj_tools
@@ -3996,7 +4013,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 1.4.0-1
+      version: 1.5.1-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
@@ -4026,10 +4043,20 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mola_lidar_odometry-release.git
-      version: 0.4.0-1
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
+      version: develop
+    status: developed
+  mola_state_estimation:
+    doc:
+      type: git
+      url: https://github.com/MOLAorg/mola_state_estimation.git
+      version: develop
+    source:
+      type: git
+      url: https://github.com/MOLAorg/mola_state_estimation.git
       version: develop
     status: developed
   mola_test_datasets:
@@ -4343,7 +4370,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.12.0-1
+      version: 0.13.0-1
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
@@ -6121,7 +6148,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/realtime_tools-release.git
-      version: 3.0.0-1
+      version: 3.1.0-1
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
@@ -6675,7 +6702,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.21.0-1
+      version: 4.23.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -6779,7 +6806,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_planning_system-release.git
-      version: 2.0.15-1
+      version: 2.0.18-1
     source:
       type: git
       url: https://github.com/PlanSys2/ros2_planning_system.git
@@ -9082,7 +9109,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/tuw_msgs-release.git
-      version: 0.2.4-1
+      version: 0.2.5-1
     source:
       type: git
       url: https://github.com/tuw-robotics/tuw_msgs.git
