@@ -36,6 +36,12 @@ repositories:
       url: https://github.com/LCAS/aoc_navigation.git
       version: humble_dev
     status: developed
+  aoc_robot_boundary_checker:
+    source:
+      type: git
+      url: https://github.com/LCAS/aoc_robot_boundary_checker.git
+      version: humble_dev
+    status: developed
   aoc_safety:
     source:
       type: git
