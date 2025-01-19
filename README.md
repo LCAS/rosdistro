@@ -1,4 +1,3 @@
-
 # The L-CAS ROS distribution
 
 **This repo is a fork of the original ROS repo!**
@@ -6,13 +5,15 @@
 **The documentation below is from the upstream repository. Generally, the rules also apply here, but this distribution is maintained by L-CAS, the Lincoln Centre for Autonomous Systems, and drives our own build farm.**
 
 
----
+This repository maintains two independent sets of packaging metadata used in ROS:
 
-This repo maintains the lists of repositories defining ROS distributions.
+1. The lists of repositories that curate ROS packages for each ROS distributions,
+   implementing the data structure defined in [REP 143](http://ros.org/reps/rep-0143.html).
+   Any ROS package release will generate pull requests to the distribution files
+   in this repository.
 
-It is the implementation of [REP 143](http://ros.org/reps/rep-0143.html).
-
-It also the home of the rosdep rules.
+2. The rosdep rules database, which map the package names used in package.xml files to
+   system package names.
 
 Guide to Contributing
 ---------------------
