@@ -853,7 +853,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/bond_core-release.git
-      version: 4.1.1-1
+      version: 4.1.2-1
     source:
       test_pull_requests: true
       type: git
@@ -1136,6 +1136,25 @@ repositories:
       url: https://github.com/coal-library/coal.git
       version: devel
     status: developed
+  cob_common:
+    doc:
+      type: git
+      url: https://github.com/4am-robotics/cob_common.git
+      version: foxy
+    release:
+      packages:
+      - cob_actions
+      - cob_msgs
+      - cob_srvs
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/cob_common-release.git
+      version: 2.8.12-1
+    source:
+      type: git
+      url: https://github.com/4am-robotics/cob_common.git
+      version: foxy
+    status: maintained
   color_names:
     doc:
       type: git
@@ -1765,7 +1784,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/eigen_stl_containers-release.git
-      version: 1.0.0-7
+      version: 1.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2409,7 +2428,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/geometric_shapes-release.git
-      version: 2.3.1-1
+      version: 2.3.2-1
     source:
       type: git
       url: https://github.com/ros-planning/geometric_shapes.git
@@ -5640,6 +5659,22 @@ repositories:
       url: https://github.com/splintered-reality/py_trees_ros_interfaces.git
       version: devel
     status: developed
+  py_trees_ros_tutorials:
+    doc:
+      type: git
+      url: https://github.com/splintered-reality/py_trees_ros_tutorials.git
+      version: devel
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/py_trees_ros_tutorials-release.git
+      version: 2.3.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/splintered-reality/py_trees_ros_tutorials.git
+      version: devel
+    status: developed
   py_trees_ros_viewer:
     doc:
       type: git
@@ -8690,7 +8725,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/srdfdom-release.git
-      version: 2.0.5-1
+      version: 2.0.7-1
     source:
       type: git
       url: https://github.com/ros-planning/srdfdom.git
@@ -9451,7 +9486,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_Client_Library-release.git
-      version: 1.5.0-1
+      version: 1.6.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
