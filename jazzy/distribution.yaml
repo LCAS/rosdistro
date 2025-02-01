@@ -1045,7 +1045,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_common-release.git
-      version: 2.0.3-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_common.git
@@ -1060,7 +1060,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_config-release.git
-      version: 2.0.1-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_config.git
@@ -1079,11 +1079,26 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_msgs-release.git
-      version: 2.0.0-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_msgs.git
       version: main
+    status: maintained
+  clearpath_nav2_demos:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/clearpath_nav2_demos.git
+      version: jazzy
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/clearpath-gbp/clearpath_nav2_demos-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/clearpath_nav2_demos.git
+      version: jazzy
     status: maintained
   clearpath_ros2_socketcan_interface:
     doc:
@@ -1094,7 +1109,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_ros2_socketcan_interface-release.git
-      version: 2.0.0-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_ros2_socketcan_interface.git
@@ -6335,7 +6350,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/realtime_tools-release.git
-      version: 3.1.0-1
+      version: 3.3.0-1
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
