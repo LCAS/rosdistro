@@ -96,6 +96,12 @@ repositories:
       url: https://github.com/LCAS/dogtooth_robot.git
       version: main
     status: developed
+  environment_template:
+    source:
+      type: git
+      url: https://github.com/LCAS/environment_template.git
+      version: main
+    status: developed
   flir_camera_driver:
     source:
       type: git
