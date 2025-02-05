@@ -725,7 +725,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/backward_ros-release.git
-      version: 1.0.6-1
+      version: 1.0.7-1
     source:
       type: git
       url: https://github.com/pal-robotics/backward_ros.git
@@ -1108,7 +1108,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/control_toolbox-release.git
-      version: 3.5.0-1
+      version: 4.0.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
@@ -1927,7 +1927,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 0.8.2-1
+      version: 0.8.3-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -3598,7 +3598,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_message_filters-release.git
-      version: 7.0.0-1
+      version: 7.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -3953,7 +3953,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/moveit_visual_tools-release.git
-      version: 4.1.1-1
+      version: 4.1.2-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_visual_tools.git
@@ -4125,7 +4125,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.13.0-1
+      version: 0.13.1-1
     source:
       test_pull_requests: true
       type: git
@@ -4669,7 +4669,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pal_statistics-release.git
-      version: 2.6.0-1
+      version: 2.6.1-1
     source:
       type: git
       url: https://github.com/pal-robotics/pal_statistics.git
@@ -6283,7 +6283,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.24.0-1
+      version: 4.25.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -6324,7 +6324,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 4.19.0-1
+      version: 4.20.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -6692,13 +6692,12 @@ repositories:
       - rosbag2_test_msgdefs
       - rosbag2_tests
       - rosbag2_transport
-      - shared_queues_vendor
       - sqlite3_vendor
       - zstd_vendor
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2-release.git
-      version: 0.29.0-1
+      version: 0.31.0-1
     source:
       test_pull_requests: true
       type: git
