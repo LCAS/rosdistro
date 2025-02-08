@@ -2511,7 +2511,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_tools_vendor-release.git
-      version: 0.1.1-1
+      version: 0.1.2-1
     source:
       test_pull_requests: true
       type: git
@@ -4125,7 +4125,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.13.1-1
+      version: 0.13.2-1
     source:
       test_pull_requests: true
       type: git
@@ -4669,7 +4669,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pal_statistics-release.git
-      version: 2.6.1-1
+      version: 2.6.2-1
     source:
       type: git
       url: https://github.com/pal-robotics/pal_statistics.git
@@ -5240,7 +5240,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/qml_ros2_plugin-release.git
-      version: 1.0.1-1
+      version: 2.25.2-1
     source:
       type: git
       url: https://github.com/StefanFabian/qml_ros2_plugin.git
@@ -6162,7 +6162,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_zenoh-release.git
-      version: 0.3.0-1
+      version: 0.3.1-1
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
@@ -6283,7 +6283,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.25.0-1
+      version: 4.26.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -6516,7 +6516,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros_babel_fish-release.git
-      version: 0.10.2-1
+      version: 3.25.2-1
     source:
       type: git
       url: https://github.com/LOEWE-emergenCITY/ros2_babel_fish.git
@@ -6534,7 +6534,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros_battery_monitoring-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -9107,7 +9107,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/yasmin-release.git
-      version: 3.0.3-1
+      version: 3.1.0-1
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
