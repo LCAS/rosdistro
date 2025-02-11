@@ -1241,7 +1241,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/diagnostics-release.git
-      version: 4.3.1-1
+      version: 4.4.2-1
     source:
       test_pull_requests: true
       type: git
@@ -2721,7 +2721,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_pipeline-release.git
-      version: 6.0.7-1
+      version: 6.0.8-1
     source:
       test_pull_requests: true
       type: git
@@ -5240,7 +5240,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/qml_ros2_plugin-release.git
-      version: 2.25.2-1
+      version: 2.25.2-2
     source:
       type: git
       url: https://github.com/StefanFabian/qml_ros2_plugin.git
