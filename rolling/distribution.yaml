@@ -966,7 +966,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/coal-release.git
-      version: 3.0.0-1
+      version: 3.0.1-1
     source:
       type: git
       url: https://github.com/coal-library/coal.git
@@ -1108,7 +1108,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/control_toolbox-release.git
-      version: 4.0.0-1
+      version: 4.0.1-1
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
@@ -1328,7 +1328,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/dynamixel_sdk-release.git
-      version: 3.7.40-5
+      version: 3.8.1-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/DynamixelSDK.git
@@ -1509,7 +1509,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/eigenpy-release.git
-      version: 3.8.2-1
+      version: 3.10.3-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -2721,7 +2721,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_pipeline-release.git
-      version: 6.0.8-1
+      version: 6.0.9-1
     source:
       test_pull_requests: true
       type: git
@@ -3758,7 +3758,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 1.6.0-1
+      version: 1.6.1-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
@@ -6587,7 +6587,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros_ign-release.git
-      version: 2.1.3-2
+      version: 2.1.4-1
     source:
       test_pull_requests: true
       type: git
@@ -7220,7 +7220,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_plot-release.git
-      version: 1.6.1-1
+      version: 1.6.2-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_plot.git
@@ -8507,7 +8507,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ublox_dgnss-release.git
-      version: 0.5.4-3
+      version: 0.5.5-4
     source:
       type: git
       url: https://github.com/aussierobots/ublox_dgnss.git
