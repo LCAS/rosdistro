@@ -361,7 +361,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag-release.git
-      version: 3.4.2-1
+      version: 3.4.3-1
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
@@ -3037,6 +3037,12 @@ repositories:
       url: https://github.com/tier4/heaphook.git
       version: main
     status: maintained
+  hebi_cpp_api:
+    source:
+      type: git
+      url: https://github.com/HebiRobotics/hebi_cpp_api_ros.git
+      version: ros2
+    status: maintained
   hector_rviz_overlay:
     source:
       type: git
@@ -4863,6 +4869,12 @@ repositories:
       version: ros2
     status: developed
     status_description: ROS2 support is work-in-progress. Help wanted!
+  nobleo_socketcan_bridge:
+    source:
+      type: git
+      url: https://github.com/nobleo/nobleo_socketcan_bridge.git
+      version: main
+    status: maintained
   nodl:
     doc:
       type: git
