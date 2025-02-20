@@ -262,7 +262,7 @@ repositories:
       type: git
       url: https://github.com/marc-hanheide/ros2_param_dumper.git
       version: main
-    status: developed  
+    status: developed
   ros2_topic_monitor:
     source:
       type: git
