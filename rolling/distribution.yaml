@@ -4885,7 +4885,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pinocchio-release.git
-      version: 3.3.0-1
+      version: 3.4.0-2
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
@@ -8397,7 +8397,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/turtlebot3_msgs-release.git
-      version: 2.2.1-4
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
