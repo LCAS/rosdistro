@@ -1629,6 +1629,12 @@ repositories:
       url: https://github.com/ros2/domain_bridge.git
       version: main
     status: developed
+  doom_ros:
+    source:
+      type: git
+      url: https://github.com/gstavrinos/doom_ros.git
+      version: master
+    status: developed
   dual_laser_merger:
     doc:
       type: git
@@ -4251,7 +4257,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 1.6.1-1
+      version: 1.6.2-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
@@ -4291,7 +4297,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mola_lidar_odometry-release.git
-      version: 0.6.1-1
+      version: 0.7.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
@@ -4311,7 +4317,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mola_state_estimation-release.git
-      version: 1.6.1-1
+      version: 1.7.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
@@ -5493,7 +5499,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/pinocchio-release.git
-      version: 3.4.0-1
+      version: 3.4.0-2
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
@@ -8531,7 +8537,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/septentrio_gnss_driver_ros2-release.git
-      version: 1.4.1-1
+      version: 1.4.2-1
     source:
       test_pull_requests: true
       type: git
@@ -8943,6 +8949,15 @@ repositories:
       version: ros2-devel
     status: developed
   synapticon_ros2_control:
+    doc:
+      type: git
+      url: https://github.com/synapticon/synapticon_ros2_control.git
+      version: main
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/synapticon/synapticon_ros2_control-release.git
+      version: 0.1.2-1
     source:
       type: git
       url: https://github.com/synapticon/synapticon_ros2_control.git
