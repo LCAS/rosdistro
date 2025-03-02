@@ -226,7 +226,7 @@ class CacheAnalyser:
     def __checkout(self, url, branch, name, dir):
         cmd = ["git", "clone", '--depth', '1', '--single-branch',
                '--no-checkout','--filter=tree:0',
-            #'--recurse-submodules',
+            '--recurse-submodules',
             '-b', branch, url, name]
         print('run: %s' % ' '.join(cmd), file=sys.stderr)
         check_call(cmd, cwd=dir, stderr=DEVNULL, stdout=DEVNULL)
