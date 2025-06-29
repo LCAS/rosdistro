@@ -1,0 +1,62 @@
+---
+name: Sync from Upstream
+on:
+  schedule:
+    # Run every Saturday at 1:00 AM UTC
+  - cron: '0 1 * * 6'
+  workflow_dispatch:  # Allow manual triggering
+
+jobs:
+  sync:
+    name: Sync from upstream/master
+    runs-on: ubuntu-22.04
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0  # Fetch full history for proper merging
+
+    - name: Check current branch
+      run: |
+        CURRENT_BRANCH=$(git branch --show-current)
+        if [ "$CURRENT_BRANCH" != "master" ]; then
+          echo "::error::This workflow should only run on the master branch. Current branch: $CURRENT_BRANCH"
+          exit 1
+        fi
+        echo "Running on master branch - proceeding with sync"
+
+    - name: Configure Git
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@lcas.group"
+
+    - name: Add upstream remote
+      run: |
+        git remote add upstream https://github.com/ros/rosdistro.git
+        git fetch upstream
+
+    - name: Merge upstream changes
+      run: |
+        git merge upstream/master --no-edit
+      continue-on-error: false
+
+    - name: Push merged changes
+      run: |
+        git push origin master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Create summary
+      if: success()
+      run: |
+        echo "Successfully synced from upstream/master" >> $GITHUB_STEP_SUMMARY
+        echo "Merged commits:" >> $GITHUB_STEP_SUMMARY
+        git log --oneline HEAD~10..HEAD >> $GITHUB_STEP_SUMMARY
+
+    - name: Handle merge conflicts
+      if: failure()
+      run: |
+        echo "Merge conflicts detected or other error occurred" >> $GITHUB_STEP_SUMMARY
+        echo "Manual intervention required" >> $GITHUB_STEP_SUMMARY
+        echo "::error::Failed to merge upstream changes. Manual resolution needed."

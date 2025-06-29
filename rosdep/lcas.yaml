@@ -86,6 +86,10 @@ prism-robots:
     xenial: [prism-robots]
 pybayes:
   ubuntu: [python-pybayes]
+python_mcp:
+  ubuntu:
+    pip:
+      packages: [mcp]
 python-munkres:
   ubuntu: [python-munkres]
 python-pydispatcher:

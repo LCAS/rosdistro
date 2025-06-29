@@ -18,16 +18,16 @@ on:
 jobs:
   generate_cache:
     name: Generating Cache
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     strategy:
       matrix:
         distro: [melodic, noetic, humble]
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v1
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v5
       with:
-        python-version: 3.8
+        python-version: '3.10'
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip setuptools wheel
