@@ -18,7 +18,7 @@ on:
 jobs:
   generate_cache:
     name: Generating Cache
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     strategy:
       matrix:
         distro: [melodic, noetic, humble]
