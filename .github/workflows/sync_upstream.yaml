@@ -17,6 +17,15 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0  # Fetch full history for proper merging
 
+    - name: Check current branch
+      run: |
+        CURRENT_BRANCH=$(git branch --show-current)
+        if [ "$CURRENT_BRANCH" != "master" ]; then
+          echo "::error::This workflow should only run on the master branch. Current branch: $CURRENT_BRANCH"
+          exit 1
+        fi
+        echo "Running on master branch - proceeding with sync"
+
     - name: Configure Git
       run: |
         git config user.name "github-actions[bot]"
