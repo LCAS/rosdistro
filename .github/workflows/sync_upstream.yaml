@@ -2,7 +2,7 @@
 name: Sync from Upstream
 on:
   schedule:
-    # Run every Saturday at 1:00 AM UTC
+  # Run every Saturday at 1:00 AM UTC
   - cron: '0 1 * * 6'
   workflow_dispatch:  # Allow manual triggering
 
@@ -17,7 +17,6 @@ jobs:
       with:
         token: ${{ secrets.ORGA_GH_TOKEN }}
         fetch-depth: 0  # Fetch full history for proper merging
-        
 
     - name: Check current branch
       run: |
