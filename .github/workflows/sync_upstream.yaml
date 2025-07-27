@@ -28,26 +28,31 @@ jobs:
         fi
         echo "Running on master branch - proceeding with sync"
 
-    - name: Configure Git
-      run: |
-        #git config user.name "github-actions[bot]"
-        #git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config user.name "Marc Hanheide"
-        git config user.email "marc@hanheide.net"
+    - name: GitHub Sync to Upstream Repository
+      uses: dabreadman/sync-upstream-repo
+      with: 
+        upstream_repo: http://github.com/ros/rosdistro.git
+        upstream_branch: master
+        downstream_branch: master
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    # - name: Configure Git
+    #   run: |
+    #     git config user.name "github-actions[bot]"
+    #     git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+    # - name: Add upstream remote
+    #   run: |
+    #     git remote add upstream https://github.com/ros/rosdistro.git
+    #     git fetch upstream
 
-    - name: Add upstream remote
-      run: |
-        git remote add upstream https://github.com/ros/rosdistro.git
-        git fetch upstream
+    # - name: Merge upstream changes
+    #   run: |
+    #     git merge upstream/master --no-edit
+    #   continue-on-error: false
 
-    - name: Merge upstream changes
-      run: |
-        git merge upstream/master --no-edit
-      continue-on-error: false
-
-    - name: Push merged changes
-      run: |
-        git push origin master
+    # - name: Push merged changes
+    #   run: |
+    #     git push origin master
 
     - name: Create summary
       if: success()
