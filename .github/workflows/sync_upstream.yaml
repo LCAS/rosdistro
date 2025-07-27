@@ -15,7 +15,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        token: marc-hanhede:${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0  # Fetch full history for proper merging
         
 
@@ -30,8 +30,10 @@ jobs:
 
     - name: Configure Git
       run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        #git config user.name "github-actions[bot]"
+        #git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config user.name "Marc Hanheide"
+        git config user.email "marc@hanheide.net"
 
     - name: Add upstream remote
       run: |
