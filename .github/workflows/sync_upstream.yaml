@@ -15,39 +15,15 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        #token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0  # Fetch full history for proper merging
         
-
-    - name: Check current branch
-      run: |
-        CURRENT_BRANCH=$(git branch --show-current)
-        if [ "$CURRENT_BRANCH" != "master" ]; then
-          echo "::error::This workflow should only run on the master branch. Current branch: $CURRENT_BRANCH"
-          exit 1
-        fi
-        echo "Running on master branch - proceeding with sync"
-
-    - name: Configure Git
-      run: |
-        #git config user.name "github-actions[bot]"
-        #git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config user.name "Marc Hanheide"
-        git config user.email "marc@hanheide.net"
-
-    - name: Add upstream remote
-      run: |
-        git remote add upstream https://github.com/ros/rosdistro.git
-        git fetch upstream
-
-    - name: Merge upstream changes
-      run: |
-        git merge upstream/master --no-edit
-      continue-on-error: false
-
-    - name: Push merged changes
-      run: |
-        git push origin master
+    - name: Merge Upstream
+      uses: exions/merge-upstream@v1
+      with:
+        upstream: ros/rosdistro      # set the upstream repo
+        upstream-branch: master   # set the upstream branch to merge from
+        branch: master          # set the branch to merge to
 
     - name: Create summary
       if: success()
