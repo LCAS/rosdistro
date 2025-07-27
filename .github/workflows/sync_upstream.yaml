@@ -16,7 +16,7 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0  # Fetch full history for proper merging
-        persist-credentials: false
+        
 
     - name: Check current branch
       run: |
@@ -30,7 +30,7 @@ jobs:
     - name: Configure Git
       run: |
         git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@lcas.group"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
     - name: Add upstream remote
       run: |
@@ -45,8 +45,6 @@ jobs:
     - name: Push merged changes
       run: |
         git push origin master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Create summary
       if: success()
