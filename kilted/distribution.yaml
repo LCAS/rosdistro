@@ -1201,7 +1201,7 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/ros2-gbp/control_msgs-release.git
-      version: 6.4.0-1
+      version: 6.5.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
@@ -1351,7 +1351,7 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/luxonis/depthai-ros-release.git
-      version: 3.0.1-1
+      version: 3.0.4-1
     source:
       test_pull_requests: true
       type: git
@@ -1936,7 +1936,7 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/ros2-gbp/ffmpeg_image_transport-release.git
-      version: 3.0.1-1
+      version: 3.0.2-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_image_transport.git
@@ -2189,7 +2189,7 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_compressed_video_transport-release.git
-      version: 1.0.3-1
+      version: 3.0.1-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/foxglove_compressed_video_transport.git
@@ -3225,7 +3225,7 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/ros2-gbp/kinematics_interface-release.git
-      version: 2.1.0-1
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
@@ -3744,7 +3744,7 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/ros2-gbp/mapviz-release.git
-      version: 2.5.8-1
+      version: 2.5.9-1
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
@@ -4072,7 +4072,7 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/ros2-gbp/mola_common-release.git
-      version: 0.4.1-1
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_common.git
@@ -4102,7 +4102,7 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/ros2-gbp/mola_lidar_odometry-release.git
-      version: 0.8.0-1
+      version: 0.9.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
@@ -4282,7 +4282,7 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.7.1-1
+      version: 1.8.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -6691,12 +6691,12 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/ros2-gbp/robot_localization-release.git
-      version: 3.9.3-1
+      version: 3.9.4-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
-      version: ros2
+      version: kilted-devel
     status: maintained
   robot_state_publisher:
     doc:
@@ -6794,7 +6794,7 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 5.5.0-1
+      version: 5.6.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -6825,6 +6825,7 @@ repositories:
       - ackermann_steering_controller
       - admittance_controller
       - bicycle_steering_controller
+      - chained_filter_controller
       - diff_drive_controller
       - effort_controllers
       - force_torque_sensor_broadcaster
@@ -6835,6 +6836,7 @@ repositories:
       - joint_state_broadcaster
       - joint_trajectory_controller
       - mecanum_drive_controller
+      - motion_primitives_controllers
       - omni_wheel_drive_controller
       - parallel_gripper_controller
       - pid_controller
@@ -6851,7 +6853,7 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 5.5.0-2
+      version: 5.6.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -8267,7 +8269,7 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/ros2-gbp/septentrio_gnss_driver_ros2-release.git
-      version: 1.4.4-1
+      version: 1.4.5-1
     source:
       test_pull_requests: true
       type: git
@@ -9871,7 +9873,7 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/ros2-gbp/xacro-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/ros/xacro.git
@@ -9904,7 +9906,7 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/ros2-gbp/yasmin-release.git
-      version: 3.3.0-1
+      version: 3.4.0-1
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
