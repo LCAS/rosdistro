@@ -136,7 +136,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ai_worker-release.git
-      version: 1.1.10-1
+      version: 1.1.11-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ai_worker.git
@@ -413,7 +413,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag-release.git
-      version: 3.4.4-1
+      version: 3.4.5-1
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
@@ -467,11 +467,15 @@ repositories:
       version: master
     status: maintained
   apriltag_ros:
+    doc:
+      type: git
+      url: https://github.com/christianrauch/apriltag_ros.git
+      version: master
     release:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag_ros-release.git
-      version: 3.2.2-1
+      version: 3.3.0-1
     source:
       type: git
       url: https://github.com/christianrauch/apriltag_ros.git
@@ -576,7 +580,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/async_web_server_cpp-release.git
-      version: 2.0.0-6
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/fkie/async_web_server_cpp.git
@@ -616,7 +620,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/automatika_embodied_agents-release.git
-      version: 0.4.1-1
+      version: 0.4.2-1
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-agents.git
@@ -631,7 +635,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/automatika_ros_sugar-release.git
-      version: 0.3.1-1
+      version: 0.3.2-1
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-sugar.git
@@ -1155,16 +1159,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/ngmor/catch_ros2.git
-      version: rolling
+      version: jazzy
     release:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/catch_ros2-release.git
-      version: 0.2.1-2
+      version: 0.2.2-1
     source:
       type: git
       url: https://github.com/ngmor/catch_ros2.git
-      version: rolling
+      version: jazzy
     status: maintained
   class_loader:
     doc:
@@ -3387,7 +3391,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/gz_tools_vendor-release.git
-      version: 0.0.6-1
+      version: 0.0.7-1
     source:
       test_pull_requests: true
       type: git
@@ -3968,7 +3972,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/kompass-release.git
-      version: 0.3.0-1
+      version: 0.3.1-1
     source:
       type: git
       url: https://github.com/automatika-robotics/kompass.git
@@ -4462,7 +4466,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mapviz-release.git
-      version: 2.5.9-1
+      version: 2.5.10-1
     source:
       test_pull_requests: true
       type: git
@@ -5108,7 +5112,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.14.9-1
+      version: 2.14.12-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -7703,7 +7707,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/robotraconteur-release.git
-      version: 1.2.2-1
+      version: 1.2.6-1
     source:
       type: git
       url: https://github.com/robotraconteur/robotraconteur.git
@@ -10226,7 +10230,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/turtle_nest-release.git
-      version: 1.1.0-1
+      version: 1.2.0-1
     source:
       type: git
       url: https://github.com/Jannkar/turtle_nest.git
@@ -11175,7 +11179,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/web_video_server-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       test_pull_requests: true
       type: git
