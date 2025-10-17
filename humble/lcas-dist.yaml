@@ -42,6 +42,12 @@ repositories:
       url: https://github.com/LCAS/aoc_robot_boundary_checker.git
       version: humble_dev
     status: developed
+  aoc_ros2_calib:
+    source:
+      type: git
+      url: https://github.com/LCAS/aoc_ros2_calib.git
+      version: main
+    status: maintained
   aoc_safety:
     source:
       type: git
