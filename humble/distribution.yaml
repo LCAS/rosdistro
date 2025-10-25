@@ -1061,7 +1061,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/autoware_msgs-release.git
-      version: 1.9.0-1
+      version: 1.10.0-1
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_msgs.git
@@ -1663,7 +1663,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_ros2_socketcan_interface-release.git
-      version: 1.0.3-1
+      version: 1.0.4-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_ros2_socketcan_interface.git
@@ -2728,7 +2728,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/examples-release.git
-      version: 0.15.4-1
+      version: 0.15.5-1
     source:
       test_pull_requests: true
       type: git
@@ -3421,7 +3421,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/geometry2-release.git
-      version: 0.25.16-1
+      version: 0.25.17-1
     source:
       test_pull_requests: true
       type: git
@@ -3511,7 +3511,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/graph_monitor-release.git
-      version: 0.2.2-1
+      version: 0.2.3-1
     source:
       type: git
       url: https://github.com/ros-tooling/graph-monitor.git
@@ -4622,7 +4622,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/launch-release.git
-      version: 1.0.11-1
+      version: 1.0.12-1
     source:
       test_pull_requests: true
       type: git
@@ -5378,7 +5378,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/microstrain_inertial-release.git
-      version: 4.7.0-1
+      version: 4.8.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5510,7 +5510,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 2.0.0-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
@@ -5525,7 +5525,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mola_common-release.git
-      version: 0.5.1-1
+      version: 0.5.2-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_common.git
@@ -5555,7 +5555,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mola_imu_preintegration-release.git
-      version: 1.13.1-1
+      version: 1.13.2-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_imu_preintegration.git
@@ -5570,7 +5570,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mola_lidar_odometry-release.git
-      version: 1.0.0-1
+      version: 1.2.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
@@ -5589,7 +5589,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mola_state_estimation-release.git
-      version: 1.11.0-1
+      version: 1.11.1-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
@@ -5799,7 +5799,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_msgs-release.git
-      version: 0.5.0-1
+      version: 0.6.0-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
@@ -7038,6 +7038,26 @@ repositories:
       url: https://github.com/pal-robotics/pal_sea_arm.git
       version: humble-devel
     status: developed
+  pal_sea_arm_moveit_config:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/pal_sea_arm_moveit_config.git
+      version: humble-devel
+    source:
+      type: git
+      url: https://github.com/pal-robotics/pal_sea_arm_moveit_config.git
+      version: humble-devel
+    status: developed
+  pal_sea_arm_simulation:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/pal_sea_arm_simulation.git
+      version: humble-devel
+    source:
+      type: git
+      url: https://github.com/pal-robotics/pal_sea_arm_simulation.git
+      version: humble-devel
+    status: developed
   pal_statistics:
     doc:
       type: git
@@ -7065,7 +7085,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/pal_urdf_utils-release.git
-      version: 2.2.1-1
+      version: 2.3.2-1
     source:
       type: git
       url: https://github.com/pal-robotics/pal_urdf_utils.git
@@ -7282,11 +7302,12 @@ repositories:
     release:
       packages:
       - play_motion2
+      - play_motion2_cli
       - play_motion2_msgs
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/play_motion2-release.git
-      version: 1.7.0-1
+      version: 1.8.0-1
     source:
       type: git
       url: https://github.com/pal-robotics/play_motion2.git
@@ -9135,7 +9156,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 2.52.0-1
+      version: 2.52.1-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -9190,7 +9211,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 2.50.1-1
+      version: 2.50.2-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -9926,7 +9947,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rqt-release.git
-      version: 1.1.8-1
+      version: 1.1.9-1
     source:
       test_pull_requests: true
       type: git
@@ -10505,7 +10526,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/SBG-Systems/sbg_ros2-release.git
-      version: 3.2.0-1
+      version: 3.3.0-1
     source:
       test_pull_requests: true
       type: git
@@ -10696,7 +10717,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/sick_scan_xd-release.git
-      version: 3.7.0-7
+      version: 3.8.0-1
     source:
       type: git
       url: https://github.com/SICKAG/sick_scan_xd.git
@@ -11497,7 +11518,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/pal-gbp/tiago_pro_head_robot-release.git
-      version: 1.6.0-1
+      version: 1.6.1-1
     source:
       type: git
       url: https://github.com/pal-robotics/tiago_pro_head_robot.git
@@ -11511,6 +11532,46 @@ repositories:
     source:
       type: git
       url: https://github.com/pal-robotics/tiago_pro_head_simulation.git
+      version: humble-devel
+    status: developed
+  tiago_pro_moveit_config:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/tiago_pro_moveit_config.git
+      version: humble-devel
+    source:
+      type: git
+      url: https://github.com/pal-robotics/tiago_pro_moveit_config.git
+      version: humble-devel
+    status: developed
+  tiago_pro_navigation:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/tiago_pro_navigation.git
+      version: humble-devel
+    source:
+      type: git
+      url: https://github.com/pal-robotics/tiago_pro_navigation.git
+      version: humble-devel
+    status: developed
+  tiago_pro_robot:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/tiago_pro_robot.git
+      version: humble-devel
+    source:
+      type: git
+      url: https://github.com/pal-robotics/tiago_pro_robot.git
+      version: humble-devel
+    status: developed
+  tiago_pro_simulation:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/tiago_pro_simulation.git
+      version: humble-devel
+    source:
+      type: git
+      url: https://github.com/pal-robotics/tiago_pro_simulation.git
       version: humble-devel
     status: developed
   tiago_robot:
@@ -12281,7 +12342,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
-      version: 2.9.0-1
+      version: 2.10.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
@@ -12965,7 +13026,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/yasmin-release.git
-      version: 3.5.0-1
+      version: 3.5.1-1
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
@@ -12997,7 +13058,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/zed-ros2-interfaces-release.git
-      version: 5.1.0-1
+      version: 5.1.1-1
     source:
       type: git
       url: https://github.com/stereolabs/zed-ros2-interfaces.git
