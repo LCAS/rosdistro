@@ -1268,7 +1268,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/beluga-release.git
-      version: 2.0.2-1
+      version: 2.1.0-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -1392,7 +1392,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/camera_ros-release.git
-      version: 0.5.0-1
+      version: 0.5.2-1
     source:
       test_pull_requests: true
       type: git
@@ -2299,7 +2299,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/dynamixel_hardware_interface-release.git
-      version: 1.4.16-1
+      version: 1.5.0-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/dynamixel_hardware_interface.git
@@ -5786,7 +5786,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 2.1.1-1
+      version: 2.1.2-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -5888,7 +5888,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.15.1-2
+      version: 2.15.2-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -7394,7 +7394,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-release.git
-      version: 3.13.2-1
+      version: 3.14.1-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -9911,7 +9911,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_typesupport_fastrtps-release.git
-      version: 2.2.3-1
+      version: 2.2.4-1
     source:
       test_pull_requests: true
       type: git
@@ -10846,7 +10846,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/simple_launch-release.git
-      version: 1.11.0-1
+      version: 1.11.1-1
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
@@ -13141,13 +13141,15 @@ repositories:
       packages:
       - yasmin
       - yasmin_demos
+      - yasmin_editor
+      - yasmin_factory
       - yasmin_msgs
       - yasmin_ros
       - yasmin_viewer
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/yasmin-release.git
-      version: 3.5.1-1
+      version: 4.0.1-1
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
