@@ -1028,7 +1028,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/autoware_internal_msgs-release.git
-      version: 1.12.0-2
+      version: 1.12.1-1
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_internal_msgs.git
@@ -1898,6 +1898,10 @@ repositories:
       version: humble
     status: maintained
   cpp_polyfills:
+    doc:
+      type: git
+      url: https://github.com/PickNikRobotics/cpp_polyfills.git
+      version: main
     release:
       packages:
       - tcb_span
@@ -1905,7 +1909,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/cpp_polyfills-release.git
-      version: 1.0.2-2
+      version: 1.2.0-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/cpp_polyfills.git
@@ -2192,7 +2196,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/luxonis/depthai-ros-release.git
-      version: 2.11.2-1
+      version: 2.12.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2852,7 +2856,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/fastdds-release.git
-      version: 2.6.10-1
+      version: 2.6.11-1
     source:
       test_commits: true
       test_pull_requests: false
@@ -5330,7 +5334,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mavros-release.git
-      version: 2.13.0-1
+      version: 2.14.0-1
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -5650,7 +5654,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mola_gnss_to_markers-release.git
-      version: 0.1.0-1
+      version: 0.1.2-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_gnss_to_markers.git
@@ -5665,7 +5669,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mola_imu_preintegration-release.git
-      version: 1.14.0-1
+      version: 1.14.1-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_imu_preintegration.git
@@ -5978,7 +5982,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.15.2-1
+      version: 2.15.4-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -5996,7 +6000,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros_bridge-release.git
-      version: 3.0.2-1
+      version: 3.1.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros_bridge.git
@@ -6049,7 +6053,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/mujoco_vendor-release.git
-      version: 0.0.5-1
+      version: 0.0.6-1
     source:
       type: git
       url: https://github.com/pal-robotics/mujoco_vendor.git
@@ -7368,7 +7372,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/persist_parameter_server-release.git
-      version: 1.0.3-4
+      version: 1.0.4-1
     source:
       type: git
       url: https://github.com/fujitatomoya/ros2_persist_parameter_server.git
@@ -7545,7 +7549,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-ros-plugins-release.git
-      version: 2.3.1-1
+      version: 2.3.1-2
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
@@ -8037,7 +8041,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/python_mrpt_ros-release.git
-      version: 2.15.1-1
+      version: 2.15.3-1
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
@@ -10860,7 +10864,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/septentrio_gnss_driver_ros2-release.git
-      version: 1.4.5-1
+      version: 1.4.6-1
     source:
       test_pull_requests: true
       type: git
@@ -13322,7 +13326,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/yasmin-release.git
-      version: 4.1.0-1
+      version: 4.2.1-2
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
@@ -13384,7 +13388,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/ros2-gbp/zmqpp_vendor-release.git
-      version: 0.0.2-1
+      version: 0.1.0-3
     source:
       type: git
       url: https://github.com/autowarefoundation/zmqpp_vendor.git
