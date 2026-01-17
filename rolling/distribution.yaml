@@ -630,6 +630,16 @@ repositories:
       url: https://github.com/ma-shangao/at_sonde_ros_driver.git
       version: main
     status: developed
+  autoapms:
+    doc:
+      type: git
+      url: https://github.com/AutoAPMS/auto-apms.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/AutoAPMS/auto-apms.git
+      version: master
+    status: developed
   automatika_embodied_agents:
     doc:
       type: git
@@ -2292,7 +2302,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 3.2.2-1
+      version: 3.2.3-1
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
@@ -3259,7 +3269,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/inverse_dynamics_solver-release.git
-      version: 6.0.1-1
+      version: 6.0.1-2
     source:
       test_pull_requests: true
       type: git
@@ -3598,7 +3608,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/launch-release.git
-      version: 3.9.5-1
+      version: 3.9.6-1
     source:
       test_pull_requests: true
       type: git
@@ -3648,7 +3658,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/launch_ros-release.git
-      version: 0.29.4-1
+      version: 0.29.5-1
     source:
       test_pull_requests: true
       type: git
@@ -4664,7 +4674,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.15.4-1
+      version: 2.15.5-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -6921,7 +6931,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_visualization-release.git
-      version: 2.4.2-1
+      version: 2.5.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_visualization.git
@@ -7241,7 +7251,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 6.3.1-1
+      version: 6.3.2-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -7902,7 +7912,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_python-release.git
-      version: 0.26.2-1
+      version: 0.26.3-1
     source:
       test_pull_requests: true
       type: git
@@ -9104,7 +9114,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/sros2-release.git
-      version: 0.16.2-1
+      version: 0.16.3-1
     source:
       test_pull_requests: true
       type: git
@@ -10455,6 +10465,12 @@ repositories:
       url: https://github.com/ros-drivers/zbar_ros.git
       version: rolling
     status: maintained
+  zed-ros2-description:
+    source:
+      type: git
+      url: https://github.com/stereolabs/zed-ros2-description.git
+      version: main
+    status: developed
   zed-ros2-interfaces:
     doc:
       type: git

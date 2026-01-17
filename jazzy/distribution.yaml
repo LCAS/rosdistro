@@ -228,7 +228,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ament_cmake-release.git
-      version: 2.5.4-1
+      version: 2.5.5-1
     source:
       test_pull_requests: true
       type: git
@@ -296,7 +296,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ament_index-release.git
-      version: 1.8.1-1
+      version: 1.8.2-1
     source:
       test_pull_requests: true
       type: git
@@ -647,6 +647,16 @@ repositories:
       url: https://github.com/ma-shangao/at_sonde_ros_driver.git
       version: main
     status: developed
+  autoapms:
+    doc:
+      type: git
+      url: https://github.com/AutoAPMS/auto-apms.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/AutoAPMS/auto-apms.git
+      version: master
+    status: developed
   automatika_embodied_agents:
     doc:
       type: git
@@ -897,7 +907,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/azure_iot_sdk_c-release.git
-      version: 1.14.0-1
+      version: 1.14.0-2
     source:
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
@@ -1725,6 +1735,16 @@ repositories:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
       version: ros2
+    release:
+      packages:
+      - cras_bag_tools
+      - cras_cpp_common
+      - cras_lint
+      - cras_topic_tools
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/cras_ros_utils-release.git
+      version: 3.0.0-2
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
@@ -2143,7 +2163,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/dynamixel_sdk-release.git
-      version: 3.8.4-1
+      version: 4.0.3-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/DynamixelSDK.git
@@ -2600,6 +2620,19 @@ repositories:
       url: https://github.com/ros2/examples.git
       version: jazzy
     status: maintained
+  fadecandy_ros:
+    doc:
+      type: git
+      url: https://github.com/eurogroep/fadecandy_ros.git
+      version: ros2
+    release:
+      packages:
+      - fadecandy_driver
+      - fadecandy_msgs
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/eurogroep/fadecandy_ros-release.git
+      version: 1.0.2-2
   fastcdr:
     release:
       tags:
@@ -2930,7 +2963,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 3.2.2-1
+      version: 3.2.3-1
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
@@ -2954,13 +2987,18 @@ repositories:
   foxglove_sdk_vendor:
     doc:
       type: git
-      url: https://gitlab.com/jlack/foxglove_sdk_vendor
+      url: https://gitlab.com/jlack/foxglove_sdk_vendor.git
       version: main
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/foxglove_sdk_vendor-release.git
+      version: 0.2.0-2
     source:
       type: git
-      url: https://gitlab.com/jlack/foxglove_sdk_vendor
+      url: https://gitlab.com/jlack/foxglove_sdk_vendor.git
       version: main
-    status: maintained
+    status: developed
   frame_editor:
     doc:
       type: git
@@ -4023,7 +4061,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/inverse_dynamics_solver-release.git
-      version: 2.0.0-1
+      version: 2.0.2-1
     source:
       test_pull_requests: true
       type: git
@@ -4353,7 +4391,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/launch-release.git
-      version: 3.4.9-1
+      version: 3.4.10-1
     source:
       test_pull_requests: true
       type: git
@@ -4403,7 +4441,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/launch_ros-release.git
-      version: 0.26.10-1
+      version: 0.26.11-1
     source:
       test_pull_requests: true
       type: git
@@ -5171,13 +5209,15 @@ repositories:
       version: develop
     release:
       packages:
+      - mola_georeferencing
+      - mola_gtsam_factors
       - mola_state_estimation
       - mola_state_estimation_simple
       - mola_state_estimation_smoother
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mola_state_estimation-release.git
-      version: 1.11.1-1
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
@@ -5359,7 +5399,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 2.3.0-1
+      version: 2.3.1-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -5476,7 +5516,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.15.4-1
+      version: 2.15.5-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -6193,7 +6233,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/open_manipulator-release.git
-      version: 4.1.0-1
+      version: 4.1.2-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/open_manipulator.git
@@ -6425,6 +6465,11 @@ repositories:
       version: master
     status: maintained
   parameter_expression:
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/parameter_expression-release.git
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/ForteFibre/parameter_expression.git
@@ -6810,7 +6855,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/li9i/pointcloud-to-ply-release.git
-      version: 0.0.6-1
+      version: 0.0.7-2
     source:
       type: git
       url: https://github.com/li9i/pointcloud-to-ply.git
@@ -8190,7 +8235,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_dds_common-release.git
-      version: 3.1.0-2
+      version: 3.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -8442,7 +8487,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.42.1-1
+      version: 4.42.2-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -10494,7 +10539,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/sros2-release.git
-      version: 0.13.4-1
+      version: 0.13.5-1
     source:
       test_pull_requests: true
       type: git
@@ -11534,7 +11579,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
-      version: 3.6.0-1
+      version: 3.7.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
@@ -12113,6 +12158,23 @@ repositories:
       url: https://github.com/ros-drivers/zbar_ros.git
       version: jazzy
     status: maintained
+  zed-ros2-description:
+    doc:
+      type: git
+      url: https://github.com/stereolabs/zed-ros2-description.git
+      version: main
+    release:
+      packages:
+      - zed_description
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/zed-ros2-description-release.git
+      version: 0.1.1-2
+    source:
+      type: git
+      url: https://github.com/stereolabs/zed-ros2-description.git
+      version: main
+    status: developed
   zed-ros2-interfaces:
     doc:
       type: git
