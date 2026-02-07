@@ -588,6 +588,19 @@ repositories:
       type: git
       url: https://github.com/AutoAPMS/auto-apms.git
       version: master
+    release:
+      packages:
+      - auto_apms_behavior_tree
+      - auto_apms_behavior_tree_core
+      - auto_apms_examples
+      - auto_apms_interfaces
+      - auto_apms_mission
+      - auto_apms_ros2behavior
+      - auto_apms_util
+      tags:
+        release: release/kilted/{package}/{version}
+      url: https://github.com/ros2-gbp/autoapms-release.git
+      version: 1.4.2-1
     source:
       type: git
       url: https://github.com/AutoAPMS/auto-apms.git
@@ -1302,7 +1315,7 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/ros2-gbp/control_msgs-release.git
-      version: 6.7.0-1
+      version: 6.8.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
@@ -4629,7 +4642,7 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 2.4.1-1
+      version: 2.5.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -4746,7 +4759,7 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.15.5-1
+      version: 2.15.7-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -4861,7 +4874,7 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.15.0-1
+      version: 0.16.0-1
     source:
       test_pull_requests: true
       type: git
@@ -6730,7 +6743,7 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/ros2-gbp/replay_testing-release.git
-      version: 0.0.3-2
+      version: 0.0.4-1
     source:
       type: git
       url: https://github.com/polymathrobotics/replay_testing.git
@@ -7356,7 +7369,7 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 5.11.3-1
+      version: 5.12.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -7416,7 +7429,7 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 5.12.0-1
+      version: 5.13.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -7497,6 +7510,16 @@ repositories:
       url: https://github.com/PickNikRobotics/ros2_robotiq_gripper.git
       version: main
     status: maintained
+  ros2_snapshot:
+    doc:
+      type: git
+      url: https://github.com/cnurobotics/ros2_snapshot.git
+      version: kilted
+    source:
+      type: git
+      url: https://github.com/cnurobotics/ros2_snapshot.git
+      version: kilted
+    status: developed
   ros2_socketcan:
     doc:
       type: git
@@ -9520,6 +9543,15 @@ repositories:
       version: main
     status: maintained
   tf_tree_terminal:
+    doc:
+      type: git
+      url: https://github.com/Tanneguydv/tf_tree_terminal.git
+      version: master
+    release:
+      tags:
+        release: release/kilted/{package}/{version}
+      url: https://github.com/ros2-gbp/tf_tree_terminal-release.git
+      version: 2.0.0-2
     source:
       type: git
       url: https://github.com/Tanneguydv/tf_tree_terminal.git
@@ -10462,7 +10494,7 @@ repositories:
       tags:
         release: release/kilted/{package}/{version}
       url: https://github.com/ros2-gbp/web_video_server-release.git
-      version: 2.1.1-1
+      version: 3.0.0-1
     source:
       test_pull_requests: true
       type: git
