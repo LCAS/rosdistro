@@ -5238,6 +5238,21 @@ libopencv-contrib-dev:
   fedora: [opencv-contrib]
   gentoo: [media-libs/opencv]
   ubuntu: [libopencv-contrib-dev]
+libopencv-core:
+  debian:
+    bookworm: [libopencv-core406]
+    bullseye: [libopencv-core45]
+    trixie: [libopencv-core410]
+  fedora: [opencv-core]
+  rhel: [opencv-core]
+  ubuntu:
+    jammy: [libopencv-core4.5d]
+    noble: [libopencv-core406t64]
+libopencv-core-dev:
+  debian: [libopencv-core-dev]
+  fedora: [opencv-devel]
+  rhel: [opencv-devel]
+  ubuntu: [libopencv-core-dev]
 libopencv-dev:
   alpine: [opencv-dev]
   arch: [opencv]
@@ -5251,6 +5266,37 @@ libopencv-dev:
   opensuse: [opencv-devel]
   rhel: [opencv-devel]
   ubuntu: [libopencv-dev]
+libopencv-imgcodecs:
+  debian:
+    bookworm: [libopencv-imgcodecs406]
+    bullseye: [libopencv-imgcodecs45]
+    trixie: [libopencv-imgcodecs410]
+  fedora: [opencv-imgcodecs]
+  rhel:
+    '*': [opencv-imgcodecs]
+    '8': [opencv-core]
+    '9': [opencv-core]
+  ubuntu:
+    jammy: [libopencv-imgcodecs4.5d]
+    noble: [libopencv-imgcodecs406t64]
+libopencv-imgcodecs-dev:
+  debian: [libopencv-imgcodecs-dev]
+  fedora: [opencv-devel]
+  rhel: [opencv-devel]
+  ubuntu: [libopencv-imgcodecs-dev]
+libopencv-imgproc:
+  debian:
+    bookworm: [libopencv-imgproc406]
+    bullseye: [libopencv-imgproc45]
+    trixie: [libopencv-imgproc410]
+  fedora: [opencv-imgproc]
+  rhel:
+    '*': [opencv-imgproc]
+    '8': [opencv-core]
+    '9': [opencv-core]
+  ubuntu:
+    jammy: [libopencv-imgproc4.5d]
+    noble: [libopencv-imgproc406t64]
 libopencv-imgproc-dev:
   arch: [opencv]
   debian: [libopencv-imgproc-dev]
@@ -7635,6 +7681,7 @@ linux-kernel-headers:
   gentoo: [sys-kernel/linux-headers]
   nixos: [linuxHeaders]
   openembedded: [linux-libc-headers@openembedded-core]
+  rhel: [kernel-headers]
   ubuntu: [linux-libc-dev]
 llvm:
   arch: [llvm]
@@ -9171,6 +9218,25 @@ qt6-svg-dev:
     '*': [qt6-svg-dev]
     'focal': null
     'jammy': null
+qt6-tools-dev:
+  alpine: [qt6-qttools-dev]
+  arch: [qt6-tools]
+  debian:
+    '*': [qt6-tools-dev]
+    bullseye: null
+  fedora: [qt6-qttools-devel]
+  freebsd: [qt6-tools]
+  gentoo: ['dev-qt/qttools:6']
+  openembedded: [qttools@meta-qt6]
+  osx:
+    homebrew:
+      packages: [qttools]
+  rhel:
+    '*': [qt6-qttools-devel]
+    '8': null
+  ubuntu:
+    '*': [qt6-tools-dev]
+    focal: null
 qtbase5-dev:
   alpine: [qt5-qtbase-dev]
   arch: [qt5-base]

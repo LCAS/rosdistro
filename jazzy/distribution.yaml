@@ -297,7 +297,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ament_index-release.git
-      version: 1.8.2-1
+      version: 1.8.3-1
     source:
       test_pull_requests: true
       type: git
@@ -1029,7 +1029,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/behaviortree_cpp_v4-release.git
-      version: 4.8.3-1
+      version: 4.9.0-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
@@ -1324,7 +1324,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_common-release.git
-      version: 2.8.5-1
+      version: 2.9.1-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_common.git
@@ -1339,7 +1339,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_config-release.git
-      version: 2.8.2-1
+      version: 2.9.0-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_config.git
@@ -1427,7 +1427,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_simulator-release.git
-      version: 2.7.1-1
+      version: 2.9.0-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_simulator.git
@@ -1854,6 +1854,16 @@ repositories:
       url: https://github.com/iRobotEducation/create3_sim.git
       version: jazzy
     status: developed
+  crx_kinematics:
+    doc:
+      type: git
+      url: https://github.com/danielcranston/crx_kinematics.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/danielcranston/crx_kinematics.git
+      version: master
+    status: developed
   cudnn_cmake_module:
     doc:
       type: git
@@ -1879,6 +1889,16 @@ repositories:
       type: git
       url: https://github.com/eclipse-cyclonedds/cyclonedds.git
       version: releases/0.10.x
+    status: maintained
+  daheng4ros:
+    doc:
+      type: git
+      url: https://github.com/vdovetzi/daheng4ros.git
+      version: jazzy
+    source:
+      type: git
+      url: https://github.com/vdovetzi/daheng4ros.git
+      version: jazzy
     status: maintained
   data_tamer:
     doc:
@@ -2673,7 +2693,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/fastcdr-release.git
-      version: 2.2.5-1
+      version: 2.2.7-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -2839,7 +2859,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/fkie_message_filters-release.git
-      version: 3.2.1-1
+      version: 3.3.0-1
     source:
       type: git
       url: https://github.com/fkie/message_filters.git
@@ -3437,7 +3457,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/gz_cmake_vendor-release.git
-      version: 0.0.10-1
+      version: 0.0.11-1
     source:
       test_pull_requests: true
       type: git
@@ -3453,7 +3473,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/gz_common_vendor-release.git
-      version: 0.0.8-1
+      version: 0.0.9-1
     source:
       test_pull_requests: true
       type: git
@@ -4096,7 +4116,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/inverse_dynamics_solver-release.git
-      version: 2.0.2-1
+      version: 2.0.3-1
     source:
       test_pull_requests: true
       type: git
@@ -4736,6 +4756,18 @@ repositories:
       url: https://github.com/ros2/libyaml_vendor.git
       version: jazzy
     status: maintained
+  lightning_rrt:
+    source:
+      type: git
+      url: https://github.com/david-dorf/lightning_rrt.git
+      version: jazzy
+    status: maintained
+  lightning_rrt_interfaces:
+    source:
+      type: git
+      url: https://github.com/david-dorf/lightning_rrt_interfaces.git
+      version: jazzy
+    status: maintained
   linux_isolate_process:
     doc:
       type: git
@@ -4997,7 +5029,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_message_filters-release.git
-      version: 4.11.10-1
+      version: 4.11.11-1
     source:
       test_pull_requests: true
       type: git
@@ -5563,7 +5595,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.15.7-1
+      version: 2.15.8-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -5581,7 +5613,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros_bridge-release.git
-      version: 3.1.1-1
+      version: 3.3.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros_bridge.git
@@ -5678,7 +5710,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.16.0-1
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
@@ -5969,7 +6001,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/nobleo_socketcan_bridge-release.git
-      version: 1.0.2-1
+      version: 1.0.4-1
     source:
       type: git
       url: https://github.com/nobleo/nobleo_socketcan_bridge.git
@@ -6718,7 +6750,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/play_motion2-release.git
-      version: 1.8.0-1
+      version: 1.8.3-1
     source:
       type: git
       url: https://github.com/pal-robotics/play_motion2.git
@@ -6737,7 +6769,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/play_motion_builder-release.git
-      version: 1.4.0-1
+      version: 1.4.1-1
     source:
       type: git
       url: https://github.com/pal-robotics/play_motion_builder.git
@@ -7716,7 +7748,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 28.1.16-1
+      version: 28.1.17-3
     source:
       test_pull_requests: true
       type: git
@@ -7732,7 +7764,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/rclpy-release.git
-      version: 7.1.9-1
+      version: 7.1.10-1
     source:
       test_pull_requests: true
       type: git
@@ -8946,7 +8978,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/ros_ign-release.git
-      version: 1.0.19-1
+      version: 1.0.20-1
     source:
       test_pull_requests: true
       type: git
@@ -10160,7 +10192,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/sdformat_vendor-release.git
-      version: 0.0.10-1
+      version: 0.0.11-1
     source:
       test_pull_requests: true
       type: git
@@ -10651,7 +10683,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/swri_console-release.git
-      version: 2.0.8-1
+      version: 2.1.2-2
     source:
       type: git
       url: https://github.com/swri-robotics/swri_console.git
@@ -10901,7 +10933,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/ros2-gbp/tf_transformations_release.git
-      version: 1.1.0-1
+      version: 1.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -11478,7 +11510,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-teleop/twist_mux.git
-      version: foxy-devel
+      version: rolling
     release:
       tags:
         release: release/jazzy/{package}/{version}
@@ -11487,7 +11519,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-teleop/twist_mux.git
-      version: foxy-devel
+      version: rolling
     status: maintained
   twist_mux_msgs:
     doc:
